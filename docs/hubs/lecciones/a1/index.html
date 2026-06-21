@@ -83,8 +83,7 @@
       padding: 0.75rem 0;
       cursor: default;
     }
-    .spine-node.is-active { cursor: pointer; }
-    .spine-node.is-locked { cursor: default; }
+    .spine-node { cursor: pointer; }
     .spine-node .node-bubble {
       position: absolute;
       left: 50%;
@@ -135,7 +134,7 @@
     .spine-node:nth-child(odd of .spine-node) .node-content {
       margin-right: auto;
     }
-    .spine-node.is-active .node-content:hover {
+    .spine-node .node-content:hover {
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
       border-color: #93c5fd;
     }
@@ -158,16 +157,6 @@
     }
     .spine-node .node-meta span {
       display: flex; align-items: center; gap: 0.25rem;
-    }
-    @keyframes shake {
-      0%, 100% { transform: translateX(0); }
-      20% { transform: translateX(-4px); }
-      40% { transform: translateX(4px); }
-      60% { transform: translateX(-4px); }
-      80% { transform: translateX(4px); }
-    }
-    .spine-node.is-shaking .node-content {
-      animation: shake 0.4s ease;
     }
     @media (max-width: 639px) {
       .spine::before { left: 1.5rem; }
@@ -304,7 +293,7 @@
         var deps = node.dataset.dependeDe || '';
         var isCompleted = completed[id] === true;
         var depsMet = !deps || completed[deps] === true;
-        node.classList.remove('is-completed', 'is-active', 'is-locked', 'is-shaking');
+        node.classList.remove('is-completed', 'is-active', 'is-locked');
         if (isCompleted) {
           node.classList.add('is-completed');
           lastCompletedId = id;
@@ -332,13 +321,7 @@
     }
     nodes.forEach(function(node) {
       node.addEventListener('click', function() {
-        if (this.classList.contains('is-active')) {
-          window.location.href = this.dataset.url;
-        } else if (this.classList.contains('is-locked')) {
-          this.classList.add('is-shaking');
-          var self = this;
-          setTimeout(function() { self.classList.remove('is-shaking'); }, 500);
-        }
+        window.location.href = this.dataset.url;
       });
     });
     window.addEventListener('storage', function(e) {
