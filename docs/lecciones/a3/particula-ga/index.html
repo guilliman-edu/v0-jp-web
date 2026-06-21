@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La partícula が (sujeto y otros usos) — a3</title>
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter','Noto Sans JP',sans-serif;background:#f8fafc;color:#1e293b;height:100vh;display:flex;flex-direction:column}
+.slide{display:none;animation:fadeIn .3s ease}
+.slide.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.topbar{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.topbar-title{flex:1;font-size:.875rem;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topbar-level{font-size:.75rem;font-weight:500;background:#dbeafe;color:#1d4ed8;padding:.125rem .5rem;border-radius:9999px}
+.icon-btn{padding:.375rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569}
+.icon-btn:hover{background:#f1f5f9}
+.toc-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:40}
+.toc-backdrop.open{display:block}
+.toc-panel{position:fixed;top:0;left:-280px;width:280px;height:100vh;background:#fff;box-shadow:2px 0 12px rgba(0,0,0,.1);transition:left .3s ease;z-index:50;overflow-y:auto}
+.toc-panel.open{left:0}
+.toc-header{display:flex;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid #f1f5f9}
+.toc-header h3{font-size:1.125rem;font-weight:600}
+.toc-list{list-style:none;padding:.5rem}
+.toc-list li{margin-bottom:.25rem}
+.toc-link{display:block;padding:.5rem .75rem;border-radius:.5rem;text-decoration:none;color:#1d4ed8;font-weight:500;cursor:pointer}
+.toc-link:hover{background:#eff6ff}
+.toc-link.active{background:#dbeafe;color:#1e40af;border-left:3px solid #2563eb}
+.main-content{flex:1;overflow-y:auto;padding:1.5rem}
+@media(min-width:768px){.main-content{padding:2.5rem}}
+.content-wrapper{max-width:48rem;margin:0 auto;width:100%}
+.slide-title{font-size:1.5rem;font-weight:700;color:#111827;margin-bottom:.5rem}
+.mission{font-size:1.1rem;color:#475569;border-left:3px solid #3b82f6;padding-left:1rem;margin:1rem 0}
+.section-title{font-size:1.25rem;font-weight:600;margin-top:1.5rem}
+.body-text{margin-top:.5rem;color:#374151;line-height:1.6}
+.body-list{list-style-position:inside;padding-left:1.5rem;margin-top:.5rem}
+.body-list li{margin-bottom:.25rem;color:#374151}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+th,td{border:1px solid #e2e8f0;padding:.5rem .75rem;text-align:left}
+th{background:#f1f5f9;font-weight:600}
+blockquote{border-left:3px solid #94a3b8;padding-left:1rem;color:#475569;margin:1rem 0;font-style:italic}
+ruby{ruby-align:center}
+rt{font-size:.7em;color:#64748b;letter-spacing:.02em}
+.ext-link{cursor:help;text-decoration:underline;text-decoration-style:dotted}
+.ext-link::after{content:' \2197';font-size:.75em}
+details.glosario{margin:1rem 0;background:#f8fafc;border-radius:.5rem;border:1px solid #e2e8f0}
+details.glosario summary{padding:.75rem 1rem;cursor:pointer;font-weight:600;color:#1e40af;border-radius:.5rem}
+details.glosario summary:hover{background:#eff6ff}
+details.glosario .glosario-body{padding:0 1rem .75rem}
+details.glosario ul{list-style:none;padding:0}
+details.glosario li{padding:.375rem 0;border-bottom:1px solid #f1f5f9;color:#374151}
+details.glosario li:last-child{border-bottom:none}
+details.glosario strong{color:#1e293b}
+.conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
+.conversation p{margin-bottom:.25rem}
+.bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
+.nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
+.nav-btn:hover{background:#f1f5f9}
+.nav-btn:disabled{opacity:.3;cursor:default}
+.slide-counter{font-size:.875rem;color:#64748b;font-weight:500}
+@media(max-width:639px){.toc-panel{width:100%;left:-100%}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <button id="toc-toggle" class="icon-btn" title="Índice"><i data-lucide="menu" width="20" height="20"></i></button>
+  <span class="topbar-title">La partícula が (sujeto y otros usos)</span>
+  <span class="topbar-level">a3</span>
+</header>
+<div id="toc-backdrop" class="toc-backdrop"></div>
+<aside id="toc-panel" class="toc-panel">
+  <div class="toc-header"><h3>Índice</h3><button id="toc-close" class="icon-btn" data-goto="close-toc"><i data-lucide="x" width="20" height="20"></i></button></div>
+  <nav><ul class="toc-list" id="toc-list"><li><a data-goto="iteracion-1" class="toc-link active">Iteración 1: が como marcador de sujeto</a></li>
+<li><a data-goto="iteracion-2" class="toc-link">Iteración 2: が con adjetivos de sentimiento</a></li></ul></nav>
+</aside>
+<main class="main-content"><div class="content-wrapper"><section id="iteracion-1" class="slide active">
+  <h2 class="slide-title">Iteración 1: が como marcador de sujeto</h2>
+  <p class="mission"><em>Misión: Distinguir が (sujeto) de は (tema).</em></p>
+  <h3 class="section-title">📐 は vs が</h3><table><thead><tr><th>Partícula</th><th>Función</th></tr></thead><tbody><tr><td>は</td><td>Marca el <strong>tema</strong> (de qué se habla)</td></tr><tr><td>が</td><td>Marca el <strong>sujeto</strong> (quién realiza la acción)</td></tr></tbody></table>
+<p class="body-text">Normalmente coinciden, pero no siempre:</p>
+<blockquote><ruby>象<rt>ぞう</rt></ruby><strong>は</strong><ruby>鼻<rt>はな</rt></ruby><strong>が</strong><ruby>長<rt>なが</rt></ruby>いです<br>"Hablando de los elefantes, <strong>la nariz</strong> es larga"</blockquote>
+<ul class="body-list"><li>は = tema general (elefantes)</li><li>が = sujeto concreto (nariz)</li></ul><h3 class="section-title">📐 Estructura は／が para características</h3><p class="body-text">Para describir características de una persona o cosa:</p>
+<p class="body-text"><code>`</code></p>
+<p class="body-text">[Tema] は [parte/caract.] が [adjetivo] です</p>
+<p class="body-text"><code>`</code></p>
+<table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>彼女<rt>かのじょ</rt></ruby><ruby>は髪<rt>かみ</rt></ruby><ruby>が長<rt>なが</rt></ruby>いです</td><td>Ella tiene el pelo largo</td></tr><tr><td><ruby>田中<rt>たなか</rt></ruby><ruby>さんは背<rt>せ</rt></ruby><ruby>が高<rt>たか</rt></ruby>いです</td><td>El Sr. Tanaka es alto</td></tr><tr><td><ruby>この車<rt>くるま</rt></ruby><ruby>は値段<rt>ねだん</rt></ruby><ruby>が安<rt>やす</rt></ruby>いです</td><td>Este coche es barato (de precio)</td></tr></tbody></table>
+</section><section id="iteracion-2" class="slide">
+  <h2 class="slide-title">Iteración 2: が con adjetivos de sentimiento</h2>
+  <p class="mission"><em>Misión: Usar が para expresar gustos, deseos y emociones.</em></p>
+  <h3 class="section-title">📐 が con verbos de sentimiento</h3><p class="body-text">Con verbos/adjetivos de emoción (gustar, odiar, miedo, querer), lo que en español sería el objeto en japonés es el <strong>sujeto</strong> marcado con が:</p>
+<table><thead><tr><th>Japonés</th><th>Traducción literal</th><th>Significado</th></tr></thead><tbody><tr><td><ruby>私<rt>わたし</rt></ruby><ruby>は猫<rt>ねこ</rt></ruby><strong>が</strong><ruby>好<rt>す</rt></ruby>きです</td><td>A mí, los gatos gustan</td><td>Me gustan los gatos</td></tr><tr><td><ruby>私<rt>わたし</rt></ruby><ruby>は納豆<rt>なっとう</rt></ruby><strong>が</strong><ruby>嫌<rt>きら</rt></ruby>いです</td><td>A mí, el natto odia</td><td>Odio el natto</td></tr><tr><td><ruby>私<rt>わたし</rt></ruby><ruby>は水<rt>みず</rt></ruby><strong>が</strong><ruby>飲<rt>の</rt></ruby>みたいです</td><td>A mí, el agua quiere</td><td>Quiero beber agua</td></tr><tr><td><ruby>私<rt>わたし</rt></ruby><ruby>は蛇<rt>へび</rt></ruby><strong>が</strong><ruby>怖<rt>こわ</rt></ruby>いです</td><td>A mí, las serpientes dan miedo</td><td>Me dan miedo las serpientes</td></tr></tbody></table><h3 class="section-title">⚠️ Regla</h3><p class="body-text">Con <ruby>好<rt>す</rt></ruby>き, <ruby>嫌<rt>きら</rt></ruby>い, <ruby>怖<rt>こわ</rt></ruby>い, <ruby>欲<rt>ほ</rt></ruby>しい y otros adjetivos de sentimiento, el objeto de la emoción se marca con <strong>が</strong> (no con を).</p><h3 class="section-title">💬 Más ejemplos</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>私<rt>わたし</rt></ruby><ruby>は寿司<rt>すし</rt></ruby><ruby>が好<rt>す</rt></ruby>きです</td><td>Me gusta el sushi</td></tr><tr><td><ruby>田中<rt>たなか</rt></ruby><ruby>さんは日本語<rt>にほんご</rt></ruby><ruby>が上手<rt>じょうず</rt></ruby>です</td><td>El Sr. Tanaka es bueno en japonés</td></tr><tr><td><ruby>私<rt>わたし</rt></ruby><ruby>はお金<rt>かね</rt></ruby><ruby>が欲<rt>ほ</rt></ruby>しいです</td><td>Quiero dinero</td></tr></tbody></table><h3 class="section-title">📖 Glosario</h3><details>
+<summary>Ver términos nuevos</summary>
+
+- **が** — partícula de sujeto
+- **好(す)き** — gustar (adjetivo -na)
+- **嫌(きら)い** — odiar, no gustar (adjetivo -na)
+- **欲(ほ)しい** — querer, desear (adjetivo -i)
+
+</details>
+<p class="body-text">---</p>
+<p class="body-text">Creado por planificacion-niveles desde raws/ — 2026-06-21</p>
+</section></div></main>
+<footer class="bottom-nav">
+  <button id="prev-slide" class="nav-btn" disabled><i data-lucide="chevron-left" width="16" height="16"></i> Anterior</button>
+  <span id="slide-counter" class="slide-counter">1 / 2</span>
+  <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
+</footer>
+<script>(()=>{
+  const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
+  let cur=0;
+  function show(i){
+    if(i<0||i>=slides.length)return;
+    slides[cur].classList.remove('active');
+    tocLinks[cur]&&tocLinks[cur].classList.remove('active');
+    cur=i;
+    slides[cur].classList.add('active');
+    tocLinks[cur]&&tocLinks[cur].classList.add('active');
+    counter&&(counter.textContent=(cur+1)+' / '+slides.length);
+    document.getElementById('prev-slide').disabled=cur===0;
+    document.getElementById('next-slide').disabled=cur===slides.length-1;
+  }
+  document.addEventListener('click',e=>{
+    const g=e.target.closest('[data-goto]');
+    if(!g)return;
+    const t=g.dataset.goto;
+    if(t==='close-toc'){document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open');return}
+    const idx=[...slides].findIndex(s=>s.id===t);
+    if(idx>=0)show(idx);
+  });
+  document.getElementById('prev-slide').addEventListener('click',()=>show(cur-1));
+  document.getElementById('next-slide').addEventListener('click',()=>show(cur+1));
+  document.getElementById('toc-toggle').addEventListener('click',()=>{document.getElementById('toc-panel').classList.toggle('open');document.getElementById('toc-backdrop').classList.toggle('open')});
+  document.getElementById('toc-backdrop').addEventListener('click',()=>{document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open')});
+  document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+  show(0);
+})();
+</script>
+</body>
+</html>
