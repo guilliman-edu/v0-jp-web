@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecciones — Nivel A1</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', 'Noto Sans JP', sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      min-height: 100vh;
+    }
+    .topbar {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      background: white; border-bottom: 1px solid #e2e8f0;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      position: sticky; top: 0; z-index: 30;
+    }
+    .topbar-title { font-size: 1.125rem; font-weight: 700; color: #0f172a; }
+    .topbar-level {
+      font-size: 0.75rem; font-weight: 600;
+      background: #dbeafe; color: #1d4ed8;
+      padding: 0.125rem 0.5rem; border-radius: 9999px;
+      text-transform: uppercase;
+    }
+    .topbar-count {
+      font-size: 0.75rem; font-weight: 500;
+      background: #f1f5f9; color: #475569;
+      padding: 0.125rem 0.5rem; border-radius: 9999px;
+      margin-left: auto;
+    }
+    .main-content { padding: 1.5rem; max-width: 72rem; margin: 0 auto; width: 100%; }
+    .lesson-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .lesson-card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      cursor: pointer;
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .lesson-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+      border-color: #93c5fd;
+    }
+    .card-level {
+      display: inline-block;
+      font-size: 0.7rem; font-weight: 600;
+      background: #dbeafe; color: #1d4ed8;
+      padding: 0.125rem 0.5rem; border-radius: 9999px;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .card-title {
+      font-size: 1rem; font-weight: 600; color: #0f172a;
+      margin-bottom: 0.5rem; line-height: 1.4;
+    }
+    .card-meta {
+      display: flex; flex-wrap: wrap; gap: 0.5rem;
+      font-size: 0.8rem; color: #64748b;
+    }
+    .card-meta span {
+      display: flex; align-items: center; gap: 0.25rem;
+    }
+    .group-header {
+      font-size: 0.9rem; font-weight: 600; color: #475569;
+      margin: 1.5rem 0 0.5rem; padding-bottom: 0.25rem;
+      border-bottom: 1px solid #e2e8f0;
+      grid-column: 1 / -1;
+    }
+    .group-header:first-of-type { margin-top: 0; }
+    .drawer-backdrop {
+      display: none;
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.3);
+      z-index: 40;
+    }
+    .drawer-backdrop.open { display: block; }
+    .drawer {
+      position: fixed; top: 0; right: -400px;
+      width: 400px; height: 100vh;
+      background: white;
+      box-shadow: -2px 0 12px rgba(0,0,0,0.1);
+      transition: right 0.3s ease;
+      z-index: 50;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .drawer.open { right: 0; }
+    .drawer-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .drawer-header h3 {
+      font-size: 1.125rem; font-weight: 600; color: #0f172a;
+    }
+    .drawer-close {
+      padding: 0.375rem; border-radius: 0.5rem;
+      border: none; background: none; cursor: pointer;
+      color: #475569;
+    }
+    .drawer-close:hover { background: #f1f5f9; }
+    .drawer-body { padding: 1.25rem; flex: 1; }
+    .drawer-level {
+      display: inline-block;
+      font-size: 0.75rem; font-weight: 600;
+      background: #dbeafe; color: #1d4ed8;
+      padding: 0.125rem 0.5rem; border-radius: 9999px;
+      margin-bottom: 0.75rem;
+    }
+    .drawer-title {
+      font-size: 1.25rem; font-weight: 700; color: #0f172a;
+      margin-bottom: 0.75rem; line-height: 1.4;
+    }
+    .drawer-details {
+      display: flex; flex-direction: column; gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .drawer-detail {
+      display: flex; align-items: center; gap: 0.5rem;
+      font-size: 0.875rem; color: #475569;
+    }
+    .drawer-detail strong { color: #1e293b; font-weight: 600; }
+    .drawer-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.625rem 1.25rem;
+      background: #2563eb; color: white;
+      border: none; border-radius: 0.5rem;
+      font-weight: 600; font-size: 0.875rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .drawer-btn:hover { background: #1d4ed8; }
+    @media (max-width: 639px) {
+      .drawer { width: 100%; right: -100%; }
+      .lesson-grid { grid-template-columns: 1fr; }
+      .main-content { padding: 1rem; }
+    }
+    @media (min-width: 640px) and (max-width: 1023px) {
+      .lesson-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <i data-lucide="book-open" width="20" height="20"></i>
+    <span class="topbar-title">Lecciones</span>
+    <span class="topbar-level">A1</span>
+    <span class="topbar-count">25 lecciones</span>
+  </header>
+
+  <main class="main-content">
+    <div class="lesson-grid">
+
+      <h3 class="group-header">Hiragana (s1)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="hiragana"
+           data-titulo="El silabario hiragana (repaso A1)"
+           data-secuencia="s1"
+           data-iteraciones="3"
+           data-leccion="1"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/hiragana/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">El silabario hiragana (repaso A1)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s1</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 3 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">かいです — presentación y pronombres (s2)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="kaidesu-presentacion"
+           data-titulo="Presentación personal con です"
+           data-secuencia="s2"
+           data-iteraciones="3"
+           data-leccion="2"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/kaidesu-presentacion/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Presentación personal con です</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s2</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 3 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="pronombres-personales"
+           data-titulo="Pronombres personales básicos"
+           data-secuencia="s2"
+           data-iteraciones="2"
+           data-leccion="3"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/pronombres-personales/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Pronombres personales básicos</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s2</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Verbo ser y pregunta (s3)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="verbo-ser-4-formas"
+           data-titulo="El verbo ser — 4 formas (です・ではありません・でした・ではありませんでした)"
+           data-secuencia="s3"
+           data-iteraciones="3"
+           data-leccion="3"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/verbo-ser-4-formas/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">El verbo ser — 4 formas (です・ではありません・でした・ではありませんでした)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s3</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 3 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="particula-ka"
+           data-titulo="La partícula interrogativa か (preguntas sí/no)"
+           data-secuencia="s3"
+           data-iteraciones="2"
+           data-leccion="4"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-ka/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">La partícula interrogativa か (preguntas sí/no)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s3</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Partícula も (s4)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="particula-mo"
+           data-titulo="La partícula も (también / tampoco)"
+           data-secuencia="s4"
+           data-iteraciones="2"
+           data-leccion="8"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-mo/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">La partícula も (también / tampoco)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s4</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Kosoado (s5)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="kosoado"
+           data-titulo="Los demostrativos こそあど (Kosoado)"
+           data-secuencia="s5"
+           data-iteraciones="2"
+           data-leccion="3"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/kosoado/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Los demostrativos こそあど (Kosoado)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s5</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Introducción al verbo (s6)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="introduccion-verbos"
+           data-titulo="Introducción a los verbos japoneses"
+           data-secuencia="s6"
+           data-iteraciones="2"
+           data-leccion="4"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/introduccion-verbos/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Introducción a los verbos japoneses</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s6</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">を y の (s7)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="particula-wo"
+           data-titulo="El complemento directo y la partícula を"
+           data-secuencia="s7"
+           data-iteraciones="4"
+           data-leccion="1"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-wo/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">El complemento directo y la partícula を</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s7</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 4 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="posesivo-no"
+           data-titulo="La partícula posesiva の"
+           data-secuencia="s7"
+           data-iteraciones="2"
+           data-leccion="1"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/posesivo-no/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">La partícula posesiva の</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s7</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Partículas de circunstancia (s8)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="particula-de"
+           data-titulo="La partícula で (instrumental y locativo)"
+           data-secuencia="s8"
+           data-iteraciones="3"
+           data-leccion="1"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-de/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">La partícula で (instrumental y locativo)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s8</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 3 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="particula-to"
+           data-titulo="La partícula と (compañía)"
+           data-secuencia="s8"
+           data-iteraciones="2"
+           data-leccion="2"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-to/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">La partícula と (compañía)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s8</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="particula-ni-lugar"
+           data-titulo="La partícula に (lugar de existencia)"
+           data-secuencia="s8"
+           data-iteraciones="2"
+           data-leccion="3"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-ni-lugar/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">La partícula に (lugar de existencia)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s8</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="particula-e"
+           data-titulo="La partícula へ (dirección)"
+           data-secuencia="s8"
+           data-iteraciones="2"
+           data-leccion="4"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-e/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">La partícula へ (dirección)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s8</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Tiempo y frecuencia (s9)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="adverbios-tiempo"
+           data-titulo="Adverbios de tiempo"
+           data-secuencia="s9"
+           data-iteraciones="2"
+           data-leccion="14"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adverbios-tiempo/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Adverbios de tiempo</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s9</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="adverbios-frecuencia"
+           data-titulo="Adverbios de frecuencia"
+           data-secuencia="s9"
+           data-iteraciones="2"
+           data-leccion="15"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adverbios-frecuencia/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Adverbios de frecuencia</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s9</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Partícula が (s10)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="particula-ga"
+           data-titulo="La partícula が — especificación de elementos"
+           data-secuencia="s10"
+           data-iteraciones="3"
+           data-leccion="1"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-ga/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">La partícula が — especificación de elementos</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s10</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 3 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="descripciones-simples"
+           data-titulo="Descripciones simples"
+           data-secuencia="s10"
+           data-iteraciones="2"
+           data-leccion="16"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/descripciones-simples/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Descripciones simples</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s10</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Adjetivos (s11)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="adjetivos-i"
+           data-titulo="Los adjetivos -i (い形容詞)"
+           data-secuencia="s11"
+           data-iteraciones="2"
+           data-leccion="11"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adjetivos-i/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Los adjetivos -i (い形容詞)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s11</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="adjetivos-na"
+           data-titulo="Los adjetivos -na (な形容詞)"
+           data-secuencia="s11"
+           data-iteraciones="2"
+           data-leccion="12"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adjetivos-na/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Los adjetivos -na (な形容詞)</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s11</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="adjetivos-epiteto-atributo"
+           data-titulo="Dos funciones del adjetivo — epíteto y atributo"
+           data-secuencia="s11"
+           data-iteraciones="2"
+           data-leccion="13"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adjetivos-epiteto-atributo/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Dos funciones del adjetivo — epíteto y atributo</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s11</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Negociación con 〜ませんか (s12)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="masenka-invitaciones"
+           data-titulo="Invitaciones con 〜ませんか"
+           data-secuencia="s12"
+           data-iteraciones="2"
+           data-leccion="14"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/masenka-invitaciones/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Invitaciones con 〜ませんか</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s12</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <h3 class="group-header">Enumeraciones y 〜たい (s13)</h3>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="enumeracion-to"
+           data-titulo="Enumeración exhaustiva con と"
+           data-secuencia="s13"
+           data-iteraciones="2"
+           data-leccion="1"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/enumeracion-to/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Enumeración exhaustiva con と</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s13</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="enumeracion-ya"
+           data-titulo="Enumeración no exhaustiva con や"
+           data-secuencia="s13"
+           data-iteraciones="2"
+           data-leccion="2"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/enumeracion-ya/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Enumeración no exhaustiva con や</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s13</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+      <div class="lesson-card"
+           data-nivel="A1"
+           data-alias="forma-tai"
+           data-titulo="Forma たい — expresar deseos"
+           data-secuencia="s13"
+           data-iteraciones="2"
+           data-leccion="3"
+           data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/forma-tai/">
+        <span class="card-level">A1</span>
+        <h3 class="card-title">Forma たい — expresar deseos</h3>
+        <div class="card-meta">
+          <span><i data-lucide="layers" width="14" height="14"></i> s13</span>
+          <span><i data-lucide="file-text" width="14" height="14"></i> 2 iteraciones</span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div id="drawer-backdrop" class="drawer-backdrop"></div>
+  <aside id="drawer" class="drawer">
+    <div class="drawer-header">
+      <h3>Lección</h3>
+      <button id="drawer-close" class="drawer-close">
+        <i data-lucide="x" width="20" height="20"></i>
+      </button>
+    </div>
+    <div class="drawer-body">
+      <span class="drawer-level" id="drawer-level"></span>
+      <h2 class="drawer-title" id="drawer-title"></h2>
+      <div class="drawer-details">
+        <div class="drawer-detail">
+          <i data-lucide="layers" width="16" height="16"></i>
+          <span><strong>Secuencia:</strong> <span id="drawer-secuencia"></span></span>
+        </div>
+        <div class="drawer-detail">
+          <i data-lucide="file-text" width="16" height="16"></i>
+          <span><strong>Iteraciones:</strong> <span id="drawer-iteraciones"></span></span>
+        </div>
+        <div class="drawer-detail">
+          <i data-lucide="hash" width="16" height="16"></i>
+          <span><strong>Lección:</strong> <span id="drawer-leccion"></span></span>
+        </div>
+      </div>
+      <a id="drawer-btn" class="drawer-btn" href="#" target="_blank" rel="noopener">
+        <i data-lucide="play" width="16" height="16"></i>
+        Comenzar lección
+      </a>
+    </div>
+  </aside>
+
+  <script>
+    lucide.createIcons();
+    var drawer = document.getElementById('drawer');
+    var backdrop = document.getElementById('drawer-backdrop');
+    var closeBtn = document.getElementById('drawer-close');
+
+    function openDrawer(card) {
+      document.getElementById('drawer-level').textContent = card.dataset.nivel;
+      document.getElementById('drawer-title').textContent = card.dataset.titulo;
+      document.getElementById('drawer-secuencia').textContent = card.dataset.secuencia;
+      document.getElementById('drawer-iteraciones').textContent = card.dataset.iteraciones + ' iteraciones';
+      document.getElementById('drawer-leccion').textContent = 'Lecci\u00f3n ' + card.dataset.leccion;
+      document.getElementById('drawer-btn').href = card.dataset.url;
+      drawer.classList.add('open');
+      backdrop.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeDrawer() {
+      drawer.classList.remove('open');
+      backdrop.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('.lesson-card').forEach(function(card) {
+      card.addEventListener('click', function() { openDrawer(this); });
+    });
+
+    closeBtn.addEventListener('click', closeDrawer);
+    backdrop.addEventListener('click', closeDrawer);
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeDrawer();
+    });
+  </script>
+</body>
+</html>
