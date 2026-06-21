@@ -55,24 +55,13 @@
       z-index: 0;
     }
 
-    /* --- SEC GROUP --- */
-    .sec-group {
-      position: relative;
-      z-index: 2;
-      margin-bottom: 0.5rem;
-    }
+    .sec-group { position: relative; z-index: 2; margin-bottom: 0.5rem; }
 
-    /* --- MILESTONE HEADER (toggle) --- */
     .milestone-row {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
+      display: flex; align-items: center; gap: 0.75rem;
       padding: 0.75rem 1rem 0.75rem 1.5rem;
-      margin: 0 0 0.5rem 0;
-      border-radius: 0.75rem;
-      cursor: pointer;
-      transition: background 0.2s;
-      user-select: none;
+      margin: 0 0 0.5rem 0; border-radius: 0.75rem;
+      cursor: pointer; transition: background 0.2s; user-select: none;
     }
     .milestone-row:hover { background: #f1f5f9; }
     .milestone-row .milestone-icon {
@@ -80,169 +69,77 @@
       background: #dbeafe; color: #1d4ed8;
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-      transition: all 0.3s;
+      flex-shrink: 0; transition: all 0.3s;
     }
-    .milestone-row .milestone-icon.done {
-      background: #bbf7d0; color: #16a34a;
-    }
-    .milestone-row .milestone-label {
-      font-size: 1rem; font-weight: 700; color: #0f172a;
-      flex: 1;
-    }
-    .milestone-row .chevron {
-      color: #94a3b8;
-      transition: transform 0.3s ease;
-    }
-    .milestone-row .chevron.collapsed {
-      transform: rotate(-90deg);
-    }
-    .milestone-row .sec-count {
-      font-size: 0.8rem; color: #64748b;
-      font-weight: 500;
-    }
+    .milestone-row .milestone-icon.done { background: #bbf7d0; color: #16a34a; }
+    .milestone-row .milestone-label { font-size: 1rem; font-weight: 700; color: #0f172a; flex: 1; }
+    .milestone-row .chevron { color: #94a3b8; transition: transform 0.3s ease; }
+    .milestone-row .chevron.collapsed { transform: rotate(-90deg); }
+    .milestone-row .sec-count { font-size: 0.8rem; color: #64748b; font-weight: 500; }
 
-    /* --- SEC BODY (collapsible) --- */
-    .sec-body {
-      overflow: hidden;
-      transition: max-height 0.4s ease, opacity 0.3s ease;
-      max-height: none;
-      opacity: 1;
-    }
-    .sec-body.hidden {
-      max-height: 0;
-      opacity: 0;
-      margin: 0;
-    }
+    .sec-body { overflow: hidden; transition: max-height 0.4s ease, opacity 0.3s ease; max-height: none; opacity: 1; }
+    .sec-body.hidden { max-height: 0; opacity: 0; margin: 0; }
 
-    /* --- NODE ROW --- */
     .node-row {
-      display: flex;
-      align-items: flex-start;
-      margin: 1rem 0;
-      padding-left: 4rem;
-      position: relative;
+      display: flex; align-items: flex-start;
+      margin: 1rem 0; padding-left: 4rem; position: relative;
     }
     .node-row::before {
-      content: '';
-      position: absolute;
-      left: 2.85rem;
-      top: 1.5rem;
-      bottom: -1rem;
-      width: 2px;
-      background: #e2e8f0;
+      content: ''; position: absolute;
+      left: 2.85rem; top: 1.5rem; bottom: -1rem;
+      width: 2px; background: #e2e8f0;
     }
     .node-row:last-child::before { display: none; }
 
     .node-card {
-      flex: 1;
-      background: white;
-      border: 2px solid #e2e8f0;
-      border-radius: 0.75rem;
-      padding: 0.875rem 1rem;
-      cursor: pointer;
+      flex: 1; background: white;
+      border: 2px solid #e2e8f0; border-radius: 0.75rem;
+      padding: 0.875rem 1rem; cursor: pointer;
       transition: all 0.3s ease;
     }
-    .node-card:hover {
-      box-shadow: 0 3px 10px rgba(0,0,0,0.06);
-    }
-    .node-card.locked {
-      background: #f8fafc;
-      border-color: #e2e8f0;
-      opacity: 0.55;
-      cursor: default;
-    }
+    .node-card:hover { box-shadow: 0 3px 10px rgba(0,0,0,0.06); }
+    .node-card.locked { background: #f8fafc; border-color: #e2e8f0; opacity: 0.55; cursor: default; }
     .node-card.locked:hover { box-shadow: none; }
-    .node-card.active {
-      border-color: #3b82f6;
-      box-shadow: 0 0 0 3px rgba(59,130,246,0.12);
-    }
-    .node-card.completed {
-      border-color: #86efac;
-      opacity: 0.7;
-    }
-    @keyframes shake {
-      0%, 100% { transform: translateX(0); }
-      25% { transform: translateX(-5px); }
-      75% { transform: translateX(5px); }
-    }
+    .node-card.active { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,0.12); }
+    .node-card.completed { border-color: #86efac; opacity: 0.7; }
+    @keyframes shake { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
     .node-card.shake { animation: shake 0.3s ease-in-out; }
     .node-badge {
-      display: inline-block;
-      font-size: 0.6rem; font-weight: 600;
+      display: inline-block; font-size: 0.6rem; font-weight: 600;
       background: #dbeafe; color: #1d4ed8;
       padding: 0.1rem 0.35rem; border-radius: 9999px;
-      margin-bottom: 0.25rem;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
+      margin-bottom: 0.25rem; text-transform: uppercase; letter-spacing: 0.04em;
     }
-    .node-title {
-      font-size: 0.9rem; font-weight: 600; color: #0f172a;
-      line-height: 1.4; flex: 1;
-    }
-    .node-title-row {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.5rem;
-    }
-    .icon-studied {
-      flex-shrink: 0;
-      color: #22c55e;
-      margin-top: 0.1rem;
-    }
+    .node-title { font-size: 0.9rem; font-weight: 600; color: #0f172a; line-height: 1.4; flex: 1; }
+    .node-title-row { display: flex; align-items: flex-start; gap: 0.5rem; }
+    .icon-studied { flex-shrink: 0; color: #22c55e; margin-top: 0.1rem; }
     .node-card.completed .icon-studied { display: inline !important; }
     .node-card.locked .node-title { color: #94a3b8; }
-    .node-iteraciones {
-      display: inline-block;
-      font-size: 0.7rem; color: #64748b;
-      margin-top: 0.2rem;
-    }
-    .node-card.active .node-iteraciones {
-      color: #2563eb;
-      font-weight: 600;
-    }
+    .node-iteraciones { display: inline-block; font-size: 0.7rem; color: #64748b; margin-top: 0.2rem; }
+    .node-card.active .node-iteraciones { color: #2563eb; font-weight: 600; }
 
-    /* --- CONNECTOR DOT --- */
-    .node-connector {
-      position: absolute;
-      left: 0;
-      top: 0.75rem;
-      width: 4rem;
-      display: flex;
-      justify-content: center;
-    }
+    .node-connector { position: absolute; left: 0; top: 0.75rem; width: 4rem; display: flex; justify-content: center; }
     .node-dot {
-      width: 28px; height: 28px;
-      border-radius: 50%;
-      background: white;
-      border: 2.5px solid #cbd5e1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      width: 28px; height: 28px; border-radius: 50%;
+      background: white; border: 2.5px solid #cbd5e1;
+      display: flex; align-items: center; justify-content: center;
       transition: all 0.3s ease;
     }
     .node-dot.locked { border-color: #cbd5e1; color: #94a3b8; background: white; }
     .node-dot.active { border-color: #3b82f6; color: #3b82f6; background: #eff6ff; }
     .node-dot.completed { border-color: #22c55e; color: #22c55e; background: #f0fdf4; }
 
-    /* --- LICENSE BADGE --- */
     .license-badge {
-      max-width: 700px;
-      margin: 0.75rem auto 0;
+      max-width: 700px; margin: 0.75rem auto 0;
       padding: 0.375rem 1rem 0 2.5rem;
       border-top: 1px solid #e2e8f0;
-      font-size: 0.6875rem;
-      color: #94a3b8;
-      line-height: 1.5;
+      font-size: 0.6875rem; color: #94a3b8; line-height: 1.5;
     }
     .license-badge p { margin-bottom: 0; }
     .license-badge a { color: #94a3b8; text-decoration: underline; }
     .license-badge a:hover { color: #64748b; }
 
-    @media (max-width: 639px) {
-      .node-row { padding-left: 3rem; }
-      .node-connector { width: 3rem; }
-    }
+    @media (max-width: 639px) { .node-row { padding-left: 3rem; } .node-connector { width: 3rem; } }
   </style>
 </head>
 <body>
@@ -250,7 +147,7 @@
     <i data-lucide="book-open" width="20" height="20"></i>
     <span class="topbar-title">Camino de aprendizaje</span>
     <span class="topbar-level">A1</span>
-    <span class="topbar-count">31 lecciones</span>
+    <span class="topbar-count">25 lecciones</span>
   </header>
 
   <main class="spine-container">
@@ -260,7 +157,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s1</span>
+        <span class="milestone-label">Hiragana</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -290,102 +187,6 @@
           </div>
         </div>
       </div>
-      <div class="node-row">
-        <div class="node-card" data-id="a1-s1-l2"
-             data-secuencia="s1"
-             data-orden="1"
-             data-depende-de="a1-s1-l1"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-wo/"
-             data-iteraciones="4">
-          <div class="node-card-body">
-            <span class="node-badge">s1</span>
-            <div class="node-title-row">
-              <h3 class="node-title">El complemento directo y la partícula を</h3>
-              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
-            </div>
-            <span class="node-iteraciones">4 iteraciones</span>
-          </div>
-        </div>
-        <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s1-l2">
-            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
-            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
-            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
-          </div>
-        </div>
-      </div>
-      <div class="node-row">
-        <div class="node-card" data-id="a1-s1-l3"
-             data-secuencia="s1"
-             data-orden="2"
-             data-depende-de="a1-s1-l2"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/estructura-copulativa/"
-             data-iteraciones="2">
-          <div class="node-card-body">
-            <span class="node-badge">s1</span>
-            <div class="node-title-row">
-              <h3 class="node-title">La estructura copulativa XはYです</h3>
-              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
-            </div>
-            <span class="node-iteraciones">2 iteraciones</span>
-          </div>
-        </div>
-        <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s1-l3">
-            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
-            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
-            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
-          </div>
-        </div>
-      </div>
-      <div class="node-row">
-        <div class="node-card" data-id="a1-s1-l4"
-             data-secuencia="s1"
-             data-orden="3"
-             data-depende-de="a1-s1-l3"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/kosoado/"
-             data-iteraciones="2">
-          <div class="node-card-body">
-            <span class="node-badge">s1</span>
-            <div class="node-title-row">
-              <h3 class="node-title">Los demostrativos こそあど (Kosoado)</h3>
-              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
-            </div>
-            <span class="node-iteraciones">2 iteraciones</span>
-          </div>
-        </div>
-        <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s1-l4">
-            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
-            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
-            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
-          </div>
-        </div>
-      </div>
-      <div class="node-row">
-        <div class="node-card" data-id="a1-s1-l5"
-             data-secuencia="s1"
-             data-orden="8"
-             data-depende-de="a1-s1-l4"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-mo/"
-             data-iteraciones="2">
-          <div class="node-card-body">
-            <span class="node-badge">s1</span>
-            <div class="node-title-row">
-              <h3 class="node-title">La partícula も (también / tampoco)</h3>
-              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
-            </div>
-            <span class="node-iteraciones">2 iteraciones</span>
-          </div>
-        </div>
-        <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s1-l5">
-            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
-            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
-            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
-          </div>
-        </div>
-      </div>
       </div>
     </div>
     <div class="sec-group" data-secuencia="s2">
@@ -393,7 +194,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s2</span>
+        <span class="milestone-label">かいです — presentación y pronombres</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -403,7 +204,7 @@
         <div class="node-card" data-id="a1-s2-l1"
              data-secuencia="s2"
              data-orden="2"
-             data-depende-de="a1-s1-l5"
+             data-depende-de="a1-s1-l1"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/kaidesu-presentacion/"
              data-iteraciones="3">
           <div class="node-card-body">
@@ -447,54 +248,6 @@
           </div>
         </div>
       </div>
-      <div class="node-row">
-        <div class="node-card" data-id="a1-s2-l3"
-             data-secuencia="s2"
-             data-orden="4"
-             data-depende-de="a1-s2-l2"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/introduccion-verbos/"
-             data-iteraciones="2">
-          <div class="node-card-body">
-            <span class="node-badge">s2</span>
-            <div class="node-title-row">
-              <h3 class="node-title">Introducción a los verbos japoneses</h3>
-              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
-            </div>
-            <span class="node-iteraciones">2 iteraciones</span>
-          </div>
-        </div>
-        <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s2-l3">
-            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
-            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
-            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
-          </div>
-        </div>
-      </div>
-      <div class="node-row">
-        <div class="node-card" data-id="a1-s2-l4"
-             data-secuencia="s2"
-             data-orden="5"
-             data-depende-de="a1-s2-l3"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/forma-masu-grupo-II/"
-             data-iteraciones="2">
-          <div class="node-card-body">
-            <span class="node-badge">s2</span>
-            <div class="node-title-row">
-              <h3 class="node-title">Forma -ます del grupo II</h3>
-              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
-            </div>
-            <span class="node-iteraciones">2 iteraciones</span>
-          </div>
-        </div>
-        <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s2-l4">
-            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
-            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
-            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
-          </div>
-        </div>
-      </div>
       </div>
     </div>
     <div class="sec-group" data-secuencia="s3">
@@ -502,7 +255,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s3</span>
+        <span class="milestone-label">Verbo ser y pregunta</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -511,8 +264,8 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s3-l1"
              data-secuencia="s3"
-             data-orden="3"
-             data-depende-de="a1-s2-l4"
+             data-orden="4"
+             data-depende-de="a1-s2-l2"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/verbo-ser-4-formas/"
              data-iteraciones="3">
           <div class="node-card-body">
@@ -535,7 +288,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s3-l2"
              data-secuencia="s3"
-             data-orden="4"
+             data-orden="5"
              data-depende-de="a1-s3-l1"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-ka/"
              data-iteraciones="2">
@@ -556,30 +309,6 @@
           </div>
         </div>
       </div>
-      <div class="node-row">
-        <div class="node-card" data-id="a1-s3-l3"
-             data-secuencia="s3"
-             data-orden="6"
-             data-depende-de="a1-s3-l2"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/forma-masu-grupo-III/"
-             data-iteraciones="2">
-          <div class="node-card-body">
-            <span class="node-badge">s3</span>
-            <div class="node-title-row">
-              <h3 class="node-title">Forma -ます del grupo III</h3>
-              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
-            </div>
-            <span class="node-iteraciones">2 iteraciones</span>
-          </div>
-        </div>
-        <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s3-l3">
-            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
-            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
-            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
-          </div>
-        </div>
-      </div>
       </div>
     </div>
     <div class="sec-group" data-secuencia="s4">
@@ -587,7 +316,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s4</span>
+        <span class="milestone-label">Partícula も</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -596,14 +325,14 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s4-l1"
              data-secuencia="s4"
-             data-orden="7"
-             data-depende-de="a1-s3-l3"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/forma-masu-grupo-I/"
+             data-orden="6"
+             data-depende-de="a1-s3-l2"
+             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-mo/"
              data-iteraciones="2">
           <div class="node-card-body">
             <span class="node-badge">s4</span>
             <div class="node-title-row">
-              <h3 class="node-title">Forma -ます del grupo I</h3>
+              <h3 class="node-title">La partícula も (también / tampoco)</h3>
               <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
             </div>
             <span class="node-iteraciones">2 iteraciones</span>
@@ -624,7 +353,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s5</span>
+        <span class="milestone-label">Kosoado</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -633,17 +362,17 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s5-l1"
              data-secuencia="s5"
-             data-orden="9"
+             data-orden="7"
              data-depende-de="a1-s4-l1"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-no-numeros/"
-             data-iteraciones="3">
+             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/kosoado/"
+             data-iteraciones="2">
           <div class="node-card-body">
             <span class="node-badge">s5</span>
             <div class="node-title-row">
-              <h3 class="node-title">La partícula の, números y días de la semana</h3>
+              <h3 class="node-title">Los demostrativos こそあど (Kosoado)</h3>
               <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
             </div>
-            <span class="node-iteraciones">3 iteraciones</span>
+            <span class="node-iteraciones">2 iteraciones</span>
           </div>
         </div>
         <div class="node-connector">
@@ -654,72 +383,37 @@
           </div>
         </div>
       </div>
+      </div>
+    </div>
+    <div class="sec-group" data-secuencia="s6">
+      <div class="milestone-row" data-toggle>
+        <div class="milestone-icon">
+          <i data-lucide="milestone" width="22" height="22"></i>
+        </div>
+        <span class="milestone-label">Introducción al verbo</span>
+        <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
+        <span class="sec-count"></span>
+      </div>
+      <div class="sec-body">
+
       <div class="node-row">
-        <div class="node-card" data-id="a1-s5-l2"
-             data-secuencia="s5"
-             data-orden="10"
+        <div class="node-card" data-id="a1-s6-l1"
+             data-secuencia="s6"
+             data-orden="8"
              data-depende-de="a1-s5-l1"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/ccl-aru-iru/"
-             data-iteraciones="3">
-          <div class="node-card-body">
-            <span class="node-badge">s5</span>
-            <div class="node-title-row">
-              <h3 class="node-title">El complemento de lugar y los verbos ある・いる</h3>
-              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
-            </div>
-            <span class="node-iteraciones">3 iteraciones</span>
-          </div>
-        </div>
-        <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s5-l2">
-            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
-            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
-            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
-          </div>
-        </div>
-      </div>
-      <div class="node-row">
-        <div class="node-card" data-id="a1-s5-l3"
-             data-secuencia="s5"
-             data-orden="11"
-             data-depende-de="a1-s5-l2"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adjetivos-i/"
+             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/introduccion-verbos/"
              data-iteraciones="2">
           <div class="node-card-body">
-            <span class="node-badge">s5</span>
+            <span class="node-badge">s6</span>
             <div class="node-title-row">
-              <h3 class="node-title">Los adjetivos -i (い形容詞)</h3>
+              <h3 class="node-title">Introducción a los verbos japoneses</h3>
               <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
             </div>
             <span class="node-iteraciones">2 iteraciones</span>
           </div>
         </div>
         <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s5-l3">
-            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
-            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
-            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
-          </div>
-        </div>
-      </div>
-      <div class="node-row">
-        <div class="node-card" data-id="a1-s5-l4"
-             data-secuencia="s5"
-             data-orden="12"
-             data-depende-de="a1-s5-l3"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adjetivos-na/"
-             data-iteraciones="2">
-          <div class="node-card-body">
-            <span class="node-badge">s5</span>
-            <div class="node-title-row">
-              <h3 class="node-title">Los adjetivos -na (な形容詞)</h3>
-              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
-            </div>
-            <span class="node-iteraciones">2 iteraciones</span>
-          </div>
-        </div>
-        <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s5-l4">
+          <div class="node-dot" id="dot-a1-s6-l1">
             <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
             <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
             <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
@@ -733,7 +427,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s7</span>
+        <span class="milestone-label">を y の</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -742,8 +436,32 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s7-l1"
              data-secuencia="s7"
-             data-orden="1"
-             data-depende-de="a1-s5-l4"
+             data-orden="9"
+             data-depende-de="a1-s6-l1"
+             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-wo/"
+             data-iteraciones="4">
+          <div class="node-card-body">
+            <span class="node-badge">s7</span>
+            <div class="node-title-row">
+              <h3 class="node-title">El complemento directo y la partícula を</h3>
+              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
+            </div>
+            <span class="node-iteraciones">4 iteraciones</span>
+          </div>
+        </div>
+        <div class="node-connector">
+          <div class="node-dot" id="dot-a1-s7-l1">
+            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
+            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
+            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
+          </div>
+        </div>
+      </div>
+      <div class="node-row">
+        <div class="node-card" data-id="a1-s7-l2"
+             data-secuencia="s7"
+             data-orden="10"
+             data-depende-de="a1-s7-l1"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/posesivo-no/"
              data-iteraciones="2">
           <div class="node-card-body">
@@ -756,7 +474,7 @@
           </div>
         </div>
         <div class="node-connector">
-          <div class="node-dot" id="dot-a1-s7-l1">
+          <div class="node-dot" id="dot-a1-s7-l2">
             <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
             <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
             <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
@@ -770,7 +488,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s8</span>
+        <span class="milestone-label">Partículas de circunstancia</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -779,8 +497,8 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s8-l1"
              data-secuencia="s8"
-             data-orden="1"
-             data-depende-de="a1-s7-l1"
+             data-orden="11"
+             data-depende-de="a1-s7-l2"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-de/"
              data-iteraciones="3">
           <div class="node-card-body">
@@ -803,7 +521,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s8-l2"
              data-secuencia="s8"
-             data-orden="2"
+             data-orden="12"
              data-depende-de="a1-s8-l1"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-to/"
              data-iteraciones="2">
@@ -827,7 +545,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s8-l3"
              data-secuencia="s8"
-             data-orden="3"
+             data-orden="13"
              data-depende-de="a1-s8-l2"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-ni-lugar/"
              data-iteraciones="2">
@@ -851,7 +569,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s8-l4"
              data-secuencia="s8"
-             data-orden="4"
+             data-orden="14"
              data-depende-de="a1-s8-l3"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-e/"
              data-iteraciones="2">
@@ -879,7 +597,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s9</span>
+        <span class="milestone-label">Tiempo y frecuencia</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -888,7 +606,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s9-l1"
              data-secuencia="s9"
-             data-orden="14"
+             data-orden="15"
              data-depende-de="a1-s8-l4"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adverbios-tiempo/"
              data-iteraciones="2">
@@ -912,7 +630,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s9-l2"
              data-secuencia="s9"
-             data-orden="15"
+             data-orden="16"
              data-depende-de="a1-s9-l1"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adverbios-frecuencia/"
              data-iteraciones="2">
@@ -940,7 +658,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s10</span>
+        <span class="milestone-label">Partícula が</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -949,7 +667,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s10-l1"
              data-secuencia="s10"
-             data-orden="1"
+             data-orden="17"
              data-depende-de="a1-s9-l2"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/particula-ga/"
              data-iteraciones="3">
@@ -973,7 +691,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s10-l2"
              data-secuencia="s10"
-             data-orden="16"
+             data-orden="18"
              data-depende-de="a1-s10-l1"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/descripciones-simples/"
              data-iteraciones="2">
@@ -1001,7 +719,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s11</span>
+        <span class="milestone-label">Adjetivos</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -1010,14 +728,14 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s11-l1"
              data-secuencia="s11"
-             data-orden="13"
+             data-orden="19"
              data-depende-de="a1-s10-l2"
-             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adjetivos-epiteto-atributo/"
+             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adjetivos-i/"
              data-iteraciones="2">
           <div class="node-card-body">
             <span class="node-badge">s11</span>
             <div class="node-title-row">
-              <h3 class="node-title">Dos funciones del adjetivo — epíteto y atributo</h3>
+              <h3 class="node-title">Los adjetivos -i (い形容詞)</h3>
               <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
             </div>
             <span class="node-iteraciones">2 iteraciones</span>
@@ -1031,6 +749,54 @@
           </div>
         </div>
       </div>
+      <div class="node-row">
+        <div class="node-card" data-id="a1-s11-l2"
+             data-secuencia="s11"
+             data-orden="20"
+             data-depende-de="a1-s11-l1"
+             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adjetivos-na/"
+             data-iteraciones="2">
+          <div class="node-card-body">
+            <span class="node-badge">s11</span>
+            <div class="node-title-row">
+              <h3 class="node-title">Los adjetivos -na (な形容詞)</h3>
+              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
+            </div>
+            <span class="node-iteraciones">2 iteraciones</span>
+          </div>
+        </div>
+        <div class="node-connector">
+          <div class="node-dot" id="dot-a1-s11-l2">
+            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
+            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
+            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
+          </div>
+        </div>
+      </div>
+      <div class="node-row">
+        <div class="node-card" data-id="a1-s11-l3"
+             data-secuencia="s11"
+             data-orden="21"
+             data-depende-de="a1-s11-l2"
+             data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/adjetivos-epiteto-atributo/"
+             data-iteraciones="2">
+          <div class="node-card-body">
+            <span class="node-badge">s11</span>
+            <div class="node-title-row">
+              <h3 class="node-title">Dos funciones del adjetivo — epíteto y atributo</h3>
+              <i data-lucide="check-circle" width="20" height="20" class="icon-studied" style="display:none"></i>
+            </div>
+            <span class="node-iteraciones">2 iteraciones</span>
+          </div>
+        </div>
+        <div class="node-connector">
+          <div class="node-dot" id="dot-a1-s11-l3">
+            <i data-lucide="lock" width="16" height="16" class="icon-lock"></i>
+            <i data-lucide="play" width="16" height="16" class="icon-play" style="display:none"></i>
+            <i data-lucide="check-circle" width="16" height="16" class="icon-check" style="display:none"></i>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
     <div class="sec-group" data-secuencia="s12">
@@ -1038,7 +804,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s12</span>
+        <span class="milestone-label">Negociación con 〜ませんか</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -1047,8 +813,8 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s12-l1"
              data-secuencia="s12"
-             data-orden="14"
-             data-depende-de="a1-s11-l1"
+             data-orden="22"
+             data-depende-de="a1-s11-l3"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/masenka-invitaciones/"
              data-iteraciones="2">
           <div class="node-card-body">
@@ -1075,7 +841,7 @@
         <div class="milestone-icon">
           <i data-lucide="milestone" width="22" height="22"></i>
         </div>
-        <span class="milestone-label">Secuencia s13</span>
+        <span class="milestone-label">Enumeraciones y 〜たい</span>
         <i data-lucide="chevron-down" width="18" height="18" class="chevron"></i>
         <span class="sec-count"></span>
       </div>
@@ -1084,7 +850,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s13-l1"
              data-secuencia="s13"
-             data-orden="1"
+             data-orden="23"
              data-depende-de="a1-s12-l1"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/enumeracion-to/"
              data-iteraciones="2">
@@ -1108,7 +874,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s13-l2"
              data-secuencia="s13"
-             data-orden="2"
+             data-orden="24"
              data-depende-de="a1-s13-l1"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/enumeracion-ya/"
              data-iteraciones="2">
@@ -1132,7 +898,7 @@
       <div class="node-row">
         <div class="node-card" data-id="a1-s13-l3"
              data-secuencia="s13"
-             data-orden="3"
+             data-orden="25"
              data-depende-de="a1-s13-l2"
              data-url="https://guilliman-edu.github.io/v0-jp-web/lecciones/a1/forma-tai/"
              data-iteraciones="2">
@@ -1158,12 +924,11 @@
   </main>
 
   <div class="license-badge">
-    <p>Contenido bajo <a href="/LICENSE.md" target="_blank">licencia copyleft</a>.</p>
+    <p>Contenido bajo <a href="/v0-jp-web/LICENSE.md" target="_blank">licencia copyleft</a>.</p>
   </div>
 
   <script>
     lucide.createIcons();
-
     var PROGRESS_KEY = 'jp-lesson-progress';
     var progress = {};
     try { progress = JSON.parse(localStorage.getItem(PROGRESS_KEY) || '{}'); } catch(e) {}
@@ -1172,12 +937,10 @@
       var cards = document.querySelectorAll('.node-card');
       var totalNodes = cards.length;
       var completedCount = 0;
-
       cards.forEach(function(card) {
         var id = card.dataset.id;
         var dependsOn = card.dataset.dependsOn;
         var dot = document.getElementById('dot-' + id);
-
         if (progress[id] && progress[id].completed) {
           card.classList.add('completed');
           card.classList.remove('locked', 'active');
@@ -1208,10 +971,7 @@
           dot.querySelector('.icon-check').style.display = 'none';
         }
       });
-
-      // Per-sequence: update milestone icons and auto-collapse completed
       document.querySelectorAll('.sec-group').forEach(function(group) {
-        var sec = group.dataset.secuencia;
         var secCards = group.querySelectorAll('.node-card');
         var total = secCards.length;
         var done = 0;
@@ -1220,14 +980,9 @@
         var count = group.querySelector('.sec-count');
         var body = group.querySelector('.sec-body');
         var chevron = group.querySelector('.chevron');
-
-        if (total > 0) {
-          count.textContent = done + '/' + total;
-        }
-
+        if (total > 0) count.textContent = done + '/' + total;
         if (done === total && total > 0) {
           icon.classList.add('done');
-          // auto-collapse completed sequence
           body.classList.add('hidden');
           chevron.classList.add('collapsed');
         } else {
@@ -1236,7 +991,6 @@
       });
     }
 
-    // Toggle sequence collapse on milestone click
     document.querySelectorAll('.milestone-row').forEach(function(row) {
       row.addEventListener('click', function() {
         var group = this.closest('.sec-group');
@@ -1247,7 +1001,6 @@
       });
     });
 
-    // Card click
     document.querySelectorAll('.node-card').forEach(function(card) {
       card.addEventListener('click', function() {
         if (this.classList.contains('locked')) {
