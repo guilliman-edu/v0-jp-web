@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pronombres personales básicos — a1</title>
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter','Noto Sans JP',sans-serif;background:#f8fafc;color:#1e293b;height:100vh;display:flex;flex-direction:column}
+.slide{display:none;animation:fadeIn .3s ease}
+.slide.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.topbar{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.topbar-title{flex:1;font-size:.875rem;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topbar-level{font-size:.75rem;font-weight:500;background:#dbeafe;color:#1d4ed8;padding:.125rem .5rem;border-radius:9999px}
+.icon-btn{padding:.375rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569}
+.icon-btn:hover{background:#f1f5f9}
+.toc-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:40}
+.toc-backdrop.open{display:block}
+.toc-panel{position:fixed;top:0;left:-280px;width:280px;height:100vh;background:#fff;box-shadow:2px 0 12px rgba(0,0,0,.1);transition:left .3s ease;z-index:50;overflow-y:auto}
+.toc-panel.open{left:0}
+.toc-header{display:flex;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid #f1f5f9}
+.toc-header h3{font-size:1.125rem;font-weight:600}
+.toc-list{list-style:none;padding:.5rem}
+.toc-list li{margin-bottom:.25rem}
+.toc-link{display:block;padding:.5rem .75rem;border-radius:.5rem;text-decoration:none;color:#1d4ed8;font-weight:500;cursor:pointer}
+.toc-link:hover{background:#eff6ff}
+.toc-link.active{background:#dbeafe;color:#1e40af;border-left:3px solid #2563eb}
+.main-content{flex:1;overflow-y:auto;padding:1.5rem}
+@media(min-width:768px){.main-content{padding:2.5rem}}
+.content-wrapper{max-width:48rem;margin:0 auto;width:100%}
+.slide-title{font-size:1.5rem;font-weight:700;color:#111827;margin-bottom:.5rem}
+.mission{font-size:1.1rem;color:#475569;border-left:3px solid #3b82f6;padding-left:1rem;margin:1rem 0}
+.section-title{font-size:1.25rem;font-weight:600;margin-top:1.5rem}
+.body-text{margin-top:.5rem;color:#374151;line-height:1.6}
+.body-list{list-style-position:inside;padding-left:1.5rem;margin-top:.5rem}
+.body-list li{margin-bottom:.25rem;color:#374151}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+th,td{border:1px solid #e2e8f0;padding:.5rem .75rem;text-align:left}
+th{background:#f1f5f9;font-weight:600}
+blockquote{border-left:3px solid #94a3b8;padding-left:1rem;color:#475569;margin:1rem 0;font-style:italic}
+ruby{ruby-align:center}
+rt{font-size:.7em;color:#64748b;letter-spacing:.02em}
+.ext-link{cursor:help;text-decoration:underline;text-decoration-style:dotted}
+.ext-link::after{content:' \2197';font-size:.75em}
+details.glosario{margin:1rem 0;background:#f8fafc;border-radius:.5rem;border:1px solid #e2e8f0}
+details.glosario summary{padding:.75rem 1rem;cursor:pointer;font-weight:600;color:#1e40af;border-radius:.5rem}
+details.glosario summary:hover{background:#eff6ff}
+details.glosario .glosario-body{padding:0 1rem .75rem}
+details.glosario ul{list-style:none;padding:0}
+details.glosario li{padding:.375rem 0;border-bottom:1px solid #f1f5f9;color:#374151}
+details.glosario li:last-child{border-bottom:none}
+details.glosario strong{color:#1e293b}
+.conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
+.conversation p{margin-bottom:.25rem}
+.bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
+.nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
+.nav-btn:hover{background:#f1f5f9}
+.nav-btn:disabled{opacity:.3;cursor:default}
+.slide-counter{font-size:.875rem;color:#64748b;font-weight:500}
+@media(max-width:639px){.toc-panel{width:100%;left:-100%}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <button id="toc-toggle" class="icon-btn" title="Índice"><i data-lucide="menu" width="20" height="20"></i></button>
+  <span class="topbar-title">Pronombres personales básicos</span>
+  <span class="topbar-level">a1</span>
+</header>
+<div id="toc-backdrop" class="toc-backdrop"></div>
+<aside id="toc-panel" class="toc-panel">
+  <div class="toc-header"><h3>Índice</h3><button id="toc-close" class="icon-btn" data-goto="close-toc"><i data-lucide="x" width="20" height="20"></i></button></div>
+  <nav><ul class="toc-list" id="toc-list"><li><a data-goto="iteracion-1" class="toc-link active">Iteración 1: Pronombres y uso</a></li>
+<li><a data-goto="iteracion-2" class="toc-link">Iteración 2: Resumen y glosario</a></li></ul></nav>
+</aside>
+<main class="main-content"><div class="content-wrapper"><section id="iteracion-1" class="slide active">
+  <h2 class="slide-title">Iteración 1: Pronombres y uso</h2>
+  <p class="mission"><em>Misión: Conocer y usar los pronombres personales básicos del japonés.</em></p>
+  <h3 class="section-title">📐 Los pronombres</h3><table><thead><tr><th>Pronombre</th><th>Japonés</th><th>Significado</th><th>Uso</th></tr></thead><tbody><tr><td>わたし</td><td><ruby>私<rt>わたし</rt></ruby></td><td>yo</td><td>Formal/neutro</td></tr><tr><td>あなた</td><td><ruby>貴方<rt>あなた</rt></ruby></td><td>tú / usted</td><td>Formal (usar con cuidado)</td></tr><tr><td>かれ</td><td><ruby>彼<rt>かれ</rt></ruby></td><td>él</td><td>Neutro</td></tr><tr><td>かのじょ</td><td><ruby>彼女<rt>かのじょ</rt></ruby></td><td>ella</td><td>Neutro</td></tr></tbody></table>
+<p class="body-text">⚠️ <strong>あなた</strong> se usa con moderación. Es más natural llamar a la persona por su <strong>apellido + さん</strong>.</p><h3 class="section-title">📐 El sufijo さん</h3><table><thead><tr><th>Uso</th><th>Ejemplo</th><th>Significado</th></tr></thead><tbody><tr><td>Apellido + さん</td><td><ruby>田中<rt>たなか</rt></ruby>さん</td><td>Sr./Sra. Tanaka</td></tr><tr><td>Nombre + さん</td><td>Juanさん</td><td>Juan (trato cortés)</td></tr><tr><td>Profesión + さん</td><td><ruby>先生<rt>せんせい</rt></ruby></td><td>Maestro (no lleva さん)</td></tr></tbody></table>
+<p class="body-text"><strong>さん</strong> es un sufijo de cortesía equivalente a "Sr./Sra.". <strong>Nunca se usa para uno mismo.</strong></p><h3 class="section-title">💬 Ejemplos</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>わたしは学生<rt>がくせい</rt></ruby>です。</td><td>Yo soy estudiante.</td></tr><tr><td><ruby>あなたは先生<rt>せんせい</rt></ruby>ですか。</td><td>¿Usted es profesor?</td></tr><tr><td><ruby>彼<rt>かれ</rt></ruby><ruby>は山田<rt>やまだ</rt></ruby>さんです。</td><td>Él es el Sr. Yamada.</td></tr><tr><td><ruby>彼女<rt>かのじょ</rt></ruby>はJuanさんですか。</td><td>¿Ella es la Sra. Juan?</td></tr><tr><td><ruby>田中<rt>たなか</rt></ruby><ruby>さんは医者<rt>いしゃ</rt></ruby>です。</td><td>El Sr. Tanaka es médico.</td></tr></tbody></table><h3 class="section-title">⚠️ Reglas importantes</h3><p class="body-text">1. <strong>さん es para otros</strong>: nunca digas わたしは田中さんです</p>
+<p class="body-text">2. <strong>あなた es evitado</strong>: prefiere usar 田中さん o el nombre</p>
+<p class="body-text">3. <strong>かれ / かのじょ</strong> también significan "novio / novia" según contexto</p><h3 class="section-title">✍️ Práctica</h3><p class="body-text">Traduce al japonés:</p>
+<p class="body-text">1. Yo soy médico. → ____________________</p>
+<p class="body-text">2. ¿El Sr. Suzuki es estudiante? → ____________________</p>
+<p class="body-text">3. Él es Juan. → ____________________</p>
+<p class="body-text">---</p>
+</section><section id="iteracion-2" class="slide">
+  <h2 class="slide-title">Iteración 2: Resumen y glosario</h2>
+  <p class="mission"><em>Misión: Repasar los pronombres y su uso en contexto.</em></p>
+  <h3 class="section-title">🔄 Tabla resumen</h3><table><thead><tr><th>Japonés</th><th>Significado</th><th>Nota</th></tr></thead><tbody><tr><td><ruby>私<rt>わたし</rt></ruby></td><td>yo</td><td>Uso general</td></tr><tr><td>あなた</td><td>tú / usted</td><td>Evitar si hay nombre disponible</td></tr><tr><td><ruby>彼<rt>かれ</rt></ruby></td><td>él</td><td>También "novio"</td></tr><tr><td><ruby>彼女<rt>かのじょ</rt></ruby></td><td>ella</td><td>También "novia"</td></tr><tr><td>さん</td><td>Sr./Sra.</td><td>Sufijo, solo para otros</td></tr></tbody></table><h3 class="section-title">🎯 Errores comunes</h3><table><thead><tr><th>Error</th><th>Correcto</th></tr></thead><tbody><tr><td>Decir わたしは田中<strong>さん</strong>です</td><td>✅ わたしは田中です (sin さん)</td></tr><tr><td>Usar あなた cuando sabes el nombre</td><td>✅ 田中さんは...</td></tr><tr><td>Confundir かれ/かのじょ con "novio/novia"</td><td>✅ Depende del contexto</td></tr></tbody></table><h3 class="section-title">💬 Frases de ejemplo</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>彼<rt>かれ</rt></ruby><ruby>は学生<rt>がくせい</rt></ruby>です。</td><td>Él es estudiante.</td></tr><tr><td><ruby>彼女<rt>かのじょ</rt></ruby><ruby>は先生<rt>せんせい</rt></ruby>です。</td><td>Ella es profesora.</td></tr><tr><td><ruby>田中<rt>たなか</rt></ruby><ruby>さんは医者<rt>いしゃ</rt></ruby>ですか。</td><td>¿El Sr. Tanaka es médico?</td></tr><tr><td>はい、<ruby>医者<rt>いしゃ</rt></ruby>です。</td><td>Sí, es médico.</td></tr></tbody></table><h3 class="section-title">📖 Glosario</h3><details>
+<summary>Ver términos nuevos</summary>
+
+- **私(わたし)** — yo
+- **あなた** — tú / usted
+- **彼(かれ)** — él (también: novio)
+- **彼女(かのじょ)** — ella (también: novia)
+- **さん** — sufijo de cortesía (Sr./Sra.)
+- **先生(せんせい)** — maestro / profesor / doctor
+- **学生(がくせい)** — estudiante
+- **医者(いしゃ)** — médico
+- **人(ひと)** — persona
+- **皆(みな)さん** — todos / señores (forma plural de さん)
+
+</details>
+<p class="body-text">---</p>
+<p class="body-text">Creado para nivel A1, secuencia s2, lección 3 — 2026-06-21</p>
+</section></div></main>
+<footer class="bottom-nav">
+  <button id="prev-slide" class="nav-btn" disabled><i data-lucide="chevron-left" width="16" height="16"></i> Anterior</button>
+  <span id="slide-counter" class="slide-counter">1 / 2</span>
+  <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
+</footer>
+<script>(()=>{
+  const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
+  let cur=0;
+  function show(i){
+    if(i<0||i>=slides.length)return;
+    slides[cur].classList.remove('active');
+    tocLinks[cur]&&tocLinks[cur].classList.remove('active');
+    cur=i;
+    slides[cur].classList.add('active');
+    tocLinks[cur]&&tocLinks[cur].classList.add('active');
+    counter&&(counter.textContent=(cur+1)+' / '+slides.length);
+    document.getElementById('prev-slide').disabled=cur===0;
+    document.getElementById('next-slide').disabled=cur===slides.length-1;
+  }
+  document.addEventListener('click',e=>{
+    const g=e.target.closest('[data-goto]');
+    if(!g)return;
+    const t=g.dataset.goto;
+    if(t==='close-toc'){document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open');return}
+    const idx=[...slides].findIndex(s=>s.id===t);
+    if(idx>=0)show(idx);
+  });
+  document.getElementById('prev-slide').addEventListener('click',()=>show(cur-1));
+  document.getElementById('next-slide').addEventListener('click',()=>show(cur+1));
+  document.getElementById('toc-toggle').addEventListener('click',()=>{document.getElementById('toc-panel').classList.toggle('open');document.getElementById('toc-backdrop').classList.toggle('open')});
+  document.getElementById('toc-backdrop').addEventListener('click',()=>{document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open')});
+  document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+  show(0);
+})();
+</script>
+</body>
+</html>

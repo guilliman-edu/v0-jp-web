@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El silabario hiragana (repaso A1) — a1</title>
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter','Noto Sans JP',sans-serif;background:#f8fafc;color:#1e293b;height:100vh;display:flex;flex-direction:column}
+.slide{display:none;animation:fadeIn .3s ease}
+.slide.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.topbar{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.topbar-title{flex:1;font-size:.875rem;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topbar-level{font-size:.75rem;font-weight:500;background:#dbeafe;color:#1d4ed8;padding:.125rem .5rem;border-radius:9999px}
+.icon-btn{padding:.375rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569}
+.icon-btn:hover{background:#f1f5f9}
+.toc-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:40}
+.toc-backdrop.open{display:block}
+.toc-panel{position:fixed;top:0;left:-280px;width:280px;height:100vh;background:#fff;box-shadow:2px 0 12px rgba(0,0,0,.1);transition:left .3s ease;z-index:50;overflow-y:auto}
+.toc-panel.open{left:0}
+.toc-header{display:flex;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid #f1f5f9}
+.toc-header h3{font-size:1.125rem;font-weight:600}
+.toc-list{list-style:none;padding:.5rem}
+.toc-list li{margin-bottom:.25rem}
+.toc-link{display:block;padding:.5rem .75rem;border-radius:.5rem;text-decoration:none;color:#1d4ed8;font-weight:500;cursor:pointer}
+.toc-link:hover{background:#eff6ff}
+.toc-link.active{background:#dbeafe;color:#1e40af;border-left:3px solid #2563eb}
+.main-content{flex:1;overflow-y:auto;padding:1.5rem}
+@media(min-width:768px){.main-content{padding:2.5rem}}
+.content-wrapper{max-width:48rem;margin:0 auto;width:100%}
+.slide-title{font-size:1.5rem;font-weight:700;color:#111827;margin-bottom:.5rem}
+.mission{font-size:1.1rem;color:#475569;border-left:3px solid #3b82f6;padding-left:1rem;margin:1rem 0}
+.section-title{font-size:1.25rem;font-weight:600;margin-top:1.5rem}
+.body-text{margin-top:.5rem;color:#374151;line-height:1.6}
+.body-list{list-style-position:inside;padding-left:1.5rem;margin-top:.5rem}
+.body-list li{margin-bottom:.25rem;color:#374151}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+th,td{border:1px solid #e2e8f0;padding:.5rem .75rem;text-align:left}
+th{background:#f1f5f9;font-weight:600}
+blockquote{border-left:3px solid #94a3b8;padding-left:1rem;color:#475569;margin:1rem 0;font-style:italic}
+ruby{ruby-align:center}
+rt{font-size:.7em;color:#64748b;letter-spacing:.02em}
+.ext-link{cursor:help;text-decoration:underline;text-decoration-style:dotted}
+.ext-link::after{content:' \2197';font-size:.75em}
+details.glosario{margin:1rem 0;background:#f8fafc;border-radius:.5rem;border:1px solid #e2e8f0}
+details.glosario summary{padding:.75rem 1rem;cursor:pointer;font-weight:600;color:#1e40af;border-radius:.5rem}
+details.glosario summary:hover{background:#eff6ff}
+details.glosario .glosario-body{padding:0 1rem .75rem}
+details.glosario ul{list-style:none;padding:0}
+details.glosario li{padding:.375rem 0;border-bottom:1px solid #f1f5f9;color:#374151}
+details.glosario li:last-child{border-bottom:none}
+details.glosario strong{color:#1e293b}
+.conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
+.conversation p{margin-bottom:.25rem}
+.bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
+.nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
+.nav-btn:hover{background:#f1f5f9}
+.nav-btn:disabled{opacity:.3;cursor:default}
+.slide-counter{font-size:.875rem;color:#64748b;font-weight:500}
+@media(max-width:639px){.toc-panel{width:100%;left:-100%}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <button id="toc-toggle" class="icon-btn" title="Índice"><i data-lucide="menu" width="20" height="20"></i></button>
+  <span class="topbar-title">El silabario hiragana (repaso A1)</span>
+  <span class="topbar-level">a1</span>
+</header>
+<div id="toc-backdrop" class="toc-backdrop"></div>
+<aside id="toc-panel" class="toc-panel">
+  <div class="toc-header"><h3>Índice</h3><button id="toc-close" class="icon-btn" data-goto="close-toc"><i data-lucide="x" width="20" height="20"></i></button></div>
+  <nav><ul class="toc-list" id="toc-list"><li><a data-goto="iteracion-1" class="toc-link active">Iteración 1: Vocales y filas K–S</a></li>
+<li><a data-goto="iteracion-2" class="toc-link">Iteración 2: Filas T–N–H–M–Y–R–W–N</a></li>
+<li><a data-goto="iteracion-3" class="toc-link">Iteración 3: Resumen y glosario</a></li></ul></nav>
+</aside>
+<main class="main-content"><div class="content-wrapper"><section id="iteracion-1" class="slide active">
+  <h2 class="slide-title">Iteración 1: Vocales y filas K–S</h2>
+  <p class="mission"><em>Misión: Leer y escribir las 5 vocales y las filas K y S del hiragana.</em></p>
+  <h3 class="section-title">📐 Las vocales (あ・い・う・え・お)</h3><table><thead><tr><th>Carácter</th><th>Romanización</th><th>Pronunciación</th></tr></thead><tbody><tr><td>あ</td><td>a</td><td>a (como "casa")</td></tr><tr><td>い</td><td>i</td><td>i (como "piso")</td></tr><tr><td>う</td><td>u</td><td>u (como "luna")</td></tr><tr><td>え</td><td>e</td><td>e (como "pelo")</td></tr><tr><td>お</td><td>o</td><td>o (como "loco")</td></tr></tbody></table><h3 class="section-title">📐 Fila K (か・き・く・け・こ)</h3><table><thead><tr><th>Carácter</th><th>Romanización</th><th>Pronunciación</th></tr></thead><tbody><tr><td>か</td><td>ka</td><td>ca</td></tr><tr><td>き</td><td>ki</td><td>ki</td></tr><tr><td>く</td><td>ku</td><td>cu</td></tr><tr><td>け</td><td>ke</td><td>ke</td></tr><tr><td>こ</td><td>ko</td><td>co</td></tr></tbody></table><h3 class="section-title">📐 Fila S (さ・し・す・せ・そ)</h3><table><thead><tr><th>Carácter</th><th>Romanización</th><th>Pronunciación</th></tr></thead><tbody><tr><td>さ</td><td>sa</td><td>sa</td></tr><tr><td>し</td><td>shi</td><td>shi</td></tr><tr><td>す</td><td>su</td><td>su</td></tr><tr><td>せ</td><td>se</td><td>se</td></tr><tr><td>そ</td><td>so</td><td>so</td></tr></tbody></table><h3 class="section-title">💬 Practica en voz alta</h3><p class="body-text">Lee estas sílabas en voz alta:</p>
+<p class="body-text"><code>`</code></p>
+<p class="body-text">あ い う え お</p>
+<p class="body-text">か き く け こ</p>
+<p class="body-text">さ し す せ そ</p>
+<p class="body-text"><code>`</code></p><h3 class="section-title">✍️ Trazos clave</h3><ul class="body-list"><li><strong>あ</strong>: 3 trazos — cruza la curva inferior</li><li><strong>か</strong>: 3 trazos — el gancho final a la derecha</li><li><strong>し</strong>: 1 trazo — como una "C" en inglés</li><li><strong>そ</strong>: 1 trazo — empieza horizontal, baja y engancha</li></ul>
+<p class="body-text">---</p>
+</section><section id="iteracion-2" class="slide">
+  <h2 class="slide-title">Iteración 2: Filas T–N–H–M–Y–R–W–N</h2>
+  <p class="mission"><em>Misión: Leer y escribir las filas restantes del hiragana básico.</em></p>
+  <h3 class="section-title">📐 Fila T (た・ち・つ・て・と)</h3><table><thead><tr><th>Carácter</th><th>Romanización</th><th>Pronunciación</th></tr></thead><tbody><tr><td>た</td><td>ta</td><td>ta</td></tr><tr><td>ち</td><td>chi</td><td>chi</td></tr><tr><td>つ</td><td>tsu</td><td>tsu</td></tr><tr><td>て</td><td>te</td><td>te</td></tr><tr><td>と</td><td>to</td><td>to</td></tr></tbody></table>
+<p class="body-text">⚠️ <strong>ち</strong> es "chi", no "ti". <strong>つ</strong> es "tsu", no "tu".</p><h3 class="section-title">📐 Fila N (な・に・ぬ・ね・の)</h3><table><thead><tr><th>Carácter</th><th>Romanización</th><th>Pronunciación</th></tr></thead><tbody><tr><td>な</td><td>na</td><td>na</td></tr><tr><td>に</td><td>ni</td><td>ni</td></tr><tr><td>ぬ</td><td>nu</td><td>nu</td></tr><tr><td>ね</td><td>ne</td><td>ne</td></tr><tr><td>の</td><td>no</td><td>no</td></tr></tbody></table><h3 class="section-title">📐 Fila H (は・ひ・ふ・へ・ほ)</h3><table><thead><tr><th>Carácter</th><th>Romanización</th><th>Pronunciación</th></tr></thead><tbody><tr><td>は</td><td>ha</td><td><strong>ja</strong> (como "jarra")</td></tr><tr><td>ひ</td><td>hi</td><td>ji (como "jirafa")</td></tr><tr><td>ふ</td><td>fu</td><td>fu (soplo suave)</td></tr><tr><td>へ</td><td>he</td><td>je (como "jefe")</td></tr><tr><td>ほ</td><td>ho</td><td>jo (como "jota")</td></tr></tbody></table>
+<p class="body-text">⚠️ La H en japonés suena como una J suave del español.</p><h3 class="section-title">📐 Fila M (ま・み・む・め・も)</h3><table><thead><tr><th>Carácter</th><th>Romanización</th><th>Pronunciación</th></tr></thead><tbody><tr><td>ま</td><td>ma</td><td>ma</td></tr><tr><td>み</td><td>mi</td><td>mi</td></tr><tr><td>む</td><td>mu</td><td>mu</td></tr><tr><td>め</td><td>me</td><td>me</td></tr><tr><td>も</td><td>mo</td><td>mo</td></tr></tbody></table><h3 class="section-title">📐 Fila Y (や・ゆ・よ) y R (ら・り・る・れ・ろ)</h3><table><thead><tr><th>Carácter</th><th>Romanización</th><th>Pronunciación</th></tr></thead><tbody><tr><td>や</td><td>ya</td><td>ya</td></tr><tr><td>ゆ</td><td>yu</td><td>yu</td></tr><tr><td>よ</td><td>yo</td><td>yo</td></tr><tr><td>ら</td><td>ra</td><td>ra (vibrante simple)</td></tr><tr><td>り</td><td>ri</td><td>ri</td></tr><tr><td>る</td><td>ru</td><td>ru</td></tr><tr><td>れ</td><td>re</td><td>re</td></tr><tr><td>ろ</td><td>ro</td><td>ro</td></tr></tbody></table><h3 class="section-title">📐 Fila W y N (わ・を・ん)</h3><table><thead><tr><th>Carácter</th><th>Romanización</th><th>Pronunciación</th></tr></thead><tbody><tr><td>わ</td><td>wa</td><td>wa</td></tr><tr><td>を</td><td>wo</td><td><strong>o</strong> (igual que お)</td></tr><tr><td>ん</td><td>n</td><td>n (nasal)</td></tr></tbody></table>
+<p class="body-text">⚠️ <strong>を</strong> se pronuncia igual que <strong>お</strong>. Solo se usa como partícula.</p><h3 class="section-title">💬 Practica en voz alta</h3><p class="body-text">Lee toda la tabla completa:</p>
+<p class="body-text"><code>`</code></p>
+<p class="body-text">あ い う え お</p>
+<p class="body-text">か き く け こ</p>
+<p class="body-text">さ し す せ そ</p>
+<p class="body-text">た ち つ て と</p>
+<p class="body-text">な に ぬ ね の</p>
+<p class="body-text">は ひ ふ へ ほ</p>
+<p class="body-text">ま み む め も</p>
+<p class="body-text">や    ゆ    よ</p>
+<p class="body-text">ら り る れ ろ</p>
+<p class="body-text">わ         を</p>
+<p class="body-text">ん</p>
+<p class="body-text"><code>`</code></p><h3 class="section-title">✍️ Trazos clave</h3><ul class="body-list"><li><strong>ぬ</strong>: 4 trazos — bucle como lazo</li><li><strong>ふ</strong>: 4 trazos — dos pisos</li><li><strong>む</strong>: 3 trazos — gancho final pronunciado</li><li><strong>め</strong>: 2 trazos — ojo con pupila</li><li><strong>を</strong>: 3 trazos — cruz en el centro</li></ul>
+<p class="body-text">---</p>
+</section><section id="iteracion-3" class="slide">
+  <h2 class="slide-title">Iteración 3: Resumen y glosario</h2>
+  <p class="mission"><em>Misión: Repasar los 46 caracteres y consolidar lo aprendido.</em></p>
+  <h3 class="section-title">🔄 Tabla completa</h3><p class="body-text"><code>`</code></p>
+<p class="body-text">あ a    い i    う u    え e    お o</p>
+<p class="body-text">か ka   き ki   く ku   け ke   こ ko</p>
+<p class="body-text">さ sa   し shi  す su   せ se   そ so</p>
+<p class="body-text">た ta   ち chi  つ tsu  て te   と to</p>
+<p class="body-text">な na   に ni   ぬ nu   ね ne   の no</p>
+<p class="body-text">は ha   ひ hi   ふ fu   へ he   ほ ho</p>
+<p class="body-text">ま ma   み mi   む mu   め me   も mo</p>
+<p class="body-text">や ya           ゆ yu           よ yo</p>
+<p class="body-text">ら ra   り ri   る ru   れ re   ろ ro</p>
+<p class="body-text">わ wa                   を wo</p>
+<p class="body-text">ん n</p>
+<p class="body-text"><code>`</code></p><h3 class="section-title">🎯 Errores comunes</h3><table><thead><tr><th>Error típico</th><th>Correcto</th></tr></thead><tbody><tr><td>Leer ち como "ti"</td><td><strong>chi</strong></td></tr><tr><td>Leer つ como "tu"</td><td><strong>tsu</strong></td></tr><tr><td>Leer は como "ja" en partícula</td><td>Se pronuncia <strong>wa</strong> cuando es partícula</td></tr><tr><td>Leer を como "wo"</td><td><strong>o</strong> (como お)</td></tr><tr><td>Confundir ぬ y め</td><td>ぬ tiene bucle, め no</td></tr><tr><td>Confundir れ y わ</td><td>れ tiene bucle, わ no</td></tr></tbody></table><h3 class="section-title">📖 Glosario</h3><details>
+<summary>Ver términos nuevos</summary>
+
+- **平仮名(ひらがな)** — silabario hiragana
+- **仮名(かな)** — silabarios japoneses (hiragana y katakana)
+- **五十音図(ごじゅうおんず)** — tabla de los 46 sonidos básicos
+- **濁点(だくてん)** — marca de sonorización (゛)
+- **半濁点(はんだくてん)** — marca de semisonorización (゜)
+- **拗音(ようおん)** — sílabas contraídas (きゃ, しゅ, etc.)
+
+</details>
+<p class="body-text">---</p>
+<p class="body-text">Creado para nivel A1, secuencia s1, lección 1 — 2026-06-21</p>
+</section></div></main>
+<footer class="bottom-nav">
+  <button id="prev-slide" class="nav-btn" disabled><i data-lucide="chevron-left" width="16" height="16"></i> Anterior</button>
+  <span id="slide-counter" class="slide-counter">1 / 3</span>
+  <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
+</footer>
+<script>(()=>{
+  const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
+  let cur=0;
+  function show(i){
+    if(i<0||i>=slides.length)return;
+    slides[cur].classList.remove('active');
+    tocLinks[cur]&&tocLinks[cur].classList.remove('active');
+    cur=i;
+    slides[cur].classList.add('active');
+    tocLinks[cur]&&tocLinks[cur].classList.add('active');
+    counter&&(counter.textContent=(cur+1)+' / '+slides.length);
+    document.getElementById('prev-slide').disabled=cur===0;
+    document.getElementById('next-slide').disabled=cur===slides.length-1;
+  }
+  document.addEventListener('click',e=>{
+    const g=e.target.closest('[data-goto]');
+    if(!g)return;
+    const t=g.dataset.goto;
+    if(t==='close-toc'){document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open');return}
+    const idx=[...slides].findIndex(s=>s.id===t);
+    if(idx>=0)show(idx);
+  });
+  document.getElementById('prev-slide').addEventListener('click',()=>show(cur-1));
+  document.getElementById('next-slide').addEventListener('click',()=>show(cur+1));
+  document.getElementById('toc-toggle').addEventListener('click',()=>{document.getElementById('toc-panel').classList.toggle('open');document.getElementById('toc-backdrop').classList.toggle('open')});
+  document.getElementById('toc-backdrop').addEventListener('click',()=>{document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open')});
+  document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+  show(0);
+})();
+</script>
+</body>
+</html>
