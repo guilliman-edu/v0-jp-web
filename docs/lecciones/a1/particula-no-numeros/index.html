@@ -57,6 +57,10 @@ details.glosario li:last-child{border-bottom:none}
 details.glosario strong{color:#1e293b}
 .conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
 .conversation p{margin-bottom:.25rem}
+.license-badge{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #e2e8f0;font-size:.8125rem;color:#64748b}
+.license-badge p{margin-bottom:.25rem}
+.license-badge a{color:#2563eb;text-decoration:underline}
+.license-badge a:hover{color:#1d4ed8}
 .bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
 .nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
 .nav-btn:hover{background:#f1f5f9}
@@ -99,17 +103,17 @@ details.glosario strong{color:#1e293b}
   <h3 class="section-title">📐 Los días de la semana</h3><p class="body-text">Prefijo + <ruby>曜日<rt>ようび</rt></ruby>:</p>
 <table><thead><tr><th>Día</th><th>Kanji</th><th>Lectura</th><th>Significado del prefijo</th></tr></thead><tbody><tr><td>Lunes</td><td>月曜日</td><td>げつようび</td><td>luna</td></tr><tr><td>Martes</td><td>火曜日</td><td>かようび</td><td>fuego</td></tr><tr><td>Miércoles</td><td>水曜日</td><td>すいようび</td><td>agua</td></tr><tr><td>Jueves</td><td>木曜日</td><td>もくようび</td><td>madera</td></tr><tr><td>Viernes</td><td>金曜日</td><td>きんようび</td><td>oro / dinero</td></tr><tr><td>Sábado</td><td>土曜日</td><td>どようび</td><td>tierra</td></tr><tr><td>Domingo</td><td>日曜日</td><td>にちようび</td><td>sol</td></tr></tbody></table><h3 class="section-title">💬 Preguntar y responder</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>今日<rt>きょう</rt></ruby><ruby>は何曜日<rt>なんようび</rt></ruby>ですか</td><td>¿Qué día es hoy?</td></tr><tr><td><ruby>今日<rt>きょう</rt></ruby><ruby>は月曜日<rt>げつようび</rt></ruby>です</td><td>Hoy es lunes</td></tr></tbody></table><h3 class="section-title">⚠️ 何曜日 vs 何日</h3><ul class="body-list"><li><ruby>何曜日<rt>なんようび</rt></ruby> — ¿qué día de la semana?</li><li><ruby>何日<rt>なんにち</rt></ruby> — ¿qué día del mes?</li></ul><h3 class="section-title">📖 Glosario de la lección</h3><details>
 <summary>Ver términos nuevos</summary>
-
-- **の** — partícula posesiva (de)
-- **曜日(ようび)** — día de la semana
-- **月曜日(げつようび)** — lunes
-- **火曜日(かようび)** — martes
-- **水曜日(すいようび)** — miércoles
-- **木曜日(もくようび)** — jueves
-- **金曜日(きんようび)** — viernes
-- **土曜日(どようび)** — sábado
-- **日曜日(にちようび)** — domingo
-
+<ul>
+  <li><strong>の</strong> — partícula posesiva (de)</li>
+  <li><strong><ruby>曜日<rt>ようび</rt></ruby></strong> — día de la semana</li>
+  <li><strong><ruby>月曜日<rt>げつようび</rt></ruby></strong> — lunes</li>
+  <li><strong><ruby>火曜日<rt>かようび</rt></ruby></strong> — martes</li>
+  <li><strong><ruby>水曜日<rt>すいようび</rt></ruby></strong> — miércoles</li>
+  <li><strong><ruby>木曜日<rt>もくようび</rt></ruby></strong> — jueves</li>
+  <li><strong><ruby>金曜日<rt>きんようび</rt></ruby></strong> — viernes</li>
+  <li><strong><ruby>土曜日<rt>どようび</rt></ruby></strong> — sábado</li>
+  <li><strong><ruby>日曜日<rt>にちようび</rt></ruby></strong> — domingo</li>
+</ul>
 </details>
 <p class="body-text">---</p>
 <p class="body-text">Creado por planificacion-niveles desde raws/ — 2026-06-21</p>
@@ -119,6 +123,18 @@ details.glosario strong{color:#1e293b}
   <span id="slide-counter" class="slide-counter">1 / 3</span>
   <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
 </footer>
+<div class="license-badge">
+  <p class="flex items-center gap-2">
+    <span>&#x1f7e2;</span>
+    <span>
+      Contenido did&aacute;ctico y software creados por <strong>Francisco Maseda</strong> (<a href="mailto:framadem@gmail.com">framadem@gmail.com</a>).
+    </span>
+  </p>
+  <p class="mt-1 pl-6 text-xs text-gray-400 dark:text-gray-500">
+    Este proyecto es de cultura libre. Todo el material y el c&oacute;digo fuente est&aacute;n protegidos bajo <strong>Copyleft</strong>.
+    Consulta las condiciones de uso, atribuci&oacute;n y licencias en el archivo <a href="/LICENSE.md" target="_blank">LICENSE.md</a> del proyecto.
+  </p>
+</div>
 <script>(()=>{
   const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
   let cur=0;

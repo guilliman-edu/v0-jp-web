@@ -57,6 +57,10 @@ details.glosario li:last-child{border-bottom:none}
 details.glosario strong{color:#1e293b}
 .conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
 .conversation p{margin-bottom:.25rem}
+.license-badge{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #e2e8f0;font-size:.8125rem;color:#64748b}
+.license-badge p{margin-bottom:.25rem}
+.license-badge a{color:#2563eb;text-decoration:underline}
+.license-badge a:hover{color:#1d4ed8}
 .bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
 .nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
 .nav-btn:hover{background:#f1f5f9}
@@ -95,11 +99,11 @@ details.glosario strong{color:#1e293b}
 <table><thead><tr><th>Elemento</th><th>Partícula</th><th>Rol</th></tr></thead><tbody><tr><td>Causante</td><td>は</td><td>quien obliga/permite</td></tr><tr><td>Agente</td><td>に</td><td>quien realiza la acción</td></tr><tr><td>Objeto</td><td>を</td><td>lo que se hace</td></tr><tr><td>Verbo</td><td>causativo</td><td>obligar/permitir</td></tr></tbody></table><h3 class="section-title">💬 Ejemplos</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>母<rt>はは</rt></ruby><ruby>は私<rt>わたし</rt></ruby><ruby>に宿題<rt>しゅくだい</rt></ruby>をさせました</td><td>Mi madre me obligó a hacer los deberes</td></tr><tr><td><ruby>先生<rt>せんせい</rt></ruby><ruby>は生徒<rt>せいと</rt></ruby><ruby>に日記<rt>にっき</rt></ruby><ruby>を書<rt>か</rt></ruby>かせます</td><td>El profesor hace que los alumnos escriban un diario</td></tr><tr><td><ruby>父<rt>ちち</rt></ruby><ruby>は私<rt>わたし</rt></ruby><ruby>に部屋<rt>へや</rt></ruby><ruby>を掃除<rt>そうじ</rt></ruby>させました</td><td>Mi padre me obligó a limpiar la habitación</td></tr></tbody></table><h3 class="section-title">⚠️ Agente con に vs を</h3><ul class="body-list"><li>Con verbos <strong>transitivos</strong>: agente siempre con <strong>に</strong></li><li>Con verbos <strong>intransitivos</strong>: agente con <strong>に</strong> si tiene voluntad, con <strong>を</strong> si no</li></ul>
 <blockquote><ruby>先生<rt>せんせい</rt></ruby><ruby>は学生<rt>がくせい</rt></ruby><strong>を</strong><ruby>行<rt>い</rt></ruby>かせました (El profesor envió al estudiante — intransitivo)</blockquote><h3 class="section-title">📖 Glosario</h3><details>
 <summary>Ver términos nuevos</summary>
-
-- **使役(しえき)** — forma causativa / factitiva
-- **使役形(しえきけい)** — conjugación causativa
-- **させる** — forma causativa de する
-
+<ul>
+  <li><strong><ruby>使役<rt>しえき</rt></ruby></strong> — forma causativa / factitiva</li>
+  <li><strong><ruby>使役形<rt>しえきけい</rt></ruby></strong> — conjugación causativa</li>
+  <li><strong>させる</strong> — forma causativa de する</li>
+</ul>
 </details>
 <p class="body-text">---</p>
 <p class="body-text">Creado por planificacion-niveles desde raws/ — 2026-06-21</p>
@@ -109,6 +113,18 @@ details.glosario strong{color:#1e293b}
   <span id="slide-counter" class="slide-counter">1 / 2</span>
   <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
 </footer>
+<div class="license-badge">
+  <p class="flex items-center gap-2">
+    <span>&#x1f7e2;</span>
+    <span>
+      Contenido did&aacute;ctico y software creados por <strong>Francisco Maseda</strong> (<a href="mailto:framadem@gmail.com">framadem@gmail.com</a>).
+    </span>
+  </p>
+  <p class="mt-1 pl-6 text-xs text-gray-400 dark:text-gray-500">
+    Este proyecto es de cultura libre. Todo el material y el c&oacute;digo fuente est&aacute;n protegidos bajo <strong>Copyleft</strong>.
+    Consulta las condiciones de uso, atribuci&oacute;n y licencias en el archivo <a href="/LICENSE.md" target="_blank">LICENSE.md</a> del proyecto.
+  </p>
+</div>
 <script>(()=>{
   const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
   let cur=0;

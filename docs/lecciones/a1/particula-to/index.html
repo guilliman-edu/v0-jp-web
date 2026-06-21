@@ -57,6 +57,10 @@ details.glosario li:last-child{border-bottom:none}
 details.glosario strong{color:#1e293b}
 .conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
 .conversation p{margin-bottom:.25rem}
+.license-badge{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #e2e8f0;font-size:.8125rem;color:#64748b}
+.license-badge p{margin-bottom:.25rem}
+.license-badge a{color:#2563eb;text-decoration:underline}
+.license-badge a:hover{color:#1d4ed8}
 .bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
 .nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
 .nav-btn:hover{background:#f1f5f9}
@@ -92,16 +96,16 @@ details.glosario strong{color:#1e293b}
   <p class="mission"><em>Misión: Repasar と de compañía y fijar el vocabulario.</em></p>
   <h3 class="section-title">📌 Resumen</h3><ul class="body-list"><li><strong>と</strong> marca la persona que acompaña en la acción</li><li>Se traduce como <strong>"con"</strong></li><li>Va detrás de la persona y antes del verbo</li><li><strong><ruby>一人<rt>ひとり</rt></ruby>で</strong> se usa para "solo / sin compañía"</li></ul><h3 class="section-title">🆚 と vs で</h3><table><thead><tr><th>Partícula</th><th>Uso</th><th>Ejemplo</th></tr></thead><tbody><tr><td>と</td><td><strong>compañía</strong> — con quién</td><td>友達<strong>と</strong>行く</td></tr><tr><td>で</td><td><strong>medio</strong> — con qué</td><td>バス<strong>で</strong>行く</td></tr></tbody></table><h3 class="section-title">📖 Glosario de la lección</h3><details>
 <summary>Ver términos nuevos</summary>
-
-- **と** — partícula de compañía ("con")
-- **友達(ともだち)** — amigo / amigos
-- **家族(かぞく)** — familia
-- **先生(せんせい)** — profesor / profesora
-- **彼女(かのじょ)** — ella / novia
-- **同僚(どうりょう)** — colega de trabajo
-- **一人(ひとり)** — una persona / solo
-- **誰(だれ)** — quién
-
+<ul>
+  <li><strong>と</strong> — partícula de compañía ("con")</li>
+  <li><strong><ruby>友達<rt>ともだち</rt></ruby></strong> — amigo / amigos</li>
+  <li><strong><ruby>家族<rt>かぞく</rt></ruby></strong> — familia</li>
+  <li><strong><ruby>先生<rt>せんせい</rt></ruby></strong> — profesor / profesora</li>
+  <li><strong><ruby>彼女<rt>かのじょ</rt></ruby></strong> — ella / novia</li>
+  <li><strong><ruby>同僚<rt>どうりょう</rt></ruby></strong> — colega de trabajo</li>
+  <li><strong><ruby>一人<rt>ひとり</rt></ruby></strong> — una persona / solo</li>
+  <li><strong><ruby>誰<rt>だれ</rt></ruby></strong> — quién</li>
+</ul>
 </details>
 <p class="body-text">---</p>
 <p class="body-text"><em>Creada por exponer-contenidos — 2026-06-21</em></p>
@@ -111,6 +115,18 @@ details.glosario strong{color:#1e293b}
   <span id="slide-counter" class="slide-counter">1 / 2</span>
   <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
 </footer>
+<div class="license-badge">
+  <p class="flex items-center gap-2">
+    <span>&#x1f7e2;</span>
+    <span>
+      Contenido did&aacute;ctico y software creados por <strong>Francisco Maseda</strong> (<a href="mailto:framadem@gmail.com">framadem@gmail.com</a>).
+    </span>
+  </p>
+  <p class="mt-1 pl-6 text-xs text-gray-400 dark:text-gray-500">
+    Este proyecto es de cultura libre. Todo el material y el c&oacute;digo fuente est&aacute;n protegidos bajo <strong>Copyleft</strong>.
+    Consulta las condiciones de uso, atribuci&oacute;n y licencias en el archivo <a href="/LICENSE.md" target="_blank">LICENSE.md</a> del proyecto.
+  </p>
+</div>
 <script>(()=>{
   const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
   let cur=0;

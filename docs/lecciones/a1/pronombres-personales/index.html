@@ -57,6 +57,10 @@ details.glosario li:last-child{border-bottom:none}
 details.glosario strong{color:#1e293b}
 .conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
 .conversation p{margin-bottom:.25rem}
+.license-badge{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #e2e8f0;font-size:.8125rem;color:#64748b}
+.license-badge p{margin-bottom:.25rem}
+.license-badge a{color:#2563eb;text-decoration:underline}
+.license-badge a:hover{color:#1d4ed8}
 .bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
 .nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
 .nav-btn:hover{background:#f1f5f9}
@@ -94,18 +98,18 @@ details.glosario strong{color:#1e293b}
   <p class="mission"><em>Misión: Repasar los pronombres y su uso en contexto.</em></p>
   <h3 class="section-title">🔄 Tabla resumen</h3><table><thead><tr><th>Japonés</th><th>Significado</th><th>Nota</th></tr></thead><tbody><tr><td><ruby>私<rt>わたし</rt></ruby></td><td>yo</td><td>Uso general</td></tr><tr><td>あなた</td><td>tú / usted</td><td>Evitar si hay nombre disponible</td></tr><tr><td><ruby>彼<rt>かれ</rt></ruby></td><td>él</td><td>También "novio"</td></tr><tr><td><ruby>彼女<rt>かのじょ</rt></ruby></td><td>ella</td><td>También "novia"</td></tr><tr><td>さん</td><td>Sr./Sra.</td><td>Sufijo, solo para otros</td></tr></tbody></table><h3 class="section-title">🎯 Errores comunes</h3><table><thead><tr><th>Error</th><th>Correcto</th></tr></thead><tbody><tr><td>Decir わたしは田中<strong>さん</strong>です</td><td>✅ わたしは田中です (sin さん)</td></tr><tr><td>Usar あなた cuando sabes el nombre</td><td>✅ 田中さんは...</td></tr><tr><td>Confundir かれ/かのじょ con "novio/novia"</td><td>✅ Depende del contexto</td></tr></tbody></table><h3 class="section-title">💬 Frases de ejemplo</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>彼<rt>かれ</rt></ruby><ruby>は学生<rt>がくせい</rt></ruby>です。</td><td>Él es estudiante.</td></tr><tr><td><ruby>彼女<rt>かのじょ</rt></ruby><ruby>は先生<rt>せんせい</rt></ruby>です。</td><td>Ella es profesora.</td></tr><tr><td><ruby>田中<rt>たなか</rt></ruby><ruby>さんは医者<rt>いしゃ</rt></ruby>ですか。</td><td>¿El Sr. Tanaka es médico?</td></tr><tr><td>はい、<ruby>医者<rt>いしゃ</rt></ruby>です。</td><td>Sí, es médico.</td></tr></tbody></table><h3 class="section-title">📖 Glosario</h3><details>
 <summary>Ver términos nuevos</summary>
-
-- **私(わたし)** — yo
-- **あなた** — tú / usted
-- **彼(かれ)** — él (también: novio)
-- **彼女(かのじょ)** — ella (también: novia)
-- **さん** — sufijo de cortesía (Sr./Sra.)
-- **先生(せんせい)** — maestro / profesor / doctor
-- **学生(がくせい)** — estudiante
-- **医者(いしゃ)** — médico
-- **人(ひと)** — persona
-- **皆(みな)さん** — todos / señores (forma plural de さん)
-
+<ul>
+  <li><strong><ruby>私<rt>わたし</rt></ruby></strong> — yo</li>
+  <li><strong>あなた</strong> — tú / usted</li>
+  <li><strong><ruby>彼<rt>かれ</rt></ruby></strong> — él (también: novio)</li>
+  <li><strong><ruby>彼女<rt>かのじょ</rt></ruby></strong> — ella (también: novia)</li>
+  <li><strong>さん</strong> — sufijo de cortesía (Sr./Sra.)</li>
+  <li><strong><ruby>先生<rt>せんせい</rt></ruby></strong> — maestro / profesor / doctor</li>
+  <li><strong><ruby>学生<rt>がくせい</rt></ruby></strong> — estudiante</li>
+  <li><strong><ruby>医者<rt>いしゃ</rt></ruby></strong> — médico</li>
+  <li><strong><ruby>人<rt>ひと</rt></ruby></strong> — persona</li>
+  <li><strong><ruby>皆<rt>みな</rt></ruby>さん</strong> — todos / señores (forma plural de さん)</li>
+</ul>
 </details>
 <p class="body-text">---</p>
 <p class="body-text">Creado para nivel A1, secuencia s2, lección 3 — 2026-06-21</p>
@@ -115,6 +119,18 @@ details.glosario strong{color:#1e293b}
   <span id="slide-counter" class="slide-counter">1 / 2</span>
   <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
 </footer>
+<div class="license-badge">
+  <p class="flex items-center gap-2">
+    <span>&#x1f7e2;</span>
+    <span>
+      Contenido did&aacute;ctico y software creados por <strong>Francisco Maseda</strong> (<a href="mailto:framadem@gmail.com">framadem@gmail.com</a>).
+    </span>
+  </p>
+  <p class="mt-1 pl-6 text-xs text-gray-400 dark:text-gray-500">
+    Este proyecto es de cultura libre. Todo el material y el c&oacute;digo fuente est&aacute;n protegidos bajo <strong>Copyleft</strong>.
+    Consulta las condiciones de uso, atribuci&oacute;n y licencias en el archivo <a href="/LICENSE.md" target="_blank">LICENSE.md</a> del proyecto.
+  </p>
+</div>
 <script>(()=>{
   const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
   let cur=0;
