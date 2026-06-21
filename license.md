@@ -22,4 +22,4 @@ Todo el código de la aplicación (arquitectura de Astro, TypeScript, maquetaci�
 
 Este software es software libre: puedes modificarlo y redistribuirlo bajo los términos de la GNU GPL publicada por la Free Software Foundation. 
 
-Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Cualquier copia, bifurcación (*fork*) o modificación de este código fuente debe ser liberada públicamente bajo esta misma licencia GPL-3.0.�
+Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Cualquier copia, bifurcación (*fork*) o modificación de este código fuente debe ser liberada públicamente bajo esta misma licencia GPL-3.0.
