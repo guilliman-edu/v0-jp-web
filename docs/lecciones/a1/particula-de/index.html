@@ -57,6 +57,10 @@ details.glosario li:last-child{border-bottom:none}
 details.glosario strong{color:#1e293b}
 .conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
 .conversation p{margin-bottom:.25rem}
+.license-badge{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #e2e8f0;font-size:.8125rem;color:#64748b}
+.license-badge p{margin-bottom:.25rem}
+.license-badge a{color:#2563eb;text-decoration:underline}
+.license-badge a:hover{color:#1d4ed8}
 .bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
 .nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
 .nav-btn:hover{background:#f1f5f9}
@@ -105,18 +109,18 @@ details.glosario strong{color:#1e293b}
   <p class="mission"><em>Misión: Repasar los dos usos de で y consolidar el vocabulario.</em></p>
   <h3 class="section-title">📌 Resumen</h3><ul class="body-list"><li><strong>で instrumental</strong>: marca el medio o herramienta → バス<strong>で</strong>行く</li><li><strong>で locativo</strong>: marca el lugar de la acción → 図書館<strong>で</strong>勉強する</li><li>で responde a <em>¿con qué?</em> y <em>¿dónde?</em></li><li>No confundir con を (CD), に (existencia/dirección) ni へ (dirección)</li></ul><h3 class="section-title">🆚 Contraste rápido</h3><table><thead><tr><th>Partícula</th><th>Uso</th><th>Ejemplo</th></tr></thead><tbody><tr><td>で (instrumental)</td><td>medio/herramienta</td><td>バスで行く</td></tr><tr><td>で (locativo)</td><td>lugar de acción</td><td>図書館で勉強する</td></tr><tr><td>を</td><td>CD (objeto)</td><td>本を読む</td></tr></tbody></table><h3 class="section-title">📖 Glosario de la lección</h3><details>
 <summary>Ver términos nuevos</summary>
-
-- **で (instrumental)** — partícula que marca el medio o la herramienta
-- **で (locativo)** — partícula que marca el lugar de la acción
-- **バス** — autobús
-- **自転車(じてんしゃ)** — bicicleta
-- **箸(はし)** — palillos
-- **鉛筆(えんぴつ)** — lápiz
-- **図書館(としょかん)** — biblioteca
-- **公園(こうえん)** — parque
-- **教室(きょうしつ)** — aula
-- **レストラン** — restaurante
-
+<ul>
+  <li><strong>で (instrumental)</strong> — partícula que marca el medio o la herramienta</li>
+  <li><strong>で (locativo)</strong> — partícula que marca el lugar de la acción</li>
+  <li><strong>バス</strong> — autobús</li>
+  <li><strong><ruby>自転車<rt>じてんしゃ</rt></ruby></strong> — bicicleta</li>
+  <li><strong><ruby>箸<rt>はし</rt></ruby></strong> — palillos</li>
+  <li><strong><ruby>鉛筆<rt>えんぴつ</rt></ruby></strong> — lápiz</li>
+  <li><strong><ruby>図書館<rt>としょかん</rt></ruby></strong> — biblioteca</li>
+  <li><strong><ruby>公園<rt>こうえん</rt></ruby></strong> — parque</li>
+  <li><strong><ruby>教室<rt>きょうしつ</rt></ruby></strong> — aula</li>
+  <li><strong>レストラン</strong> — restaurante</li>
+</ul>
 </details>
 <p class="body-text">---</p>
 <p class="body-text"><em>Creada por exponer-contenidos — 2026-06-21</em></p>
@@ -126,6 +130,18 @@ details.glosario strong{color:#1e293b}
   <span id="slide-counter" class="slide-counter">1 / 3</span>
   <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
 </footer>
+<div class="license-badge">
+  <p class="flex items-center gap-2">
+    <span>&#x1f7e2;</span>
+    <span>
+      Contenido did&aacute;ctico y software creados por <strong>Francisco Maseda</strong> (<a href="mailto:framadem@gmail.com">framadem@gmail.com</a>).
+    </span>
+  </p>
+  <p class="mt-1 pl-6 text-xs text-gray-400 dark:text-gray-500">
+    Este proyecto es de cultura libre. Todo el material y el c&oacute;digo fuente est&aacute;n protegidos bajo <strong>Copyleft</strong>.
+    Consulta las condiciones de uso, atribuci&oacute;n y licencias en el archivo <a href="/LICENSE.md" target="_blank">LICENSE.md</a> del proyecto.
+  </p>
+</div>
 <script>(()=>{
   const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
   let cur=0;

@@ -57,6 +57,10 @@ details.glosario li:last-child{border-bottom:none}
 details.glosario strong{color:#1e293b}
 .conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
 .conversation p{margin-bottom:.25rem}
+.license-badge{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #e2e8f0;font-size:.8125rem;color:#64748b}
+.license-badge p{margin-bottom:.25rem}
+.license-badge a{color:#2563eb;text-decoration:underline}
+.license-badge a:hover{color:#1d4ed8}
 .bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
 .nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
 .nav-btn:hover{background:#f1f5f9}
@@ -97,18 +101,18 @@ details.glosario strong{color:#1e293b}
   <h3 class="section-title">📐 Esquema general</h3><table><thead><tr><th>Adverbio</th><th>Significado</th><th>Va con</th></tr></thead><tbody><tr><td>いつも</td><td>siempre</td><td>afirmativo ✅</td></tr><tr><td>よく</td><td>a menudo</td><td>afirmativo ✅</td></tr><tr><td>ときどき</td><td>a veces</td><td>afirmativo ✅</td></tr><tr><td>あまり</td><td>no mucho</td><td>negativo ❌</td></tr><tr><td>ぜんぜん</td><td>nunca / en absoluto</td><td>negativo ❌</td></tr></tbody></table>
 <p class="body-text">Colocación: <strong>antes del verbo</strong>, no al inicio.</p><h3 class="section-title">💬 Más ejemplos</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>田中<rt>たなか</rt></ruby><ruby>さんはいつも元気<rt>げんき</rt></ruby>です</td><td>El Sr. Tanaka siempre está bien</td></tr><tr><td><ruby>私<rt>わたし</rt></ruby><ruby>はよく本<rt>ほん</rt></ruby><ruby>を読<rt>よ</rt></ruby>みます</td><td>Yo a menudo leo libros</td></tr><tr><td><ruby>私<rt>わたし</rt></ruby><ruby>はときどき公園<rt>こうえん</rt></ruby><ruby>に行<rt>い</rt></ruby>きます</td><td>Yo a veces voy al parque</td></tr><tr><td><ruby>私<rt>わたし</rt></ruby>はあまりテレビ<ruby>を見<rt>み</rt></ruby>ません</td><td>Yo no veo mucha televisión</td></tr><tr><td><ruby>彼<rt>かれ</rt></ruby><ruby>はぜんぜん日本語<rt>にほんご</rt></ruby><ruby>が話<rt>はな</rt></ruby>せません</td><td>Él no puede hablar nada de japonés</td></tr></tbody></table><h3 class="section-title">📖 Glosario de la lección</h3><details>
 <summary>Ver términos nuevos</summary>
-
-- **いつも** — siempre
-- **よく** — a menudo
-- **ときどき** — a veces
-- **あまり** — no mucho (con negación)
-- **ぜんぜん** — nunca, en absoluto (con negación)
-- **料理(りょうり)** — cocina, cocinar
-- **肉(にく)** — carne
-- **お酒(さけ)** — alcohol, bebida alcohólica
-- **公園(こうえん)** — parque
-- **テレビ** — televisión
-
+<ul>
+  <li><strong>いつも</strong> — siempre</li>
+  <li><strong>よく</strong> — a menudo</li>
+  <li><strong>ときどき</strong> — a veces</li>
+  <li><strong>あまり</strong> — no mucho (con negación)</li>
+  <li><strong>ぜんぜん</strong> — nunca, en absoluto (con negación)</li>
+  <li><strong><ruby>料理<rt>りょうり</rt></ruby></strong> — cocina, cocinar</li>
+  <li><strong><ruby>肉<rt>にく</rt></ruby></strong> — carne</li>
+  <li><strong><ruby>お酒<rt>さけ</rt></ruby></strong> — alcohol, bebida alcohólica</li>
+  <li><strong><ruby>公園<rt>こうえん</rt></ruby></strong> — parque</li>
+  <li><strong>テレビ</strong> — televisión</li>
+</ul>
 </details>
 <p class="body-text">---</p>
 <p class="body-text">Creado por planificacion-niveles desde raws/ — 2026-06-21</p>
@@ -118,6 +122,18 @@ details.glosario strong{color:#1e293b}
   <span id="slide-counter" class="slide-counter">1 / 2</span>
   <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
 </footer>
+<div class="license-badge">
+  <p class="flex items-center gap-2">
+    <span>&#x1f7e2;</span>
+    <span>
+      Contenido did&aacute;ctico y software creados por <strong>Francisco Maseda</strong> (<a href="mailto:framadem@gmail.com">framadem@gmail.com</a>).
+    </span>
+  </p>
+  <p class="mt-1 pl-6 text-xs text-gray-400 dark:text-gray-500">
+    Este proyecto es de cultura libre. Todo el material y el c&oacute;digo fuente est&aacute;n protegidos bajo <strong>Copyleft</strong>.
+    Consulta las condiciones de uso, atribuci&oacute;n y licencias en el archivo <a href="/LICENSE.md" target="_blank">LICENSE.md</a> del proyecto.
+  </p>
+</div>
 <script>(()=>{
   const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
   let cur=0;

@@ -57,6 +57,10 @@ details.glosario li:last-child{border-bottom:none}
 details.glosario strong{color:#1e293b}
 .conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
 .conversation p{margin-bottom:.25rem}
+.license-badge{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #e2e8f0;font-size:.8125rem;color:#64748b}
+.license-badge p{margin-bottom:.25rem}
+.license-badge a{color:#2563eb;text-decoration:underline}
+.license-badge a:hover{color:#1d4ed8}
 .bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
 .nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
 .nav-btn:hover{background:#f1f5f9}
@@ -95,15 +99,15 @@ details.glosario strong{color:#1e293b}
 <p class="body-text"><code>`</code></p>
 <table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>新<rt>あたら</rt></ruby><ruby>しい本<rt>ほん</rt></ruby></td><td>un libro nuevo</td></tr><tr><td><ruby>大<rt>おお</rt></ruby><ruby>きい犬<rt>いぬ</rt></ruby></td><td>un perro grande</td></tr><tr><td><ruby>安<rt>やす</rt></ruby><ruby>い車<rt>くるま</rt></ruby></td><td>un coche barato</td></tr><tr><td><ruby>おいしい食<rt>た</rt></ruby>べもの</td><td>comida deliciosa</td></tr></tbody></table><h3 class="section-title">💬 Oraciones completas</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>あれは新<rt>あたら</rt></ruby><ruby>しい車<rt>くるま</rt></ruby>です</td><td>Aquello es un coche nuevo</td></tr><tr><td><ruby>この本<rt>ほん</rt></ruby>はおもしろいです</td><td>Este libro es interesante</td></tr><tr><td><ruby>その猫<rt>ねこ</rt></ruby><ruby>は小<rt>ちい</rt></ruby>さいです</td><td>Ese gato es pequeño</td></tr><tr><td><ruby>日本<rt>にほん</rt></ruby><ruby>の食<rt>た</rt></ruby>べものはおいしいです</td><td>La comida japonesa es deliciosa</td></tr></tbody></table><h3 class="section-title">📖 Glosario de la lección</h3><details>
 <summary>Ver términos nuevos</summary>
-
-- **い形容詞(いけいようし)** — adjetivo -i
-- **新(あたら)しい** — nuevo
-- **大(おお)きい** — grande
-- **小(ちい)さい** — pequeño
-- **安(やす)い** — barato
-- **おいしい** — delicioso
-- **おもしろい** — interesante, divertido
-
+<ul>
+  <li><strong><ruby>い形容詞<rt>いけいようし</rt></ruby></strong> — adjetivo -i</li>
+  <li><strong><ruby>新<rt>あたら</rt></ruby>しい</strong> — nuevo</li>
+  <li><strong><ruby>大<rt>おお</rt></ruby>きい</strong> — grande</li>
+  <li><strong><ruby>小<rt>ちい</rt></ruby>さい</strong> — pequeño</li>
+  <li><strong><ruby>安<rt>やす</rt></ruby>い</strong> — barato</li>
+  <li><strong>おいしい</strong> — delicioso</li>
+  <li><strong>おもしろい</strong> — interesante, divertido</li>
+</ul>
 </details>
 <p class="body-text">---</p>
 <p class="body-text">Creado por planificacion-niveles desde raws/ — 2026-06-21</p>
@@ -113,6 +117,18 @@ details.glosario strong{color:#1e293b}
   <span id="slide-counter" class="slide-counter">1 / 2</span>
   <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
 </footer>
+<div class="license-badge">
+  <p class="flex items-center gap-2">
+    <span>&#x1f7e2;</span>
+    <span>
+      Contenido did&aacute;ctico y software creados por <strong>Francisco Maseda</strong> (<a href="mailto:framadem@gmail.com">framadem@gmail.com</a>).
+    </span>
+  </p>
+  <p class="mt-1 pl-6 text-xs text-gray-400 dark:text-gray-500">
+    Este proyecto es de cultura libre. Todo el material y el c&oacute;digo fuente est&aacute;n protegidos bajo <strong>Copyleft</strong>.
+    Consulta las condiciones de uso, atribuci&oacute;n y licencias en el archivo <a href="/LICENSE.md" target="_blank">LICENSE.md</a> del proyecto.
+  </p>
+</div>
 <script>(()=>{
   const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
   let cur=0;
