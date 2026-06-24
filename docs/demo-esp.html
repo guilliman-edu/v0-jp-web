@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koe + Game — demo de pronunciación</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <script>(function() {
+// ===== packages/common-api/src/speech/recognition.ts =====
+const DEFAULT_CONFIG = {
+  lang: "ja-JP",
+  continuous: true,
+  interimResults: true,
+  maxAlternatives: 5,
+};
+function getSpeechRecognition() {
+  if (typeof window === "undefined") return undefined;
+  return window.SpeechRecognition || window.webkitSpeechRecognition;
+}
+function isSpeechSupported() {
+  return getSpeechRecognition() !== undefined;
+}
+function createRecognizer(config = {}, callback) {
+  const SR = getSpeechRecognition();
+  if (!SR) {
+    callback({ kind: "error", data: { type: "unsupported", message: "SpeechRecognition API no está disponible en este navegador" } });
+    return { start() {}, stop() {}, abort() {} };
+  }
+  const recognition = new SR();
+  const cfg = { ...DEFAULT_CONFIG, ...config };
+  recognition.lang = cfg.lang;
+  recognition.continuous = cfg.continuous;
+  recognition.interimResults = cfg.interimResults;
+  recognition.maxAlternatives = cfg.maxAlternatives;
+  recognition.onresult = (event) => {
+    const result = event.results[event.resultIndex];
+    const alternatives = Array.from(result).map((alt) => ({
+      transcript: alt.transcript, confidence: alt.confidence
+    }));
+    callback({ kind: "result", data: { alternatives, isFinal: result.isFinal } });
+  };
+  recognition.onerror = (event) => {
+    let type;
+    switch (event.error) {
+      case "no-speech": type = "no-speech"; break;
+      case "not-allowed": type = "not-allowed"; break;
+      case "network": type = "network"; break;
+      default: type = "network";
+    }
+    callback({ kind: "error", data: { type, message: event.message || event.error } });
+  };
+  recognition.onend = () => { callback({ kind: "end" }); };
+  return {
+    start() { recognition.start(); },
+    stop() { recognition.stop(); },
+    abort() { recognition.abort(); },
+  };
+}
+
+// ===== packages/common-api/src/speech/normalize.ts =====
+function findMatch(candidates, accepted) {
+  if (candidates.length === 0 || accepted.length === 0) {
+    return { matched: false, candidate: null };
+  }
+  for (const c of candidates) {
+    const match = accepted.some((t) => c.transcript.includes(t) || t.includes(c.transcript));
+    if (match) {
+      return { matched: true, candidate: c };
+    }
+  }
+  return { matched: false, candidate: null };
+}
+
+// ===== packages/common-api/src/speech/index.ts =====
+class Koe {
+  static async checkCompatibility() {
+    let micPermission = "unknown";
+    if (typeof navigator !== "undefined" && "permissions" in navigator) {
+      try {
+        const status = await navigator.permissions.query({ name: "microphone" });
+        micPermission = status.state;
+      } catch { micPermission = "unknown"; }
+    }
+    return {
+      supported: isSpeechSupported(),
+      secureContext: typeof location === "undefined" || location.protocol === "https:" || location.hostname === "localhost",
+      online: typeof navigator === "undefined" || navigator.onLine,
+      micPermission,
+    };
+  }
+
+  recognizer = null;
+  started = false;
+  callbacks;
+  _listening = false;
+  _userStopped = false;
+
+  constructor(callbacks = {}) { this.callbacks = callbacks; }
+
+  static isSupported() { return isSpeechSupported(); }
+
+  get listening() { return this._listening; }
+  set listening(value) {
+    this._listening = value;
+    this.callbacks.onListeningChange?.(value);
+  }
+
+  async requestMicrophone() {
+    try {
+      await navigator.mediaDevices.getUserMedia({ audio: true });
+      return true;
+    } catch {
+      this.callbacks.onPermissionDenied?.();
+      return false;
+    }
+  }
+
+  init() {
+    if (this.recognizer) return;
+    if (!isSpeechSupported()) {
+      this.callbacks.onError?.({ type: "unsupported", message: "SpeechRecognition no disponible en este navegador" });
+      return;
+    }
+    this._userStopped = false;
+    this.recognizer = createRecognizer(
+      { lang: "ja-JP", continuous: true, interimResults: true, maxAlternatives: 5 },
+      (event) => {
+        switch (event.kind) {
+          case "result": this.handleResult(event.data); break;
+          case "error": this.handleError(event.data); break;
+          case "end": this.handleEnd(); break;
+        }
+      }
+    );
+    this.recognizer.start();
+    this.started = true;
+  }
+
+  get isListening() { return this.started && this.recognizer !== null; }
+
+  destroy() {
+    this._userStopped = true;
+    this._listening = false;
+    this.recognizer?.abort();
+    this.recognizer = null;
+    this.started = false;
+  }
+
+  handleResult(data) {
+    if (!this._listening) return;
+    if (!data.isFinal) return;
+    const candidates = data.alternatives.map((alt, i) => ({
+      transcript: alt.transcript.trim(),
+      confidence: alt.confidence,
+      position: i,
+    }));
+    this._listening = false;
+    this.callbacks.onListeningChange?.(false);
+    this.callbacks.onCaptureComplete?.(candidates);
+  }
+
+  handleError(error) {
+    switch (error.type) {
+      case "not-allowed":
+        this._userStopped = true;
+        this.callbacks.onPermissionDenied?.();
+        this.recognizer = null;
+        this.started = false;
+        break;
+      case "no-speech":
+        this._listening = false;
+        this.callbacks.onListeningChange?.(false);
+        this.callbacks.onNoSpeech?.();
+        break;
+      case "network":
+        this.recognizer?.start();
+        break;
+    }
+    this.callbacks.onError?.(error);
+  }
+
+  handleEnd() {
+    if (!this._userStopped && this.recognizer) {
+      this.recognizer.start();
+    }
+  }
+}
+
+// ===== packages/game/src/random.ts =====
+function shuffleFisherYates(array) {
+  const result = [...array];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+function weightedPick(items) {
+  const totalWeight = items.reduce((sum, { weight }) => sum + weight, 0);
+  let r = Math.random() * totalWeight;
+  for (const { item, weight } of items) {
+    r -= weight;
+    if (r <= 0) return item;
+  }
+  return items[items.length - 1].item;
+}
+
+// ===== packages/game/src/score.ts =====
+function calculateExercisePoints(difficulty, accuracy) {
+  const base = difficulty * 10;
+  const multiplier = accuracy >= 0.9 ? 1.5 : 1;
+  return Math.round(base * multiplier);
+}
+
+// ===== packages/game/src/achievements.ts =====
+function calculateStars(averageAccuracy, thresholds = [0, 70, 90]) {
+  let stars = 0;
+  for (const t of thresholds) {
+    if (averageAccuracy * 100 >= t) stars++;
+    else break;
+  }
+  return Math.min(stars, thresholds.length);
+}
+function evaluateAchievements(playerState, achievements, unlockedIds) {
+  return achievements.filter(
+    (a) => !unlockedIds.includes(a.id) && a.condition(playerState)
+  );
+}
+
+// ===== packages/game/src/evaluate.ts =====
+const SPEECH_LEVELS = [
+  { threshold: 0.85, level: "Excelente" },
+  { threshold: 0.65, level: "Bien" },
+  { threshold: 0.45, level: "Aceptable" },
+  { threshold: 0.20, level: "Mejorable" },
+];
+function getSpeechLevel(score) {
+  if (score === 0) return "No reconocido";
+  for (const l of SPEECH_LEVELS) {
+    if (score >= l.threshold) return l.level;
+  }
+  return "Mejorable";
+}
+
+const FEEDBACK = {
+  choiceCorrect: "¡Respuesta correcta!",
+  choiceWrong: "Respuesta incorrecta.",
+  textExact: "¡Coincide exactamente!",
+  textPartial: "Casi… revisa la ortografía.",
+  textWrong: "No coincide. Revisa el material.",
+};
+function normalize(text) { return text.trim().toLowerCase(); }
+function evaluateChoice(correct, playerAnswer) {
+  const match = normalize(playerAnswer) === normalize(correct);
+  return { correct: match, accuracy: match ? 1 : 0, type: "choice", feedback: match ? FEEDBACK.choiceCorrect : FEEDBACK.choiceWrong };
+}
+function evaluateText(accepted, playerAnswer) {
+  const playerNorm = normalize(playerAnswer);
+  const normalizedAccepted = accepted.map(normalize);
+  const exactMatch = normalizedAccepted.some((a) => a === playerNorm);
+  if (exactMatch) return { correct: true, accuracy: 1, type: "text", feedback: FEEDBACK.textExact };
+  const partialMatch = normalizedAccepted.some((a) => a.includes(playerNorm) || playerNorm.includes(a));
+  if (partialMatch) return { correct: false, accuracy: 0.5, type: "text", feedback: FEEDBACK.textPartial };
+  return { correct: false, accuracy: 0, type: "text", feedback: FEEDBACK.textWrong };
+}
+function evaluateSpeech(accepted, candidates) {
+  const match = findMatch(candidates, accepted);
+  if (!match.matched || !match.candidate) {
+    return { score: 0, level: "No reconocido", matchedAt: null, transcript: "" };
+  }
+  const { candidate } = match;
+  const positionScore = 1 - (candidate.position / 5);
+  const confidenceScore = candidate.confidence;
+  const score = (positionScore * 0.4) + (confidenceScore * 0.6);
+  return {
+    score,
+    level: getSpeechLevel(score),
+    matchedAt: candidate.position,
+    transcript: candidate.transcript,
+  };
+}
+function evaluateMove(correct, playerAnswer, type) {
+  switch (type) {
+    case "choice": return evaluateChoice(correct, playerAnswer);
+    case "text": return evaluateText(Array.isArray(correct) ? correct : [correct], playerAnswer);
+    case "speech": {
+      const speechResult = evaluateSpeech(Array.isArray(correct) ? correct : [correct], Array.isArray(playerAnswer) ? playerAnswer : []);
+      return {
+        correct: speechResult.score > 0,
+        accuracy: speechResult.score,
+        type: "speech",
+        feedback: speechResult.level,
+      };
+    }
+  }
+}
+function processMove(config, state, move) {
+  const correct = config.moveType === "choice" ? config.correctAnswer ?? "" : config.accepted ?? [];
+  const evaluation = evaluateMove(correct, move.playerAnswer, config.moveType);
+  const pointsEarned = calculateExercisePoints(config.difficulty, evaluation.accuracy);
+  const totalAccuracy = state.lastAccuracy * state.completedLessons + evaluation.accuracy;
+  const newLessonCount = state.completedLessons + (evaluation.correct ? 1 : 0);
+  const averageAccuracy = newLessonCount > 0 ? totalAccuracy / newLessonCount : 0;
+  const starRating = calculateStars(averageAccuracy, config.starThresholds);
+  const updatedState = {
+    completedLessons: newLessonCount,
+    completedSequences: state.completedSequences,
+    level: state.level,
+    streak: state.streak,
+    perfectLessons: state.perfectLessons + (evaluation.accuracy >= 0.9 ? 1 : 0),
+    threeStarLessons: state.threeStarLessons + (starRating >= 3 ? 1 : 0),
+    lastAccuracy: averageAccuracy,
+  };
+  const newAchievements = evaluateAchievements(updatedState, [], []);
+  return { evaluation, pointsEarned, newAchievements, starRating, averageAccuracy, updatedState };
+}
+
+// ===== bundle entry =====
+window.KoeGame = {
+  Koe,
+  isSpeechSupported,
+  processMove,
+  shuffleFisherYates,
+  weightedPick,
+};
+})();</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', 'Noto Sans JP', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .app { max-width: 40rem; width: 100%; margin: 1rem 0; }
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.75rem 1rem;
+      background: #1e293b; border-radius: 0.75rem; margin-bottom: 1rem;
+    }
+    .topbar h1 { font-size: 1.125rem; font-weight: 700; }
+    .topbar-stats { display: flex; gap: 1rem; font-size: 0.8rem; color: #94a3b8; }
+    .topbar-stats span { display: flex; align-items: center; gap: 0.25rem; }
+    .topbar-stats strong { color: #e2e8f0; font-weight: 600; }
+    .progress-bar {
+      width: 100%; height: 4px; background: #334155; border-radius: 2px; margin-bottom: 1.5rem;
+    }
+    .progress-fill {
+      height: 100%; background: #3b82f6; border-radius: 2px; transition: width 0.4s ease;
+    }
+    .word-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      gap: 0.4rem; margin-bottom: 1.5rem;
+    }
+    .word-card {
+      background: #1e293b; border: 2px solid #334155; border-radius: 0.5rem;
+      padding: 0.5rem; text-align: center; font-size: 0.85rem;
+      transition: all 0.3s;
+    }
+    .word-card.is-current { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,0.2); transform: scale(1.05); }
+    .word-card.is-correct { border-color: #22c55e; background: #14532d; }
+    .word-card.is-wrong { border-color: #ef4444; background: #450a0a; }
+    .word-jp { display: block; font-size: 1rem; }
+    .word-es { display: block; font-size: 0.65rem; color: #94a3b8; }
+
+    .speech-area {
+      background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem;
+      padding: 2rem; text-align: center; margin-bottom: 1rem;
+    }
+    .speech-area .counter { font-size: 0.8rem; color: #64748b; margin-bottom: 0.5rem; }
+    .speech-area h2 { font-size: 2.5rem; margin-bottom: 0.25rem; }
+    .speech-area .hint { font-size: 0.9rem; color: #94a3b8; margin-bottom: 1.5rem; }
+    .speech-area .listening-indicator {
+      font-size: 0.85rem; color: #22c55e; margin-bottom: 0.75rem;
+      display: none; align-items: center; justify-content: center; gap: 0.5rem;
+    }
+    .speech-area .listening-indicator.show { display: flex; }
+    .listening-dot {
+      display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+      background: #22c55e; animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 3px rgba(34,197,94,0.3); }
+      50% { box-shadow: 0 0 0 7px rgba(34,197,94,0.1); }
+    }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem;
+      font-weight: 600; font-size: 1rem; cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn:disabled { opacity: 0.4; cursor: default; }
+    .btn-primary { background: #3b82f6; color: white; }
+    .btn-primary:hover:not(:disabled) { background: #2563eb; }
+    .feedback {
+      margin-top: 1rem; padding: 0.75rem; border-radius: 0.5rem;
+      font-size: 0.9rem; min-height: 3rem;
+    }
+    .feedback.excelente { background: #052e16; color: #86efac; border: 1px solid #166534; }
+    .feedback.bien { background: #052e16; color: #86efac; border: 1px solid #166534; }
+    .feedback.aceptable { background: #422006; color: #fde68a; border: 1px solid #854d0e; }
+    .feedback.mejorable { background: #450a0a; color: #fca5a5; border: 1px solid #991b1b; }
+    .feedback.no-reconocido { background: #450a0a; color: #fca5a5; border: 1px solid #991b1b; }
+    .feedback.waiting { background: #1e293b; color: #64748b; border: 1px dashed #334155; }
+    .interim { font-size: 0.85rem; color: #64748b; font-style: italic; min-height: 1.5rem; margin-top: 0.5rem; }
+    .game-feedback {
+      display: flex; gap: 1rem; justify-content: center; margin-top: 0.75rem; font-size: 0.85rem;
+    }
+    .game-feedback span { display: flex; align-items: center; gap: 0.25rem; }
+    .achievement-popup {
+      position: fixed; bottom: 1rem; right: 1rem;
+      background: #1e293b; border: 1px solid #f59e0b; border-radius: 0.75rem;
+      padding: 1rem; display: none; max-width: 20rem; animation: slideUp 0.3s ease;
+    }
+    .achievement-popup.show { display: block; }
+    @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    .achievement-popup h4 { color: #f59e0b; margin-bottom: 0.25rem; }
+    .achievement-popup p { font-size: 0.85rem; color: #94a3b8; }
+    .result-screen { display: none; }
+    .result-screen.show { display: block; }
+    .result-screen h2 { text-align: center; margin-bottom: 1rem; }
+    .result-stats {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem;
+    }
+    .result-stat { background: #1e293b; border-radius: 0.75rem; padding: 1rem; text-align: center; }
+    .result-stat .value { font-size: 1.5rem; font-weight: 700; }
+    .result-stat .label { font-size: 0.8rem; color: #94a3b8; }
+  </style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <h1>Koe + Game</h1>
+    <div class="topbar-stats">
+      <span>⭐ <strong id="starCount">0</strong></span>
+      <span>🏆 <strong id="achCount">0</strong></span>
+      <span>🔥 <strong id="xpDisplay">0</strong> XP</span>
+    </div>
+  </div>
+
+  <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+  <div class="word-grid" id="wordGrid"></div>
+
+  <div id="gamePhase">
+    <div class="speech-area">
+      <div class="counter" id="counter">Palabra 1 de 15</div>
+      <h2 id="currentWord">—</h2>
+      <p class="hint" id="currentHint">Preparando...</p>
+      <div class="listening-indicator" id="listeningIndicator">
+        <span class="listening-dot"></span> Escuchando...
+      </div>
+      <div style="display:flex;gap:0.5rem;justify-content:center">
+        <button class="btn btn-primary" id="btnListen">🎤 Escuchar</button>
+        <button class="btn btn-primary" id="btnNext" style="display:none">➡ Siguiente</button>
+      </div>
+      <div class="interim" id="interim"></div>
+      <div class="feedback waiting" id="feedback">Presiona "Escuchar" para activar el micrófono</div>
+      <div class="game-feedback" id="gameFeedback"></div>
+    </div>
+  </div>
+
+  <div class="result-screen" id="resultScreen">
+    <h2>🎉 ¡Lección completada!</h2>
+    <div class="result-stats">
+      <div class="result-stat"><div class="value" id="rCorrect">0/15</div><div class="label">Aciertos</div></div>
+      <div class="result-stat"><div class="value" id="rStars">⭐0</div><div class="label">Estrellas</div></div>
+      <div class="result-stat"><div class="value" id="rXP">0</div><div class="label">XP ganados</div></div>
+    </div>
+    <div style="text-align:center">
+      <button class="btn btn-primary" onclick="location.reload()">🔄 Repetir</button>
+    </div>
+  </div>
+
+  <div class="achievement-popup" id="achPopup">
+    <h4>🏅 ¡Logro desbloqueado!</h4>
+    <p id="achPopupText"></p>
+  </div>
+</div>
+
+<script>
+const { Koe, processMove, shuffleFisherYates } = window.KoeGame
+
+const WORDS = [
+  { jp: 'すし', es: 'sushi', accepted: ['sushi', 'すし', 'スシ'] },
+  { jp: 'さくら', es: 'cerezo en flor', accepted: ['sakura', 'さくら', 'サクラ', '桜'] },
+  { jp: 'ふじさん', es: 'monte Fuji', accepted: ['fujisan', 'ふじさん', '富士山'] },
+  { jp: 'ありがとう', es: 'gracias', accepted: ['arigatou', 'ありがとう', 'arigato'] },
+  { jp: 'こんにちは', es: 'hola', accepted: ['konnichiwa', 'こんにちは', 'konichiwa'] },
+  { jp: 'さようなら', es: 'adiós', accepted: ['sayounara', 'さようなら', 'sayonara'] },
+  { jp: 'おはよう', es: 'buenos días', accepted: ['ohayou', 'おはよう', 'ohayo'] },
+  { jp: 'すみません', es: 'disculpe', accepted: ['sumimasen', 'すみません'] },
+  { jp: 'おいしい', es: 'rico/sabroso', accepted: ['oishii', 'おいしい', 'oishī'] },
+  { jp: 'かわいい', es: 'bonito/adorable', accepted: ['kawaii', 'かわいい'] },
+  { jp: 'せんせい', es: 'profesor', accepted: ['sensei', 'せんせい', '先生'] },
+  { jp: 'がくせい', es: 'estudiante', accepted: ['gakusei', 'がくせい', '学生'] },
+  { jp: 'でんわ', es: 'teléfono', accepted: ['denwa', 'でんわ', '電話'] },
+  { jp: 'ほん', es: 'libro', accepted: ['hon', 'ほん', '本'] },
+  { jp: 'みず', es: 'agua', accepted: ['mizu', 'みず', '水'] },
+  { jp: 'さかな', es: 'pescado', accepted: ['sakana', 'さかな', '魚'] },
+  { jp: 'やま', es: 'montaña', accepted: ['yama', 'やま', '山'] },
+  { jp: 'まち', es: 'ciudad', accepted: ['machi', 'まち', '町'] },
+  { jp: 'くも', es: 'nube', accepted: ['kumo', 'くも', '雲'] },
+  { jp: 'つき', es: 'luna', accepted: ['tsuki', 'つき', '月'] },
+]
+
+const words = shuffleFisherYates(WORDS).slice(0, 15)
+let index = 0
+let totalXP = 0
+let totalStars = 0
+let unlocked = []
+let processing = false
+
+const grid = document.getElementById('wordGrid')
+const currentWord = document.getElementById('currentWord')
+const currentHint = document.getElementById('currentHint')
+const counter = document.getElementById('counter')
+const btnListen = document.getElementById('btnListen')
+const listeningIndicator = document.getElementById('listeningIndicator')
+const interim = document.getElementById('interim')
+const feedback = document.getElementById('feedback')
+const gameFeedback = document.getElementById('gameFeedback')
+const progressFill = document.getElementById('progressFill')
+const starCount = document.getElementById('starCount')
+const achCount = document.getElementById('achCount')
+const xpDisplay = document.getElementById('xpDisplay')
+const achPopup = document.getElementById('achPopup')
+const achPopupText = document.getElementById('achPopupText')
+const gamePhase = document.getElementById('gamePhase')
+const resultScreen = document.getElementById('resultScreen')
+
+words.forEach((w, i) => {
+  const card = document.createElement('div')
+  card.className = 'word-card'
+  card.innerHTML = '<span class="word-jp">' + w.jp + '</span><span class="word-es">' + w.es + '</span>'
+  grid.appendChild(card)
+})
+
+function updateGrid() {
+  document.querySelectorAll('.word-card').forEach(function(card, i) {
+    card.classList.toggle('is-current', i === index)
+    card.classList.toggle('is-correct', i < index)
+  })
+}
+
+function showWord(i) {
+  index = i
+  currentWord.textContent = words[i].jp
+  currentHint.textContent = '«' + words[i].es + '» — dilo en japonés'
+  counter.textContent = 'Palabra ' + (i + 1) + ' de ' + words.length
+  feedback.className = 'feedback waiting'
+  feedback.textContent = '🎤 Presiona "Escuchar" y di la palabra...'
+  gameFeedback.innerHTML = ''
+  interim.textContent = ''
+  btnListen.disabled = false
+  updateGrid()
+}
+
+function feedbackClass(level) {
+  switch (level) {
+    case 'Excelente': return 'excelente'
+    case 'Bien': return 'bien'
+    case 'Aceptable': return 'aceptable'
+    case 'Mejorable': return 'mejorable'
+    default: return 'no-reconocido'
+  }
+}
+
+const koe = new Koe({
+  onCaptureComplete: function(candidates) {
+    if (processing) return
+    processing = true
+    const word = words[index]
+    const config = {
+      difficulty: 3,
+      starThresholds: [0, 30, 60],
+      accepted: word.accepted,
+      moveType: 'speech',
+    }
+    const state = {
+      completedLessons: index,
+      completedSequences: 0,
+      level: 1, streak: 0,
+      perfectLessons: 0, threeStarLessons: 0, lastAccuracy: 0,
+    }
+    const moveResult = processMove(config, state, { playerAnswer: candidates })
+    totalXP += moveResult.pointsEarned
+    totalStars = moveResult.starRating
+
+    const correctCount = index + (moveResult.evaluation.correct ? 1 : 0)
+    const newAch = []
+    if (correctCount >= 1 && unlocked.indexOf('first') === -1) { newAch.push({id:'first',name:'Primer paso',desc:'Primera palabra bien pronunciada'}) }
+    if (correctCount >= 5 && unlocked.indexOf('five') === -1) { newAch.push({id:'five',name:'Aprendiz',desc:'5 palabras bien pronunciadas'}) }
+    if (correctCount >= 10 && unlocked.indexOf('ten') === -1) { newAch.push({id:'ten',name:'Estudiante',desc:'10 palabras bien pronunciadas'}) }
+    newAch.forEach(function(a) { unlocked.push(a.id); showAchievement(a) })
+
+    const level = moveResult.evaluation.feedback
+    const cls = feedbackClass(level)
+    feedback.className = 'feedback ' + cls
+    feedback.textContent = level + ' — puntuación: ' + (moveResult.evaluation.accuracy * 100).toFixed(0) + '%'
+    gameFeedback.innerHTML = '<span>+' + moveResult.pointsEarned + ' XP</span><span>⭐ ' + moveResult.starRating + '</span>'
+    if (newAch.length) gameFeedback.innerHTML += '<span>🏅 +' + newAch.length + '</span>'
+    updateGrid()
+    starCount.textContent = totalStars
+    achCount.textContent = unlocked.length
+    xpDisplay.textContent = totalXP
+    progressFill.style.width = ((index + 1) / words.length * 100) + '%'
+
+    btnListen.style.display = 'none'
+    document.getElementById('btnNext').style.display = 'inline-flex'
+    listeningIndicator.classList.remove('show')
+
+    if (index + 1 >= words.length) {
+      document.getElementById('btnNext').textContent = '🎉 Ver resultados'
+    }
+  },
+  onListeningChange: function(listening) {
+    if (listening) {
+      listeningIndicator.classList.add('show')
+      feedback.className = 'feedback waiting'
+      feedback.textContent = '🎤 Escuchando... di la palabra'
+      interim.textContent = ''
+    } else {
+      listeningIndicator.classList.remove('show')
+    }
+  },
+  onPermissionDenied: function() {
+    feedback.className = 'feedback no-reconocido'
+    feedback.textContent = 'Permiso de micrófono denegado. Ve a ajustes del navegador.'
+    btnListen.disabled = true
+  },
+  onNoSpeech: function() {
+    intermediate = false
+    feedback.className = 'feedback no-reconocido'
+    feedback.textContent = 'No se detectó voz. Presiona "Escuchar" e intenta de nuevo.'
+    btnListen.disabled = false
+  },
+  onError: function(err) {
+    if (err.type === 'unsupported') {
+      feedback.className = 'feedback no-reconocido'
+      feedback.textContent = err.message
+      btnListen.disabled = true
+    }
+  },
+})
+
+btnListen.addEventListener('click', async function() {
+  if (!Koe.isSupported()) {
+    feedback.className = 'feedback no-reconocido'
+    feedback.textContent = 'SpeechRecognition no disponible. Usa Chrome o Edge.'
+    return
+  }
+  if (!koe.isListening) {
+    const granted = await koe.requestMicrophone()
+    if (!granted) return
+    koe.init()
+  }
+  koe.listening = true
+  btnListen.disabled = true
+})
+
+document.getElementById('btnNext').addEventListener('click', function() {
+  this.style.display = 'none'
+  btnListen.style.display = 'inline-flex'
+  processing = false
+  if (index + 1 >= words.length) {
+    finishLesson()
+  } else {
+    showWord(index + 1)
+  }
+})
+
+window.addEventListener('beforeunload', function() {
+  if (koe.isListening) koe.destroy()
+})
+
+if (!Koe.isSupported()) {
+  feedback.className = 'feedback no-reconocido'
+  feedback.textContent = '⚠️ SpeechRecognition no disponible. Usa Chrome o Edge.'
+}
+showWord(0)
+
+function finishLesson() {
+  koe.destroy()
+  gamePhase.style.display = 'none'
+  resultScreen.classList.add('show')
+  document.getElementById('rCorrect').textContent = Math.min(index + 1, words.length) + '/' + words.length
+  document.getElementById('rStars').textContent = '⭐' + totalStars + '/3'
+  document.getElementById('rXP').textContent = totalXP
+}
+
+function showAchievement(a) {
+  achPopup.querySelector('h4').textContent = '🏅 ' + a.name
+  achPopupText.textContent = a.desc
+  achPopup.classList.add('show')
+  setTimeout(function() { achPopup.classList.remove('show') }, 3000)
+}
+</script>
+</body>
+</html>

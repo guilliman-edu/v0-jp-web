@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel del estudiante</title>
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  min-height: 100vh;
+}
+.topbar {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: white; border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  position: sticky; top: 0; z-index: 30;
+}
+.topbar-title { font-size: 1rem; font-weight: 700; color: #0f172a; }
+.topbar-level {
+  font-size: 0.75rem; font-weight: 600;
+  background: #dbeafe; color: #1d4ed8;
+  padding: 0.125rem 0.5rem; border-radius: 9999px;
+  text-transform: uppercase;
+}
+.topbar-spacer { flex: 1; }
+.profile-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #e2e8f0; border-radius: 0.5rem;
+  background: white; cursor: pointer;
+  font-size: 0.8rem; font-weight: 500; color: #475569;
+  line-height: 1;
+  transition: all 0.15s;
+}
+.profile-btn:hover { background: #f1f5f9; border-color: #cbd5e1; }
+.main-content { padding: 1.5rem 1rem; max-width: 56rem; margin: 0 auto; width: 100%; }
+@media (min-width: 768px) { .main-content { padding: 2rem; } }
+
+/* --- Banner sin perfil --- */
+.profile-banner {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.875rem 1.25rem;
+  background: #fffbeb; border: 1px solid #fde68a;
+  border-radius: 0.75rem; margin-bottom: 1.5rem;
+}
+.profile-banner-text { flex: 1; font-size: 0.875rem; color: #92400e; }
+.profile-banner-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0.5rem 1rem;
+  background: #f59e0b; color: white; border: none;
+  border-radius: 0.5rem; font-size: 0.8rem; font-weight: 600;
+  cursor: pointer; transition: background 0.15s; white-space: nowrap;
+  line-height: 1;
+}
+.profile-banner-btn:hover { background: #d97706; }
+
+/* --- Modal perfil --- */
+.modal-overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,0.4); z-index: 100;
+  align-items: center; justify-content: center;
+  padding: 1rem;
+}
+.modal-overlay.open { display: flex; }
+.modal-card {
+  background: white; border-radius: 1rem;
+  width: 100%; max-width: 26rem;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+.modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1.25rem 1.5rem 0;
+}
+.modal-header h2 { font-size: 1.1rem; font-weight: 700; }
+.modal-close {
+  background: none; border: none; cursor: pointer;
+  color: #94a3b8; font-size: 1.5rem; padding: 0.25rem;
+  line-height: 1; border-radius: 0.375rem;
+}
+.modal-close:hover { color: #475569; }
+.modal-body { padding: 1.25rem 1.5rem 1.5rem; }
+.form-group { margin-bottom: 1.25rem; }
+.form-label {
+  display: block; font-size: 0.8rem; font-weight: 600;
+  color: #475569; margin-bottom: 0.375rem;
+  text-transform: uppercase; letter-spacing: 0.05em;
+}
+.form-input {
+  width: 100%; padding: 0.625rem 0.875rem;
+  border: 1px solid #d1d5db; border-radius: 0.5rem;
+  font-size: 0.95rem; font-family: inherit;
+  transition: border-color 0.15s;
+}
+.form-input:focus { outline: none; border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,0.15); }
+.level-options { display: flex; flex-direction: column; gap: 0.5rem; }
+.level-option {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0; border-radius: 0.75rem;
+  cursor: pointer; transition: all 0.15s;
+}
+.level-option:hover { border-color: #93c5fd; background: #eff6ff; }
+.level-option.selected { border-color: #3b82f6; background: #eff6ff; }
+.level-option input[type="radio"] { display: none; }
+.level-name { font-weight: 600; font-size: 0.95rem; }
+.level-desc { font-size: 0.8rem; color: #64748b; }
+.save-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 100%; padding: 0.75rem; margin-top: 0.5rem;
+  background: #3b82f6; color: white; border: none;
+  border-radius: 0.75rem; font-size: 1rem; font-weight: 600;
+  cursor: pointer; transition: background 0.15s;
+  line-height: 1;
+}
+.save-btn:hover { background: #2563eb; }
+.danger-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 100%; padding: 0.75rem; margin-top: 0.75rem;
+  background: white; color: #dc2626; border: 1px solid #fca5a5;
+  border-radius: 0.75rem; font-size: 0.9rem; font-weight: 600;
+  cursor: pointer; transition: all 0.15s;
+  line-height: 1;
+}
+.danger-btn:hover { background: #fef2f2; border-color: #dc2626; }
+.modal-screen { display: none; }
+.modal-screen.active { display: block; }
+.confirm-box {
+  text-align: center; padding: 0.5rem 0;
+}
+.confirm-box .confirm-icon {
+  font-size: 2.5rem; margin-bottom: 0.75rem; display: block;
+}
+.confirm-box h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+.confirm-box p { font-size: 0.85rem; color: #64748b; margin-bottom: 1rem; line-height: 1.5; }
+.confirm-consequences {
+  background: #fef2f2; border: 1px solid #fecaca;
+  border-radius: 0.75rem; padding: 0.875rem 1rem; margin-bottom: 1.25rem;
+  text-align: left; font-size: 0.8rem; color: #991b1b; line-height: 1.6;
+}
+.confirm-consequences strong { display: block; margin-bottom: 0.25rem; font-size: 0.85rem; }
+.confirm-consequences ul { margin: 0; padding-left: 1.25rem; }
+.confirm-actions { display: flex; gap: 0.75rem; }
+.confirm-actions .save-btn { margin-top: 0; flex: 1; }
+.confirm-actions .save-btn.cancel { background: #e2e8f0; color: #475569; }
+.confirm-actions .save-btn.cancel:hover { background: #cbd5e1; }
+.confirm-actions .save-btn.danger { background: #dc2626; }
+.confirm-actions .save-btn.danger:hover { background: #b91c1c; }
+.privacy-notice {
+  margin-top: 1rem; padding: 0.875rem 1rem;
+  background: #fef3c7; border: 1px solid #fde68a;
+  border-radius: 0.75rem; font-size: 0.8rem; color: #92400e;
+  line-height: 1.5;
+}
+.privacy-notice strong { display: block; margin-bottom: 0.25rem; }
+.privacy-notice i { font-style: normal; background: #fef9c3; padding: 0 0.125rem; }
+
+/* --- ActividadesSemana (central) --- */
+.actividades-panel {
+  background: white; border: 1px solid #e2e8f0;
+  border-radius: 1rem; margin-bottom: 1.5rem;
+  padding: 1.25rem;
+}
+.actividades-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.actividades-header h2 { font-size: 1.1rem; font-weight: 700; }
+.progreso {
+  font-size: 0.8rem; font-weight: 600;
+  background: #f1f5f9; color: #475569;
+  padding: 0.25rem 0.75rem; border-radius: 9999px;
+}
+.actividades-lista { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+.actividad-item {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0; border-radius: 0.75rem;
+  transition: all 0.15s;
+}
+.actividad-item.completada { opacity: 0.6; background: #f8fafc; }
+.actividad-item.obligatoria { border-left: 3px solid #f97316; }
+.actividad-checkbox {
+  width: 1.125rem; height: 1.125rem; cursor: pointer;
+  accent-color: #3b82f6; flex-shrink: 0;
+}
+.actividad-icono { width: 1.25rem; height: 1.25rem; color: #64748b; flex-shrink: 0; }
+.actividad-link {
+  flex: 1; font-size: 0.9rem; font-weight: 500;
+  color: #1d4ed8; text-decoration: none;
+}
+.actividad-link:hover { text-decoration: underline; }
+.hub-tag {
+  font-size: 0.7rem; font-weight: 600;
+  background: #f1f5f9; color: #475569;
+  padding: 0.125rem 0.5rem; border-radius: 9999px;
+  text-transform: uppercase; flex-shrink: 0;
+}
+.actividad-badge {
+  font-size: 0.65rem; font-weight: 700;
+  background: #fff7ed; color: #c2410c;
+  padding: 0.125rem 0.375rem; border-radius: 0.25rem;
+  text-transform: uppercase;
+}
+
+/* --- NovedadesPanel --- */
+.novedades-panel {
+  background: white; border: 1px solid #e2e8f0;
+  border-radius: 1rem; margin-bottom: 1.5rem;
+  overflow: hidden; transition: all 0.3s ease;
+}
+.novedades-panel.collapsed .novedades-body { display: none; }
+.novedades-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 1.25rem;
+  cursor: pointer; user-select: none;
+}
+.novedades-header .label {
+  font-size: 0.7rem; font-weight: 700; color: #3b82f6;
+  letter-spacing: 0.08em; text-transform: uppercase;
+}
+.novedades-header .close-btn {
+  background: none; border: none; cursor: pointer;
+  color: #94a3b8; font-size: 1.25rem; padding: 0.25rem;
+  line-height: 1; border-radius: 0.375rem;
+  transition: color 0.15s;
+}
+.novedades-header .close-btn:hover { color: #475569; }
+.novedades-body { padding: 0 1.25rem 1.25rem; }
+.novedades-titulo { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; }
+.novedades-resumen { font-size: 0.9rem; color: #475569; margin-bottom: 1rem; line-height: 1.5; }
+.bloques-grid {
+  display: grid; grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+@media (min-width: 640px) { .bloques-grid { grid-template-columns: 1fr 1fr; } }
+.bloque-card {
+  padding: 1rem; border: 1px solid #f1f5f9;
+  border-radius: 0.75rem; background: #fafbfc;
+}
+.bloque-titulo { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.25rem; }
+.bloque-desc { font-size: 0.8rem; color: #64748b; margin-bottom: 0.5rem; }
+.bloque-tags { display: flex; gap: 0.375rem; flex-wrap: wrap; }
+.bloque-tag {
+  font-size: 0.7rem; font-weight: 500;
+  background: #e0e7ff; color: #4338ca;
+  padding: 0.125rem 0.5rem; border-radius: 9999px;
+}
+.reopen-btn {
+  display: block; margin: 0.5rem auto 0;
+  background: none; border: none; cursor: pointer;
+  font-size: 0.8rem; color: #3b82f6; font-weight: 500;
+  text-decoration: underline; text-underline-offset: 2px;
+}
+.reopen-btn:hover { color: #1d4ed8; }
+
+/* --- HubMenu --- */
+.hub-menu {
+  background: white; border: 1px solid #e2e8f0;
+  border-radius: 1rem; padding: 1.25rem;
+}
+.hub-menu h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; }
+.hub-grid {
+  display: grid; grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+@media (min-width: 480px) { .hub-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 768px) { .hub-grid { grid-template-columns: 1fr 1fr 1fr; } }
+.hub-card {
+  display: flex; flex-direction: column; gap: 0.375rem;
+  padding: 1.25rem; border: 1px solid #e2e8f0;
+  border-radius: 0.75rem; text-decoration: none;
+  color: inherit; transition: all 0.15s;
+  background: #fafbfc;
+}
+.hub-card:hover { border-color: #93c5fd; background: #eff6ff; }
+.hub-card-icono { width: 1.75rem; height: 1.75rem; color: #3b82f6; }
+.hub-card-titulo { font-size: 0.95rem; font-weight: 600; }
+.hub-card-desc { font-size: 0.8rem; color: #64748b; line-height: 1.4; }
+</style>
+</head>
+<body>
+
+<div class="topbar" id="topbar">
+  <span class="topbar-title">Panel del estudiante</span>
+  <span class="topbar-level" id="topbarLevel" style="display:none"></span>
+  <span class="topbar-spacer"></span>
+  <button class="profile-btn" id="profileBtn" onclick="abrirModalPerfil()">
+    <i data-lucide="user" style="width:1rem;height:1rem"></i>
+    <span id="profileBtnLabel">Crear perfil</span>
+  </button>
+</div>
+
+<div class="main-content" id="mainContent">
+  <!-- Banner sin perfil -->
+  <div class="profile-banner" id="profileBanner" style="display:none">
+    <span class="profile-banner-text">
+      Crea tu perfil para guardar tu progreso y personalizar tu experiencia.
+    </span>
+    <button class="profile-banner-btn" onclick="abrirModalPerfil()">Crear perfil</button>
+  </div>
+
+  <!-- Actividades (centrales, arriba) -->
+  <section class="actividades-panel" aria-label="Actividades de la semana">
+    <div class="actividades-header">
+      <h2>Esta semana</h2>
+      <span class="progreso" id="actividadesProgreso">0 / 0 completadas</span>
+    </div>
+    <ul class="actividades-lista" id="actividadesLista"></ul>
+  </section>
+
+  <!-- Novedades -->
+  <section class="novedades-panel" id="novedadesPanel" aria-label="Novedades">
+    <div class="novedades-header" id="novedadesHeader">
+      <span class="label" id="novedadesLabel">ACTUALIZACIÓN DEL DÍA</span>
+      <button class="close-btn" id="novedadesClose" aria-label="Cerrar novedades">×</button>
+    </div>
+    <div class="novedades-body" id="novedadesBody"></div>
+  </section>
+
+  <!-- Hub Menu -->
+  <section class="hub-menu" aria-label="Hubs">
+    <h2>Ir a</h2>
+    <div class="hub-grid" id="hubGrid"></div>
+  </section>
+</div>
+
+<!-- Modal perfil -->
+<div class="modal-overlay" id="modalPerfil">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h2 id="modalTitle">Crear perfil</h2>
+      <button class="modal-close" onclick="cerrarModalPerfil()">×</button>
+    </div>
+    <div class="modal-body">
+      <!-- Pantalla 1: formulario de edición -->
+      <div class="modal-screen active" id="modalScreenForm">
+        <form id="profileForm" onsubmit="guardarPerfil(event)">
+          <div class="form-group">
+            <label class="form-label" for="username">Tu nombre</label>
+            <input class="form-input" type="text" id="username" placeholder="Ej: Ana" maxlength="30">
+          </div>
+          <div class="form-group">
+            <span class="form-label">Tu nivel</span>
+            <div class="level-options" id="levelOptions">
+              <label class="level-option selected" data-level="A1">
+                <input type="radio" name="nivel" value="A1" checked>
+                <div>
+                  <div class="level-name">A1 — Iniciación</div>
+                  <div class="level-desc">Fundamentos del japonés: hiragana, partículas, verbos básicos</div>
+                </div>
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="save-btn" id="saveProfileBtn">
+            <span id="saveBtnText">Guardar</span>
+          </button>
+          <div class="privacy-notice">
+            <strong>🔒 Tu perfil es local</strong>
+            Este perfil se almacena <i>exclusivamente en tu dispositivo</i> (localStorage del navegador).
+            No se guarda en ningún servidor ni se comparte con terceros.
+            Si cambias de dispositivo o borras los datos del navegador, tu perfil se perderá.
+          </div>
+          <button type="button" class="danger-btn" id="deleteProfileBtn" style="display:none" onclick="mostrarConfirmacionBorrado()">
+            Borrar perfil
+          </button>
+        </form>
+      </div>
+
+      <!-- Pantalla 2: confirmación de borrado -->
+      <div class="modal-screen" id="modalScreenConfirm">
+        <div class="confirm-box">
+          <span class="confirm-icon">⚠️</span>
+          <h3>¿Borrar perfil?</h3>
+          <p>Esta acción no se puede deshacer. Todo tu progreso local se perderá permanentemente.</p>
+          <div class="confirm-consequences">
+            <strong>Consecuencias:</strong>
+            <ul>
+              <li>Tu nombre y nivel se eliminarán</li>
+              <li>El progreso de actividades se perderá</li>
+              <li>Las novedades volverán a mostrarse como no leídas</li>
+              <li>No hay forma de recuperar estos datos</li>
+            </ul>
+          </div>
+          <div class="confirm-actions">
+            <button class="save-btn cancel" onclick="cancelarBorrado()">Cancelar</button>
+            <button class="save-btn danger" onclick="ejecutarBorrado()">Sí, borrar perfil</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ===========================================================
+   Profile module (common-api/profile)
+   =========================================================== */
+const PROFILE_KEY = 'v0jp_profile'
+
+function loadProfile () {
+  try {
+    const raw = localStorage.getItem(PROFILE_KEY)
+    if (raw) {
+      const p = JSON.parse(raw)
+      if (p && p.version === 1) return p
+    }
+  } catch (_) {}
+  return { version: 1, username: '', nivel: '', iteracion: '' }
+}
+
+function saveProfile (profile) {
+  localStorage.setItem(PROFILE_KEY, JSON.stringify(profile))
+}
+
+function updateProfile (partial) {
+  const p = loadProfile()
+  Object.assign(p, partial)
+  saveProfile(p)
+  return p
+}
+
+/* ===========================================================
+   Datos incrustados (evita fetch para carga local)
+   =========================================================== */
+const _NOVEDADES_DATA = {
+  "fecha": "2026-06-24",
+  "titulo": "Nuevos contenidos añadidos",
+  "resumen": "Se han añadido nuevas lecciones y laboratorios para el nivel A1. Revisa las novedades para no perderte nada.",
+  "bloques": [
+    { "titulo": "Partícula も", "descripcion": "Nueva lección sobre la partícula も (también)", "tags": ["partícula", "gramática"] },
+    { "titulo": "Adverbios de frecuencia", "descripcion": "Nueva lección sobre adverbios de frecuencia en japonés", "tags": ["adverbio", "gramática"] },
+    { "titulo": "Lab: Escritura s3", "descripcion": "Ejercicio de escritura para la secuencia 3", "tags": ["escritura", "lab"] },
+    { "titulo": "Lab: Comprensión s4", "descripcion": "Ejercicio de comprensión para la secuencia 4", "tags": ["comprensión", "lab"] }
+  ]
+}
+
+const _ACTIVIDADES_DATA = {
+  "semana": "2026-W26",
+  "actividades": [
+    { "id": "act-001", "titulo": "Lección: Partícula も", "hub": "lecciones", "url": "/hubs/lecciones/a1/particula-mo/", "tipo": "leccion", "obligatoria": true },
+    { "id": "act-002", "titulo": "Lección: Adverbios de frecuencia", "hub": "lecciones", "url": "/hubs/lecciones/a1/adverbios-frecuencia/", "tipo": "leccion", "obligatoria": true },
+    { "id": "act-003", "titulo": "Lab: Ejercicio de escritura s3", "hub": "labs", "url": "/hubs/labs/s3/", "tipo": "lab", "obligatoria": false },
+    { "id": "act-004", "titulo": "Lab: Comprensión s4", "hub": "labs", "url": "/hubs/labs/s4/", "tipo": "lab", "obligatoria": false },
+    { "id": "act-005", "titulo": "Repaso: Partículas básicas", "hub": "lecciones", "url": "/hubs/lecciones/a1/", "tipo": "leccion", "obligatoria": false }
+  ]
+}
+
+/* LEVELMAP_START */
+const _LEVELMAP_A1 = {
+  "apiVersion": "maquinaria/v1",
+  "kind": "LevelMap",
+  "metadata": {
+    "name": "nivel-a1"
+  },
+  "data": {
+    "nivel": "A1",
+    "iteraciones": [
+      {
+        "id": "a1-s1",
+        "nivel": "A1",
+        "secuencia": "s1",
+        "titulo": "Hiragana",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/s1/",
+          "labs": "/hubs/labs/a1/s1/"
+        },
+        "icono": "BookOpen"
+      },
+      {
+        "id": "a1-s2",
+        "nivel": "A1",
+        "secuencia": "s2",
+        "titulo": "かいです — presentación y pronombres",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/s2/",
+          "labs": "/hubs/labs/a1/s2/"
+        },
+        "icono": "BookOpen"
+      },
+      {
+        "id": "a1-s3",
+        "nivel": "A1",
+        "secuencia": "s3",
+        "titulo": "Verbo ser y pregunta",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/s3/",
+          "labs": "/hubs/labs/a1/s3/"
+        },
+        "icono": "MessageCircle"
+      },
+      {
+        "id": "a1-s4",
+        "nivel": "A1",
+        "secuencia": "s4",
+        "titulo": "Partícula も",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/s4/",
+          "labs": "/hubs/labs/a1/s4/"
+        },
+        "icono": "GitFork"
+      },
+      {
+        "id": "a1-s5",
+        "nivel": "A1",
+        "secuencia": "s5",
+        "titulo": "Kosoado",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/s5/",
+          "labs": "/hubs/labs/a1/s5/"
+        },
+        "icono": "Pointer"
+      }
+    ]
+  }
+}
+/* LEVELMAP_END */
+ 
+/* ===========================================================
+   ActividadesSemana (central)
+   =========================================================== */
+function getActividadesKey (semana) { return 'actividades_' + semana }
+
+const ICONOS_TIPO = {
+  leccion: 'BookOpen',
+  lab: 'FlaskConical',
+  agente: 'Bot',
+  default: 'FileText'
+}
+
+function renderActividades (data) {
+  const lista = document.getElementById('actividadesLista')
+  const progreso = document.getElementById('actividadesProgreso')
+  const key = getActividadesKey(data.semana)
+
+  let estado = {}
+  try {
+    const raw = localStorage.getItem(key)
+    if (raw) estado = JSON.parse(raw)
+  } catch (_) {}
+
+  function actualizarProgreso () {
+    const total = data.actividades.length
+    const completadas = data.actividades.filter(a => estado[a.id]).length
+    progreso.textContent = completadas + ' / ' + total + ' completadas'
+  }
+
+  lista.innerHTML = data.actividades.map(a => {
+    const icono = ICONOS_TIPO[a.tipo] || ICONOS_TIPO.default
+    const checked = estado[a.id] || false
+    return `
+      <li class="actividad-item ${checked ? 'completada' : ''} ${a.obligatoria ? 'obligatoria' : ''}"
+          data-id="${a.id}">
+        <input type="checkbox" class="actividad-checkbox" ${checked ? 'checked' : ''}
+               onchange="toggleActividad('${a.id}', this.checked)">
+        <i data-lucide="${icono}" class="actividad-icono"></i>
+        <a href="${a.url}" class="actividad-link" target="_blank">${a.titulo}</a>
+        <span class="hub-tag">${a.hub}</span>
+        ${a.obligatoria ? '<span class="actividad-badge">OBL</span>' : ''}
+      </li>
+    `
+  }).join('')
+
+  actualizarProgreso()
+  lucide.createIcons()
+}
+
+window.toggleActividad = function (id, checked) {
+  const key = getActividadesKey(window._actividadesSemana || '')
+  let estado = {}
+  try {
+    const raw = localStorage.getItem(key)
+    if (raw) estado = JSON.parse(raw)
+  } catch (_) {}
+  estado[id] = checked
+  localStorage.setItem(key, JSON.stringify(estado))
+  const data = window._actividadesData
+  if (data) {
+    const total = data.actividades.length
+    const completadas = data.actividades.filter(a => estado[a.id]).length
+    document.getElementById('actividadesProgreso').textContent = completadas + ' / ' + total + ' completadas'
+  }
+  const item = document.querySelector(`.actividad-item[data-id="${id}"]`)
+  if (item) item.classList.toggle('completada', checked)
+}
+
+/* ===========================================================
+   NovedadesPanel
+   =========================================================== */
+const NOVEDADES_VISTAS_KEY = 'novedades_vistas'
+
+function renderNovedades (data) {
+  const label = document.getElementById('novedadesLabel')
+  const body = document.getElementById('novedadesBody')
+  const panel = document.getElementById('novedadesPanel')
+  const closeBtn = document.getElementById('novedadesClose')
+
+  label.textContent = 'ACTUALIZACIÓN DEL DÍA · ' + data.fecha
+
+  body.innerHTML = `
+    <h3 class="novedades-titulo">${data.titulo}</h3>
+    <p class="novedades-resumen">${data.resumen}</p>
+    <div class="bloques-grid">
+      ${data.bloques.map(b => `
+        <div class="bloque-card">
+          <div class="bloque-titulo">${b.titulo}</div>
+          <div class="bloque-desc">${b.descripcion}</div>
+          <div class="bloque-tags">${
+            b.tags.map(t => `<span class="bloque-tag">${t}</span>`).join('')
+          }</div>
+        </div>
+      `).join('')}
+    </div>
+  `
+
+  const vistas = localStorage.getItem(NOVEDADES_VISTAS_KEY)
+  if (vistas === data.fecha) {
+    panel.classList.add('collapsed')
+    const reopen = document.createElement('button')
+    reopen.className = 'reopen-btn'
+    reopen.textContent = 'Mostrar novedades'
+    reopen.onclick = () => {
+      panel.classList.remove('collapsed')
+      reopen.remove()
+    }
+    body.after(reopen)
+  }
+
+  closeBtn.onclick = () => {
+    localStorage.setItem(NOVEDADES_VISTAS_KEY, data.fecha)
+    panel.classList.add('collapsed')
+    const reopen = document.createElement('button')
+    reopen.className = 'reopen-btn'
+    reopen.textContent = 'Mostrar novedades'
+    reopen.onclick = () => {
+      panel.classList.remove('collapsed')
+      reopen.remove()
+    }
+    body.after(reopen)
+  }
+}
+
+/* ===========================================================
+   HubMenu
+   =========================================================== */
+const ICONOS_HUB = {
+  lecciones: 'BookOpen',
+  labs: 'FlaskConical',
+  vocabulario: 'BookText',
+  default: 'ExternalLink'
+}
+
+function iteracionActual (profile, levelmap) {
+  if (profile.iteracion) {
+    const found = levelmap.data.iteraciones.find(i => i.id === profile.iteracion)
+    if (found) return found
+  }
+  return levelmap.data.iteraciones[0]
+}
+
+function renderHubMenu (levelmap, profile) {
+  const grid = document.getElementById('hubGrid')
+  const it = iteracionActual(profile, levelmap)
+  const hubs = it.hubs || {}
+
+  const entries = Object.entries(hubs)
+  if (entries.length === 0) {
+    grid.innerHTML = '<p style="color:#94a3b8;font-size:0.9rem">No hay hubs disponibles para esta iteración.</p>'
+    return
+  }
+
+  grid.innerHTML = entries.map(([id, url]) => {
+    const icono = ICONOS_HUB[id] || ICONOS_HUB.default
+    const titulo = id.charAt(0).toUpperCase() + id.slice(1)
+    return `
+      <a href="${url}" class="hub-card" target="_blank">
+        <i data-lucide="${icono}" class="hub-card-icono"></i>
+        <span class="hub-card-titulo">${titulo}</span>
+        <span class="hub-card-desc">Accede a los recursos de ${titulo.toLowerCase()} para ${it.nivel}</span>
+      </a>
+    `
+  }).join('')
+  lucide.createIcons()
+}
+
+/* ===========================================================
+   Profile modal UI
+   =========================================================== */
+function abrirModalPerfil () {
+  // resetear pantallas
+  document.getElementById('modalScreenForm').classList.add('active')
+  document.getElementById('modalScreenConfirm').classList.remove('active')
+
+  const profile = loadProfile()
+  const deleteBtn = document.getElementById('deleteProfileBtn')
+  if (profile.nivel) {
+    document.getElementById('modalTitle').textContent = 'Editar perfil'
+    document.getElementById('saveBtnText').textContent = 'Guardar cambios'
+    document.getElementById('username').value = profile.username === 'Estudiante' ? '' : profile.username
+    deleteBtn.style.display = ''
+    const nivelRadio = document.querySelector(`input[name="nivel"][value="${profile.nivel}"]`)
+    if (nivelRadio) nivelRadio.checked = true
+    document.querySelectorAll('.level-option').forEach(el => {
+      el.classList.toggle('selected', el.dataset.level === profile.nivel)
+    })
+  } else {
+    document.getElementById('modalTitle').textContent = 'Crear perfil'
+    document.getElementById('saveBtnText').textContent = 'Guardar'
+    document.getElementById('username').value = ''
+    deleteBtn.style.display = 'none'
+    const a1Radio = document.querySelector('input[name="nivel"][value="A1"]')
+    if (a1Radio) a1Radio.checked = true
+    document.querySelectorAll('.level-option').forEach(el => {
+      el.classList.toggle('selected', el.dataset.level === 'A1')
+    })
+  }
+  document.getElementById('modalPerfil').classList.add('open')
+}
+
+function cerrarModalPerfil () {
+  document.getElementById('modalPerfil').classList.remove('open')
+}
+
+function guardarPerfil (e) {
+  e.preventDefault()
+  const username = document.getElementById('username').value.trim()
+  const nivelEl = document.querySelector('input[name="nivel"]:checked')
+  const nivel = nivelEl ? nivelEl.value : 'A1'
+
+  const profile = updateProfile({
+    username: username || 'Estudiante',
+    nivel: nivel,
+    iteracion: 'a1-s1'
+  })
+
+  cerrarModalPerfil()
+  actualizarUI(profile)
+}
+
+function mostrarConfirmacionBorrado () {
+  document.getElementById('modalScreenForm').classList.remove('active')
+  document.getElementById('modalScreenConfirm').classList.add('active')
+}
+
+function cancelarBorrado () {
+  document.getElementById('modalScreenConfirm').classList.remove('active')
+  document.getElementById('modalScreenForm').classList.add('active')
+}
+
+function ejecutarBorrado () {
+  localStorage.removeItem(PROFILE_KEY)
+  localStorage.removeItem(NOVEDADES_VISTAS_KEY)
+  for (let i = localStorage.length - 1; i >= 0; i--) {
+    const key = localStorage.key(i)
+    if (key && key.startsWith('actividades_')) localStorage.removeItem(key)
+  }
+  cerrarModalPerfil()
+  const profile = loadProfile()
+  actualizarUI(profile)
+  renderActividades(_ACTIVIDADES_DATA)
+  renderHubMenu(_LEVELMAP_A1, profile)
+}
+
+function actualizarUI (profile) {
+  const tienePerfil = !!profile.nivel
+  document.getElementById('profileBanner').style.display = tienePerfil ? 'none' : 'flex'
+  document.getElementById('profileBtnLabel').textContent =
+    tienePerfil ? (profile.username || 'Perfil') : 'Crear perfil'
+  const levelSpan = document.getElementById('topbarLevel')
+  if (tienePerfil) {
+    levelSpan.style.display = 'inline'
+    levelSpan.textContent = profile.nivel
+  } else {
+    levelSpan.style.display = 'none'
+  }
+}
+
+/* ===========================================================
+   Init
+   =========================================================== */
+function initDeck () {
+  renderNovedades(_NOVEDADES_DATA)
+  renderActividades(_ACTIVIDADES_DATA)
+
+  window._actividadesSemana = _ACTIVIDADES_DATA.semana
+  window._actividadesData = _ACTIVIDADES_DATA
+
+  const profile = loadProfile()
+  renderHubMenu(_LEVELMAP_A1, profile)
+}
+
+function main () {
+  const profile = loadProfile()
+  actualizarUI(profile)
+  initDeck()
+
+  // level option selection visual
+  document.querySelectorAll('.level-option').forEach(el => {
+    el.addEventListener('click', () => {
+      document.querySelectorAll('.level-option').forEach(o => o.classList.remove('selected'))
+      el.classList.add('selected')
+      el.querySelector('input[type="radio"]').checked = true
+    })
+  })
+
+  // cerrar modal al hacer clic fuera
+  document.getElementById('modalPerfil').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('modalPerfil')) cerrarModalPerfil()
+  })
+}
+
+document.addEventListener('DOMContentLoaded', main)
+</script>
+</body>
+</html>

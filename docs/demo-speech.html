@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koe — demo de reconocimiento de voz</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 1rem;
+      padding: 2rem;
+      max-width: 36rem;
+      width: 100%;
+      margin: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    .subtitle {
+      font-size: 0.875rem;
+      color: #64748b;
+      margin-bottom: 1.5rem;
+    }
+    .status {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      color: #64748b;
+      margin-bottom: 1rem;
+    }
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #94a3b8;
+      transition: background 0.3s;
+    }
+    .status-dot.listening {
+      background: #22c55e;
+      box-shadow: 0 0 0 4px rgba(34,197,94,0.2);
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 4px rgba(34,197,94,0.2); }
+      50% { box-shadow: 0 0 0 8px rgba(34,197,94,0.08); }
+    }
+    .status-dot.error {
+      background: #ef4444;
+    }
+    textarea {
+      width: 100%;
+      height: 8rem;
+      font-family: 'Noto Sans JP', 'Inter', monospace;
+      font-size: 1.125rem;
+      padding: 0.75rem;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.5rem;
+      resize: none;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+    textarea:focus { outline: none; border-color: #93c5fd; }
+    .controls {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1.25rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    button:disabled { opacity: 0.5; cursor: default; }
+    .btn-start {
+      background: #2563eb;
+      color: white;
+    }
+    .btn-start:hover:not(:disabled) { background: #1d4ed8; }
+    .btn-stop {
+      background: #ef4444;
+      color: white;
+    }
+    .btn-stop:hover:not(:disabled) { background: #dc2626; }
+    .btn-clear {
+      background: #f1f5f9;
+      color: #475569;
+    }
+    .btn-clear:hover:not(:disabled) { background: #e2e8f0; }
+    .error-box {
+      margin-top: 1rem;
+      padding: 0.75rem;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: 0.5rem;
+      color: #991b1b;
+      font-size: 0.875rem;
+      display: none;
+    }
+    .error-box.visible { display: block; }
+    .interim {
+      font-size: 0.875rem;
+      color: #94a3b8;
+      min-height: 1.5rem;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Koe 🎤</h1>
+    <p class="subtitle">Reconocimiento de voz — Web Speech API</p>
+
+    <div class="status">
+      <span class="status-dot" id="statusDot"></span>
+      <span id="statusText">Inactivo</span>
+    </div>
+
+    <textarea id="output" readonly placeholder="Aquí aparecerá lo que digas..."></textarea>
+    <div class="interim" id="interim"></div>
+
+    <div class="controls">
+      <button id="btnStart" class="btn-start">▶ Iniciar</button>
+      <button id="btnStop" class="btn-stop" disabled>■ Detener</button>
+      <button id="btnClear" class="btn-clear">✕ Limpiar</button>
+    </div>
+
+    <div class="error-box" id="errorBox"></div>
+  </div>
+
+  <script>
+    // --- Koe: reconocimiento de voz (Web Speech API) ---
+    (function() {
+      const SR = window.SpeechRecognition || window.webkitSpeechRecognition
+
+      function isSupported() {
+        return !!SR
+      }
+
+      function createRecognizer(config, callback) {
+        if (!SR) {
+          callback({ kind: 'error', data: { type: 'unsupported', message: 'SpeechRecognition no está disponible en este navegador' } })
+          return { start() {}, stop() {}, abort() {} }
+        }
+
+        const recognition = new SR()
+        const defaults = { lang: 'ja-JP', continuous: false, interimResults: true, maxAlternatives: 5 }
+        const cfg = Object.assign({}, defaults, config)
+
+        recognition.lang = cfg.lang
+        recognition.continuous = cfg.continuous
+        recognition.interimResults = cfg.interimResults
+        recognition.maxAlternatives = cfg.maxAlternatives
+
+        recognition.onresult = function(event) {
+          const result = event.results[event.resultIndex]
+          const alternatives = Array.from(result).map(function(alt) {
+            return { transcript: alt.transcript, confidence: alt.confidence }
+          })
+          callback({ kind: 'result', data: { alternatives: alternatives, isFinal: result.isFinal } })
+        }
+
+        recognition.onerror = function(event) {
+          var type
+          if (event.error === 'no-speech') type = 'no-speech'
+          else if (event.error === 'not-allowed') type = 'not-allowed'
+          else if (event.error === 'network') type = 'network'
+          else type = 'network'
+          callback({ kind: 'error', data: { type: type, message: event.message || event.error } })
+        }
+
+        recognition.onend = function() {
+          callback({ kind: 'end' })
+        }
+
+        return {
+          start: function() { recognition.start() },
+          stop: function() { recognition.stop() },
+          abort: function() { recognition.abort() }
+        }
+      }
+
+      async function checkCompatibility() {
+        var report = { supported: isSupported(), secureContext: false, online: true, micPermission: 'unknown' }
+        if (typeof location !== 'undefined') {
+          report.secureContext = location.protocol === 'https:' || location.hostname === 'localhost'
+        }
+        if (typeof navigator !== 'undefined') {
+          report.online = navigator.onLine
+          if (navigator.permissions) {
+            try {
+              var status = await navigator.permissions.query({ name: 'microphone' })
+              report.micPermission = status.state
+            } catch(e) {}
+          }
+        }
+        return report
+      }
+
+      window.Koe = {
+        isSupported: isSupported,
+        createRecognizer: createRecognizer,
+        checkCompatibility: checkCompatibility
+      }
+    })()
+
+    // --- Demo UI ---
+    var btnStart = document.getElementById('btnStart')
+    var btnStop = document.getElementById('btnStop')
+    var btnClear = document.getElementById('btnClear')
+    var output = document.getElementById('output')
+    var interim = document.getElementById('interim')
+    var statusDot = document.getElementById('statusDot')
+    var statusText = document.getElementById('statusText')
+    var errorBox = document.getElementById('errorBox')
+
+    var recognizer = null
+    var isListening = false
+
+    function setStatus(state, msg) {
+      statusDot.className = 'status-dot'
+      if (state === 'listening') {
+        statusDot.classList.add('listening')
+        statusText.textContent = msg || 'Escuchando...'
+      } else if (state === 'error') {
+        statusDot.classList.add('error')
+        statusText.textContent = msg || 'Error'
+      } else {
+        statusText.textContent = msg || 'Inactivo'
+      }
+    }
+
+    function showError(msg) {
+      errorBox.textContent = msg
+      errorBox.classList.add('visible')
+    }
+
+    function hideError() {
+      errorBox.classList.remove('visible')
+    }
+
+    function startListening() {
+      hideError()
+
+      if (!Koe.isSupported()) {
+        showError('Tu navegador no soporta SpeechRecognition. Prueba con Chrome o Edge.')
+        return
+      }
+
+      recognizer = Koe.createRecognizer({ lang: 'ja-JP' }, function(event) {
+        if (event.kind === 'result') {
+          var best = event.data.alternatives[0]
+          if (event.data.isFinal) {
+            output.value += (output.value ? '\n' : '') + best.transcript
+            output.scrollTop = output.scrollHeight
+            interim.textContent = ''
+          } else {
+            interim.textContent = '⋯ ' + best.transcript
+          }
+        } else if (event.kind === 'error') {
+          if (event.data.type === 'no-speech') {
+            setStatus('idle', 'No se detectó voz. Intenta de nuevo.')
+          } else if (event.data.type === 'not-allowed') {
+            showError('Permiso de micrófono denegado. Ve a ajustes del navegador y permite el micrófono.')
+            setStatus('error', 'Sin permiso')
+          } else if (event.data.type === 'unsupported') {
+            showError(event.data.message)
+            setStatus('error', 'No soportado')
+          } else {
+            showError('Error de red: ' + event.data.message)
+            setStatus('error', 'Error de red')
+          }
+          isListening = false
+          recognizer = null
+          updateButtons()
+        } else if (event.kind === 'end') {
+          setStatus('idle', 'Finalizado')
+          isListening = false
+          recognizer = null
+          updateButtons()
+        }
+      })
+
+      isListening = true
+      recognizer.start()
+      setStatus('listening', 'Escuchando...')
+      updateButtons()
+    }
+
+    function stopListening() {
+      if (recognizer) {
+        recognizer.stop()
+        recognizer = null
+      }
+      isListening = false
+      setStatus('idle', 'Detenido')
+      interim.textContent = ''
+      updateButtons()
+    }
+
+    function updateButtons() {
+      btnStart.disabled = isListening
+      btnStop.disabled = !isListening
+    }
+
+    btnStart.addEventListener('click', startListening)
+    btnStop.addEventListener('click', stopListening)
+    btnClear.addEventListener('click', function() {
+      output.value = ''
+      interim.textContent = ''
+      hideError()
+    })
+
+    Koe.checkCompatibility().then(function(report) {
+      var warnings = []
+      if (!report.supported) warnings.push('SpeechRecognition no disponible. Usa Chrome o Edge.')
+      if (!report.secureContext) warnings.push('Requiere HTTPS (o localhost).')
+      if (!report.online) warnings.push('Sin conexión a internet.')
+      if (report.micPermission === 'denied') warnings.push('Permiso de micrófono denegado. Ve a ajustes del navegador.')
+      if (warnings.length) showError(warnings.join(' | '))
+    })
+  </script>
+</body>
+</html>

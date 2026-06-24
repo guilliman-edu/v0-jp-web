@@ -1,0 +1,72 @@
+{
+  "apiVersion": "maquinaria/v1",
+  "kind": "LevelMap",
+  "metadata": {
+    "name": "nivel-a1"
+  },
+  "data": {
+    "nivel": "A1",
+    "iteraciones": [
+      {
+        "id": "a1-s1",
+        "nivel": "A1",
+        "secuencia": "s1",
+        "titulo": "Introducción",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/",
+          "labs": "/hubs/labs/a1/s1/",
+          "vocabulario": "/hubs/vocabulario/a1/s1/"
+        },
+        "icono": "BookOpen"
+      },
+      {
+        "id": "a1-s2",
+        "nivel": "A1",
+        "secuencia": "s2",
+        "titulo": "Partículas básicas",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/",
+          "labs": "/hubs/labs/a1/s2/",
+          "vocabulario": "/hubs/vocabulario/a1/s2/"
+        },
+        "icono": "BookOpen"
+      },
+      {
+        "id": "a1-s3",
+        "nivel": "A1",
+        "secuencia": "s3",
+        "titulo": "Verbos",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/",
+          "labs": "/hubs/labs/a1/s3/",
+          "vocabulario": "/hubs/vocabulario/a1/s3/"
+        },
+        "icono": "BookOpen"
+      },
+      {
+        "id": "a1-s4",
+        "nivel": "A1",
+        "secuencia": "s4",
+        "titulo": "Adjetivos",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/",
+          "labs": "/hubs/labs/a1/s4/",
+          "vocabulario": "/hubs/vocabulario/a1/s4/"
+        },
+        "icono": "BookOpen"
+      },
+      {
+        "id": "a1-s5",
+        "nivel": "A1",
+        "secuencia": "s5",
+        "titulo": "Expresión de deseos",
+        "hubs": {
+          "lecciones": "/hubs/lecciones/a1/",
+          "labs": "/hubs/labs/a1/s5/",
+          "vocabulario": "/hubs/vocabulario/a1/s5/"
+        },
+        "icono": "BookOpen"
+      }
+    ]
+  }
+}

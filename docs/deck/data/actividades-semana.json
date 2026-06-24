@@ -1,0 +1,45 @@
+{
+  "semana": "2026-W26",
+  "actividades": [
+    {
+      "id": "act-001",
+      "titulo": "Lección: Partícula も",
+      "hub": "lecciones",
+      "url": "/hubs/lecciones/a1/particula-mo/",
+      "tipo": "leccion",
+      "obligatoria": true
+    },
+    {
+      "id": "act-002",
+      "titulo": "Lección: Adverbios de frecuencia",
+      "hub": "lecciones",
+      "url": "/hubs/lecciones/a1/adverbios-frecuencia/",
+      "tipo": "leccion",
+      "obligatoria": true
+    },
+    {
+      "id": "act-003",
+      "titulo": "Lab: Ejercicio de escritura s3",
+      "hub": "labs",
+      "url": "/hubs/labs/s3/",
+      "tipo": "lab",
+      "obligatoria": false
+    },
+    {
+      "id": "act-004",
+      "titulo": "Lab: Comprensión s4",
+      "hub": "labs",
+      "url": "/hubs/labs/s4/",
+      "tipo": "lab",
+      "obligatoria": false
+    },
+    {
+      "id": "act-005",
+      "titulo": "Repaso: Partículas básicas",
+      "hub": "lecciones",
+      "url": "/hubs/lecciones/a1/",
+      "tipo": "leccion",
+      "obligatoria": false
+    }
+  ]
+}
