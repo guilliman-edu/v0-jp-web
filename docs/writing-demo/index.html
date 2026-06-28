@@ -16812,87 +16812,63 @@ function textSimilarity(a, b) {
 }
 
 /* Koe — Speech-to-text (Web Speech API, ja-JP)
-   Un solo recognizer persistente durante toda la sesión.
-   El permiso del micrófono se pide UNA SOLA VEZ. */
+   Cada pulsación del mic crea un recognizer nuevo.
+   Chrome solo pide permiso UNA VEZ por origen — tras concederlo,
+   las siguientes llamadas a start() no vuelven a preguntar. */
 const koe = (() => {
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition
   if (!SR) return null
 
-  let recognizer = null
   let _listening = false
-  let _userStopped = false
   let _onResult = null
   let _onListeningChange = null
 
-  function init() {
-    if (recognizer) return
-    recognizer = new SR()
-    recognizer.lang = 'ja-JP'
-    recognizer.continuous = true
-    recognizer.interimResults = true
-    recognizer.maxAlternatives = 5
+  function listen(onResult, onListeningChange) {
+    if (_listening) return
+    _onResult = onResult
+    _onListeningChange = onListeningChange
+    _listening = true
+    _onListeningChange?.(true)
 
-    recognizer.onresult = (e) => {
-      if (!_listening) return
+    const r = new SR()
+    r.lang = 'ja-JP'
+    r.continuous = false
+    r.interimResults = false
+    r.maxAlternatives = 5
+
+    r.onresult = (e) => {
       const last = e.results[e.results.length - 1]
-      if (!last.isFinal) return
       const candidates = []
       for (let i = 0; i < last.length; i++) {
-        candidates.push({
-          transcript: last[i].transcript.trim(),
-          confidence: last[i].confidence,
-          position: i,
-        })
+        candidates.push({ transcript: last[i].transcript.trim(), confidence: last[i].confidence, position: i })
       }
       _listening = false
       _onListeningChange?.(false)
       _onResult?.(candidates)
     }
 
-    recognizer.onerror = (e) => {
-      if (e.error === 'not-allowed') {
-        _userStopped = true
-        recognizer = null
-        _listening = false
-        _onListeningChange?.(false)
-        return
-      }
+    r.onerror = () => {
+      _listening = false
+      _onListeningChange?.(false)
     }
 
-    recognizer.onend = () => {
-      if (!_userStopped && recognizer) {
-        setTimeout(() => recognizer.start(), 300)
-      }
+    r.onend = () => {
+      _listening = false
+      _onListeningChange?.(false)
     }
 
-    recognizer.start()
+    r.start()
   }
 
-  function startListening(onResult, onListeningChange) {
-    _onResult = onResult
-    _onListeningChange = onListeningChange
-    if (!recognizer) init()
-    _listening = true
-    _onListeningChange?.(true)
-  }
-
-  function stopListening() {
+  function cancel() {
     _listening = false
-    _onListeningChange?.(false)
-  }
-
-  function destroy() {
-    _userStopped = true
-    _listening = false
-    recognizer?.abort()
-    recognizer = null
     _onListeningChange?.(false)
   }
 
   function isSupported() { return !!SR }
   function getListening() { return _listening }
 
-  return { startListening, stopListening, destroy, isSupported, getListening }
+  return { listen, cancel, isSupported, getListening }
 })()
 
 /* Main game logic */
@@ -16978,9 +16954,9 @@ document.getElementById('answerInput').addEventListener('keydown', (e) => {
 const micBtn = document.getElementById('micBtn')
 if (koe && koe.isSupported()) {
   micBtn.addEventListener('click', () => {
-    if (koe.getListening()) { koe.stopListening(); micBtn.classList.remove('listening'); return }
+    if (koe.getListening()) { koe.cancel(); micBtn.classList.remove('listening'); document.getElementById('wave').classList.remove('active'); return }
     if (state.answered) return
-    koe.startListening((candidates) => {
+    koe.listen((candidates) => {
       micBtn.classList.remove('listening')
       document.getElementById('wave').classList.remove('active')
       if (candidates.length > 0) {
