@@ -16907,7 +16907,9 @@ function showExercise() {
   document.getElementById('sourceSentence').textContent = ej.source
   document.getElementById('answerInput').value = ''
   document.getElementById('answerInput').disabled = false
-  document.getElementById('answerInput').focus()
+  if (!('ontouchstart' in window) && navigator.maxTouchPoints === 0) {
+    document.getElementById('answerInput').focus()
+  }
   document.getElementById('submitBtn').disabled = false
   document.getElementById('submitBtn').textContent = 'Comprobar'
   state.answered = false
