@@ -16854,15 +16854,15 @@ const koe = (() => {
         _userStopped = true
         recognizer = null
         _listening = false
+        _onListeningChange?.(false)
+        return
       }
-      _listening = false
-      _onListeningChange?.(false)
     }
 
     recognizer.onend = () => {
-      _listening = false
-      _onListeningChange?.(false)
-      if (!_userStopped && recognizer) recognizer.start()
+      if (!_userStopped && recognizer) {
+        setTimeout(() => recognizer.start(), 300)
+      }
     }
 
     recognizer.start()
