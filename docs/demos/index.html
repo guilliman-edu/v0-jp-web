@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demos — v0-jp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  min-height: 100vh;
+}
+.topbar {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: white; border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  position: sticky; top: 0; z-index: 30;
+}
+.topbar-title { font-size: 1rem; font-weight: 700; color: #0f172a; }
+.topbar-badge {
+  font-size: 0.75rem; font-weight: 600;
+  background: #dbeafe; color: #1d4ed8;
+  padding: 0.125rem 0.5rem; border-radius: 9999px;
+}
+.topbar-spacer { flex: 1; }
+.main-content {
+  padding: 2rem 1rem; max-width: 72rem; margin: 0 auto;
+}
+.main-content h1 {
+  font-size: 1.75rem; font-weight: 700; color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  font-size: 0.95rem; color: #64748b;
+  margin-bottom: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 640px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1024px) {
+  .grid { grid-template-columns: 1fr 1fr 1fr; }
+}
+.card {
+  display: flex; flex-direction: column; gap: 0.5rem;
+  padding: 1.25rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+.card:hover {
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+.card-icon {
+  width: 1.5rem; height: 1.5rem;
+  color: #3b82f6;
+}
+.card-title {
+  font-size: 1rem; font-weight: 600; color: #0f172a;
+}
+.card-desc {
+  font-size: 0.85rem; color: #475569; line-height: 1.4;
+}
+.card-adr {
+  font-size: 0.75rem; color: #94a3b8;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <span class="topbar-title">Demos</span>
+  <span class="topbar-badge">catálogo</span>
+  <span class="topbar-spacer"></span>
+</div>
+<div class="main-content">
+  <h1>Catálogo de demos</h1>
+  <p class="subtitle">Cada demo muestra un tipo de actividad o herramienta pedagógica.</p>
+  <div class="grid">
+    <a class="card" href="../pairing-demo/">
+      <i data-lucide="Shuffle" class="card-icon"></i>
+      <span class="card-title">pairing</span>
+      <span class="card-desc">Emparejamiento JA-ES drag &amp; drop</span>
+      <span class="card-adr">0046</span>
+    </a>
+    <a class="card" href="../writing-demo/">
+      <i data-lucide="PenSquare" class="card-icon"></i>
+      <span class="card-title">writing</span>
+      <span class="card-desc">Traducción inversa (escritura) con Koe</span>
+      <span class="card-adr">0053</span>
+    </a>
+    <a class="card" href="../reading-demo/">
+      <i data-lucide="BookOpen" class="card-icon"></i>
+      <span class="card-title">reading</span>
+      <span class="card-desc">Lectura con audio sincronizado (karaoke)</span>
+      <span class="card-adr">0060</span>
+    </a>
+    <a class="card" href="../demo-zunou.html">
+      <i data-lucide="Brain" class="card-icon"></i>
+      <span class="card-title">zunou</span>
+      <span class="card-desc">Corrección ortográfica ML en cliente (頭脳)</span>
+      <span class="card-adr">0048, 0049</span>
+    </a>
+    <a class="card" href="../demo-esp.html">
+      <i data-lucide="Mic" class="card-icon"></i>
+      <span class="card-title">speech</span>
+      <span class="card-desc">Reconocimiento de voz / pronunciación (Koe)</span>
+      <span class="card-adr">0029, 0030, 0031</span>
+    </a>
+    <a class="card" href="../demo-esp.html">
+      <i data-lucide="Gamepad2" class="card-icon"></i>
+      <span class="card-title">game</span>
+      <span class="card-desc">Juego completo (emparejamiento + pronunciación)</span>
+      <span class="card-adr">0032</span>
+    </a>
+    <a class="card" href="../lecciones/">
+      <i data-lucide="Slides" class="card-icon"></i>
+      <span class="card-title">visor</span>
+      <span class="card-desc">Slideshow de lección</span>
+      <span class="card-adr">0016</span>
+    </a>
+    <a class="card" href="../hubs/lecciones/">
+      <i data-lucide="LayoutDashboard" class="card-icon"></i>
+      <span class="card-title">hub</span>
+      <span class="card-desc">Índice de lecciones por nivel (timeline)</span>
+      <span class="card-adr">0022</span>
+    </a>
+    <a class="card" href="../deck/">
+      <i data-lucide="Layout" class="card-icon"></i>
+      <span class="card-title">deck</span>
+      <span class="card-desc">Panel del estudiante (punto de entrada)</span>
+      <span class="card-adr">0040, 0043</span>
+    </a>
+  </div>
+</div>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>lucide.createIcons()</script>
+</body>
+</html>
