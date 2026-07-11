@@ -33,5 +33,249 @@
         "肉"
       ]
     }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s13-deseos-fin-semana"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "週末にしたいこと",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "田中",
+          "lectura": "たなか"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん"
+        }
+      ],
+      "texto": "今週末、田中さんはすしを食べたいです。それから、ジュースを飲みたいです。午後は友達に会いたいです。話したいです。映画を見たいです。\n\nでも、勉強したくないです。遊びたいです。\n\n来年、日本へ行きたいです。日本で美味しい料理を作りたいです。あなたは何がしたいですか。\n",
+      "preguntas": [
+        "田中さんは何を食べたいですか。",
+        "田中さんは勉強したいですか。",
+        "田中さんは来年どこへ行きたいですか。",
+        "あなたは週末に何がしたいですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "飲む",
+          "lectura": "のむ",
+          "significado": "beber"
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver, mirar"
+        },
+        {
+          "literal": "勉強する",
+          "lectura": "べんきょうする",
+          "significado": "estudiar"
+        },
+        {
+          "literal": "話す",
+          "lectura": "はなす",
+          "significado": "hablar"
+        },
+        {
+          "literal": "会う",
+          "lectura": "あう",
+          "significado": "encontrarse con"
+        },
+        {
+          "literal": "遊ぶ",
+          "lectura": "あそぶ",
+          "significado": "jugar, divertirse"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer, cocinar"
+        },
+        {
+          "literal": "週末",
+          "lectura": "しゅうまつ",
+          "significado": "fin de semana"
+        },
+        {
+          "literal": "美味しい",
+          "lectura": "おいしい",
+          "significado": "delicioso"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "映画",
+          "lectura": "えいが",
+          "significado": "película"
+        },
+        {
+          "literal": "午後",
+          "lectura": "ごご",
+          "significado": "tarde"
+        },
+        {
+          "literal": "来年",
+          "lectura": "らいねん",
+          "significado": "el año que viene"
+        }
+      ],
+      "referencias": [
+        "forma-tai"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s2-presentacion-texto"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "はじめまして",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "白川桃子",
+          "lectura": "しらかわももこ"
+        }
+      ],
+      "texto": "はじめまして。白川桃子です。\nわたしは二十二歳です。学生です。\n専門は日本語です。\n家族は四人です。\nどうぞよろしくお願いします。\n",
+      "preguntas": [
+        "名前は何ですか。",
+        "年は二十二歳ですか。",
+        "専門は日本語ですか。",
+        "家族は四人ですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "専門",
+          "lectura": "せんもん",
+          "significado": "especialidad"
+        },
+        {
+          "literal": "日本語",
+          "lectura": "にほんご",
+          "significado": "japonés (idioma)"
+        },
+        {
+          "literal": "家族",
+          "lectura": "かぞく",
+          "significado": "familia"
+        },
+        {
+          "literal": "学生",
+          "lectura": "がくせい",
+          "significado": "estudiante"
+        }
+      ],
+      "referencias": [
+        "kaidesu-presentacion",
+        "pronombres-personales"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s9-lectura-dia-ciudad"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "町のいちにち",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "鈴木",
+          "lectura": "すずき"
+        }
+      ],
+      "texto": "きょうはいい天気です。鈴木さんはともだちと町に行きます。\n\nけさ、七時に起きました。朝ごはんを食べました。\n鈴木さんは毎日七時に起きます。\nときどき一人で朝ごはんを食べます。\n\n八時にうちを出ました。駅でともだちに会いました。\nいつも駅で会います。とても楽しいです。\n\n町で映画を見ました。とてもおもしろかったです。\n鈴木さんはよく映画を見ます。\nあまりテレビを見ません。\n\nお昼にレストランで食べました。\n鈴木さんはあまりお肉を食べません。魚を食べました。\n\n午後、買い物をしました。本とCDを買いました。\n鈴木さんはぜんぜんコーヒーを飲みません。\nいつもお茶を飲みます。\n\nこんばん、七時にうちに帰ります。\nあしたは試験があります。うちで勉強します。\n",
+      "preguntas": [
+        "鈴木さんはけさ、何時に起きましたか。",
+        "鈴木さんはいつもどこでともだちに会いますか。",
+        "鈴木さんはよく何を見ますか。",
+        "鈴木さんはお昼に何を食べましたか。",
+        "鈴木さんはコーヒーを飲みますか。",
+        "あした、鈴木さんは何がありますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "ciudad, pueblo"
+        },
+        {
+          "literal": "出る",
+          "lectura": "でる",
+          "significado": "salir"
+        },
+        {
+          "literal": "一人で",
+          "lectura": "ひとりで",
+          "significado": "solo, sin compañía"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido, agradable"
+        },
+        {
+          "literal": "映画",
+          "lectura": "えいが",
+          "significado": "película"
+        },
+        {
+          "literal": "お昼",
+          "lectura": "おひる",
+          "significado": "mediodía, almuerzo"
+        },
+        {
+          "literal": "午後",
+          "lectura": "ごご",
+          "significado": "tarde (después del mediodía)"
+        },
+        {
+          "literal": "買い物",
+          "lectura": "かいもの",
+          "significado": "compras"
+        },
+        {
+          "literal": "試験",
+          "lectura": "しけん",
+          "significado": "examen"
+        }
+      ],
+      "referencias": [
+        "adverbios-tiempo",
+        "adverbios-frecuencia"
+      ],
+      "nivel": "A1"
+    }
   }
 ]
