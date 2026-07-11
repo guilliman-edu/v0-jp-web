@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lectura — A1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  min-height: 100vh;
+}
+/* ===== Topbar ===== */
+.topbar {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: white; border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  position: sticky; top: 0; z-index: 30;
+}
+.topbar-back {
+  display: inline-flex; align-items: center; gap: 0.25rem;
+  color: #64748b; text-decoration: none; font-size: 0.85rem; font-weight: 500;
+  padding: 0.25rem 0.5rem; border-radius: 0.375rem; transition: all 0.15s;
+}
+.topbar-back:hover { color: #0f172a; background: #f1f5f9; }
+
+.topbar-level {
+  font-size: 0.75rem; font-weight: 600;
+  background: #dbeafe; color: #1d4ed8;
+  padding: 0.125rem 0.5rem; border-radius: 9999px;
+}
+.topbar-spacer { flex: 1; }
+.topbar-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.25rem; height: 2.25rem;
+  background: transparent; border: none; border-radius: 0.5rem;
+  cursor: pointer; color: #475569; transition: all 0.15s;
+  font-size: 1.25rem; position: relative;
+}
+.topbar-btn:hover { background: #f1f5f9; color: #0f172a; }
+.topbar-btn.active { background: #eff6ff; color: #3b82f6; }
+.topbar-btn.speaking { background: #f0fdf4; color: #16a34a; }
+.topbar-btn.speaking svg { animation: pulse 1.5s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+/* ===== Main content ===== */
+.main-content {
+  padding: 2rem 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+}
+/* ===== Reading text ===== */
+.reading-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+body.tategaki .reading-title {
+  writing-mode: horizontal-tb;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f8fafc;
+}
+.reading-text {
+  font-family: 'Noto Serif JP', 'Noto Sans JP', serif;
+  font-size: 1.25rem;
+  line-height: 2.2;
+  color: #0f172a;
+  max-width: 100%;
+  word-wrap: break-word;
+  padding: 0;
+}
+.reading-text p {
+  margin-bottom: 1.5rem;
+  text-indent: 0;
+}
+.reading-text .vocab-word {
+  cursor: pointer;
+  text-decoration: underline dashed #93c5fd;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  transition: background 0.15s, text-decoration-color 0.15s;
+  position: relative;
+}
+.reading-text .vocab-word:hover {
+  background: #eff6ff;
+  text-decoration-color: #3b82f6;
+}
+.reading-text .vocab-word.active {
+  background: #dbeafe;
+  text-decoration-color: #2563eb;
+}
+.reading-text ruby rt {
+  font-size: 0.55em;
+  color: #64748b;
+  font-family: 'Noto Sans JP', sans-serif;
+  user-select: none;
+}
+#readingText .ts.hl,
+#readingTitle .ts.hl {
+  background: #dbeafe;
+  border-radius: 3px;
+}
+#readingText .ts.active-sentence,
+#readingTitle .ts.active-sentence {
+  background-color: #dbeafe;
+  background-image: linear-gradient(to right, #93c5fd, #93c5fd);
+  background-repeat: no-repeat;
+  background-size: calc(var(--progress, 0) * 100%) 100%;
+  border-radius: 3px;
+}
+body.tategaki #readingText .ts.active-sentence,
+body.tategaki #readingTitle .ts.active-sentence {
+  background-image: linear-gradient(to bottom, #93c5fd, #93c5fd);
+  background-size: 100% calc(var(--progress, 0) * 100%);
+}
+/* ===== Tooltip ===== */
+.vocab-tooltip {
+  display: none;
+  position: fixed;
+  z-index: 50;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  min-width: 180px;
+  max-width: 280px;
+}
+.vocab-tooltip.visible { display: block; }
+.vocab-tooltip-literal {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.15rem; font-weight: 700; color: #0f172a;
+  margin-bottom: 0.25rem;
+}
+.vocab-tooltip-reading {
+  font-size: 0.85rem; color: #64748b; margin-bottom: 0.25rem;
+}
+.vocab-tooltip-reading ruby rt { font-size: 0.75rem; }
+.vocab-tooltip-meaning {
+  font-size: 0.9rem; color: #1e293b;
+  padding-top: 0.25rem; border-top: 1px solid #f1f5f9;
+}
+/* ===== Overlay ===== */
+.tooltip-overlay {
+  display: none;
+  position: fixed; inset: 0;
+  z-index: 40;
+  background: transparent;
+}
+.tooltip-overlay.visible { display: block; }
+/* ===== Drawer ===== */
+.drawer-overlay {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 60;
+}
+.drawer-overlay.open { display: block; }
+.drawer {
+  position: fixed;
+  top: 0; right: 0;
+  width: 100%; max-width: 22rem;
+  height: 100%;
+  background: white;
+  z-index: 70;
+  transform: translateX(100%);
+  transition: transform 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -4px 0 20px rgba(0,0,0,0.1);
+}
+.drawer.open { transform: translateX(0); }
+.drawer-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+.drawer-header h2 { font-size: 1rem; font-weight: 700; }
+.drawer-close {
+  background: none; border: none; cursor: pointer;
+  color: #94a3b8; font-size: 1.5rem; padding: 0.25rem;
+  line-height: 1; border-radius: 0.375rem;
+}
+.drawer-close:hover { color: #475569; }
+.drawer-body {
+  flex: 1; overflow-y: auto; padding: 1.25rem;
+}
+.drawer-section { margin-bottom: 1.5rem; }
+.drawer-section-title {
+  font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.05em; color: #64748b; margin-bottom: 0.75rem;
+}
+/* ===== Drawer vocab list ===== */
+.vocab-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.vocab-item {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.625rem 0.75rem;
+  background: #f8fafc; border: 1px solid #f1f5f9;
+  border-radius: 0.5rem;
+  cursor: pointer; transition: all 0.15s;
+}
+.vocab-item:hover { background: #eff6ff; border-color: #bfdbfe; }
+.vocab-item-literal {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700; font-size: 1rem; color: #0f172a;
+  min-width: 4rem;
+}
+.vocab-item-reading {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.85rem; color: #64748b;
+}
+.vocab-item-significado {
+  font-size: 0.8rem; color: #475569;
+  margin-left: auto; text-align: right;
+}
+/* ===== Drawer questions ===== */
+.pregunta-item {
+  padding: 0.75rem;
+  background: #f8fafc; border: 1px solid #f1f5f9;
+  border-radius: 0.5rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.95rem; line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+.pregunta-num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 1.35rem; height: 1.35rem;
+  background: #dbeafe; color: #1d4ed8;
+  font-size: 0.7rem; font-weight: 700;
+  border-radius: 9999px; margin-right: 0.5rem;
+  flex-shrink: 0;
+}
+/* ===== Mark as read ===== */
+.read-footer {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  border-top: 1px solid #e2e8f0;
+  margin-top: 2rem;
+}
+.read-btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  background: #3b82f6; color: white; border: none;
+  border-radius: 0.75rem; font-size: 1rem; font-weight: 600;
+  cursor: pointer; transition: background 0.15s;
+}
+.read-btn:hover { background: #2563eb; }
+.read-btn:disabled {
+  background: #e2e8f0; color: #94a3b8; cursor: default;
+}
+.read-btn.done {
+  background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0;
+}
+.read-btn .check-icon { font-size: 1.2rem; }
+/* ===== Tategaki (vertical) ===== */
+body.tategaki .main-content {
+  max-width: none;
+  padding: 2rem;
+}
+body.tategaki .reading-text {
+  writing-mode: vertical-rl;
+  height: 70vh;
+  line-height: 1.6;
+  font-size: 1.15rem;
+}
+body.tategaki .reading-text p {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+/* ===== Print ===== */
+@media print {
+  .topbar, .drawer, .drawer-overlay, .vocab-tooltip, .tooltip-overlay,
+  .topbar-btn, .read-footer { display: none !important; }
+  .main-content { padding: 0; max-width: none; }
+  .reading-title { border-bottom: none; margin-bottom: 0.75rem; font-size: 11pt; }
+  .reading-text { font-size: 12pt; line-height: 1.8; }
+  .reading-text .vocab-word {
+    text-decoration: none !important;
+    cursor: default !important;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="topbar">
+  <a href="#" class="topbar-back" onclick="history.back(); return false;">← Volver</a>
+  <span class="topbar-level" id="levelBadge">A1</span>
+  <span class="topbar-spacer"></span>
+  <button class="topbar-btn" id="tateBtn" onclick="toggleTategaki()" title="Cambiar orientación">
+    <svg class="orient-icon" viewBox="0 0 20 20" width="18" height="18">
+      <line x1="5" y1="3" x2="5" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="10" y1="3" x2="10" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <line x1="15" y1="3" x2="15" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+  </button>
+  <button class="topbar-btn" id="toolsBtn" onclick="toggleDrawer()" title="Herramientas de lectura">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+  </button>
+  <button class="topbar-btn" id="speechBtn" onclick="toggleSpeech()" title="Leer en voz alta">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+  </button>
+</div>
+
+<!-- Overlay for tooltip -->
+<div class="tooltip-overlay" id="tooltipOverlay" onclick="hideTooltip()"></div>
+
+<!-- Vocab tooltip -->
+<div class="vocab-tooltip" id="vocabTooltip">
+  <div class="vocab-tooltip-literal" id="tooltipLiteral"></div>
+  <div class="vocab-tooltip-reading" id="tooltipReading"></div>
+  <div class="vocab-tooltip-meaning" id="tooltipMeaning"></div>
+</div>
+
+<!-- Main content -->
+<div class="main-content" id="mainContent">
+  <h1 class="reading-title" id="readingTitle"></h1>
+  <div class="reading-text" id="readingText"></div>
+
+  <div class="read-footer">
+    <button class="read-btn" id="readBtn" onclick="markAsRead()">
+      <span class="check-icon">✓</span> Marcar como leído
+    </button>
+  </div>
+</div>
+
+<!-- Drawer -->
+<div class="drawer-overlay" id="drawerOverlay" onclick="toggleDrawer()"></div>
+<div class="drawer" id="drawer">
+  <div class="drawer-header">
+    <h2>Herramientas</h2>
+    <button class="drawer-close" onclick="toggleDrawer()">×</button>
+  </div>
+  <div class="drawer-body">
+    <div class="drawer-section">
+      <div class="drawer-section-title">Vocabulario</div>
+      <div class="vocab-list" id="vocabList"></div>
+    </div>
+    <div class="drawer-section">
+      <div class="drawer-section-title">Preguntas</div>
+      <div id="preguntasList"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ===========================================================
+   Datos embebidos: lectura-bundle
+   =========================================================== */
+const _LECTURA_BUNDLE = [
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s1-palabras-basicas"
+    },
+    "data": {
+      "genero": "juego",
+      "tipo": "emparejamiento",
+      "nivel": "A1",
+      "dificultad": "medio",
+      "palabras": [
+        "今",
+        "英語",
+        "高校",
+        "学生",
+        "午後",
+        "午前",
+        "先生",
+        "専門",
+        "友達",
+        "大学",
+        "電話",
+        "名前",
+        "日本",
+        "日本語",
+        "鉛筆",
+        "辞書",
+        "自転車",
+        "時計",
+        "本",
+        "肉"
+      ]
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s13-deseos-fin-semana"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "週末にしたいこと",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "田中",
+          "lectura": "たなか"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん"
+        }
+      ],
+      "texto": "今週末、田中さんはすしを食べたいです。それから、ジュースを飲みたいです。午後は友達に会いたいです。話したいです。映画を見たいです。\n\nでも、勉強したくないです。遊びたいです。\n\n来年、日本へ行きたいです。日本で美味しい料理を作りたいです。あなたは何がしたいですか。\n",
+      "preguntas": [
+        "田中さんは何を食べたいですか。",
+        "田中さんは勉強したいですか。",
+        "田中さんは来年どこへ行きたいですか。",
+        "あなたは週末に何がしたいですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "飲む",
+          "lectura": "のむ",
+          "significado": "beber"
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver, mirar"
+        },
+        {
+          "literal": "勉強する",
+          "lectura": "べんきょうする",
+          "significado": "estudiar"
+        },
+        {
+          "literal": "話す",
+          "lectura": "はなす",
+          "significado": "hablar"
+        },
+        {
+          "literal": "会う",
+          "lectura": "あう",
+          "significado": "encontrarse con"
+        },
+        {
+          "literal": "遊ぶ",
+          "lectura": "あそぶ",
+          "significado": "jugar, divertirse"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer, cocinar"
+        },
+        {
+          "literal": "週末",
+          "lectura": "しゅうまつ",
+          "significado": "fin de semana"
+        },
+        {
+          "literal": "美味しい",
+          "lectura": "おいしい",
+          "significado": "delicioso"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "映画",
+          "lectura": "えいが",
+          "significado": "película"
+        },
+        {
+          "literal": "午後",
+          "lectura": "ごご",
+          "significado": "tarde"
+        },
+        {
+          "literal": "来年",
+          "lectura": "らいねん",
+          "significado": "el año que viene"
+        }
+      ],
+      "referencias": [
+        "forma-tai"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s2-presentacion-texto"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "はじめまして",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "白川桃子",
+          "lectura": "しらかわももこ"
+        }
+      ],
+      "texto": "はじめまして。白川桃子です。\nわたしは二十二歳です。学生です。\n専門は日本語です。\n家族は四人です。\nどうぞよろしくお願いします。\n",
+      "preguntas": [
+        "名前は何ですか。",
+        "年は二十二歳ですか。",
+        "専門は日本語ですか。",
+        "家族は四人ですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "専門",
+          "lectura": "せんもん",
+          "significado": "especialidad"
+        },
+        {
+          "literal": "日本語",
+          "lectura": "にほんご",
+          "significado": "japonés (idioma)"
+        },
+        {
+          "literal": "家族",
+          "lectura": "かぞく",
+          "significado": "familia"
+        },
+        {
+          "literal": "学生",
+          "lectura": "がくせい",
+          "significado": "estudiante"
+        }
+      ],
+      "referencias": [
+        "kaidesu-presentacion",
+        "pronombres-personales"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s9-lectura-dia-ciudad"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "町のいちにち",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "鈴木",
+          "lectura": "すずき"
+        }
+      ],
+      "texto": "きょうはいい天気です。鈴木さんはともだちと町に行きます。\n\nけさ、七時に起きました。朝ごはんを食べました。\n鈴木さんは毎日七時に起きます。\nときどき一人で朝ごはんを食べます。\n\n八時にうちを出ました。駅でともだちに会いました。\nいつも駅で会います。とても楽しいです。\n\n町で映画を見ました。とてもおもしろかったです。\n鈴木さんはよく映画を見ます。\nあまりテレビを見ません。\n\nお昼にレストランで食べました。\n鈴木さんはあまりお肉を食べません。魚を食べました。\n\n午後、買い物をしました。本とCDを買いました。\n鈴木さんはぜんぜんコーヒーを飲みません。\nいつもお茶を飲みます。\n\nこんばん、七時にうちに帰ります。\nあしたは試験があります。うちで勉強します。\n",
+      "preguntas": [
+        "鈴木さんはけさ、何時に起きましたか。",
+        "鈴木さんはいつもどこでともだちに会いますか。",
+        "鈴木さんはよく何を見ますか。",
+        "鈴木さんはお昼に何を食べましたか。",
+        "鈴木さんはコーヒーを飲みますか。",
+        "あした、鈴木さんは何がありますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "ciudad, pueblo"
+        },
+        {
+          "literal": "出る",
+          "lectura": "でる",
+          "significado": "salir"
+        },
+        {
+          "literal": "一人で",
+          "lectura": "ひとりで",
+          "significado": "solo, sin compañía"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido, agradable"
+        },
+        {
+          "literal": "映画",
+          "lectura": "えいが",
+          "significado": "película"
+        },
+        {
+          "literal": "お昼",
+          "lectura": "おひる",
+          "significado": "mediodía, almuerzo"
+        },
+        {
+          "literal": "午後",
+          "lectura": "ごご",
+          "significado": "tarde (después del mediodía)"
+        },
+        {
+          "literal": "買い物",
+          "lectura": "かいもの",
+          "significado": "compras"
+        },
+        {
+          "literal": "試験",
+          "lectura": "しけん",
+          "significado": "examen"
+        }
+      ],
+      "referencias": [
+        "adverbios-tiempo",
+        "adverbios-frecuencia"
+      ],
+      "nivel": "A1"
+    }
+  }
+]
+
+/* ===========================================================
+   Estado
+   =========================================================== */
+const PROGRESS_KEY = "v0jp_progreso_"
+const ACTIVITY_ID = new URLSearchParams(location.search).get("id") || "a1-s9-lectura-dia-ciudad"
+
+/* ===========================================================
+   Lógica del lector
+   =========================================================== */
+function findActivity(id) {
+  return _LECTURA_BUNDLE.find(r => r.metadata.name === id)
+}
+
+function escapeRegExp(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+function hasKanji(str) {
+  return /[\u4e00-\u9faf]/.test(str)
+}
+
+function rubyWrap(text, lectura) {
+  const runs = []
+  for (let i = 0; i < text.length; ) {
+    if (hasKanji(text[i])) {
+      let j = i
+      while (j < text.length && hasKanji(text[j])) j++
+      runs.push({ type: 'kanji', text: text.slice(i, j) })
+      i = j
+    } else {
+      let j = i
+      while (j < text.length && !hasKanji(text[j])) j++
+      runs.push({ type: 'kana', text: text.slice(i, j) })
+      i = j
+    }
+  }
+
+  let remaining = lectura
+  for (let r = runs.length - 1; r >= 0; r--) {
+    if (runs[r].type === 'kana' && remaining.endsWith(runs[r].text)) {
+      remaining = remaining.slice(0, -runs[r].text.length)
+      runs[r].reading = ''
+    }
+  }
+  for (let r = 0; r < runs.length; r++) {
+    if (runs[r].type === 'kana' && remaining.startsWith(runs[r].text)) {
+      remaining = remaining.slice(runs[r].text.length)
+      runs[r].reading = ''
+    }
+  }
+
+  let assigned = false
+  for (const run of runs) {
+    if (run.type === 'kanji') {
+      run.reading = assigned ? '' : remaining
+      assigned = true
+    }
+  }
+
+  let html = ''
+  for (const run of runs) {
+    if (run.type === 'kanji' && run.reading) {
+      html += `<ruby>${run.text}<rt>${run.reading}</rt></ruby>`
+    } else {
+      html += run.text
+    }
+  }
+  return html
+}
+
+function applyRuby(text, entries) {
+  const withKanji = entries.filter(e => hasKanji(e.literal))
+  if (!withKanji.length) return text
+  const sorted = [...withKanji].sort((a, b) => b.literal.length - a.literal.length)
+  const pattern = sorted.map(v => escapeRegExp(v.literal)).join("|")
+  if (!pattern) return text
+  const re = new RegExp(`(${pattern})`, "g")
+  const entryMap = {}
+  for (const v of withKanji) { entryMap[v.literal] = v }
+  return text.replace(re, (match) => {
+    const e = entryMap[match]
+    return e ? rubyWrap(match, e.lectura) : match
+  })
+}
+
+function splitSentences(line) {
+  const sentences = []
+  let current = ""
+  for (const ch of line) {
+    current += ch
+    if (/[。！？.!?]/.test(ch)) {
+      sentences.push(current)
+      current = ""
+    }
+  }
+  if (current) sentences.push(current)
+  return sentences
+}
+
+function renderText(actividad) {
+  const container = document.getElementById("readingText")
+  const texto = actividad.data.texto
+  const vocabulario = actividad.data.vocabulario || []
+  const nombres = actividad.data.nombres_propios || []
+
+  const allEntries = [
+    ...vocabulario.map(v => ({ ...v, _tipo: 'vocab' })),
+    ...nombres.map(n => ({ ...n, _tipo: 'nombre' })),
+  ].filter(e => hasKanji(e.literal))
+
+  const sorted = [...allEntries].sort((a, b) => b.literal.length - a.literal.length)
+  const pattern = sorted.map(v => escapeRegExp(v.literal)).join("|")
+  const entryMap = {}
+  for (const v of allEntries) { entryMap[v.literal] = v }
+
+  const lines = texto.split("\n")
+  let sentenceIdx = 1
+
+  const htmlLines = lines.map(line => {
+    if (line.trim() === "") return ""
+    const html = pattern
+      ? line.replace(new RegExp(`(${pattern})`, "g"), (match) => {
+          const e = entryMap[match]
+          if (!e) return match
+          const html = rubyWrap(match, e.lectura)
+          if (e._tipo === 'nombre') return html
+          return `<span class="vocab-word" data-literal="${e.literal}" data-reading="${e.lectura}" data-significado="${e.significado}" onclick="showTooltip(event, this)">${html}</span>`
+        })
+      : line
+
+    // Split into sentences and wrap each in a data-si span
+    const sentences = splitSentences(html)
+    return sentences.map(s => {
+      const si = sentenceIdx++
+      return `<span class="ts" data-si="${si}">${s}</span>`
+    }).join("")
+  })
+
+  container.innerHTML = htmlLines
+    .filter(l => l !== "")
+    .map(l => `<p>${l}</p>`)
+    .join("")
+}
+
+function renderDrawer(actividad) {
+  const vocabulario = actividad.data.vocabulario || []
+  const preguntas = actividad.data.preguntas || []
+
+  // Vocabulario
+  const vocabList = document.getElementById("vocabList")
+  vocabList.innerHTML = vocabulario.map((v, i) => `
+    <div class="vocab-item" onclick="scrollToWord('${v.literal}')">
+      <span class="vocab-item-literal">${v.literal}</span>
+      <span class="vocab-item-reading">${v.lectura}</span>
+      <span class="vocab-item-significado">${v.significado}</span>
+    </div>
+  `).join("")
+
+  // Preguntas
+  const preguntasList = document.getElementById("preguntasList")
+  if (preguntas.length === 0) {
+    preguntasList.innerHTML = '<p style="color:#94a3b8;font-size:0.85rem">No hay preguntas para esta lectura.</p>'
+    return
+  }
+  preguntasList.innerHTML = preguntas.map((p, i) => `
+    <div class="pregunta-item">
+      <span class="pregunta-num">${i + 1}</span>
+      ${p}
+    </div>
+  `).join("")
+}
+
+/* ===== Tooltip ===== */
+function showTooltip(event, el) {
+  event.stopPropagation()
+  hideTooltip()
+
+  el.classList.add("active")
+  document.getElementById("tooltipLiteral").textContent = el.dataset.literal
+  document.getElementById("tooltipReading").textContent = el.dataset.reading
+  document.getElementById("tooltipMeaning").textContent = el.dataset.significado
+
+  const tooltip = document.getElementById("vocabTooltip")
+  const overlay = document.getElementById("tooltipOverlay")
+
+  tooltip.style.display = "block"
+  overlay.classList.add("visible")
+
+  // Posicionar
+  const rect = el.getBoundingClientRect()
+  const tooltipW = tooltip.offsetWidth
+  let left = rect.left + rect.width / 2 - tooltipW / 2
+  left = Math.max(8, Math.min(left, window.innerWidth - tooltipW - 8))
+  const top = rect.bottom + 8
+
+  tooltip.style.left = left + "px"
+  tooltip.style.top = top + "px"
+  tooltip.classList.add("visible")
+}
+
+function hideTooltip() {
+  document.getElementById("vocabTooltip").classList.remove("visible")
+  document.getElementById("vocabTooltip").style.display = "none"
+  document.getElementById("tooltipOverlay").classList.remove("visible")
+  document.querySelectorAll(".vocab-word.active").forEach(el => el.classList.remove("active"))
+}
+
+/* ===== Drawer ===== */
+function toggleDrawer() {
+  const drawer = document.getElementById("drawer")
+  const overlay = document.getElementById("drawerOverlay")
+  const btn = document.getElementById("toolsBtn")
+  const isOpen = drawer.classList.contains("open")
+  drawer.classList.toggle("open")
+  overlay.classList.toggle("open")
+  btn.classList.toggle("active")
+  if (!isOpen) hideTooltip()
+}
+
+/* ===== Scroll to word ===== */
+function scrollToWord(literal) {
+  const el = document.querySelector(`.vocab-word[data-literal="${literal}"]`)
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth", block: "center" })
+    el.classList.add("active")
+    setTimeout(() => el.classList.remove("active"), 2000)
+  }
+}
+
+/* ===== Mark as read ===== */
+function markAsRead() {
+  const key = PROGRESS_KEY + ACTIVITY_ID
+  localStorage.setItem(key, JSON.stringify({
+    completada: true,
+    fecha: new Date().toISOString(),
+  }))
+  const btn = document.getElementById("readBtn")
+  btn.disabled = true
+  btn.className = "read-btn done"
+  btn.innerHTML = '<span class="check-icon">✓</span> Leído'
+}
+
+function checkAlreadyRead() {
+  const key = PROGRESS_KEY + ACTIVITY_ID
+  try {
+    const raw = localStorage.getItem(key)
+    if (raw) {
+      const data = JSON.parse(raw)
+      if (data.completada) {
+        const btn = document.getElementById("readBtn")
+        btn.disabled = true
+        btn.className = "read-btn done"
+        btn.innerHTML = '<span class="check-icon">✓</span> Leído'
+      }
+    }
+  } catch (_) {}
+}
+
+/* ===== Tategaki toggle ===== */
+const _ICON_YOKO = '<svg class="orient-icon" viewBox="0 0 20 20" width="18" height="18"><line x1="3" y1="5" x2="17" y2="5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="3" y1="15" x2="17" y2="15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>'
+const _ICON_TATE = '<svg class="orient-icon" viewBox="0 0 20 20" width="18" height="18"><line x1="5" y1="3" x2="5" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="10" y1="3" x2="10" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="15" y1="3" x2="15" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>'
+
+function toggleTategaki() {
+  const body = document.body
+  const btn = document.getElementById("tateBtn")
+  body.classList.toggle("tategaki")
+  btn.innerHTML = body.classList.contains("tategaki") ? _ICON_YOKO : _ICON_TATE
+}
+
+/* ===== Audio player (MeloTTS + timings) ===== */
+let _audioPlayer = null
+
+function initAudioPlayer(actividad) {
+  const nivel = (actividad.data.nivel || "").toLowerCase()
+  const genero = actividad.data.genero || "practica"
+  const name = actividad.metadata.name
+  const timingsUrl = `audio/${nivel}/${genero}/${name}.timings.json`
+
+  fetch(timingsUrl)
+    .then(r => r.ok ? r.json() : null)
+    .then(timings => {
+      const btn = document.getElementById("speechBtn")
+      if (!timings) {
+        btn.disabled = true
+        btn.title = "Audio no disponible"
+        return
+      }
+      btn.disabled = false
+      btn.title = "Escuchar lectura"
+
+      const audioUrl = `audio/${nivel}/${genero}/${name}.ogg`
+      let state = "idle"
+      let audioEl = null
+      let rafId = null
+      let currentSentence = -1
+      let onSentenceChange = null
+      let onTick = null
+      let onEnd = null
+
+      function onTimeUpdate() {
+        if (!audioEl || state !== "playing") return
+        const t = audioEl.currentTime * 1000
+        let si = -1
+        for (let i = 0; i < timings.sentences.length; i++) {
+          if (t >= timings.sentences[i].start_ms && t < timings.sentences[i].end_ms) {
+            si = i
+            break
+          }
+        }
+        if (si === -1 && t >= timings.total_duration_ms) {
+          stop()
+          return
+        }
+        if (si >= 0 && si !== currentSentence) {
+          currentSentence = si
+          onSentenceChange?.(si)
+        }
+        onTick?.(si, t)
+        rafId = requestAnimationFrame(onTimeUpdate)
+      }
+
+      function play() {
+        if (state === "playing") return
+        if (!audioEl) {
+          audioEl = new Audio(audioUrl)
+          audioEl.preload = "auto"
+          audioEl.addEventListener("ended", () => stop())
+        }
+        audioEl.play()
+        state = "playing"
+        rafId = requestAnimationFrame(onTimeUpdate)
+      }
+
+      function pause() {
+        if (state !== "playing") return
+        audioEl?.pause()
+        state = "paused"
+        if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null }
+      }
+
+      function stop() {
+        if (state === "idle") return
+        if (audioEl) { audioEl.pause(); audioEl.currentTime = 0 }
+        state = "idle"
+        currentSentence = -1
+        if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null }
+        onSentenceChange?.(-1)
+        onEnd?.()
+      }
+
+      _audioPlayer = {
+        play, pause, stop,
+        getState: () => state,
+        onSentenceChange(fn) { onSentenceChange = fn },
+        onTick(fn) { onTick = fn },
+        onEnd(fn) { onEnd = fn },
+      }
+
+      _audioPlayer.onSentenceChange((idx) => {
+        const all = document.querySelectorAll("#readingTitle .ts, #readingText .ts")
+        for (const el of all) {
+          const si = parseInt(el.dataset.si, 10)
+          if (idx === -1 || si > idx) {
+            el.classList.remove("hl", "active-sentence")
+            el.style.setProperty("--progress", "0")
+          } else if (si < idx) {
+            el.classList.add("hl")
+            el.classList.remove("active-sentence")
+            el.style.setProperty("--progress", "1")
+          } else {
+            el.classList.add("hl", "active-sentence")
+            el.style.setProperty("--progress", "0")
+          }
+        }
+      })
+      _audioPlayer.onTick((idx, t_ms) => {
+        if (idx < 0) return
+        const el = document.querySelector(`#readingTitle .ts[data-si="${idx}"], #readingText .ts[data-si="${idx}"]`)
+        if (!el) return
+        const sentence = timings.sentences[idx]
+        if (sentence && sentence.duration_ms > 0) {
+          const raw = (t_ms - sentence.start_ms) / sentence.duration_ms
+          el.style.setProperty("--progress", String(Math.max(0, Math.min(1, raw))))
+        }
+      })
+      _audioPlayer.onEnd(() => {
+        btn.classList.remove("speaking")
+      })
+    })
+}
+
+function toggleSpeech() {
+  const btn = document.getElementById("speechBtn")
+  if (btn.disabled) return
+  if (!_audioPlayer) return
+
+  const s = _audioPlayer.getState()
+  if (s === "playing") {
+    _audioPlayer.pause()
+    btn.classList.remove("speaking")
+    return
+  }
+
+  _audioPlayer.play()
+  btn.classList.add("speaking")
+}
+
+/* ===== Init ===== */
+function init() {
+  const actividad = findActivity(ACTIVITY_ID)
+  if (!actividad) {
+    document.getElementById("readingText").innerHTML =
+      '<p style="color:#ef4444;text-align:center;padding:2rem">Actividad no encontrada.</p>'
+    return
+  }
+
+  document.getElementById("levelBadge").textContent = actividad.data.nivel
+  document.title = (actividad.data.titulo || "Lectura") + " — " + actividad.data.nivel
+  renderText(actividad)
+  renderDrawer(actividad)
+  checkAlreadyRead()
+
+  // Render title with furigana and sentence marker
+  const titleEl = document.getElementById("readingTitle")
+  const title = actividad.data.titulo || ""
+  if (title) {
+    const vocabulario = actividad.data.vocabulario || []
+    const nombres = actividad.data.nombres_propios || []
+    const html = applyRuby(title, [...vocabulario, ...nombres])
+    titleEl.innerHTML = `<span class="ts" data-si="0">${html}</span>`
+  }
+
+  // Init audio player
+  document.getElementById("speechBtn").disabled = true
+  initAudioPlayer(actividad)
+}
+
+document.addEventListener("DOMContentLoaded", init)
+</script>
+</body>
+</html>

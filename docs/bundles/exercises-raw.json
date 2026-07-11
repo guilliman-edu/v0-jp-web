@@ -1,0 +1,330 @@
+{
+  "exercises": [
+    {
+      "id": "a1-s3-prueba-inicial-ej001",
+      "type": "translation",
+      "source": "Soy estudiante.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "I am a student.",
+      "references": [
+        {
+          "text": "私は学生です"
+        },
+        {
+          "text": "学生です"
+        },
+        {
+          "text": "僕は学生です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej002",
+      "type": "translation",
+      "source": "¿Eres estudiante?",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "Are you a student?",
+      "references": [
+        {
+          "text": "あなたは学生ですか"
+        },
+        {
+          "text": "学生ですか"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej003",
+      "type": "translation",
+      "source": "Él es profesor.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "He is a teacher.",
+      "references": [
+        {
+          "text": "彼は先生です"
+        },
+        {
+          "text": "先生です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej004",
+      "type": "translation",
+      "source": "Ella no es profesora.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "She is not a teacher.",
+      "references": [
+        {
+          "text": "彼女は先生ではありません"
+        },
+        {
+          "text": "先生じゃありません"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej005",
+      "type": "translation",
+      "source": "Esto es un libro.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "This is a book.",
+      "references": [
+        {
+          "text": "これは本です"
+        },
+        {
+          "text": "本です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej006",
+      "type": "translation",
+      "source": "¿Qué es esto?",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "What is this?",
+      "references": [
+        {
+          "text": "これは何ですか"
+        },
+        {
+          "text": "何ですか"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej007",
+      "type": "translation",
+      "source": "Aquello es un diccionario.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "That over there is a dictionary.",
+      "references": [
+        {
+          "text": "あれは辞書です"
+        },
+        {
+          "text": "辞書です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej008",
+      "type": "translation",
+      "source": "¿Dónde está la biblioteca?",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "Where is the library?",
+      "references": [
+        {
+          "text": "図書館はどこですか"
+        },
+        {
+          "text": "どこですか"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej009",
+      "type": "translation",
+      "source": "Era estudiante.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "I was a student.",
+      "references": [
+        {
+          "text": "学生でした"
+        },
+        {
+          "text": "私は学生でした"
+        },
+        {
+          "text": "僕は学生でした"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej010",
+      "type": "translation",
+      "source": "¿Era profesor?",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "Was he a teacher?",
+      "references": [
+        {
+          "text": "先生でしたか"
+        },
+        {
+          "text": "彼は先生でしたか"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej011",
+      "type": "translation",
+      "source": "No era estudiante.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "I was not a student.",
+      "references": [
+        {
+          "text": "学生ではありませんでした"
+        },
+        {
+          "text": "学生じゃありませんでした"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej012",
+      "type": "translation",
+      "source": "Mi especialidad es economía.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "My major is economics.",
+      "references": [
+        {
+          "text": "専門は経済です"
+        },
+        {
+          "text": "経済です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej013",
+      "type": "translation",
+      "source": "Esto no es un libro.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "This is not a book.",
+      "references": [
+        {
+          "text": "これは本ではありません"
+        },
+        {
+          "text": "本じゃありません"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej014",
+      "type": "translation",
+      "source": "¿Es esto un bolígrafo?",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "Is this a pen?",
+      "references": [
+        {
+          "text": "これはペンですか"
+        },
+        {
+          "text": "ペンですか"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej015",
+      "type": "translation",
+      "source": "Aquello es un paraguas.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "That over there is an umbrella.",
+      "references": [
+        {
+          "text": "あれは傘です"
+        },
+        {
+          "text": "傘です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej016",
+      "type": "translation",
+      "source": "Hoy es sábado.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "Today is Saturday.",
+      "references": [
+        {
+          "text": "今日は土曜日です"
+        },
+        {
+          "text": "土曜日です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej017",
+      "type": "translation",
+      "source": "¿Cuánto cuesta?",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "How much is it?",
+      "references": [
+        {
+          "text": "いくらですか"
+        },
+        {
+          "text": "これはいくらですか"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej018",
+      "type": "translation",
+      "source": "Mañana es domingo.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "Tomorrow is Sunday.",
+      "references": [
+        {
+          "text": "明日は日曜日です"
+        },
+        {
+          "text": "日曜日です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej019",
+      "type": "translation",
+      "source": "¿Dónde está la universidad?",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "Where is the university?",
+      "references": [
+        {
+          "text": "大学はどこですか"
+        },
+        {
+          "text": "どこですか"
+        }
+      ]
+    },
+    {
+      "id": "a1-s3-prueba-inicial-ej020",
+      "type": "translation",
+      "source": "No era profesora.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "She was not a teacher.",
+      "references": [
+        {
+          "text": "彼女は先生ではありませんでした"
+        },
+        {
+          "text": "先生じゃありませんでした"
+        }
+      ]
+    }
+  ]
+}
