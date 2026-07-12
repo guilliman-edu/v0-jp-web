@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Katakana — Pronunciación</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  min-height: 100vh;
+}
+.topbar {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: white; border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  position: sticky; top: 0; z-index: 30;
+}
+.topbar-title { font-size: 1rem; font-weight: 700; color: #0f172a; }
+.topbar-level {
+  font-size: 0.75rem; font-weight: 600;
+  background: #dbeafe; color: #1d4ed8;
+  padding: 0.125rem 0.5rem; border-radius: 9999px;
+}
+.topbar-spacer { flex: 1; }
+.score-badge {
+  font-size: 0.8rem; font-weight: 600;
+  background: #f1f5f9; color: #475569;
+  padding: 0.25rem 0.75rem; border-radius: 9999px;
+}
+.main-content {
+  padding: 1.5rem 1rem; max-width: 32rem; margin: 0 auto;
+}
+.game-header {
+  text-align: center; margin-bottom: 1rem;
+}
+.game-header h1 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.25rem; }
+.game-header p { font-size: 0.85rem; color: #64748b; }
+.game-status {
+  display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1.25rem;
+}
+.stat-box { text-align: center; }
+.stat-value { font-size: 1.35rem; font-weight: 700; color: #0f172a; }
+.stat-label {
+  font-size: 0.75rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em;
+}
+.progress-bar {
+  width: 100%; height: 4px;
+  background: #e2e8f0;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+.card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 1.5rem;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+.card-emoji {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+.card-literal {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+.card-significado {
+  font-size: 1rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex; gap: 0.75rem; justify-content: center; align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.mic-btn {
+  width: 5rem; height: 5rem;
+  padding: 0;
+  background: #f1f5f9; color: #475569;
+  border: 2px solid #e2e8f0;
+  border-radius: 50%;
+  cursor: pointer; transition: all 0.2s;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.mic-btn:hover { background: #e2e8f0; border-color: #94a3b8; }
+.mic-btn.listening {
+  background: #fef2f2; color: #dc2626; border-color: #fca5a5;
+  animation: pulse-mic 1s ease-in-out infinite;
+}
+.mic-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.mic-btn.correct { background: #f0fdf4; color: #16a34a; border-color: #bbf7d0; }
+.mic-btn.wrong { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
+@keyframes pulse-mic {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(220,38,38,0.3); }
+  50% { box-shadow: 0 0 0 12px rgba(220,38,38,0); }
+}
+.wave {
+  position: absolute; display: none; gap: 3px;
+  align-items: center; height: 1.25rem;
+  bottom: -1.5rem; left: 50%; transform: translateX(-50%);
+}
+.wave.active { display: flex; }
+.wave span {
+  display: block; width: 3px;
+  background: #dc2626; border-radius: 2px;
+  animation: wave-bar 0.6s ease-in-out infinite;
+}
+.wave span:nth-child(1) { height: 0.5rem; animation-delay: 0s; }
+.wave span:nth-child(2) { height: 0.9rem; animation-delay: 0.1s; }
+.wave span:nth-child(3) { height: 0.5rem; animation-delay: 0.2s; }
+.wave span:nth-child(4) { height: 0.75rem; animation-delay: 0.15s; }
+.wave span:nth-child(5) { height: 0.4rem; animation-delay: 0.25s; }
+@keyframes wave-bar {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+.feedback-bar {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+.feedback-bar.visible { opacity: 1; }
+.feedback-bar.success { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
+.feedback-bar.partial { background: #fefce8; color: #854d0e; border: 1px solid #fde68a; }
+.feedback-bar.error { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+.feedback-bar.done { background: #eff6ff; color: #1e40af; border: 1px solid #bfdbfe; }
+.small-btn {
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: none;
+}
+.btn-skip { background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; }
+.btn-skip:hover { background: #e2e8f0; }
+.btn-retry { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+.btn-retry:hover { background: #fde8e8; }
+.btn-next { background: #3b82f6; color: white; }
+.btn-next:hover { background: #2563eb; }
+.btn-restart { background: #3b82f6; color: white; padding: 0.75rem 2rem; font-size: 1rem; }
+.btn-restart:hover { background: #2563eb; }
+.hidden { display: none !important; }
+.victory-screen {
+  display: none;
+  text-align: center; padding: 2rem;
+}
+.victory-screen.visible { display: block; }
+.victory-screen h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+.victory-screen p { font-size: 1rem; color: #475569; margin-bottom: 1rem; }
+.correct-answer {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.1rem;
+  color: #16a34a;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+.correct-answer rt { font-size: 0.75rem; color: #64748b; }
+.fuse-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 auto 1rem;
+  width: 100%;
+  max-width: 20rem;
+}
+.fuse-track {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: #e2e8f0;
+  overflow: hidden;
+}
+.fuse-burned {
+  height: 100%;
+  width: 0%;
+  background: #ef4444;
+  border-radius: 3px;
+  transition: none;
+}
+.fuse-time {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #64748b;
+  font-variant-numeric: tabular-nums;
+  min-width: 1.5rem;
+  text-align: right;
+}
+.mic-label {
+  position: absolute;
+  bottom: -1.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #3b82f6;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+.mic-label:hover { color: #2563eb; }
+.mic-label.hidden { opacity: 0; pointer-events: none; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span class="topbar-title">Katakana — Pronunciación</span>
+  <span class="topbar-level" id="levelBadge">pre-A1</span>
+  <span class="topbar-spacer"></span>
+  <span class="score-badge" id="scoreBadge">Puntuación: —</span>
+</div>
+
+<div class="main-content">
+  <div class="game-header">
+    <h1>Pronuncia la palabra en katakana</h1>
+    <p>Mira la tarjeta y di la palabra en japonés</p>
+  </div>
+
+  <div class="game-status">
+    <div class="stat-box">
+      <div class="stat-value" id="correctCount">0</div>
+      <div class="stat-label">Aciertos</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value" id="errorsCount">0</div>
+      <div class="stat-label">Fallos</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value" id="remainingCount">0</div>
+      <div class="stat-label">Restantes</div>
+    </div>
+  </div>
+
+  <div class="progress-bar">
+    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+  </div>
+
+  <div class="fuse-wrap">
+    <div class="fuse-track">
+      <div class="fuse-burned" id="fuseBurned"></div>
+    </div>
+    <span class="fuse-time" id="fuseTime">15</span>
+  </div>
+
+  <div id="gameArea">
+    <div class="card" id="card">
+      <div class="card-emoji" id="cardEmoji">🇺🇸</div>
+      <div class="card-literal" id="cardLiteral">アメリカ</div>
+      <div class="card-significado" id="cardSignificado">Estados Unidos</div>
+      <div class="correct-answer hidden" id="correctAnswer"></div>
+    </div>
+
+    <div class="actions">
+      <button class="mic-btn" id="micBtn" title="Di la palabra en japonés" type="button">
+        🎤
+        <span class="wave" id="wave"><span></span><span></span><span></span><span></span><span></span></span>
+      </button>
+      <span class="mic-label" id="micLabel">Empezar</span>
+    </div>
+
+    <div class="feedback-bar" id="feedbackBar"></div>
+  </div>
+
+  <div class="victory-screen" id="victoryScreen">
+    <h2>¡Práctica completada!</h2>
+    <p id="victoryScore"></p>
+    <button class="small-btn btn-restart" id="restartBtn">Nueva ronda</button>
+  </div>
+</div>
+
+<script>
+const _LECTURA_BUNDLE = [
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s1-palabras-basicas"
+    },
+    "data": {
+      "genero": "juego",
+      "tipo": "emparejamiento",
+      "nivel": "A1",
+      "dificultad": "medio",
+      "palabras": [
+        "今",
+        "英語",
+        "高校",
+        "学生",
+        "午後",
+        "午前",
+        "先生",
+        "専門",
+        "友達",
+        "大学",
+        "電話",
+        "名前",
+        "日本",
+        "日本語",
+        "鉛筆",
+        "辞書",
+        "自転車",
+        "時計",
+        "本",
+        "肉"
+      ]
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s13-deseos-fin-semana"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "週末にしたいこと",
+      "modoFurigana": "calido",
+      "furiganaList": [
+        "遊ぶ",
+        "来年",
+        "作る"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "田中",
+          "lectura": "たなか"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん"
+        }
+      ],
+      "texto": "今週末、田中さんはすしを食べたいです。それから、ジュースを飲みたいです。午後は友達に会いたいです。話したいです。映画を見たいです。\n\nでも、勉強したくないです。遊びたいです。\n\n来年、日本へ行きたいです。日本で美味しい料理を作りたいです。あなたは何がしたいですか。\n",
+      "preguntas": [
+        "田中さんは何を食べたいですか。",
+        "田中さんは勉強したいですか。",
+        "田中さんは来年どこへ行きたいですか。",
+        "あなたは週末に何がしたいですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "飲む",
+          "lectura": "のむ",
+          "significado": "beber"
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver, mirar"
+        },
+        {
+          "literal": "勉強する",
+          "lectura": "べんきょうする",
+          "significado": "estudiar"
+        },
+        {
+          "literal": "話す",
+          "lectura": "はなす",
+          "significado": "hablar"
+        },
+        {
+          "literal": "会う",
+          "lectura": "あう",
+          "significado": "encontrarse con"
+        },
+        {
+          "literal": "遊ぶ",
+          "lectura": "あそぶ",
+          "significado": "jugar, divertirse"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer, cocinar"
+        },
+        {
+          "literal": "週末",
+          "lectura": "しゅうまつ",
+          "significado": "fin de semana"
+        },
+        {
+          "literal": "美味しい",
+          "lectura": "おいしい",
+          "significado": "delicioso"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "映画",
+          "lectura": "えいが",
+          "significado": "película"
+        },
+        {
+          "literal": "午後",
+          "lectura": "ごご",
+          "significado": "tarde"
+        },
+        {
+          "literal": "来年",
+          "lectura": "らいねん",
+          "significado": "el año que viene"
+        }
+      ],
+      "referencias": [
+        "forma-tai"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s2-presentacion-texto"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "はじめまして",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "白川桃子",
+          "lectura": "しらかわももこ"
+        }
+      ],
+      "texto": "はじめまして。白川桃子です。\nわたしは二十二歳です。学生です。\n専門は日本語です。\n家族は四人です。\nどうぞよろしくお願いします。\n",
+      "preguntas": [
+        "名前は何ですか。",
+        "年は二十二歳ですか。",
+        "専門は日本語ですか。",
+        "家族は四人ですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "専門",
+          "lectura": "せんもん",
+          "significado": "especialidad"
+        },
+        {
+          "literal": "日本語",
+          "lectura": "にほんご",
+          "significado": "japonés (idioma)"
+        },
+        {
+          "literal": "家族",
+          "lectura": "かぞく",
+          "significado": "familia"
+        },
+        {
+          "literal": "学生",
+          "lectura": "がくせい",
+          "significado": "estudiante"
+        }
+      ],
+      "referencias": [
+        "kaidesu-presentacion",
+        "pronombres-personales"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s9-lectura-dia-ciudad"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "町のいちにち",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "鈴木",
+          "lectura": "すずき"
+        }
+      ],
+      "texto": "きょうはいい天気です。鈴木さんはともだちと町に行きます。\n\nけさ、七時に起きました。朝ごはんを食べました。\n鈴木さんは毎日七時に起きます。\nときどき一人で朝ごはんを食べます。\n\n八時にうちを出ました。駅でともだちに会いました。\nいつも駅で会います。とても楽しいです。\n\n町で映画を見ました。とてもおもしろかったです。\n鈴木さんはよく映画を見ます。\nあまりテレビを見ません。\n\nお昼にレストランで食べました。\n鈴木さんはあまりお肉を食べません。魚を食べました。\n\n午後、買い物をしました。本とCDを買いました。\n鈴木さんはぜんぜんコーヒーを飲みません。\nいつもお茶を飲みます。\n\nこんばん、七時にうちに帰ります。\nあしたは試験があります。うちで勉強します。\n",
+      "preguntas": [
+        "鈴木さんはけさ、何時に起きましたか。",
+        "鈴木さんはいつもどこでともだちに会いますか。",
+        "鈴木さんはよく何を見ますか。",
+        "鈴木さんはお昼に何を食べましたか。",
+        "鈴木さんはコーヒーを飲みますか。",
+        "あした、鈴木さんは何がありますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "ciudad, pueblo"
+        },
+        {
+          "literal": "出る",
+          "lectura": "でる",
+          "significado": "salir"
+        },
+        {
+          "literal": "一人で",
+          "lectura": "ひとりで",
+          "significado": "solo, sin compañía"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido, agradable"
+        },
+        {
+          "literal": "映画",
+          "lectura": "えいが",
+          "significado": "película"
+        },
+        {
+          "literal": "お昼",
+          "lectura": "おひる",
+          "significado": "mediodía, almuerzo"
+        },
+        {
+          "literal": "午後",
+          "lectura": "ごご",
+          "significado": "tarde (después del mediodía)"
+        },
+        {
+          "literal": "買い物",
+          "lectura": "かいもの",
+          "significado": "compras"
+        },
+        {
+          "literal": "試験",
+          "lectura": "しけん",
+          "significado": "examen"
+        }
+      ],
+      "referencias": [
+        "adverbios-tiempo",
+        "adverbios-frecuencia"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "pre-a1-s1-katakana"
+    },
+    "data": {
+      "genero": "juego",
+      "tipo": "pronunciacion-katakana",
+      "nivel": "pre-A1",
+      "dificultad": "facil",
+      "entradas": [
+        {
+          "literal": "アメリカ",
+          "lectura": "amerika",
+          "significado": "Estados Unidos",
+          "emoji": "🇺🇸"
+        },
+        {
+          "literal": "ブラジル",
+          "lectura": "burajiru",
+          "significado": "Brasil",
+          "emoji": "🇧🇷"
+        },
+        {
+          "literal": "イギリス",
+          "lectura": "igirisu",
+          "significado": "Reino Unido",
+          "emoji": "🇬🇧"
+        },
+        {
+          "literal": "タクシー",
+          "lectura": "takushii",
+          "significado": "taxi",
+          "emoji": "🚕"
+        },
+        {
+          "literal": "ホテル",
+          "lectura": "hoteru",
+          "significado": "hotel",
+          "emoji": "🏨"
+        },
+        {
+          "literal": "レストラン",
+          "lectura": "resutoran",
+          "significado": "restaurante",
+          "emoji": "🍽️"
+        },
+        {
+          "literal": "コーヒー",
+          "lectura": "koohii",
+          "significado": "café",
+          "emoji": "☕"
+        },
+        {
+          "literal": "コンピューター",
+          "lectura": "konpyuutaa",
+          "significado": "computadora",
+          "emoji": "💻"
+        },
+        {
+          "literal": "スマホ",
+          "lectura": "sumaho",
+          "significado": "smartphone",
+          "emoji": "📱"
+        },
+        {
+          "literal": "テレビ",
+          "lectura": "terebi",
+          "significado": "televisor",
+          "emoji": "📺"
+        },
+        {
+          "literal": "スーパー",
+          "lectura": "suupaa",
+          "significado": "supermercado",
+          "emoji": "🛒"
+        },
+        {
+          "literal": "メニュー",
+          "lectura": "menyuu",
+          "significado": "menú",
+          "emoji": "📋"
+        },
+        {
+          "literal": "トイレ",
+          "lectura": "toire",
+          "significado": "baño",
+          "emoji": "🚻"
+        },
+        {
+          "literal": "バス",
+          "lectura": "basu",
+          "significado": "autobús",
+          "emoji": "🚌"
+        },
+        {
+          "literal": "パン",
+          "lectura": "pan",
+          "significado": "pan",
+          "emoji": "🍞"
+        },
+        {
+          "literal": "ケーキ",
+          "lectura": "keeki",
+          "significado": "pastel",
+          "emoji": "🎂"
+        },
+        {
+          "literal": "アイスクリーム",
+          "lectura": "aisukuriimu",
+          "significado": "helado",
+          "emoji": "🍦"
+        },
+        {
+          "literal": "ピザ",
+          "lectura": "piza",
+          "significado": "pizza",
+          "emoji": "🍕"
+        },
+        {
+          "literal": "サラダ",
+          "lectura": "sarada",
+          "significado": "ensalada",
+          "emoji": "🥗"
+        },
+        {
+          "literal": "ドア",
+          "lectura": "doa",
+          "significado": "puerta",
+          "emoji": "🚪"
+        },
+        {
+          "literal": "ペン",
+          "lectura": "pen",
+          "significado": "bolígrafo",
+          "emoji": "🖊️"
+        },
+        {
+          "literal": "テーブル",
+          "lectura": "teeburu",
+          "significado": "mesa",
+          "emoji": "🪑"
+        },
+        {
+          "literal": "イス",
+          "lectura": "isu",
+          "significado": "silla",
+          "emoji": "💺"
+        },
+        {
+          "literal": "カメラ",
+          "lectura": "kamera",
+          "significado": "cámara",
+          "emoji": "📷"
+        },
+        {
+          "literal": "ラジオ",
+          "lectura": "rajio",
+          "significado": "radio",
+          "emoji": "📻"
+        }
+      ]
+    }
+  }
+]
+
+class SeededRandom {
+  constructor(seed) {
+    this.state = new Uint32Array(4)
+    this.state[0] = seed >>> 0
+    this.state[1] = (seed * 1812433253 + 1) >>> 0
+    this.state[2] = (this.state[1] * 1812433253 + 1) >>> 0
+    this.state[3] = (this.state[2] * 1812433253 + 1) >>> 0
+  }
+  next() {
+    const s = new Uint32Array(this.state)
+    const result = Math.imul(s[1] * 5, 1) << 7 | (s[1] * 5) >>> 25
+    const t = s[1] << 9 | s[2] >>> 23
+    s[2] ^= s[0]; s[3] ^= s[1]; s[1] ^= s[2]; s[0] ^= s[3]; s[2] ^= t
+    s[3] = (s[3] << 11 | s[3] >>> 21) >>> 0
+    this.state = s
+    return (result >>> 0) / 4294967296
+  }
+  shuffle(array) {
+    const result = [...array]
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(this.next() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]]
+    }
+    return result
+  }
+}
+
+/* Koe — Speech-to-text (Web Speech API, ja-JP) */
+const koe = (() => {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition
+  if (!SR) return null
+
+  let _listening = false
+  let _onResult = null
+  let _onListeningChange = null
+
+  function listen(onResult, onListeningChange) {
+    if (_listening) return
+    _onResult = onResult
+    _onListeningChange = onListeningChange
+    _listening = true
+    _onListeningChange?.(true)
+
+    const r = new SR()
+    r.lang = 'ja-JP'
+    r.continuous = false
+    r.interimResults = false
+    r.maxAlternatives = 5
+
+    r.onresult = (e) => {
+      const last = e.results[e.results.length - 1]
+      const candidates = []
+      for (let i = 0; i < last.length; i++) {
+        candidates.push({ transcript: last[i].transcript.trim(), confidence: last[i].confidence, position: i })
+      }
+      _listening = false
+      _onListeningChange?.(false)
+      _onResult?.(candidates)
+    }
+
+    r.onerror = () => {
+      _listening = false
+      _onListeningChange?.(false)
+    }
+
+    r.onend = () => {
+      _listening = false
+      _onListeningChange?.(false)
+    }
+
+    r.start()
+  }
+
+  function cancel() {
+    _listening = false
+    _onListeningChange?.(false)
+  }
+
+  function isSupported() { return !!SR }
+  function getListening() { return _listening }
+
+  return { listen, cancel, isSupported, getListening }
+})()
+
+/* Main game logic */
+const FUSE_DURATION = 15
+let _fuseRaf = null
+let _fuseStart = 0
+let _fuseActive = false
+let _cardNonce = 0
+
+function startFuse() {
+  if (_fuseRaf) cancelAnimationFrame(_fuseRaf)
+  _fuseStart = performance.now()
+  _fuseActive = true
+  const burned = document.getElementById('fuseBurned')
+  const time = document.getElementById('fuseTime')
+  if (!burned || !time) return
+  burned.style.width = '0%'
+  time.textContent = String(FUSE_DURATION)
+
+  function tick(now) {
+    if (!_fuseActive) return
+    const elapsed = (now - _fuseStart) / 1000
+    const progress = Math.min(elapsed / FUSE_DURATION, 1)
+    const pct = progress * 100
+    burned.style.width = pct + '%'
+    time.textContent = String(Math.max(0, Math.ceil(FUSE_DURATION - elapsed)))
+
+    if (progress >= 1) {
+      _fuseActive = false
+      _fuseRaf = null
+      if (!state.answered) {
+        state.errors++
+        updateStats()
+        const entrada = state.round[state.index]
+        const ca = document.getElementById('correctAnswer')
+        ca.innerHTML = `Se acabó el tiempo<br>Esperado: <ruby>${entrada.literal}<rt>${entrada.lectura}</rt></ruby>`
+        ca.classList.remove('hidden')
+        document.getElementById('micBtn').disabled = true
+        showFeedback('Se acabó el tiempo', 'error')
+        _autoListenTimer = setTimeout(nextCard, 2000)
+      }
+      return
+    }
+    _fuseRaf = requestAnimationFrame(tick)
+  }
+
+  _fuseRaf = requestAnimationFrame(tick)
+}
+
+function stopFuse() {
+  _fuseActive = false
+  if (_fuseRaf) { cancelAnimationFrame(_fuseRaf); _fuseRaf = null }
+}
+
+function resetFuse() {
+  stopFuse()
+  document.getElementById('fuseBurned').style.width = '0%'
+  document.getElementById('fuseTime').textContent = String(FUSE_DURATION)
+}
+
+const actividad = _LECTURA_BUNDLE.find(r => r.metadata.name === 'pre-a1-s1-katakana')
+const entradas = actividad ? (actividad.data.entradas || []) : []
+const nivel = actividad ? (actividad.data.nivel || 'pre-A1') : 'pre-A1'
+const ROUND_SIZE = Math.min(10, entradas.length)
+
+let state = {
+  round: [], index: 0, correct: 0, errors: 0, answered: false,
+}
+
+function normalizeKatakana(s) {
+  return s.replace(/[\sー\u2010-\u2015\u30FC]+/g, '').trim()
+}
+
+function matchTranscript(transcript, entrada) {
+  const norm = normalizeKatakana(transcript)
+  const expected = normalizeKatakana(entrada.literal)
+  if (norm === expected) return true
+  if (norm.includes(expected) || expected.includes(norm)) return true
+  return false
+}
+
+function startRound() {
+  stopFuse()
+  const rng = new SeededRandom(Date.now())
+  state.round = rng.shuffle([...entradas]).slice(0, ROUND_SIZE)
+  state.index = 0; state.correct = 0; state.errors = 0; state.answered = false
+  document.getElementById('levelBadge').textContent = nivel
+  document.getElementById('victoryScreen').classList.remove('visible')
+  document.getElementById('gameArea').classList.remove('hidden')
+  showCard()
+  updateStats()
+  hideFeedback()
+}
+
+function showCard() {
+  _cardNonce++
+  if (state.index >= state.round.length) { endRound(); return }
+  const entrada = state.round[state.index]
+  document.getElementById('cardEmoji').textContent = entrada.emoji
+  document.getElementById('cardLiteral').textContent = entrada.literal
+  document.getElementById('cardSignificado').textContent = entrada.significado
+  document.getElementById('correctAnswer').classList.add('hidden')
+  state.answered = false
+  document.getElementById('micBtn').disabled = false
+  document.getElementById('micBtn').className = 'mic-btn'
+  document.getElementById('progressFill').style.width = ((state.index) / ROUND_SIZE) * 100 + '%'
+  _paused = false
+  if (_autoListenTimer) { clearTimeout(_autoListenTimer); _autoListenTimer = null }
+  if (_autoMic) {
+    document.getElementById('micLabel').classList.add('hidden')
+    resetFuse()
+    startFuse()
+    setTimeout(startListening, 300)
+  } else {
+    resetFuse()
+    document.getElementById('micLabel').classList.remove('hidden')
+  }
+}
+
+function updateStats() {
+  document.getElementById('correctCount').textContent = state.correct
+  document.getElementById('errorsCount').textContent = state.errors
+  document.getElementById('remainingCount').textContent = ROUND_SIZE - state.index
+  const total = state.correct + state.errors
+  document.getElementById('scoreBadge').textContent = total > 0
+    ? `Puntuación: ${state.correct - state.errors}` : 'Puntuación: —'
+}
+
+function showFeedback(msg, type) {
+  const bar = document.getElementById('feedbackBar')
+  bar.textContent = msg; bar.className = 'feedback-bar visible ' + type
+}
+
+function hideFeedback() { document.getElementById('feedbackBar').className = 'feedback-bar' }
+
+function nextCard() {
+  stopFuse()
+  state.index++
+  showCard()
+  hideFeedback()
+}
+
+function endRound() {
+  state.answered = false
+  const score = state.correct - state.errors
+  document.getElementById('gameArea').classList.add('hidden')
+  const victory = document.getElementById('victoryScreen')
+  victory.classList.add('visible')
+  document.getElementById('victoryScore').textContent =
+    `Aciertos: ${state.correct} de ${ROUND_SIZE} (${state.errors} ${state.errors === 1 ? 'fallo' : 'fallos'})`
+  document.getElementById('progressFill').style.width = '100%'
+  showFeedback(`¡Completado! Puntuación: ${score}/${ROUND_SIZE}`, 'done')
+}
+
+/* Koe integration — auto-listen */
+const micBtn = document.getElementById('micBtn')
+let _autoListenTimer = null
+let _autoMic = false
+let _paused = false
+
+function startListening() {
+  if (state.answered || _paused) return
+  if (!koe || !koe.isSupported()) return
+  if (koe.getListening()) return
+  const nonce = _cardNonce
+  koe.listen((candidates) => {
+    if (nonce !== _cardNonce) return
+    micBtn.classList.remove('listening')
+    document.getElementById('wave').classList.remove('active')
+    if (state.answered) return
+    stopFuse()
+    if (candidates.length > 0) {
+      const entrada = state.round[state.index]
+      const transcript = candidates[0].transcript
+      state.answered = true
+      micBtn.disabled = true
+      if (matchTranscript(transcript, entrada)) {
+        state.correct++
+        micBtn.className = 'mic-btn correct'
+        showFeedback(`¡Correcto!`, 'success')
+        updateStats()
+      } else {
+        state.errors++
+        micBtn.className = 'mic-btn wrong'
+        const ca = document.getElementById('correctAnswer')
+        ca.innerHTML = `Dijiste: ${transcript}<br>Esperado: <ruby>${entrada.literal}<rt>${entrada.lectura}</rt></ruby>`
+        ca.classList.remove('hidden')
+        showFeedback('Incorrecto — escucha la pronunciación correcta', 'error')
+        updateStats()
+      }
+      _autoListenTimer = setTimeout(nextCard, 2000)
+    }
+  }, (listening) => {
+    micBtn.classList.toggle('listening', listening)
+    document.getElementById('wave').classList.toggle('active', listening)
+  })
+}
+
+micBtn.addEventListener('click', () => {
+  if (!_autoMic) {
+    if (_autoListenTimer) { clearTimeout(_autoListenTimer); _autoListenTimer = null }
+    _autoMic = true
+    document.getElementById('micLabel').classList.add('hidden')
+    hideFeedback()
+    resetFuse()
+    startFuse()
+    setTimeout(startListening, 300)
+    return
+  }
+  _paused = !_paused
+  if (_paused) {
+    stopFuse()
+    if (koe) koe.cancel()
+    micBtn.classList.remove('listening')
+    document.getElementById('wave').classList.remove('active')
+    micBtn.className = 'mic-btn'
+    showFeedback('Práctica pausada', 'partial')
+  } else {
+    if (_autoListenTimer) { clearTimeout(_autoListenTimer); _autoListenTimer = null }
+    hideFeedback()
+    startFuse()
+    setTimeout(startListening, 300)
+  }
+})
+
+if (!koe || !koe.isSupported()) {
+  micBtn.style.display = 'none'
+}
+
+document.getElementById('restartBtn').addEventListener('click', startRound)
+
+startRound()
+</script>
+</body>
+</html>
