@@ -204,9 +204,10 @@ canvas {
         }],
       }
       console.log('tegaki request', JSON.stringify(body, null, 2))
-      const res = await fetch('/api/tegaki/recognize', {
-        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body),
-      })
+      const res = await fetch(
+        'https://www.google.com.tw/inputtools/request?ime=handwriting&app=mobilesearch&cs=1&oe=UTF-8',
+        { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) },
+      )
       const data = await res.json()
       console.log('tegaki response', JSON.stringify(data, null, 2))
       const candidates = data[1]?.[0]?.[1] ?? []
