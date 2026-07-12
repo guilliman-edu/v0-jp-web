@@ -789,12 +789,16 @@ const koe = (() => {
   let _listening = false
   let _onResult = null
   let _onListeningChange = null
+  let _onEnd = null
+  let _gotResult = false
 
-  function listen(onResult, onListeningChange) {
+  function listen(onResult, onListeningChange, onEnd) {
     if (_listening) return
     _onResult = onResult
     _onListeningChange = onListeningChange
+    _onEnd = onEnd
     _listening = true
+    _gotResult = false
     _onListeningChange?.(true)
 
     const r = new SR()
@@ -809,6 +813,7 @@ const koe = (() => {
       for (let i = 0; i < last.length; i++) {
         candidates.push({ transcript: last[i].transcript.trim(), confidence: last[i].confidence, position: i })
       }
+      _gotResult = true
       _listening = false
       _onListeningChange?.(false)
       _onResult?.(candidates)
@@ -822,6 +827,7 @@ const koe = (() => {
     r.onend = () => {
       _listening = false
       _onListeningChange?.(false)
+      if (!_gotResult) _onEnd?.()
     }
 
     r.start()
@@ -867,6 +873,7 @@ function startFuse() {
       _fuseActive = false
       _fuseRaf = null
       if (!state.answered) {
+        state.answered = true
         state.errors++
         updateStats()
         const entrada = state.round[state.index]
@@ -1001,37 +1008,44 @@ function startListening() {
   if (!koe || !koe.isSupported()) return
   if (koe.getListening()) return
   const nonce = _cardNonce
+
+  function retry() {
+    if (state.answered || _paused) return
+    if (nonce !== _cardNonce) return
+    if (!_fuseActive) { resetFuse(); startFuse() }
+    setTimeout(startListening, 600)
+  }
+
   koe.listen((candidates) => {
     if (nonce !== _cardNonce) return
     micBtn.classList.remove('listening')
     document.getElementById('wave').classList.remove('active')
     if (state.answered) return
+    if (candidates.length === 0) { retry(); return }
     stopFuse()
-    if (candidates.length > 0) {
-      const entrada = state.round[state.index]
-      const transcript = candidates[0].transcript
-      state.answered = true
-      micBtn.disabled = true
-      if (matchTranscript(transcript, entrada)) {
-        state.correct++
-        micBtn.className = 'mic-btn correct'
-        showFeedback(`¡Correcto!`, 'success')
-        updateStats()
-      } else {
-        state.errors++
-        micBtn.className = 'mic-btn wrong'
-        const ca = document.getElementById('correctAnswer')
-        ca.innerHTML = `Dijiste: ${transcript}<br>Esperado: <ruby>${entrada.literal}<rt>${entrada.lectura}</rt></ruby>`
-        ca.classList.remove('hidden')
-        showFeedback('Incorrecto — escucha la pronunciación correcta', 'error')
-        updateStats()
-      }
-      _autoListenTimer = setTimeout(nextCard, 2000)
+    const entrada = state.round[state.index]
+    const transcript = candidates[0].transcript
+    state.answered = true
+    micBtn.disabled = true
+    if (matchTranscript(transcript, entrada)) {
+      state.correct++
+      micBtn.className = 'mic-btn correct'
+      showFeedback(`¡Correcto!`, 'success')
+      updateStats()
+    } else {
+      state.errors++
+      micBtn.className = 'mic-btn wrong'
+      const ca = document.getElementById('correctAnswer')
+      ca.innerHTML = `Dijiste: ${transcript}<br>Esperado: <ruby>${entrada.literal}<rt>${entrada.lectura}</rt></ruby>`
+      ca.classList.remove('hidden')
+      showFeedback('Incorrecto — escucha la pronunciación correcta', 'error')
+      updateStats()
     }
+    _autoListenTimer = setTimeout(nextCard, 2000)
   }, (listening) => {
     micBtn.classList.toggle('listening', listening)
     document.getElementById('wave').classList.toggle('active', listening)
-  })
+  }, retry)
 }
 
 micBtn.addEventListener('click', () => {
