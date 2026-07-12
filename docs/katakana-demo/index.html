@@ -791,6 +791,8 @@ const koe = (() => {
   let _onListeningChange = null
   let _onEnd = null
   let _gotResult = false
+  let _recognition = null
+  let _watchdog = null
 
   function listen(onResult, onListeningChange, onEnd) {
     if (_listening) return
@@ -802,12 +804,27 @@ const koe = (() => {
     _onListeningChange?.(true)
 
     const r = new SR()
+    _recognition = r
     r.lang = 'ja-JP'
     r.continuous = false
     r.interimResults = false
     r.maxAlternatives = 5
 
+    clearTimeout(_watchdog)
+    _watchdog = setTimeout(() => {
+      if (_gotResult || !_listening) return
+      if (_recognition) { try { _recognition.abort() } catch (e) {} }
+      if (_listening) {
+        _listening = false
+        _recognition = null
+        _onListeningChange?.(false)
+        _onEnd?.()
+      }
+    }, 20000)
+
     r.onresult = (e) => {
+      if (_recognition !== r) return
+      clearTimeout(_watchdog)
       const last = e.results[e.results.length - 1]
       const candidates = []
       for (let i = 0; i < last.length; i++) {
@@ -815,17 +832,24 @@ const koe = (() => {
       }
       _gotResult = true
       _listening = false
+      _recognition = null
       _onListeningChange?.(false)
       _onResult?.(candidates)
     }
 
     r.onerror = () => {
+      if (_recognition !== r) return
+      clearTimeout(_watchdog)
       _listening = false
+      _recognition = null
       _onListeningChange?.(false)
     }
 
     r.onend = () => {
+      if (_recognition !== r) return
+      clearTimeout(_watchdog)
       _listening = false
+      _recognition = null
       _onListeningChange?.(false)
       if (!_gotResult) _onEnd?.()
     }
@@ -834,7 +858,12 @@ const koe = (() => {
   }
 
   function cancel() {
+    clearTimeout(_watchdog)
     _listening = false
+    if (_recognition) {
+      try { _recognition.abort() } catch (e) {}
+      _recognition = null
+    }
     _onListeningChange?.(false)
   }
 
