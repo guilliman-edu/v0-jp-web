@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Koe + Game — demo de pronunciación</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koe + Game — demo de pronunciación</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <script>(function() {
+<script src="koe-bundle.js"></script>
+<script>(function() {
 // ===== packages/common-api/src/speech/recognition.ts =====
 const DEFAULT_CONFIG = {
   lang: "ja-JP",
@@ -73,140 +74,6 @@ function findMatch(candidates, accepted) {
   return { matched: false, candidate: null };
 }
 
-// ===== packages/common-api/src/speech/index.ts =====
-class Koe {
-  static async checkCompatibility() {
-    let micPermission = "unknown";
-    if (typeof navigator !== "undefined" && "permissions" in navigator) {
-      try {
-        const status = await navigator.permissions.query({ name: "microphone" });
-        micPermission = status.state;
-      } catch { micPermission = "unknown"; }
-    }
-    return {
-      supported: isSpeechSupported(),
-      secureContext: typeof location === "undefined" || location.protocol === "https:" || location.hostname === "localhost",
-      online: typeof navigator === "undefined" || navigator.onLine,
-      micPermission,
-    };
-  }
-
-  recognizer = null;
-  started = false;
-  callbacks;
-  _listening = false;
-  _userStopped = false;
-
-  constructor(callbacks = {}) { this.callbacks = callbacks; }
-
-  static isSupported() { return isSpeechSupported(); }
-
-  get listening() { return this._listening; }
-  set listening(value) {
-    this._listening = value;
-    this.callbacks.onListeningChange?.(value);
-  }
-
-  async requestMicrophone() {
-    try {
-      await navigator.mediaDevices.getUserMedia({ audio: true });
-      return true;
-    } catch {
-      this.callbacks.onPermissionDenied?.();
-      return false;
-    }
-  }
-
-  init() {
-    if (this.recognizer) return;
-    if (!isSpeechSupported()) {
-      this.callbacks.onError?.({ type: "unsupported", message: "SpeechRecognition no disponible en este navegador" });
-      return;
-    }
-    this._userStopped = false;
-    this.recognizer = createRecognizer(
-      { lang: "ja-JP", continuous: true, interimResults: true, maxAlternatives: 5 },
-      (event) => {
-        switch (event.kind) {
-          case "result": this.handleResult(event.data); break;
-          case "error": this.handleError(event.data); break;
-          case "end": this.handleEnd(); break;
-        }
-      }
-    );
-    this.recognizer.start();
-    this.started = true;
-  }
-
-  get isListening() { return this.started && this.recognizer !== null; }
-
-  destroy() {
-    this._userStopped = true;
-    this._listening = false;
-    this.recognizer?.abort();
-    this.recognizer = null;
-    this.started = false;
-  }
-
-  handleResult(data) {
-    if (!this._listening) return;
-    if (!data.isFinal) return;
-    const candidates = data.alternatives.map((alt, i) => ({
-      transcript: alt.transcript.trim(),
-      confidence: alt.confidence,
-      position: i,
-    }));
-    this._listening = false;
-    this.callbacks.onListeningChange?.(false);
-    this.callbacks.onCaptureComplete?.(candidates);
-  }
-
-  handleError(error) {
-    switch (error.type) {
-      case "not-allowed":
-        this._userStopped = true;
-        this.callbacks.onPermissionDenied?.();
-        this.recognizer = null;
-        this.started = false;
-        break;
-      case "no-speech":
-        this._listening = false;
-        this.callbacks.onListeningChange?.(false);
-        this.callbacks.onNoSpeech?.();
-        break;
-      case "network":
-        this.recognizer?.start();
-        break;
-    }
-    this.callbacks.onError?.(error);
-  }
-
-  handleEnd() {
-    if (!this._userStopped && this.recognizer) {
-      this.recognizer.start();
-    }
-  }
-}
-
-// ===== packages/game/src/random.ts =====
-function shuffleFisherYates(array) {
-  const result = [...array];
-  for (let i = result.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [result[i], result[j]] = [result[j], result[i]];
-  }
-  return result;
-}
-function weightedPick(items) {
-  const totalWeight = items.reduce((sum, { weight }) => sum + weight, 0);
-  let r = Math.random() * totalWeight;
-  for (const { item, weight } of items) {
-    r -= weight;
-    if (r <= 0) return item;
-  }
-  return items[items.length - 1].item;
-}
-
 // ===== packages/game/src/score.ts =====
 function calculateExercisePoints(difficulty, accuracy) {
   const base = difficulty * 10;
@@ -243,28 +110,7 @@ function getSpeechLevel(score) {
   }
   return "Mejorable";
 }
-
-const FEEDBACK = {
-  choiceCorrect: "¡Respuesta correcta!",
-  choiceWrong: "Respuesta incorrecta.",
-  textExact: "¡Coincide exactamente!",
-  textPartial: "Casi… revisa la ortografía.",
-  textWrong: "No coincide. Revisa el material.",
-};
 function normalize(text) { return text.trim().toLowerCase(); }
-function evaluateChoice(correct, playerAnswer) {
-  const match = normalize(playerAnswer) === normalize(correct);
-  return { correct: match, accuracy: match ? 1 : 0, type: "choice", feedback: match ? FEEDBACK.choiceCorrect : FEEDBACK.choiceWrong };
-}
-function evaluateText(accepted, playerAnswer) {
-  const playerNorm = normalize(playerAnswer);
-  const normalizedAccepted = accepted.map(normalize);
-  const exactMatch = normalizedAccepted.some((a) => a === playerNorm);
-  if (exactMatch) return { correct: true, accuracy: 1, type: "text", feedback: FEEDBACK.textExact };
-  const partialMatch = normalizedAccepted.some((a) => a.includes(playerNorm) || playerNorm.includes(a));
-  if (partialMatch) return { correct: false, accuracy: 0.5, type: "text", feedback: FEEDBACK.textPartial };
-  return { correct: false, accuracy: 0, type: "text", feedback: FEEDBACK.textWrong };
-}
 function evaluateSpeech(accepted, candidates) {
   const match = findMatch(candidates, accepted);
   if (!match.matched || !match.candidate) {
@@ -283,8 +129,6 @@ function evaluateSpeech(accepted, candidates) {
 }
 function evaluateMove(correct, playerAnswer, type) {
   switch (type) {
-    case "choice": return evaluateChoice(correct, playerAnswer);
-    case "text": return evaluateText(Array.isArray(correct) ? correct : [correct], playerAnswer);
     case "speech": {
       const speechResult = evaluateSpeech(Array.isArray(correct) ? correct : [correct], Array.isArray(playerAnswer) ? playerAnswer : []);
       return {
@@ -297,7 +141,7 @@ function evaluateMove(correct, playerAnswer, type) {
   }
 }
 function processMove(config, state, move) {
-  const correct = config.moveType === "choice" ? config.correctAnswer ?? "" : config.accepted ?? [];
+  const correct = config.accepted ?? [];
   const evaluation = evaluateMove(correct, move.playerAnswer, config.moveType);
   const pointsEarned = calculateExercisePoints(config.difficulty, evaluation.accuracy);
   const totalAccuracy = state.lastAccuracy * state.completedLessons + evaluation.accuracy;
@@ -313,125 +157,186 @@ function processMove(config, state, move) {
     threeStarLessons: state.threeStarLessons + (starRating >= 3 ? 1 : 0),
     lastAccuracy: averageAccuracy,
   };
-  const newAchievements = evaluateAchievements(updatedState, [], []);
-  return { evaluation, pointsEarned, newAchievements, starRating, averageAccuracy, updatedState };
+  return { evaluation, pointsEarned, starRating, averageAccuracy, updatedState };
+}
+
+// ===== packages/game/src/random.ts =====
+function shuffleFisherYates(array) {
+  const result = [...array];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
 }
 
 // ===== bundle entry =====
 window.KoeGame = {
-  Koe,
   isSpeechSupported,
   processMove,
   shuffleFisherYates,
-  weightedPick,
+  evaluateSpeech,
 };
 })();</script>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Inter', 'Noto Sans JP', sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      padding: 1rem;
-    }
-    .app { max-width: 40rem; width: 100%; margin: 1rem 0; }
-    .topbar {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0.75rem 1rem;
-      background: #1e293b; border-radius: 0.75rem; margin-bottom: 1rem;
-    }
-    .topbar h1 { font-size: 1.125rem; font-weight: 700; }
-    .topbar-stats { display: flex; gap: 1rem; font-size: 0.8rem; color: #94a3b8; }
-    .topbar-stats span { display: flex; align-items: center; gap: 0.25rem; }
-    .topbar-stats strong { color: #e2e8f0; font-weight: 600; }
-    .progress-bar {
-      width: 100%; height: 4px; background: #334155; border-radius: 2px; margin-bottom: 1.5rem;
-    }
-    .progress-fill {
-      height: 100%; background: #3b82f6; border-radius: 2px; transition: width 0.4s ease;
-    }
-    .word-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-      gap: 0.4rem; margin-bottom: 1.5rem;
-    }
-    .word-card {
-      background: #1e293b; border: 2px solid #334155; border-radius: 0.5rem;
-      padding: 0.5rem; text-align: center; font-size: 0.85rem;
-      transition: all 0.3s;
-    }
-    .word-card.is-current { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,0.2); transform: scale(1.05); }
-    .word-card.is-correct { border-color: #22c55e; background: #14532d; }
-    .word-card.is-wrong { border-color: #ef4444; background: #450a0a; }
-    .word-jp { display: block; font-size: 1rem; }
-    .word-es { display: block; font-size: 0.65rem; color: #94a3b8; }
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.app { max-width: 40rem; width: 100%; margin: 1rem 0; }
 
-    .speech-area {
-      background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem;
-      padding: 2rem; text-align: center; margin-bottom: 1rem;
-    }
-    .speech-area .counter { font-size: 0.8rem; color: #64748b; margin-bottom: 0.5rem; }
-    .speech-area h2 { font-size: 2.5rem; margin-bottom: 0.25rem; }
-    .speech-area .hint { font-size: 0.9rem; color: #94a3b8; margin-bottom: 1.5rem; }
-    .speech-area .listening-indicator {
-      font-size: 0.85rem; color: #22c55e; margin-bottom: 0.75rem;
-      display: none; align-items: center; justify-content: center; gap: 0.5rem;
-    }
-    .speech-area .listening-indicator.show { display: flex; }
-    .listening-dot {
-      display: inline-block; width: 10px; height: 10px; border-radius: 50%;
-      background: #22c55e; animation: pulse 1.5s infinite;
-    }
-    @keyframes pulse {
-      0%, 100% { box-shadow: 0 0 0 3px rgba(34,197,94,0.3); }
-      50% { box-shadow: 0 0 0 7px rgba(34,197,94,0.1); }
-    }
-    .btn {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem;
-      font-weight: 600; font-size: 1rem; cursor: pointer;
-      transition: all 0.2s;
-    }
-    .btn:disabled { opacity: 0.4; cursor: default; }
-    .btn-primary { background: #3b82f6; color: white; }
-    .btn-primary:hover:not(:disabled) { background: #2563eb; }
-    .feedback {
-      margin-top: 1rem; padding: 0.75rem; border-radius: 0.5rem;
-      font-size: 0.9rem; min-height: 3rem;
-    }
-    .feedback.excelente { background: #052e16; color: #86efac; border: 1px solid #166534; }
-    .feedback.bien { background: #052e16; color: #86efac; border: 1px solid #166534; }
-    .feedback.aceptable { background: #422006; color: #fde68a; border: 1px solid #854d0e; }
-    .feedback.mejorable { background: #450a0a; color: #fca5a5; border: 1px solid #991b1b; }
-    .feedback.no-reconocido { background: #450a0a; color: #fca5a5; border: 1px solid #991b1b; }
-    .feedback.waiting { background: #1e293b; color: #64748b; border: 1px dashed #334155; }
-    .interim { font-size: 0.85rem; color: #64748b; font-style: italic; min-height: 1.5rem; margin-top: 0.5rem; }
-    .game-feedback {
-      display: flex; gap: 1rem; justify-content: center; margin-top: 0.75rem; font-size: 0.85rem;
-    }
-    .game-feedback span { display: flex; align-items: center; gap: 0.25rem; }
-    .achievement-popup {
-      position: fixed; bottom: 1rem; right: 1rem;
-      background: #1e293b; border: 1px solid #f59e0b; border-radius: 0.75rem;
-      padding: 1rem; display: none; max-width: 20rem; animation: slideUp 0.3s ease;
-    }
-    .achievement-popup.show { display: block; }
-    @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-    .achievement-popup h4 { color: #f59e0b; margin-bottom: 0.25rem; }
-    .achievement-popup p { font-size: 0.85rem; color: #94a3b8; }
-    .result-screen { display: none; }
-    .result-screen.show { display: block; }
-    .result-screen h2 { text-align: center; margin-bottom: 1rem; }
-    .result-stats {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem;
-    }
-    .result-stat { background: #1e293b; border-radius: 0.75rem; padding: 1rem; text-align: center; }
-    .result-stat .value { font-size: 1.5rem; font-weight: 700; }
-    .result-stat .label { font-size: 0.8rem; color: #94a3b8; }
-  </style>
+/* topbar */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: #1e293b; border-radius: 0.75rem; margin-bottom: 1rem;
+}
+.topbar h1 { font-size: 1.125rem; font-weight: 700; }
+.topbar-stats { display: flex; gap: 1rem; font-size: 0.8rem; color: #94a3b8; }
+.topbar-stats span { display: flex; align-items: center; gap: 0.25rem; }
+.topbar-stats strong { color: #e2e8f0; font-weight: 600; }
+
+/* progress */
+.progress-bar {
+  width: 100%; height: 4px; background: #334155; border-radius: 2px; margin-bottom: 1.5rem;
+}
+.progress-fill {
+  height: 100%; background: #3b82f6; border-radius: 2px; transition: width 0.4s ease;
+}
+
+/* word grid */
+.word-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 0.4rem; margin-bottom: 1.5rem;
+}
+.word-card {
+  background: #1e293b; border: 2px solid #334155; border-radius: 0.5rem;
+  padding: 0.5rem; text-align: center; font-size: 0.85rem;
+  transition: all 0.3s;
+  opacity: 0.6;
+}
+.word-card.is-current { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,0.2); transform: scale(1.05); opacity: 1; }
+.word-card.is-correct { border-color: #22c55e; background: #14532d; opacity: 1; }
+.word-card.is-wrong { border-color: #ef4444; background: #450a0a; opacity: 1; }
+.word-card.is-pending { opacity: 1; }
+.word-jp { display: block; font-size: 1rem; }
+.word-es { display: block; font-size: 0.65rem; color: #94a3b8; }
+
+/* speech area */
+.speech-area {
+  background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem;
+  padding: 2rem; text-align: center; margin-bottom: 1rem;
+}
+.speech-area .counter { font-size: 0.8rem; color: #64748b; margin-bottom: 0.5rem; }
+.speech-area h2 { font-size: 2.5rem; margin-bottom: 0.25rem; }
+.speech-area .hint { font-size: 0.9rem; color: #94a3b8; margin-bottom: 1.5rem; }
+
+/* mic button */
+.mic-btn {
+  width: 3.5rem; height: 3.5rem;
+  padding: 0;
+  background: #1e293b; color: #94a3b8;
+  border: 2px solid #475569;
+  border-radius: 50%;
+  cursor: pointer; transition: all 0.2s;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 1.5rem;
+  position: relative;
+}
+.mic-btn:hover { background: #334155; border-color: #64748b; }
+.mic-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.mic-btn.listening {
+  background: #450a0a; color: #ef4444; border-color: #ef4444;
+  animation: pulse-mic 1s ease-in-out infinite;
+}
+@keyframes pulse-mic {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(239,68,68,0); }
+}
+
+/* wave bars */
+.wave {
+  position: absolute; display: none; gap: 2px;
+  align-items: center; height: 1rem;
+  bottom: -1.5rem; left: 50%; transform: translateX(-50%);
+}
+.wave.active { display: flex; }
+.wave span {
+  display: block; width: 3px;
+  background: #ef4444; border-radius: 2px;
+  animation: wave-bar 0.6s ease-in-out infinite;
+}
+.wave span:nth-child(1) { height: 0.4rem; animation-delay: 0s; }
+.wave span:nth-child(2) { height: 0.7rem; animation-delay: 0.1s; }
+.wave span:nth-child(3) { height: 0.4rem; animation-delay: 0.2s; }
+.wave span:nth-child(4) { height: 0.6rem; animation-delay: 0.15s; }
+.wave span:nth-child(5) { height: 0.35rem; animation-delay: 0.25s; }
+@keyframes wave-bar {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+
+/* action buttons */
+.btn-row {
+  display: flex; gap: 0.5rem; justify-content: center; align-items: center; margin-top: 1.25rem;
+}
+.btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem;
+  font-weight: 600; font-size: 1rem; cursor: pointer;
+  transition: all 0.2s;
+}
+.btn:disabled { opacity: 0.4; cursor: default; }
+.btn-primary { background: #3b82f6; color: white; }
+.btn-primary:hover:not(:disabled) { background: #2563eb; }
+.btn-next {
+  background: #3b82f6; color: white;
+}
+.btn-next:hover:not(:disabled) { background: #2563eb; }
+
+/* feedback */
+.feedback {
+  margin-top: 1rem; padding: 0.75rem; border-radius: 0.5rem;
+  font-size: 0.9rem; min-height: 3rem;
+}
+.feedback.excelente, .feedback.bien { background: #052e16; color: #86efac; border: 1px solid #166534; }
+.feedback.aceptable { background: #422006; color: #fde68a; border: 1px solid #854d0e; }
+.feedback.mejorable, .feedback.no-reconocido { background: #450a0a; color: #fca5a5; border: 1px solid #991b1b; }
+.feedback.waiting { background: #1e293b; color: #64748b; border: 1px dashed #334155; }
+.game-feedback {
+  display: flex; gap: 1rem; justify-content: center; margin-top: 0.75rem; font-size: 0.85rem;
+}
+.game-feedback span { display: flex; align-items: center; gap: 0.25rem; }
+
+/* achievement popup */
+.achievement-popup {
+  position: fixed; bottom: 1rem; right: 1rem;
+  background: #1e293b; border: 1px solid #f59e0b; border-radius: 0.75rem;
+  padding: 1rem; display: none; max-width: 20rem; animation: slideUp 0.3s ease;
+}
+.achievement-popup.show { display: block; }
+@keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.achievement-popup h4 { color: #f59e0b; margin-bottom: 0.25rem; }
+.achievement-popup p { font-size: 0.85rem; color: #94a3b8; }
+
+/* result screen */
+.result-screen { display: none; }
+.result-screen.show { display: block; }
+.result-screen h2 { text-align: center; margin-bottom: 1rem; }
+.result-stats {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem;
+}
+.result-stat { background: #1e293b; border-radius: 0.75rem; padding: 1rem; text-align: center; }
+.result-stat .value { font-size: 1.5rem; font-weight: 700; }
+.result-stat .label { font-size: 0.8rem; color: #94a3b8; }
+</style>
 </head>
 <body>
 <div class="app">
@@ -439,7 +344,7 @@ window.KoeGame = {
     <h1>Koe + Game</h1>
     <div class="topbar-stats">
       <span>⭐ <strong id="starCount">0</strong></span>
-      <span>🏆 <strong id="achCount">0</strong></span>
+      <span>🎯 <strong id="correctBadge">0/0</strong></span>
       <span>🔥 <strong id="xpDisplay">0</strong> XP</span>
     </div>
   </div>
@@ -452,15 +357,13 @@ window.KoeGame = {
       <div class="counter" id="counter">Palabra 1 de 15</div>
       <h2 id="currentWord">—</h2>
       <p class="hint" id="currentHint">Preparando...</p>
-      <div class="listening-indicator" id="listeningIndicator">
-        <span class="listening-dot"></span> Escuchando...
+
+      <div class="btn-row">
+        <button class="mic-btn" id="micBtn" title="Habla en japonés">🎤<span class="wave" id="wave"><span></span><span></span><span></span><span></span><span></span></span></button>
+        <button class="btn btn-next" id="btnNext" style="display:none">Siguiente →</button>
       </div>
-      <div style="display:flex;gap:0.5rem;justify-content:center">
-        <button class="btn btn-primary" id="btnListen">🎤 Escuchar</button>
-        <button class="btn btn-primary" id="btnNext" style="display:none">➡ Siguiente</button>
-      </div>
-      <div class="interim" id="interim"></div>
-      <div class="feedback waiting" id="feedback">Presiona "Escuchar" para activar el micrófono</div>
+
+      <div class="feedback waiting" id="feedback">Presiona el micrófono y di la palabra en japonés</div>
       <div class="game-feedback" id="gameFeedback"></div>
     </div>
   </div>
@@ -484,7 +387,7 @@ window.KoeGame = {
 </div>
 
 <script>
-const { Koe, processMove, shuffleFisherYates } = window.KoeGame
+const { processMove, shuffleFisherYates } = window.KoeGame
 
 const WORDS = [
   { jp: 'すし', es: 'sushi', accepted: ['sushi', 'すし', 'スシ'] },
@@ -509,42 +412,61 @@ const WORDS = [
   { jp: 'つき', es: 'luna', accepted: ['tsuki', 'つき', '月'] },
 ]
 
+const koe = window.Koe
+
+/* --- Game state --- */
 const words = shuffleFisherYates(WORDS).slice(0, 15)
 let index = 0
 let totalXP = 0
-let totalStars = 0
 let unlocked = []
 let processing = false
 
+/* Per-word result tracking for the grid */
+const results = words.map(() => ({ status: 'pending' }))
+/* Player state for processMove accumulation */
+let playerState = {
+  completedLessons: 0,
+  completedSequences: 0,
+  level: 1,
+  streak: 0,
+  perfectLessons: 0,
+  threeStarLessons: 0,
+  lastAccuracy: 0,
+}
+
+/* --- DOM refs --- */
 const grid = document.getElementById('wordGrid')
 const currentWord = document.getElementById('currentWord')
 const currentHint = document.getElementById('currentHint')
 const counter = document.getElementById('counter')
-const btnListen = document.getElementById('btnListen')
-const listeningIndicator = document.getElementById('listeningIndicator')
-const interim = document.getElementById('interim')
+const micBtn = document.getElementById('micBtn')
+const btnNext = document.getElementById('btnNext')
+const wave = document.getElementById('wave')
 const feedback = document.getElementById('feedback')
 const gameFeedback = document.getElementById('gameFeedback')
 const progressFill = document.getElementById('progressFill')
 const starCount = document.getElementById('starCount')
-const achCount = document.getElementById('achCount')
+const correctBadge = document.getElementById('correctBadge')
 const xpDisplay = document.getElementById('xpDisplay')
 const achPopup = document.getElementById('achPopup')
 const achPopupText = document.getElementById('achPopupText')
 const gamePhase = document.getElementById('gamePhase')
 const resultScreen = document.getElementById('resultScreen')
 
+/* --- Build grid --- */
 words.forEach((w, i) => {
   const card = document.createElement('div')
-  card.className = 'word-card'
+  card.className = 'word-card is-pending'
   card.innerHTML = '<span class="word-jp">' + w.jp + '</span><span class="word-es">' + w.es + '</span>'
   grid.appendChild(card)
 })
 
 function updateGrid() {
-  document.querySelectorAll('.word-card').forEach(function(card, i) {
-    card.classList.toggle('is-current', i === index)
-    card.classList.toggle('is-correct', i < index)
+  document.querySelectorAll('.word-card').forEach((card, i) => {
+    card.className = 'word-card ' + results[i].status
+    if (i === index && results[i].status === 'pending') {
+      card.className = 'word-card is-current'
+    }
   })
 }
 
@@ -554,10 +476,11 @@ function showWord(i) {
   currentHint.textContent = '«' + words[i].es + '» — dilo en japonés'
   counter.textContent = 'Palabra ' + (i + 1) + ' de ' + words.length
   feedback.className = 'feedback waiting'
-  feedback.textContent = '🎤 Presiona "Escuchar" y di la palabra...'
+  feedback.textContent = '🎤 Presiona el micrófono y di la palabra'
   gameFeedback.innerHTML = ''
-  interim.textContent = ''
-  btnListen.disabled = false
+  micBtn.disabled = false
+  btnNext.style.display = 'none'
+  processing = false
   updateGrid()
 }
 
@@ -571,102 +494,101 @@ function feedbackClass(level) {
   }
 }
 
-const koe = new Koe({
-  onCaptureComplete: function(candidates) {
+function updateStats() {
+  const done = results.filter(r => r.status === 'correct' || r.status === 'wrong')
+  const correct = results.filter(r => r.status === 'correct').length
+  correctBadge.textContent = correct + '/' + done.length
+}
+
+/* --- Process speech result --- */
+function onSpeechResult(candidates) {
+  if (processing) return
+  processing = true
+
+  const word = words[index]
+  const config = {
+    difficulty: 3,
+    starThresholds: [0, 30, 60],
+    accepted: word.accepted,
+    moveType: 'speech',
+  }
+  const moveResult = processMove(config, playerState, { playerAnswer: candidates })
+  playerState = moveResult.updatedState
+  totalXP += moveResult.pointsEarned
+
+  const level = moveResult.evaluation.feedback
+  const cls = feedbackClass(level)
+  feedback.className = 'feedback ' + cls
+  feedback.textContent = level + ' — ' + (moveResult.evaluation.accuracy * 100).toFixed(0) + '%'
+
+  gameFeedback.innerHTML = '<span>+' + moveResult.pointsEarned + ' XP</span><span>⭐ ' + moveResult.starRating + '</span>'
+
+  /* Mark word result */
+  if (moveResult.evaluation.correct) {
+    results[index].status = 'correct'
+  } else {
+    results[index].status = 'wrong'
+  }
+
+  /* Achievements */
+  const correctCount = results.filter(r => r.status === 'correct').length
+  const newAch = []
+  if (correctCount >= 1 && unlocked.indexOf('first') === -1) { newAch.push({id:'first',name:'Primer paso',desc:'Primera palabra bien pronunciada'}) }
+  if (correctCount >= 5 && unlocked.indexOf('five') === -1) { newAch.push({id:'five',name:'Aprendiz',desc:'5 palabras bien pronunciadas'}) }
+  if (correctCount >= 10 && unlocked.indexOf('ten') === -1) { newAch.push({id:'ten',name:'Estudiante',desc:'10 palabras bien pronunciadas'}) }
+  newAch.forEach(function(a) { unlocked.push(a.id); showAchievement(a) })
+
+  updateGrid()
+  updateStats()
+  starCount.textContent = moveResult.starRating
+  xpDisplay.textContent = totalXP
+  progressFill.style.width = ((index + 1) / words.length * 100) + '%'
+
+  micBtn.style.display = 'none'
+  btnNext.style.display = 'inline-flex'
+  if (index + 1 >= words.length) {
+    btnNext.textContent = '🎉 Ver resultados'
+  } else {
+    btnNext.textContent = 'Siguiente →'
+  }
+}
+
+/* --- Koe integration --- */
+if (koe && koe.isSupported()) {
+  micBtn.addEventListener('click', () => {
+    if (koe.getListening()) { koe.cancel(); micBtn.classList.remove('listening'); wave.classList.remove('active'); return }
     if (processing) return
-    processing = true
-    const word = words[index]
-    const config = {
-      difficulty: 3,
-      starThresholds: [0, 30, 60],
-      accepted: word.accepted,
-      moveType: 'speech',
-    }
-    const state = {
-      completedLessons: index,
-      completedSequences: 0,
-      level: 1, streak: 0,
-      perfectLessons: 0, threeStarLessons: 0, lastAccuracy: 0,
-    }
-    const moveResult = processMove(config, state, { playerAnswer: candidates })
-    totalXP += moveResult.pointsEarned
-    totalStars = moveResult.starRating
+    koe.listen(
+      (candidates) => {
+        micBtn.classList.remove('listening')
+        wave.classList.remove('active')
+        onSpeechResult(candidates)
+      },
+      (listening) => {
+        micBtn.classList.toggle('listening', listening)
+        wave.classList.toggle('active', listening)
+      },
+      () => {
+        micBtn.classList.remove('listening')
+        wave.classList.remove('active')
+        if (!processing) {
+          feedback.className = 'feedback no-reconocido'
+          feedback.textContent = 'No se detectó voz. Presiona el micrófono e intenta de nuevo.'
+          micBtn.disabled = false
+        }
+      }
+    )
+  })
+} else {
+  micBtn.style.display = 'none'
+  feedback.className = 'feedback no-reconocido'
+  feedback.textContent = '⚠️ SpeechRecognition no disponible. Usa Chrome o Edge.'
+}
 
-    const correctCount = index + (moveResult.evaluation.correct ? 1 : 0)
-    const newAch = []
-    if (correctCount >= 1 && unlocked.indexOf('first') === -1) { newAch.push({id:'first',name:'Primer paso',desc:'Primera palabra bien pronunciada'}) }
-    if (correctCount >= 5 && unlocked.indexOf('five') === -1) { newAch.push({id:'five',name:'Aprendiz',desc:'5 palabras bien pronunciadas'}) }
-    if (correctCount >= 10 && unlocked.indexOf('ten') === -1) { newAch.push({id:'ten',name:'Estudiante',desc:'10 palabras bien pronunciadas'}) }
-    newAch.forEach(function(a) { unlocked.push(a.id); showAchievement(a) })
-
-    const level = moveResult.evaluation.feedback
-    const cls = feedbackClass(level)
-    feedback.className = 'feedback ' + cls
-    feedback.textContent = level + ' — puntuación: ' + (moveResult.evaluation.accuracy * 100).toFixed(0) + '%'
-    gameFeedback.innerHTML = '<span>+' + moveResult.pointsEarned + ' XP</span><span>⭐ ' + moveResult.starRating + '</span>'
-    if (newAch.length) gameFeedback.innerHTML += '<span>🏅 +' + newAch.length + '</span>'
-    updateGrid()
-    starCount.textContent = totalStars
-    achCount.textContent = unlocked.length
-    xpDisplay.textContent = totalXP
-    progressFill.style.width = ((index + 1) / words.length * 100) + '%'
-
-    btnListen.style.display = 'none'
-    document.getElementById('btnNext').style.display = 'inline-flex'
-    listeningIndicator.classList.remove('show')
-
-    if (index + 1 >= words.length) {
-      document.getElementById('btnNext').textContent = '🎉 Ver resultados'
-    }
-  },
-  onListeningChange: function(listening) {
-    if (listening) {
-      listeningIndicator.classList.add('show')
-      feedback.className = 'feedback waiting'
-      feedback.textContent = '🎤 Escuchando... di la palabra'
-      interim.textContent = ''
-    } else {
-      listeningIndicator.classList.remove('show')
-    }
-  },
-  onPermissionDenied: function() {
-    feedback.className = 'feedback no-reconocido'
-    feedback.textContent = 'Permiso de micrófono denegado. Ve a ajustes del navegador.'
-    btnListen.disabled = true
-  },
-  onNoSpeech: function() {
-    intermediate = false
-    feedback.className = 'feedback no-reconocido'
-    feedback.textContent = 'No se detectó voz. Presiona "Escuchar" e intenta de nuevo.'
-    btnListen.disabled = false
-  },
-  onError: function(err) {
-    if (err.type === 'unsupported') {
-      feedback.className = 'feedback no-reconocido'
-      feedback.textContent = err.message
-      btnListen.disabled = true
-    }
-  },
-})
-
-btnListen.addEventListener('click', async function() {
-  if (!Koe.isSupported()) {
-    feedback.className = 'feedback no-reconocido'
-    feedback.textContent = 'SpeechRecognition no disponible. Usa Chrome o Edge.'
-    return
-  }
-  if (!koe.isListening) {
-    const granted = await koe.requestMicrophone()
-    if (!granted) return
-    koe.init()
-  }
-  koe.listening = true
-  btnListen.disabled = true
-})
-
-document.getElementById('btnNext').addEventListener('click', function() {
+/* --- Next button --- */
+btnNext.addEventListener('click', function() {
   this.style.display = 'none'
-  btnListen.style.display = 'inline-flex'
+  micBtn.style.display = 'inline-flex'
   processing = false
   if (index + 1 >= words.length) {
     finishLesson()
@@ -675,22 +597,16 @@ document.getElementById('btnNext').addEventListener('click', function() {
   }
 })
 
-window.addEventListener('beforeunload', function() {
-  if (koe.isListening) koe.destroy()
-})
-
-if (!Koe.isSupported()) {
-  feedback.className = 'feedback no-reconocido'
-  feedback.textContent = '⚠️ SpeechRecognition no disponible. Usa Chrome o Edge.'
-}
 showWord(0)
 
+/* --- Results --- */
 function finishLesson() {
-  koe.destroy()
   gamePhase.style.display = 'none'
   resultScreen.classList.add('show')
-  document.getElementById('rCorrect').textContent = Math.min(index + 1, words.length) + '/' + words.length
-  document.getElementById('rStars').textContent = '⭐' + totalStars + '/3'
+  const correct = results.filter(r => r.status === 'correct').length
+  const total = words.length
+  document.getElementById('rCorrect').textContent = correct + '/' + total
+  document.getElementById('rStars').textContent = '⭐' + playerState.starRating + '/3'
   document.getElementById('rXP').textContent = totalXP
 }
 

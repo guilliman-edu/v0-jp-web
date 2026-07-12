@@ -116,57 +116,92 @@ var Koe = class {
       micPermission
     };
   }
-  recognizer = null;
-  callbacks;
-  config;
-  constructor(config = {}, callbacks = {}) {
-    this.config = config;
+  constructor(callbacks = {}) {
     this.callbacks = callbacks;
+    this._listening = false;
+    this._gotResult = false;
+    this._recognition = null;
+    this._watchdog = null;
+    this._sessionId = 0;
   }
   static isSupported() {
     return isSpeechSupported();
   }
-  start() {
-    if (this.recognizer) return;
-    this.recognizer = createRecognizer(this.config, (event) => {
-      switch (event.kind) {
-        case "result":
-          this.handleResult(event.data);
-          break;
-        case "error":
-          this.callbacks.onerror?.(event.data);
-          break;
-        case "end":
-          this.recognizer = null;
-          this.callbacks.onend?.();
-          break;
+  get listening() {
+    return this._listening;
+  }
+  requestMicrophone() {
+    try {
+      return navigator.mediaDevices.getUserMedia({ audio: true }).then(function() { return true });
+    } catch {
+      return Promise.resolve(false);
+    }
+  }
+  listen(onResult, onListeningChange, onEnd) {
+    if (this._listening) return;
+    this._listening = true;
+    this._gotResult = false;
+    this._recognition = null;
+    var self = this;
+    var sessionId = ++this._sessionId;
+    if (onListeningChange) onListeningChange(true);
+    var r = createRecognizer(
+      { lang: "ja-JP", continuous: false, interimResults: false, maxAlternatives: 5 },
+      function(event) {
+        if (event.kind !== "error" && self._recognition !== r) return;
+        switch (event.kind) {
+          case "result": {
+            if (!event.data.isFinal) return;
+            clearTimeout(self._watchdog);
+            self._gotResult = true;
+            self._listening = false;
+            self._recognition = null;
+            if (onListeningChange) onListeningChange(false);
+            var candidates = event.data.alternatives.map(function(alt, i) {
+              return { transcript: alt.transcript.trim(), confidence: alt.confidence, position: i };
+            });
+            onResult(candidates);
+            break;
+          }
+          case "error": {
+            clearTimeout(self._watchdog);
+            self._listening = false;
+            self._recognition = null;
+            if (onListeningChange) onListeningChange(false);
+            break;
+          }
+          case "end": {
+            if (self._sessionId !== sessionId) return;
+            clearTimeout(self._watchdog);
+            self._listening = false;
+            self._recognition = null;
+            if (onListeningChange) onListeningChange(false);
+            if (!self._gotResult && onEnd) onEnd();
+            break;
+          }
+        }
       }
-    });
-    this.recognizer.start();
-  }
-  stop() {
-    this.recognizer?.stop();
-    this.recognizer = null;
-  }
-  abort() {
-    this.recognizer?.abort();
-    this.recognizer = null;
-  }
-  get isListening() {
-    return this.recognizer !== null;
-  }
-  handleResult(data) {
-    const normalized = normalizeAlternatives(data.alternatives);
-    const result = {
-      text: normalized[0]?.raw ?? "",
-      confidence: normalized[0]?.confidence ?? 0,
-      isFinal: data.isFinal,
-      alternatives: normalized,
-      match(accepted) {
-        return matchesAny(normalized, accepted).matched;
+    );
+    this._recognition = r;
+    clearTimeout(this._watchdog);
+    this._watchdog = setTimeout(function() {
+      if (self._gotResult || !self._listening || self._sessionId !== sessionId) return;
+      if (self._recognition) { try { self._recognition.abort(); } catch (e) {} }
+      self._recognition = null;
+      if (self._listening) {
+        self._listening = false;
+        if (onListeningChange) onListeningChange(false);
+        if (onEnd) onEnd();
       }
-    };
-    this.callbacks.onresult?.(result);
+    }, 20000);
+    r.start();
+  }
+  cancel() {
+    clearTimeout(this._watchdog);
+    this._listening = false;
+    this._gotResult = false;
+    if (this._recognition) { try { this._recognition.abort(); } catch (e) {} }
+    this._recognition = null;
   }
 };
 

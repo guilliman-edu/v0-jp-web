@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="../koe-bundle.js"></script>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -16821,65 +16822,7 @@ function textSimilarity(a, b) {
   return intersection.size / union.size
 }
 
-/* Koe — Speech-to-text (Web Speech API, ja-JP)
-   Cada pulsación del mic crea un recognizer nuevo.
-   Chrome solo pide permiso UNA VEZ por origen — tras concederlo,
-   las siguientes llamadas a start() no vuelven a preguntar. */
-const koe = (() => {
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition
-  if (!SR) return null
-
-  let _listening = false
-  let _onResult = null
-  let _onListeningChange = null
-
-  function listen(onResult, onListeningChange) {
-    if (_listening) return
-    _onResult = onResult
-    _onListeningChange = onListeningChange
-    _listening = true
-    _onListeningChange?.(true)
-
-    const r = new SR()
-    r.lang = 'ja-JP'
-    r.continuous = false
-    r.interimResults = false
-    r.maxAlternatives = 5
-
-    r.onresult = (e) => {
-      const last = e.results[e.results.length - 1]
-      const candidates = []
-      for (let i = 0; i < last.length; i++) {
-        candidates.push({ transcript: last[i].transcript.trim(), confidence: last[i].confidence, position: i })
-      }
-      _listening = false
-      _onListeningChange?.(false)
-      _onResult?.(candidates)
-    }
-
-    r.onerror = () => {
-      _listening = false
-      _onListeningChange?.(false)
-    }
-
-    r.onend = () => {
-      _listening = false
-      _onListeningChange?.(false)
-    }
-
-    r.start()
-  }
-
-  function cancel() {
-    _listening = false
-    _onListeningChange?.(false)
-  }
-
-  function isSupported() { return !!SR }
-  function getListening() { return _listening }
-
-  return { listen, cancel, isSupported, getListening }
-})()
+const koe = window.Koe
 
 /* Main game logic */
 const actividad = _ESCRITURA_BUNDLE[0]

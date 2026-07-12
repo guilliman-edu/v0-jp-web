@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="../koe-bundle.js"></script>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -835,97 +836,7 @@ class SeededRandom {
   }
 }
 
-/* Koe — Speech-to-text (Web Speech API, ja-JP) */
-const koe = (() => {
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition
-  if (!SR) return null
-
-  let _listening = false
-  let _onResult = null
-  let _onListeningChange = null
-  let _onEnd = null
-  let _gotResult = false
-  let _recognition = null
-  let _watchdog = null
-
-  function listen(onResult, onListeningChange, onEnd) {
-    if (_listening) return
-    _onResult = onResult
-    _onListeningChange = onListeningChange
-    _onEnd = onEnd
-    _listening = true
-    _gotResult = false
-    _onListeningChange?.(true)
-
-    const r = new SR()
-    _recognition = r
-    r.lang = 'ja-JP'
-    r.continuous = false
-    r.interimResults = false
-    r.maxAlternatives = 5
-
-    clearTimeout(_watchdog)
-    _watchdog = setTimeout(() => {
-      if (_gotResult || !_listening) return
-      if (_recognition) { try { _recognition.abort() } catch (e) {} }
-      if (_listening) {
-        _listening = false
-        _recognition = null
-        _onListeningChange?.(false)
-        _onEnd?.()
-      }
-    }, 20000)
-
-    r.onresult = (e) => {
-      if (_recognition !== r) return
-      clearTimeout(_watchdog)
-      const last = e.results[e.results.length - 1]
-      const candidates = []
-      for (let i = 0; i < last.length; i++) {
-        candidates.push({ transcript: last[i].transcript.trim(), confidence: last[i].confidence, position: i })
-      }
-      _gotResult = true
-      _listening = false
-      _recognition = null
-      _onListeningChange?.(false)
-      _onResult?.(candidates)
-    }
-
-    r.onerror = () => {
-      if (_recognition !== r) return
-      clearTimeout(_watchdog)
-      _listening = false
-      _recognition = null
-      _onListeningChange?.(false)
-    }
-
-    r.onend = () => {
-      if (_recognition !== r) return
-      clearTimeout(_watchdog)
-      _listening = false
-      _recognition = null
-      _onListeningChange?.(false)
-      if (!_gotResult) _onEnd?.()
-    }
-
-    r.start()
-  }
-
-  function cancel() {
-    clearTimeout(_watchdog)
-    _listening = false
-    if (_recognition) {
-      try { _recognition.abort() } catch (e) {}
-      _recognition = null
-    }
-    _onListeningChange?.(false)
-  }
-
-  function isSupported() { return !!SR }
-  function getListening() { return _listening }
-
-  return { listen, cancel, isSupported, getListening }
-})()
+const koe = window.Koe
 
 /* Main game logic */
 const FUSE_DURATION = 15
