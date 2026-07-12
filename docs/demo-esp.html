@@ -6,61 +6,34 @@
 <title>Koe + Game — demo de pronunciación</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <script src="koe-bundle.js"></script>
 <script>(function() {
-// ===== packages/common-api/src/speech/recognition.ts =====
-const DEFAULT_CONFIG = {
-  lang: "ja-JP",
-  continuous: true,
-  interimResults: true,
-  maxAlternatives: 5,
-};
-function getSpeechRecognition() {
-  if (typeof window === "undefined") return undefined;
-  return window.SpeechRecognition || window.webkitSpeechRecognition;
-}
-function isSpeechSupported() {
-  return getSpeechRecognition() !== undefined;
-}
-function createRecognizer(config = {}, callback) {
-  const SR = getSpeechRecognition();
-  if (!SR) {
-    callback({ kind: "error", data: { type: "unsupported", message: "SpeechRecognition API no está disponible en este navegador" } });
-    return { start() {}, stop() {}, abort() {} };
+function shuffleFisherYates(array) {
+  const result = [...array];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
   }
-  const recognition = new SR();
-  const cfg = { ...DEFAULT_CONFIG, ...config };
-  recognition.lang = cfg.lang;
-  recognition.continuous = cfg.continuous;
-  recognition.interimResults = cfg.interimResults;
-  recognition.maxAlternatives = cfg.maxAlternatives;
-  recognition.onresult = (event) => {
-    const result = event.results[event.resultIndex];
-    const alternatives = Array.from(result).map((alt) => ({
-      transcript: alt.transcript, confidence: alt.confidence
-    }));
-    callback({ kind: "result", data: { alternatives, isFinal: result.isFinal } });
-  };
-  recognition.onerror = (event) => {
-    let type;
-    switch (event.error) {
-      case "no-speech": type = "no-speech"; break;
-      case "not-allowed": type = "not-allowed"; break;
-      case "network": type = "network"; break;
-      default: type = "network";
-    }
-    callback({ kind: "error", data: { type, message: event.message || event.error } });
-  };
-  recognition.onend = () => { callback({ kind: "end" }); };
-  return {
-    start() { recognition.start(); },
-    stop() { recognition.stop(); },
-    abort() { recognition.abort(); },
-  };
+  return result;
 }
 
-// ===== packages/common-api/src/speech/normalize.ts =====
+function calculateExercisePoints(difficulty, accuracy) {
+  const base = difficulty * 10;
+  const multiplier = accuracy >= 0.9 ? 1.5 : 1;
+  return Math.round(base * multiplier);
+}
+
+function calculateStars(averageAccuracy, thresholds) {
+  thresholds = thresholds || [0, 70, 90];
+  let stars = 0;
+  for (const t of thresholds) {
+    if (averageAccuracy * 100 >= t) stars++;
+    else break;
+  }
+  return Math.min(stars, thresholds.length);
+}
+
 function findMatch(candidates, accepted) {
   if (candidates.length === 0 || accepted.length === 0) {
     return { matched: false, candidate: null };
@@ -74,29 +47,6 @@ function findMatch(candidates, accepted) {
   return { matched: false, candidate: null };
 }
 
-// ===== packages/game/src/score.ts =====
-function calculateExercisePoints(difficulty, accuracy) {
-  const base = difficulty * 10;
-  const multiplier = accuracy >= 0.9 ? 1.5 : 1;
-  return Math.round(base * multiplier);
-}
-
-// ===== packages/game/src/achievements.ts =====
-function calculateStars(averageAccuracy, thresholds = [0, 70, 90]) {
-  let stars = 0;
-  for (const t of thresholds) {
-    if (averageAccuracy * 100 >= t) stars++;
-    else break;
-  }
-  return Math.min(stars, thresholds.length);
-}
-function evaluateAchievements(playerState, achievements, unlockedIds) {
-  return achievements.filter(
-    (a) => !unlockedIds.includes(a.id) && a.condition(playerState)
-  );
-}
-
-// ===== packages/game/src/evaluate.ts =====
 const SPEECH_LEVELS = [
   { threshold: 0.85, level: "Excelente" },
   { threshold: 0.65, level: "Bien" },
@@ -110,7 +60,7 @@ function getSpeechLevel(score) {
   }
   return "Mejorable";
 }
-function normalize(text) { return text.trim().toLowerCase(); }
+
 function evaluateSpeech(accepted, candidates) {
   const match = findMatch(candidates, accepted);
   if (!match.matched || !match.candidate) {
@@ -127,22 +77,16 @@ function evaluateSpeech(accepted, candidates) {
     transcript: candidate.transcript,
   };
 }
-function evaluateMove(correct, playerAnswer, type) {
-  switch (type) {
-    case "speech": {
-      const speechResult = evaluateSpeech(Array.isArray(correct) ? correct : [correct], Array.isArray(playerAnswer) ? playerAnswer : []);
-      return {
-        correct: speechResult.score > 0,
-        accuracy: speechResult.score,
-        type: "speech",
-        feedback: speechResult.level,
-      };
-    }
-  }
-}
+
 function processMove(config, state, move) {
-  const correct = config.accepted ?? [];
-  const evaluation = evaluateMove(correct, move.playerAnswer, config.moveType);
+  const accepted = config.accepted ?? [];
+  const speechResult = evaluateSpeech(Array.isArray(accepted) ? accepted : [accepted], Array.isArray(move.playerAnswer) ? move.playerAnswer : []);
+  const evaluation = {
+    correct: speechResult.score > 0,
+    accuracy: speechResult.score,
+    type: "speech",
+    feedback: speechResult.level,
+  };
   const pointsEarned = calculateExercisePoints(config.difficulty, evaluation.accuracy);
   const totalAccuracy = state.lastAccuracy * state.completedLessons + evaluation.accuracy;
   const newLessonCount = state.completedLessons + (evaluation.correct ? 1 : 0);
@@ -160,171 +104,242 @@ function processMove(config, state, move) {
   return { evaluation, pointsEarned, starRating, averageAccuracy, updatedState };
 }
 
-// ===== packages/game/src/random.ts =====
-function shuffleFisherYates(array) {
-  const result = [...array];
-  for (let i = result.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [result[i], result[j]] = [result[j], result[i]];
-  }
-  return result;
-}
-
-// ===== bundle entry =====
-window.KoeGame = {
-  isSpeechSupported,
-  processMove,
-  shuffleFisherYates,
-  evaluateSpeech,
-};
+window.KoeGame = { shuffleFisherYates, processMove };
 })();</script>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
   font-family: 'Inter', 'Noto Sans JP', sans-serif;
-  background: #0f172a;
-  color: #e2e8f0;
+  background: #f8fafc;
+  color: #1e293b;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
 }
-.app { max-width: 40rem; width: 100%; margin: 1rem 0; }
-
-/* topbar */
 .topbar {
-  display: flex; align-items: center; justify-content: space-between;
+  display: flex; align-items: center; gap: 0.75rem;
   padding: 0.75rem 1rem;
-  background: #1e293b; border-radius: 0.75rem; margin-bottom: 1rem;
+  background: white; border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  position: sticky; top: 0; z-index: 30;
 }
-.topbar h1 { font-size: 1.125rem; font-weight: 700; }
-.topbar-stats { display: flex; gap: 1rem; font-size: 0.8rem; color: #94a3b8; }
-.topbar-stats span { display: flex; align-items: center; gap: 0.25rem; }
-.topbar-stats strong { color: #e2e8f0; font-weight: 600; }
-
-/* progress */
+.topbar-title { font-size: 1rem; font-weight: 700; color: #0f172a; }
+.topbar-level {
+  font-size: 0.75rem; font-weight: 600;
+  background: #dbeafe; color: #1d4ed8;
+  padding: 0.125rem 0.5rem; border-radius: 9999px;
+}
+.topbar-spacer { flex: 1; }
+.score-badge {
+  font-size: 0.8rem; font-weight: 600;
+  background: #f1f5f9; color: #475569;
+  padding: 0.25rem 0.75rem; border-radius: 9999px;
+}
+.main-content {
+  padding: 1.5rem 1rem; max-width: 32rem; margin: 0 auto;
+}
+.game-header {
+  text-align: center; margin-bottom: 1rem;
+}
+.game-header h1 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.25rem; }
+.game-header p { font-size: 0.85rem; color: #64748b; }
+.game-status {
+  display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1.25rem;
+}
+.stat-box { text-align: center; }
+.stat-value { font-size: 1.35rem; font-weight: 700; color: #0f172a; }
+.stat-label {
+  font-size: 0.75rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em;
+}
 .progress-bar {
-  width: 100%; height: 4px; background: #334155; border-radius: 2px; margin-bottom: 1.5rem;
+  width: 100%; height: 4px;
+  background: #e2e8f0;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  overflow: hidden;
 }
 .progress-fill {
-  height: 100%; background: #3b82f6; border-radius: 2px; transition: width 0.4s ease;
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }
 
 /* word grid */
 .word-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 0.4rem; margin-bottom: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 0.35rem; margin-bottom: 1rem;
 }
 .word-card {
-  background: #1e293b; border: 2px solid #334155; border-radius: 0.5rem;
-  padding: 0.5rem; text-align: center; font-size: 0.85rem;
+  background: white; border: 2px solid #e2e8f0; border-radius: 0.5rem;
+  padding: 0.4rem; text-align: center; font-size: 0.8rem;
   transition: all 0.3s;
-  opacity: 0.6;
+  opacity: 0.5;
 }
-.word-card.is-current { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,0.2); transform: scale(1.05); opacity: 1; }
-.word-card.is-correct { border-color: #22c55e; background: #14532d; opacity: 1; }
-.word-card.is-wrong { border-color: #ef4444; background: #450a0a; opacity: 1; }
+.word-card.is-current { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,0.15); transform: scale(1.05); opacity: 1; }
+.word-card.is-correct { border-color: #22c55e; background: #f0fdf4; opacity: 1; }
+.word-card.is-wrong { border-color: #ef4444; background: #fef2f2; opacity: 1; }
 .word-card.is-pending { opacity: 1; }
-.word-jp { display: block; font-size: 1rem; }
-.word-es { display: block; font-size: 0.65rem; color: #94a3b8; }
+.word-jp { display: block; font-size: 0.95rem; font-family: 'Noto Sans JP', sans-serif; }
+.word-es { display: block; font-size: 0.6rem; color: #64748b; }
 
-/* speech area */
-.speech-area {
-  background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem;
-  padding: 2rem; text-align: center; margin-bottom: 1rem;
+/* card */
+.card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 1.5rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
 }
-.speech-area .counter { font-size: 0.8rem; color: #64748b; margin-bottom: 0.5rem; }
-.speech-area h2 { font-size: 2.5rem; margin-bottom: 0.25rem; }
-.speech-area .hint { font-size: 0.9rem; color: #94a3b8; margin-bottom: 1.5rem; }
+.card-hint {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 0.25rem;
+}
+.card-word {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+.card-meaning {
+  font-size: 1rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* fuse */
+.fuse-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 20rem;
+}
+.fuse-track {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: #e2e8f0;
+  overflow: hidden;
+}
+.fuse-burned {
+  height: 100%;
+  width: 0%;
+  background: #ef4444;
+  border-radius: 3px;
+  transition: none;
+}
+.fuse-time {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #64748b;
+  font-variant-numeric: tabular-nums;
+  min-width: 1.5rem;
+  text-align: right;
+}
 
 /* mic button */
-.mic-btn {
-  width: 3.5rem; height: 3.5rem;
-  padding: 0;
-  background: #1e293b; color: #94a3b8;
-  border: 2px solid #475569;
-  border-radius: 50%;
-  cursor: pointer; transition: all 0.2s;
-  display: inline-flex; align-items: center; justify-content: center;
-  font-size: 1.5rem;
+.actions {
+  display: flex; gap: 0.75rem; justify-content: center; align-items: center;
+  margin-bottom: 1rem;
   position: relative;
 }
-.mic-btn:hover { background: #334155; border-color: #64748b; }
-.mic-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.mic-btn {
+  width: 5rem; height: 5rem;
+  padding: 0;
+  background: #f1f5f9; color: #475569;
+  border: 2px solid #e2e8f0;
+  border-radius: 50%;
+  cursor: pointer; transition: all 0.2s;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.mic-btn:hover { background: #e2e8f0; border-color: #94a3b8; }
 .mic-btn.listening {
-  background: #450a0a; color: #ef4444; border-color: #ef4444;
+  background: #fef2f2; color: #dc2626; border-color: #fca5a5;
   animation: pulse-mic 1s ease-in-out infinite;
 }
+.mic-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.mic-btn.correct { background: #f0fdf4; color: #16a34a; border-color: #bbf7d0; }
+.mic-btn.wrong { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
 @keyframes pulse-mic {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.4); }
-  50% { box-shadow: 0 0 0 12px rgba(239,68,68,0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(220,38,38,0.3); }
+  50% { box-shadow: 0 0 0 12px rgba(220,38,38,0); }
 }
-
-/* wave bars */
 .wave {
-  position: absolute; display: none; gap: 2px;
-  align-items: center; height: 1rem;
+  position: absolute; display: none; gap: 3px;
+  align-items: center; height: 1.25rem;
   bottom: -1.5rem; left: 50%; transform: translateX(-50%);
 }
 .wave.active { display: flex; }
 .wave span {
   display: block; width: 3px;
-  background: #ef4444; border-radius: 2px;
+  background: #dc2626; border-radius: 2px;
   animation: wave-bar 0.6s ease-in-out infinite;
 }
-.wave span:nth-child(1) { height: 0.4rem; animation-delay: 0s; }
-.wave span:nth-child(2) { height: 0.7rem; animation-delay: 0.1s; }
-.wave span:nth-child(3) { height: 0.4rem; animation-delay: 0.2s; }
-.wave span:nth-child(4) { height: 0.6rem; animation-delay: 0.15s; }
-.wave span:nth-child(5) { height: 0.35rem; animation-delay: 0.25s; }
+.wave span:nth-child(1) { height: 0.5rem; animation-delay: 0s; }
+.wave span:nth-child(2) { height: 0.9rem; animation-delay: 0.1s; }
+.wave span:nth-child(3) { height: 0.5rem; animation-delay: 0.2s; }
+.wave span:nth-child(4) { height: 0.75rem; animation-delay: 0.15s; }
+.wave span:nth-child(5) { height: 0.4rem; animation-delay: 0.25s; }
 @keyframes wave-bar {
   0%, 100% { transform: scaleY(0.4); }
   50% { transform: scaleY(1); }
 }
-
-/* action buttons */
-.btn-row {
-  display: flex; gap: 0.5rem; justify-content: center; align-items: center; margin-top: 1.25rem;
+.mic-label {
+  position: absolute;
+  bottom: -1.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #3b82f6;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s;
 }
-.btn {
-  display: inline-flex; align-items: center; gap: 0.5rem;
-  padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem;
-  font-weight: 600; font-size: 1rem; cursor: pointer;
-  transition: all 0.2s;
-}
-.btn:disabled { opacity: 0.4; cursor: default; }
-.btn-primary { background: #3b82f6; color: white; }
-.btn-primary:hover:not(:disabled) { background: #2563eb; }
-.btn-next {
-  background: #3b82f6; color: white;
-}
-.btn-next:hover:not(:disabled) { background: #2563eb; }
+.mic-label:hover { color: #2563eb; }
+.mic-label.hidden { opacity: 0; pointer-events: none; }
 
 /* feedback */
-.feedback {
-  margin-top: 1rem; padding: 0.75rem; border-radius: 0.5rem;
-  font-size: 0.9rem; min-height: 3rem;
+.feedback-bar {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  opacity: 0;
 }
-.feedback.excelente, .feedback.bien { background: #052e16; color: #86efac; border: 1px solid #166534; }
-.feedback.aceptable { background: #422006; color: #fde68a; border: 1px solid #854d0e; }
-.feedback.mejorable, .feedback.no-reconocido { background: #450a0a; color: #fca5a5; border: 1px solid #991b1b; }
-.feedback.waiting { background: #1e293b; color: #64748b; border: 1px dashed #334155; }
+.feedback-bar.visible { opacity: 1; }
+.feedback-bar.excelente, .feedback-bar.bien { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
+.feedback-bar.aceptable { background: #fefce8; color: #854d0e; border: 1px solid #fde68a; }
+.feedback-bar.mejorable, .feedback-bar.no-reconocido { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+.feedback-bar.waiting { background: #f1f5f9; color: #64748b; border: 1px dashed #cbd5e1; }
 .game-feedback {
-  display: flex; gap: 1rem; justify-content: center; margin-top: 0.75rem; font-size: 0.85rem;
+  display: flex; gap: 1rem; justify-content: center; margin-top: 0.5rem; font-size: 0.85rem;
 }
 .game-feedback span { display: flex; align-items: center; gap: 0.25rem; }
 
 /* achievement popup */
 .achievement-popup {
   position: fixed; bottom: 1rem; right: 1rem;
-  background: #1e293b; border: 1px solid #f59e0b; border-radius: 0.75rem;
+  background: white; border: 1px solid #f59e0b; border-radius: 0.75rem;
   padding: 1rem; display: none; max-width: 20rem; animation: slideUp 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 .achievement-popup.show { display: block; }
 @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 .achievement-popup h4 { color: #f59e0b; margin-bottom: 0.25rem; }
-.achievement-popup p { font-size: 0.85rem; color: #94a3b8; }
+.achievement-popup p { font-size: 0.85rem; color: #475569; }
 
 /* result screen */
 .result-screen { display: none; }
@@ -333,50 +348,94 @@ body {
 .result-stats {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem;
 }
-.result-stat { background: #1e293b; border-radius: 0.75rem; padding: 1rem; text-align: center; }
+.result-stat { background: white; border: 1px solid #e2e8f0; border-radius: 1rem; padding: 1rem; text-align: center; }
 .result-stat .value { font-size: 1.5rem; font-weight: 700; }
-.result-stat .label { font-size: 0.8rem; color: #94a3b8; }
+.result-stat .label { font-size: 0.8rem; color: #64748b; }
+.small-btn {
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: none;
+}
+.btn-restart { background: #3b82f6; color: white; padding: 0.75rem 2rem; font-size: 1rem; }
+.btn-restart:hover { background: #2563eb; }
+.hidden { display: none !important; }
 </style>
 </head>
 <body>
-<div class="app">
-  <div class="topbar">
-    <h1>Koe + Game</h1>
-    <div class="topbar-stats">
-      <span>⭐ <strong id="starCount">0</strong></span>
-      <span>🎯 <strong id="correctBadge">0/0</strong></span>
-      <span>🔥 <strong id="xpDisplay">0</strong> XP</span>
+
+<div class="topbar">
+  <span class="topbar-title">Koe + Game</span>
+  <span class="topbar-level">A1</span>
+  <span class="topbar-spacer"></span>
+  <span class="score-badge" id="scoreBadge">Puntuación: —</span>
+</div>
+
+<div class="main-content">
+  <div class="game-header">
+    <h1>Pronuncia la palabra en japonés</h1>
+    <p>Lee el significado y di la palabra</p>
+  </div>
+
+  <div class="game-status">
+    <div class="stat-box">
+      <div class="stat-value" id="correctCount">0</div>
+      <div class="stat-label">Aciertos</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value" id="errorsCount">0</div>
+      <div class="stat-label">Fallos</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value" id="remainingCount">0</div>
+      <div class="stat-label">Restantes</div>
     </div>
   </div>
 
-  <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+  <div class="progress-bar">
+    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+  </div>
+
   <div class="word-grid" id="wordGrid"></div>
 
-  <div id="gamePhase">
-    <div class="speech-area">
-      <div class="counter" id="counter">Palabra 1 de 15</div>
-      <h2 id="currentWord">—</h2>
-      <p class="hint" id="currentHint">Preparando...</p>
-
-      <div class="btn-row">
-        <button class="mic-btn" id="micBtn" title="Habla en japonés">🎤<span class="wave" id="wave"><span></span><span></span><span></span><span></span><span></span></span></button>
-        <button class="btn btn-next" id="btnNext" style="display:none">Siguiente →</button>
-      </div>
-
-      <div class="feedback waiting" id="feedback">Presiona el micrófono y di la palabra en japonés</div>
-      <div class="game-feedback" id="gameFeedback"></div>
+  <div class="fuse-wrap">
+    <div class="fuse-track">
+      <div class="fuse-burned" id="fuseBurned"></div>
     </div>
+    <span class="fuse-time" id="fuseTime">15</span>
+  </div>
+
+  <div id="gameArea">
+    <div class="card">
+      <div class="card-hint" id="cardHint">Dilo en japonés</div>
+      <div class="card-word" id="cardWord">—</div>
+      <div class="card-meaning" id="cardMeaning">Preparando...</div>
+    </div>
+
+    <div class="actions">
+      <button class="mic-btn" id="micBtn" title="Di la palabra en japonés" type="button">
+        🎤
+        <span class="wave" id="wave"><span></span><span></span><span></span><span></span><span></span></span>
+      </button>
+      <span class="mic-label" id="micLabel">Empezar</span>
+    </div>
+
+    <div class="feedback-bar" id="feedbackBar"></div>
+    <div class="game-feedback" id="gameFeedback"></div>
   </div>
 
   <div class="result-screen" id="resultScreen">
-    <h2>🎉 ¡Lección completada!</h2>
+    <h2>🎉 ¡Práctica completada!</h2>
     <div class="result-stats">
       <div class="result-stat"><div class="value" id="rCorrect">0/15</div><div class="label">Aciertos</div></div>
       <div class="result-stat"><div class="value" id="rStars">⭐0</div><div class="label">Estrellas</div></div>
       <div class="result-stat"><div class="value" id="rXP">0</div><div class="label">XP ganados</div></div>
     </div>
     <div style="text-align:center">
-      <button class="btn btn-primary" onclick="location.reload()">🔄 Repetir</button>
+      <button class="small-btn btn-restart" id="restartBtn">🔄 Nueva ronda</button>
     </div>
   </div>
 
@@ -412,57 +471,57 @@ const WORDS = [
   { jp: 'つき', es: 'luna', accepted: ['tsuki', 'つき', '月'] },
 ]
 
-const koe = window.Koe
+const FUSE_DURATION = 15
+let _fuseRaf = null
+let _fuseStart = 0
+let _fuseActive = false
+let _autoMic = false
+let _paused = false
+let _autoListenTimer = null
 
-/* --- Game state --- */
 const words = shuffleFisherYates(WORDS).slice(0, 15)
 let index = 0
 let totalXP = 0
 let unlocked = []
 let processing = false
-
-/* Per-word result tracking for the grid */
-const results = words.map(() => ({ status: 'pending' }))
-/* Player state for processMove accumulation */
+const results = words.map(function() { return { status: 'pending' } })
 let playerState = {
-  completedLessons: 0,
-  completedSequences: 0,
-  level: 1,
-  streak: 0,
-  perfectLessons: 0,
-  threeStarLessons: 0,
-  lastAccuracy: 0,
+  completedLessons: 0, completedSequences: 0, level: 1, streak: 0,
+  perfectLessons: 0, threeStarLessons: 0, lastAccuracy: 0,
 }
 
-/* --- DOM refs --- */
+/* DOM refs */
 const grid = document.getElementById('wordGrid')
-const currentWord = document.getElementById('currentWord')
-const currentHint = document.getElementById('currentHint')
-const counter = document.getElementById('counter')
+const cardWord = document.getElementById('cardWord')
+const cardMeaning = document.getElementById('cardMeaning')
+const cardHint = document.getElementById('cardHint')
 const micBtn = document.getElementById('micBtn')
-const btnNext = document.getElementById('btnNext')
+const micLabel = document.getElementById('micLabel')
 const wave = document.getElementById('wave')
-const feedback = document.getElementById('feedback')
+const feedbackBar = document.getElementById('feedbackBar')
 const gameFeedback = document.getElementById('gameFeedback')
 const progressFill = document.getElementById('progressFill')
-const starCount = document.getElementById('starCount')
-const correctBadge = document.getElementById('correctBadge')
-const xpDisplay = document.getElementById('xpDisplay')
+const fuseBurned = document.getElementById('fuseBurned')
+const fuseTime = document.getElementById('fuseTime')
+const correctCount = document.getElementById('correctCount')
+const errorsCount = document.getElementById('errorsCount')
+const remainingCount = document.getElementById('remainingCount')
+const scoreBadge = document.getElementById('scoreBadge')
 const achPopup = document.getElementById('achPopup')
 const achPopupText = document.getElementById('achPopupText')
-const gamePhase = document.getElementById('gamePhase')
+const gameArea = document.getElementById('gameArea')
 const resultScreen = document.getElementById('resultScreen')
 
-/* --- Build grid --- */
-words.forEach((w, i) => {
-  const card = document.createElement('div')
+/* Build grid */
+words.forEach(function(w, i) {
+  var card = document.createElement('div')
   card.className = 'word-card is-pending'
   card.innerHTML = '<span class="word-jp">' + w.jp + '</span><span class="word-es">' + w.es + '</span>'
   grid.appendChild(card)
 })
 
 function updateGrid() {
-  document.querySelectorAll('.word-card').forEach((card, i) => {
+  document.querySelectorAll('.word-card').forEach(function(card, i) {
     card.className = 'word-card ' + results[i].status
     if (i === index && results[i].status === 'pending') {
       card.className = 'word-card is-current'
@@ -470,18 +529,71 @@ function updateGrid() {
   })
 }
 
+function updateStats() {
+  var done = 0
+  var correct = 0
+  results.forEach(function(r) {
+    if (r.status === 'correct' || r.status === 'wrong') done++
+    if (r.status === 'correct') correct++
+  })
+  correctCount.textContent = correct
+  errorsCount.textContent = done - correct
+  remainingCount.textContent = words.length - index
+  scoreBadge.textContent = done > 0 ? 'Puntuación: ' + (correct - (done - correct)) : 'Puntuación: —'
+}
+
+function showFeedback(msg, type) {
+  feedbackBar.textContent = msg
+  feedbackBar.className = 'feedback-bar visible ' + type
+}
+
+function hideFeedback() {
+  feedbackBar.className = 'feedback-bar'
+}
+
+/* Fuse */
+function startFuse() {
+  if (_fuseActive) return
+  _fuseActive = true
+  _fuseStart = Date.now()
+  var burned = document.getElementById('fuseBurned')
+  var timeEl = document.getElementById('fuseTime')
+  function tick() {
+    if (!_fuseActive) return
+    var elapsed = (Date.now() - _fuseStart) / 1000
+    var remaining = Math.max(0, FUSE_DURATION - elapsed)
+    var pct = Math.min(100, (elapsed / FUSE_DURATION) * 100)
+    burned.style.width = pct + '%'
+    timeEl.textContent = Math.ceil(remaining)
+    if (remaining > 0) {
+      _fuseRaf = requestAnimationFrame(tick)
+    }
+  }
+  _fuseRaf = requestAnimationFrame(tick)
+}
+
+function stopFuse() {
+  _fuseActive = false
+  if (_fuseRaf) { cancelAnimationFrame(_fuseRaf); _fuseRaf = null }
+}
+
+function resetFuse() {
+  stopFuse()
+  fuseBurned.style.width = '0%'
+  fuseTime.textContent = FUSE_DURATION
+}
+
 function showWord(i) {
   index = i
-  currentWord.textContent = words[i].jp
-  currentHint.textContent = '«' + words[i].es + '» — dilo en japonés'
-  counter.textContent = 'Palabra ' + (i + 1) + ' de ' + words.length
-  feedback.className = 'feedback waiting'
-  feedback.textContent = '🎤 Presiona el micrófono y di la palabra'
+  cardWord.textContent = words[i].jp
+  cardMeaning.textContent = '«' + words[i].es + '»'
+  cardHint.textContent = 'Dilo en japonés'
+  hideFeedback()
   gameFeedback.innerHTML = ''
-  micBtn.disabled = false
-  btnNext.style.display = 'none'
   processing = false
   updateGrid()
+  updateStats()
+  progressFill.style.width = (i / words.length * 100) + '%'
 }
 
 function feedbackClass(level) {
@@ -494,119 +606,132 @@ function feedbackClass(level) {
   }
 }
 
-function updateStats() {
-  const done = results.filter(r => r.status === 'correct' || r.status === 'wrong')
-  const correct = results.filter(r => r.status === 'correct').length
-  correctBadge.textContent = correct + '/' + done.length
+function retryListen() {
+  if (index >= words.length) return
+  resetFuse(); startFuse()
+  setTimeout(function() {
+    if (!_paused && _autoMic) startListening()
+  }, 600)
 }
 
-/* --- Process speech result --- */
-function onSpeechResult(candidates) {
+function startListening() {
+  if (index >= words.length) return
   if (processing) return
-  processing = true
+  if (!koe || !koe.isSupported()) return
+  if (koe.getListening()) return
+  if (_paused) return
 
-  const word = words[index]
-  const config = {
-    difficulty: 3,
-    starThresholds: [0, 30, 60],
-    accepted: word.accepted,
-    moveType: 'speech',
-  }
-  const moveResult = processMove(config, playerState, { playerAnswer: candidates })
-  playerState = moveResult.updatedState
-  totalXP += moveResult.pointsEarned
-
-  const level = moveResult.evaluation.feedback
-  const cls = feedbackClass(level)
-  feedback.className = 'feedback ' + cls
-  feedback.textContent = level + ' — ' + (moveResult.evaluation.accuracy * 100).toFixed(0) + '%'
-
-  gameFeedback.innerHTML = '<span>+' + moveResult.pointsEarned + ' XP</span><span>⭐ ' + moveResult.starRating + '</span>'
-
-  /* Mark word result */
-  if (moveResult.evaluation.correct) {
-    results[index].status = 'correct'
-  } else {
-    results[index].status = 'wrong'
-  }
-
-  /* Achievements */
-  const correctCount = results.filter(r => r.status === 'correct').length
-  const newAch = []
-  if (correctCount >= 1 && unlocked.indexOf('first') === -1) { newAch.push({id:'first',name:'Primer paso',desc:'Primera palabra bien pronunciada'}) }
-  if (correctCount >= 5 && unlocked.indexOf('five') === -1) { newAch.push({id:'five',name:'Aprendiz',desc:'5 palabras bien pronunciadas'}) }
-  if (correctCount >= 10 && unlocked.indexOf('ten') === -1) { newAch.push({id:'ten',name:'Estudiante',desc:'10 palabras bien pronunciadas'}) }
-  newAch.forEach(function(a) { unlocked.push(a.id); showAchievement(a) })
-
-  updateGrid()
-  updateStats()
-  starCount.textContent = moveResult.starRating
-  xpDisplay.textContent = totalXP
-  progressFill.style.width = ((index + 1) / words.length * 100) + '%'
-
-  micBtn.style.display = 'none'
-  btnNext.style.display = 'inline-flex'
-  if (index + 1 >= words.length) {
-    btnNext.textContent = '🎉 Ver resultados'
-  } else {
-    btnNext.textContent = 'Siguiente →'
-  }
-}
-
-/* --- Koe integration --- */
-if (koe && koe.isSupported()) {
-  micBtn.addEventListener('click', () => {
-    if (koe.getListening()) { koe.cancel(); micBtn.classList.remove('listening'); wave.classList.remove('active'); return }
+  koe.listen(function(candidates) {
+    micBtn.classList.remove('listening')
+    wave.classList.remove('active')
+    if (index >= words.length) return
     if (processing) return
-    koe.listen(
-      (candidates) => {
-        micBtn.classList.remove('listening')
-        wave.classList.remove('active')
-        onSpeechResult(candidates)
-      },
-      (listening) => {
-        micBtn.classList.toggle('listening', listening)
-        wave.classList.toggle('active', listening)
-      },
-      () => {
-        micBtn.classList.remove('listening')
-        wave.classList.remove('active')
-        if (!processing) {
-          feedback.className = 'feedback no-reconocido'
-          feedback.textContent = 'No se detectó voz. Presiona el micrófono e intenta de nuevo.'
-          micBtn.disabled = false
-        }
+    if (candidates.length === 0) { retryListen(); return }
+    processing = true
+    stopFuse()
+
+    var word = words[index]
+    var config = {
+      difficulty: 3,
+      starThresholds: [0, 30, 60],
+      accepted: word.accepted,
+      moveType: 'speech',
+    }
+    var moveResult = processMove(config, playerState, { playerAnswer: candidates })
+    playerState = moveResult.updatedState
+    totalXP += moveResult.pointsEarned
+
+    var level = moveResult.evaluation.feedback
+    var cls = feedbackClass(level)
+    showFeedback(level + ' — ' + (moveResult.evaluation.accuracy * 100).toFixed(0) + '%', cls)
+    gameFeedback.innerHTML = '<span>+' + moveResult.pointsEarned + ' XP</span><span>⭐ ' + moveResult.starRating + '</span>'
+
+    if (moveResult.evaluation.correct) {
+      results[index].status = 'correct'
+      micBtn.className = 'mic-btn correct'
+    } else {
+      results[index].status = 'wrong'
+      micBtn.className = 'mic-btn wrong'
+    }
+    updateGrid()
+    updateStats()
+    progressFill.style.width = ((index + 1) / words.length * 100) + '%'
+
+    /* Achievements */
+    var correct = results.filter(function(r) { return r.status === 'correct' }).length
+    if (correct >= 1 && unlocked.indexOf('first') === -1) { unlocked.push('first'); showAchievement({id:'first',name:'Primer paso',desc:'Primera palabra bien pronunciada'}) }
+    if (correct >= 5 && unlocked.indexOf('five') === -1) { unlocked.push('five'); showAchievement({id:'five',name:'Aprendiz',desc:'5 palabras bien pronunciadas'}) }
+    if (correct >= 10 && unlocked.indexOf('ten') === -1) { unlocked.push('ten'); showAchievement({id:'ten',name:'Estudiante',desc:'10 palabras bien pronunciadas'}) }
+
+    /* Auto-advance after 2s */
+    _autoListenTimer = setTimeout(function() {
+      if (index + 1 >= words.length) {
+        finishLesson()
+      } else {
+        showWord(index + 1)
+        resetFuse()
+        startFuse()
+        setTimeout(startListening, 300)
       }
-    )
-  })
-} else {
-  micBtn.style.display = 'none'
-  feedback.className = 'feedback no-reconocido'
-  feedback.textContent = '⚠️ SpeechRecognition no disponible. Usa Chrome o Edge.'
+    }, 2000)
+  }, function(listening) {
+    micBtn.classList.toggle('listening', listening)
+    wave.classList.toggle('active', listening)
+  }, retryListen)
 }
 
-/* --- Next button --- */
-btnNext.addEventListener('click', function() {
-  this.style.display = 'none'
-  micBtn.style.display = 'inline-flex'
-  processing = false
-  if (index + 1 >= words.length) {
-    finishLesson()
-  } else {
-    showWord(index + 1)
+/* Mic button */
+micBtn.addEventListener('click', function() {
+  if (!_autoMic) {
+    if (_autoListenTimer) { clearTimeout(_autoListenTimer); _autoListenTimer = null }
+    _autoMic = true
+    micLabel.classList.add('hidden')
+    hideFeedback()
+    resetFuse()
+    startFuse()
+    setTimeout(startListening, 300)
+    return
   }
+  _paused = !_paused
+  if (_paused) {
+    stopFuse()
+    if (koe) koe.cancel()
+    micBtn.classList.remove('listening')
+    wave.classList.remove('active')
+    micBtn.className = 'mic-btn'
+    showFeedback('Práctica pausada', 'aceptable')
+  } else {
+    if (_autoListenTimer) { clearTimeout(_autoListenTimer); _autoListenTimer = null }
+    hideFeedback()
+    resetFuse()
+    startFuse()
+    setTimeout(startListening, 300)
+  }
+})
+
+var koe = window.Koe
+if (!koe || !koe.isSupported()) {
+  micBtn.style.display = 'none'
+}
+
+/* Restart */
+document.getElementById('restartBtn').addEventListener('click', function() {
+  location.reload()
 })
 
 showWord(0)
 
-/* --- Results --- */
+/* Results */
 function finishLesson() {
-  gamePhase.style.display = 'none'
+  _autoMic = false
+  if (koe) koe.cancel()
+  stopFuse()
+  gameArea.style.display = 'none'
   resultScreen.classList.add('show')
-  const correct = results.filter(r => r.status === 'correct').length
-  const total = words.length
+  var correct = results.filter(function(r) { return r.status === 'correct' }).length
+  var total = words.length
   document.getElementById('rCorrect').textContent = correct + '/' + total
-  document.getElementById('rStars').textContent = '⭐' + playerState.starRating + '/3'
+  document.getElementById('rStars').textContent = '⭐' + playerState.threeStarLessons + '/3'
   document.getElementById('rXP').textContent = totalXP
 }
 
