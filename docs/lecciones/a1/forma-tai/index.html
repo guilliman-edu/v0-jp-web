@@ -1,169 +1,58 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Forma たい — expresar deseos — a1</title>
-<script src="https://unpkg.com/lucide@latest"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Inter','Noto Sans JP',sans-serif;background:#f8fafc;color:#1e293b;height:100vh;display:flex;flex-direction:column}
-.slide{display:none;animation:fadeIn .3s ease}
-.slide.active{display:block}
-@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-.topbar{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,.05)}
-.back-link{display:flex;align-items:center;gap:.25rem;color:#475569;text-decoration:none;font-size:.8rem;font-weight:500;padding:.25rem .5rem;border-radius:.375rem;transition:background .15s;flex-shrink:0}
-.back-link:hover{background:#f1f5f9;color:#1d4ed8}
-.back-text{display:none}
-@media(min-width:640px){.back-text{display:inline}}
-.topbar-title{flex:1;font-size:.875rem;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.topbar-level{font-size:.75rem;font-weight:500;background:#dbeafe;color:#1d4ed8;padding:.125rem .5rem;border-radius:9999px}
-.icon-btn{padding:.375rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569}
-.icon-btn:hover{background:#f1f5f9}
-.toc-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:40}
-.toc-backdrop.open{display:block}
-.toc-panel{position:fixed;top:0;left:-280px;width:280px;height:100vh;background:#fff;box-shadow:2px 0 12px rgba(0,0,0,.1);transition:left .3s ease;z-index:50;overflow-y:auto}
-.toc-panel.open{left:0}
-.toc-header{display:flex;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid #f1f5f9}
-.toc-header h3{font-size:1.125rem;font-weight:600}
-.toc-list{list-style:none;padding:.5rem}
-.toc-list li{margin-bottom:.25rem}
-.toc-link{display:block;padding:.5rem .75rem;border-radius:.5rem;text-decoration:none;color:#1d4ed8;font-weight:500;cursor:pointer}
-.toc-link:hover{background:#eff6ff}
-.toc-link.active{background:#dbeafe;color:#1e40af;border-left:3px solid #2563eb}
-.main-content{flex:1;overflow-y:auto;padding:1.5rem}
-@media(min-width:768px){.main-content{padding:2.5rem}}
-.content-wrapper{max-width:48rem;margin:0 auto;width:100%}
-.slide-title{font-size:1.5rem;font-weight:700;color:#111827;margin-bottom:.5rem}
-.mission{font-size:1.1rem;color:#475569;border-left:3px solid #3b82f6;padding-left:1rem;margin:1rem 0}
-.section-title{font-size:1.25rem;font-weight:600;margin-top:1.5rem}
-.body-text{margin-top:.5rem;color:#374151;line-height:1.6}
-.body-list{list-style-position:inside;padding-left:1.5rem;margin-top:.5rem}
-.body-list li{margin-bottom:.25rem;color:#374151}
-table{width:100%;border-collapse:collapse;margin:1rem 0}
-th,td{border:1px solid #e2e8f0;padding:.5rem .75rem;text-align:left}
-th{background:#f1f5f9;font-weight:600}
-blockquote{border-left:3px solid #94a3b8;padding-left:1rem;color:#475569;margin:1rem 0;font-style:italic}
-ruby{ruby-align:center}
-rt{font-size:.7em;color:#64748b;letter-spacing:.02em}
-.ext-link{cursor:help;text-decoration:underline;text-decoration-style:dotted}
-.ext-link::after{content:' \2197';font-size:.75em}
-details.glosario{margin:1rem 0;background:#f8fafc;border-radius:.5rem;border:1px solid #e2e8f0}
-details.glosario summary{padding:.75rem 1rem;cursor:pointer;font-weight:600;color:#1e40af;border-radius:.5rem}
-details.glosario summary:hover{background:#eff6ff}
-details.glosario .glosario-body{padding:0 1rem .75rem}
-details.glosario ul{list-style:none;padding:0}
-details.glosario li{padding:.375rem 0;border-bottom:1px solid #f1f5f9;color:#374151}
-details.glosario li:last-child{border-bottom:none}
-details.glosario strong{color:#1e293b}
-.conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
-.conversation p{margin-bottom:.25rem}
-.license-badge{margin-top:.75rem;padding-top:.375rem;border-top:1px solid #e2e8f0;font-size:.6875rem;color:#94a3b8}
-.license-badge p{margin-bottom:0}
-.license-badge a{color:#94a3b8;text-decoration:underline}
-.license-badge a:hover{color:#64748b}
-.bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
-.nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
-.nav-btn:hover{background:#f1f5f9}
-.nav-btn:disabled{opacity:.3;cursor:default}
-.slide-counter{font-size:.875rem;color:#64748b;font-weight:500}
-@media(max-width:639px){.toc-panel{width:100%;left:-100%}}
-</style>
-</head>
-<body>
-<header class="topbar">
-  <a href="/v0-jp-web/hubs/lecciones/a1/" class="back-link" title="Volver al hub">
-    <i data-lucide="arrow-left" width="18" height="18"></i>
-    <span class="back-text">Volver</span>
-  </a>
-  <button id="toc-toggle" class="icon-btn" title="Índice"><i data-lucide="menu" width="20" height="20"></i></button>
-  <span class="topbar-title">Forma たい — expresar deseos</span>
-  <span class="topbar-level">a1</span>
-</header>
-<div id="toc-backdrop" class="toc-backdrop"></div>
-<aside id="toc-panel" class="toc-panel">
-  <div class="toc-header"><h3>Índice</h3><button id="toc-close" class="icon-btn" data-goto="close-toc"><i data-lucide="x" width="20" height="20"></i></button></div>
-  <nav><ul class="toc-list" id="toc-list"><li><a data-goto="iteracion-1" class="toc-link active">Iteración 1: Formación y uso de たい</a></li>
-<li><a data-goto="iteracion-2" class="toc-link">Iteración 2: Resumen y glosario</a></li></ul></nav>
-</aside>
-<main class="main-content"><div class="content-wrapper"><section id="iteracion-1" class="slide active">
-  <h2 class="slide-title">Iteración 1: Formación y uso de たい</h2>
-  <p class="mission"><em>Misión: Aprender a conjugar verbos en 〜たい para expresar lo que uno quiere hacer.</em></p>
-  <h3 class="section-title">📐 ¿Qué es la forma たい?</h3><p class="body-text">La forma <strong>〜たい</strong> se añade a la <strong>raíz del verbo</strong> (la forma ます sin ます) para expresar deseos. Significa «querer hacer [verbo]».</p>
-<ul class="body-list"><li>Se conjuga como un <strong>adjetivo い</strong></li><li>El sujeto suele ser la <strong>primera persona</strong> (yo)</li></ul><h3 class="section-title">📐 Cómo se forma</h3><table><thead><tr><th>Grupo</th><th>Verbo (forma ます)</th><th>Raíz</th><th>+ たい</th></tr></thead><tbody><tr><td>I</td><td><ruby>書<rt>か</rt></ruby>きます (escribir)</td><td>書き</td><td><ruby>書<rt>か</rt></ruby>きたい</td></tr><tr><td>I</td><td><ruby>読<rt>よ</rt></ruby>みます (leer)</td><td>読み</td><td><ruby>読<rt>よ</rt></ruby>みたい</td></tr><tr><td>I</td><td><ruby>行<rt>い</rt></ruby>きます (ir)</td><td>行き</td><td><ruby>行<rt>い</rt></ruby>きたい</td></tr><tr><td>II</td><td><ruby>食<rt>た</rt></ruby>べます (comer)</td><td>食べ</td><td><ruby>食<rt>た</rt></ruby>べたい</td></tr><tr><td>II</td><td><ruby>見<rt>み</rt></ruby>ます (ver)</td><td>見</td><td><ruby>見<rt>み</rt></ruby>たい</td></tr><tr><td>III</td><td>します (hacer)</td><td>し</td><td>したい</td></tr><tr><td>III</td><td><ruby>来<rt>き</rt></ruby>ます (venir)</td><td><ruby>来<rt>き</rt></ruby></td><td><ruby>来<rt>き</rt></ruby>たい</td></tr></tbody></table><h3 class="section-title">📐 Conjugación como adjetivo い</h3><table><thead><tr><th>Forma</th><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td>Presente afirmativo</td><td><ruby>食<rt>た</rt></ruby>べたい</td><td>quiero comer</td></tr><tr><td>Presente negativo</td><td><ruby>食<rt>た</rt></ruby>べたくない</td><td>no quiero comer</td></tr><tr><td>Pasado afirmativo</td><td><ruby>食<rt>た</rt></ruby>べたかった</td><td>quería comer</td></tr><tr><td>Pasado negativo</td><td><ruby>食<rt>た</rt></ruby>べたくなかった</td><td>no quería comer</td></tr></tbody></table><h3 class="section-title">💬 Ejemplos</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby><ruby>に行<rt>い</rt></ruby>きたいです</td><td>Quiero ir a Japón</td></tr><tr><td><ruby>寿<rt>す</rt></ruby><ruby>司<rt>し</rt></ruby><ruby>を食<rt>た</rt></ruby>べたいです</td><td>Quiero comer sushi</td></tr><tr><td><ruby>本<rt>ほん</rt></ruby><ruby>を読<rt>よ</rt></ruby>みたいです</td><td>Quiero leer un libro</td></tr><tr><td><ruby>水<rt>みず</rt></ruby><ruby>が飲<rt>の</rt></ruby>みたいです</td><td>Quiero beber agua</td></tr></tbody></table><h3 class="section-title">⚠️ Nota sobre la partícula</h3><p class="body-text">Con たい, la partícula del objeto puede cambiar de <strong>を</strong> a <strong>が</strong>:</p>
-<ul class="body-list"><li>水を飲みたい / 水が飲みたい (ambas correctas)</li><li>が es más común en preguntas y negaciones</li></ul><h3 class="section-title">📝 Práctica</h3><p class="body-text">Conjuga estos verbos a la forma たい:</p>
-<p class="body-text">1. <ruby>話<rt>はな</rt></ruby>します (hablar) →</p>
-<p class="body-text">2. <ruby>聞<rt>き</rt></ruby>きます (escuchar) →</p>
-<p class="body-text">3. <ruby>買<rt>か</rt></ruby>います (comprar) →</p>
-</section><section id="iteracion-2" class="slide">
-  <h2 class="slide-title">Iteración 2: Resumen y glosario</h2>
-  <p class="mission"><em>Misión: Consolidar la conjugación y el uso de たい.</em></p>
-  <h3 class="section-title">📐 Resumen de formación</h3><blockquote><strong>[Raíz del verbo (ます sin ます)] + たい</strong></blockquote>
-<ul class="body-list"><li>Se conjuga como adjetivo い</li><li>たい → たくない (negativo), たかった (pasado), たくなかった (pasado negativo)</li><li>Partícula: を → が (opcional, especialmente en negativas)</li></ul><h3 class="section-title">💬 Repaso de ejemplos</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby><ruby>を見<rt>み</rt></ruby>たいです</td><td>Quiero ver una película</td></tr><tr><td><ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby><ruby>語<rt>ご</rt></ruby><ruby>を勉<rt>べん</rt></ruby><ruby>強<rt>きょう</rt></ruby>したいです</td><td>Quiero estudiar japonés</td></tr><tr><td>コーヒ<ruby>ーが飲<rt>の</rt></ruby>みたくないです</td><td>No quiero beber café</td></tr><tr><td><ruby>何<rt>なに</rt></ruby><ruby>が食<rt>た</rt></ruby>べたいですか</td><td>¿Qué quieres comer?</td></tr></tbody></table><h3 class="section-title">📖 Glosario de la lección</h3><details>
-<summary>Ver términos nuevos</summary>
-<ul>
-  <li><strong>〜たい</strong> — sufijo de deseo («querer hacer»)</li>
-  <li><strong>〜たくない</strong> — forma negativa de たい («no querer hacer»)</li>
-  <li><strong>〜たかった</strong> — forma pasada de たい («quería hacer»)</li>
-  <li><strong><ruby>書<rt>か</rt></ruby>きたい</strong> — querer escribir</li>
-  <li><strong><ruby>読<rt>よ</rt></ruby>みたい</strong> — querer leer</li>
-  <li><strong><ruby>行<rt>い</rt></ruby>きたい</strong> — querer ir</li>
-  <li><strong><ruby>食<rt>た</rt></ruby>べたい</strong> — querer comer</li>
-  <li><strong><ruby>見<rt>み</rt></ruby>たい</strong> — querer ver</li>
-  <li><strong>したい</strong> — querer hacer</li>
-  <li><strong><ruby>来<rt>き</rt></ruby>たい</strong> — querer venir</li>
-  <li><strong><ruby>飲<rt>の</rt></ruby>みたい</strong> — querer beber</li>
-  <li><strong><ruby>話<rt>はな</rt></ruby>したい</strong> — querer hablar</li>
-  <li><strong><ruby>聞<rt>き</rt></ruby>きたい</strong> — querer escuchar/preguntar</li>
-  <li><strong><ruby>買<rt>か</rt></ruby>いたい</strong> — querer comprar</li>
-  <li><strong><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>きょう</rt></ruby>したい</strong> — querer estudiar</li>
-  <li><strong><ruby>水<rt>みず</rt></ruby></strong> — agua</li>
-  <li><strong>コーヒー</strong> — café</li>
-  <li><strong><ruby>映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby></strong> — película</li>
-  <li><strong><ruby>何<rt>なに</rt></ruby></strong> — qué</li>
-</ul>
-</details>
-</section></div></main>
-<footer class="bottom-nav">
-  <button id="prev-slide" class="nav-btn" disabled><i data-lucide="chevron-left" width="16" height="16"></i> Anterior</button>
-  <span id="slide-counter" class="slide-counter">1 / 2</span>
-  <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
-</footer>
-<div class="license-badge">
-  <p>Contenido bajo <a href="/LICENSE.md" target="_blank">licencia copyleft</a>.</p>
-</div>
-<script>(()=>{
-  const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
-  let cur=0;
-  function show(i){
-    if(i<0||i>=slides.length)return;
-    slides[cur].classList.remove('active');
-    tocLinks[cur]&&tocLinks[cur].classList.remove('active');
-    cur=i;
-    slides[cur].classList.add('active');
-    tocLinks[cur]&&tocLinks[cur].classList.add('active');
-    counter&&(counter.textContent=(cur+1)+' / '+slides.length);
-    document.getElementById('prev-slide').disabled=cur===0;
-    document.getElementById('next-slide').disabled=cur===slides.length-1;
-  }
-  document.addEventListener('click',e=>{
-    const g=e.target.closest('[data-goto]');
-    if(!g)return;
-    const t=g.dataset.goto;
-    if(t==='close-toc'){document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open');return}
-    const idx=[...slides].findIndex(s=>s.id===t);
-    if(idx>=0)show(idx);
-  });
-  document.getElementById('prev-slide').addEventListener('click',()=>show(cur-1));
-  document.getElementById('next-slide').addEventListener('click',()=>show(cur+1));
-  document.getElementById('toc-toggle').addEventListener('click',()=>{document.getElementById('toc-panel').classList.toggle('open');document.getElementById('toc-backdrop').classList.toggle('open')});
-  document.getElementById('toc-backdrop').addEventListener('click',()=>{document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open')});
-  document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
-  show(0);
-})();
-</script>
-</body>
-</html>
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Forma たい — expresar deseos — a1</title><script type="module">(()=>{const n=document.querySelectorAll(".slide"),s=document.querySelectorAll(".toc-link"),l=document.getElementById("slide-counter");if(!n.length)return;let e=0;function c(t){if(t<0||t>=n.length)return;n[e].classList.remove("active"),s[e]&&s[e].classList.remove("active"),e=t,n[e].classList.add("active"),s[e]&&s[e].classList.add("active"),l&&(l.textContent=e+1+" / "+n.length);const o=document.getElementById("prev-slide"),d=document.getElementById("next-slide");o&&(o.disabled=e===0),d&&(d.disabled=e===n.length-1)}document.addEventListener("click",t=>{const o=t.target.closest("[data-goto]");if(!o)return;const d=o.dataset.goto;if(d==="close-toc"){document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open");return}const a=[...n].findIndex(m=>m.id===d);a>=0&&c(a)});const i=document.getElementById("prev-slide"),r=document.getElementById("next-slide");i&&i.addEventListener("click",()=>c(e-1)),r&&r.addEventListener("click",()=>c(e+1)),document.getElementById("toc-toggle").addEventListener("click",()=>{document.getElementById("toc-panel").classList.toggle("open"),document.getElementById("toc-backdrop").classList.toggle("open")}),document.getElementById("toc-backdrop").addEventListener("click",()=>{document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open")}),document.addEventListener("keydown",t=>{t.key==="ArrowLeft"&&c(e-1),t.key==="ArrowRight"&&c(e+1)}),c(0)})();</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/_alias_.BzttpswI.css"></head> <body> <header class="topbar"> <a href="/v0-jp-web/hubs/lecciones/{nivel}/" class="back-link" title="Volver al hub"> <i data-lucide="arrow-left" width="18" height="18"></i> <span class="back-text">Volver</span> </a> <button id="toc-toggle" class="icon-btn" title="Índice"> <i data-lucide="menu" width="20" height="20"></i> </button> <span class="topbar-title">Forma たい — expresar deseos</span> <span class="topbar-level">a1</span> </header> <div id="toc-backdrop" class="toc-backdrop"></div> <aside id="toc-panel" class="toc-panel"> <div class="toc-header"> <h3>Índice</h3> <button id="toc-close" class="icon-btn" data-goto="close-toc"> <i data-lucide="x" width="20" height="20"></i> </button> </div> <nav> <ul class="toc-list" id="toc-list"> &lt;li&gt;&lt;a data-goto=&quot;iteracion-1&quot; class=&quot;toc-link active&quot;&gt;Iteración 1: Formación y uso de たい&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a data-goto=&quot;iteracion-2&quot; class=&quot;toc-link&quot;&gt;Iteración 2: Resumen y glosario&lt;/a&gt;&lt;/li&gt; </ul> </nav> </aside> <main class="main-content"> <div class="content-wrapper"> &lt;section id=&quot;iteracion-1&quot; class=&quot;slide active&quot;&gt;
+  &lt;h2 class=&quot;slide-title&quot;&gt;Iteración 1: Formación y uso de たい&lt;/h2&gt;
+  &lt;p class=&quot;mission&quot;&gt;&lt;em&gt;Misión: Aprender a conjugar verbos en 〜たい para expresar lo que uno quiere hacer.&lt;/em&gt;&lt;/p&gt;
+  &lt;h3 class=&quot;section-title&quot;&gt;📐 ¿Qué es la forma たい?&lt;/h3&gt;
+&lt;p class=&quot;body-text&quot;&gt;La forma &lt;strong&gt;〜たい&lt;/strong&gt; se añade a la &lt;strong&gt;raíz del verbo&lt;/strong&gt; (la forma ます sin ます) para expresar deseos. Significa «querer hacer [verbo]».&lt;/p&gt;
+&lt;ul class=&quot;body-list&quot;&gt;&lt;li&gt;Se conjuga como un &lt;strong&gt;adjetivo い&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;El sujeto suele ser la &lt;strong&gt;primera persona&lt;/strong&gt; (yo)&lt;/li&gt;&lt;/ul&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;📐 Cómo se forma&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Grupo&lt;/th&gt;&lt;th&gt;Verbo (forma ます)&lt;/th&gt;&lt;th&gt;Raíz&lt;/th&gt;&lt;th&gt;+ たい&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;I&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;書&lt;rt&gt;か&lt;/rt&gt;&lt;/ruby&gt;きます (escribir)&lt;/td&gt;&lt;td&gt;書き&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;書&lt;rt&gt;か&lt;/rt&gt;&lt;/ruby&gt;きたい&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;I&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;読&lt;rt&gt;よ&lt;/rt&gt;&lt;/ruby&gt;みます (leer)&lt;/td&gt;&lt;td&gt;読み&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;読&lt;rt&gt;よ&lt;/rt&gt;&lt;/ruby&gt;みたい&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;I&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;行&lt;rt&gt;い&lt;/rt&gt;&lt;/ruby&gt;きます (ir)&lt;/td&gt;&lt;td&gt;行き&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;行&lt;rt&gt;い&lt;/rt&gt;&lt;/ruby&gt;きたい&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;II&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べます (comer)&lt;/td&gt;&lt;td&gt;食べ&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べたい&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;II&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;見&lt;rt&gt;み&lt;/rt&gt;&lt;/ruby&gt;ます (ver)&lt;/td&gt;&lt;td&gt;見&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;見&lt;rt&gt;み&lt;/rt&gt;&lt;/ruby&gt;たい&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;III&lt;/td&gt;&lt;td&gt;します (hacer)&lt;/td&gt;&lt;td&gt;し&lt;/td&gt;&lt;td&gt;したい&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;III&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;来&lt;rt&gt;き&lt;/rt&gt;&lt;/ruby&gt;ます (venir)&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;来&lt;rt&gt;き&lt;/rt&gt;&lt;/ruby&gt;&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;来&lt;rt&gt;き&lt;/rt&gt;&lt;/ruby&gt;たい&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;📐 Conjugación como adjetivo い&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Forma&lt;/th&gt;&lt;th&gt;Japonés&lt;/th&gt;&lt;th&gt;Traducción&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Presente afirmativo&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べたい&lt;/td&gt;&lt;td&gt;quiero comer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Presente negativo&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べたくない&lt;/td&gt;&lt;td&gt;no quiero comer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Pasado afirmativo&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べたかった&lt;/td&gt;&lt;td&gt;quería comer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Pasado negativo&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べたくなかった&lt;/td&gt;&lt;td&gt;no quería comer&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;💬 Ejemplos&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Japonés&lt;/th&gt;&lt;th&gt;Traducción&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;日&lt;rt&gt;に&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;に行&lt;rt&gt;い&lt;/rt&gt;&lt;/ruby&gt;きたいです&lt;/td&gt;&lt;td&gt;Quiero ir a Japón&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;寿&lt;rt&gt;す&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;司&lt;rt&gt;し&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;を食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べたいです&lt;/td&gt;&lt;td&gt;Quiero comer sushi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;を読&lt;rt&gt;よ&lt;/rt&gt;&lt;/ruby&gt;みたいです&lt;/td&gt;&lt;td&gt;Quiero leer un libro&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;水&lt;rt&gt;みず&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;が飲&lt;rt&gt;の&lt;/rt&gt;&lt;/ruby&gt;みたいです&lt;/td&gt;&lt;td&gt;Quiero beber agua&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;⚠️ Nota sobre la partícula&lt;/h3&gt;
+&lt;p class=&quot;body-text&quot;&gt;Con たい, la partícula del objeto puede cambiar de &lt;strong&gt;を&lt;/strong&gt; a &lt;strong&gt;が&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class=&quot;body-list&quot;&gt;&lt;li&gt;水を飲みたい / 水が飲みたい (ambas correctas)&lt;/li&gt;&lt;li&gt;が es más común en preguntas y negaciones&lt;/li&gt;&lt;/ul&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;📝 Práctica&lt;/h3&gt;
+&lt;p class=&quot;body-text&quot;&gt;Conjuga estos verbos a la forma たい:&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;1. &lt;ruby&gt;話&lt;rt&gt;はな&lt;/rt&gt;&lt;/ruby&gt;します (hablar) →&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;2. &lt;ruby&gt;聞&lt;rt&gt;き&lt;/rt&gt;&lt;/ruby&gt;きます (escuchar) →&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;3. &lt;ruby&gt;買&lt;rt&gt;か&lt;/rt&gt;&lt;/ruby&gt;います (comprar) →&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&quot;iteracion-2&quot; class=&quot;slide&quot;&gt;
+  &lt;h2 class=&quot;slide-title&quot;&gt;Iteración 2: Resumen y glosario&lt;/h2&gt;
+  &lt;p class=&quot;mission&quot;&gt;&lt;em&gt;Misión: Consolidar la conjugación y el uso de たい.&lt;/em&gt;&lt;/p&gt;
+  &lt;h3 class=&quot;section-title&quot;&gt;📐 Resumen de formación&lt;/h3&gt;
+&lt;blockquote&gt;&lt;strong&gt;[Raíz del verbo (ます sin ます)] + たい&lt;/strong&gt;&lt;/blockquote&gt;
+&lt;ul class=&quot;body-list&quot;&gt;&lt;li&gt;Se conjuga como adjetivo い&lt;/li&gt;&lt;li&gt;たい → たくない (negativo), たかった (pasado), たくなかった (pasado negativo)&lt;/li&gt;&lt;li&gt;Partícula: を → が (opcional, especialmente en negativas)&lt;/li&gt;&lt;/ul&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;💬 Repaso de ejemplos&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Japonés&lt;/th&gt;&lt;th&gt;Traducción&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;映&lt;rt&gt;えい&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;画&lt;rt&gt;が&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;を見&lt;rt&gt;み&lt;/rt&gt;&lt;/ruby&gt;たいです&lt;/td&gt;&lt;td&gt;Quiero ver una película&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;日&lt;rt&gt;に&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;語&lt;rt&gt;ご&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;を勉&lt;rt&gt;べん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;強&lt;rt&gt;きょう&lt;/rt&gt;&lt;/ruby&gt;したいです&lt;/td&gt;&lt;td&gt;Quiero estudiar japonés&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;コーヒ&lt;ruby&gt;ーが飲&lt;rt&gt;の&lt;/rt&gt;&lt;/ruby&gt;みたくないです&lt;/td&gt;&lt;td&gt;No quiero beber café&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;何&lt;rt&gt;なに&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;が食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べたいですか&lt;/td&gt;&lt;td&gt;¿Qué quieres comer?&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;📖 Glosario de la lección&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Ver términos nuevos&lt;/summary&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;〜たい&lt;/strong&gt; — sufijo de deseo («querer hacer»)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;〜たくない&lt;/strong&gt; — forma negativa de たい («no querer hacer»)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;〜たかった&lt;/strong&gt; — forma pasada de たい («quería hacer»)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;書&lt;rt&gt;か&lt;/rt&gt;&lt;/ruby&gt;きたい&lt;/strong&gt; — querer escribir&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;読&lt;rt&gt;よ&lt;/rt&gt;&lt;/ruby&gt;みたい&lt;/strong&gt; — querer leer&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;行&lt;rt&gt;い&lt;/rt&gt;&lt;/ruby&gt;きたい&lt;/strong&gt; — querer ir&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べたい&lt;/strong&gt; — querer comer&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;見&lt;rt&gt;み&lt;/rt&gt;&lt;/ruby&gt;たい&lt;/strong&gt; — querer ver&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;したい&lt;/strong&gt; — querer hacer&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;来&lt;rt&gt;き&lt;/rt&gt;&lt;/ruby&gt;たい&lt;/strong&gt; — querer venir&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;飲&lt;rt&gt;の&lt;/rt&gt;&lt;/ruby&gt;みたい&lt;/strong&gt; — querer beber&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;話&lt;rt&gt;はな&lt;/rt&gt;&lt;/ruby&gt;したい&lt;/strong&gt; — querer hablar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;聞&lt;rt&gt;き&lt;/rt&gt;&lt;/ruby&gt;きたい&lt;/strong&gt; — querer escuchar/preguntar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;買&lt;rt&gt;か&lt;/rt&gt;&lt;/ruby&gt;いたい&lt;/strong&gt; — querer comprar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;勉&lt;rt&gt;べん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;強&lt;rt&gt;きょう&lt;/rt&gt;&lt;/ruby&gt;したい&lt;/strong&gt; — querer estudiar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;水&lt;rt&gt;みず&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — agua&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;コーヒー&lt;/strong&gt; — café&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;映&lt;rt&gt;えい&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;画&lt;rt&gt;が&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — película&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;何&lt;rt&gt;なに&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — qué&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;/section&gt; </div> </main> <footer class="bottom-nav"> <button id="prev-slide" class="nav-btn" disabled> <i data-lucide="chevron-left" width="16" height="16"></i> Anterior
+</button> <span id="slide-counter" class="slide-counter">1 / 2</span> <button id="next-slide" class="nav-btn">
+Siguiente <i data-lucide="chevron-right" width="16" height="16"></i> </button> </footer> <div class="license-badge"> <p>Contenido bajo <a href="/LICENSE.md" target="_blank">licencia copyleft</a>.</p> </div>  <script type="module" src="/_astro/_alias_.astro_astro_type_script_index_1_lang.CN6pKSHs.js"></script></body></html>

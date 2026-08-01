@@ -1,172 +1,59 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Enumeración no exhaustiva con や — a1</title>
-<script src="https://unpkg.com/lucide@latest"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Inter','Noto Sans JP',sans-serif;background:#f8fafc;color:#1e293b;height:100vh;display:flex;flex-direction:column}
-.slide{display:none;animation:fadeIn .3s ease}
-.slide.active{display:block}
-@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-.topbar{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,.05)}
-.back-link{display:flex;align-items:center;gap:.25rem;color:#475569;text-decoration:none;font-size:.8rem;font-weight:500;padding:.25rem .5rem;border-radius:.375rem;transition:background .15s;flex-shrink:0}
-.back-link:hover{background:#f1f5f9;color:#1d4ed8}
-.back-text{display:none}
-@media(min-width:640px){.back-text{display:inline}}
-.topbar-title{flex:1;font-size:.875rem;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.topbar-level{font-size:.75rem;font-weight:500;background:#dbeafe;color:#1d4ed8;padding:.125rem .5rem;border-radius:9999px}
-.icon-btn{padding:.375rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569}
-.icon-btn:hover{background:#f1f5f9}
-.toc-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:40}
-.toc-backdrop.open{display:block}
-.toc-panel{position:fixed;top:0;left:-280px;width:280px;height:100vh;background:#fff;box-shadow:2px 0 12px rgba(0,0,0,.1);transition:left .3s ease;z-index:50;overflow-y:auto}
-.toc-panel.open{left:0}
-.toc-header{display:flex;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid #f1f5f9}
-.toc-header h3{font-size:1.125rem;font-weight:600}
-.toc-list{list-style:none;padding:.5rem}
-.toc-list li{margin-bottom:.25rem}
-.toc-link{display:block;padding:.5rem .75rem;border-radius:.5rem;text-decoration:none;color:#1d4ed8;font-weight:500;cursor:pointer}
-.toc-link:hover{background:#eff6ff}
-.toc-link.active{background:#dbeafe;color:#1e40af;border-left:3px solid #2563eb}
-.main-content{flex:1;overflow-y:auto;padding:1.5rem}
-@media(min-width:768px){.main-content{padding:2.5rem}}
-.content-wrapper{max-width:48rem;margin:0 auto;width:100%}
-.slide-title{font-size:1.5rem;font-weight:700;color:#111827;margin-bottom:.5rem}
-.mission{font-size:1.1rem;color:#475569;border-left:3px solid #3b82f6;padding-left:1rem;margin:1rem 0}
-.section-title{font-size:1.25rem;font-weight:600;margin-top:1.5rem}
-.body-text{margin-top:.5rem;color:#374151;line-height:1.6}
-.body-list{list-style-position:inside;padding-left:1.5rem;margin-top:.5rem}
-.body-list li{margin-bottom:.25rem;color:#374151}
-table{width:100%;border-collapse:collapse;margin:1rem 0}
-th,td{border:1px solid #e2e8f0;padding:.5rem .75rem;text-align:left}
-th{background:#f1f5f9;font-weight:600}
-blockquote{border-left:3px solid #94a3b8;padding-left:1rem;color:#475569;margin:1rem 0;font-style:italic}
-ruby{ruby-align:center}
-rt{font-size:.7em;color:#64748b;letter-spacing:.02em}
-.ext-link{cursor:help;text-decoration:underline;text-decoration-style:dotted}
-.ext-link::after{content:' \2197';font-size:.75em}
-details.glosario{margin:1rem 0;background:#f8fafc;border-radius:.5rem;border:1px solid #e2e8f0}
-details.glosario summary{padding:.75rem 1rem;cursor:pointer;font-weight:600;color:#1e40af;border-radius:.5rem}
-details.glosario summary:hover{background:#eff6ff}
-details.glosario .glosario-body{padding:0 1rem .75rem}
-details.glosario ul{list-style:none;padding:0}
-details.glosario li{padding:.375rem 0;border-bottom:1px solid #f1f5f9;color:#374151}
-details.glosario li:last-child{border-bottom:none}
-details.glosario strong{color:#1e293b}
-.conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
-.conversation p{margin-bottom:.25rem}
-.license-badge{margin-top:.75rem;padding-top:.375rem;border-top:1px solid #e2e8f0;font-size:.6875rem;color:#94a3b8}
-.license-badge p{margin-bottom:0}
-.license-badge a{color:#94a3b8;text-decoration:underline}
-.license-badge a:hover{color:#64748b}
-.bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
-.nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
-.nav-btn:hover{background:#f1f5f9}
-.nav-btn:disabled{opacity:.3;cursor:default}
-.slide-counter{font-size:.875rem;color:#64748b;font-weight:500}
-@media(max-width:639px){.toc-panel{width:100%;left:-100%}}
-</style>
-</head>
-<body>
-<header class="topbar">
-  <a href="/v0-jp-web/hubs/lecciones/a1/" class="back-link" title="Volver al hub">
-    <i data-lucide="arrow-left" width="18" height="18"></i>
-    <span class="back-text">Volver</span>
-  </a>
-  <button id="toc-toggle" class="icon-btn" title="Índice"><i data-lucide="menu" width="20" height="20"></i></button>
-  <span class="topbar-title">Enumeración no exhaustiva con や</span>
-  <span class="topbar-level">a1</span>
-</header>
-<div id="toc-backdrop" class="toc-backdrop"></div>
-<aside id="toc-panel" class="toc-panel">
-  <div class="toc-header"><h3>Índice</h3><button id="toc-close" class="icon-btn" data-goto="close-toc"><i data-lucide="x" width="20" height="20"></i></button></div>
-  <nav><ul class="toc-list" id="toc-list"><li><a data-goto="iteracion-1" class="toc-link active">Iteración 1: や para listas de ejemplo</a></li>
-<li><a data-goto="iteracion-2" class="toc-link">Iteración 2: Resumen y glosario</a></li></ul></nav>
-</aside>
-<main class="main-content"><div class="content-wrapper"><section id="iteracion-1" class="slide active">
-  <h2 class="slide-title">Iteración 1: や para listas de ejemplo</h2>
-  <p class="mission"><em>Misión: Aprender a enumerar ejemplos representativos con la partícula や, indicando que hay más elementos.</em></p>
-  <h3 class="section-title">📐 La partícula や</h3><p class="body-text">La partícula や se usa para <strong>enumerar ejemplos representativos</strong> de una lista, dando a entender que <strong>hay más elementos</strong> que no se mencionan. Equivale a «y, entre otros» en español.</p>
-<ul class="body-list"><li><strong>Sustantivo1 + や + Sustantivo2 + や + Sustantivo3</strong></li><li>La lista nunca es completa — solo se nombran algunos ejemplos</li><li>Similar a decir «como... o...» en español</li></ul><h3 class="section-title">📐 Estructura</h3><blockquote><strong>[Ejemplo1] や [Ejemplo2] や [Ejemplo3] (など) [partícula de caso] [verbo]</strong></blockquote>
-<p class="body-text">Se puede añadir <strong>など</strong> al final para enfatizar que «y otras cosas más».</p><h3 class="section-title">💬 Ejemplos</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>本<rt>ほん</rt></ruby><strong>や</strong>ペンがあります</td><td>Hay libros, bolígrafos, etc.</td></tr><tr><td><ruby>野<rt>や</rt></ruby><ruby>菜<rt>さい</rt></ruby><strong>や</strong><ruby>果<rt>くだ</rt></ruby><ruby>物<rt>もの</rt></ruby><ruby>を買<rt>か</rt></ruby>いました</td><td>Compré verduras, frutas, etc.</td></tr><tr><td><ruby>東<rt>とう</rt></ruby><ruby>京<rt>きょう</rt></ruby><strong>や</strong><ruby>大<rt>おお</rt></ruby><ruby>阪<rt>さか</rt></ruby><ruby>に行<rt>い</rt></ruby>きました</td><td>Fui a Tokio, Osaka, entre otros</td></tr><tr><td><ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby><ruby>語<rt>ご</rt></ruby><strong>や</strong><ruby>英<rt>えい</rt></ruby><ruby>語<rt>ご</rt></ruby><ruby>を勉<rt>べん</rt></ruby><ruby>強<rt>きょう</rt></ruby>しています</td><td>Estudio japonés, inglés, etc.</td></tr></tbody></table><h3 class="section-title">💡 Contraste con と</h3><table><thead><tr><th>Partícula</th><th>Significado</th><th>¿Lista completa?</th></tr></thead><tbody><tr><td>と</td><td>enumeración exhaustiva</td><td>Sí</td></tr><tr><td>や</td><td>enumeración no exhaustiva</td><td>No (solo ejemplos)</td></tr></tbody></table><h3 class="section-title">📝 Práctica</h3><p class="body-text">Traduce al japonés:</p>
-<p class="body-text">1. En la biblioteca hay libros, revistas, etc.</p>
-<p class="body-text">2. Como sushi, tempura, entre otras cosas</p>
-<p class="body-text">3. En mi mochila hay un diccionario y un cuaderno (entre otros)</p>
-</section><section id="iteracion-2" class="slide">
-  <h2 class="slide-title">Iteración 2: Resumen y glosario</h2>
-  <p class="mission"><em>Misión: Repasar や, compararlo con と y consolidar vocabulario.</em></p>
-  <h3 class="section-title">📐 Tabla comparativa</h3><table><thead><tr><th>Aspecto</th><th>と (exhaustivo)</th><th>や (no exhaustivo)</th></tr></thead><tbody><tr><td>Lista</td><td>Completa</td><td>Parcial (ejemplos)</td></tr><tr><td>Traducción</td><td>«y»</td><td>«y, entre otros»</td></tr><tr><td>Elementos</td><td>Todos nombrados</td><td>Solo algunos</td></tr><tr><td>Énfasis</td><td>—</td><td>se puede añadir など</td></tr></tbody></table><h3 class="section-title">💬 Frases finales</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>この店<rt>みせ</rt></ruby>では、<ruby>本<rt>ほん</rt></ruby><strong>や</strong>CD(シーディー)<ruby>を売<rt>う</rt></ruby>っています</td><td>En esta tienda venden libros, CD, etc.</td></tr><tr><td><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><ruby>は映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby><strong>や</strong><ruby>音<rt>おん</rt></ruby><ruby>楽<rt>がく</rt></ruby><ruby>を楽<rt>たの</rt></ruby>しみます</td><td>Los fines de semana disfruto de películas, música, etc.</td></tr></tbody></table><h3 class="section-title">📖 Glosario de la lección</h3><details>
-<summary>Ver términos nuevos</summary>
-<ul>
-  <li><strong>や</strong> — partícula enumerativa no exhaustiva («y, entre otros»)</li>
-  <li><strong>など</strong> — etcétera, y otras cosas (refuerzo de や)</li>
-  <li><strong><ruby>野<rt>や</rt></ruby><ruby>菜<rt>さい</rt></ruby></strong> — verdura</li>
-  <li><strong><ruby>果<rt>くだ</rt></ruby><ruby>物<rt>もの</rt></ruby></strong> — fruta</li>
-  <li><strong><ruby>東<rt>とう</rt></ruby><ruby>京<rt>きょう</rt></ruby></strong> — Tokio</li>
-  <li><strong><ruby>大<rt>おお</rt></ruby><ruby>阪<rt>さか</rt></ruby></strong> — Osaka</li>
-  <li><strong><ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby><ruby>語<rt>ご</rt></ruby></strong> — idioma japonés</li>
-  <li><strong><ruby>英<rt>えい</rt></ruby><ruby>語<rt>ご</rt></ruby></strong> — idioma inglés</li>
-  <li><strong><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>きょう</rt></ruby>しています</strong> — estoy estudiando</li>
-  <li><strong><ruby>図<rt>と</rt></ruby><ruby>書<rt>しょ</rt></ruby><ruby>館<rt>かん</rt></ruby></strong> — biblioteca</li>
-  <li><strong><ruby>雑<rt>ざっ</rt></ruby><ruby>誌<rt>し</rt></ruby></strong> — revista</li>
-  <li><strong><ruby>天<rt>てん</rt></ruby>ぷら</strong> — tempura</li>
-  <li><strong><ruby>喰<rt>た</rt></ruby>べます</strong> — comer</li>
-  <li><strong><ruby>鞄<rt>かばん</rt></ruby></strong> — bolso, mochila</li>
-  <li><strong><ruby>辞<rt>じ</rt></ruby><ruby>書<rt>しょ</rt></ruby></strong> — diccionario</li>
-  <li><strong><ruby>帳<rt>ちょう</rt></ruby><ruby>面<rt>めん</rt></ruby></strong> — cuaderno</li>
-  <li><strong><ruby>店<rt>みせ</rt></ruby></strong> — tienda</li>
-  <li><strong>CD(シーディー)</strong> — CD, disco compacto</li>
-  <li><strong><ruby>売<rt>う</rt></ruby>っています</strong> — venden (forma -te + います)</li>
-  <li><strong><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby></strong> — fin de semana</li>
-  <li><strong><ruby>映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby></strong> — película</li>
-  <li><strong><ruby>音<rt>おん</rt></ruby><ruby>楽<rt>がく</rt></ruby></strong> — música</li>
-  <li><strong><ruby>楽<rt>たの</rt></ruby>しみます</strong> — disfrutar, divertirse</li>
-</ul>
-</details>
-</section></div></main>
-<footer class="bottom-nav">
-  <button id="prev-slide" class="nav-btn" disabled><i data-lucide="chevron-left" width="16" height="16"></i> Anterior</button>
-  <span id="slide-counter" class="slide-counter">1 / 2</span>
-  <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
-</footer>
-<div class="license-badge">
-  <p>Contenido bajo <a href="/LICENSE.md" target="_blank">licencia copyleft</a>.</p>
-</div>
-<script>(()=>{
-  const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
-  let cur=0;
-  function show(i){
-    if(i<0||i>=slides.length)return;
-    slides[cur].classList.remove('active');
-    tocLinks[cur]&&tocLinks[cur].classList.remove('active');
-    cur=i;
-    slides[cur].classList.add('active');
-    tocLinks[cur]&&tocLinks[cur].classList.add('active');
-    counter&&(counter.textContent=(cur+1)+' / '+slides.length);
-    document.getElementById('prev-slide').disabled=cur===0;
-    document.getElementById('next-slide').disabled=cur===slides.length-1;
-  }
-  document.addEventListener('click',e=>{
-    const g=e.target.closest('[data-goto]');
-    if(!g)return;
-    const t=g.dataset.goto;
-    if(t==='close-toc'){document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open');return}
-    const idx=[...slides].findIndex(s=>s.id===t);
-    if(idx>=0)show(idx);
-  });
-  document.getElementById('prev-slide').addEventListener('click',()=>show(cur-1));
-  document.getElementById('next-slide').addEventListener('click',()=>show(cur+1));
-  document.getElementById('toc-toggle').addEventListener('click',()=>{document.getElementById('toc-panel').classList.toggle('open');document.getElementById('toc-backdrop').classList.toggle('open')});
-  document.getElementById('toc-backdrop').addEventListener('click',()=>{document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open')});
-  document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
-  show(0);
-})();
-</script>
-</body>
-</html>
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Enumeración no exhaustiva con や — a1</title><script type="module">(()=>{const n=document.querySelectorAll(".slide"),s=document.querySelectorAll(".toc-link"),l=document.getElementById("slide-counter");if(!n.length)return;let e=0;function c(t){if(t<0||t>=n.length)return;n[e].classList.remove("active"),s[e]&&s[e].classList.remove("active"),e=t,n[e].classList.add("active"),s[e]&&s[e].classList.add("active"),l&&(l.textContent=e+1+" / "+n.length);const o=document.getElementById("prev-slide"),d=document.getElementById("next-slide");o&&(o.disabled=e===0),d&&(d.disabled=e===n.length-1)}document.addEventListener("click",t=>{const o=t.target.closest("[data-goto]");if(!o)return;const d=o.dataset.goto;if(d==="close-toc"){document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open");return}const a=[...n].findIndex(m=>m.id===d);a>=0&&c(a)});const i=document.getElementById("prev-slide"),r=document.getElementById("next-slide");i&&i.addEventListener("click",()=>c(e-1)),r&&r.addEventListener("click",()=>c(e+1)),document.getElementById("toc-toggle").addEventListener("click",()=>{document.getElementById("toc-panel").classList.toggle("open"),document.getElementById("toc-backdrop").classList.toggle("open")}),document.getElementById("toc-backdrop").addEventListener("click",()=>{document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open")}),document.addEventListener("keydown",t=>{t.key==="ArrowLeft"&&c(e-1),t.key==="ArrowRight"&&c(e+1)}),c(0)})();</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/_alias_.BzttpswI.css"></head> <body> <header class="topbar"> <a href="/v0-jp-web/hubs/lecciones/{nivel}/" class="back-link" title="Volver al hub"> <i data-lucide="arrow-left" width="18" height="18"></i> <span class="back-text">Volver</span> </a> <button id="toc-toggle" class="icon-btn" title="Índice"> <i data-lucide="menu" width="20" height="20"></i> </button> <span class="topbar-title">Enumeración no exhaustiva con や</span> <span class="topbar-level">a1</span> </header> <div id="toc-backdrop" class="toc-backdrop"></div> <aside id="toc-panel" class="toc-panel"> <div class="toc-header"> <h3>Índice</h3> <button id="toc-close" class="icon-btn" data-goto="close-toc"> <i data-lucide="x" width="20" height="20"></i> </button> </div> <nav> <ul class="toc-list" id="toc-list"> &lt;li&gt;&lt;a data-goto=&quot;iteracion-1&quot; class=&quot;toc-link active&quot;&gt;Iteración 1: や para listas de ejemplo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a data-goto=&quot;iteracion-2&quot; class=&quot;toc-link&quot;&gt;Iteración 2: Resumen y glosario&lt;/a&gt;&lt;/li&gt; </ul> </nav> </aside> <main class="main-content"> <div class="content-wrapper"> &lt;section id=&quot;iteracion-1&quot; class=&quot;slide active&quot;&gt;
+  &lt;h2 class=&quot;slide-title&quot;&gt;Iteración 1: や para listas de ejemplo&lt;/h2&gt;
+  &lt;p class=&quot;mission&quot;&gt;&lt;em&gt;Misión: Aprender a enumerar ejemplos representativos con la partícula や, indicando que hay más elementos.&lt;/em&gt;&lt;/p&gt;
+  &lt;h3 class=&quot;section-title&quot;&gt;📐 La partícula や&lt;/h3&gt;
+&lt;p class=&quot;body-text&quot;&gt;La partícula や se usa para &lt;strong&gt;enumerar ejemplos representativos&lt;/strong&gt; de una lista, dando a entender que &lt;strong&gt;hay más elementos&lt;/strong&gt; que no se mencionan. Equivale a «y, entre otros» en español.&lt;/p&gt;
+&lt;ul class=&quot;body-list&quot;&gt;&lt;li&gt;&lt;strong&gt;Sustantivo1 + や + Sustantivo2 + や + Sustantivo3&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;La lista nunca es completa — solo se nombran algunos ejemplos&lt;/li&gt;&lt;li&gt;Similar a decir «como... o...» en español&lt;/li&gt;&lt;/ul&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;📐 Estructura&lt;/h3&gt;
+&lt;blockquote&gt;&lt;strong&gt;[Ejemplo1] や [Ejemplo2] や [Ejemplo3] (など) [partícula de caso] [verbo]&lt;/strong&gt;&lt;/blockquote&gt;
+&lt;p class=&quot;body-text&quot;&gt;Se puede añadir &lt;strong&gt;など&lt;/strong&gt; al final para enfatizar que «y otras cosas más».&lt;/p&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;💬 Ejemplos&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Japonés&lt;/th&gt;&lt;th&gt;Traducción&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;strong&gt;や&lt;/strong&gt;ペンがあります&lt;/td&gt;&lt;td&gt;Hay libros, bolígrafos, etc.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;野&lt;rt&gt;や&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;菜&lt;rt&gt;さい&lt;/rt&gt;&lt;/ruby&gt;&lt;strong&gt;や&lt;/strong&gt;&lt;ruby&gt;果&lt;rt&gt;くだ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;物&lt;rt&gt;もの&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;を買&lt;rt&gt;か&lt;/rt&gt;&lt;/ruby&gt;いました&lt;/td&gt;&lt;td&gt;Compré verduras, frutas, etc.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;東&lt;rt&gt;とう&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;京&lt;rt&gt;きょう&lt;/rt&gt;&lt;/ruby&gt;&lt;strong&gt;や&lt;/strong&gt;&lt;ruby&gt;大&lt;rt&gt;おお&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;阪&lt;rt&gt;さか&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;に行&lt;rt&gt;い&lt;/rt&gt;&lt;/ruby&gt;きました&lt;/td&gt;&lt;td&gt;Fui a Tokio, Osaka, entre otros&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;日&lt;rt&gt;に&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;語&lt;rt&gt;ご&lt;/rt&gt;&lt;/ruby&gt;&lt;strong&gt;や&lt;/strong&gt;&lt;ruby&gt;英&lt;rt&gt;えい&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;語&lt;rt&gt;ご&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;を勉&lt;rt&gt;べん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;強&lt;rt&gt;きょう&lt;/rt&gt;&lt;/ruby&gt;しています&lt;/td&gt;&lt;td&gt;Estudio japonés, inglés, etc.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;💡 Contraste con と&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Partícula&lt;/th&gt;&lt;th&gt;Significado&lt;/th&gt;&lt;th&gt;¿Lista completa?&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;と&lt;/td&gt;&lt;td&gt;enumeración exhaustiva&lt;/td&gt;&lt;td&gt;Sí&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;や&lt;/td&gt;&lt;td&gt;enumeración no exhaustiva&lt;/td&gt;&lt;td&gt;No (solo ejemplos)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;📝 Práctica&lt;/h3&gt;
+&lt;p class=&quot;body-text&quot;&gt;Traduce al japonés:&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;1. En la biblioteca hay libros, revistas, etc.&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;2. Como sushi, tempura, entre otras cosas&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;3. En mi mochila hay un diccionario y un cuaderno (entre otros)&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&quot;iteracion-2&quot; class=&quot;slide&quot;&gt;
+  &lt;h2 class=&quot;slide-title&quot;&gt;Iteración 2: Resumen y glosario&lt;/h2&gt;
+  &lt;p class=&quot;mission&quot;&gt;&lt;em&gt;Misión: Repasar や, compararlo con と y consolidar vocabulario.&lt;/em&gt;&lt;/p&gt;
+  &lt;h3 class=&quot;section-title&quot;&gt;📐 Tabla comparativa&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Aspecto&lt;/th&gt;&lt;th&gt;と (exhaustivo)&lt;/th&gt;&lt;th&gt;や (no exhaustivo)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Lista&lt;/td&gt;&lt;td&gt;Completa&lt;/td&gt;&lt;td&gt;Parcial (ejemplos)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Traducción&lt;/td&gt;&lt;td&gt;«y»&lt;/td&gt;&lt;td&gt;«y, entre otros»&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Elementos&lt;/td&gt;&lt;td&gt;Todos nombrados&lt;/td&gt;&lt;td&gt;Solo algunos&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Énfasis&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;se puede añadir など&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;💬 Frases finales&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Japonés&lt;/th&gt;&lt;th&gt;Traducción&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;この店&lt;rt&gt;みせ&lt;/rt&gt;&lt;/ruby&gt;では、&lt;ruby&gt;本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;strong&gt;や&lt;/strong&gt;CD(シーディー)&lt;ruby&gt;を売&lt;rt&gt;う&lt;/rt&gt;&lt;/ruby&gt;っています&lt;/td&gt;&lt;td&gt;En esta tienda venden libros, CD, etc.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;週&lt;rt&gt;しゅう&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;末&lt;rt&gt;まつ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;は映&lt;rt&gt;えい&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;画&lt;rt&gt;が&lt;/rt&gt;&lt;/ruby&gt;&lt;strong&gt;や&lt;/strong&gt;&lt;ruby&gt;音&lt;rt&gt;おん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;楽&lt;rt&gt;がく&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;を楽&lt;rt&gt;たの&lt;/rt&gt;&lt;/ruby&gt;しみます&lt;/td&gt;&lt;td&gt;Los fines de semana disfruto de películas, música, etc.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;📖 Glosario de la lección&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Ver términos nuevos&lt;/summary&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;や&lt;/strong&gt; — partícula enumerativa no exhaustiva («y, entre otros»)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;など&lt;/strong&gt; — etcétera, y otras cosas (refuerzo de や)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;野&lt;rt&gt;や&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;菜&lt;rt&gt;さい&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — verdura&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;果&lt;rt&gt;くだ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;物&lt;rt&gt;もの&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — fruta&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;東&lt;rt&gt;とう&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;京&lt;rt&gt;きょう&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — Tokio&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;大&lt;rt&gt;おお&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;阪&lt;rt&gt;さか&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — Osaka&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;日&lt;rt&gt;に&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;語&lt;rt&gt;ご&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — idioma japonés&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;英&lt;rt&gt;えい&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;語&lt;rt&gt;ご&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — idioma inglés&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;勉&lt;rt&gt;べん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;強&lt;rt&gt;きょう&lt;/rt&gt;&lt;/ruby&gt;しています&lt;/strong&gt; — estoy estudiando&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;図&lt;rt&gt;と&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;書&lt;rt&gt;しょ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;館&lt;rt&gt;かん&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — biblioteca&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;雑&lt;rt&gt;ざっ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;誌&lt;rt&gt;し&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — revista&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;天&lt;rt&gt;てん&lt;/rt&gt;&lt;/ruby&gt;ぷら&lt;/strong&gt; — tempura&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;喰&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べます&lt;/strong&gt; — comer&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;鞄&lt;rt&gt;かばん&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — bolso, mochila&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;辞&lt;rt&gt;じ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;書&lt;rt&gt;しょ&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — diccionario&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;帳&lt;rt&gt;ちょう&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;面&lt;rt&gt;めん&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — cuaderno&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;店&lt;rt&gt;みせ&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — tienda&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CD(シーディー)&lt;/strong&gt; — CD, disco compacto&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;売&lt;rt&gt;う&lt;/rt&gt;&lt;/ruby&gt;っています&lt;/strong&gt; — venden (forma -te + います)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;週&lt;rt&gt;しゅう&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;末&lt;rt&gt;まつ&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — fin de semana&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;映&lt;rt&gt;えい&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;画&lt;rt&gt;が&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — película&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;音&lt;rt&gt;おん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;楽&lt;rt&gt;がく&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — música&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;楽&lt;rt&gt;たの&lt;/rt&gt;&lt;/ruby&gt;しみます&lt;/strong&gt; — disfrutar, divertirse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;/section&gt; </div> </main> <footer class="bottom-nav"> <button id="prev-slide" class="nav-btn" disabled> <i data-lucide="chevron-left" width="16" height="16"></i> Anterior
+</button> <span id="slide-counter" class="slide-counter">1 / 2</span> <button id="next-slide" class="nav-btn">
+Siguiente <i data-lucide="chevron-right" width="16" height="16"></i> </button> </footer> <div class="license-badge"> <p>Contenido bajo <a href="/LICENSE.md" target="_blank">licencia copyleft</a>.</p> </div>  <script type="module" src="/_astro/_alias_.astro_astro_type_script_index_1_lang.CN6pKSHs.js"></script></body></html>

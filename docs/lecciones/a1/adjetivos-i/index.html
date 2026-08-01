@@ -1,160 +1,45 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Los adjetivos -i (い形容詞) — a1</title>
-<script src="https://unpkg.com/lucide@latest"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Inter','Noto Sans JP',sans-serif;background:#f8fafc;color:#1e293b;height:100vh;display:flex;flex-direction:column}
-.slide{display:none;animation:fadeIn .3s ease}
-.slide.active{display:block}
-@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-.topbar{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,.05)}
-.back-link{display:flex;align-items:center;gap:.25rem;color:#475569;text-decoration:none;font-size:.8rem;font-weight:500;padding:.25rem .5rem;border-radius:.375rem;transition:background .15s;flex-shrink:0}
-.back-link:hover{background:#f1f5f9;color:#1d4ed8}
-.back-text{display:none}
-@media(min-width:640px){.back-text{display:inline}}
-.topbar-title{flex:1;font-size:.875rem;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.topbar-level{font-size:.75rem;font-weight:500;background:#dbeafe;color:#1d4ed8;padding:.125rem .5rem;border-radius:9999px}
-.icon-btn{padding:.375rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569}
-.icon-btn:hover{background:#f1f5f9}
-.toc-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:40}
-.toc-backdrop.open{display:block}
-.toc-panel{position:fixed;top:0;left:-280px;width:280px;height:100vh;background:#fff;box-shadow:2px 0 12px rgba(0,0,0,.1);transition:left .3s ease;z-index:50;overflow-y:auto}
-.toc-panel.open{left:0}
-.toc-header{display:flex;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid #f1f5f9}
-.toc-header h3{font-size:1.125rem;font-weight:600}
-.toc-list{list-style:none;padding:.5rem}
-.toc-list li{margin-bottom:.25rem}
-.toc-link{display:block;padding:.5rem .75rem;border-radius:.5rem;text-decoration:none;color:#1d4ed8;font-weight:500;cursor:pointer}
-.toc-link:hover{background:#eff6ff}
-.toc-link.active{background:#dbeafe;color:#1e40af;border-left:3px solid #2563eb}
-.main-content{flex:1;overflow-y:auto;padding:1.5rem}
-@media(min-width:768px){.main-content{padding:2.5rem}}
-.content-wrapper{max-width:48rem;margin:0 auto;width:100%}
-.slide-title{font-size:1.5rem;font-weight:700;color:#111827;margin-bottom:.5rem}
-.mission{font-size:1.1rem;color:#475569;border-left:3px solid #3b82f6;padding-left:1rem;margin:1rem 0}
-.section-title{font-size:1.25rem;font-weight:600;margin-top:1.5rem}
-.body-text{margin-top:.5rem;color:#374151;line-height:1.6}
-.body-list{list-style-position:inside;padding-left:1.5rem;margin-top:.5rem}
-.body-list li{margin-bottom:.25rem;color:#374151}
-table{width:100%;border-collapse:collapse;margin:1rem 0}
-th,td{border:1px solid #e2e8f0;padding:.5rem .75rem;text-align:left}
-th{background:#f1f5f9;font-weight:600}
-blockquote{border-left:3px solid #94a3b8;padding-left:1rem;color:#475569;margin:1rem 0;font-style:italic}
-ruby{ruby-align:center}
-rt{font-size:.7em;color:#64748b;letter-spacing:.02em}
-.ext-link{cursor:help;text-decoration:underline;text-decoration-style:dotted}
-.ext-link::after{content:' \2197';font-size:.75em}
-details.glosario{margin:1rem 0;background:#f8fafc;border-radius:.5rem;border:1px solid #e2e8f0}
-details.glosario summary{padding:.75rem 1rem;cursor:pointer;font-weight:600;color:#1e40af;border-radius:.5rem}
-details.glosario summary:hover{background:#eff6ff}
-details.glosario .glosario-body{padding:0 1rem .75rem}
-details.glosario ul{list-style:none;padding:0}
-details.glosario li{padding:.375rem 0;border-bottom:1px solid #f1f5f9;color:#374151}
-details.glosario li:last-child{border-bottom:none}
-details.glosario strong{color:#1e293b}
-.conversation{background:#f8fafc;border-radius:.5rem;padding:1rem;margin-top:.5rem;color:#374151}
-.conversation p{margin-bottom:.25rem}
-.license-badge{margin-top:.75rem;padding-top:.375rem;border-top:1px solid #e2e8f0;font-size:.6875rem;color:#94a3b8}
-.license-badge p{margin-bottom:0}
-.license-badge a{color:#94a3b8;text-decoration:underline}
-.license-badge a:hover{color:#64748b}
-.bottom-nav{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -1px 2px rgba(0,0,0,.05)}
-.nav-btn{display:flex;align-items:center;gap:.25rem;padding:.375rem .75rem;border-radius:.5rem;border:none;background:0 0;cursor:pointer;color:#475569;font-weight:500;font-size:.875rem}
-.nav-btn:hover{background:#f1f5f9}
-.nav-btn:disabled{opacity:.3;cursor:default}
-.slide-counter{font-size:.875rem;color:#64748b;font-weight:500}
-@media(max-width:639px){.toc-panel{width:100%;left:-100%}}
-</style>
-</head>
-<body>
-<header class="topbar">
-  <a href="/v0-jp-web/hubs/lecciones/a1/" class="back-link" title="Volver al hub">
-    <i data-lucide="arrow-left" width="18" height="18"></i>
-    <span class="back-text">Volver</span>
-  </a>
-  <button id="toc-toggle" class="icon-btn" title="Índice"><i data-lucide="menu" width="20" height="20"></i></button>
-  <span class="topbar-title">Los adjetivos -i (い形容詞)</span>
-  <span class="topbar-level">a1</span>
-</header>
-<div id="toc-backdrop" class="toc-backdrop"></div>
-<aside id="toc-panel" class="toc-panel">
-  <div class="toc-header"><h3>Índice</h3><button id="toc-close" class="icon-btn" data-goto="close-toc"><i data-lucide="x" width="20" height="20"></i></button></div>
-  <nav><ul class="toc-list" id="toc-list"><li><a data-goto="iteracion-1" class="toc-link active">Iteración 1: Qué son los adjetivos -i</a></li>
-<li><a data-goto="iteracion-2" class="toc-link">Iteración 2: Adjetivos -i como epíteto</a></li></ul></nav>
-</aside>
-<main class="main-content"><div class="content-wrapper"><section id="iteracion-1" class="slide active">
-  <h2 class="slide-title">Iteración 1: Qué son los adjetivos -i</h2>
-  <p class="mission"><em>Misión: Entender qué son los adjetivos -i y cómo se usan como atributo.</em></p>
-  <h3 class="section-title">📐 Adjetivos -i</h3><p class="body-text">Los adjetivos -i son <strong>adjetivos puramente japoneses</strong>. Su característica principal: en presente afirmativo <strong>siempre acaban en -い</strong>.</p>
-<p class="body-text">Ejemplos: <ruby>新<rt>あたら</rt></ruby>しい (nuevo), <ruby>大<rt>おお</rt></ruby>きい (grande), <ruby>小<rt>ちい</rt></ruby>さい (pequeño), <ruby>安<rt>やす</rt></ruby>い (barato)</p><h3 class="section-title">📐 Como atributo (con です)</h3><p class="body-text">A diferencia del español, el adjetivo -i <strong>flexiona en tiempo y negación por sí mismo</strong>. La cópula です solo se añade por cortesía:</p>
-<table><thead><tr><th>Tiempo</th><th>Afirmativo</th><th>Negativo</th></tr></thead><tbody><tr><td>Presente</td><td><ruby>新<rt>あたら</rt></ruby>しい<strong>です</strong></td><td><ruby>新<rt>あたら</rt></ruby>しく<strong>ないです</strong></td></tr><tr><td>Pasado</td><td><ruby>新<rt>あたら</rt></ruby>しかった<strong>です</strong></td><td><ruby>新<rt>あたら</rt></ruby>しくなかった<strong>です</strong></td></tr></tbody></table>
-<p class="body-text">O también: <ruby>新<rt>あたら</rt></ruby>しくありません / <ruby>新<rt>あたら</rt></ruby>しくありませんでした (forma más formal)</p><h3 class="section-title">💬 Ejemplos</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>この本<rt>ほん</rt></ruby><ruby>は新<rt>あたら</rt></ruby>しいです</td><td>Este libro es nuevo</td></tr><tr><td><ruby>この本<rt>ほん</rt></ruby><ruby>は新<rt>あたら</rt></ruby>しくないです</td><td>Este libro no es nuevo</td></tr><tr><td><ruby>この本<rt>ほん</rt></ruby><ruby>は新<rt>あたら</rt></ruby>しかったです</td><td>Este libro era nuevo</td></tr></tbody></table><h3 class="section-title">⚠️ Error común: no usar です con negativo -i</h3><p class="body-text">Esto es <strong>incorrecto</strong>:</p>
-<ul class="body-list"><li>❌ <ruby>新<rt>あたら</rt></ruby>しくありません<strong>です</strong></li><li>✅ <ruby>新<rt>あたら</rt></ruby>しくありません</li></ul>
-<p class="body-text">El ありません ya contiene la cortesía.</p>
-</section><section id="iteracion-2" class="slide">
-  <h2 class="slide-title">Iteración 2: Adjetivos -i como epíteto</h2>
-  <p class="mission"><em>Misión: Usar adjetivos -i delante de un sustantivo.</em></p>
-  <h3 class="section-title">📐 Adjetivo + sustantivo</h3><p class="body-text">Cuando el adjetivo -i va <strong>delante de un sustantivo</strong> (como epíteto), no flexiona. Se usa siempre la forma de presente afirmativo:</p>
-<p class="body-text"><code>`</code></p>
-<p class="body-text">[adjetivo -i] + [sustantivo]</p>
-<p class="body-text"><code>`</code></p>
-<table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>新<rt>あたら</rt></ruby><ruby>しい本<rt>ほん</rt></ruby></td><td>un libro nuevo</td></tr><tr><td><ruby>大<rt>おお</rt></ruby><ruby>きい犬<rt>いぬ</rt></ruby></td><td>un perro grande</td></tr><tr><td><ruby>安<rt>やす</rt></ruby><ruby>い車<rt>くるま</rt></ruby></td><td>un coche barato</td></tr><tr><td><ruby>おいしい食<rt>た</rt></ruby>べもの</td><td>comida deliciosa</td></tr></tbody></table><h3 class="section-title">💬 Oraciones completas</h3><table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>あれは新<rt>あたら</rt></ruby><ruby>しい車<rt>くるま</rt></ruby>です</td><td>Aquello es un coche nuevo</td></tr><tr><td><ruby>この本<rt>ほん</rt></ruby>はおもしろいです</td><td>Este libro es interesante</td></tr><tr><td><ruby>その猫<rt>ねこ</rt></ruby><ruby>は小<rt>ちい</rt></ruby>さいです</td><td>Ese gato es pequeño</td></tr><tr><td><ruby>日本<rt>にほん</rt></ruby><ruby>の食<rt>た</rt></ruby>べものはおいしいです</td><td>La comida japonesa es deliciosa</td></tr></tbody></table><h3 class="section-title">📖 Glosario de la lección</h3><details>
-<summary>Ver términos nuevos</summary>
-<ul>
-  <li><strong><ruby>い形容詞<rt>いけいようし</rt></ruby></strong> — adjetivo -i</li>
-  <li><strong><ruby>新<rt>あたら</rt></ruby>しい</strong> — nuevo</li>
-  <li><strong><ruby>大<rt>おお</rt></ruby>きい</strong> — grande</li>
-  <li><strong><ruby>小<rt>ちい</rt></ruby>さい</strong> — pequeño</li>
-  <li><strong><ruby>安<rt>やす</rt></ruby>い</strong> — barato</li>
-  <li><strong>おいしい</strong> — delicioso</li>
-  <li><strong>おもしろい</strong> — interesante, divertido</li>
-</ul>
-</details>
-</section></div></main>
-<footer class="bottom-nav">
-  <button id="prev-slide" class="nav-btn" disabled><i data-lucide="chevron-left" width="16" height="16"></i> Anterior</button>
-  <span id="slide-counter" class="slide-counter">1 / 2</span>
-  <button id="next-slide" class="nav-btn">Siguiente <i data-lucide="chevron-right" width="16" height="16"></i></button>
-</footer>
-<div class="license-badge">
-  <p>Contenido bajo <a href="/LICENSE.md" target="_blank">licencia copyleft</a>.</p>
-</div>
-<script>(()=>{
-  const slides=document.querySelectorAll('.slide'),tocLinks=document.querySelectorAll('.toc-link'),counter=document.getElementById('slide-counter');
-  let cur=0;
-  function show(i){
-    if(i<0||i>=slides.length)return;
-    slides[cur].classList.remove('active');
-    tocLinks[cur]&&tocLinks[cur].classList.remove('active');
-    cur=i;
-    slides[cur].classList.add('active');
-    tocLinks[cur]&&tocLinks[cur].classList.add('active');
-    counter&&(counter.textContent=(cur+1)+' / '+slides.length);
-    document.getElementById('prev-slide').disabled=cur===0;
-    document.getElementById('next-slide').disabled=cur===slides.length-1;
-  }
-  document.addEventListener('click',e=>{
-    const g=e.target.closest('[data-goto]');
-    if(!g)return;
-    const t=g.dataset.goto;
-    if(t==='close-toc'){document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open');return}
-    const idx=[...slides].findIndex(s=>s.id===t);
-    if(idx>=0)show(idx);
-  });
-  document.getElementById('prev-slide').addEventListener('click',()=>show(cur-1));
-  document.getElementById('next-slide').addEventListener('click',()=>show(cur+1));
-  document.getElementById('toc-toggle').addEventListener('click',()=>{document.getElementById('toc-panel').classList.toggle('open');document.getElementById('toc-backdrop').classList.toggle('open')});
-  document.getElementById('toc-backdrop').addEventListener('click',()=>{document.getElementById('toc-panel').classList.remove('open');document.getElementById('toc-backdrop').classList.remove('open')});
-  document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
-  show(0);
-})();
-</script>
-</body>
-</html>
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Los adjetivos -i (い形容詞) — a1</title><script type="module">(()=>{const n=document.querySelectorAll(".slide"),s=document.querySelectorAll(".toc-link"),l=document.getElementById("slide-counter");if(!n.length)return;let e=0;function c(t){if(t<0||t>=n.length)return;n[e].classList.remove("active"),s[e]&&s[e].classList.remove("active"),e=t,n[e].classList.add("active"),s[e]&&s[e].classList.add("active"),l&&(l.textContent=e+1+" / "+n.length);const o=document.getElementById("prev-slide"),d=document.getElementById("next-slide");o&&(o.disabled=e===0),d&&(d.disabled=e===n.length-1)}document.addEventListener("click",t=>{const o=t.target.closest("[data-goto]");if(!o)return;const d=o.dataset.goto;if(d==="close-toc"){document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open");return}const a=[...n].findIndex(m=>m.id===d);a>=0&&c(a)});const i=document.getElementById("prev-slide"),r=document.getElementById("next-slide");i&&i.addEventListener("click",()=>c(e-1)),r&&r.addEventListener("click",()=>c(e+1)),document.getElementById("toc-toggle").addEventListener("click",()=>{document.getElementById("toc-panel").classList.toggle("open"),document.getElementById("toc-backdrop").classList.toggle("open")}),document.getElementById("toc-backdrop").addEventListener("click",()=>{document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open")}),document.addEventListener("keydown",t=>{t.key==="ArrowLeft"&&c(e-1),t.key==="ArrowRight"&&c(e+1)}),c(0)})();</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/_alias_.BzttpswI.css"></head> <body> <header class="topbar"> <a href="/v0-jp-web/hubs/lecciones/{nivel}/" class="back-link" title="Volver al hub"> <i data-lucide="arrow-left" width="18" height="18"></i> <span class="back-text">Volver</span> </a> <button id="toc-toggle" class="icon-btn" title="Índice"> <i data-lucide="menu" width="20" height="20"></i> </button> <span class="topbar-title">Los adjetivos -i (い形容詞)</span> <span class="topbar-level">a1</span> </header> <div id="toc-backdrop" class="toc-backdrop"></div> <aside id="toc-panel" class="toc-panel"> <div class="toc-header"> <h3>Índice</h3> <button id="toc-close" class="icon-btn" data-goto="close-toc"> <i data-lucide="x" width="20" height="20"></i> </button> </div> <nav> <ul class="toc-list" id="toc-list"> &lt;li&gt;&lt;a data-goto=&quot;iteracion-1&quot; class=&quot;toc-link active&quot;&gt;Iteración 1: Qué son los adjetivos -i&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a data-goto=&quot;iteracion-2&quot; class=&quot;toc-link&quot;&gt;Iteración 2: Adjetivos -i como epíteto&lt;/a&gt;&lt;/li&gt; </ul> </nav> </aside> <main class="main-content"> <div class="content-wrapper"> &lt;section id=&quot;iteracion-1&quot; class=&quot;slide active&quot;&gt;
+  &lt;h2 class=&quot;slide-title&quot;&gt;Iteración 1: Qué son los adjetivos -i&lt;/h2&gt;
+  &lt;p class=&quot;mission&quot;&gt;&lt;em&gt;Misión: Entender qué son los adjetivos -i y cómo se usan como atributo.&lt;/em&gt;&lt;/p&gt;
+  &lt;h3 class=&quot;section-title&quot;&gt;📐 Adjetivos -i&lt;/h3&gt;
+&lt;p class=&quot;body-text&quot;&gt;Los adjetivos -i son &lt;strong&gt;adjetivos puramente japoneses&lt;/strong&gt;. Su característica principal: en presente afirmativo &lt;strong&gt;siempre acaban en -い&lt;/strong&gt;.&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;Ejemplos: &lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しい (nuevo), &lt;ruby&gt;大&lt;rt&gt;おお&lt;/rt&gt;&lt;/ruby&gt;きい (grande), &lt;ruby&gt;小&lt;rt&gt;ちい&lt;/rt&gt;&lt;/ruby&gt;さい (pequeño), &lt;ruby&gt;安&lt;rt&gt;やす&lt;/rt&gt;&lt;/ruby&gt;い (barato)&lt;/p&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;📐 Como atributo (con です)&lt;/h3&gt;
+&lt;p class=&quot;body-text&quot;&gt;A diferencia del español, el adjetivo -i &lt;strong&gt;flexiona en tiempo y negación por sí mismo&lt;/strong&gt;. La cópula です solo se añade por cortesía:&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Tiempo&lt;/th&gt;&lt;th&gt;Afirmativo&lt;/th&gt;&lt;th&gt;Negativo&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Presente&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しい&lt;strong&gt;です&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しく&lt;strong&gt;ないです&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Pasado&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しかった&lt;strong&gt;です&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しくなかった&lt;strong&gt;です&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p class=&quot;body-text&quot;&gt;O también: &lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しくありません / &lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しくありませんでした (forma más formal)&lt;/p&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;💬 Ejemplos&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Japonés&lt;/th&gt;&lt;th&gt;Traducción&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;この本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;は新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しいです&lt;/td&gt;&lt;td&gt;Este libro es nuevo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;この本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;は新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しくないです&lt;/td&gt;&lt;td&gt;Este libro no es nuevo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;この本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;は新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しかったです&lt;/td&gt;&lt;td&gt;Este libro era nuevo&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;⚠️ Error común: no usar です con negativo -i&lt;/h3&gt;
+&lt;p class=&quot;body-text&quot;&gt;Esto es &lt;strong&gt;incorrecto&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class=&quot;body-list&quot;&gt;&lt;li&gt;❌ &lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しくありません&lt;strong&gt;です&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;✅ &lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しくありません&lt;/li&gt;&lt;/ul&gt;
+&lt;p class=&quot;body-text&quot;&gt;El ありません ya contiene la cortesía.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&quot;iteracion-2&quot; class=&quot;slide&quot;&gt;
+  &lt;h2 class=&quot;slide-title&quot;&gt;Iteración 2: Adjetivos -i como epíteto&lt;/h2&gt;
+  &lt;p class=&quot;mission&quot;&gt;&lt;em&gt;Misión: Usar adjetivos -i delante de un sustantivo.&lt;/em&gt;&lt;/p&gt;
+  &lt;h3 class=&quot;section-title&quot;&gt;📐 Adjetivo + sustantivo&lt;/h3&gt;
+&lt;p class=&quot;body-text&quot;&gt;Cuando el adjetivo -i va &lt;strong&gt;delante de un sustantivo&lt;/strong&gt; (como epíteto), no flexiona. Se usa siempre la forma de presente afirmativo:&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;&lt;code&gt;`&lt;/code&gt;&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;[adjetivo -i] + [sustantivo]&lt;/p&gt;
+&lt;p class=&quot;body-text&quot;&gt;&lt;code&gt;`&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Japonés&lt;/th&gt;&lt;th&gt;Traducción&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;しい本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;&lt;/td&gt;&lt;td&gt;un libro nuevo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;大&lt;rt&gt;おお&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;きい犬&lt;rt&gt;いぬ&lt;/rt&gt;&lt;/ruby&gt;&lt;/td&gt;&lt;td&gt;un perro grande&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;安&lt;rt&gt;やす&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;い車&lt;rt&gt;くるま&lt;/rt&gt;&lt;/ruby&gt;&lt;/td&gt;&lt;td&gt;un coche barato&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;おいしい食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べもの&lt;/td&gt;&lt;td&gt;comida deliciosa&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;💬 Oraciones completas&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Japonés&lt;/th&gt;&lt;th&gt;Traducción&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;あれは新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;しい車&lt;rt&gt;くるま&lt;/rt&gt;&lt;/ruby&gt;です&lt;/td&gt;&lt;td&gt;Aquello es un coche nuevo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;この本&lt;rt&gt;ほん&lt;/rt&gt;&lt;/ruby&gt;はおもしろいです&lt;/td&gt;&lt;td&gt;Este libro es interesante&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;その猫&lt;rt&gt;ねこ&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;は小&lt;rt&gt;ちい&lt;/rt&gt;&lt;/ruby&gt;さいです&lt;/td&gt;&lt;td&gt;Ese gato es pequeño&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;ruby&gt;日本&lt;rt&gt;にほん&lt;/rt&gt;&lt;/ruby&gt;&lt;ruby&gt;の食&lt;rt&gt;た&lt;/rt&gt;&lt;/ruby&gt;べものはおいしいです&lt;/td&gt;&lt;td&gt;La comida japonesa es deliciosa&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 class=&quot;section-title&quot;&gt;📖 Glosario de la lección&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Ver términos nuevos&lt;/summary&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;い形容詞&lt;rt&gt;いけいようし&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; — adjetivo -i&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;新&lt;rt&gt;あたら&lt;/rt&gt;&lt;/ruby&gt;しい&lt;/strong&gt; — nuevo&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;大&lt;rt&gt;おお&lt;/rt&gt;&lt;/ruby&gt;きい&lt;/strong&gt; — grande&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;小&lt;rt&gt;ちい&lt;/rt&gt;&lt;/ruby&gt;さい&lt;/strong&gt; — pequeño&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;ruby&gt;安&lt;rt&gt;やす&lt;/rt&gt;&lt;/ruby&gt;い&lt;/strong&gt; — barato&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;おいしい&lt;/strong&gt; — delicioso&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;おもしろい&lt;/strong&gt; — interesante, divertido&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;/section&gt; </div> </main> <footer class="bottom-nav"> <button id="prev-slide" class="nav-btn" disabled> <i data-lucide="chevron-left" width="16" height="16"></i> Anterior
+</button> <span id="slide-counter" class="slide-counter">1 / 2</span> <button id="next-slide" class="nav-btn">
+Siguiente <i data-lucide="chevron-right" width="16" height="16"></i> </button> </footer> <div class="license-badge"> <p>Contenido bajo <a href="/LICENSE.md" target="_blank">licencia copyleft</a>.</p> </div>  <script type="module" src="/_astro/_alias_.astro_astro_type_script_index_1_lang.CN6pKSHs.js"></script></body></html>
