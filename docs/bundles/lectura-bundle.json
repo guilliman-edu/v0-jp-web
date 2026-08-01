@@ -153,36 +153,32 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
-      "name": "a1-s2-presentacion-texto"
+      "name": "a1-s4-desayuno-yamada"
     },
     "data": {
       "genero": "practica",
-      "titulo": "はじめまして",
+      "titulo": "山田さんのかぞくのあさごはん",
       "modoFurigana": "templado",
       "furiganaList": [],
       "nombres_propios": [
         {
-          "literal": "白川桃子",
-          "lectura": "しらかわももこ"
+          "literal": "山田",
+          "lectura": "やまだ"
         }
       ],
-      "texto": "はじめまして。白川桃子です。\nわたしは二十二歳です。学生です。\n専門は日本語です。\n家族は四人です。\nどうぞよろしくお願いします。\n",
+      "texto": "おはようございます。山田さんのかぞくです。\n\nあさです。みんなあさごはんをたべます。\n\nおとうさんはコーヒーをのみます。おかあさんはおちゃをのみます。\n\nおにいさんはパンをたべます。わたしはごはんとたまごをたべます。\n\nいもうとはくだものとぎゅうにゅうをたべます。\n\nおいしいです！たのしいあさです。\n",
       "preguntas": [
-        "名前は何ですか。",
-        "年は二十二歳ですか。",
-        "専門は日本語ですか。",
-        "家族は四人ですか。"
+        "おとうさんはなにをのみますか。",
+        "おかあさんはなにをのみますか。",
+        "おにいさんはなにをたべますか。",
+        "「わたし」はなにをたべますか。",
+        "いもうとはなにをたべますか。"
       ],
       "vocabulario": [
         {
-          "literal": "専門",
-          "lectura": "せんもん",
-          "significado": "especialidad"
-        },
-        {
-          "literal": "日本語",
-          "lectura": "にほんご",
-          "significado": "japonés (idioma)"
+          "literal": "朝御飯",
+          "lectura": "あさごはん",
+          "significado": "desayuno"
         },
         {
           "literal": "家族",
@@ -190,14 +186,175 @@
           "significado": "familia"
         },
         {
-          "literal": "学生",
-          "lectura": "がくせい",
-          "significado": "estudiante"
+          "literal": "お父さん",
+          "lectura": "おとうさん",
+          "significado": "padre (ajeno)"
+        },
+        {
+          "literal": "お母さん",
+          "lectura": "おかあさん",
+          "significado": "madre (ajena)"
+        },
+        {
+          "literal": "お兄さん",
+          "lectura": "おにいさん",
+          "significado": "hermano mayor"
+        },
+        {
+          "literal": "妹",
+          "lectura": "いもうと",
+          "significado": "hermana menor"
+        },
+        {
+          "literal": "お茶",
+          "lectura": "おちゃ",
+          "significado": "té verde"
+        },
+        {
+          "literal": "卵",
+          "lectura": "たまご",
+          "significado": "huevo"
+        },
+        {
+          "literal": "果物",
+          "lectura": "くだもの",
+          "significado": "fruta"
+        },
+        {
+          "literal": "牛乳",
+          "lectura": "ぎゅうにゅう",
+          "significado": "leche"
+        },
+        {
+          "literal": "美味しい",
+          "lectura": "おいしい",
+          "significado": "delicioso"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido"
         }
       ],
       "referencias": [
-        "kaidesu-presentacion",
-        "pronombres-personales"
+        "introduccion-verbos",
+        "forma-masu-grupo-I",
+        "particula-wo",
+        "particula-to"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s5-dia-momoko"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "ももこさんの一日",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "桃子",
+          "lectura": "ももこ"
+        }
+      ],
+      "texto": "わたしはももこです。大学生です。\n\nまいあさ、七じにおきます。あさごはんをたべます。コーヒーをのみます。\n\n九じに大学へいきます。べんきょうします。としょかんで本をよみます。\n\n十二じにひるごはんをたべます。ともだちといっしょにたべます。\n\n五じにうちへかえります。それから、ばんごはんをつくります。\n\n九じにおふろにはいります。十一じにねます。\n",
+      "preguntas": [
+        "ももこさんはなんじにおきますか。",
+        "ももこさんはなんじに大学へいきますか。",
+        "ももこさんはとしょかんでなにをしますか。",
+        "ももこさんはだれとひるごはんをたべますか。",
+        "ももこさんはなんじにねますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "毎朝",
+          "lectura": "まいあさ",
+          "significado": "cada mañana"
+        },
+        {
+          "literal": "起きる",
+          "lectura": "おきる",
+          "significado": "levantarse"
+        },
+        {
+          "literal": "大学",
+          "lectura": "だいがく",
+          "significado": "universidad"
+        },
+        {
+          "literal": "大学生",
+          "lectura": "だいがくせい",
+          "significado": "estudiante universitario"
+        },
+        {
+          "literal": "勉強する",
+          "lectura": "べんきょうする",
+          "significado": "estudiar"
+        },
+        {
+          "literal": "図書館",
+          "lectura": "としょかん",
+          "significado": "biblioteca"
+        },
+        {
+          "literal": "本",
+          "lectura": "ほん",
+          "significado": "libro"
+        },
+        {
+          "literal": "昼御飯",
+          "lectura": "ひるごはん",
+          "significado": "almuerzo"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "一緒に",
+          "lectura": "いっしょに",
+          "significado": "juntos"
+        },
+        {
+          "literal": "帰る",
+          "lectura": "かえる",
+          "significado": "volver, regresar"
+        },
+        {
+          "literal": "晩御飯",
+          "lectura": "ばんごはん",
+          "significado": "cena"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer, preparar (comida)"
+        },
+        {
+          "literal": "お風呂",
+          "lectura": "おふろ",
+          "significado": "baño"
+        },
+        {
+          "literal": "寝る",
+          "lectura": "ねる",
+          "significado": "dormir"
+        }
+      ],
+      "referencias": [
+        "introduccion-verbos",
+        "forma-masu-grupo-I",
+        "forma-masu-grupo-III",
+        "particula-ni-lugar",
+        "particula-e",
+        "adverbios-tiempo",
+        "particula-to"
       ],
       "nivel": "A1"
     }
@@ -278,6 +435,59 @@
       "referencias": [
         "adverbios-tiempo",
         "adverbios-frecuencia"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-verano-curso"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "はじめまして",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "白川桃子",
+          "lectura": "しらかわももこ"
+        }
+      ],
+      "texto": "はじめまして。白川桃子です。\nわたしは二十二歳です。学生です。\n専門は日本語です。\n家族は四人です。\nどうぞよろしくお願いします。\n",
+      "preguntas": [
+        "名前は何ですか。",
+        "年は二十二歳ですか。",
+        "専門は日本語ですか。",
+        "家族は四人ですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "専門",
+          "lectura": "せんもん",
+          "significado": "especialidad"
+        },
+        {
+          "literal": "日本語",
+          "lectura": "にほんご",
+          "significado": "japonés (idioma)"
+        },
+        {
+          "literal": "家族",
+          "lectura": "かぞく",
+          "significado": "familia"
+        },
+        {
+          "literal": "学生",
+          "lectura": "がくせい",
+          "significado": "estudiante"
+        }
+      ],
+      "referencias": [
+        "kaidesu-presentacion",
+        "pronombres-personales"
       ],
       "nivel": "A1"
     }

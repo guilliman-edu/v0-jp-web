@@ -1,0 +1,64 @@
+{
+  "audio_file": "a1-verano-curso.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 23361,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "はじめまして",
+      "start_ms": 0,
+      "end_ms": 2001,
+      "duration_ms": 2001
+    },
+    {
+      "index": 1,
+      "text": "はじめまして。",
+      "start_ms": 2501,
+      "end_ms": 4467,
+      "duration_ms": 1966
+    },
+    {
+      "index": 2,
+      "text": "白川桃子です。",
+      "start_ms": 4967,
+      "end_ms": 7479,
+      "duration_ms": 2512
+    },
+    {
+      "index": 3,
+      "text": "わたしは二十二歳です。",
+      "start_ms": 7979,
+      "end_ms": 11152,
+      "duration_ms": 3173
+    },
+    {
+      "index": 4,
+      "text": "学生です。",
+      "start_ms": 11652,
+      "end_ms": 13548,
+      "duration_ms": 1896
+    },
+    {
+      "index": 5,
+      "text": "専門は日本語です。",
+      "start_ms": 14048,
+      "end_ms": 16827,
+      "duration_ms": 2779
+    },
+    {
+      "index": 6,
+      "text": "家族は四人です。",
+      "start_ms": 17327,
+      "end_ms": 19804,
+      "duration_ms": 2477
+    },
+    {
+      "index": 7,
+      "text": "どうぞよろしくお願いします。",
+      "start_ms": 20304,
+      "end_ms": 23361,
+      "duration_ms": 3057
+    }
+  ]
+}

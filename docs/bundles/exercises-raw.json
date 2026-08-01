@@ -325,6 +325,231 @@
           "text": "先生じゃありませんでした"
         }
       ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej001",
+      "type": "translation",
+      "source": "Buenos días.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "Good morning.",
+      "references": [
+        {
+          "text": "おはようございます"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej002",
+      "type": "translation",
+      "source": "Soy estudiante.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "I am a student.",
+      "references": [
+        {
+          "text": "わたしは学生です"
+        },
+        {
+          "text": "私は学生です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej003",
+      "type": "translation",
+      "source": "Esto es un libro.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "This is a book.",
+      "references": [
+        {
+          "text": "これは本です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej004",
+      "type": "translation",
+      "source": "¿Qué es esto?",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "What is this?",
+      "references": [
+        {
+          "text": "これは何ですか"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej005",
+      "type": "translation",
+      "source": "Hay un gato.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "There is a cat.",
+      "references": [
+        {
+          "text": "ねこがいます"
+        },
+        {
+          "text": "猫がいます"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej006",
+      "type": "translation",
+      "source": "Voy a la escuela.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "I go to school.",
+      "references": [
+        {
+          "text": "がっこうへいきます"
+        },
+        {
+          "text": "学校へ行きます"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej007",
+      "type": "translation",
+      "source": "Como arroz.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "I eat rice.",
+      "references": [
+        {
+          "text": "ごはんをたべます"
+        },
+        {
+          "text": "御飯を食べます"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej008",
+      "type": "translation",
+      "source": "Bebo agua.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "I drink water.",
+      "references": [
+        {
+          "text": "みずをのみます"
+        },
+        {
+          "text": "水を飲みます"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej009",
+      "type": "translation",
+      "source": "Me gusta la música.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "I like music.",
+      "references": [
+        {
+          "text": "おんがくがすきです"
+        },
+        {
+          "text": "音楽が好きです"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej010",
+      "type": "translation",
+      "source": "Son las tres.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "It is three o'clock.",
+      "references": [
+        {
+          "text": "三じです"
+        },
+        {
+          "text": "三時です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej011",
+      "type": "translation",
+      "source": "Me llamo Tanaka.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "My name is Tanaka.",
+      "references": [
+        {
+          "text": "わたしは田中です"
+        },
+        {
+          "text": "私は田中です"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej012",
+      "type": "translation",
+      "source": "Está delicioso.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "It is delicious.",
+      "references": [
+        {
+          "text": "おいしいです"
+        },
+        {
+          "text": "美味しいです"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej013",
+      "type": "translation",
+      "source": "No entiendo.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "I don't understand.",
+      "references": [
+        {
+          "text": "わかりません"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej014",
+      "type": "translation",
+      "source": "¿Cuánto cuesta?",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "How much does it cost?",
+      "references": [
+        {
+          "text": "いくらですか"
+        }
+      ]
+    },
+    {
+      "id": "a1-s5-traduccion-verano-ej015",
+      "type": "translation",
+      "source": "Hace buen tiempo.",
+      "sourceLang": "es",
+      "targetLevel": "A1",
+      "en": "The weather is nice.",
+      "references": [
+        {
+          "text": "いい天気です"
+        },
+        {
+          "text": "良い天気です"
+        }
+      ]
     }
   ]
 }

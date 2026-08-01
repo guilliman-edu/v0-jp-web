@@ -1,0 +1,92 @@
+{
+  "audio_file": "a1-s4-desayuno-yamada.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 41828,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "山田さんのかぞくのあさごはん",
+      "start_ms": 0,
+      "end_ms": 3382,
+      "duration_ms": 3382
+    },
+    {
+      "index": 1,
+      "text": "おはようございます。",
+      "start_ms": 3882,
+      "end_ms": 6475,
+      "duration_ms": 2593
+    },
+    {
+      "index": 2,
+      "text": "山田さんのかぞくです。",
+      "start_ms": 6975,
+      "end_ms": 9847,
+      "duration_ms": 2872
+    },
+    {
+      "index": 3,
+      "text": "あさです。",
+      "start_ms": 10347,
+      "end_ms": 12185,
+      "duration_ms": 1838
+    },
+    {
+      "index": 4,
+      "text": "みんなあさごはんをたべます。",
+      "start_ms": 12685,
+      "end_ms": 15684,
+      "duration_ms": 2999
+    },
+    {
+      "index": 5,
+      "text": "おとうさんはコーヒーをのみます。",
+      "start_ms": 16184,
+      "end_ms": 19671,
+      "duration_ms": 3487
+    },
+    {
+      "index": 6,
+      "text": "おかあさんはおちゃをのみます。",
+      "start_ms": 20171,
+      "end_ms": 23658,
+      "duration_ms": 3487
+    },
+    {
+      "index": 7,
+      "text": "おにいさんはパンをたべます。",
+      "start_ms": 24158,
+      "end_ms": 27552,
+      "duration_ms": 3394
+    },
+    {
+      "index": 8,
+      "text": "わたしはごはんとたまごをたべます。",
+      "start_ms": 28052,
+      "end_ms": 31934,
+      "duration_ms": 3882
+    },
+    {
+      "index": 9,
+      "text": "いもうとはくだものとぎゅうにゅうをたべます。",
+      "start_ms": 32434,
+      "end_ms": 36641,
+      "duration_ms": 4207
+    },
+    {
+      "index": 10,
+      "text": "おいしいです！",
+      "start_ms": 37141,
+      "end_ms": 39037,
+      "duration_ms": 1896
+    },
+    {
+      "index": 11,
+      "text": "たのしいあさです。",
+      "start_ms": 39537,
+      "end_ms": 41828,
+      "duration_ms": 2291
+    }
+  ]
+}
