@@ -2,4 +2,180 @@
 </style></head> <body class="bg-[var(--color-surface)] text-[var(--color-text)] font-sans"> <header class="sticky top-0 z-10 bg-white border-b border-[var(--color-border)] px-4 py-3 flex items-center justify-between"> <div class="flex items-center gap-3"> <a href="/v0-jp-web/" class="text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors"> <i data-lucide="arrow-left" class="w-5 h-5"></i> </a> <h1 class="text-lg font-semibold">Repaso de Verano</h1> </div> <span class="text-xs font-medium px-2 py-1 rounded-full bg-blue-50 text-[var(--color-primary)]"> A1 </span> </header> <main class="max-w-4xl mx-auto px-4 py-6">  <section class="hero" data-astro-cid-htinfz62> <h1 data-astro-cid-htinfz62>Repaso urgente de verano para A1</h1> <p data-astro-cid-htinfz62>Refuerzo intensivo de los fundamentales del japonés: hiragana, katakana, vocabulario, lectura y escritura.</p> <div class="hero-counter" data-astro-cid-htinfz62> <span id="globalCounter" data-astro-cid-htinfz62>0 / 11</span> completadas
 </div> </section> <div class="main-content" id="mainContent" data-astro-cid-htinfz62></div> <footer class="footer" data-astro-cid-htinfz62>
 Tu progreso se guarda en este dispositivo.
-</footer> <button class="fab-reset" id="fabReset" title="Reiniciar progreso" data-astro-cid-htinfz62> <i data-lucide="rotate-ccw" data-astro-cid-htinfz62></i> </button>  </main> <script type="module" src="/v0-jp-web/_astro/BaseLayout.astro_astro_type_script_index_0_lang.CN6pKSHs.js"></script> </body> </html>  <script type="module" src="/v0-jp-web/_astro/curso-verano.astro_astro_type_script_index_0_lang.B3hD0_k8.js"></script>
+</footer> <button class="fab-reset" id="fabReset" title="Reiniciar progreso" data-astro-cid-htinfz62> <i data-lucide="rotate-ccw" data-astro-cid-htinfz62></i> </button>  <script>
+const SECCIONES = [
+  {
+    id: "hiragana",
+    titulo: "ひらがな",
+    subtitulo: "Hiragana",
+    icono: "pen-line",
+    color: "#a855f7",
+    actividades: [
+      { id: "verano-hiragana-basicos", titulo: "Escritura de hiragana básicos", desc: "あいうえお — los 46 caracteres básicos", tipo: "escritura", url: "/escritura-hiragana-demo/?id=hiragana-basicos" },
+      { id: "verano-hiragana-impuros", titulo: "Escritura de hiragana impuros", desc: "だくてん・はんだくてん — dakuten y handakuten", tipo: "escritura", url: "/escritura-hiragana-demo/?id=hiragana-impuros" },
+      { id: "verano-hiragana-lectura", titulo: "Lectura de palabras en hiragana", desc: "Lee y reconoce palabras escritas en hiragana", tipo: "lectura", url: "/escritura-hiragana-demo/" },
+    ]
+  },
+  {
+    id: "katakana",
+    titulo: "カタカナ",
+    subtitulo: "Katakana",
+    icono: "pen-tool",
+    color: "#dc2626",
+    actividades: [
+      { id: "verano-katakana-basicos", titulo: "Escritura de katakana básicos", desc: "アイウエオ — los 46 caracteres básicos", tipo: "escritura", url: "/katakana-demo/?id=katakana-basicos" },
+      { id: "verano-katakana-complejos", titulo: "Escritura de katakana complejos", desc: "Diptongos y sonidos extendidos (キャ・キュ・キョ)", tipo: "escritura", url: "/katakana-demo/?id=katakana-complejos" },
+      { id: "verano-katakana-lectura", titulo: "Lectura de palabras en katakana", desc: "Complejidad creciente: de アイスクリーム a マクドナルド", tipo: "lectura", url: "/katakana-demo/" },
+    ]
+  },
+  {
+    id: "vocabulario",
+    titulo: "ことば",
+    subtitulo: "Vocabulario",
+    icono: "book-text",
+    color: "#7c3aed",
+    actividades: [
+      { id: "verano-emparejamiento-vocabulario", titulo: "Emparejamiento de vocabulario básico", desc: "Asocia palabras japonesas con su significado en español", tipo: "emparejamiento", url: "/pairing-demo/" },
+    ]
+  },
+  {
+    id: "lectura",
+    titulo: "読解",
+    subtitulo: "Lectura",
+    icono: "book-open",
+    color: "#0d9488",
+    actividades: [
+      { id: "a1-verano-curso", titulo: "Presentación", desc: "Aprende a presentarte en japonés", tipo: "lectura", url: "/reading-demo/?id=a1-verano-curso" },
+      { id: "a1-s4-desayuno-yamada", titulo: "El desayuno de la familia Yamada", desc: "Lectura sobre la rutina matutina de la familia Yamada", tipo: "lectura", url: "/reading-demo/?id=a1-s4-desayuno-yamada" },
+      { id: "a1-s5-dia-momoko", titulo: "El día a día de Momoko", desc: "Acompaña a Momoko en su jornada diaria", tipo: "lectura", url: "/reading-demo/?id=a1-s5-dia-momoko" },
+    ]
+  },
+  {
+    id: "escritura",
+    titulo: "作文",
+    subtitulo: "Escritura",
+    icono: "pen-square",
+    color: "#0891b2",
+    actividades: [
+      { id: "verano-escritura", titulo: "Ejercicio de escritura", desc: "Traduce frases sencillas del español al japonés", tipo: "escritura", url: "/writing-demo/" },
+    ]
+  },
+]
+
+const STORAGE_KEY = "v0jp:verano:hub"
+
+function cargarEstado() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY)
+    if (raw) {
+      const stored = JSON.parse(raw)
+      const lessons = stored.lessons || {}
+      const result = {}
+      for (const [id, v] of Object.entries(lessons)) {
+        if (v.completed) result[id] = true
+      }
+      return result
+    }
+  } catch (_) {}
+  return {}
+}
+
+function guardarEstado(estado) {
+  const lessons = {}
+  for (const [id, v] of Object.entries(estado)) {
+    lessons[id] = { completed: v === true, completedAt: v ? new Date().toISOString() : "" }
+  }
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: 1, lessons }))
+}
+
+function totalActividades() {
+  return SECCIONES.reduce(function (sum, s) { return sum + s.actividades.length }, 0)
+}
+
+function totalCompletadas() {
+  const estado = cargarEstado()
+  return SECCIONES.reduce(function (sum, s) {
+    return sum + s.actividades.filter(function (a) { return estado[a.id] }).length
+  }, 0)
+}
+
+function actualizarGlobalCounter() {
+  const completadas = totalCompletadas()
+  const total = totalActividades()
+  document.getElementById("globalCounter").textContent = completadas + " / " + total
+}
+
+function toggleActividad(id, checked) {
+  const estado = cargarEstado()
+  if (checked) { estado[id] = true }
+  else { delete estado[id] }
+  guardarEstado(estado)
+  const item = document.querySelector(".actividad-item[data-id=\"" + id + "\"]")
+  if (item) item.classList.toggle("completada", checked)
+  actualizarSeccionProgreso()
+  actualizarGlobalCounter()
+}
+
+function actualizarSeccionProgreso() {
+  const estado = cargarEstado()
+  SECCIONES.forEach(function (s) {
+    const total = s.actividades.length
+    const completadas = s.actividades.filter(function (a) { return estado[a.id] }).length
+    const el = document.getElementById("progreso-" + s.id)
+    if (el) el.textContent = completadas + "/" + total
+  })
+}
+
+function render() {
+  const estado = cargarEstado()
+  const main = document.getElementById("mainContent")
+
+  main.innerHTML = SECCIONES.map(function (s) {
+    const actividadesHtml = s.actividades.map(function (a) {
+      const checked = estado[a.id] || false
+      return (
+        "<li class=\"actividad-item" + (checked ? " completada" : "") + "\" data-id=\"" + a.id + "\">" +
+          "<input type=\"checkbox\" class=\"actividad-checkbox\"" + (checked ? " checked" : "") +
+            " onchange=\"toggleActividad('" + a.id + "', this.checked)\"" +
+            " onclick=\"event.stopPropagation()\">" +
+          "<a class=\"actividad-link\" href=\"" + (a.url || "#") + "\" target=\"_blank\">" +
+            "<i data-lucide=\"" + s.icono + "\" class=\"actividad-icono\"></i>" +
+            "<div class=\"actividad-info\">" +
+              "<div class=\"actividad-titulo\">" + a.titulo + "</div>" +
+              "<div class=\"actividad-desc\">" + a.desc + "</div>" +
+            "</div>" +
+          "</a>" +
+          "<span class=\"actividad-badge badge-nuevo\">NUEVO</span>" +
+        "</li>"
+      )
+    }).join("")
+
+    const completadas = s.actividades.filter(function (a) { return estado[a.id] }).length
+    return (
+      "<section class=\"section\" id=\"sec-" + s.id + "\">" +
+        "<div class=\"section-header\">" +
+          "<i data-lucide=\"" + s.icono + "\" class=\"section-icon\" style=\"color:" + s.color + "\"></i>" +
+          "<span class=\"section-title\">" + s.titulo + "</span>" +
+          "<span class=\"section-subtitle\">" + s.subtitulo + "</span>" +
+          "<span class=\"section-progress\" id=\"progreso-" + s.id + "\">" + completadas + "/" + s.actividades.length + "</span>" +
+        "</div>" +
+        "<ul class=\"actividades-lista\">" +
+          actividadesHtml +
+        "</ul>" +
+      "</section>"
+    )
+  }).join("")
+
+  actualizarGlobalCounter()
+  lucide.createIcons()
+}
+
+function reiniciarProgreso() {
+  if (confirm("¿Borrar todo el progreso del curso de verano? Esta acción no se puede deshacer.")) {
+    localStorage.removeItem(STORAGE_KEY)
+    render()
+  }
+}
+
+document.addEventListener("DOMContentLoaded", render)
+</script>  </main> <script type="module" src="/v0-jp-web/_astro/BaseLayout.astro_astro_type_script_index_0_lang.CN6pKSHs.js"></script> </body> </html>
