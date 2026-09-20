@@ -2,91 +2,91 @@
   "audio_file": "a1-s4-desayuno-yamada.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 41828,
+  "total_duration_ms": 41910,
   "sentences": [
     {
       "index": 0,
       "text": "山田さんのかぞくのあさごはん",
       "start_ms": 0,
-      "end_ms": 3382,
-      "duration_ms": 3382
+      "end_ms": 3429,
+      "duration_ms": 3429
     },
     {
       "index": 1,
       "text": "おはようございます。",
-      "start_ms": 3882,
-      "end_ms": 6475,
-      "duration_ms": 2593
+      "start_ms": 3929,
+      "end_ms": 6510,
+      "duration_ms": 2581
     },
     {
       "index": 2,
       "text": "山田さんのかぞくです。",
-      "start_ms": 6975,
-      "end_ms": 9847,
-      "duration_ms": 2872
+      "start_ms": 7010,
+      "end_ms": 9858,
+      "duration_ms": 2848
     },
     {
       "index": 3,
       "text": "あさです。",
-      "start_ms": 10347,
-      "end_ms": 12185,
-      "duration_ms": 1838
+      "start_ms": 10358,
+      "end_ms": 12150,
+      "duration_ms": 1792
     },
     {
       "index": 4,
       "text": "みんなあさごはんをたべます。",
-      "start_ms": 12685,
-      "end_ms": 15684,
+      "start_ms": 12650,
+      "end_ms": 15649,
       "duration_ms": 2999
     },
     {
       "index": 5,
       "text": "おとうさんはコーヒーをのみます。",
-      "start_ms": 16184,
-      "end_ms": 19671,
-      "duration_ms": 3487
+      "start_ms": 16149,
+      "end_ms": 19682,
+      "duration_ms": 3533
     },
     {
       "index": 6,
       "text": "おかあさんはおちゃをのみます。",
-      "start_ms": 20171,
-      "end_ms": 23658,
-      "duration_ms": 3487
+      "start_ms": 20182,
+      "end_ms": 23646,
+      "duration_ms": 3464
     },
     {
       "index": 7,
       "text": "おにいさんはパンをたべます。",
-      "start_ms": 24158,
-      "end_ms": 27552,
-      "duration_ms": 3394
+      "start_ms": 24146,
+      "end_ms": 27528,
+      "duration_ms": 3382
     },
     {
       "index": 8,
       "text": "わたしはごはんとたまごをたべます。",
-      "start_ms": 28052,
-      "end_ms": 31934,
-      "duration_ms": 3882
+      "start_ms": 28028,
+      "end_ms": 31945,
+      "duration_ms": 3917
     },
     {
       "index": 9,
       "text": "いもうとはくだものとぎゅうにゅうをたべます。",
-      "start_ms": 32434,
-      "end_ms": 36641,
-      "duration_ms": 4207
+      "start_ms": 32445,
+      "end_ms": 36687,
+      "duration_ms": 4242
     },
     {
       "index": 10,
       "text": "おいしいです！",
-      "start_ms": 37141,
-      "end_ms": 39037,
-      "duration_ms": 1896
+      "start_ms": 37187,
+      "end_ms": 39107,
+      "duration_ms": 1920
     },
     {
       "index": 11,
       "text": "たのしいあさです。",
-      "start_ms": 39537,
-      "end_ms": 41828,
-      "duration_ms": 2291
+      "start_ms": 39607,
+      "end_ms": 41910,
+      "duration_ms": 2303
     }
   ]
 }
