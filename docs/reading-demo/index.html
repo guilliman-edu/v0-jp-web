@@ -392,10 +392,26 @@
             const el = document.querySelector('#readingTitle .ts[data-si="' + idx + '"], #readingText .ts[data-si="' + idx + '"]')
             if (!el) return
             const sentence = timings.sentences[idx]
-            if (sentence && sentence.duration_ms > 0) {
-              const raw = (t_ms - sentence.start_ms) / sentence.duration_ms
-              el.style.setProperty("--progress", String(Math.max(0, Math.min(1, raw))))
+            if (!sentence) return
+            let progress = 0
+            const clauses = sentence.clauses
+            if (clauses && clauses.length) {
+              // El relleno solo avanza sobre el habla real (cláusulas): se
+              // congela durante el silencio de coma entre cláusulas.
+              const totalSpeech = clauses.reduce((acc, c) => acc + c.duration_ms, 0)
+              if (totalSpeech > 0) {
+                let spoken = 0
+                for (const c of clauses) {
+                  if (t_ms >= c.end_ms) spoken += c.duration_ms
+                  else if (t_ms > c.start_ms) spoken += t_ms - c.start_ms
+                }
+                progress = spoken / totalSpeech
+              }
+            } else if (sentence.duration_ms > 0) {
+              // Fallback: sin cláusulas, progreso lineal sobre la oración.
+              progress = (t_ms - sentence.start_ms) / sentence.duration_ms
             }
+            el.style.setProperty("--progress", String(Math.max(0, Math.min(1, progress))))
           })
           _audioPlayer.onEnd(() => {
             btn.classList.remove("speaking")

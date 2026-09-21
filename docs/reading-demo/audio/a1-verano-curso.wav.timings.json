@@ -2,63 +2,135 @@
   "audio_file": "a1-verano-curso.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 23537,
+  "total_duration_ms": 23652,
   "sentences": [
     {
       "index": 0,
       "text": "はじめまして",
       "start_ms": 0,
-      "end_ms": 2001,
-      "duration_ms": 2001
+      "end_ms": 1943,
+      "duration_ms": 1943,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はじめまして",
+          "start_ms": 0,
+          "end_ms": 1943,
+          "duration_ms": 1943
+        }
+      ]
     },
     {
       "index": 1,
       "text": "はじめまして。",
-      "start_ms": 2501,
-      "end_ms": 4467,
-      "duration_ms": 1966
+      "start_ms": 2443,
+      "end_ms": 4432,
+      "duration_ms": 1989,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はじめまして。",
+          "start_ms": 2443,
+          "end_ms": 4432,
+          "duration_ms": 1989
+        }
+      ]
     },
     {
       "index": 2,
       "text": "白川桃子です。",
-      "start_ms": 4967,
-      "end_ms": 7572,
-      "duration_ms": 2605
+      "start_ms": 4932,
+      "end_ms": 7502,
+      "duration_ms": 2570,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "白川桃子です。",
+          "start_ms": 4932,
+          "end_ms": 7502,
+          "duration_ms": 2570
+        }
+      ]
     },
     {
       "index": 3,
       "text": "わたしは二十二歳です。",
-      "start_ms": 8072,
-      "end_ms": 11292,
-      "duration_ms": 3220
+      "start_ms": 8002,
+      "end_ms": 11210,
+      "duration_ms": 3208,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "わたしは二十二歳です。",
+          "start_ms": 8002,
+          "end_ms": 11210,
+          "duration_ms": 3208
+        }
+      ]
     },
     {
       "index": 4,
       "text": "学生です。",
-      "start_ms": 11792,
-      "end_ms": 13735,
-      "duration_ms": 1943
+      "start_ms": 11710,
+      "end_ms": 13688,
+      "duration_ms": 1978,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "学生です。",
+          "start_ms": 11710,
+          "end_ms": 13688,
+          "duration_ms": 1978
+        }
+      ]
     },
     {
       "index": 5,
       "text": "専門は日本語です。",
-      "start_ms": 14235,
-      "end_ms": 17049,
-      "duration_ms": 2814
+      "start_ms": 14188,
+      "end_ms": 17013,
+      "duration_ms": 2825,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "専門は日本語です。",
+          "start_ms": 14188,
+          "end_ms": 17013,
+          "duration_ms": 2825
+        }
+      ]
     },
     {
       "index": 6,
       "text": "家族は四人です。",
-      "start_ms": 17549,
-      "end_ms": 20003,
-      "duration_ms": 2454
+      "start_ms": 17513,
+      "end_ms": 19990,
+      "duration_ms": 2477,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "家族は四人です。",
+          "start_ms": 17513,
+          "end_ms": 19990,
+          "duration_ms": 2477
+        }
+      ]
     },
     {
       "index": 7,
       "text": "どうぞよろしくお願いします。",
-      "start_ms": 20503,
-      "end_ms": 23537,
-      "duration_ms": 3034
+      "start_ms": 20490,
+      "end_ms": 23652,
+      "duration_ms": 3162,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "どうぞよろしくお願いします。",
+          "start_ms": 20490,
+          "end_ms": 23652,
+          "duration_ms": 3162
+        }
+      ]
     }
   ]
 }
