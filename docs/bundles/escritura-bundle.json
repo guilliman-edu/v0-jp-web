@@ -1,0 +1,305 @@
+[
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadEscritura",
+    "metadata": {
+      "name": "a1-s3-prueba-inicial"
+    },
+    "data": {
+      "tipo": "traduccion-inversa",
+      "nivel": "A1",
+      "ejercicios": [
+        {
+          "source": "Soy estudiante.",
+          "en": "I am a student.",
+          "references": [
+            "私は学生です",
+            "学生です",
+            "僕は学生です"
+          ]
+        },
+        {
+          "source": "¿Eres estudiante?",
+          "en": "Are you a student?",
+          "references": [
+            "あなたは学生ですか",
+            "学生ですか"
+          ]
+        },
+        {
+          "source": "Él es profesor.",
+          "en": "He is a teacher.",
+          "references": [
+            "彼は先生です",
+            "先生です"
+          ]
+        },
+        {
+          "source": "Ella no es profesora.",
+          "en": "She is not a teacher.",
+          "references": [
+            "彼女は先生ではありません",
+            "先生じゃありません"
+          ]
+        },
+        {
+          "source": "Esto es un libro.",
+          "en": "This is a book.",
+          "references": [
+            "これは本です",
+            "本です"
+          ]
+        },
+        {
+          "source": "¿Qué es esto?",
+          "en": "What is this?",
+          "references": [
+            "これは何ですか",
+            "何ですか"
+          ]
+        },
+        {
+          "source": "Aquello es un diccionario.",
+          "en": "That over there is a dictionary.",
+          "references": [
+            "あれは辞書です",
+            "辞書です"
+          ]
+        },
+        {
+          "source": "¿Dónde está la biblioteca?",
+          "en": "Where is the library?",
+          "references": [
+            "図書館はどこですか",
+            "どこですか"
+          ]
+        },
+        {
+          "source": "Era estudiante.",
+          "en": "I was a student.",
+          "references": [
+            "学生でした",
+            "私は学生でした",
+            "僕は学生でした"
+          ]
+        },
+        {
+          "source": "¿Era profesor?",
+          "en": "Was he a teacher?",
+          "references": [
+            "先生でしたか",
+            "彼は先生でしたか"
+          ]
+        },
+        {
+          "source": "No era estudiante.",
+          "en": "I was not a student.",
+          "references": [
+            "学生ではありませんでした",
+            "学生じゃありませんでした"
+          ]
+        },
+        {
+          "source": "Mi especialidad es economía.",
+          "en": "My major is economics.",
+          "references": [
+            "専門は経済です",
+            "経済です"
+          ]
+        },
+        {
+          "source": "Esto no es un libro.",
+          "en": "This is not a book.",
+          "references": [
+            "これは本ではありません",
+            "本じゃありません"
+          ]
+        },
+        {
+          "source": "¿Es esto un bolígrafo?",
+          "en": "Is this a pen?",
+          "references": [
+            "これはペンですか",
+            "ペンですか"
+          ]
+        },
+        {
+          "source": "Aquello es un paraguas.",
+          "en": "That over there is an umbrella.",
+          "references": [
+            "あれは傘です",
+            "傘です"
+          ]
+        },
+        {
+          "source": "Hoy es sábado.",
+          "en": "Today is Saturday.",
+          "references": [
+            "今日は土曜日です",
+            "土曜日です"
+          ]
+        },
+        {
+          "source": "¿Cuánto cuesta?",
+          "en": "How much is it?",
+          "references": [
+            "いくらですか",
+            "これはいくらですか"
+          ]
+        },
+        {
+          "source": "Mañana es domingo.",
+          "en": "Tomorrow is Sunday.",
+          "references": [
+            "明日は日曜日です",
+            "日曜日です"
+          ]
+        },
+        {
+          "source": "¿Dónde está la universidad?",
+          "en": "Where is the university?",
+          "references": [
+            "大学はどこですか",
+            "どこですか"
+          ]
+        },
+        {
+          "source": "No era profesora.",
+          "en": "She was not a teacher.",
+          "references": [
+            "彼女は先生ではありませんでした",
+            "先生じゃありませんでした"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadEscritura",
+    "metadata": {
+      "name": "a1-s5-traduccion-verano"
+    },
+    "data": {
+      "tipo": "traduccion-inversa",
+      "nivel": "A1",
+      "ejercicios": [
+        {
+          "source": "Buenos días.",
+          "en": "Good morning.",
+          "references": [
+            "おはようございます"
+          ]
+        },
+        {
+          "source": "Soy estudiante.",
+          "en": "I am a student.",
+          "references": [
+            "わたしは学生です",
+            "私は学生です"
+          ]
+        },
+        {
+          "source": "Esto es un libro.",
+          "en": "This is a book.",
+          "references": [
+            "これは本です"
+          ]
+        },
+        {
+          "source": "¿Qué es esto?",
+          "en": "What is this?",
+          "references": [
+            "これは何ですか"
+          ]
+        },
+        {
+          "source": "Hay un gato.",
+          "en": "There is a cat.",
+          "references": [
+            "ねこがいます",
+            "猫がいます"
+          ]
+        },
+        {
+          "source": "Voy a la escuela.",
+          "en": "I go to school.",
+          "references": [
+            "がっこうへいきます",
+            "学校へ行きます"
+          ]
+        },
+        {
+          "source": "Como arroz.",
+          "en": "I eat rice.",
+          "references": [
+            "ごはんをたべます",
+            "御飯を食べます"
+          ]
+        },
+        {
+          "source": "Bebo agua.",
+          "en": "I drink water.",
+          "references": [
+            "みずをのみます",
+            "水を飲みます"
+          ]
+        },
+        {
+          "source": "Me gusta la música.",
+          "en": "I like music.",
+          "references": [
+            "おんがくがすきです",
+            "音楽が好きです"
+          ]
+        },
+        {
+          "source": "Son las tres.",
+          "en": "It is three o'clock.",
+          "references": [
+            "三じです",
+            "三時です"
+          ]
+        },
+        {
+          "source": "Me llamo Tanaka.",
+          "en": "My name is Tanaka.",
+          "references": [
+            "わたしは田中です",
+            "私は田中です"
+          ]
+        },
+        {
+          "source": "Está delicioso.",
+          "en": "It is delicious.",
+          "references": [
+            "おいしいです",
+            "美味しいです"
+          ]
+        },
+        {
+          "source": "No entiendo.",
+          "en": "I don't understand.",
+          "references": [
+            "わかりません"
+          ]
+        },
+        {
+          "source": "¿Cuánto cuesta?",
+          "en": "How much does it cost?",
+          "references": [
+            "いくらですか"
+          ]
+        },
+        {
+          "source": "Hace buen tiempo.",
+          "en": "The weather is nice.",
+          "references": [
+            "いい天気です",
+            "良い天気です"
+          ]
+        }
+      ]
+    }
+  }
+]
