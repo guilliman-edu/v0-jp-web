@@ -1,0 +1,1613 @@
+[
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s1-palabras-basicas"
+    },
+    "data": {
+      "genero": "juego",
+      "tipo": "emparejamiento",
+      "nivel": "A1",
+      "dificultad": "medio",
+      "palabras": [
+        "今",
+        "英語",
+        "高校",
+        "学生",
+        "午後",
+        "午前",
+        "先生",
+        "専門",
+        "友達",
+        "大学",
+        "電話",
+        "名前",
+        "日本",
+        "日本語",
+        "鉛筆",
+        "辞書",
+        "自転車",
+        "時計",
+        "本",
+        "肉"
+      ]
+    }
+  },
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s4-conjugacion-masu"
+    },
+    "data": {
+      "genero": "juego",
+      "tipo": "conjugacion",
+      "nivel": "A1",
+      "dificultad": "facil",
+      "modo": "katsuyou",
+      "formas": [
+        "masu",
+        "masen",
+        "mashita",
+        "masendeshita"
+      ],
+      "verbos": [
+        {
+          "literal": "食べる",
+          "grupo": "II",
+          "lectura": "たべる"
+        },
+        {
+          "literal": "飲む",
+          "grupo": "I",
+          "lectura": "のむ"
+        },
+        {
+          "literal": "する",
+          "grupo": "III",
+          "lectura": "する",
+          "irregulares": {
+            "masu": "します",
+            "masen": "しません"
+          }
+        }
+      ],
+      "alternativas": []
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s13-deseos-fin-semana"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "週末にしたいこと",
+      "modoFurigana": "calido",
+      "furiganaList": [
+        "遊ぶ",
+        "来年",
+        "作る"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "田中",
+          "lectura": "たなか"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん"
+        }
+      ],
+      "texto": "今週末、田中さんはすしを食べたいです。それから、ジュースを飲みたいです。午後は友達に会いたいです。話したいです。映画を見たいです。\n\nでも、勉強したくないです。遊びたいです。\n\n来年、日本へ行きたいです。日本で美味しい料理を作りたいです。あなたは何がしたいですか。\n",
+      "preguntas": [
+        "田中さんは何を食べたいですか。",
+        "田中さんは勉強したいですか。",
+        "田中さんは来年どこへ行きたいですか。",
+        "あなたは週末に何がしたいですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "飲む",
+          "lectura": "のむ",
+          "significado": "beber"
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver, mirar"
+        },
+        {
+          "literal": "勉強する",
+          "lectura": "べんきょうする",
+          "significado": "estudiar"
+        },
+        {
+          "literal": "話す",
+          "lectura": "はなす",
+          "significado": "hablar"
+        },
+        {
+          "literal": "会う",
+          "lectura": "あう",
+          "significado": "encontrarse con"
+        },
+        {
+          "literal": "遊ぶ",
+          "lectura": "あそぶ",
+          "significado": "jugar, divertirse"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer, cocinar"
+        },
+        {
+          "literal": "週末",
+          "lectura": "しゅうまつ",
+          "significado": "fin de semana"
+        },
+        {
+          "literal": "美味しい",
+          "lectura": "おいしい",
+          "significado": "delicioso"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "映画",
+          "lectura": "えいが",
+          "significado": "película"
+        },
+        {
+          "literal": "午後",
+          "lectura": "ごご",
+          "significado": "tarde"
+        },
+        {
+          "literal": "来年",
+          "lectura": "らいねん",
+          "significado": "el año que viene"
+        }
+      ],
+      "referencias": [
+        "forma-tai"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s4-desayuno-yamada"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "山田さんのかぞくのあさごはん",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "山田",
+          "lectura": "やまだ"
+        }
+      ],
+      "texto": "おはようございます。山田さんのかぞくです。\n\nあさです。みんなあさごはんをたべます。\n\nおとうさんはコーヒーをのみます。おかあさんはおちゃをのみます。\n\nおにいさんはパンをたべます。わたしはごはんとたまごをたべます。\n\nいもうとはくだものとぎゅうにゅうをたべます。\n\nおいしいです！たのしいあさです。\n",
+      "preguntas": [
+        "おとうさんはなにをのみますか。",
+        "おかあさんはなにをのみますか。",
+        "おにいさんはなにをたべますか。",
+        "「わたし」はなにをたべますか。",
+        "いもうとはなにをたべますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "朝御飯",
+          "lectura": "あさごはん",
+          "significado": "desayuno"
+        },
+        {
+          "literal": "家族",
+          "lectura": "かぞく",
+          "significado": "familia"
+        },
+        {
+          "literal": "お父さん",
+          "lectura": "おとうさん",
+          "significado": "padre (ajeno)"
+        },
+        {
+          "literal": "お母さん",
+          "lectura": "おかあさん",
+          "significado": "madre (ajena)"
+        },
+        {
+          "literal": "お兄さん",
+          "lectura": "おにいさん",
+          "significado": "hermano mayor"
+        },
+        {
+          "literal": "妹",
+          "lectura": "いもうと",
+          "significado": "hermana menor"
+        },
+        {
+          "literal": "お茶",
+          "lectura": "おちゃ",
+          "significado": "té verde"
+        },
+        {
+          "literal": "卵",
+          "lectura": "たまご",
+          "significado": "huevo"
+        },
+        {
+          "literal": "果物",
+          "lectura": "くだもの",
+          "significado": "fruta"
+        },
+        {
+          "literal": "牛乳",
+          "lectura": "ぎゅうにゅう",
+          "significado": "leche"
+        },
+        {
+          "literal": "美味しい",
+          "lectura": "おいしい",
+          "significado": "delicioso"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido"
+        }
+      ],
+      "referencias": [
+        "introduccion-verbos",
+        "forma-masu-grupo-I",
+        "particula-wo",
+        "particula-to"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s5-dia-momoko"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "ももこさんの一日",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "桃子",
+          "lectura": "ももこ"
+        }
+      ],
+      "texto": "わたしはももこです。大学生です。\n\nまいあさ、七じにおきます。あさごはんをたべます。コーヒーをのみます。\n\n九じに大学へいきます。べんきょうします。としょかんで本をよみます。\n\n十二じにひるごはんをたべます。ともだちといっしょにたべます。\n\n五じにうちへかえります。それから、ばんごはんをつくります。\n\n九じにおふろにはいります。十一じにねます。\n",
+      "preguntas": [
+        "ももこさんはなんじにおきますか。",
+        "ももこさんはなんじに大学へいきますか。",
+        "ももこさんはとしょかんでなにをしますか。",
+        "ももこさんはだれとひるごはんをたべますか。",
+        "ももこさんはなんじにねますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "毎朝",
+          "lectura": "まいあさ",
+          "significado": "cada mañana"
+        },
+        {
+          "literal": "起きる",
+          "lectura": "おきる",
+          "significado": "levantarse"
+        },
+        {
+          "literal": "大学",
+          "lectura": "だいがく",
+          "significado": "universidad"
+        },
+        {
+          "literal": "大学生",
+          "lectura": "だいがくせい",
+          "significado": "estudiante universitario"
+        },
+        {
+          "literal": "勉強する",
+          "lectura": "べんきょうする",
+          "significado": "estudiar"
+        },
+        {
+          "literal": "図書館",
+          "lectura": "としょかん",
+          "significado": "biblioteca"
+        },
+        {
+          "literal": "本",
+          "lectura": "ほん",
+          "significado": "libro"
+        },
+        {
+          "literal": "昼御飯",
+          "lectura": "ひるごはん",
+          "significado": "almuerzo"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "一緒に",
+          "lectura": "いっしょに",
+          "significado": "juntos"
+        },
+        {
+          "literal": "帰る",
+          "lectura": "かえる",
+          "significado": "volver, regresar"
+        },
+        {
+          "literal": "晩御飯",
+          "lectura": "ばんごはん",
+          "significado": "cena"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer, preparar (comida)"
+        },
+        {
+          "literal": "お風呂",
+          "lectura": "おふろ",
+          "significado": "baño"
+        },
+        {
+          "literal": "寝る",
+          "lectura": "ねる",
+          "significado": "dormir"
+        }
+      ],
+      "referencias": [
+        "introduccion-verbos",
+        "forma-masu-grupo-I",
+        "forma-masu-grupo-III",
+        "particula-ni-lugar",
+        "particula-e",
+        "adverbios-tiempo",
+        "particula-to"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-s9-lectura-dia-ciudad"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "町のいちにち",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "鈴木",
+          "lectura": "すずき"
+        }
+      ],
+      "texto": "きょうはいい天気です。鈴木さんはともだちと町に行きます。\n\nけさ、七時に起きました。朝ごはんを食べました。\n鈴木さんは毎日七時に起きます。\nときどき一人で朝ごはんを食べます。\n\n八時にうちを出ました。駅でともだちに会いました。\nいつも駅で会います。とても楽しいです。\n\n町で映画を見ました。とてもおもしろかったです。\n鈴木さんはよく映画を見ます。\nあまりテレビを見ません。\n\nお昼にレストランで食べました。\n鈴木さんはあまりお肉を食べません。魚を食べました。\n\n午後、買い物をしました。本とCDを買いました。\n鈴木さんはぜんぜんコーヒーを飲みません。\nいつもお茶を飲みます。\n\nこんばん、七時にうちに帰ります。\nあしたは試験があります。うちで勉強します。\n",
+      "preguntas": [
+        "鈴木さんはけさ、何時に起きましたか。",
+        "鈴木さんはいつもどこでともだちに会いますか。",
+        "鈴木さんはよく何を見ますか。",
+        "鈴木さんはお昼に何を食べましたか。",
+        "鈴木さんはコーヒーを飲みますか。",
+        "あした、鈴木さんは何がありますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "ciudad, pueblo"
+        },
+        {
+          "literal": "出る",
+          "lectura": "でる",
+          "significado": "salir"
+        },
+        {
+          "literal": "一人で",
+          "lectura": "ひとりで",
+          "significado": "solo, sin compañía"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido, agradable"
+        },
+        {
+          "literal": "映画",
+          "lectura": "えいが",
+          "significado": "película"
+        },
+        {
+          "literal": "お昼",
+          "lectura": "おひる",
+          "significado": "mediodía, almuerzo"
+        },
+        {
+          "literal": "午後",
+          "lectura": "ごご",
+          "significado": "tarde (después del mediodía)"
+        },
+        {
+          "literal": "買い物",
+          "lectura": "かいもの",
+          "significado": "compras"
+        },
+        {
+          "literal": "試験",
+          "lectura": "しけん",
+          "significado": "examen"
+        }
+      ],
+      "referencias": [
+        "adverbios-tiempo",
+        "adverbios-frecuencia"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a1-verano-curso"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "はじめまして",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "白川桃子",
+          "lectura": "しらかわももこ"
+        }
+      ],
+      "texto": "はじめまして。白川桃子です。\nわたしは二十二歳です。学生です。\n専門は日本語です。\n家族は四人です。\nどうぞよろしくお願いします。\n",
+      "preguntas": [
+        "名前は何ですか。",
+        "年は二十二歳ですか。",
+        "専門は日本語ですか。",
+        "家族は四人ですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "専門",
+          "lectura": "せんもん",
+          "significado": "especialidad"
+        },
+        {
+          "literal": "日本語",
+          "lectura": "にほんご",
+          "significado": "japonés (idioma)"
+        },
+        {
+          "literal": "家族",
+          "lectura": "かぞく",
+          "significado": "familia"
+        },
+        {
+          "literal": "学生",
+          "lectura": "がくせい",
+          "significado": "estudiante"
+        }
+      ],
+      "referencias": [
+        "kaidesu-presentacion",
+        "pronombres-personales"
+      ],
+      "nivel": "A1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a2.1-s9-shinderera"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "シンデレラの靴",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "シンデレラ",
+          "lectura": "しんでれら"
+        }
+      ],
+      "texto": "むかし、シンデレラという女の子がいました。シンデレラの母が死んだとき、シンデレラは寂しかったです。それから、父の家に継母と二人の女の子が来ました。継母と二人の女の子はシンデレラに親切ではありませんでした。シンデレラは毎日掃除したり、洗濯したりしました。それから、服も作りました。シンデレラはとても忙しかったです。そして、寂しかったです。\n\nある日、王子の家で大きいパーティーがありました。町の女の子はみんな、パーティーに行きました。シンデレラも行きたいと思いました。でも、継母は「服も靴もありませんから、行きません」と言っていました。\n\n夜、白い鳥が来ました。鳥はシンデレラに素敵な服と靴をくれました。シンデレラは鳥から服と靴をもらって、パーティーへ行きました。王子はシンデレラを見て、一番素敵だと思いました。王子はシンデレラとだけ踊りました。シンデレラは帰るとき、靴をなくしました。\n\n次の日、王子は町の女の子に会いました。そして、みんなに靴を履きました。継母の女の子も靴を履きましたが、足が入りませんでした。シンデレラが靴を履くと、足が入りました。それはシンデレラの靴でした。\n\n王子は「シンデレラ、私と結婚しませんか」と言いました。シンデレラは楽しかったです。二人は結婚しました。そして、楽しく住みました。\n",
+      "preguntas": [
+        "シンデレラの母はどうなりましたか。",
+        "シンデレラは毎日何をしましたか。",
+        "シンデレラはどうやってパーティーへ行きましたか。",
+        "王子は誰とだけ踊りましたか。",
+        "シンデレラはパーティーで何をなくしましたか。",
+        "最後に、シンデレラと王子はどうなりましたか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "女の子",
+          "lectura": "おんなのこ",
+          "significado": "niña, chica"
+        },
+        {
+          "literal": "母",
+          "lectura": "はは",
+          "significado": "madre"
+        },
+        {
+          "literal": "死ぬ",
+          "lectura": "しぬ",
+          "significado": "morir"
+        },
+        {
+          "literal": "父",
+          "lectura": "ちち",
+          "significado": "padre"
+        },
+        {
+          "literal": "家",
+          "lectura": "いえ",
+          "significado": "casa"
+        },
+        {
+          "literal": "継母",
+          "lectura": "ままはは",
+          "significado": "madrastra"
+        },
+        {
+          "literal": "二人",
+          "lectura": "ふたり",
+          "significado": "dos personas"
+        },
+        {
+          "literal": "来る",
+          "lectura": "くる",
+          "significado": "venir"
+        },
+        {
+          "literal": "親切",
+          "lectura": "しんせつ",
+          "significado": "amable, gentil"
+        },
+        {
+          "literal": "毎日",
+          "lectura": "まいにち",
+          "significado": "todos los días"
+        },
+        {
+          "literal": "掃除する",
+          "lectura": "そうじする",
+          "significado": "limpiar, hacer la limpieza"
+        },
+        {
+          "literal": "洗濯する",
+          "lectura": "せんたくする",
+          "significado": "lavar (la ropa)"
+        },
+        {
+          "literal": "服",
+          "lectura": "ふく",
+          "significado": "ropa, vestido"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer, fabricar"
+        },
+        {
+          "literal": "忙しい",
+          "lectura": "いそがしい",
+          "significado": "ocupado, atareado"
+        },
+        {
+          "literal": "寂しい",
+          "lectura": "さびしい",
+          "significado": "triste, solitario"
+        },
+        {
+          "literal": "王子",
+          "lectura": "おうじ",
+          "significado": "príncipe"
+        },
+        {
+          "literal": "大きい",
+          "lectura": "おおきい",
+          "significado": "grande"
+        },
+        {
+          "literal": "パーティー",
+          "lectura": "パーティー",
+          "significado": "fiesta"
+        },
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "pueblo, ciudad"
+        },
+        {
+          "literal": "みんな",
+          "lectura": "みんな",
+          "significado": "todos, todo el mundo"
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir"
+        },
+        {
+          "literal": "言う",
+          "lectura": "いう",
+          "significado": "decir"
+        },
+        {
+          "literal": "靴",
+          "lectura": "くつ",
+          "significado": "zapato"
+        },
+        {
+          "literal": "白い",
+          "lectura": "しろい",
+          "significado": "blanco"
+        },
+        {
+          "literal": "鳥",
+          "lectura": "とり",
+          "significado": "pájaro"
+        },
+        {
+          "literal": "素敵",
+          "lectura": "すてき",
+          "significado": "precioso, encantador"
+        },
+        {
+          "literal": "もらう",
+          "lectura": "もらう",
+          "significado": "recibir"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver, mirar"
+        },
+        {
+          "literal": "踊る",
+          "lectura": "おどる",
+          "significado": "bailar"
+        },
+        {
+          "literal": "帰る",
+          "lectura": "かえる",
+          "significado": "volver a casa"
+        },
+        {
+          "literal": "なくす",
+          "lectura": "なくす",
+          "significado": "perder"
+        },
+        {
+          "literal": "会う",
+          "lectura": "あう",
+          "significado": "encontrarse con"
+        },
+        {
+          "literal": "履く",
+          "lectura": "はく",
+          "significado": "calzar, ponerse (zapatos)"
+        },
+        {
+          "literal": "足",
+          "lectura": "あし",
+          "significado": "pie, pierna"
+        },
+        {
+          "literal": "入る",
+          "lectura": "はいる",
+          "significado": "entrar, caber"
+        },
+        {
+          "literal": "私",
+          "lectura": "わたし",
+          "significado": "yo"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido, agradable"
+        },
+        {
+          "literal": "住む",
+          "lectura": "すむ",
+          "significado": "vivir, residir"
+        },
+        {
+          "literal": "結婚する",
+          "lectura": "けっこんする",
+          "significado": "casarse"
+        }
+      ],
+      "referencias": [
+        "tokio-pasado",
+        "enumeracion-tari",
+        "opinion-to-omoimasu",
+        "estilo-indirecto-to-itte-imashita",
+        "dar-recibir-agemasu-moraimasu"
+      ],
+      "nivel": "A2.1"
+    }
+  },
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a3-s2-conjugacion-formas"
+    },
+    "data": {
+      "genero": "juego",
+      "tipo": "conjugacion",
+      "nivel": "A3",
+      "dificultad": "medio",
+      "modo": "katsuyou",
+      "formas": [
+        "masu",
+        "tai",
+        "te",
+        "tari",
+        "ta"
+      ],
+      "verbos": [
+        {
+          "literal": "送る",
+          "grupo": "I",
+          "lectura": "おくる"
+        },
+        {
+          "literal": "描く",
+          "grupo": "I",
+          "lectura": "えがく"
+        },
+        {
+          "literal": "誘う",
+          "grupo": "I",
+          "lectura": "さそう"
+        },
+        {
+          "literal": "売る",
+          "grupo": "I",
+          "lectura": "うる"
+        },
+        {
+          "literal": "探す",
+          "grupo": "I",
+          "lectura": "さがす"
+        },
+        {
+          "literal": "選ぶ",
+          "grupo": "I",
+          "lectura": "えらぶ"
+        },
+        {
+          "literal": "脱ぐ",
+          "grupo": "I",
+          "lectura": "ぬぐ"
+        },
+        {
+          "literal": "笑う",
+          "grupo": "I",
+          "lectura": "わらう"
+        },
+        {
+          "literal": "歩く",
+          "grupo": "I",
+          "lectura": "あるく"
+        },
+        {
+          "literal": "置く",
+          "grupo": "I",
+          "lectura": "おく"
+        },
+        {
+          "literal": "触る",
+          "grupo": "I",
+          "lectura": "さわる"
+        },
+        {
+          "literal": "勝つ",
+          "grupo": "I",
+          "lectura": "かつ"
+        },
+        {
+          "literal": "出す",
+          "grupo": "I",
+          "lectura": "だす"
+        },
+        {
+          "literal": "壊す",
+          "grupo": "I",
+          "lectura": "こわす"
+        },
+        {
+          "literal": "見せる",
+          "grupo": "II",
+          "lectura": "みせる"
+        },
+        {
+          "literal": "集める",
+          "grupo": "II",
+          "lectura": "あつめる"
+        },
+        {
+          "literal": "入れる",
+          "grupo": "II",
+          "lectura": "いれる"
+        },
+        {
+          "literal": "受ける",
+          "grupo": "II",
+          "lectura": "うける"
+        },
+        {
+          "literal": "伝える",
+          "grupo": "II",
+          "lectura": "つたえる"
+        },
+        {
+          "literal": "聞こえる",
+          "grupo": "II",
+          "lectura": "きこえる"
+        },
+        {
+          "literal": "案内する",
+          "grupo": "III",
+          "lectura": "あんないする"
+        },
+        {
+          "literal": "説明する",
+          "grupo": "III",
+          "lectura": "せつめいする"
+        }
+      ],
+      "alternativas": []
+    }
+  },
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a3-s2-conjugacion-oracion"
+    },
+    "data": {
+      "genero": "juego",
+      "tipo": "conjugacion",
+      "nivel": "A3",
+      "dificultad": "medio",
+      "modo": "oracion",
+      "formas": [
+        "masu",
+        "tai",
+        "te",
+        "tari",
+        "ta"
+      ],
+      "verbos": [
+        {
+          "literal": "送る",
+          "grupo": "I",
+          "lectura": "おくる"
+        },
+        {
+          "literal": "見せる",
+          "grupo": "II",
+          "lectura": "みせる"
+        },
+        {
+          "literal": "説明する",
+          "grupo": "III",
+          "lectura": "せつめいする"
+        },
+        {
+          "literal": "描く",
+          "grupo": "I",
+          "lectura": "えがく"
+        },
+        {
+          "literal": "受ける",
+          "grupo": "II",
+          "lectura": "うける"
+        },
+        {
+          "literal": "歩く",
+          "grupo": "I",
+          "lectura": "あるく"
+        },
+        {
+          "literal": "置く",
+          "grupo": "I",
+          "lectura": "おく"
+        },
+        {
+          "literal": "脱ぐ",
+          "grupo": "I",
+          "lectura": "ぬぐ"
+        },
+        {
+          "literal": "笑う",
+          "grupo": "I",
+          "lectura": "わらう"
+        },
+        {
+          "literal": "勝つ",
+          "grupo": "I",
+          "lectura": "かつ"
+        },
+        {
+          "literal": "集める",
+          "grupo": "II",
+          "lectura": "あつめる"
+        },
+        {
+          "literal": "聞こえる",
+          "grupo": "II",
+          "lectura": "きこえる"
+        },
+        {
+          "literal": "伝える",
+          "grupo": "II",
+          "lectura": "つたえる"
+        }
+      ],
+      "oraciones": [
+        {
+          "texto": "明日、友達に<ruby>手紙<rt>てがみ</rt></ruby>を___。",
+          "verbo": "送る",
+          "forma": "masu",
+          "traduccion": "Mañana le envío una carta a un amigo."
+        },
+        {
+          "texto": "写真を友達に___。",
+          "verbo": "見せる",
+          "forma": "masu",
+          "traduccion": "Le muestro la foto a un amigo."
+        },
+        {
+          "texto": "先生に<ruby>問題<rt>もんだい</rt></ruby>を___。",
+          "verbo": "説明する",
+          "forma": "masu",
+          "traduccion": "Le explico este problema al profesor."
+        },
+        {
+          "texto": "海の<ruby>絵<rt>え</rt></ruby>を___。",
+          "verbo": "描く",
+          "forma": "tai",
+          "traduccion": "Quiero dibujar un cuadro del mar."
+        },
+        {
+          "texto": "大学の<ruby>試験<rt>しけん</rt></ruby>を___。",
+          "verbo": "受ける",
+          "forma": "tai",
+          "traduccion": "Quiero hacer el examen de la universidad."
+        },
+        {
+          "texto": "駅まで___、電車に乗ります。",
+          "verbo": "歩く",
+          "forma": "te",
+          "traduccion": "Voy a pie hasta la estación y tomo el tren."
+        },
+        {
+          "texto": "<ruby>鞄<rt>かばん</rt></ruby>を机の上に___、<ruby>席<rt>せき</rt></ruby>に座ります。",
+          "verbo": "置く",
+          "forma": "te",
+          "traduccion": "Dejo el bolso sobre el escritorio y me siento."
+        },
+        {
+          "texto": "家の中で<ruby>靴<rt>くつ</rt></ruby>を___、上がります。",
+          "verbo": "脱ぐ",
+          "forma": "te",
+          "traduccion": "Me quito los zapatos dentro de casa y subo."
+        },
+        {
+          "texto": "みんなで___、話したりしました。",
+          "verbo": "笑う",
+          "forma": "tari",
+          "traduccion": "Todos reímos y hablamos."
+        },
+        {
+          "texto": "チームは___、<ruby>負<rt>ま</rt></ruby>けたりします。",
+          "verbo": "勝つ",
+          "forma": "tari",
+          "traduccion": "El equipo a veces gana y a veces pierde."
+        },
+        {
+          "texto": "子供のとき、<ruby>切手<rt>きって</rt></ruby>をたくさん___。",
+          "verbo": "集める",
+          "forma": "ta",
+          "traduccion": "De niño coleccionaba muchos sellos."
+        },
+        {
+          "texto": "昨日、<ruby>隣<rt>となり</rt></ruby>の部屋から<ruby>声<rt>こえ</rt></ruby>が___。",
+          "verbo": "聞こえる",
+          "forma": "ta",
+          "traduccion": "Ayer se oyó una voz desde la habitación de al lado."
+        },
+        {
+          "texto": "昨日、友達に<ruby>考<rt>かんが</rt></ruby>えを___。",
+          "verbo": "伝える",
+          "forma": "ta",
+          "traduccion": "Ayer le transmití mi opinión a un amigo."
+        }
+      ],
+      "alternativas": []
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "b2.1-s1-shinderera"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "シンデレラ",
+      "nivel": "B2.1",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "preguntas": [
+        "シンデレラの母親はいつ亡くなりましたか。",
+        "継母はシンデレラにどんな仕事をさせましたか。",
+        "父親はシンデレラに何を買いましたか。",
+        "はしばみの木にはどんな鳥が来ましたか。",
+        "王様のお祝いは何日間続きましたか。",
+        "シンデレラはなぜ舞踏会に行けませんでしたか。",
+        "小鳥たちはシンデレラに何をくれましたか。",
+        "王子はシンデレラに何を言いましたか。",
+        "金の上靴に合うのは誰でしたか。",
+        "二人の姉たちはどうなりましたか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "継母",
+          "lectura": "ままはは",
+          "significado": "madrastra"
+        },
+        {
+          "literal": "継娘",
+          "lectura": "こいもうと",
+          "significado": "hijastra"
+        },
+        {
+          "literal": "灰かぶり",
+          "lectura": "はいかぶり",
+          "significado": "Cenicienta"
+        },
+        {
+          "literal": "舞踏会",
+          "lectura": "ぶとうかい",
+          "significado": "baile"
+        },
+        {
+          "literal": "宮殿",
+          "lectura": "きゅうでん",
+          "significado": "palacio"
+        },
+        {
+          "literal": "鳩小屋",
+          "lectura": "はとや",
+          "significado": "palomar"
+        },
+        {
+          "literal": "花嫁",
+          "lectura": "はなよめ",
+          "significado": "novia"
+        },
+        {
+          "literal": "王子",
+          "lectura": "おうじ",
+          "significado": "príncipe"
+        },
+        {
+          "literal": "上靴",
+          "lectura": "うわぐつ",
+          "significado": "zapato"
+        },
+        {
+          "literal": "はしばみ",
+          "lectura": "はしばみ",
+          "significado": "avellano"
+        },
+        {
+          "literal": "結婚式",
+          "lectura": "けっこんしき",
+          "significado": "boda"
+        },
+        {
+          "literal": "教会",
+          "lectura": "きょうかい",
+          "significado": "iglesia"
+        },
+        {
+          "literal": "意地悪",
+          "lectura": "いじわる",
+          "significado": "malicia"
+        },
+        {
+          "literal": "不誠実",
+          "lectura": "ふせいじつ",
+          "significado": "desleal"
+        },
+        {
+          "literal": "生涯",
+          "lectura": "しょうがい",
+          "significado": "toda la vida"
+        },
+        {
+          "literal": "真珠",
+          "lectura": "しんじゅ",
+          "significado": "perla"
+        },
+        {
+          "literal": "宝石",
+          "lectura": "ほうせき",
+          "significado": "joyas"
+        },
+        {
+          "literal": "鳩",
+          "lectura": "はと",
+          "significado": "paloma"
+        },
+        {
+          "literal": "鶉",
+          "lectura": "きじばと",
+          "significado": "tórtola"
+        },
+        {
+          "literal": "期日",
+          "lectura": "きじつ",
+          "significado": "fecha límite"
+        },
+        {
+          "literal": "茂み",
+          "lectura": "しげみ",
+          "significado": "maleza"
+        },
+        {
+          "literal": "帽子",
+          "lectura": "ぼうし",
+          "significado": "sombrero"
+        },
+        {
+          "literal": "涙",
+          "lectura": "なみだ",
+          "significado": "lágrimas"
+        },
+        {
+          "literal": "立派",
+          "lectura": "りっぱ",
+          "significado": "imponente"
+        },
+        {
+          "literal": "招待",
+          "lectura": "しょうたい",
+          "significado": "invitación"
+        },
+        {
+          "literal": "許可",
+          "lectura": "きょか",
+          "significado": "permiso"
+        },
+        {
+          "literal": "手伝い",
+          "lectura": "てつだい",
+          "significado": "ayuda"
+        },
+        {
+          "literal": "美しい",
+          "lectura": "うつくしい",
+          "significado": "hermoso/a"
+        },
+        {
+          "literal": "驚く",
+          "lectura": "おどろく",
+          "significado": "sorprenderse"
+        },
+        {
+          "literal": "逃げる",
+          "lectura": "にげる",
+          "significado": "huir"
+        },
+        {
+          "literal": "計略",
+          "lectura": "けいりゃく",
+          "significado": "estratagema"
+        },
+        {
+          "literal": "階段",
+          "lectura": "かいだん",
+          "significado": "escalera"
+        },
+        {
+          "literal": "偽",
+          "lectura": "いつわ",
+          "significado": "falso/a"
+        },
+        {
+          "literal": "罰",
+          "lectura": "ばつ",
+          "significado": "castigo"
+        }
+      ],
+      "nombres_propios": [
+        {
+          "literal": "シンデレラ",
+          "lectura": "シンデレラ"
+        },
+        {
+          "literal": "王様",
+          "lectura": "おうさま"
+        }
+      ],
+      "referencias": [
+        "b2.1-s1-ni-okeru",
+        "b2.1-s1-te-hoshii",
+        "b2.1-s1-yo-ne",
+        "b2.1-s1-deshou-darou"
+      ],
+      "texto": "金持ちの女の人の死\n金持ちの女の人が病気になりました。とても具合が悪くて、もうすぐ死ぬということが分かりました。それで、たった一人の娘をベッドのそばに呼んで、「愛しているわが子よ。いい子でいてね。神様を信じているなら、神様はいつもあなたを守ってくれるよ。私は天国からあなたを見下ろしているからね。」と言いました。それから、目を閉じて亡くなりました。 娘は毎日、母親の墓に行って泣きました。でも、いつもいい子でいました。 冬になって、雪が墓の上に降りました。春の太陽が雪を溶かすころ、父は別の女の人を妻にもらいました。その女は自分の娘を二人一緒に連れてきました。 二人の娘は顔はとても美しかったですが、心は汚くて真っ黒でした。それから、かわいそうな継子の辛い生活が始まりました。 「あの頭の悪い子が、私たちと一緒にここに座ってていいの？ご飯が食べたいなら、自分の力で稼がなくちゃ。台所女中は外よ。」二人の娘はそう言いました。 二人の娘は、きれいな服を全部とりあげました。古い灰色の上着を着せて、木の靴をはかせました。「高慢な王女様を見てごらん。なんておめかしているの。」と二人は笑いました。 それから、娘は朝から晩まで辛い仕事をしなければなりませんでした。 日の出前に起きて、水を汲んで、火をおこして、料理をして、洗濯をしました。それだけでは足りなくて、二人はできる限りの意地悪をしました。娘をバカにして、灰の中にエンドウ豆やレンズ豆をまいたので、娘は一度座って豆を全部拾わなければなりませんでした。 疲れるまで働いた夜には、ベッドがありませんでした。灰があるかまどのそばで寝なければなりませんでした。だから、いつも埃をかぶって汚く見えたので、二人は娘を「灰かぶり」と呼びました。\n\n\n---\n\nはしばみの木\nたまたまある日、父親が町に行くところでした。二人の継娘に「お土産に何がほしい？」と聞きました。 「きれいなドレスがいいです。」一人が言いました。 「真珠と宝石をお願いします。」もう一人が言いました。 「それでは、シンデレラ、あなたは何かほしいものがある？」 「お父さん、帰り道で、お父さんの帽子にぶつかる最初の枝を折ってきてください。」 父親は二人の継娘にはドレスと真珠と宝石を買いました。帰り道に、緑の茂みを馬で通ったとき、はしばみの枝に当たりました。帽子が落ちたので、その枝を折って持ち帰りました。 家に着くと、継娘には望んだ品物を渡しました。シンデレラには、はしばみの木から取った枝を渡しました。 シンデレラは父親にお礼を言いました。それから、母親の墓に行って、枝を植えました。とても泣いたので、涙が枝に落ちて、枝を濡らしました。 すると、その枝は大きくなって、立派な木になりました。 日に三度、シンデレラはその木の下に行って座り、泣いて、お祈りをしました。すると、一羽の小さい白い鳥がその木に来て、シンデレラが何かを望むと、その鳥が望んだものを落としてくれました。\n\n\n---\n\n舞踏会への招待\nところが、王様がお祝いを開くことになりました。三日間続くお祝いで、王様の息子が花嫁を選ぶために、国の美しい若い娘は全部招待されることになりました。 二人の継娘は、自分たちもお祝いに行けると聞いて、とても喜びました。そして、シンデレラを呼びました。 「私たちの髪をとかして、靴を磨いて、ベルトをしめて。私たちは王様の宮殿のお祝いに行くのだから。」 シンデレラも行きたくて、泣きました。自分も一緒に踊りに行きたかったからです。それから、継母にそうする許可をもらおうと頼みました。 「あなたは埃と泥まみれでしょう。それで舞踏会に行くの？服もないし、靴もないのに、踊るっていうの？」 でも、シンデレラがしつこく頼み続けたので、継母はついにこう言いました。 「ほら、灰の中にレンズ豆を一皿空けておいたから。二時間でそれを全部拾えたら、一緒に行ってあげるよ。」 娘は裏口から庭に出ました。 「お友達のハトさん、キジバトさん、空の下の小鳥さんたち、みんな。いい豆はかごに、悪い豆はみんなさんに。拾うのを手伝ってちょうだい。」 すると、二羽の白い鳩が台所の窓から入ってきました。そのあとでキジバトが来て、最後に空の下の小鳥たちが全部集まってきて、灰の中に降りました。 鳩たちが頭をひょこひょこさせて、コッコッコッとつつき始めました。残りの鳥たちもコッコッコッと始めて、皿に全部の良い豆を集めました。 一時間もたたないうちに、小鳥たちは終わって、また飛び去りました。娘は皿を継母のところに持って行きました。嬉しくて、今度こそお祝いに行けると信じていました。 でも、継母は「だめよ、シンデレラ。服がないじゃないし、踊れないわ。ただ笑われるだけだよ。」と言いました。 シンデレラが泣くと、継母は「一時間で灰から二皿のレンズ豆を拾ったら、一緒に行ってあげるよ。」と言いました。 娘はまた庭に行って、小鳥たちに手伝いを頼みました。今度は三十分もたたないうちに、全部の豆を集めました。 でも、継母は「そんなこといくらしてもだめだよ。あなたは行けないわ。服がないし、踊れないじゃないか。私たちの恥ずかしいよ。」と言って、二人の高慢な娘と一緒に急いで行きました。\n\n\n---\n\n舞踏会\nもう誰もいないと分かると、シンデレラははしばみの木の下にある母親の墓に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥が金銀のドレスと、銀で刺しゅうされた上靴を落としてくれました。娘は急いでドレスを着て、舞踏会に行きました。 二人の姉や継母は、娘が分からず、「外国の王女様に違いない」と思いました。金のドレスを着て、とても美しかったからです。 王子が娘に近づいて、手を取って一緒に踊りました。他の娘とは踊ろうとせず、娘の手を放しませんでした。他の誰かが娘に申し込もうとすると、王子は「こちらは私の相手です。」と言いました。 娘は夕方まで踊りました。それから、家に帰ろうと思いました。でも、王子は「あなたと一緒に帰りたいです。お伴いをさせてください。」と言いました。王子は、この美しい娘が誰の娘か知りたかったからです。 でも、娘は王子から逃げて、鳩小屋に飛び込みました。王子が待っていると、父親が来て、「見知らぬ娘が鳩小屋に飛び込みました。」と言いました。父親は「シンデレラかな？」と思いました。 それで、鳩小屋を壊すために斧とつるはしを持ってこさせましたが、誰も中にはいませんでした。みんなが帰ってきたとき、シンデレラは灰の中で汚い服を着て、薄暗いランプが暖炉の上で燃えていました。 翌日、舞踏会がまた始まりました。両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥は前日よりさらに美しいドレスを落としてくれました。シンデレラがそのドレスを着て舞踏会に現れると、みんながその美しさに驚きました。 王子は娘が来るまで待っていて、すぐに娘の手を取って、娘とだけ踊りました。夕方になると、娘は家に帰ろうとしました。王子は娘のあとをつけて、どの家に行ったか確かめしようとしました。 でも、娘は跳んで逃げて、家の後ろの庭に入りました。庭に梨の実がついている美しい高い木がありました。娘はリスのようにすばしっこく枝の間によじ登ったので、王子はどこに消えたのか分かりませんでした。 三日目、両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 今度の小鳥は、これまでのどのドレスよりもすばらしく豪華なドレスを落としてくれました。上靴も金でした。 舞踏会に行くと、驚きのあまり誰もどうしていいか分かりませんでした。王子は娘とだけ踊りました。夕方になると、シンデレラは帰ろうとしました。王子は娘と一緒に行きたがりましたが、娘は素早く逃げました。 でも、王子は計略を練っていて、階段にピッチを塗らせておいたのです。娘が駆け下りると、左の上靴がくっついて離れませんでした。\n\n\n---\n\n金の上靴\n翌朝、王子は父親の處にいて、「この金の上靴に合う足の人以外は、妻にはしません。」と言いました。 二人の継娘は喜びました。可愛い足をしていたからです。 上の娘が靴を持って部屋に入り、履いてみようとしました。でも、親指を入れることができませんでした。靴が小さすぎたからです。 母親は小刀を渡して、「親指を切りなさい。お后になったら、もう歩かなくてもいいんだから。」と言いました。 娘は親指を切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、墓の處を通ると、はしばみの木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子は娘の足を見ると、血が滴り落ちているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人は当人じゃありません。もう一人の妹に靴を履かせてください。」と言いました。 妹が部屋に入り、靴に無事に親指を入れました。でも、かかとが大きすぎました。 母親は小刀を渡して、「かかとを少し切りなさい。お后になったら、もう歩かなくてもいいんだだから。」と言いました。 娘はかかとを少し切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、はしばみの木のそばを通ると、木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子が娘の足を見下ろすと、血が靴から流れていて、白い靴下が真っ赤に染まっているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人も当人じゃありません。もう他に娘はいないのですか？」と言いました。 「はい、いません。まだ亡くなった妻が残していった、少し風変わりな台所女中はいますが、花嫁とはとんでもございません。」父親はそう言いました。 王子は、その娘を連れてくるように言いました。母親は「とんでもございません。あまりにも汚くて、お目にかかりませんよ。」と答えました。 でも、王子あくまで言い張ったので、シンデレラを呼ばなければなりませんでした。 娘はまず両手と顔を洗ってきれいにし、王子の前に行ってお辞儀をしました。王子は娘に金の靴を渡しました。娘は足載せ台に座って、重い木の靴から足を出して、上靴を履きました。ぴったり合いました。 娘が立ち上がると、王子はその顔を見て、自分が踊った美しい娘だと分かりました。「この人が本当の花嫁だ！」と叫びました。 継母と二人の姉たちは恐ろしくなって、怒りで青ざめました。 王子はシンデレラを馬に乗せて、一緒に去りました。 はしばみの木のそばを通ると、二羽の白い鳩が叫びました。 「振り向いて覗いてごらん。振り向いて覗いてごらん。靴に血がついていないよ。靴は小さすぎない。本当の花嫁があなたと一緒だよ。」 二羽は降りってきて、シンデレラの肩に止まりました。一羽が右に、もう一羽が左に、そのまま座ったままになりました。 王子の結婚式が行われることになりました。二人の不実な姉たちがやってきて、シンデレラの機嫌をとり、幸せを分けてもらおうとしました。 教会に行ったとき、姉は右側に、妹は左側にいました。鳩たちがそれぞれから片目をつついて取り出しました。帰りには姉が左、妹が右になったので、鳩たちはそれぞれからもう一つの目をつついて取り出しました。 こうして、意地悪と不誠実な二人は、罰を受けて、生涯目が見えないままでした。\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "b2.1-s11-reglas-mesa-japonesa"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "日本食のマナーとして本当に大切なこと",
+      "nivel": "B2.1",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "texto": "アメリカからの旅行者に「日本で何が心配ですか」と尋ねると、たいてい返ってくるのは言葉や電車のことではなく、食事の場で失礼をしてしまうのではないかという心配だ。座った人にとって、ほかの人の目は意外に気になるものである。ところが、インターネットに出回っている情報というのは、たいてい古いか、ひどく誇張されているということだ。日本の「おもてなし」の心は、客人が地元の習慣を知らないことを前提にしている。それゆえ、観光客にそれほど完全な作法を求めるわけではない。ただ、本当に大切なことがいくつかある。それを知っていることは、不安を抱えて食べることと、心から美味しく食べることを分ける。\nまず、箸のマナーは二つだけだ。箸を御飯に突き刺さないこと、そして箸から箸へと食べ物を直接受け渡ししないことだ。どちらも死者の儀式を連想させるせいで、周りの人はとても嫌がる。それ以外のことであれば、持ち方、箸を置く場所、少しくらいぎこちなく使ってしまうことなどは、誰も気にしない。\n次に、カウンターでは、出されたらすぐに食べたいものだ。目の前にお寿司が一貫置かれたとき、職人はしゃりとネタの温度をその瞬間に合わせている。最初の一分間も写真を撮っていると、せっかく支払ったのにその経験を楽しめなくなってしまう。写真は二秒で済ませるか、あきらめるのが良い。もし職人を撮りたい場合には、事前に声をかけてほしい。\nそして、香水は控えめにするのが良い。これは誰もアメリカ人に教えてくれないが、高級店の店主がひそかにいちばん気にしていることだ。料理の場では、香りも料理の一部として考えられている。強い匂いは二メートル以内に座っている全員に影響を与える。予約の規則に書かれている店もあることだし、書かない店も、ただ客の配慮を願っているだけだ。\nそれから、キャンセルするなら正しくキャンセルしてほしい。八席だけの店では、八人分の魚を仕入れている。無断でいなくなることは、ただの空席ではなく、職人の損失そのものである。外国からの観光客による無断キャンセルは、東京の飲食店を経営する人がいちばんこぼす不満の一つだ。遅くなったとしても気まずくても、オンラインでも電話でも、とにかくキャンセルすることが大切だ。\n帰るときには、一言をかけたい。「ごちそうさまでした」という言葉だ。これは大体「素晴らしい食事をありがとう」という意味だと言われている。お金はかからないことだし、チップの代わりに文化的に正しい習慣でもあり、小さな店では店員の心に確かに響く。もし日本の食事の場で使う言葉を一つだけ覚えるなら、これを覚えよう。\n「麺は必ず音を立てて食べるものだ」というルールは、実はそれほどではない。音を立ててすする人もいれば、静かに食べる人もいる。どちらであっても誰も評価しない。無理にすすると、かえって不自然に映ることもある。\n「すべて食べきるものだ」ということもない。完食すれば喜ばれるが、御飯が残っても誰も責めない。少なめに注文するのが、賢い解決策だ。\n「外国人だからという理由で入店を断られる」と聞いたことがあるかもしれない。一部では日本語を話す客だけを受け入れる店もあることだし、インターネットで言われているほど頻繁ではない。それはあくまでも、客に食事をスムーズに提供する上での問題であり、あなた個人に対して向けられた話ではない。言葉の壁を解消してくれる予約の仕組みを使えば、十分に避けられる。\n席につくと出される温かいタオルは、手を拭くときに使うものだ。それで顔を拭くのは、いかにも観光客らしい光景ではある。といっても、長い一日の終わりに、日本人の男性でもよく拭いている光景を目にすることがあるけれど。\n",
+      "preguntas": [
+        "箸のマナーで、周りの人がとても嫌がることは何と何ですか。",
+        "カウンターで出された料理は、いつ食べるのが良いですか。",
+        "香水を控えるのはなぜですか。",
+        "無断キャンセルが問題なのはなぜですか。",
+        "「ごちそうさまでした」はどういう意味ですか。",
+        "麺の音を立てて食べることについて、筆者はどう考えていますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "箸",
+          "lectura": "はし",
+          "significado": "palillos"
+        },
+        {
+          "literal": "御飯",
+          "lectura": "ごはん",
+          "significado": "arroz; comida"
+        },
+        {
+          "literal": "作法",
+          "lectura": "さほう",
+          "significado": "buenas maneras"
+        },
+        {
+          "literal": "香水",
+          "lectura": "こうすい",
+          "significado": "perfume"
+        },
+        {
+          "literal": "キャンセル",
+          "lectura": "キャンセル",
+          "significado": "cancelación"
+        },
+        {
+          "literal": "おもてなし",
+          "lectura": "おもてなし",
+          "significado": "hospitalidad"
+        },
+        {
+          "literal": "麺",
+          "lectura": "めん",
+          "significado": "fideos"
+        },
+        {
+          "literal": "ごちそうさまでした",
+          "lectura": "ごちそうさまでした",
+          "significado": "expresión de gratitud al terminar de comer"
+        },
+        {
+          "literal": "カウンター",
+          "lectura": "カウンター",
+          "significado": "mostrador; barra"
+        },
+        {
+          "literal": "チップ",
+          "lectura": "チップ",
+          "significado": "propina"
+        },
+        {
+          "literal": "完食",
+          "lectura": "かんしょく",
+          "significado": "terminar el plato"
+        }
+      ],
+      "nombres_propios": [
+        {
+          "literal": "東京",
+          "lectura": "とうきょう"
+        },
+        {
+          "literal": "アメリカ",
+          "lectura": "アメリカ"
+        }
+      ],
+      "referencias": [
+        "s11-ni-taishite",
+        "s11-to-iu-yori",
+        "s11-to-itte-mo",
+        "s1-te-hoshii",
+        "s3-koto-dashi",
+        "s3-ni-totte",
+        "s9-wake-dewa-nai",
+        "s4-o-go-desu",
+        "s6-to-shite"
+      ]
+    }
+  },
+  {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "pre-a1-s1-katakana"
+    },
+    "data": {
+      "genero": "juego",
+      "tipo": "pronunciacion-katakana",
+      "nivel": "pre-A1",
+      "dificultad": "facil",
+      "entradas": [
+        {
+          "literal": "アメリカ",
+          "lectura": "amerika",
+          "significado": "Estados Unidos",
+          "emoji": "🇺🇸"
+        },
+        {
+          "literal": "ブラジル",
+          "lectura": "burajiru",
+          "significado": "Brasil",
+          "emoji": "🇧🇷"
+        },
+        {
+          "literal": "イギリス",
+          "lectura": "igirisu",
+          "significado": "Reino Unido",
+          "emoji": "🇬🇧"
+        },
+        {
+          "literal": "タクシー",
+          "lectura": "takushii",
+          "significado": "taxi",
+          "emoji": "🚕"
+        },
+        {
+          "literal": "ホテル",
+          "lectura": "hoteru",
+          "significado": "hotel",
+          "emoji": "🏨"
+        },
+        {
+          "literal": "レストラン",
+          "lectura": "resutoran",
+          "significado": "restaurante",
+          "emoji": "🍽️"
+        },
+        {
+          "literal": "コーヒー",
+          "lectura": "koohii",
+          "significado": "café",
+          "emoji": "☕"
+        },
+        {
+          "literal": "コンピューター",
+          "lectura": "konpyuutaa",
+          "significado": "computadora",
+          "emoji": "💻"
+        },
+        {
+          "literal": "スマホ",
+          "lectura": "sumaho",
+          "significado": "smartphone",
+          "emoji": "📱"
+        },
+        {
+          "literal": "テレビ",
+          "lectura": "terebi",
+          "significado": "televisor",
+          "emoji": "📺"
+        },
+        {
+          "literal": "スーパー",
+          "lectura": "suupaa",
+          "significado": "supermercado",
+          "emoji": "🛒"
+        },
+        {
+          "literal": "メニュー",
+          "lectura": "menyuu",
+          "significado": "menú",
+          "emoji": "📋"
+        },
+        {
+          "literal": "トイレ",
+          "lectura": "toire",
+          "significado": "baño",
+          "emoji": "🚻"
+        },
+        {
+          "literal": "バス",
+          "lectura": "basu",
+          "significado": "autobús",
+          "emoji": "🚌"
+        },
+        {
+          "literal": "パン",
+          "lectura": "pan",
+          "significado": "pan",
+          "emoji": "🍞"
+        },
+        {
+          "literal": "ケーキ",
+          "lectura": "keeki",
+          "significado": "pastel",
+          "emoji": "🎂"
+        },
+        {
+          "literal": "アイスクリーム",
+          "lectura": "aisukuriimu",
+          "significado": "helado",
+          "emoji": "🍦"
+        },
+        {
+          "literal": "ピザ",
+          "lectura": "piza",
+          "significado": "pizza",
+          "emoji": "🍕"
+        },
+        {
+          "literal": "サラダ",
+          "lectura": "sarada",
+          "significado": "ensalada",
+          "emoji": "🥗"
+        },
+        {
+          "literal": "ドア",
+          "lectura": "doa",
+          "significado": "puerta",
+          "emoji": "🚪"
+        },
+        {
+          "literal": "ペン",
+          "lectura": "pen",
+          "significado": "bolígrafo",
+          "emoji": "🖊️"
+        },
+        {
+          "literal": "ベッド",
+          "lectura": "beddo",
+          "significado": "cama",
+          "emoji": "🛏️"
+        },
+        {
+          "literal": "カメラ",
+          "lectura": "kamera",
+          "significado": "cámara",
+          "emoji": "📷"
+        },
+        {
+          "literal": "ラジオ",
+          "lectura": "rajio",
+          "significado": "radio",
+          "emoji": "📻"
+        },
+        {
+          "literal": "カナダ",
+          "lectura": "kanada",
+          "significado": "Canadá",
+          "emoji": "🇨🇦"
+        },
+        {
+          "literal": "オーストラリア",
+          "lectura": "oosutoraria",
+          "significado": "Australia",
+          "emoji": "🇦🇺"
+        },
+        {
+          "literal": "ドイツ",
+          "lectura": "doitsu",
+          "significado": "Alemania",
+          "emoji": "🇩🇪"
+        },
+        {
+          "literal": "フランス",
+          "lectura": "furansu",
+          "significado": "Francia",
+          "emoji": "🇫🇷"
+        },
+        {
+          "literal": "イタリア",
+          "lectura": "itaria",
+          "significado": "Italia",
+          "emoji": "🇮🇹"
+        },
+        {
+          "literal": "スペイン",
+          "lectura": "supein",
+          "significado": "España",
+          "emoji": "🇪🇸"
+        },
+        {
+          "literal": "ニューヨーク",
+          "lectura": "nyuuyooku",
+          "significado": "Nueva York",
+          "emoji": "🗽"
+        },
+        {
+          "literal": "ロンドン",
+          "lectura": "rondon",
+          "significado": "Londres",
+          "emoji": "🎡"
+        },
+        {
+          "literal": "パリ",
+          "lectura": "pari",
+          "significado": "París",
+          "emoji": "🗼"
+        },
+        {
+          "literal": "シドニー",
+          "lectura": "shidonii",
+          "significado": "Sídney",
+          "emoji": "🐨"
+        }
+      ]
+    }
+  }
+]
