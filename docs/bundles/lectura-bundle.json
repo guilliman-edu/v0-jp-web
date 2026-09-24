@@ -1294,6 +1294,320 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "b2.1-s11-pokemon-oras-que-es-pokemon"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "ポケットモンスターとは",
+      "nivel": "B2.1",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "動物",
+        "不思議",
+        "人間",
+        "仲間",
+        "住む",
+        "生活",
+        "様子",
+        "作品",
+        "新しい",
+        "旅行",
+        "選ぶ",
+        "夢",
+        "誰",
+        "上手",
+        "町",
+        "試合",
+        "悪い",
+        "楽しい",
+        "力",
+        "覚える",
+        "種類",
+        "相手",
+        "一気に",
+        "皆",
+        "知っている",
+        "家族",
+        "友達",
+        "外国",
+        "世界",
+        "特徴",
+        "仲がいい",
+        "完成",
+        "加わる",
+        "勝つ",
+        "集める",
+        "待つ",
+        "捕まる",
+        "入る",
+        "出合う",
+        "使う",
+        "与える",
+        "少ない",
+        "大きい",
+        "変化",
+        "強い",
+        "進化",
+        "組織",
+        "別",
+        "国"
+      ],
+      "texto": "『ポケットモンスター』はどんな遊び？\n『ポケットモンスター』の作品は、あなたが主人公になって、仲間の不思議な動物たちと旅行を進める、ロールプレイングゲーム（RPG）です。一人で楽しむだけでなく、友達とポケモンを交換したり試合をしたりすることもできます。これが『ポケットモンスター』の大きな特徴の一つです。2014年には、新しい作品『ポケットモンスター オメガルビー』と『ポケットモンスター アルファサファイア』が出ました！\n\nすごく不思議な動物、ポケモン！\nポケットモンスター、つまりポケモンは、すごく不思議な動物です。人間と仲がいいポケモンもいますし、山や湖に住むポケモンもいます。その生活の様子は、まだわからないことも多くあります。\nその後、『ポケットモンスター 金・銀』や『ポケットモンスター ルビー・サファイア』などの作品が出ました。そして、新しい作品が出るたびに、多くのポケモンが加わりました。今では、知られているポケモンは700種類もあります。\n\n初めての仲間は、この3匹！\n『ポケットモンスター』の旅行は、3匹のポケモンの中から仲間になるポケモンを選んで、トレーナーとして始めます。『オメガルビー・アルファサファイア』では、キモリ・アチャモ・ミズゴロウの中から選ぶことになっています。\n\n「チャンピオン」を目指す旅行！\nこの作品で大きな夢の一つは、誰よりも上手なトレーナー「チャンピオン」になることです。まずは、多くの町に行って、その町で勝っているトレーナー「ジムリーダー」と試合をして、「ジムバッジ」を集めましょう！8つのジムバッジを集めた人だけが、「ポケモンリーグ」に行くことができます。そこには四天王が待っています！\n\n悪い組織も出てくる！\n「チャンピオン」になるための旅行の途中で、悪い組織も出てきます！『オメガルビー・アルファサファイア』では、2つの悪い組織があなたの前にやってきます！\n\nポケモンが捕まったら、仲間にしましょう！\n旅行の途中で出合ったポケモンは、「モンスターボール」を使って捕まります！捕まったポケモンは、「ポケモンずかん」のリストに入っていきます。「ポケモンずかん」を完成させることも、すごく楽しいことです！\n\n試合をして、もっと強くしよう！\n『ポケットモンスター』の試合は、ポケモンとポケモンとのものです！仲間のポケモンを捕まっていれば、山や湖にいるポケモンや、別のトレーナーと試合をすることができます！\n\n種類を考えて、もっと楽しい試合を！\nポケモンや、ポケモンが覚えるテクニックには多くの種類があります。相手の種類や使うテクニックによって、大きな力を与えたり、力が少なくなったりすることがあります！\n\nポケモンは進化して、もっと強くなる！\n試合をすればするほど、ポケモンはもっと強くなります。\nポケモンの中には、大きくなったり、あることをしたりすると「進化」して、様子が変化するポケモンもいます！進化すると、力も一気に強くなります！\n皆が知っているピカチュウも、ピチューというポケモンが進化したものです！さらにピカチュウが進化すると、ライチュウというポケモンになります！\n\n友達と家族と世界の人と遊ぼう！\n仲間になったポケモンは、友達はもちろん、家族や誰かと交換したり、試合をしたりすることができます！サイトを使うと、国の中だけでなく、外国の人ともつながることができます。「ポケモン」を通じて、世界中の友達と遊ぶこともできます！\n",
+      "preguntas": [
+        "『ポケットモンスター』はどんなゲームですか。",
+        "ポケモンはどんなところに住んでいますか。",
+        "『ポケットモンスター』の旅行は何から始めますか。",
+        "8つのジムバッジを集めたら、どこへ行くことができますか。",
+        "「ポケモンずかん」はどういうものですか。",
+        "ポケモンが進化すると、どうなりますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "動物",
+          "lectura": "どうぶつ",
+          "significado": "animal"
+        },
+        {
+          "literal": "人間",
+          "lectura": "にんげん",
+          "significado": "ser humano"
+        },
+        {
+          "literal": "住む",
+          "lectura": "すむ",
+          "significado": "vivir (residir)"
+        },
+        {
+          "literal": "生活",
+          "lectura": "せいかつ",
+          "significado": "vida diaria"
+        },
+        {
+          "literal": "様子",
+          "lectura": "ようす",
+          "significado": "apariencia; aspecto"
+        },
+        {
+          "literal": "作品",
+          "lectura": "さくひん",
+          "significado": "obra"
+        },
+        {
+          "literal": "新しい",
+          "lectura": "あたらしい",
+          "significado": "nuevo/a"
+        },
+        {
+          "literal": "旅行",
+          "lectura": "りょこう",
+          "significado": "viaje"
+        },
+        {
+          "literal": "仲間",
+          "lectura": "なかま",
+          "significado": "compañero; grupo de amigos"
+        },
+        {
+          "literal": "選ぶ",
+          "lectura": "えらぶ",
+          "significado": "elegir, escoger"
+        },
+        {
+          "literal": "夢",
+          "lectura": "ゆめ",
+          "significado": "sueño"
+        },
+        {
+          "literal": "誰",
+          "lectura": "だれ",
+          "significado": "quién"
+        },
+        {
+          "literal": "上手",
+          "lectura": "じょうず",
+          "significado": "hábil, bueno para"
+        },
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "pueblo"
+        },
+        {
+          "literal": "試合",
+          "lectura": "しあい",
+          "significado": "partido"
+        },
+        {
+          "literal": "悪い",
+          "lectura": "わるい",
+          "significado": "malo"
+        },
+        {
+          "literal": "リスト",
+          "lectura": "リスト",
+          "significado": "lista"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido/a; agradable"
+        },
+        {
+          "literal": "力",
+          "lectura": "ちから",
+          "significado": "fuerza; poder"
+        },
+        {
+          "literal": "覚える",
+          "lectura": "おぼえる",
+          "significado": "memorizar"
+        },
+        {
+          "literal": "テクニック",
+          "lectura": "テクニック",
+          "significado": "técnica"
+        },
+        {
+          "literal": "種類",
+          "lectura": "しゅるい",
+          "significado": "tipo; clase"
+        },
+        {
+          "literal": "相手",
+          "lectura": "あいて",
+          "significado": "compañero; interlocutor"
+        },
+        {
+          "literal": "一気に",
+          "lectura": "いっきに",
+          "significado": "de golpe; de una vez"
+        },
+        {
+          "literal": "皆",
+          "lectura": "みな",
+          "significado": "todos"
+        },
+        {
+          "literal": "知っている",
+          "lectura": "しっている",
+          "significado": "saber; conocer"
+        },
+        {
+          "literal": "家族",
+          "lectura": "かぞく",
+          "significado": "familia"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "サイト",
+          "lectura": "サイト",
+          "significado": "sitio web"
+        },
+        {
+          "literal": "外国",
+          "lectura": "がいこく",
+          "significado": "país extranjero"
+        },
+        {
+          "literal": "つながる",
+          "lectura": "つながる",
+          "significado": "conectarse"
+        },
+        {
+          "literal": "世界",
+          "lectura": "せかい",
+          "significado": "mundo"
+        },
+        {
+          "literal": "特徴",
+          "lectura": "とくちょう",
+          "significado": "característica"
+        },
+        {
+          "literal": "仲がいい",
+          "lectura": "なかがいい",
+          "significado": "llevarse bien"
+        }
+      ],
+      "nombres_propios": [
+        {
+          "literal": "ポケットモンスター",
+          "lectura": "ぽけっともんすたー"
+        },
+        {
+          "literal": "ポケモン",
+          "lectura": "ぽけもん"
+        },
+        {
+          "literal": "オメガルビー",
+          "lectura": "おめがるびー"
+        },
+        {
+          "literal": "アルファサファイア",
+          "lectura": "あるふぁさふぁいあ"
+        },
+        {
+          "literal": "金・銀",
+          "lectura": "きんぎん"
+        },
+        {
+          "literal": "ルビー・サファイア",
+          "lectura": "るびーさふぁいあ"
+        },
+        {
+          "literal": "キモリ",
+          "lectura": "きもり"
+        },
+        {
+          "literal": "アチャモ",
+          "lectura": "あちゃも"
+        },
+        {
+          "literal": "ミズゴロウ",
+          "lectura": "みずごろう"
+        },
+        {
+          "literal": "ピカチュウ",
+          "lectura": "ぴかちゅう"
+        },
+        {
+          "literal": "ピチュー",
+          "lectura": "ぴちゅー"
+        },
+        {
+          "literal": "ライチュウ",
+          "lectura": "らいちゅう"
+        },
+        {
+          "literal": "チャンピオン",
+          "lectura": "ちゃんぴおん"
+        },
+        {
+          "literal": "ジムリーダー",
+          "lectura": "じむりーだー"
+        },
+        {
+          "literal": "ポケモンリーグ",
+          "lectura": "ぽけもんりーぐ"
+        },
+        {
+          "literal": "四天王",
+          "lectura": "してんのう"
+        }
+      ],
+      "referencias": [
+        "s6-to-shite"
+      ]
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s11-reglas-mesa-japonesa"
     },
     "data": {
