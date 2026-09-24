@@ -1,16 +1,25 @@
-<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Panel del estudiante</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/v0-jp-web/_astro/deck.D0fmbwVw.css"></head> <body class="bg-[var(--color-surface)] text-[var(--color-text)] font-sans"> <header class="sticky top-0 z-10 bg-white border-b border-[var(--color-border)] px-4 py-3 flex items-center justify-between"> <div class="flex items-center gap-3"> <a href="/v0-jp-web/" class="text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors"> <i data-lucide="arrow-left" class="w-5 h-5"></i> </a> <h1 class="text-lg font-semibold">Panel del estudiante</h1> </div>  </header> <main class="max-w-4xl mx-auto px-4 py-6">  <div class="deck-status"> <span class="deck-level" id="deckLevel" style="display:none"></span> <span class="deck-spacer"></span> <button class="profile-btn" id="profileBtn" onclick="abrirModalPerfil()"> <i data-lucide="user" style="width:1rem;height:1rem"></i> <span id="profileBtnLabel">Crear perfil</span> </button> </div> <div class="profile-banner" id="profileBanner" style="display:none"> <span class="profile-banner-text">
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Panel del estudiante</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/v0-jp-web/_astro/deck.BV3HEIbp.css"></head> <body class="bg-[var(--color-surface)] text-[var(--color-text)] font-sans"> <header class="sticky top-0 z-10 bg-white border-b border-[var(--color-border)] px-4 py-3 flex items-center justify-between"> <div class="flex items-center gap-3"> <a href="/v0-jp-web/" class="text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors"> <i data-lucide="arrow-left" class="w-5 h-5"></i> </a> <h1 class="text-lg font-semibold">Panel del estudiante</h1> </div>  </header> <main class="max-w-4xl mx-auto px-4 py-6">  <div id="deckRoot" data-deck> <div class="deck-status"> <span class="deck-level" id="deckLevel" style="display:none"></span> <span class="deck-spacer"></span> <button class="profile-btn" id="profileBtn" onclick="abrirModalPerfil()"> <i data-lucide="user" style="width:1rem;height:1rem"></i> <span id="profileBtnLabel">Crear perfil</span> </button> </div> <div class="profile-banner" id="profileBanner" style="display:none"> <span class="profile-banner-text">
 Crea tu perfil para guardar tu progreso y personalizar tu experiencia.
-</span> <button class="profile-banner-btn" onclick="abrirModalPerfil()">Crear perfil</button> </div> <section class="actividades-panel" aria-label="Actividades de la semana"> <div class="actividades-header"> <h2>Esta semana</h2> <span class="progreso" id="actividadesProgreso">0 / 0 completadas</span> </div> <ul class="actividades-lista" id="actividadesLista"></ul> </section> <section class="novedades-panel" id="novedadesPanel" aria-label="Novedades"> <div class="novedades-header" id="novedadesHeader"> <span class="label" id="novedadesLabel">ACTUALIZACIÓN DEL DÍA</span> <button class="close-btn" id="novedadesClose" aria-label="Cerrar novedades">×</button> </div> <div class="novedades-body" id="novedadesBody"></div> </section> <section class="hub-menu" aria-label="Hubs"> <h2>Ir a</h2> <div class="hub-grid" id="hubGrid"></div> </section> <div class="modal-overlay" id="modalPerfil"> <div class="modal-card"> <div class="modal-header"> <h2 id="modalTitle">Crear perfil</h2> <button class="modal-close" onclick="cerrarModalPerfil()">×</button> </div> <div class="modal-body"> <div class="modal-screen active" id="modalScreenForm"> <form id="profileForm" onsubmit="guardarPerfil(event)"> <div class="form-group"> <label class="form-label" for="username">Tu nombre</label> <input class="form-input" type="text" id="username" placeholder="Ej: Ana" maxlength="30"> </div> <div class="form-group"> <span class="form-label">Tu nivel</span> <div class="level-options" id="levelOptions"> <label class="level-option selected" data-level="A1"> <input type="radio" name="nivel" value="A1" checked> <div> <div class="level-name">A1 — Iniciación</div> <div class="level-desc">Fundamentos del japonés: hiragana, partículas, verbos básicos</div> </div> </label> </div> </div> <button type="submit" class="save-btn" id="saveProfileBtn"> <span id="saveBtnText">Guardar</span> </button> <div class="privacy-notice"> <strong>🔒 Tu perfil es local</strong>
+</span> <button class="profile-banner-btn" onclick="abrirModalPerfil()">Crear perfil</button> </div> <section class="novedades-panel" id="novedadesPanel" aria-label="Novedades"> <div class="novedades-header" id="novedadesHeader"> <span class="label" id="novedadesLabel">ACTUALIZACIÓN DEL DÍA</span> <button class="close-btn" id="novedadesClose" aria-label="Cerrar novedades">×</button> </div> <div class="novedades-body" id="novedadesBody"></div> </section> <section class="sesiones-panel" aria-label="Sesiones del itinerario"> <div class="sesiones-header"> <h2>Itinerario</h2> <span class="sesiones-nivel" id="sesionesNivel"></span> </div> <ul class="sesiones-lista" id="sesionesLista"></ul> <p class="panel-vacio" id="sesionesVacio" style="display:none">
+No hay itinerario disponible. Ejecuta <code>npm run build:apis</code> para generar los LevelMaps.
+</p> </section> <section class="bloque-panel" aria-label="Bloque de sesión"> <div class="bloque-header"> <h2 id="bloqueTitulo">—</h2> <span class="progreso" id="bloqueProgreso">0 / 0 completadas</span> </div> <div id="bloqueHubs"></div> <div id="bloqueGramatica" class="bloque-seccion"></div> <div id="bloqueLecturas" class="bloque-seccion"></div> <p class="panel-vacio" id="bloqueNota" style="display:none"></p> </section> <div class="modal-overlay" id="modalPerfil"> <div class="modal-card"> <div class="modal-header"> <h2 id="modalTitle">Crear perfil</h2> <button class="modal-close" onclick="cerrarModalPerfil()">×</button> </div> <div class="modal-body"> <div class="modal-screen active" id="modalScreenForm"> <form id="profileForm" onsubmit="guardarPerfil(event)"> <div class="form-group"> <label class="form-label" for="username">Tu nombre</label> <input class="form-input" type="text" id="username" placeholder="Ej: Ana" maxlength="30"> </div> <div class="form-group"> <span class="form-label">Tu nivel</span> <div class="level-options" id="levelOptions"> <label class="level-option selected" data-level="A1"> <input type="radio" name="nivel" value="A1" checked> <div> <div class="level-name">A1 — Principiante básico</div> <div class="level-desc">13 sesiones</div> </div> </label><label class="level-option " data-level="A2.1"> <input type="radio" name="nivel" value="A2.1"> <div> <div class="level-name">A2.1 — Básico 1</div> <div class="level-desc">9 sesiones</div> </div> </label><label class="level-option " data-level="A2.2"> <input type="radio" name="nivel" value="A2.2"> <div> <div class="level-name">A2.2 — Básico 2</div> <div class="level-desc">1 sesiones</div> </div> </label> </div> </div> <button type="submit" class="save-btn" id="saveProfileBtn"> <span id="saveBtnText">Guardar</span> </button> <div class="privacy-notice"> <strong>🔒 Tu perfil es local</strong>
 Este perfil se almacena <i>exclusivamente en tu dispositivo</i> (localStorage del navegador).
-              No se guarda en ningún servidor ni se comparte con terceros.
-              Si cambias de dispositivo o borras los datos del navegador, tu perfil se perderá.
+                No se guarda en ningún servidor ni se comparte con terceros.
+                Si cambias de dispositivo o borras los datos del navegador, tu perfil se perderá.
 </div> <button type="button" class="danger-btn" id="deleteProfileBtn" style="display:none" onclick="mostrarConfirmacionBorrado()">
 Borrar perfil
-</button> </form> </div> <div class="modal-screen" id="modalScreenConfirm"> <div class="confirm-box"> <span class="confirm-icon">⚠️</span> <h3>¿Borrar perfil?</h3> <p>Esta acción no se puede deshacer. Todo tu progreso local se perderá permanentemente.</p> <div class="confirm-consequences"> <strong>Consecuencias:</strong> <ul> <li>Tu nombre y nivel se eliminarán</li> <li>El progreso de actividades se perderá</li> <li>Las novedades volverán a mostrarse como no leídas</li> <li>No hay forma de recuperar estos datos</li> </ul> </div> <div class="confirm-actions"> <button class="save-btn cancel" onclick="cancelarBorrado()">Cancelar</button> <button class="save-btn danger" onclick="ejecutarBorrado()">Sí, borrar perfil</button> </div> </div> </div> </div> </div> </div>  <script>
+</button> </form> </div> <div class="modal-screen" id="modalScreenConfirm"> <div class="confirm-box"> <span class="confirm-icon">⚠️</span> <h3>¿Borrar perfil?</h3> <p>Esta acción no se puede deshacer. Todo tu progreso local se perderá permanentemente.</p> <div class="confirm-consequences"> <strong>Consecuencias:</strong> <ul> <li>Tu nombre y nivel se eliminarán</li> <li>El progreso de las sesiones se borrará</li> <li>Las novedades volverán a mostrarse como no leídas</li> <li>No hay forma de recuperar estos datos</li> </ul> </div> <div class="confirm-actions"> <button class="save-btn cancel" onclick="cancelarBorrado()">Cancelar</button> <button class="save-btn danger" onclick="ejecutarBorrado()">Sí, borrar perfil</button> </div> </div> </div> </div> </div> </div> </div> <div id="deckData" style="display:none" data-json>{&quot;base&quot;:&quot;/v0-jp-web/&quot;,&quot;niveles&quot;:{&quot;A1&quot;:{&quot;nombre&quot;:&quot;Principiante básico&quot;,&quot;sesiones&quot;:[{&quot;id&quot;:&quot;a1-s1&quot;,&quot;secuencia&quot;:&quot;s1&quot;,&quot;titulo&quot;:&quot;Hiragana&quot;,&quot;icono&quot;:&quot;BookOpen&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[],&quot;lecturas&quot;:[{&quot;id&quot;:&quot;a1-s1-palabras-basicas&quot;,&quot;titulo&quot;:&quot;Palabras Basicas&quot;,&quot;genero&quot;:&quot;juego&quot;,&quot;url&quot;:&quot;/v0-jp-web/leer/?id=a1-s1-palabras-basicas&quot;}],&quot;proximamente&quot;:false},{&quot;id&quot;:&quot;a1-s2&quot;,&quot;secuencia&quot;:&quot;s2&quot;,&quot;titulo&quot;:&quot;かいです — presentación y pronombres&quot;,&quot;icono&quot;:&quot;BookOpen&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;verbo-desu&quot;,&quot;topico&quot;:&quot;La cópula です / である&quot;},{&quot;alias&quot;:&quot;pronombres-mo-ka&quot;,&quot;topico&quot;:&quot;La partícula MO (も) y los interrogativos con か&quot;},{&quot;alias&quot;:&quot;sufijos-idioma-nacionalidad&quot;,&quot;topico&quot;:&quot;Sufijos de idioma y nacionalidad&quot;},{&quot;alias&quot;:&quot;contador-anios&quot;,&quot;topico&quot;:&quot;El contador de edad 〜歳&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a1-s3&quot;,&quot;secuencia&quot;:&quot;s3&quot;,&quot;titulo&quot;:&quot;Verbo ser y pregunta&quot;,&quot;icono&quot;:&quot;MessageCircle&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;particula-ka&quot;,&quot;topico&quot;:&quot;La partícula か (interrogativa)&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a1-s4&quot;,&quot;secuencia&quot;:&quot;s4&quot;,&quot;titulo&quot;:&quot;Partícula も&quot;,&quot;icono&quot;:&quot;GitFork&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;pronombres-mo-ka&quot;,&quot;topico&quot;:&quot;La partícula MO (も) y los interrogativos con か&quot;}],&quot;lecturas&quot;:[{&quot;id&quot;:&quot;a1-s4-conjugacion-masu&quot;,&quot;titulo&quot;:&quot;Conjugacion Masu&quot;,&quot;genero&quot;:&quot;juego&quot;,&quot;url&quot;:&quot;/v0-jp-web/katsuyou-demo/?id=a1-s4-conjugacion-masu&quot;},{&quot;id&quot;:&quot;a1-s4-desayuno-yamada&quot;,&quot;titulo&quot;:&quot;山田さんのかぞくのあさごはん&quot;,&quot;genero&quot;:&quot;practica&quot;,&quot;url&quot;:&quot;/v0-jp-web/leer/?id=a1-s4-desayuno-yamada&quot;}],&quot;proximamente&quot;:false},{&quot;id&quot;:&quot;a1-s5&quot;,&quot;secuencia&quot;:&quot;s5&quot;,&quot;titulo&quot;:&quot;Kosoado&quot;,&quot;icono&quot;:&quot;Pointer&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;adverbios-localizacion&quot;,&quot;topico&quot;:&quot;El CCL de existencia y localización&quot;},{&quot;alias&quot;:&quot;contadores-precios&quot;,&quot;topico&quot;:&quot;Los precios en yenes 〜円&quot;},{&quot;alias&quot;:&quot;ikura&quot;,&quot;topico&quot;:&quot;Preguntar precios con いくら&quot;}],&quot;lecturas&quot;:[{&quot;id&quot;:&quot;a1-s5-dia-momoko&quot;,&quot;titulo&quot;:&quot;ももこさんの一日&quot;,&quot;genero&quot;:&quot;practica&quot;,&quot;url&quot;:&quot;/v0-jp-web/leer/?id=a1-s5-dia-momoko&quot;}],&quot;proximamente&quot;:false},{&quot;id&quot;:&quot;a1-s6&quot;,&quot;secuencia&quot;:&quot;s6&quot;,&quot;titulo&quot;:&quot;Introducción al verbo&quot;,&quot;icono&quot;:&quot;Pencil&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;verbos-conjugacion&quot;,&quot;topico&quot;:&quot;La conjugación en forma -ます (-ます形)&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a1-s7&quot;,&quot;secuencia&quot;:&quot;s7&quot;,&quot;titulo&quot;:&quot;を y の&quot;,&quot;icono&quot;:&quot;List&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;particula-wo&quot;,&quot;topico&quot;:&quot;La partícula WO (を助詞)&quot;},{&quot;alias&quot;:&quot;posesivo-no&quot;,&quot;topico&quot;:&quot;La partícula NO (の助詞)&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a1-s8&quot;,&quot;secuencia&quot;:&quot;s8&quot;,&quot;titulo&quot;:&quot;Partículas de circunstancia&quot;,&quot;icono&quot;:&quot;MapPin&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;particulas-kara-made-ni-de&quot;,&quot;topico&quot;:&quot;Las partículas NI (に), DE (で), HE (へ), KARA (から), MADE (まで)&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a1-s9&quot;,&quot;secuencia&quot;:&quot;s9&quot;,&quot;titulo&quot;:&quot;Tiempo y frecuencia&quot;,&quot;icono&quot;:&quot;Clock&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;hora&quot;,&quot;topico&quot;:&quot;La hora 〜時〜分&quot;},{&quot;alias&quot;:&quot;adverbios-frecuencia&quot;,&quot;topico&quot;:&quot;Adverbios de frecuencia y rutina&quot;}],&quot;lecturas&quot;:[{&quot;id&quot;:&quot;a1-s9-lectura-dia-ciudad&quot;,&quot;titulo&quot;:&quot;町のいちにち&quot;,&quot;genero&quot;:&quot;practica&quot;,&quot;url&quot;:&quot;/v0-jp-web/leer/?id=a1-s9-lectura-dia-ciudad&quot;}],&quot;proximamente&quot;:false},{&quot;id&quot;:&quot;a1-s10&quot;,&quot;secuencia&quot;:&quot;s10&quot;,&quot;titulo&quot;:&quot;Partícula が&quot;,&quot;icono&quot;:&quot;Search&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;verbos-existencia&quot;,&quot;topico&quot;:&quot;Los verbos de existencia ある / いる&quot;},{&quot;alias&quot;:&quot;verbo-suki&quot;,&quot;topico&quot;:&quot;El modelo は／が para gustos (すき)&quot;},{&quot;alias&quot;:&quot;contador-personas&quot;,&quot;topico&quot;:&quot;El contador de personas 〜人&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a1-s11&quot;,&quot;secuencia&quot;:&quot;s11&quot;,&quot;titulo&quot;:&quot;Adjetivos&quot;,&quot;icono&quot;:&quot;Palette&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;pasado-adjetivos&quot;,&quot;topico&quot;:&quot;El pasado de los adjetivos -i y -na&quot;},{&quot;alias&quot;:&quot;adverbios-cantidad&quot;,&quot;topico&quot;:&quot;Adverbios de cantidad&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a1-s12&quot;,&quot;secuencia&quot;:&quot;s12&quot;,&quot;titulo&quot;:&quot;Negociación con 〜ませんか&quot;,&quot;icono&quot;:&quot;MessageSquare&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;propuetas-ikimasenka&quot;,&quot;topico&quot;:&quot;Propuestas con 〜ませんか&quot;},{&quot;alias&quot;:&quot;verbo-dekimasu&quot;,&quot;topico&quot;:&quot;El verbo できます (capacidad)&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a1-s13&quot;,&quot;secuencia&quot;:&quot;s13&quot;,&quot;titulo&quot;:&quot;Enumeraciones y 〜たい&quot;,&quot;icono&quot;:&quot;ListOrdered&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a1/&quot;},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;verbo-tai&quot;,&quot;topico&quot;:&quot;La forma volitiva 〜たい&quot;},{&quot;alias&quot;:&quot;contadores-objetos&quot;,&quot;topico&quot;:&quot;El contador de objetos 〜つ&quot;}],&quot;lecturas&quot;:[{&quot;id&quot;:&quot;a1-s13-deseos-fin-semana&quot;,&quot;titulo&quot;:&quot;週末にしたいこと&quot;,&quot;genero&quot;:&quot;practica&quot;,&quot;url&quot;:&quot;/v0-jp-web/leer/?id=a1-s13-deseos-fin-semana&quot;}],&quot;proximamente&quot;:false}]},&quot;A2.1&quot;:{&quot;nombre&quot;:&quot;Básico 1&quot;,&quot;sesiones&quot;:[{&quot;id&quot;:&quot;a2.1-s1&quot;,&quot;secuencia&quot;:&quot;s1&quot;,&quot;titulo&quot;:&quot;La familia&quot;,&quot;icono&quot;:&quot;Users&quot;,&quot;hubs&quot;:{},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;verbo-te-imasu&quot;,&quot;topico&quot;:&quot;Presente continuo 〜ています&quot;},{&quot;alias&quot;:&quot;particulas-ni-de&quot;,&quot;topico&quot;:&quot;Partículas に y で&quot;},{&quot;alias&quot;:&quot;substantivacion-koto&quot;,&quot;topico&quot;:&quot;Substantización con 〜こと&quot;},{&quot;alias&quot;:&quot;tokio-pasado&quot;,&quot;topico&quot;:&quot;Referencia a situaciones pasadas con とき&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a2.1-s2&quot;,&quot;secuencia&quot;:&quot;s2&quot;,&quot;titulo&quot;:&quot;Las estaciones y el tiempo&quot;,&quot;icono&quot;:&quot;CloudSun&quot;,&quot;hubs&quot;:{},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;cambio-estado-narimasu&quot;,&quot;topico&quot;:&quot;Cambio de estado con 〜なります&quot;},{&quot;alias&quot;:&quot;adjetivos-negacion-pasado&quot;,&quot;topico&quot;:&quot;Negación y pasado de adjetivos&quot;},{&quot;alias&quot;:&quot;frases-causa-kara&quot;,&quot;topico&quot;:&quot;Frases causativas con 〜から&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a2.1-s3&quot;,&quot;secuencia&quot;:&quot;s3&quot;,&quot;titulo&quot;:&quot;Mi ciudad&quot;,&quot;icono&quot;:&quot;Building2&quot;,&quot;hubs&quot;:{},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;combinar-adjetivos&quot;,&quot;topico&quot;:&quot;Combinación de adjetivos 〜くて・〜で&quot;},{&quot;alias&quot;:&quot;conjuncion-adversativa-kedo&quot;,&quot;topico&quot;:&quot;Conjunción adversativa 〜けど&quot;},{&quot;alias&quot;:&quot;conjuncion-enumerativa-ya&quot;,&quot;topico&quot;:&quot;Conjunción enumerativa 〜や&quot;},{&quot;alias&quot;:&quot;imperativo-te-kudasai&quot;,&quot;topico&quot;:&quot;Imperativo cortés 〜てください&quot;},{&quot;alias&quot;:&quot;unir-verbos-te&quot;,&quot;topico&quot;:&quot;Unión de verbos con forma -te&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a2.1-s4&quot;,&quot;secuencia&quot;:&quot;s4&quot;,&quot;titulo&quot;:&quot;Salir&quot;,&quot;icono&quot;:&quot;Bus&quot;,&quot;hubs&quot;:{},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;pedir-permiso-te-mo-ii&quot;,&quot;topico&quot;:&quot;Pedir permiso 〜てもいいですか&quot;},{&quot;alias&quot;:&quot;particula-causal-de&quot;,&quot;topico&quot;:&quot;Partícula causal で&quot;},{&quot;alias&quot;:&quot;adverbios-mo-mada&quot;,&quot;topico&quot;:&quot;Adverbios もう y まだ&quot;},{&quot;alias&quot;:&quot;perifrasis-ni-ikimasu&quot;,&quot;topico&quot;:&quot;Perífrasis de finalidad 〜に行きます&quot;},{&quot;alias&quot;:&quot;mae-ni-ato-de&quot;,&quot;topico&quot;:&quot;Frases adverbiales 〜の前に・〜の後で&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a2.1-s5&quot;,&quot;secuencia&quot;:&quot;s5&quot;,&quot;titulo&quot;:&quot;Idiomas y culturas extranjeras&quot;,&quot;icono&quot;:&quot;Languages&quot;,&quot;hubs&quot;:{},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;wa-ga-adjetivos&quot;,&quot;topico&quot;:&quot;Estructura 〜は〜が con adjetivos&quot;},{&quot;alias&quot;:&quot;substantivacion-no-ga&quot;,&quot;topico&quot;:&quot;Substantización de verbos con 〜のが&quot;},{&quot;alias&quot;:&quot;keigo-te-kudasaimasenka&quot;,&quot;topico&quot;:&quot;Keigo — petición formal 〜てくださいませんか&quot;},{&quot;alias&quot;:&quot;sufijo-kata&quot;,&quot;topico&quot;:&quot;Sufijo 〜かた (manera de)&quot;},{&quot;alias&quot;:&quot;verbo-te-mimasu&quot;,&quot;topico&quot;:&quot;Intento con 〜てみます&quot;},{&quot;alias&quot;:&quot;invitacion-mashouka&quot;,&quot;topico&quot;:&quot;Invitación 〜ましょうか&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a2.1-s6&quot;,&quot;secuencia&quot;:&quot;s6&quot;,&quot;titulo&quot;:&quot;Comer fuera&quot;,&quot;icono&quot;:&quot;UtensilsCrossed&quot;,&quot;hubs&quot;:{},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;intencion-futura-te-ikimasu&quot;,&quot;topico&quot;:&quot;Intención futura 〜ていきます&quot;},{&quot;alias&quot;:&quot;expresion-nandemo&quot;,&quot;topico&quot;:&quot;Expresión 何でも&quot;},{&quot;alias&quot;:&quot;comparacion-houga-yori&quot;,&quot;topico&quot;:&quot;Comparación con 〜のほうが・〜より&quot;},{&quot;alias&quot;:&quot;apariencia-sou&quot;,&quot;topico&quot;:&quot;Apariencia con 〜そうです (parece)&quot;},{&quot;alias&quot;:&quot;combinar-adjetivos&quot;,&quot;topico&quot;:&quot;Combinación de adjetivos 〜くて・〜で&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a2.1-s7&quot;,&quot;secuencia&quot;:&quot;s7&quot;,&quot;titulo&quot;:&quot;Viaje de trabajo&quot;,&quot;icono&quot;:&quot;Briefcase&quot;,&quot;hubs&quot;:{},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;verbo-koto-ga-arimasu&quot;,&quot;topico&quot;:&quot;Experiencia con 〜ことがあります&quot;},{&quot;alias&quot;:&quot;verbo-sugimasu&quot;,&quot;topico&quot;:&quot;Exceso con 〜すぎます&quot;},{&quot;alias&quot;:&quot;conjuncion-adversativa-ga&quot;,&quot;topico&quot;:&quot;Conjunción adversativa が&quot;},{&quot;alias&quot;:&quot;cambio-te-narimasu&quot;,&quot;topico&quot;:&quot;Cambio gradual con 〜て〜なります&quot;},{&quot;alias&quot;:&quot;pedir-permiso-te-mo-ii&quot;,&quot;topico&quot;:&quot;Pedir permiso 〜てもいいですか&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a2.1-s8&quot;,&quot;secuencia&quot;:&quot;s8&quot;,&quot;titulo&quot;:&quot;Salud&quot;,&quot;icono&quot;:&quot;HeartPulse&quot;,&quot;hubs&quot;:{},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;orden-mae-ni&quot;,&quot;topico&quot;:&quot;Orden de acciones con 〜る前に&quot;},{&quot;alias&quot;:&quot;sugesion-to-ii-desu-yo&quot;,&quot;topico&quot;:&quot;Sugestión suave 〜るといいですよ&quot;},{&quot;alias&quot;:&quot;consejo-nai-de-kudasai&quot;,&quot;topico&quot;:&quot;Consejo negativo 〜ないでください&quot;},{&quot;alias&quot;:&quot;enumeracion-tari&quot;,&quot;topico&quot;:&quot;Enumeración no exhaustiva 〜たり〜たりします&quot;},{&quot;alias&quot;:&quot;subordinadas-modificar-sustantivo&quot;,&quot;topico&quot;:&quot;Oraciones subordinadas (1) para modificar sustantivos&quot;}],&quot;lecturas&quot;:[],&quot;proximamente&quot;:true},{&quot;id&quot;:&quot;a2.1-s9&quot;,&quot;secuencia&quot;:&quot;s9&quot;,&quot;titulo&quot;:&quot;Celebraciones&quot;,&quot;icono&quot;:&quot;PartyPopper&quot;,&quot;hubs&quot;:{},&quot;gramatica&quot;:[{&quot;alias&quot;:&quot;razon-n-desu&quot;,&quot;topico&quot;:&quot;Razón y disculpa con 〜んです&quot;},{&quot;alias&quot;:&quot;dar-recibir-agemasu-moraimasu&quot;,&quot;topico&quot;:&quot;Dar y recibir あげます・もらいます&quot;},{&quot;alias&quot;:&quot;subordinadas-tokio-koto&quot;,&quot;topico&quot;:&quot;Oraciones subordinadas (2) con とき y こと&quot;},{&quot;alias&quot;:&quot;opinion-to-omoimasu&quot;,&quot;topico&quot;:&quot;Opinión con 〜と思います&quot;},{&quot;alias&quot;:&quot;estilo-indirecto-to-itte-imashita&quot;,&quot;topico&quot;:&quot;Estilo indirecto 〜と言っていました&quot;}],&quot;lecturas&quot;:[{&quot;id&quot;:&quot;a2.1-s9-shinderera&quot;,&quot;titulo&quot;:&quot;シンデレラの靴&quot;,&quot;genero&quot;:&quot;practica&quot;,&quot;url&quot;:&quot;/v0-jp-web/leer/?id=a2.1-s9-shinderera&quot;}],&quot;proximamente&quot;:false}]},&quot;A2.2&quot;:{&quot;nombre&quot;:&quot;Básico 2&quot;,&quot;sesiones&quot;:[{&quot;id&quot;:&quot;a2.2-s1&quot;,&quot;secuencia&quot;:&quot;s1&quot;,&quot;titulo&quot;:&quot;Lectura y conjugación&quot;,&quot;icono&quot;:&quot;BookOpen&quot;,&quot;hubs&quot;:{&quot;lecciones&quot;:&quot;/v0-jp-web/hubs/lecciones/a2.2/&quot;},&quot;gramatica&quot;:[],&quot;lecturas&quot;:[{&quot;id&quot;:&quot;a2.2-s1-conjugacion-formas&quot;,&quot;titulo&quot;:&quot;Conjugacion Formas&quot;,&quot;genero&quot;:&quot;juego&quot;,&quot;url&quot;:&quot;/v0-jp-web/katsuyou-demo/?id=a2.2-s1-conjugacion-formas&quot;},{&quot;id&quot;:&quot;a2.2-s1-conjugacion-oracion&quot;,&quot;titulo&quot;:&quot;Conjugacion Oracion&quot;,&quot;genero&quot;:&quot;juego&quot;,&quot;url&quot;:&quot;/v0-jp-web/katsuyou-demo/?id=a2.2-s1-conjugacion-oracion&quot;},{&quot;id&quot;:&quot;a2.2-s1-shinderera&quot;,&quot;titulo&quot;:&quot;シンデレラの靴&quot;,&quot;genero&quot;:&quot;practica&quot;,&quot;url&quot;:&quot;/v0-jp-web/leer/?id=a2.2-s1-shinderera&quot;}],&quot;proximamente&quot;:false}]}},&quot;opts&quot;:[{&quot;value&quot;:&quot;A1&quot;,&quot;label&quot;:&quot;A1 — Principiante básico&quot;,&quot;desc&quot;:&quot;13 sesiones&quot;},{&quot;value&quot;:&quot;A2.1&quot;,&quot;label&quot;:&quot;A2.1 — Básico 1&quot;,&quot;desc&quot;:&quot;9 sesiones&quot;},{&quot;value&quot;:&quot;A2.2&quot;,&quot;label&quot;:&quot;A2.2 — Básico 2&quot;,&quot;desc&quot;:&quot;1 sesiones&quot;}],&quot;novedades&quot;:{&quot;fecha&quot;:&quot;2026-09-24&quot;,&quot;titulo&quot;:&quot;El panel ahora se organiza por sesiones&quot;,&quot;resumen&quot;:&quot;El Student Deck se reorganiza alrededor de las sesiones del itinerario: elige un nivel (A1 o A2.1), selecciona una sesión de la lista y su bloque se compone al instante con la gramática, las prácticas de lectura y los hubs disponibles.&quot;,&quot;bloques&quot;:[{&quot;titulo&quot;:&quot;Índice de sesiones&quot;,&quot;descripcion&quot;:&quot;Todas las sesiones del nivel en una lista vertical. La sesión activa queda resaltada y tu selección se guarda en el perfil.&quot;,&quot;tags&quot;:[&quot;deck&quot;,&quot;sesiones&quot;]},{&quot;titulo&quot;:&quot;A2.1 llega al deck&quot;,&quot;descripcion&quot;:&quot;El nivel A2.1 (Elemental 1) ya tiene mapa con sus 9 secuencias, de La familia a Celebraciones.&quot;,&quot;tags&quot;:[&quot;nivel&quot;,&quot;A2.1&quot;]},{&quot;titulo&quot;:&quot;Bloque de sesión&quot;,&quot;descripcion&quot;:&quot;Cada sesión muestra su gramática asignada y sus prácticas de lectura enlazadas al visor. El progreso se guarda por sesión.&quot;,&quot;tags&quot;:[&quot;gramática&quot;,&quot;lectura&quot;]},{&quot;titulo&quot;:&quot;Hubs solo si existen&quot;,&quot;descripcion&quot;:&quot;Solo se enlazan hubs que existen de verdad. A2.1 no tiene aún hub de lecciones y aparecerá cuando llegue contenido.&quot;,&quot;tags&quot;:[&quot;hubs&quot;,&quot;infra&quot;]}]}}</div>  <script>
+/* ===========================================================
+   Datos incrustados en build time (sin fetch en runtime)
+   =========================================================== */
+const _DECK = JSON.parse(document.getElementById('deckData').textContent)
+
 /* ===========================================================
    Profile module (v0jp:profile — store format)
    =========================================================== */
 const PROFILE_KEY = 'v0jp:profile'
+const UI_KEY = 'v0jp:ui'
+const NOVEDADES_PREF_KEY = 'novedadesVistas'
 
 function loadProfile () {
   try {
@@ -19,12 +28,17 @@ function loadProfile () {
       const p = JSON.parse(raw)
       if (p && p.version === 1) {
         if (!p.espaciosIniciados) p.espaciosIniciados = p.espacio ? [p.espacio] : ['A1']
-        if (!p.espacio && p.nivel) p.espacio = p.nivel
+        if (typeof p.nivel !== 'string') p.nivel = ''
+        if (typeof p.sesion !== 'string') p.sesion = ''
+        /* Migración legacy (ADR-0082): el nivel vivía en `espacio` y la
+           sesión en `iteracion`. Se derivan sin tocar el almacenamiento. */
+        if (!p.nivel && typeof p.espacio === 'string' && /^[AB]\d/i.test(p.espacio)) p.nivel = p.espacio
+        if (!p.sesion && typeof p.iteracion === 'string' && /-s\d+$/.test(p.iteracion)) p.sesion = p.iteracion
         return p
       }
     }
   } catch (_) {}
-  return { version: 1, username: '', espacio: '', iteracion: '', espaciosIniciados: [] }
+  return { version: 1, username: '', nivel: '', sesion: '', espacio: '', iteracion: '', espaciosIniciados: [] }
 }
 
 function saveProfile (profile) {
@@ -39,65 +53,135 @@ function updateProfile (partial) {
 }
 
 /* ===========================================================
-   Datos incrustados (evita fetch para carga local)
+   Estado del deck
    =========================================================== */
-const _NOVEDADES_DATA = {
-  "fecha": "2026-06-24",
-  "titulo": "Nuevos contenidos añadidos",
-  "resumen": "Se han añadido nuevas lecciones y laboratorios para el nivel A1. Revisa las novedades para no perderte nada.",
-  "bloques": [
-    { "titulo": "Partícula も", "descripcion": "Nueva lección sobre la partícula も (también)", "tags": ["partícula", "gramática"] },
-    { "titulo": "Adverbios de frecuencia", "descripcion": "Nueva lección sobre adverbios de frecuencia en japonés", "tags": ["adverbio", "gramática"] },
-    { "titulo": "Lab: Escritura s3", "descripcion": "Ejercicio de escritura para la secuencia 3", "tags": ["escritura", "lab"] },
-    { "titulo": "Lab: Comprensión s4", "descripcion": "Ejercicio de comprensión para la secuencia 4", "tags": ["comprensión", "lab"] }
-  ]
+const _NIVELES = _DECK.niveles || {}
+let NIVEL_ACTUAL = ''
+let SESION_ACTUAL = ''
+
+function primerNivel () { return Object.keys(_NIVELES)[0] || '' }
+
+function sesionesDe (nivel) { return _NIVELES[nivel] ? _NIVELES[nivel].sesiones : [] }
+
+function sesionPorId (id) { return sesionesDe(NIVEL_ACTUAL).find(s => s.id === id) || null }
+
+function iconoLucide (nombre) {
+  return String(nombre || 'circle')
+    .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
+    .replace(/([a-z])(\d)/g, '$1-$2')
+    .toLowerCase()
 }
 
-const _ACTIVIDADES_DATA = {
-  "semana": "2026-W26",
-  "actividades": [
-    { "id": "act-001", "titulo": "Lección: Partícula も", "hub": "lecciones", "url": "/hubs/lecciones/a1/particula-mo/", "tipo": "leccion", "obligatoria": true },
-    { "id": "act-002", "titulo": "Lección: Adverbios de frecuencia", "hub": "lecciones", "url": "/hubs/lecciones/a1/adverbios-frecuencia/", "tipo": "leccion", "obligatoria": true },
-    { "id": "act-003", "titulo": "Lab: Ejercicio de escritura s3", "hub": "labs", "url": "/hubs/labs/s3/", "tipo": "lab", "obligatoria": false },
-    { "id": "act-004", "titulo": "Lab: Comprensión s4", "hub": "labs", "url": "/hubs/labs/s4/", "tipo": "lab", "obligatoria": false },
-    { "id": "act-005", "titulo": "Repaso: Partículas básicas", "hub": "lecciones", "url": "/hubs/lecciones/a1/", "tipo": "leccion", "obligatoria": false }
-  ]
+function refrescarIconos () {
+  if (window.lucide) window.lucide.createIcons()
 }
-
-/* LEVELMAP_START */
-const _LEVELMAP_A1 = {
-  "apiVersion": "maquinaria/v1", "kind": "LevelMap",
-  "metadata": { "name": "nivel-a1" },
-  "data": {
-    "nivel": "A1",
-    "sesiones": [
-      { "id": "a1-s1", "nivel": "A1", "secuencia": "s1", "titulo": "Introducción", "hubs": { "lecciones": "/hubs/lecciones/a1/", "labs": "/hubs/labs/a1/s1/", "vocabulario": "/hubs/vocabulario/a1/s1/" }, "icono": "BookOpen" },
-      { "id": "a1-s2", "nivel": "A1", "secuencia": "s2", "titulo": "Partículas básicas", "hubs": { "lecciones": "/hubs/lecciones/a1/", "labs": "/hubs/labs/a1/s2/", "vocabulario": "/hubs/vocabulario/a1/s2/" }, "icono": "BookOpen" },
-      { "id": "a1-s3", "nivel": "A1", "secuencia": "s3", "titulo": "Verbos", "hubs": { "lecciones": "/hubs/lecciones/a1/", "labs": "/hubs/labs/a1/s3/", "vocabulario": "/hubs/vocabulario/a1/s3/" }, "icono": "BookOpen" },
-      { "id": "a1-s4", "nivel": "A1", "secuencia": "s4", "titulo": "Adjetivos", "hubs": { "lecciones": "/hubs/lecciones/a1/", "labs": "/hubs/labs/a1/s4/", "vocabulario": "/hubs/vocabulario/a1/s4/" }, "icono": "BookOpen" },
-      { "id": "a1-s5", "nivel": "A1", "secuencia": "s5", "titulo": "Expresión de deseos", "hubs": { "lecciones": "/hubs/lecciones/a1/", "labs": "/hubs/labs/a1/s5/", "vocabulario": "/hubs/vocabulario/a1/s5/" }, "icono": "BookOpen" }
-    ]
-  }
-}
-/* LEVELMAP_END */
 
 /* ===========================================================
-   ActividadesSemana (central)
+   Índice de sesiones
    =========================================================== */
-function getActividadesKey (semana) { return 'v0jp:deck:actividades_' + semana }
+function renderSesiones () {
+  const lista = document.getElementById('sesionesLista')
+  const vacio = document.getElementById('sesionesVacio')
+  const chip = document.getElementById('sesionesNivel')
+  const sesiones = sesionesDe(NIVEL_ACTUAL)
 
-const ICONOS_TIPO = {
-  leccion: 'BookOpen',
-  lab: 'FlaskConical',
-  agente: 'Bot',
-  default: 'FileText'
+  if (sesiones.length === 0) {
+    lista.innerHTML = ''
+    vacio.style.display = ''
+    chip.textContent = ''
+    return
+  }
+
+  vacio.style.display = 'none'
+  chip.textContent = NIVEL_ACTUAL + ' · ' + _NIVELES[NIVEL_ACTUAL].nombre
+
+  lista.innerHTML = sesiones.map(s => `
+    <li class="sesion-item ${s.id === SESION_ACTUAL ? 'activa' : ''}" data-sesion="${s.id}">
+      <span class="sesion-ord">${s.secuencia}</span>
+      <span class="sesion-icono"><i data-lucide="${iconoLucide(s.icono)}"></i></span>
+      <span class="sesion-cuerpo">
+        <span class="sesion-titulo">${s.titulo}</span>
+        <span class="sesion-meta">${s.lecturas.length} prácticas · ${s.gramatica.length} de gramática</span>
+      </span>
+      ${s.proximamente ? '<span class="sesion-badge">Próximamente</span>' : ''}
+    </li>
+  `).join('')
+
+  lista.querySelectorAll('.sesion-item').forEach(el => {
+    el.addEventListener('click', () => seleccionarSesion(el.getAttribute('data-sesion')))
+  })
+  refrescarIconos()
 }
 
-function renderActividades (data) {
-  const lista = document.getElementById('actividadesLista')
-  const progreso = document.getElementById('actividadesProgreso')
-  const key = getActividadesKey(data.semana)
+function seleccionarSesion (id) {
+  if (!id || id === SESION_ACTUAL) return
+  SESION_ACTUAL = id
+  const p = loadProfile()
+  if (p.nivel) updateProfile({ sesion: id })
+  renderSesiones()
+  renderBloque()
+}
 
+/* ===========================================================
+   Bloque de sesión (composición bajo demanda, ADR-0082)
+   =========================================================== */
+const ICONOS_HUB = {
+  lecciones: 'book-open',
+  labs: 'flask-conical',
+  vocabulario: 'book-text',
+  default: 'external-link'
+}
+
+function getActKey (sesionId) { return 'v0jp:deck:act_' + sesionId }
+
+function renderBloque () {
+  const titulo = document.getElementById('bloqueTitulo')
+  const progreso = document.getElementById('bloqueProgreso')
+  const hubsDiv = document.getElementById('bloqueHubs')
+  const gramDiv = document.getElementById('bloqueGramatica')
+  const lectDiv = document.getElementById('bloqueLecturas')
+  const nota = document.getElementById('bloqueNota')
+
+  const s = sesionPorId(SESION_ACTUAL) || sesionesDe(NIVEL_ACTUAL)[0] || null
+
+  if (!s) {
+    titulo.textContent = '—'
+    progreso.textContent = '0 / 0 completadas'
+    hubsDiv.innerHTML = ''
+    gramDiv.innerHTML = ''
+    lectDiv.innerHTML = ''
+    nota.style.display = ''
+    nota.textContent = 'No hay itinerario disponible.'
+    return
+  }
+
+  SESION_ACTUAL = s.id
+  titulo.textContent = s.titulo
+
+  /* Hubs (solo los declarados en el LevelMap) */
+  const hubEntries = Object.entries(s.hubs || {})
+  hubsDiv.innerHTML = hubEntries.length
+    ? `<div class="hub-grid">${hubEntries.map(([clave, url]) => {
+        const icono = ICONOS_HUB[clave] || ICONOS_HUB.default
+        const t = clave.charAt(0).toUpperCase() + clave.slice(1)
+        return `
+          <a href="${url}" class="hub-card" target="_blank">
+            <i data-lucide="${icono}" class="hub-card-icono"></i>
+            <span class="hub-card-titulo">${t}</span>
+            <span class="hub-card-desc">Recursos de ${t.toLowerCase()} · ${NIVEL_ACTUAL}</span>
+          </a>
+        `
+      }).join('')}</div>`
+    : ''
+
+  /* Gramática asignada a la secuencia */
+  gramDiv.innerHTML = s.gramatica.length
+    ? `<div class="bloque-sub">Gramática de la secuencia</div>
+       <div class="chips">${s.gramatica.map(g => `<span class="chip" title="${g.alias}">${g.topico}</span>`).join('')}</div>`
+    : ''
+
+  /* Prácticas de lectura con checklist persistente por sesión */
+  const key = getActKey(s.id)
   let estado = {}
   try {
     const raw = localStorage.getItem(key)
@@ -105,56 +189,54 @@ function renderActividades (data) {
   } catch (_) {}
 
   function actualizarProgreso () {
-    const total = data.actividades.length
-    const completadas = data.actividades.filter(a => estado[a.id]).length
-    progreso.textContent = completadas + ' / ' + total + ' completadas'
+    const total = s.lecturas.length
+    const hechas = s.lecturas.filter(a => estado[a.id]).length
+    progreso.textContent = hechas + ' / ' + total + ' completadas'
   }
 
-  lista.innerHTML = data.actividades.map(a => {
-    const icono = ICONOS_TIPO[a.tipo] || ICONOS_TIPO.default
-    const checked = estado[a.id] || false
-    return `
-      <li class="actividad-item ${checked ? 'completada' : ''} ${a.obligatoria ? 'obligatoria' : ''}"
-          data-id="${a.id}">
-        <input type="checkbox" class="actividad-checkbox" ${checked ? 'checked' : ''}
-               onchange="toggleActividad('${a.id}', this.checked)">
-        <i data-lucide="${icono}" class="actividad-icono"></i>
-        <a href="${a.url}" class="actividad-link" target="_blank">${a.titulo}</a>
-        <span class="hub-tag">${a.hub}</span>
-        ${a.obligatoria ? '<span class="actividad-badge">OBL</span>' : ''}
-      </li>
-    `
-  }).join('')
+  lectDiv.innerHTML = s.lecturas.length
+    ? `<div class="bloque-sub">Prácticas de lectura</div>
+       <ul class="actividades-lista">${s.lecturas.map(a => {
+         const checked = !!estado[a.id]
+         return `
+           <li class="actividad-item ${checked ? 'completada' : ''}" data-id="${a.id}">
+             <input type="checkbox" class="actividad-checkbox" data-act="${a.id}" ${checked ? 'checked' : ''}>
+             <i data-lucide="book-open" class="actividad-icono"></i>
+             <a href="${a.url}" class="actividad-link" target="_blank">${a.titulo}</a>
+             <span class="hub-tag">${a.genero}</span>
+           </li>
+         `
+       }).join('')}</ul>`
+    : ''
+
+  if (s.lecturas.length === 0) {
+    nota.style.display = ''
+    nota.textContent = s.gramatica.length
+      ? 'Aún no hay prácticas para esta sesión; la gramática de arriba ya está disponible.'
+      : 'Aún no hay contenido para esta sesión. Vuelve pronto.'
+  } else {
+    nota.style.display = 'none'
+    nota.textContent = ''
+  }
+
+  lectDiv.querySelectorAll('input.actividad-checkbox').forEach(cb => {
+    cb.addEventListener('change', () => {
+      const id = cb.getAttribute('data-act')
+      estado[id] = cb.checked
+      try { localStorage.setItem(key, JSON.stringify(estado)) } catch (_) {}
+      const li = cb.closest('.actividad-item')
+      if (li) li.classList.toggle('completada', cb.checked)
+      actualizarProgreso()
+    })
+  })
 
   actualizarProgreso()
-  lucide.createIcons()
-}
-
-window.toggleActividad = function (id, checked) {
-  const key = getActividadesKey(window._actividadesSemana || '')
-  let estado = {}
-  try {
-    const raw = localStorage.getItem(key)
-    if (raw) estado = JSON.parse(raw)
-  } catch (_) {}
-  estado[id] = checked
-  localStorage.setItem(key, JSON.stringify(estado))
-  const data = window._actividadesData
-  if (data) {
-    const total = data.actividades.length
-    const completadas = data.actividades.filter(a => estado[a.id]).length
-    document.getElementById('actividadesProgreso').textContent = completadas + ' / ' + total + ' completadas'
-  }
-  const item = document.querySelector(`.actividad-item[data-id="${id}"]`)
-  if (item) item.classList.toggle('completada', checked)
+  refrescarIconos()
 }
 
 /* ===========================================================
    NovedadesPanel
    =========================================================== */
-const UI_KEY = 'v0jp:ui'
-const NOVEDADES_PREF_KEY = 'novedadesVistas'
-
 function getUIPrefs () {
   try {
     const raw = localStorage.getItem(UI_KEY)
@@ -197,6 +279,9 @@ function renderNovedades (data) {
     </div>
   `
 
+  const abrilloPrevia = body.querySelector('.reopen-btn')
+  if (abrilloPrevia) abrilloPrevia.remove()
+
   const vistas = getUIPref(NOVEDADES_PREF_KEY)
   if (vistas === data.fecha) {
     panel.classList.add('collapsed')
@@ -225,77 +310,41 @@ function renderNovedades (data) {
 }
 
 /* ===========================================================
-   HubMenu
-   =========================================================== */
-const ICONOS_HUB = {
-  lecciones: 'BookOpen',
-  labs: 'FlaskConical',
-  vocabulario: 'BookText',
-  default: 'ExternalLink'
-}
-
-function iteracionActual (profile, levelmap) {
-  if (profile.iteracion) {
-    const found = levelmap.data.sesiones.find(i => i.id === profile.iteracion)
-    if (found) return found
-  }
-  return levelmap.data.sesiones[0]
-}
-
-function renderHubMenu (levelmap, profile) {
-  const grid = document.getElementById('hubGrid')
-  const it = iteracionActual(profile, levelmap)
-  const hubs = it.hubs || {}
-
-  const entries = Object.entries(hubs)
-  if (entries.length === 0) {
-    grid.innerHTML = '<p style="color:#94a3b8;font-size:0.9rem">No hay hubs disponibles para esta iteración.</p>'
-    return
-  }
-
-  grid.innerHTML = entries.map(([id, url]) => {
-    const icono = ICONOS_HUB[id] || ICONOS_HUB.default
-    const titulo = id.charAt(0).toUpperCase() + id.slice(1)
-    return `
-      <a href="${url}" class="hub-card" target="_blank">
-        <i data-lucide="${icono}" class="hub-card-icono"></i>
-        <span class="hub-card-titulo">${titulo}</span>
-        <span class="hub-card-desc">Accede a los recursos de ${titulo.toLowerCase()} para ${it.nivel}</span>
-      </a>
-    `
-  }).join('')
-  lucide.createIcons()
-}
-
-/* ===========================================================
    Profile modal UI
    =========================================================== */
+function seleccionarRadioNivel (valor) {
+  const radios = document.querySelectorAll('input[name="nivel"]')
+  let encontrado = false
+  radios.forEach(r => {
+    if (r.value === valor) { r.checked = true; encontrado = true }
+    else r.checked = false
+  })
+  if (!encontrado && radios[0]) radios[0].checked = true
+  const sel = document.querySelector('input[name="nivel"]:checked')
+  const selValor = sel ? sel.value : ''
+  document.querySelectorAll('.level-option').forEach(el => {
+    el.classList.toggle('selected', el.dataset.level === selValor)
+  })
+}
+
 function abrirModalPerfil () {
   document.getElementById('modalScreenForm').classList.add('active')
   document.getElementById('modalScreenConfirm').classList.remove('active')
 
   const profile = loadProfile()
   const deleteBtn = document.getElementById('deleteProfileBtn')
-  if (profile.espacio) {
+  if (profile.nivel) {
     document.getElementById('modalTitle').textContent = 'Editar perfil'
     document.getElementById('saveBtnText').textContent = 'Guardar cambios'
-    document.getElementById('username').value = profile.username === 'Estudiante' ? '' : profile.username
+    document.getElementById('username').value = profile.username === 'Estudiante' ? '' : (profile.username || '')
     deleteBtn.style.display = ''
-    const nivelRadio = document.querySelector(`input[name="nivel"][value="${profile.espacio}"]`)
-    if (nivelRadio) nivelRadio.checked = true
-    document.querySelectorAll('.level-option').forEach(el => {
-      el.classList.toggle('selected', el.dataset.level === profile.espacio)
-    })
+    seleccionarRadioNivel(profile.nivel)
   } else {
     document.getElementById('modalTitle').textContent = 'Crear perfil'
     document.getElementById('saveBtnText').textContent = 'Guardar'
     document.getElementById('username').value = ''
     deleteBtn.style.display = 'none'
-    const a1Radio = document.querySelector('input[name="nivel"][value="A1"]')
-    if (a1Radio) a1Radio.checked = true
-    document.querySelectorAll('.level-option').forEach(el => {
-      el.classList.toggle('selected', el.dataset.level === 'A1')
-    })
+    seleccionarRadioNivel(NIVEL_ACTUAL || primerNivel())
   }
   document.getElementById('modalPerfil').classList.add('open')
 }
@@ -308,16 +357,21 @@ function guardarPerfil (e) {
   e.preventDefault()
   const username = document.getElementById('username').value.trim()
   const nivelEl = document.querySelector('input[name="nivel"]:checked')
-  const nivel = nivelEl ? nivelEl.value : 'A1'
+  const nivel = nivelEl ? nivelEl.value : primerNivel()
+  const primera = sesionesDe(nivel)[0]
 
-  const profile = updateProfile({
+  updateProfile({
     username: username || 'Estudiante',
-    espacio: nivel,
-    iteracion: 'a1-s1'
+    nivel: nivel,
+    sesion: primera ? primera.id : ''
   })
 
   cerrarModalPerfil()
-  actualizarUI(profile)
+  NIVEL_ACTUAL = nivel
+  SESION_ACTUAL = primera ? primera.id : ''
+  actualizarUI(loadProfile())
+  renderSesiones()
+  renderBloque()
 }
 
 function mostrarConfirmacionBorrado () {
@@ -335,24 +389,30 @@ function ejecutarBorrado () {
   localStorage.removeItem(UI_KEY)
   for (let i = localStorage.length - 1; i >= 0; i--) {
     const key = localStorage.key(i)
-    if (key && key.startsWith('v0jp:deck:actividades_')) localStorage.removeItem(key)
+    if (key && (key.startsWith('v0jp:deck:act_') || key.startsWith('v0jp:deck:actividades_'))) {
+      localStorage.removeItem(key)
+    }
   }
   cerrarModalPerfil()
+  NIVEL_ACTUAL = primerNivel()
+  const primera = sesionesDe(NIVEL_ACTUAL)[0]
+  SESION_ACTUAL = primera ? primera.id : ''
   const profile = loadProfile()
   actualizarUI(profile)
-  renderActividades(_ACTIVIDADES_DATA)
-  renderHubMenu(_LEVELMAP_A1, profile)
+  renderNovedades(_DECK.novedades)
+  renderSesiones()
+  renderBloque()
 }
 
 function actualizarUI (profile) {
-  const tienePerfil = !!profile.espacio
+  const tienePerfil = !!profile.nivel
   document.getElementById('profileBanner').style.display = tienePerfil ? 'none' : 'flex'
   document.getElementById('profileBtnLabel').textContent =
     tienePerfil ? (profile.username || 'Perfil') : 'Crear perfil'
   const levelSpan = document.getElementById('deckLevel')
   if (tienePerfil) {
     levelSpan.style.display = 'inline'
-    levelSpan.textContent = profile.espacio
+    levelSpan.textContent = profile.nivel
   } else {
     levelSpan.style.display = 'none'
   }
@@ -362,14 +422,22 @@ function actualizarUI (profile) {
    Init
    =========================================================== */
 function initDeck () {
-  renderNovedades(_NOVEDADES_DATA)
-  renderActividades(_ACTIVIDADES_DATA)
-
-  window._actividadesSemana = _ACTIVIDADES_DATA.semana
-  window._actividadesData = _ACTIVIDADES_DATA
-
   const profile = loadProfile()
-  renderHubMenu(_LEVELMAP_A1, profile)
+
+  NIVEL_ACTUAL = profile.nivel && _NIVELES[profile.nivel] ? profile.nivel : primerNivel()
+  const sesiones = sesionesDe(NIVEL_ACTUAL)
+  SESION_ACTUAL = (profile.sesion && sesiones.some(s => s.id === profile.sesion))
+    ? profile.sesion
+    : (sesiones[0] ? sesiones[0].id : '')
+
+  /* Persiste la migración derivada y la sesión por defecto */
+  if (profile.nivel && profile.sesion !== SESION_ACTUAL && SESION_ACTUAL) {
+    updateProfile({ sesion: SESION_ACTUAL })
+  }
+
+  renderNovedades(_DECK.novedades)
+  renderSesiones()
+  renderBloque()
 }
 
 function main () {

@@ -776,12 +776,12 @@
     "apiVersion": "maquinaria/v1",
     "kind": "ActividadLectura",
     "metadata": {
-      "name": "a3-s2-conjugacion-formas"
+      "name": "a2.2-s1-conjugacion-formas"
     },
     "data": {
       "genero": "juego",
       "tipo": "conjugacion",
-      "nivel": "A3",
+      "nivel": "A2.2",
       "dificultad": "medio",
       "modo": "katsuyou",
       "formas": [
@@ -910,12 +910,12 @@
     "apiVersion": "maquinaria/v1",
     "kind": "ActividadLectura",
     "metadata": {
-      "name": "a3-s2-conjugacion-oracion"
+      "name": "a2.2-s1-conjugacion-oracion"
     },
     "data": {
       "genero": "juego",
       "tipo": "conjugacion",
-      "nivel": "A3",
+      "nivel": "A2.2",
       "dificultad": "medio",
       "modo": "oracion",
       "formas": [
@@ -1073,6 +1073,244 @@
         }
       ],
       "alternativas": []
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a2.2-s1-shinderera"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "シンデレラの靴",
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "シンデレラ",
+          "lectura": "しんでれら"
+        }
+      ],
+      "texto": "むかし、シンデレラという女の子がいました。シンデレラの母が死んだとき、シンデレラは寂しかったです。それから、父の家に継母と二人の女の子が来ました。継母と二人の女の子はシンデレラに親切ではありませんでした。シンデレラは毎日掃除したり、洗濯したりしました。それから、服も作りました。シンデレラはとても忙しかったです。そして、寂しかったです。\n\nある日、王子の家で大きいパーティーがありました。町の女の子はみんな、パーティーに行きました。シンデレラも行きたいと思いました。でも、継母は「服も靴もありませんから、行きません」と言っていました。\n\n夜、白い鳥が来ました。鳥はシンデレラに素敵な服と靴をくれました。シンデレラは鳥から服と靴をもらって、パーティーへ行きました。王子はシンデレラを見て、一番素敵だと思いました。王子はシンデレラとだけ踊りました。シンデレラは帰るとき、靴をなくしました。\n\n次の日、王子は町の女の子に会いました。そして、みんなに靴を履きました。継母の女の子も靴を履きましたが、足が入りませんでした。シンデレラが靴を履くと、足が入りました。それはシンデレラの靴でした。\n\n王子は「シンデレラ、私と結婚しませんか」と言いました。シンデレラは楽しかったです。二人は結婚しました。そして、楽しく住みました。\n",
+      "preguntas": [
+        "シンデレラの母はどうなりましたか。",
+        "シンデレラは毎日何をしましたか。",
+        "シンデレラはどうやってパーティーへ行きましたか。",
+        "王子は誰とだけ踊りましたか。",
+        "シンデレラはパーティーで何をなくしましたか。",
+        "最後に、シンデレラと王子はどうなりましたか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "女の子",
+          "lectura": "おんなのこ",
+          "significado": "niña, chica"
+        },
+        {
+          "literal": "母",
+          "lectura": "はは",
+          "significado": "madre"
+        },
+        {
+          "literal": "死ぬ",
+          "lectura": "しぬ",
+          "significado": "morir"
+        },
+        {
+          "literal": "父",
+          "lectura": "ちち",
+          "significado": "padre"
+        },
+        {
+          "literal": "家",
+          "lectura": "いえ",
+          "significado": "casa"
+        },
+        {
+          "literal": "継母",
+          "lectura": "ままはは",
+          "significado": "madrastra"
+        },
+        {
+          "literal": "二人",
+          "lectura": "ふたり",
+          "significado": "dos personas"
+        },
+        {
+          "literal": "来る",
+          "lectura": "くる",
+          "significado": "venir"
+        },
+        {
+          "literal": "親切",
+          "lectura": "しんせつ",
+          "significado": "amable, gentil"
+        },
+        {
+          "literal": "毎日",
+          "lectura": "まいにち",
+          "significado": "todos los días"
+        },
+        {
+          "literal": "掃除する",
+          "lectura": "そうじする",
+          "significado": "limpiar, hacer la limpieza"
+        },
+        {
+          "literal": "洗濯する",
+          "lectura": "せんたくする",
+          "significado": "lavar (la ropa)"
+        },
+        {
+          "literal": "服",
+          "lectura": "ふく",
+          "significado": "ropa, vestido"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer, fabricar"
+        },
+        {
+          "literal": "忙しい",
+          "lectura": "いそがしい",
+          "significado": "ocupado, atareado"
+        },
+        {
+          "literal": "寂しい",
+          "lectura": "さびしい",
+          "significado": "triste, solitario"
+        },
+        {
+          "literal": "王子",
+          "lectura": "おうじ",
+          "significado": "príncipe"
+        },
+        {
+          "literal": "大きい",
+          "lectura": "おおきい",
+          "significado": "grande"
+        },
+        {
+          "literal": "パーティー",
+          "lectura": "パーティー",
+          "significado": "fiesta"
+        },
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "pueblo, ciudad"
+        },
+        {
+          "literal": "みんな",
+          "lectura": "みんな",
+          "significado": "todos, todo el mundo"
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir"
+        },
+        {
+          "literal": "言う",
+          "lectura": "いう",
+          "significado": "decir"
+        },
+        {
+          "literal": "靴",
+          "lectura": "くつ",
+          "significado": "zapato"
+        },
+        {
+          "literal": "白い",
+          "lectura": "しろい",
+          "significado": "blanco"
+        },
+        {
+          "literal": "鳥",
+          "lectura": "とり",
+          "significado": "pájaro"
+        },
+        {
+          "literal": "素敵",
+          "lectura": "すてき",
+          "significado": "precioso, encantador"
+        },
+        {
+          "literal": "もらう",
+          "lectura": "もらう",
+          "significado": "recibir"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver, mirar"
+        },
+        {
+          "literal": "踊る",
+          "lectura": "おどる",
+          "significado": "bailar"
+        },
+        {
+          "literal": "帰る",
+          "lectura": "かえる",
+          "significado": "volver a casa"
+        },
+        {
+          "literal": "なくす",
+          "lectura": "なくす",
+          "significado": "perder"
+        },
+        {
+          "literal": "会う",
+          "lectura": "あう",
+          "significado": "encontrarse con"
+        },
+        {
+          "literal": "履く",
+          "lectura": "はく",
+          "significado": "calzar, ponerse (zapatos)"
+        },
+        {
+          "literal": "足",
+          "lectura": "あし",
+          "significado": "pie, pierna"
+        },
+        {
+          "literal": "入る",
+          "lectura": "はいる",
+          "significado": "entrar, caber"
+        },
+        {
+          "literal": "私",
+          "lectura": "わたし",
+          "significado": "yo"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido, agradable"
+        },
+        {
+          "literal": "住む",
+          "lectura": "すむ",
+          "significado": "vivir, residir"
+        },
+        {
+          "literal": "結婚する",
+          "lectura": "けっこんする",
+          "significado": "casarse"
+        }
+      ],
+      "referencias": [
+        "tokio-pasado",
+        "enumeracion-tari",
+        "opinion-to-omoimasu",
+        "estilo-indirecto-to-itte-imashita",
+        "dar-recibir-agemasu-moraimasu"
+      ],
+      "nivel": "A2.2"
     }
   },
   {
