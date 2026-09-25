@@ -126,7 +126,7 @@ Siguiente
       for (const v of withKanji) { entryMap[v.literal] = v }
       return text.replace(re, (match) => {
         const e = entryMap[match]
-        return e ? rubyWrap(match, e.lectura) : match
+        return e ? rubyWrap(match, lecturaVisible(e)) : match
       })
     }
 
@@ -189,7 +189,7 @@ Siguiente
               if (!e) return match
               const html = rubyWrap(match, e.lectura)
               if (e._tipo === 'nombre') return html
-              return '<span class="vocab-word" data-literal="' + e.literal + '" data-reading="' + e.lectura + '" data-significado="' + e.significado + '" onclick="showTooltip(event, this)">' + html + '</span>'
+              return '<span class="vocab-word" data-literal="' + e.literal + '" data-reading="' + lecturaVisible(e) + '" data-significado="' + e.significado + '" onclick="showTooltip(event, this)">' + html + '</span>'
             })
           : line
 
@@ -237,9 +237,9 @@ Siguiente
             ? line.replace(new RegExp("(" + pattern + ")", "g"), (match) => {
                 const e = entryMap[match]
                 if (!e) return match
-                const html = rubyWrap(match, e.lectura)
+                const html = rubyWrap(match, lecturaVisible(e))
                 if (e._tipo === 'nombre') return html
-                return '<span class="vocab-word" data-literal="' + e.literal + '" data-reading="' + e.lectura + '" data-significado="' + e.significado + '" onclick="showTooltip(event, this)">' + html + '</span>'
+                return '<span class="vocab-word" data-literal="' + e.literal + '" data-reading="' + lecturaVisible(e) + '" data-significado="' + e.significado + '" onclick="showTooltip(event, this)">' + html + '</span>'
               })
             : line
 
