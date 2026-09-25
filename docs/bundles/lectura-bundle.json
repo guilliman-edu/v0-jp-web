@@ -1079,6 +1079,389 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s1-densha-otoko"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "電車男の物語",
+      "nivel": "A2.2",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "お礼",
+        "付き合う",
+        "困る",
+        "場所",
+        "女",
+        "小説",
+        "心配",
+        "悩み",
+        "日",
+        "漫画",
+        "男",
+        "笑う",
+        "言葉",
+        "趣味",
+        "髪",
+        "年",
+        "応援",
+        "助ける",
+        "自信",
+        "恋人",
+        "物語"
+      ],
+      "texto": "2004年の日本で、あることが起きました。日本のインターネットの場所で、男の子と女の子の間にとてもいいことが起きました。これは小説になりました。テレビでも見ることができました。映画にもなりました。そして、世界中で有名になりました。\n\n男の人は22歳で、オタクです。とても親切な人です。彼の趣味はアニメと漫画とゲームでした。女の子と付き合ったことがありませんでした。ある日、彼は電車の中にいました。そのとき、お酒を飲んだ男の人が、若い女の子に悪いことをしていました。女の子はとても困っていました。彼はちょっと怖かったですが、立って、女の子の前に行きました。女の子を助けました。\n\n女の子はとてもお礼を言いました。あとで、お礼に、エルメスのとても高いお茶のコップを彼にあげました。女の子の名前はエルメスです。\n\n男の人はどうしようかと思いました。そこで、彼は悩みをインターネットの場所に書きました。すると、顔も名前も知らない人が、彼を応援しました。みんなで「髪を切ってください」と言いました。「服を買いに行ってください」とも言いました。そして、二人でいるときのことも教えました。友達が親切な言葉を言ったから、男の人は自信を持つようになりました。\n\n女の子と会うときは、いつも緊張していました。でも、彼はまじめに、よく女の子に会いました。女の子は彼がまじめで親切だとわかりました。そして、女の子も彼のことが好きになりました。友達も心配して、二人のことを毎日見ていました。\n\n男の人は女の子に「あなたのことが好きです」と言いました。女の子は笑って、うれしそうでした。二人は恋人になりました。男の人は今まで趣味のことをしていました。そして、新しい世界へ初めて出ました。二人はとても楽しくなりました。これはとても素敵な物語です。\n",
+      "preguntas": [
+        "電車男は何歳ですか。",
+        "電車男の趣味は何ですか。",
+        "電車の中で、女の子はどうしていましたか。",
+        "女の子は男の人に何をあげましたか。",
+        "友達は男の人に何と言いましたか。",
+        "最後に、二人はどうなりましたか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "起きる",
+          "lectura": "おきる",
+          "significado": "ocurrir, suceder (〜ことが起きます)"
+        },
+        {
+          "literal": "場所",
+          "lectura": "ばしょ",
+          "significado": "lugar, sitio"
+        },
+        {
+          "literal": "男の子",
+          "lectura": "おとこのこ",
+          "significado": "chico"
+        },
+        {
+          "literal": "女の子",
+          "lectura": "おんなのこ",
+          "significado": "chica"
+        },
+        {
+          "literal": "間",
+          "lectura": "あいだ",
+          "significado": "entre (Xの間に = entre X)"
+        },
+        {
+          "literal": "小説",
+          "lectura": "しょうせつ",
+          "significado": "novela"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver, mirar"
+        },
+        {
+          "literal": "映画",
+          "lectura": "えいが",
+          "significado": "película, cine"
+        },
+        {
+          "literal": "有名",
+          "lectura": "ゆうめい",
+          "significado": "famoso, conocido"
+        },
+        {
+          "literal": "親切",
+          "lectura": "しんせつ",
+          "significado": "amable, bondadoso"
+        },
+        {
+          "literal": "彼",
+          "lectura": "かれ",
+          "significado": "él"
+        },
+        {
+          "literal": "趣味",
+          "lectura": "しゅみ",
+          "significado": "afición, pasatiempo"
+        },
+        {
+          "literal": "漫画",
+          "lectura": "まんが",
+          "significado": "manga, cómic"
+        },
+        {
+          "literal": "付き合う",
+          "lectura": "つきあう",
+          "significado": "salir con alguien (付き合ったことがありません = nunca ha tenido pareja)"
+        },
+        {
+          "literal": "日",
+          "lectura": "ひ / にち",
+          "significado": "día (ある日 = un día, 〜日 = にち)"
+        },
+        {
+          "literal": "電車",
+          "lectura": "でんしゃ",
+          "significado": "tren"
+        },
+        {
+          "literal": "中",
+          "lectura": "なか",
+          "significado": "interior de (Xの中 = dentro de X)"
+        },
+        {
+          "literal": "お酒",
+          "lectura": "おさけ",
+          "significado": "alcohol"
+        },
+        {
+          "literal": "飲む",
+          "lectura": "のむ",
+          "significado": "beber"
+        },
+        {
+          "literal": "若い",
+          "lectura": "わかい",
+          "significado": "joven"
+        },
+        {
+          "literal": "悪い",
+          "lectura": "わるい",
+          "significado": "malo (悪いことをする = hacer daño, molestar)"
+        },
+        {
+          "literal": "困る",
+          "lectura": "こまる",
+          "significado": "estar en aprietos, molestarse"
+        },
+        {
+          "literal": "ちょっと",
+          "lectura": "ちょっと",
+          "significado": "un poco"
+        },
+        {
+          "literal": "怖い",
+          "lectura": "こわい",
+          "significado": "con miedo, dar miedo"
+        },
+        {
+          "literal": "立つ",
+          "lectura": "たつ",
+          "significado": "levantarse, ponerse de pie"
+        },
+        {
+          "literal": "前",
+          "lectura": "まえ",
+          "significado": "delante de"
+        },
+        {
+          "literal": "お礼",
+          "lectura": "おれい",
+          "significado": "agradecimiento (お礼に = en agradecimiento)"
+        },
+        {
+          "literal": "言う",
+          "lectura": "いう",
+          "significado": "decir"
+        },
+        {
+          "literal": "あと",
+          "lectura": "あと",
+          "significado": "después, más tarde"
+        },
+        {
+          "literal": "高い",
+          "lectura": "たかい",
+          "significado": "caro, alto"
+        },
+        {
+          "literal": "お茶",
+          "lectura": "おちゃ",
+          "significado": "té"
+        },
+        {
+          "literal": "コップ",
+          "lectura": "こっぷ",
+          "significado": "taza"
+        },
+        {
+          "literal": "名前",
+          "lectura": "なまえ",
+          "significado": "nombre"
+        },
+        {
+          "literal": "思う",
+          "lectura": "おもう",
+          "significado": "pensar"
+        },
+        {
+          "literal": "悩み",
+          "lectura": "なやみ",
+          "significado": "preocupación, problema"
+        },
+        {
+          "literal": "書く",
+          "lectura": "かく",
+          "significado": "escribir"
+        },
+        {
+          "literal": "顔",
+          "lectura": "かお",
+          "significado": "rostro, cara"
+        },
+        {
+          "literal": "知る",
+          "lectura": "しる",
+          "significado": "conocer (知らない = desconocido)"
+        },
+        {
+          "literal": "髪",
+          "lectura": "かみ",
+          "significado": "pelo, cabello"
+        },
+        {
+          "literal": "切る",
+          "lectura": "きる",
+          "significado": "cortar"
+        },
+        {
+          "literal": "服",
+          "lectura": "ふく",
+          "significado": "ropa"
+        },
+        {
+          "literal": "買う",
+          "lectura": "かう",
+          "significado": "comprar"
+        },
+        {
+          "literal": "二人",
+          "lectura": "ふたり",
+          "significado": "los dos"
+        },
+        {
+          "literal": "教える",
+          "lectura": "おしえる",
+          "significado": "enseñar, indicar"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "言葉",
+          "lectura": "ことば",
+          "significado": "palabra(s), expresiones"
+        },
+        {
+          "literal": "持つ",
+          "lectura": "もつ",
+          "significado": "tener, poseer (自信を持つ = tener confianza)"
+        },
+        {
+          "literal": "会う",
+          "lectura": "あう",
+          "significado": "verse, encontrarse"
+        },
+        {
+          "literal": "緊張する",
+          "lectura": "きんちょうする",
+          "significado": "ponerse nervioso"
+        },
+        {
+          "literal": "まじめ",
+          "lectura": "まじめ",
+          "significado": "serio, aplicado"
+        },
+        {
+          "literal": "わかる",
+          "lectura": "わかる",
+          "significado": "entender, comprender"
+        },
+        {
+          "literal": "心配",
+          "lectura": "しんぱい",
+          "significado": "preocuparse, inquietarse"
+        },
+        {
+          "literal": "毎日",
+          "lectura": "まいにち",
+          "significado": "todos los días"
+        },
+        {
+          "literal": "よく",
+          "lectura": "よく",
+          "significado": "a menudo, frecuentemente"
+        },
+        {
+          "literal": "いつも",
+          "lectura": "いつも",
+          "significado": "siempre"
+        },
+        {
+          "literal": "笑う",
+          "lectura": "わらう",
+          "significado": "reír, reírse"
+        },
+        {
+          "literal": "嬉しい",
+          "lectura": "うれしい",
+          "significado": "feliz, alegre (うれしそう = con cara de felicidad)"
+        },
+        {
+          "literal": "新しい",
+          "lectura": "あたらしい",
+          "significado": "nuevo, nueva"
+        },
+        {
+          "literal": "世界",
+          "lectura": "せかい",
+          "significado": "mundo"
+        },
+        {
+          "literal": "初めて",
+          "lectura": "はじめて",
+          "significado": "por primera vez"
+        },
+        {
+          "literal": "出る",
+          "lectura": "でる",
+          "significado": "salir, meterse en (世界へ出る = adentrarse en el mundo)"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido, agradable"
+        },
+        {
+          "literal": "素敵",
+          "lectura": "すてき",
+          "significado": "estupendo, encantador"
+        }
+      ],
+      "nombres_propios": [
+        {
+          "literal": "電車男",
+          "lectura": "でんしゃおとこ"
+        },
+        {
+          "literal": "エルメス",
+          "lectura": "えるめす"
+        }
+      ],
+      "referencias": [
+        "forma-simple",
+        "forma-te",
+        "usos-forma-te",
+        "particula-ga"
+      ]
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "a2.2-s1-shinderera"
     },
     "data": {
