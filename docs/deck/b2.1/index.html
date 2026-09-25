@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Itinerario — Intermedio 1</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet"><style>.deck-topbar{display:flex;align-items:center;gap:.75rem;padding:.75rem 0;flex-wrap:wrap}.deck-level{font-size:.75rem;font-weight:600;background:#dbeafe;color:#1d4ed8;padding:.25rem .75rem;border-radius:9999px;text-transform:uppercase}.deck-spacer{flex:1}.deck-switch{display:inline-flex;align-items:center;gap:.375rem}.deck-switch label{font-size:.75rem;font-weight:600;color:#64748b}.deck-switch select{font-size:.8rem;font-weight:500;padding:.25rem .5rem;border:1px solid #e2e8f0;border-radius:.5rem;background:#fff;color:#1e293b}.deck-switch-link{font-size:.8rem;color:#3b82f6;text-decoration:none}.profile-btn{font-size:.8rem;font-weight:500;color:#475569;cursor:pointer;border:1px solid #e2e8f0;border-radius:.5rem;background:#fff;padding:.375rem .75rem}.profile-btn:hover{background:#f1f5f9}.deck-vacio{font-size:.9rem;color:#94a3b8;text-align:center;padding:2rem 0}.timeline-panel{background:#fff;border:1px solid #e2e8f0;border-radius:1rem;padding:1.25rem}.timeline-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem}.timeline-header h2{font-size:1.1rem;font-weight:700}.timeline-progreso{font-size:.8rem;font-weight:600;background:#f1f5f9;color:#475569;padding:.25rem .75rem;border-radius:9999px;white-space:nowrap}.timeline-lista{list-style:none;display:flex;flex-direction:column;gap:.5rem}.timeline-item{display:flex}.timeline-link{flex:1;display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;border:1px solid #e2e8f0;border-radius:.75rem;text-decoration:none;color:inherit;background:#fafbfc;transition:all .15s}.timeline-link:hover{border-color:#93c5fd;background:#eff6ff}.timeline-ord{font-size:.7rem;font-weight:700;color:#64748b;background:#f1f5f9;padding:.125rem .5rem;border-radius:9999px;text-transform:uppercase;flex-shrink:0}.timeline-cuerpo{flex:1;display:flex;flex-direction:column;gap:.125rem;min-width:0}.timeline-titulo{font-size:.9rem;font-weight:600}.timeline-meta{font-size:.75rem;color:#64748b}.timeline-estado{font-size:.7rem;font-weight:700;text-transform:uppercase;padding:.125rem .5rem;border-radius:9999px}.timeline-item[data-completada] .timeline-link{border-color:#d1fae5;background:#f0fdf4}.timeline-item[data-completada] .timeline-estado{background:#dcfce7;color:#15803d}.timeline-item[data-parcial] .timeline-estado{background:#fef3c7;color:#b45309}.timeline-item[data-nueva] .timeline-estado{background:#f1f5f9;color:#475569}
+</style></head> <body class="bg-[var(--color-surface)] text-[var(--color-text)] font-sans"> <header class="sticky top-0 z-10 bg-white border-b border-[var(--color-border)] px-4 py-3 flex items-center justify-between"> <div class="flex items-center gap-3"> <a href="/v0-jp-web/" class="text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors"> <i data-lucide="arrow-left" class="w-5 h-5"></i> </a> <h1 class="text-lg font-semibold">Itinerario — Intermedio 1</h1> </div>  </header> <main class="max-w-4xl mx-auto px-4 py-6">  <div id="deckRoot" data-deck> <div class="deck-topbar"> <span class="deck-level">B2.1</span> <div class="deck-switch"> <label for="deckNivelSwitch">Nivel</label> <select id="deckNivelSwitch"><option value="/v0-jp-web/deck/a1/">A1 — Principiante básico</option><option value="/v0-jp-web/deck/a2.1/">A2.1 — Básico 1</option><option value="/v0-jp-web/deck/a2.2/">A2.2 — Básico 2</option><option value="/v0-jp-web/deck/b2.1/" selected>B2.1 — Intermedio 1</option></select> </div> <div class="deck-spacer"></div> <button class="profile-btn" id="profileBtn">👤 Perfil</button> </div> <section class="timeline-panel" aria-label="Semanas del itinerario"> <div class="timeline-header"> <h2>Itinerario</h2> <span class="timeline-progreso" id="timelineProgreso">0 completadas</span> </div> <ul class="timeline-lista"> <li class="timeline-item" data-semana="semana-b2.1-s1" data-checkpoints="b2.1-s1::b2.1-s1-shinderera"> <a href="/v0-jp-web/deck/b2.1/semana-b2.1-s1/" class="timeline-link"> <span class="timeline-ord">s1</span> <span class="timeline-cuerpo"> <span class="timeline-titulo">Novo encontro</span> <span class="timeline-meta" data-meta> 1 checkpoints
+</span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li><li class="timeline-item" data-semana="semana-b2.1-s11" data-checkpoints="b2.1-s11::b2.1-s11-pokemon-oras-que-es-pokemon,b2.1-s11::b2.1-s11-reglas-mesa-japonesa"> <a href="/v0-jp-web/deck/b2.1/semana-b2.1-s11/" class="timeline-link"> <span class="timeline-ord">s11</span> <span class="timeline-cuerpo"> <span class="timeline-titulo">Estilo de vida</span> <span class="timeline-meta" data-meta> 2 checkpoints
+</span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li> </ul> </section> </div>  <script>
+  // Estado agregado del timeline (ADR-0084 Q12): completa cada tarjeta en cliente
+  // leyendo `v0jp:deck:act_*` para esa semana. (El atributo data-deck está arriba.)
+  (function () {
+    var items = Array.prototype.slice.call(document.querySelectorAll(".timeline-item"))
+    var completadasTotales = 0
+    items.forEach(function (el) {
+      var idSemana = el.getAttribute("data-semana")
+      var checks = (el.getAttribute("data-checkpoints") || "").split(",").filter(Boolean)
+      var data = {}
+      try { data = JSON.parse(localStorage.getItem("v0jp:deck:act_" + idSemana) || "{}") } catch (_) {}
+      var marcadas = checks.filter(function (c) { return data[c] === true }).length
+      el.removeAttribute("data-completada"); el.removeAttribute("data-parcial"); el.removeAttribute("data-nueva")
+      if (checks.length > 0 && marcadas === checks.length) {
+        el.setAttribute("data-completada", "true"); completadasTotales++
+      } else if (marcadas > 0) {
+        el.setAttribute("data-parcial", "true")
+      } else {
+        el.setAttribute("data-nueva", "true")
+      }
+      var estado = el.querySelector(".timeline-estado")
+      if (estado) {
+        estado.textContent = checks.length > 0 && marcadas === checks.length ? "Completada"
+          : marcadas > 0 ? "En progreso" : "Nueva"
+      }
+      var meta = el.querySelector("[data-meta]")
+      if (meta) meta.textContent = marcadas + " / " + checks.length + " checkpoints"
+    })
+    var prog = document.getElementById("timelineProgreso")
+    if (prog) prog.textContent = completadasTotales + " / " + items.length + " semanas completadas"
+  })();
+</script>  </main> <script type="module" src="/v0-jp-web/_astro/BaseLayout.astro_astro_type_script_index_0_lang.CN6pKSHs.js"></script> </body> </html>
