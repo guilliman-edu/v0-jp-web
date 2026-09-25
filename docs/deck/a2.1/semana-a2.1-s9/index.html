@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Celebraciones — A2.1</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet"><style>.deck-topbar{display:flex;align-items:center;gap:.75rem;padding:.75rem 0}.deck-level{font-size:.75rem;font-weight:600;background:#dbeafe;color:#1d4ed8;padding:.25rem .75rem;border-radius:9999px;text-transform:uppercase}.deck-back{font-size:.8rem;color:#3b82f6;text-decoration:none;font-weight:500}.deck-spacer{flex:1}.profile-btn{font-size:.8rem;font-weight:500;color:#475569;cursor:pointer;border:1px solid #e2e8f0;border-radius:.5rem;background:#fff;padding:.375rem .75rem}.profile-btn:hover{background:#f1f5f9}.deck-vacio{font-size:.9rem;color:#94a3b8;text-align:center;padding:2rem 0}.week-panel{background:#fff;border:1px solid #e2e8f0;border-radius:1rem;padding:1.25rem}.week-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:1rem;flex-wrap:wrap}.week-header h2{font-size:1.2rem;font-weight:700}.week-seq{font-size:.75rem;color:#64748b;margin-top:.25rem}.week-progreso{font-size:.8rem;font-weight:600;background:#f1f5f9;color:#475569;padding:.25rem .75rem;border-radius:9999px;white-space:nowrap}.week-seccion{margin-top:1rem}.week-sub{font-size:.7rem;font-weight:700;color:#64748b;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.5rem}.week-lista{list-style:none;display:flex;flex-direction:column;gap:.5rem}.week-item{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;border:1px solid #e2e8f0;border-radius:.75rem;background:#fafbfc;transition:all .15s}.week-item:not(.pendiente){cursor:pointer}.week-item:hover{border-color:#93c5fd;background:#eff6ff}.week-item.pendiente{opacity:.7;cursor:not-allowed;border-style:dashed;background:#f8fafc}.week-check{width:1.1rem;height:1.1rem;cursor:pointer;flex-shrink:0}.week-item.completado{border-color:#d1fae5;background:#f0fdf4}.week-cuerpo{flex:1;display:flex;flex-direction:column;gap:.125rem;min-width:0}.week-titulo{font-size:.9rem;font-weight:600}.week-sub-desc{font-size:.75rem;color:#64748b}.week-link{color:#3b82f6;font-size:.8rem;text-decoration:none;flex-shrink:0}.week-badge-tipo{font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#475569;background:#e2e8f0;padding:.15rem .55rem;border-radius:999px;flex-shrink:0}.week-item.leccion .week-check{display:none}.week-nota{font-size:.85rem;color:#94a3b8;text-align:center;padding:1rem 0 .25rem}
+</style></head> <body class="bg-[var(--color-surface)] text-[var(--color-text)] font-sans"> <header class="sticky top-0 z-10 bg-white border-b border-[var(--color-border)] px-4 py-3 flex items-center justify-between"> <div class="flex items-center gap-3"> <a href="/v0-jp-web/" class="text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors"> <i data-lucide="arrow-left" class="w-5 h-5"></i> </a> <h1 class="text-lg font-semibold">Celebraciones — A2.1</h1> </div>  </header> <main class="max-w-4xl mx-auto px-4 py-6">  <div id="deckRoot" data-deck> <div class="deck-topbar"> <a href="/v0-jp-web/deck/a2.1/" class="deck-back">← Itinerario</a> <span class="deck-level">A2.1</span> <div class="deck-spacer"></div> <button class="profile-btn" id="profileBtn">👤 Perfil</button> </div> <section class="week-panel" aria-label="Celebraciones"> <div class="week-header"> <div> <h2>Celebraciones</h2> <p class="week-seq">s9 · semana-a2.1-s9</p> </div> <span class="week-progreso" id="weekProgreso">0 / 0 completadas</span> </div> <div id="weekBody"></div> <p class="week-nota" id="weekNota" style="display:none"></p> </section> </div> <div id="weekData" data-json style="display:none">{&quot;id&quot;:&quot;semana-a2.1-s9&quot;,&quot;contenido&quot;:&quot;&lt;div class=\&quot;week-seccion\&quot;&gt;&lt;div class=\&quot;week-sub\&quot;&gt;Prácticas de lectura&lt;/div&gt;&lt;ul class=\&quot;week-lista\&quot;&gt;&lt;li class=\&quot;week-item\&quot; data-identidad=\&quot;a2.1-s9::a2.1-s9-shinderera\&quot; data-href=\&quot;/v0-jp-web/leer/?id=a2.1-s9-shinderera\&quot;&gt;\n    &lt;input type=\&quot;checkbox\&quot; class=\&quot;week-check\&quot; aria-label=\&quot;Marcar シンデレラの靴\&quot;&gt;\n    &lt;span class=\&quot;week-cuerpo\&quot;&gt;\n      &lt;span class=\&quot;week-titulo\&quot;&gt;シンデレラの靴&lt;/span&gt;\n      &lt;span class=\&quot;week-sub-desc\&quot;&gt;El zapato de Cenicienta&lt;/span&gt;\n    &lt;/span&gt;\n    &lt;span class=\&quot;week-badge-tipo\&quot;&gt;lectura&lt;/span&gt;&lt;a href=\&quot;/v0-jp-web/leer/?id=a2.1-s9-shinderera\&quot; class=\&quot;week-link\&quot;&gt;Hacer →&lt;/a&gt;\n  &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;}</div>  <script>
+  // Progreso de la semana (ADR-0084 Q5/Q6/Q10/Q11/Q13). data-identidad presentes en
+  // el HTML; las lecciones no tienen checkbox (Q11) y no cuentan como checkpoint.
+  (function () {
+    var dataEl = document.getElementById("weekData");
+    var payload = JSON.parse(dataEl.textContent);
+    var idSemana = payload.id;
+    var body = document.getElementById("weekBody");
+    body.innerHTML = payload.contenido;
+
+    function readWeek() {
+      try { return JSON.parse(localStorage.getItem("v0jp:deck:act_" + idSemana) || "{}") } catch (_) { return {} }
+    }
+    function saveWeek(data) {
+      try { localStorage.setItem("v0jp:deck:act_" + idSemana, JSON.stringify(data)) } catch (_) {}
+    }
+    var checks = Array.prototype.slice.call(body.querySelectorAll(".week-item[data-identidad]"));
+    var total = checks.length;
+
+    function refresh() {
+      var data = readWeek();
+      var contadas = 0;
+      checks.forEach(function (el) {
+        var id = el.getAttribute("data-identidad");
+        var done = data[id] === true;
+        el.classList.toggle("completado", done);
+        var cb = el.querySelector(".week-check");
+        if (cb) cb.checked = done;
+        var link = el.querySelector(".week-link");
+        if (link) link.textContent = done ? "✓ Completada" : "Hacer →";
+        if (done) contadas++;
+      });
+      var prog = document.getElementById("weekProgreso");
+      if (prog) prog.textContent = contadas + " / " + total + " completadas";
+      var nota = document.getElementById("weekNota");
+      if (nota) {
+        if (total === 0) { nota.style.display = ""; nota.textContent = "Esta semana aún no tiene actividades. Vuelve pronto."; }
+        else nota.style.display = "none";
+      }
+    }
+
+    checks.forEach(function (el) {
+      var cb = el.querySelector(".week-check");
+      if (!cb) return;
+      cb.addEventListener("change", function (e) {
+        var id = el.getAttribute("data-identidad");
+        var data = readWeek();
+        if (e.target.checked) data[id] = true;
+        else delete data[id];
+        saveWeek(data);
+        refresh();
+      });
+    });
+
+    // Navegación: clic/tap en toda la tarjeta abre la actividad (no solo "Hacer →").
+    // Se ignora el checkbox (marca completada) y el propio enlace "Hacer →".
+    var items = Array.prototype.slice.call(body.querySelectorAll(".week-item[data-href]"));
+    items.forEach(function (el) {
+      el.addEventListener("click", function (ev) {
+        if (ev.target.closest(".week-check")) return;
+        if (ev.target.closest(".week-link")) return;
+        var href = el.getAttribute("data-href");
+        if (href) window.location.href = href;
+      });
+    });
+    refresh();
+  })();
+</script>  </main> <script type="module" src="/v0-jp-web/_astro/BaseLayout.astro_astro_type_script_index_0_lang.CN6pKSHs.js"></script> </body> </html>
