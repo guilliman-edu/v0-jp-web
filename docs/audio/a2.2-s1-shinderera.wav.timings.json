@@ -1,0 +1,596 @@
+{
+  "audio_file": "a2.2-s1-shinderera.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 146451,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "シンデレラの靴",
+      "start_ms": 0,
+      "end_ms": 2110,
+      "duration_ms": 2110,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラの靴",
+          "start_ms": 0,
+          "end_ms": 2110,
+          "duration_ms": 2110
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "むかし、シンデレラという女の子がいました。",
+      "start_ms": 2610,
+      "end_ms": 7777,
+      "duration_ms": 5167,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかし、",
+          "start_ms": 2610,
+          "end_ms": 4035,
+          "duration_ms": 1425
+        },
+        {
+          "index": 1,
+          "text": "シンデレラという女の子がいました。",
+          "start_ms": 4285,
+          "end_ms": 7777,
+          "duration_ms": 3492
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "シンデレラの母が死んだとき、シンデレラは寂しかったです。",
+      "start_ms": 8277,
+      "end_ms": 14616,
+      "duration_ms": 6339,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラの母が死んだとき、",
+          "start_ms": 8277,
+          "end_ms": 11246,
+          "duration_ms": 2969
+        },
+        {
+          "index": 1,
+          "text": "シンデレラは寂しかったです。",
+          "start_ms": 11496,
+          "end_ms": 14616,
+          "duration_ms": 3120
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "それから、父の家に継母と二人の女の子が来ました。",
+      "start_ms": 15116,
+      "end_ms": 21479,
+      "duration_ms": 6363,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それから、",
+          "start_ms": 15116,
+          "end_ms": 16692,
+          "duration_ms": 1576
+        },
+        {
+          "index": 1,
+          "text": "父の家に継母と二人の女の子が来ました。",
+          "start_ms": 16942,
+          "end_ms": 21479,
+          "duration_ms": 4537
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "継母と二人の女の子はシンデレラに親切ではありませんでした。",
+      "start_ms": 21979,
+      "end_ms": 27978,
+      "duration_ms": 5999,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "継母と二人の女の子はシンデレラに親切ではありませんでした。",
+          "start_ms": 21979,
+          "end_ms": 27978,
+          "duration_ms": 5999
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "シンデレラは毎日掃除したり、洗濯したりしました。",
+      "start_ms": 28478,
+      "end_ms": 34632,
+      "duration_ms": 6154,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラは毎日掃除したり、",
+          "start_ms": 28478,
+          "end_ms": 31854,
+          "duration_ms": 3376
+        },
+        {
+          "index": 1,
+          "text": "洗濯したりしました。",
+          "start_ms": 32104,
+          "end_ms": 34632,
+          "duration_ms": 2528
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "それから、服も作りました。",
+      "start_ms": 35132,
+      "end_ms": 39057,
+      "duration_ms": 3925,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それから、",
+          "start_ms": 35132,
+          "end_ms": 36685,
+          "duration_ms": 1553
+        },
+        {
+          "index": 1,
+          "text": "服も作りました。",
+          "start_ms": 36935,
+          "end_ms": 39057,
+          "duration_ms": 2122
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "シンデレラはとても忙しかったです。",
+      "start_ms": 39557,
+      "end_ms": 43083,
+      "duration_ms": 3526,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラはとても忙しかったです。",
+          "start_ms": 39557,
+          "end_ms": 43083,
+          "duration_ms": 3526
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "そして、寂しかったです。",
+      "start_ms": 43583,
+      "end_ms": 47310,
+      "duration_ms": 3727,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 43583,
+          "end_ms": 44996,
+          "duration_ms": 1413
+        },
+        {
+          "index": 1,
+          "text": "寂しかったです。",
+          "start_ms": 45246,
+          "end_ms": 47310,
+          "duration_ms": 2064
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "ある日、王子の家で大きいパーティーがありました。",
+      "start_ms": 47810,
+      "end_ms": 53465,
+      "duration_ms": 5655,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ある日、",
+          "start_ms": 47810,
+          "end_ms": 49456,
+          "duration_ms": 1646
+        },
+        {
+          "index": 1,
+          "text": "王子の家で大きいパーティーがありました。",
+          "start_ms": 49706,
+          "end_ms": 53465,
+          "duration_ms": 3759
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "町の女の子はみんな、パーティーに行きました。",
+      "start_ms": 53965,
+      "end_ms": 58946,
+      "duration_ms": 4981,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "町の女の子はみんな、",
+          "start_ms": 53965,
+          "end_ms": 56574,
+          "duration_ms": 2609
+        },
+        {
+          "index": 1,
+          "text": "パーティーに行きました。",
+          "start_ms": 56824,
+          "end_ms": 58946,
+          "duration_ms": 2122
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "シンデレラも行きたいと思いました。",
+      "start_ms": 59446,
+      "end_ms": 62694,
+      "duration_ms": 3248,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラも行きたいと思いました。",
+          "start_ms": 59446,
+          "end_ms": 62694,
+          "duration_ms": 3248
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "でも、継母は「服も靴もありませんから、行きません」と言っていました。",
+      "start_ms": 63194,
+      "end_ms": 70790,
+      "duration_ms": 7596,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 63194,
+          "end_ms": 64189,
+          "duration_ms": 995
+        },
+        {
+          "index": 1,
+          "text": "継母は「服も靴もありませんから、",
+          "start_ms": 64439,
+          "end_ms": 67873,
+          "duration_ms": 3434
+        },
+        {
+          "index": 2,
+          "text": "行きません」と言っていました。",
+          "start_ms": 68123,
+          "end_ms": 70790,
+          "duration_ms": 2667
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "夜、白い鳥が来ました。",
+      "start_ms": 71290,
+      "end_ms": 74796,
+      "duration_ms": 3506,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "夜、",
+          "start_ms": 71290,
+          "end_ms": 72227,
+          "duration_ms": 937
+        },
+        {
+          "index": 1,
+          "text": "白い鳥が来ました。",
+          "start_ms": 72477,
+          "end_ms": 74796,
+          "duration_ms": 2319
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "鳥はシンデレラに素敵な服と靴をくれました。",
+      "start_ms": 75296,
+      "end_ms": 79821,
+      "duration_ms": 4525,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "鳥はシンデレラに素敵な服と靴をくれました。",
+          "start_ms": 75296,
+          "end_ms": 79821,
+          "duration_ms": 4525
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "シンデレラは鳥から服と靴をもらって、パーティーへ行きました。",
+      "start_ms": 80321,
+      "end_ms": 86347,
+      "duration_ms": 6026,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラは鳥から服と靴をもらって、",
+          "start_ms": 80321,
+          "end_ms": 83987,
+          "duration_ms": 3666
+        },
+        {
+          "index": 1,
+          "text": "パーティーへ行きました。",
+          "start_ms": 84237,
+          "end_ms": 86347,
+          "duration_ms": 2110
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "王子はシンデレラを見て、一番素敵だと思いました。",
+      "start_ms": 86847,
+      "end_ms": 92571,
+      "duration_ms": 5724,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "王子はシンデレラを見て、",
+          "start_ms": 86847,
+          "end_ms": 89375,
+          "duration_ms": 2528
+        },
+        {
+          "index": 1,
+          "text": "一番素敵だと思いました。",
+          "start_ms": 89625,
+          "end_ms": 92571,
+          "duration_ms": 2946
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "王子はシンデレラとだけ踊りました。",
+      "start_ms": 93071,
+      "end_ms": 96609,
+      "duration_ms": 3538,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "王子はシンデレラとだけ踊りました。",
+          "start_ms": 93071,
+          "end_ms": 96609,
+          "duration_ms": 3538
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "シンデレラは帰るとき、靴をなくしました。",
+      "start_ms": 97109,
+      "end_ms": 102078,
+      "duration_ms": 4969,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラは帰るとき、",
+          "start_ms": 97109,
+          "end_ms": 99625,
+          "duration_ms": 2516
+        },
+        {
+          "index": 1,
+          "text": "靴をなくしました。",
+          "start_ms": 99875,
+          "end_ms": 102078,
+          "duration_ms": 2203
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "次の日、王子は町の女の子に会いました。",
+      "start_ms": 102578,
+      "end_ms": 108093,
+      "duration_ms": 5515,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "次の日、",
+          "start_ms": 102578,
+          "end_ms": 104293,
+          "duration_ms": 1715
+        },
+        {
+          "index": 1,
+          "text": "王子は町の女の子に会いました。",
+          "start_ms": 104543,
+          "end_ms": 108093,
+          "duration_ms": 3550
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "そして、みんなに靴を履きました。",
+      "start_ms": 108593,
+      "end_ms": 112796,
+      "duration_ms": 4203,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 108593,
+          "end_ms": 109937,
+          "duration_ms": 1344
+        },
+        {
+          "index": 1,
+          "text": "みんなに靴を履きました。",
+          "start_ms": 110187,
+          "end_ms": 112796,
+          "duration_ms": 2609
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "継母の女の子も靴を履きましたが、足が入りませんでした。",
+      "start_ms": 113296,
+      "end_ms": 119751,
+      "duration_ms": 6455,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "継母の女の子も靴を履きましたが、",
+          "start_ms": 113296,
+          "end_ms": 117078,
+          "duration_ms": 3782
+        },
+        {
+          "index": 1,
+          "text": "足が入りませんでした。",
+          "start_ms": 117328,
+          "end_ms": 119751,
+          "duration_ms": 2423
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "シンデレラが靴を履くと、足が入りました。",
+      "start_ms": 120251,
+      "end_ms": 125116,
+      "duration_ms": 4865,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラが靴を履くと、",
+          "start_ms": 120251,
+          "end_ms": 122872,
+          "duration_ms": 2621
+        },
+        {
+          "index": 1,
+          "text": "足が入りました。",
+          "start_ms": 123122,
+          "end_ms": 125116,
+          "duration_ms": 1994
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "それはシンデレラの靴でした。",
+      "start_ms": 125616,
+      "end_ms": 128899,
+      "duration_ms": 3283,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それはシンデレラの靴でした。",
+          "start_ms": 125616,
+          "end_ms": 128899,
+          "duration_ms": 3283
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "text": "王子は「シンデレラ、私と結婚しませんか」と言いました。",
+      "start_ms": 129399,
+      "end_ms": 135344,
+      "duration_ms": 5945,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "王子は「シンデレラ、",
+          "start_ms": 129399,
+          "end_ms": 131544,
+          "duration_ms": 2145
+        },
+        {
+          "index": 1,
+          "text": "私と結婚しませんか」と言いました。",
+          "start_ms": 131794,
+          "end_ms": 135344,
+          "duration_ms": 3550
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "text": "シンデレラは楽しかったです。",
+      "start_ms": 135844,
+      "end_ms": 138860,
+      "duration_ms": 3016,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラは楽しかったです。",
+          "start_ms": 135844,
+          "end_ms": 138860,
+          "duration_ms": 3016
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "text": "二人は結婚しました。",
+      "start_ms": 139360,
+      "end_ms": 142004,
+      "duration_ms": 2644,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "二人は結婚しました。",
+          "start_ms": 139360,
+          "end_ms": 142004,
+          "duration_ms": 2644
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "text": "そして、楽しく住みました。",
+      "start_ms": 142504,
+      "end_ms": 146451,
+      "duration_ms": 3947,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 142504,
+          "end_ms": 143859,
+          "duration_ms": 1355
+        },
+        {
+          "index": 1,
+          "text": "楽しく住みました。",
+          "start_ms": 144109,
+          "end_ms": 146451,
+          "duration_ms": 2342
+        }
+      ]
+    }
+  ]
+}
