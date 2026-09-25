@@ -66,6 +66,12 @@ Siguiente
       return /[\u4e00-\u9faf]/.test(str)
     }
 
+    // ADR-0085: la apuntilla sustituye a la lectura canónica en el <rt> y en
+    // el tooltip (data-reading): una sola lectura visible = una sola sonora.
+    function lecturaVisible(e) {
+      return e.apuntilla || e.lectura
+    }
+
     function rubyWrap(text, lectura) {
       const runs = []
       for (let i = 0; i < text.length; ) {
@@ -187,7 +193,7 @@ Siguiente
           ? line.replace(new RegExp("(" + pattern + ")", "g"), (match) => {
               const e = entryMap[match]
               if (!e) return match
-              const html = rubyWrap(match, e.lectura)
+              const html = rubyWrap(match, lecturaVisible(e))
               if (e._tipo === 'nombre') return html
               return '<span class="vocab-word" data-literal="' + e.literal + '" data-reading="' + lecturaVisible(e) + '" data-significado="' + e.significado + '" onclick="showTooltip(event, this)">' + html + '</span>'
             })
