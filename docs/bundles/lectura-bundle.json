@@ -2327,6 +2327,155 @@
     }
   },
   {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "b2.1-s2-ronin"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "浪人",
+      "nivel": "B2.1",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "浪人",
+        "武士",
+        "主君",
+        "江戸時代",
+        "平和",
+        "受験生",
+        "再び",
+        "準備",
+        "戦い",
+        "見つける",
+        "続く",
+        "指す"
+      ],
+      "texto": "浪人とは、主君がいなくて、仕事がない武士のことです。昔は、戦いが続いていました。武士は、すぐに新しい主君を見つけていました。しかし、江戸時代になって平和になると、仕事がない武士が多くなりました。\n\n若いうちに再び働く場所を見つけた人もいましたが、見つけることができない人も多かったのです。現代では、「浪人」という言葉は、試験に落ちて、来年の試験の準備をしている学生（受験生）を指しています。試験は、学校によって違いますが、浪人という言葉は今も使っています。\n",
+      "preguntas": [
+        "浪人とは、どんな武士のことですか。",
+        "昔の武士は、なぜすぐに新しい主君を見つけることができましたか。",
+        "江戸時代のあと、浪人はどうなりましたか。",
+        "現代では、浪人という言葉は何を指しますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "仕事",
+          "lectura": "しごと",
+          "significado": "trabajo"
+        },
+        {
+          "literal": "場所",
+          "lectura": "ばしょ",
+          "significado": "lugar"
+        },
+        {
+          "literal": "言葉",
+          "lectura": "ことば",
+          "significado": "palabra"
+        },
+        {
+          "literal": "学校",
+          "lectura": "がっこう",
+          "significado": "escuela"
+        },
+        {
+          "literal": "学生",
+          "lectura": "がくせい",
+          "significado": "estudiante"
+        },
+        {
+          "literal": "試験",
+          "lectura": "しけん",
+          "significado": "examen"
+        },
+        {
+          "literal": "準備",
+          "lectura": "じゅんび",
+          "significado": "preparación",
+          "exclusion": true
+        },
+        {
+          "literal": "戦い",
+          "lectura": "たたかい",
+          "significado": "batalla",
+          "exclusion": true
+        },
+        {
+          "literal": "見つける",
+          "lectura": "みつける",
+          "significado": "encontrar",
+          "exclusion": true
+        },
+        {
+          "literal": "続く",
+          "lectura": "つづく",
+          "significado": "continuar",
+          "exclusion": true
+        },
+        {
+          "literal": "指す",
+          "lectura": "さす",
+          "significado": "señalar",
+          "exclusion": true
+        },
+        {
+          "literal": "違う",
+          "lectura": "ちがう",
+          "significado": "diferir"
+        },
+        {
+          "literal": "浪人",
+          "lectura": "ろうにん",
+          "significado": "rōnin (samurái sin señor)",
+          "exclusion": true
+        },
+        {
+          "literal": "武士",
+          "lectura": "ぶし",
+          "significado": "samurái",
+          "exclusion": true
+        },
+        {
+          "literal": "主君",
+          "lectura": "しゅくん",
+          "significado": "señor feudal",
+          "exclusion": true
+        },
+        {
+          "literal": "江戸時代",
+          "lectura": "えどじだい",
+          "significado": "era Edo",
+          "exclusion": true
+        },
+        {
+          "literal": "平和",
+          "lectura": "へいわ",
+          "significado": "paz",
+          "exclusion": true
+        },
+        {
+          "literal": "受験生",
+          "lectura": "じゅけんせい",
+          "significado": "estudiante que repite examen",
+          "exclusion": true
+        },
+        {
+          "literal": "再び",
+          "lectura": "ふたたび",
+          "significado": "de nuevo",
+          "exclusion": true
+        }
+      ],
+      "nombres_propios": [],
+      "referencias": [
+        "s2-te-iru",
+        "s2-ni-yotte",
+        "s2-uchi-ni"
+      ]
+    }
+  },
+  {
     "apiVersion": "maquinaria/v1",
     "kind": "ActividadLectura",
     "metadata": {
