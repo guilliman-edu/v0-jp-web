@@ -1,0 +1,212 @@
+{
+  "audio_file": "a1-s13-deseos-fin-semana-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 47599,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "しゅうまつにしたいこと",
+      "start_ms": 0,
+      "end_ms": 2855,
+      "duration_ms": 2855,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "しゅうまつにしたいこと",
+          "start_ms": 0,
+          "end_ms": 2855,
+          "duration_ms": 2855
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "今しゅうまつ、たなかさんはすしを食べたいです。",
+      "start_ms": 3355,
+      "end_ms": 10221,
+      "duration_ms": 6866,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今しゅうまつ、",
+          "start_ms": 3355,
+          "end_ms": 5746,
+          "duration_ms": 2391
+        },
+        {
+          "index": 1,
+          "text": "たなかさんはすしを食べたいです。",
+          "start_ms": 5996,
+          "end_ms": 10221,
+          "duration_ms": 4225
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "それから、ジュースを飲みたいです。",
+      "start_ms": 10721,
+      "end_ms": 15706,
+      "duration_ms": 4985,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それから、",
+          "start_ms": 10721,
+          "end_ms": 12636,
+          "duration_ms": 1915
+        },
+        {
+          "index": 1,
+          "text": "ジュースを飲みたいです。",
+          "start_ms": 12886,
+          "end_ms": 15706,
+          "duration_ms": 2820
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "ごごはともだちに会いたいです。",
+      "start_ms": 16206,
+      "end_ms": 19816,
+      "duration_ms": 3610,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ごごはともだちに会いたいです。",
+          "start_ms": 16206,
+          "end_ms": 19816,
+          "duration_ms": 3610
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "話したいです。",
+      "start_ms": 20316,
+      "end_ms": 22637,
+      "duration_ms": 2321,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "話したいです。",
+          "start_ms": 20316,
+          "end_ms": 22637,
+          "duration_ms": 2321
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "えいがを見たいです。",
+      "start_ms": 23137,
+      "end_ms": 25830,
+      "duration_ms": 2693,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "えいがを見たいです。",
+          "start_ms": 23137,
+          "end_ms": 25830,
+          "duration_ms": 2693
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "でも、勉強したくないです。",
+      "start_ms": 26330,
+      "end_ms": 30712,
+      "duration_ms": 4382,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 26330,
+          "end_ms": 27537,
+          "duration_ms": 1207
+        },
+        {
+          "index": 1,
+          "text": "勉強したくないです。",
+          "start_ms": 27787,
+          "end_ms": 30712,
+          "duration_ms": 2925
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "遊びたいです。",
+      "start_ms": 31212,
+      "end_ms": 33638,
+      "duration_ms": 2426,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "遊びたいです。",
+          "start_ms": 31212,
+          "end_ms": 33638,
+          "duration_ms": 2426
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "らいねん、にほんへ行きたいです。",
+      "start_ms": 34138,
+      "end_ms": 38891,
+      "duration_ms": 4753,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "らいねん、",
+          "start_ms": 34138,
+          "end_ms": 35925,
+          "duration_ms": 1787
+        },
+        {
+          "index": 1,
+          "text": "にほんへ行きたいです。",
+          "start_ms": 36175,
+          "end_ms": 38891,
+          "duration_ms": 2716
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "にほんでおいしい料理を作りたいです。",
+      "start_ms": 39391,
+      "end_ms": 43547,
+      "duration_ms": 4156,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にほんでおいしい料理を作りたいです。",
+          "start_ms": 39391,
+          "end_ms": 43547,
+          "duration_ms": 4156
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "あなたは何がしたいですか。",
+      "start_ms": 44047,
+      "end_ms": 47599,
+      "duration_ms": 3552,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "あなたは何がしたいですか。",
+          "start_ms": 44047,
+          "end_ms": 47599,
+          "duration_ms": 3552
+        }
+      ]
+    }
+  ]
+}
