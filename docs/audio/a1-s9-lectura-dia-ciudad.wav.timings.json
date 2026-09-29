@@ -1,0 +1,429 @@
+{
+  "audio_file": "a1-s9-lectura-dia-ciudad.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 94156,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "まちのいちにち",
+      "start_ms": 0,
+      "end_ms": 2419,
+      "duration_ms": 2419,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "まちのいちにち",
+          "start_ms": 0,
+          "end_ms": 2419,
+          "duration_ms": 2419
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "きょうはいい天気です。",
+      "start_ms": 2919,
+      "end_ms": 5616,
+      "duration_ms": 2697,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "きょうはいい天気です。",
+          "start_ms": 2919,
+          "end_ms": 5616,
+          "duration_ms": 2697
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "すずきさんはともだちとまちに行きます。",
+      "start_ms": 6116,
+      "end_ms": 10218,
+      "duration_ms": 4102,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すずきさんはともだちとまちに行きます。",
+          "start_ms": 6116,
+          "end_ms": 10218,
+          "duration_ms": 4102
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "けさ、七時に起きました。",
+      "start_ms": 10718,
+      "end_ms": 14703,
+      "duration_ms": 3985,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "けさ、",
+          "start_ms": 10718,
+          "end_ms": 11906,
+          "duration_ms": 1188
+        },
+        {
+          "index": 1,
+          "text": "七時に起きました。",
+          "start_ms": 12156,
+          "end_ms": 14703,
+          "duration_ms": 2547
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "朝ごはんを食べました。",
+      "start_ms": 15203,
+      "end_ms": 18075,
+      "duration_ms": 2872,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "朝ごはんを食べました。",
+          "start_ms": 15203,
+          "end_ms": 18075,
+          "duration_ms": 2872
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "すずきさんは毎日七時に起きます。",
+      "start_ms": 18575,
+      "end_ms": 23258,
+      "duration_ms": 4683,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すずきさんは毎日七時に起きます。",
+          "start_ms": 18575,
+          "end_ms": 23258,
+          "duration_ms": 4683
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "ときどきひとりで朝ごはんを食べます。",
+      "start_ms": 23758,
+      "end_ms": 28139,
+      "duration_ms": 4381,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ときどきひとりで朝ごはんを食べます。",
+          "start_ms": 23758,
+          "end_ms": 28139,
+          "duration_ms": 4381
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "八時にうちを出ました。",
+      "start_ms": 28639,
+      "end_ms": 31499,
+      "duration_ms": 2860,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "八時にうちを出ました。",
+          "start_ms": 28639,
+          "end_ms": 31499,
+          "duration_ms": 2860
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "駅でともだちに会いました。",
+      "start_ms": 31999,
+      "end_ms": 35045,
+      "duration_ms": 3046,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "駅でともだちに会いました。",
+          "start_ms": 31999,
+          "end_ms": 35045,
+          "duration_ms": 3046
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "いつも駅で会います。",
+      "start_ms": 35545,
+      "end_ms": 38242,
+      "duration_ms": 2697,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いつも駅で会います。",
+          "start_ms": 35545,
+          "end_ms": 38242,
+          "duration_ms": 2697
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "とてもたのしいです。",
+      "start_ms": 38742,
+      "end_ms": 41138,
+      "duration_ms": 2396,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "とてもたのしいです。",
+          "start_ms": 38742,
+          "end_ms": 41138,
+          "duration_ms": 2396
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "まちでえいがを見ました。",
+      "start_ms": 41638,
+      "end_ms": 44602,
+      "duration_ms": 2964,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "まちでえいがを見ました。",
+          "start_ms": 41638,
+          "end_ms": 44602,
+          "duration_ms": 2964
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "とてもおもしろかったです。",
+      "start_ms": 45102,
+      "end_ms": 48125,
+      "duration_ms": 3023,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "とてもおもしろかったです。",
+          "start_ms": 45102,
+          "end_ms": 48125,
+          "duration_ms": 3023
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "すずきさんはよくえいがを見ます。",
+      "start_ms": 48625,
+      "end_ms": 52321,
+      "duration_ms": 3696,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すずきさんはよくえいがを見ます。",
+          "start_ms": 48625,
+          "end_ms": 52321,
+          "duration_ms": 3696
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "あまりテレビを見ません。",
+      "start_ms": 52821,
+      "end_ms": 55902,
+      "duration_ms": 3081,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "あまりテレビを見ません。",
+          "start_ms": 52821,
+          "end_ms": 55902,
+          "duration_ms": 3081
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "おひるにレストランで食べました。",
+      "start_ms": 56402,
+      "end_ms": 59703,
+      "duration_ms": 3301,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おひるにレストランで食べました。",
+          "start_ms": 56402,
+          "end_ms": 59703,
+          "duration_ms": 3301
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "すずきさんはあまりお肉を食べません。",
+      "start_ms": 60203,
+      "end_ms": 64363,
+      "duration_ms": 4160,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すずきさんはあまりお肉を食べません。",
+          "start_ms": 60203,
+          "end_ms": 64363,
+          "duration_ms": 4160
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "魚を食べました。",
+      "start_ms": 64863,
+      "end_ms": 67340,
+      "duration_ms": 2477,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "魚を食べました。",
+          "start_ms": 64863,
+          "end_ms": 67340,
+          "duration_ms": 2477
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "ごご、かいものをしました。",
+      "start_ms": 67840,
+      "end_ms": 71558,
+      "duration_ms": 3718,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ごご、",
+          "start_ms": 67840,
+          "end_ms": 68982,
+          "duration_ms": 1142
+        },
+        {
+          "index": 1,
+          "text": "かいものをしました。",
+          "start_ms": 69232,
+          "end_ms": 71558,
+          "duration_ms": 2326
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "本とCDを買いました。",
+      "start_ms": 72058,
+      "end_ms": 74454,
+      "duration_ms": 2396,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "本とCDを買いました。",
+          "start_ms": 72058,
+          "end_ms": 74454,
+          "duration_ms": 2396
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "すずきさんはぜんぜんコーヒーを飲みません。",
+      "start_ms": 74954,
+      "end_ms": 79242,
+      "duration_ms": 4288,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すずきさんはぜんぜんコーヒーを飲みません。",
+          "start_ms": 74954,
+          "end_ms": 79242,
+          "duration_ms": 4288
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "いつもお茶を飲みます。",
+      "start_ms": 79742,
+      "end_ms": 82556,
+      "duration_ms": 2814,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いつもお茶を飲みます。",
+          "start_ms": 79742,
+          "end_ms": 82556,
+          "duration_ms": 2814
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "こんばん、七時にうちに帰ります。",
+      "start_ms": 83056,
+      "end_ms": 87830,
+      "duration_ms": 4774,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "こんばん、",
+          "start_ms": 83056,
+          "end_ms": 84662,
+          "duration_ms": 1606
+        },
+        {
+          "index": 1,
+          "text": "七時にうちに帰ります。",
+          "start_ms": 84912,
+          "end_ms": 87830,
+          "duration_ms": 2918
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "あしたはしけんがあります。",
+      "start_ms": 88330,
+      "end_ms": 91144,
+      "duration_ms": 2814,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "あしたはしけんがあります。",
+          "start_ms": 88330,
+          "end_ms": 91144,
+          "duration_ms": 2814
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "text": "うちで勉強します。",
+      "start_ms": 91644,
+      "end_ms": 94156,
+      "duration_ms": 2512,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "うちで勉強します。",
+          "start_ms": 91644,
+          "end_ms": 94156,
+          "duration_ms": 2512
+        }
+      ]
+    }
+  ]
+}

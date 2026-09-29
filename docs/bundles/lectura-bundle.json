@@ -1700,6 +1700,1238 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s2-choushiro"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "チョウシロウの約束",
+      "nivel": "A2.2",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "昔",
+        "日本",
+        "家",
+        "住む",
+        "男の子",
+        "名前",
+        "友達",
+        "お子さん",
+        "朝",
+        "明日",
+        "夜",
+        "日",
+        "二人",
+        "人",
+        "上",
+        "下",
+        "中",
+        "高い",
+        "所",
+        "可愛い",
+        "私",
+        "大きい",
+        "音",
+        "死ぬ",
+        "痛い",
+        "聞く",
+        "見る",
+        "起きる",
+        "歩く",
+        "奥さん",
+        "部下",
+        "連れていく",
+        "窓",
+        "持つ",
+        "部屋",
+        "来る",
+        "行く",
+        "説明する",
+        "座る",
+        "待つ",
+        "嘘をつく",
+        "今朝",
+        "今",
+        "言う",
+        "思う",
+        "知る",
+        "伝える",
+        "誰",
+        "何",
+        "悪い",
+        "困る",
+        "鞄",
+        "入る",
+        "入れる",
+        "閉める",
+        "庭",
+        "置く",
+        "戻る",
+        "次",
+        "下ろす",
+        "出る",
+        "弁当",
+        "食べ物",
+        "食べる",
+        "お腹が空く",
+        "お礼",
+        "話す",
+        "早い",
+        "悲しい",
+        "親",
+        "病気",
+        "髪",
+        "直す",
+        "怖い",
+        "顔",
+        "自由",
+        "大切",
+        "仲がいい",
+        "時間",
+        "長い",
+        "有名",
+        "覚える",
+        "約束",
+        "取る",
+        "登る",
+        "転ぶ",
+        "怒る",
+        "寝る",
+        "前",
+        "後",
+        "お腹",
+        "側",
+        "言いました",
+        "言って",
+        "言った",
+        "言いませんでした",
+        "言いたい",
+        "取りました",
+        "取りません",
+        "取ります",
+        "取ってください",
+        "行きました",
+        "行ってください",
+        "思って",
+        "思いました",
+        "持っていました",
+        "持って",
+        "持ちました",
+        "怒りました",
+        "怒ります",
+        "怒っています",
+        "寝た",
+        "転びました",
+        "転んだ",
+        "見ました",
+        "見て",
+        "待ちました",
+        "登って",
+        "登りました",
+        "困っています",
+        "置きました",
+        "出ました",
+        "出します",
+        "話します",
+        "知ります",
+        "知りました",
+        "歩いて",
+        "嬉しくて",
+        "死んでいました",
+        "死にませんでした",
+        "高くなかった",
+        "痛かったです",
+        "聞きました",
+        "聞いて",
+        "起きました",
+        "来てください",
+        "座って",
+        "座りました",
+        "好きでした",
+        "入れます",
+        "入りました",
+        "閉めて",
+        "戻りました",
+        "空いて",
+        "食べて",
+        "食べました",
+        "早く",
+        "伝えましょう",
+        "悲しく",
+        "直しました",
+        "怖くない",
+        "覚えています",
+        "良く",
+        "帰りません",
+        "悪く",
+        "住んで",
+        "連れて",
+        "一つ",
+        "嘘",
+        "時",
+        "子",
+        "説明",
+        "お父さん",
+        "十歳",
+        "十三歳",
+        "我が",
+        "自分",
+        "大きく",
+        "将軍",
+        "侍",
+        "雀",
+        "刀",
+        "みんな"
+      ],
+      "preguntas": [
+        "チョウシロウは何歳ですか。",
+        "竹千代は、何が欲しいと言いましたか。",
+        "チョウシロウは、夜に何をしましたか。",
+        "奥さんは、チョウシロウに何をあげましたか。",
+        "チョウシロウは、大切な友達を思って、何と言っていましたか。",
+        "最後に、将軍はチョウシロウに何と言いましたか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "hace mucho tiempo, tiempos pasados"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "家",
+          "lectura": "いえ",
+          "significado": "casa"
+        },
+        {
+          "literal": "住む",
+          "lectura": "すむ",
+          "significado": "vivir (residir)"
+        },
+        {
+          "literal": "男の子",
+          "lectura": "おとこのこ",
+          "significado": "niño"
+        },
+        {
+          "literal": "名前",
+          "lectura": "なまえ",
+          "significado": "nombre"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "お子さん",
+          "lectura": "おこさん",
+          "significado": "hijo (de otro)"
+        },
+        {
+          "literal": "朝",
+          "lectura": "あさ",
+          "significado": "mañana"
+        },
+        {
+          "literal": "明日",
+          "lectura": "あした",
+          "significado": "mañana (día siguiente)"
+        },
+        {
+          "literal": "夜",
+          "lectura": "よる",
+          "significado": "noche"
+        },
+        {
+          "literal": "日",
+          "lectura": "ひ",
+          "significado": "día; sol"
+        },
+        {
+          "literal": "二人",
+          "lectura": "ふたり",
+          "significado": "dos personas"
+        },
+        {
+          "literal": "人",
+          "lectura": "ひと",
+          "significado": "persona"
+        },
+        {
+          "literal": "上",
+          "lectura": "うえ",
+          "significado": "encima"
+        },
+        {
+          "literal": "下",
+          "lectura": "した",
+          "significado": "debajo"
+        },
+        {
+          "literal": "中",
+          "lectura": "なか",
+          "significado": "dentro"
+        },
+        {
+          "literal": "高い",
+          "lectura": "たかい",
+          "significado": "caro"
+        },
+        {
+          "literal": "所",
+          "lectura": "ところ",
+          "significado": "lugar"
+        },
+        {
+          "literal": "可愛い",
+          "lectura": "かわいい",
+          "significado": "lindo, bonito"
+        },
+        {
+          "literal": "私",
+          "lectura": "わたし",
+          "significado": "yo"
+        },
+        {
+          "literal": "あなた",
+          "lectura": "あなた",
+          "significado": "tú"
+        },
+        {
+          "literal": "大きい",
+          "lectura": "おおきい",
+          "significado": "grande"
+        },
+        {
+          "literal": "音",
+          "lectura": "おと",
+          "significado": "sonido"
+        },
+        {
+          "literal": "死ぬ",
+          "lectura": "しぬ",
+          "significado": "morir"
+        },
+        {
+          "literal": "痛い",
+          "lectura": "いたい",
+          "significado": "dolorido"
+        },
+        {
+          "literal": "聞く",
+          "lectura": "きく",
+          "significado": "escuchar"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver"
+        },
+        {
+          "literal": "起きる",
+          "lectura": "おきる",
+          "significado": "levantarse"
+        },
+        {
+          "literal": "歩く",
+          "lectura": "あるく",
+          "significado": "caminar, andar"
+        },
+        {
+          "literal": "奥さん",
+          "lectura": "おくさん",
+          "significado": "esposa (de otro)"
+        },
+        {
+          "literal": "部下",
+          "lectura": "ぶか",
+          "significado": "subordinado, subalterno"
+        },
+        {
+          "literal": "連れていく",
+          "lectura": "つれていく",
+          "significado": "llevar a alguien (a un lugar)"
+        },
+        {
+          "literal": "窓",
+          "lectura": "まど",
+          "significado": "ventana"
+        },
+        {
+          "literal": "ろうそく",
+          "lectura": "ろうそく",
+          "significado": "vela"
+        },
+        {
+          "literal": "持つ",
+          "lectura": "もつ",
+          "significado": "llevar / sostener"
+        },
+        {
+          "literal": "部屋",
+          "lectura": "へや",
+          "significado": "habitación, cuarto"
+        },
+        {
+          "literal": "来る",
+          "lectura": "くる",
+          "significado": "venir"
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir"
+        },
+        {
+          "literal": "説明する",
+          "lectura": "せつめいする",
+          "significado": "explicar"
+        },
+        {
+          "literal": "座る",
+          "lectura": "すわる",
+          "significado": "sentarse"
+        },
+        {
+          "literal": "待つ",
+          "lectura": "まつ",
+          "significado": "esperar"
+        },
+        {
+          "literal": "それ",
+          "lectura": "それ",
+          "significado": "eso"
+        },
+        {
+          "literal": "嘘をつく",
+          "lectura": "うそをつく",
+          "significado": "mentir"
+        },
+        {
+          "literal": "今朝",
+          "lectura": "けさ",
+          "significado": "esta mañana"
+        },
+        {
+          "literal": "今",
+          "lectura": "いま",
+          "significado": "ahora"
+        },
+        {
+          "literal": "言う",
+          "lectura": "いう",
+          "significado": "decir"
+        },
+        {
+          "literal": "思う",
+          "lectura": "おもう",
+          "significado": "pensar"
+        },
+        {
+          "literal": "知る",
+          "lectura": "しる",
+          "significado": "llegar a conocer"
+        },
+        {
+          "literal": "伝える",
+          "lectura": "つたえる",
+          "significado": "transmitir (un mensaje)"
+        },
+        {
+          "literal": "誰",
+          "lectura": "だれ",
+          "significado": "quién"
+        },
+        {
+          "literal": "何",
+          "lectura": "なに",
+          "significado": "qué — interrogativo, licenciado por particula-ka",
+          "exclusion": true
+        },
+        {
+          "literal": "悪い",
+          "lectura": "わるい",
+          "significado": "malo"
+        },
+        {
+          "literal": "困る",
+          "lectura": "こまる",
+          "significado": "tener problemas, estar en apuros"
+        },
+        {
+          "literal": "鞄",
+          "lectura": "かばん",
+          "significado": "bolsa"
+        },
+        {
+          "literal": "入る",
+          "lectura": "はいる",
+          "significado": "entrar"
+        },
+        {
+          "literal": "入れる",
+          "lectura": "いれる",
+          "significado": "meter, poner; preparar (té/café)"
+        },
+        {
+          "literal": "閉める",
+          "lectura": "しめる",
+          "significado": "cerrar"
+        },
+        {
+          "literal": "庭",
+          "lectura": "にわ",
+          "significado": "jardín; patio"
+        },
+        {
+          "literal": "置く",
+          "lectura": "おく",
+          "significado": "poner, colocar"
+        },
+        {
+          "literal": "戻る",
+          "lectura": "もどる",
+          "significado": "regresar; volver"
+        },
+        {
+          "literal": "次",
+          "lectura": "つぎ",
+          "significado": "siguiente"
+        },
+        {
+          "literal": "下ろす",
+          "lectura": "おろす",
+          "significado": "retirar (dinero)"
+        },
+        {
+          "literal": "出る",
+          "lectura": "でる",
+          "significado": "salir"
+        },
+        {
+          "literal": "まだ",
+          "lectura": "まだ",
+          "significado": "todavía no"
+        },
+        {
+          "literal": "弁当",
+          "lectura": "べんとう",
+          "significado": "almuerzo empacado / bento"
+        },
+        {
+          "literal": "食べ物",
+          "lectura": "たべもの",
+          "significado": "comida"
+        },
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "お腹が空く",
+          "lectura": "おなかがすく",
+          "significado": "tener hambre"
+        },
+        {
+          "literal": "お礼",
+          "lectura": "おれい",
+          "significado": "agradecimiento, gratitud"
+        },
+        {
+          "literal": "話す",
+          "lectura": "はなす",
+          "significado": "hablar"
+        },
+        {
+          "literal": "早い",
+          "lectura": "はやい",
+          "significado": "temprano"
+        },
+        {
+          "literal": "ごめん",
+          "lectura": "ごめん",
+          "significado": "lo siento, perdón (informal)"
+        },
+        {
+          "literal": "悲しい",
+          "lectura": "かなしい",
+          "significado": "triste"
+        },
+        {
+          "literal": "親",
+          "lectura": "おや",
+          "significado": "padre, madre, padres"
+        },
+        {
+          "literal": "病気",
+          "lectura": "びょうき",
+          "significado": "enfermedad"
+        },
+        {
+          "literal": "ひどい",
+          "lectura": "ひどい",
+          "significado": "terrible, cruel"
+        },
+        {
+          "literal": "髪",
+          "lectura": "かみ",
+          "significado": "cabello, pelo"
+        },
+        {
+          "literal": "直す",
+          "lectura": "なおす",
+          "significado": "arreglar, reparar, corregir"
+        },
+        {
+          "literal": "怖い",
+          "lectura": "こわい",
+          "significado": "que da miedo, espantoso/a"
+        },
+        {
+          "literal": "顔",
+          "lectura": "かお",
+          "significado": "cara, rostro"
+        },
+        {
+          "literal": "自由",
+          "lectura": "じゆう",
+          "significado": "libertad"
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante, valioso"
+        },
+        {
+          "literal": "仲がいい",
+          "lectura": "なかがいい",
+          "significado": "cercano, llevarse bien"
+        },
+        {
+          "literal": "時間",
+          "lectura": "じかん",
+          "significado": "tiempo"
+        },
+        {
+          "literal": "長い",
+          "lectura": "ながい",
+          "significado": "largo"
+        },
+        {
+          "literal": "有名",
+          "lectura": "ゆうめい",
+          "significado": "famoso"
+        },
+        {
+          "literal": "覚える",
+          "lectura": "おぼえる",
+          "significado": "memorizar"
+        },
+        {
+          "literal": "約束",
+          "lectura": "やくそく",
+          "significado": "promesa; cita"
+        },
+        {
+          "literal": "わかる",
+          "lectura": "わかる",
+          "significado": "entender"
+        },
+        {
+          "literal": "取る",
+          "lectura": "とる",
+          "significado": "tomar (clase), obtener"
+        },
+        {
+          "literal": "登る",
+          "lectura": "のぼる",
+          "significado": "escalar, subir"
+        },
+        {
+          "literal": "転ぶ",
+          "lectura": "ころぶ",
+          "significado": "caerse"
+        },
+        {
+          "literal": "怒る",
+          "lectura": "おこる",
+          "significado": "enojarse"
+        },
+        {
+          "literal": "寝る",
+          "lectura": "ねる",
+          "significado": "dormir"
+        },
+        {
+          "literal": "みんな",
+          "lectura": "皆んな",
+          "significado": "todos",
+          "exclusion": true
+        },
+        {
+          "literal": "いつも",
+          "lectura": "いつも",
+          "significado": "siempre"
+        },
+        {
+          "literal": "すごく",
+          "lectura": "すごく",
+          "significado": "muy, super"
+        },
+        {
+          "literal": "ちょっと",
+          "lectura": "ちょっと",
+          "significado": "un poco"
+        },
+        {
+          "literal": "あまり",
+          "lectura": "あまり",
+          "significado": "no muy"
+        },
+        {
+          "literal": "もう",
+          "lectura": "もう",
+          "significado": "ya"
+        },
+        {
+          "literal": "そして",
+          "lectura": "そして",
+          "significado": "y entonces"
+        },
+        {
+          "literal": "でも",
+          "lectura": "でも",
+          "significado": "pero"
+        },
+        {
+          "literal": "前",
+          "lectura": "まえ",
+          "significado": "delante"
+        },
+        {
+          "literal": "後",
+          "lectura": "あと",
+          "significado": "después"
+        },
+        {
+          "literal": "お腹",
+          "lectura": "おなか",
+          "significado": "estómago"
+        },
+        {
+          "literal": "側",
+          "lectura": "そば",
+          "significado": "cerca"
+        },
+        {
+          "literal": "言いました",
+          "lectura": "いいました",
+          "significado": "decir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "言って",
+          "lectura": "いって",
+          "significado": "decir (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "言った",
+          "lectura": "いった",
+          "significado": "decir (pasado simple)",
+          "exclusion": true
+        },
+        {
+          "literal": "言いませんでした",
+          "lectura": "いいませんでした",
+          "significado": "no decir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "言いたい",
+          "lectura": "いいたい",
+          "significado": "querer decir",
+          "exclusion": true
+        },
+        {
+          "literal": "取りました",
+          "lectura": "とりました",
+          "significado": "coger (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "取りません",
+          "lectura": "とりません",
+          "significado": "no coger (masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "取ります",
+          "lectura": "とります",
+          "significado": "coger (masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "取ってください",
+          "lectura": "とってください",
+          "significado": "tomar, por favor",
+          "exclusion": true
+        },
+        {
+          "literal": "行きました",
+          "lectura": "いきました",
+          "significado": "ir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "行ってください",
+          "lectura": "いってください",
+          "significado": "ir, por favor",
+          "exclusion": true
+        },
+        {
+          "literal": "思って",
+          "lectura": "おもって",
+          "significado": "pensar (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "思いました",
+          "lectura": "おもいました",
+          "significado": "pensar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "持っていました",
+          "lectura": "もっていました",
+          "significado": "sostener (pasado progresivo)",
+          "exclusion": true
+        },
+        {
+          "literal": "持って",
+          "lectura": "もって",
+          "significado": "sostener (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "持ちました",
+          "lectura": "もちました",
+          "significado": "sostener (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "怒りました",
+          "lectura": "おこりました",
+          "significado": "enojarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "怒ります",
+          "lectura": "おこります",
+          "significado": "enojarse (masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "怒っています",
+          "lectura": "おこっています",
+          "significado": "estar enojado",
+          "exclusion": true
+        },
+        {
+          "literal": "寝た",
+          "lectura": "ねた",
+          "significado": "dormir (pasado simple)",
+          "exclusion": true
+        },
+        {
+          "literal": "転びました",
+          "lectura": "ころびました",
+          "significado": "caerse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "転んだ",
+          "lectura": "ころんだ",
+          "significado": "caerse (pasado simple)",
+          "exclusion": true
+        },
+        {
+          "literal": "見ました",
+          "lectura": "みました",
+          "significado": "mirar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "見て",
+          "lectura": "みて",
+          "significado": "mirar (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "待ちました",
+          "lectura": "まちました",
+          "significado": "esperar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "登って",
+          "lectura": "のぼって",
+          "significado": "subir (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "登りました",
+          "lectura": "のぼりました",
+          "significado": "subir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "困っています",
+          "lectura": "こまっています",
+          "significado": "estar en apuros",
+          "exclusion": true
+        },
+        {
+          "literal": "置きました",
+          "lectura": "おきました",
+          "significado": "poner (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "出ました",
+          "lectura": "でました",
+          "significado": "salir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "出します",
+          "lectura": "だします",
+          "significado": "sacar (masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "話します",
+          "lectura": "はなします",
+          "significado": "hablar (masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "知ります",
+          "lectura": "しります",
+          "significado": "conocer (masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "知りました",
+          "lectura": "しりました",
+          "significado": "conocer (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "歩いて",
+          "lectura": "あるいて",
+          "significado": "caminar (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "嬉しくて",
+          "lectura": "うれしくて",
+          "significado": "alegrése y (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "死んでいました",
+          "lectura": "しんでいました",
+          "significado": "estar muerto (el gorrión)",
+          "exclusion": true
+        },
+        {
+          "literal": "死にませんでした",
+          "lectura": "しにませんでした",
+          "significado": "no morir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "高くなかった",
+          "lectura": "たかくなかった",
+          "significado": "no ser alto (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "痛かったです",
+          "lectura": "いたかったです",
+          "significado": "doler (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "聞きました",
+          "lectura": "ききました",
+          "significado": "escuchar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "聞いて",
+          "lectura": "きいて",
+          "significado": "escuchar (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "起きました",
+          "lectura": "おきました",
+          "significado": "levantarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "来てください",
+          "lectura": "きてください",
+          "significado": "venir, por favor",
+          "exclusion": true
+        },
+        {
+          "literal": "座って",
+          "lectura": "すわって",
+          "significado": "sentarse (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "座りました",
+          "lectura": "すわりました",
+          "significado": "sentarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "好きでした",
+          "lectura": "すきでした",
+          "significado": "gustar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "入れます",
+          "lectura": "はいれます",
+          "significado": "meter (masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "入りました",
+          "lectura": "はいりました",
+          "significado": "entrar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "閉めて",
+          "lectura": "しめて",
+          "significado": "cerrar (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "戻りました",
+          "lectura": "もどりました",
+          "significado": "regresar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "空いて",
+          "lectura": "あいて",
+          "significado": "tener hambre (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "食べて",
+          "lectura": "たべて",
+          "significado": "comer (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "食べました",
+          "lectura": "たべました",
+          "significado": "comer (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "早く",
+          "lectura": "はやく",
+          "significado": "pronto, deprisa",
+          "exclusion": true
+        },
+        {
+          "literal": "伝えましょう",
+          "lectura": "つたえしよう",
+          "significado": "informar (volitivo)",
+          "exclusion": true
+        },
+        {
+          "literal": "悲しく",
+          "lectura": "かなしく",
+          "significado": "triste",
+          "exclusion": true
+        },
+        {
+          "literal": "直しました",
+          "lectura": "なしました",
+          "significado": "arreglar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "怖くない",
+          "lectura": "こわくない",
+          "significado": "no dar miedo",
+          "exclusion": true
+        },
+        {
+          "literal": "覚えています",
+          "lectura": "おぼえています",
+          "significado": "recordar (progresivo)",
+          "exclusion": true
+        },
+        {
+          "literal": "良く",
+          "lectura": "よく",
+          "significado": "bien",
+          "exclusion": true
+        },
+        {
+          "literal": "帰りません",
+          "lectura": "かえりません",
+          "significado": "no regresar (masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "悪く",
+          "lectura": "あしく",
+          "significado": "mal (adverbio)",
+          "exclusion": true
+        },
+        {
+          "literal": "住んで",
+          "lectura": "すんで",
+          "significado": "vivir (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "連れて",
+          "lectura": "つれて",
+          "significado": "llevar (te)",
+          "exclusion": true
+        },
+        {
+          "literal": "一つ",
+          "lectura": "ひとつ",
+          "significado": "uno (número)",
+          "exclusion": true
+        },
+        {
+          "literal": "嘘",
+          "lectura": "うそ",
+          "significado": "mentira",
+          "exclusion": true
+        },
+        {
+          "literal": "時",
+          "lectura": "とき",
+          "significado": "momento, cuando",
+          "exclusion": true
+        },
+        {
+          "literal": "子",
+          "lectura": "こ",
+          "significado": "niño",
+          "exclusion": true
+        },
+        {
+          "literal": "説明",
+          "lectura": "せつめい",
+          "significado": "explicación",
+          "exclusion": true
+        },
+        {
+          "literal": "お父さん",
+          "lectura": "おとうさん",
+          "significado": "padre",
+          "exclusion": true
+        },
+        {
+          "literal": "十歳",
+          "lectura": "じゅうさい",
+          "significado": "diez años",
+          "exclusion": true
+        },
+        {
+          "literal": "十三歳",
+          "lectura": "じゅうさんさい",
+          "significado": "trece años",
+          "exclusion": true
+        },
+        {
+          "literal": "我が",
+          "lectura": "われ",
+          "significado": "nuestro (yo formal)",
+          "exclusion": true
+        },
+        {
+          "literal": "自分",
+          "lectura": "じぶん",
+          "significado": "uno mismo",
+          "exclusion": true
+        },
+        {
+          "literal": "大きく",
+          "lectura": "おおきく",
+          "significado": "grande (連用形/te)",
+          "exclusion": true
+        },
+        {
+          "literal": "将軍",
+          "lectura": "しょうぐん",
+          "significado": "general, jefe militar (shogun)",
+          "exclusion": true
+        },
+        {
+          "literal": "侍",
+          "lectura": "さむらい",
+          "significado": "samurai",
+          "exclusion": true
+        },
+        {
+          "literal": "雀",
+          "lectura": "すずめ",
+          "significado": "gorrión",
+          "exclusion": true
+        },
+        {
+          "literal": "刀",
+          "lectura": "かたな",
+          "significado": "sable, espada japonesa",
+          "exclusion": true
+        }
+      ],
+      "nombres_propios": [
+        {
+          "literal": "チョウシロウ",
+          "lectura": "ちょうしろう"
+        },
+        {
+          "literal": "竹千代",
+          "lectura": "たけちよ"
+        }
+      ],
+      "referencias": [
+        "forma-simple",
+        "forma-te",
+        "usos-forma-te",
+        "particula-ga"
+      ],
+      "texto": "約束\n昔、日本に、将軍の家に住んでいる男の子がいました。男の子の名前はチョウシロウです。チョウシロウは、竹千代の友達です。竹千代は将軍のお子さんで、十歳でした。チョウシロウは十三歳でした。\n\nある日の朝、二人は家の中を歩いていました。家の高い所に、可愛い雀がいました。竹千代はすごく嬉しくて、「あの雀を取ってください」とチョウシロウに言いました。チョウシロウは言いました。「今は取りません。将軍が怒りますから。夜に、みんなが寝た後で取ります。」竹千代は言いました。「明日、あの雀を取ってください。」「わかりました。約束します。」\n\n夜になりました。みんなが寝た後で、チョウシロウは家の高い所に登りました。竹千代にあげる雀と、私の雀を取りました。でも、下に転びました。大きい音がしました。雀は死んでいました。家はあまり高くなかったから、チョウシロウは死にませんでした。ちょっと痛かったです。\n\n将軍は大きい音を聞きました。将軍は起きました。奥さんや部下を連れて、窓のところに行きました。将軍はろうそくを持って、下を見ました。下に、男の子がいました。\n\n将軍は言いました。「チョウシロウ、あなたですか。夜に、何をしているのですか。部屋に来てください。説明してください。」\n\n\n---\n\n説明と鞄\nチョウシロウは部屋に行きました。雀を持っていました。座って、将軍の前で待ちました。将軍は言いました。「それは何ですか。」「雀です、将軍。」将軍は言いました。「雀ですか。夜に、高い所に登って、雀を取りましたか。」チョウシロウは言いました。「嘘をつきません。今朝、竹千代は『あの雀は可愛い』と言っていました。私は夜に登って、雀を取りました。でも、下に転びました。もう、嘘をつきません。私が悪いのです。将軍は何をしてもいいです。」\n\n奥さんは言いました。「ごめんなさい。でも、悪いのは竹千代です。竹千代がチョウシロウに、言ったのです。」奥さんには二人のお子さんがいました。竹千代は上のお子さんでした。奥さんは下のお子さんが好きでした。いつも、竹千代の悪いところを将軍に言いました。\n\n将軍は言いました。「竹千代は悪いです。チョウシロウに、ひどいことを言ったのです。チョウシロウ、それは嘘ですか。竹千代が言ったのですか。」チョウシロウは思いました。将軍は竹千代のことを、もう良く思っていません。私は、竹千代を思って、嘘をつくのです。\n\nチョウシロウは言いました。「それは嘘ではありません。竹千代は何も言いませんでした。私が、自分で取りました。竹千代にあげる雀と、私の雀を、私が取りました。」\n\n将軍はすごく怒りました。「あなたはよく嘘をつきます。あなたは、困っています。あの鞄を取ってください。」将軍は言いました。「チョウシロウ、嘘をつきますか。この鞄に入れます。もう、お家に帰りません。食べ物もあげません。」チョウシロウは言いました。「私は嘘をつきません。私が取りました。誰も悪くありません。私が悪いのです。夜に転んだのも、私が悪いからです。」そして、チョウシロウは自分で鞄に入りました。将軍は部下に言いました。「鞄を閉めてください。」部下は鞄を閉めて、庭に置きました。みんなは部屋に戻りました。チョウシロウは鞄の中で、雀を持っていました。\n\n\n---\n\n刀と自由\n次の日、朝になって、奥さんは庭に行きました。奥さんは鞄を下ろしました。中からチョウシロウが出ました。まだ、雀を持っていました。奥さんは言いました。「竹千代が、雀を取ってくださいと言ったのです。」チョウシロウは言いました。「それは嘘ではありません。私が取りました。竹千代は何もしていません。」奥さんは言いました。「あなたは、すごく困っています。ここにいつもいてください。食べ物もあげません。嘘をつかないでください。そして、ごはんをあげます。」チョウシロウは言いました。「食べ物をください。お腹が空いています。食べてから、話します。」奥さんは弁当をあげました。チョウシロウは弁当を食べました。チョウシロウはお礼を言いました。「もう、話します。」奥さんは言いました。「早く、嘘をつかないでください。」チョウシロウは言いました。「ごめんなさい。私が取りました。竹千代は何もしていません。それが、嘘ではありません。」\n\n奥さんはすごく怒りました。将軍の部屋に行きました。そして、将軍に言いました。「チョウシロウは、竹千代を思って嘘をついています。」将軍はすごく怒りました。刀を持ちました。「私はチョウシロウを、もう我が家から出します。」そして、部下に行きました。部下に言いました。「あなたは、庭へ行ってください。」\n\n部下は庭に行きました。チョウシロウを見ました。「チョウシロウ、将軍はすごく怒っています。あなたはもう、自由ではありません。お父さんに伝えましょうか。私は、お父さんの友達です。」チョウシロウは言いました。「いりません。お父さんに、もう何も言いたいことはありません。侍は大切な友達を思って、どんなことになってもいいです。将軍が私に何をしたいのか、よくわかります。私がこの家を出る時、みんなが知ります。私が嘘をつかなかったこと、そして竹千代を思って嘘をついたことも、みんなが知ります。お父さんに伝えることは、一つです。『私は大切な友達を思って、この家を出ました。』私が悲しいのは、親の病気です。これを聞いて、親の病気がひどくなります。」部下はすごく悲しくなりました。そして、チョウシロウを将軍の前へ連れて行きました。\n\nチョウシロウは座りました。髪を直しました。怖くない顔をして、将軍を待ちました。将軍はその顔を見て、刀を置きました。\n\n将軍は言いました。「チョウシロウ、もういいです。あなたはすごくいい子です。私はあなたのことを、よく知りました。竹千代が将軍になる時、あなたは、いつも竹千代の側にいてください。あなたは大切な友達です。あなたはもう自由です。」\n\nその時から、二人は仲がいい友達になりました。将軍も、チョウシロウを大切にしました。長い時間の後で、チョウシロウは大きくなって、有名な人になりました。みんなが、チョウシロウを覚えています。\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s1-shinderera"
     },
     "data": {
