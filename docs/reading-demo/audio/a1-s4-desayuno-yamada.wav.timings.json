@@ -1,0 +1,200 @@
+{
+  "audio_file": "a1-s4-desayuno-yamada.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 41760,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "やまださんのかぞくのあさごはん",
+      "start_ms": 0,
+      "end_ms": 3429,
+      "duration_ms": 3429,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "やまださんのかぞくのあさごはん",
+          "start_ms": 0,
+          "end_ms": 3429,
+          "duration_ms": 3429
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "おはようございます。",
+      "start_ms": 3929,
+      "end_ms": 6487,
+      "duration_ms": 2558,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おはようございます。",
+          "start_ms": 3929,
+          "end_ms": 6487,
+          "duration_ms": 2558
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "やまださんのかぞくです。",
+      "start_ms": 6987,
+      "end_ms": 9824,
+      "duration_ms": 2837,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "やまださんのかぞくです。",
+          "start_ms": 6987,
+          "end_ms": 9824,
+          "duration_ms": 2837
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "あさです。",
+      "start_ms": 10324,
+      "end_ms": 12139,
+      "duration_ms": 1815,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "あさです。",
+          "start_ms": 10324,
+          "end_ms": 12139,
+          "duration_ms": 1815
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "みんなあさごはんをたべます。",
+      "start_ms": 12639,
+      "end_ms": 15638,
+      "duration_ms": 2999,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みんなあさごはんをたべます。",
+          "start_ms": 12639,
+          "end_ms": 15638,
+          "duration_ms": 2999
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "おとうさんはコーヒーをのみます。",
+      "start_ms": 16138,
+      "end_ms": 19590,
+      "duration_ms": 3452,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おとうさんはコーヒーをのみます。",
+          "start_ms": 16138,
+          "end_ms": 19590,
+          "duration_ms": 3452
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "おかあさんはおちゃをのみます。",
+      "start_ms": 20090,
+      "end_ms": 23554,
+      "duration_ms": 3464,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おかあさんはおちゃをのみます。",
+          "start_ms": 20090,
+          "end_ms": 23554,
+          "duration_ms": 3464
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "おにいさんはパンをたべます。",
+      "start_ms": 24054,
+      "end_ms": 27460,
+      "duration_ms": 3406,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おにいさんはパンをたべます。",
+          "start_ms": 24054,
+          "end_ms": 27460,
+          "duration_ms": 3406
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "わたしはごはんとたまごをたべます。",
+      "start_ms": 27960,
+      "end_ms": 31842,
+      "duration_ms": 3882,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "わたしはごはんとたまごをたべます。",
+          "start_ms": 27960,
+          "end_ms": 31842,
+          "duration_ms": 3882
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "いもうとはくだものとぎゅうにゅうをたべます。",
+      "start_ms": 32342,
+      "end_ms": 36549,
+      "duration_ms": 4207,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いもうとはくだものとぎゅうにゅうをたべます。",
+          "start_ms": 32342,
+          "end_ms": 36549,
+          "duration_ms": 4207
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "おいしいです！",
+      "start_ms": 37049,
+      "end_ms": 38969,
+      "duration_ms": 1920,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おいしいです！",
+          "start_ms": 37049,
+          "end_ms": 38969,
+          "duration_ms": 1920
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "たのしいあさです。",
+      "start_ms": 39469,
+      "end_ms": 41760,
+      "duration_ms": 2291,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たのしいあさです。",
+          "start_ms": 39469,
+          "end_ms": 41760,
+          "duration_ms": 2291
+        }
+      ]
+    }
+  ]
+}
