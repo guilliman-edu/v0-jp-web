@@ -1,0 +1,136 @@
+{
+  "audio_file": "a1-verano-curso.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 23372,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "はじめまして",
+      "start_ms": 0,
+      "end_ms": 1989,
+      "duration_ms": 1989,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はじめまして",
+          "start_ms": 0,
+          "end_ms": 1989,
+          "duration_ms": 1989
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "はじめまして。",
+      "start_ms": 2489,
+      "end_ms": 4443,
+      "duration_ms": 1954,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はじめまして。",
+          "start_ms": 2489,
+          "end_ms": 4443,
+          "duration_ms": 1954
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "しらかわももこです。",
+      "start_ms": 4943,
+      "end_ms": 7524,
+      "duration_ms": 2581,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "しらかわももこです。",
+          "start_ms": 4943,
+          "end_ms": 7524,
+          "duration_ms": 2581
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "わたしは二十二歳です。",
+      "start_ms": 8024,
+      "end_ms": 11058,
+      "duration_ms": 3034,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "わたしは二十二歳です。",
+          "start_ms": 8024,
+          "end_ms": 11058,
+          "duration_ms": 3034
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "がくせいです。",
+      "start_ms": 11558,
+      "end_ms": 13489,
+      "duration_ms": 1931,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "がくせいです。",
+          "start_ms": 11558,
+          "end_ms": 13489,
+          "duration_ms": 1931
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "せんもんはにほんごです。",
+      "start_ms": 13989,
+      "end_ms": 16791,
+      "duration_ms": 2802,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんもんはにほんごです。",
+          "start_ms": 13989,
+          "end_ms": 16791,
+          "duration_ms": 2802
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "かぞくは四人です。",
+      "start_ms": 17291,
+      "end_ms": 19791,
+      "duration_ms": 2500,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かぞくは四人です。",
+          "start_ms": 17291,
+          "end_ms": 19791,
+          "duration_ms": 2500
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "どうぞよろしくお願いします。",
+      "start_ms": 20291,
+      "end_ms": 23372,
+      "duration_ms": 3081,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "どうぞよろしくお願いします。",
+          "start_ms": 20291,
+          "end_ms": 23372,
+          "duration_ms": 3081
+        }
+      ]
+    }
+  ]
+}

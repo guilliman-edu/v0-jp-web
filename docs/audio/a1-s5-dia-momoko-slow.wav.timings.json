@@ -1,0 +1,262 @@
+{
+  "audio_file": "a1-s5-dia-momoko-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 55250,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "ももこさんの一日",
+      "start_ms": 0,
+      "end_ms": 2913,
+      "duration_ms": 2913,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ももこさんの一日",
+          "start_ms": 0,
+          "end_ms": 2913,
+          "duration_ms": 2913
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "わたしはももこです。",
+      "start_ms": 3413,
+      "end_ms": 6361,
+      "duration_ms": 2948,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "わたしはももこです。",
+          "start_ms": 3413,
+          "end_ms": 6361,
+          "duration_ms": 2948
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "だいがくせいです。",
+      "start_ms": 6861,
+      "end_ms": 9275,
+      "duration_ms": 2414,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だいがくせいです。",
+          "start_ms": 6861,
+          "end_ms": 9275,
+          "duration_ms": 2414
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "まいあさ、七じにおきます。",
+      "start_ms": 9775,
+      "end_ms": 14412,
+      "duration_ms": 4637,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "まいあさ、",
+          "start_ms": 9775,
+          "end_ms": 11562,
+          "duration_ms": 1787
+        },
+        {
+          "index": 1,
+          "text": "七じにおきます。",
+          "start_ms": 11812,
+          "end_ms": 14412,
+          "duration_ms": 2600
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "あさごはんをたべます。",
+      "start_ms": 14912,
+      "end_ms": 17895,
+      "duration_ms": 2983,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "あさごはんをたべます。",
+          "start_ms": 14912,
+          "end_ms": 17895,
+          "duration_ms": 2983
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "コーヒーをのみます。",
+      "start_ms": 18395,
+      "end_ms": 20856,
+      "duration_ms": 2461,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "コーヒーをのみます。",
+          "start_ms": 18395,
+          "end_ms": 20856,
+          "duration_ms": 2461
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "九じにだいがくへいきます。",
+      "start_ms": 21356,
+      "end_ms": 24594,
+      "duration_ms": 3238,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "九じにだいがくへいきます。",
+          "start_ms": 21356,
+          "end_ms": 24594,
+          "duration_ms": 3238
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "べんきょうします。",
+      "start_ms": 25094,
+      "end_ms": 27369,
+      "duration_ms": 2275,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "べんきょうします。",
+          "start_ms": 25094,
+          "end_ms": 27369,
+          "duration_ms": 2275
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "としょかんでほんをよみます。",
+      "start_ms": 27869,
+      "end_ms": 31177,
+      "duration_ms": 3308,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "としょかんでほんをよみます。",
+          "start_ms": 27869,
+          "end_ms": 31177,
+          "duration_ms": 3308
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "十二じにひるごはんをたべます。",
+      "start_ms": 31677,
+      "end_ms": 35345,
+      "duration_ms": 3668,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "十二じにひるごはんをたべます。",
+          "start_ms": 31677,
+          "end_ms": 35345,
+          "duration_ms": 3668
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "ともだちといっしょにたべます。",
+      "start_ms": 35845,
+      "end_ms": 39165,
+      "duration_ms": 3320,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ともだちといっしょにたべます。",
+          "start_ms": 35845,
+          "end_ms": 39165,
+          "duration_ms": 3320
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "五じにうちへかえります。",
+      "start_ms": 39665,
+      "end_ms": 42694,
+      "duration_ms": 3029,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "五じにうちへかえります。",
+          "start_ms": 39665,
+          "end_ms": 42694,
+          "duration_ms": 3029
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "それから、ばんごはんをつくります。",
+      "start_ms": 43194,
+      "end_ms": 48261,
+      "duration_ms": 5067,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それから、",
+          "start_ms": 43194,
+          "end_ms": 45109,
+          "duration_ms": 1915
+        },
+        {
+          "index": 1,
+          "text": "ばんごはんをつくります。",
+          "start_ms": 45359,
+          "end_ms": 48261,
+          "duration_ms": 2902
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "九じにおふろにはいります。",
+      "start_ms": 48761,
+      "end_ms": 51988,
+      "duration_ms": 3227,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "九じにおふろにはいります。",
+          "start_ms": 48761,
+          "end_ms": 51988,
+          "duration_ms": 3227
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "十一じにねます。",
+      "start_ms": 52488,
+      "end_ms": 55250,
+      "duration_ms": 2762,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "十一じにねます。",
+          "start_ms": 52488,
+          "end_ms": 55250,
+          "duration_ms": 2762
+        }
+      ]
+    }
+  ]
+}
