@@ -1,0 +1,914 @@
+{
+  "audio_file": "b2.1-s1-shinderera-c03-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 238971,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "舞踏会への招待",
+      "start_ms": 0,
+      "end_ms": 2377,
+      "duration_ms": 2377,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "舞踏会への招待",
+          "start_ms": 0,
+          "end_ms": 2377,
+          "duration_ms": 2377
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "ところが、おうさまがお祝いを開くことになりました。",
+      "start_ms": 2877,
+      "end_ms": 8519,
+      "duration_ms": 5642,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ところが、",
+          "start_ms": 2877,
+          "end_ms": 4325,
+          "duration_ms": 1448
+        },
+        {
+          "index": 1,
+          "text": "おうさまがお祝いを開くことになりました。",
+          "start_ms": 4575,
+          "end_ms": 8519,
+          "duration_ms": 3944
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "三日間続くお祝いで、おうさまの息子がはなよめを選ぶために、国のうつくしい若い娘は全部しょうたいされることになりました。",
+      "start_ms": 9019,
+      "end_ms": 21631,
+      "duration_ms": 12612,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "三日間続くお祝いで、",
+          "start_ms": 9019,
+          "end_ms": 11617,
+          "duration_ms": 2598
+        },
+        {
+          "index": 1,
+          "text": "おうさまの息子がはなよめを選ぶために、",
+          "start_ms": 11867,
+          "end_ms": 15533,
+          "duration_ms": 3666
+        },
+        {
+          "index": 2,
+          "text": "国のうつくしい若い娘は全部しょうたいされることになりました。",
+          "start_ms": 15783,
+          "end_ms": 21631,
+          "duration_ms": 5848
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "二人のこいもうとは、自分たちもお祝いに行けると聞いて、とても喜びました。",
+      "start_ms": 22131,
+      "end_ms": 30609,
+      "duration_ms": 8478,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "二人のこいもうとは、",
+          "start_ms": 22131,
+          "end_ms": 24427,
+          "duration_ms": 2296
+        },
+        {
+          "index": 1,
+          "text": "自分たちもお祝いに行けると聞いて、",
+          "start_ms": 24677,
+          "end_ms": 27994,
+          "duration_ms": 3317
+        },
+        {
+          "index": 2,
+          "text": "とても喜びました。",
+          "start_ms": 28244,
+          "end_ms": 30609,
+          "duration_ms": 2365
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "そして、シンデレラを呼びました。",
+      "start_ms": 31109,
+      "end_ms": 35254,
+      "duration_ms": 4145,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 31109,
+          "end_ms": 32464,
+          "duration_ms": 1355
+        },
+        {
+          "index": 1,
+          "text": "シンデレラを呼びました。",
+          "start_ms": 32714,
+          "end_ms": 35254,
+          "duration_ms": 2540
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "「私たちの髪をとかして、靴を磨いて、ベルトをしめて。",
+      "start_ms": 35754,
+      "end_ms": 42886,
+      "duration_ms": 7132,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「私たちの髪をとかして、",
+          "start_ms": 35754,
+          "end_ms": 38584,
+          "duration_ms": 2830
+        },
+        {
+          "index": 1,
+          "text": "靴を磨いて、",
+          "start_ms": 38834,
+          "end_ms": 40723,
+          "duration_ms": 1889
+        },
+        {
+          "index": 2,
+          "text": "ベルトをしめて。",
+          "start_ms": 40973,
+          "end_ms": 42886,
+          "duration_ms": 1913
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "私たちはおうさまのきゅうでんのお祝いに行くのだから。",
+      "start_ms": 43386,
+      "end_ms": 48259,
+      "duration_ms": 4873,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "私たちはおうさまのきゅうでんのお祝いに行くのだから。",
+          "start_ms": 43386,
+          "end_ms": 48259,
+          "duration_ms": 4873
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "」 シンデレラも行きたくて、泣きました。",
+      "start_ms": 48759,
+      "end_ms": 52997,
+      "duration_ms": 4238,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」 シンデレラも行きたくて、",
+          "start_ms": 48759,
+          "end_ms": 51136,
+          "duration_ms": 2377
+        },
+        {
+          "index": 1,
+          "text": "泣きました。",
+          "start_ms": 51386,
+          "end_ms": 52997,
+          "duration_ms": 1611
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "自分も一緒に踊りに行きたかったからです。",
+      "start_ms": 53497,
+      "end_ms": 57523,
+      "duration_ms": 4026,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "自分も一緒に踊りに行きたかったからです。",
+          "start_ms": 53497,
+          "end_ms": 57523,
+          "duration_ms": 4026
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "それから、ままははにそうするきょかをもらおうと頼みました。",
+      "start_ms": 58023,
+      "end_ms": 64118,
+      "duration_ms": 6095,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それから、",
+          "start_ms": 58023,
+          "end_ms": 59587,
+          "duration_ms": 1564
+        },
+        {
+          "index": 1,
+          "text": "ままははにそうするきょかをもらおうと頼みました。",
+          "start_ms": 59837,
+          "end_ms": 64118,
+          "duration_ms": 4281
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "「あなたは埃と泥まみれでしょう。",
+      "start_ms": 64618,
+      "end_ms": 68005,
+      "duration_ms": 3387,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「あなたは埃と泥まみれでしょう。",
+          "start_ms": 64618,
+          "end_ms": 68005,
+          "duration_ms": 3387
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "それでぶとうかいに行くの？",
+      "start_ms": 68505,
+      "end_ms": 71033,
+      "duration_ms": 2528,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それでぶとうかいに行くの？",
+          "start_ms": 68505,
+          "end_ms": 71033,
+          "duration_ms": 2528
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "服もないし、靴もないのに、踊るっていうの？",
+      "start_ms": 71533,
+      "end_ms": 77562,
+      "duration_ms": 6029,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "服もないし、",
+          "start_ms": 71533,
+          "end_ms": 73283,
+          "duration_ms": 1750
+        },
+        {
+          "index": 1,
+          "text": "靴もないのに、",
+          "start_ms": 73533,
+          "end_ms": 75388,
+          "duration_ms": 1855
+        },
+        {
+          "index": 2,
+          "text": "踊るっていうの？",
+          "start_ms": 75638,
+          "end_ms": 77562,
+          "duration_ms": 1924
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "」 でも、シンデレラがしつこく頼み続けたので、ままはははついにこう言いました。",
+      "start_ms": 78062,
+      "end_ms": 86320,
+      "duration_ms": 8258,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」 でも、",
+          "start_ms": 78062,
+          "end_ms": 79046,
+          "duration_ms": 984
+        },
+        {
+          "index": 1,
+          "text": "シンデレラがしつこく頼み続けたので、",
+          "start_ms": 79296,
+          "end_ms": 82857,
+          "duration_ms": 3561
+        },
+        {
+          "index": 2,
+          "text": "ままはははついにこう言いました。",
+          "start_ms": 83107,
+          "end_ms": 86320,
+          "duration_ms": 3213
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "「ほら、灰の中にレンズ豆を一皿空けておいたから。",
+      "start_ms": 86820,
+      "end_ms": 92033,
+      "duration_ms": 5213,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「ほら、",
+          "start_ms": 86820,
+          "end_ms": 87560,
+          "duration_ms": 740
+        },
+        {
+          "index": 1,
+          "text": "灰の中にレンズ豆を一皿空けておいたから。",
+          "start_ms": 87810,
+          "end_ms": 92033,
+          "duration_ms": 4223
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "二時間でそれを全部拾えたら、一緒に行ってあげるよ。",
+      "start_ms": 92533,
+      "end_ms": 98292,
+      "duration_ms": 5759,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "二時間でそれを全部拾えたら、",
+          "start_ms": 92533,
+          "end_ms": 95781,
+          "duration_ms": 3248
+        },
+        {
+          "index": 1,
+          "text": "一緒に行ってあげるよ。",
+          "start_ms": 96031,
+          "end_ms": 98292,
+          "duration_ms": 2261
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "」 娘は裏口から庭に出ました。",
+      "start_ms": 98792,
+      "end_ms": 102063,
+      "duration_ms": 3271,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」 娘は裏口から庭に出ました。",
+          "start_ms": 98792,
+          "end_ms": 102063,
+          "duration_ms": 3271
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "「お友達のハトさん、キジバトさん、空の下の小鳥さんたち、みんな。",
+      "start_ms": 102563,
+      "end_ms": 111567,
+      "duration_ms": 9004,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「お友達のハトさん、",
+          "start_ms": 102563,
+          "end_ms": 104894,
+          "duration_ms": 2331
+        },
+        {
+          "index": 1,
+          "text": "キジバトさん、",
+          "start_ms": 105144,
+          "end_ms": 106975,
+          "duration_ms": 1831
+        },
+        {
+          "index": 2,
+          "text": "空の下の小鳥さんたち、",
+          "start_ms": 107225,
+          "end_ms": 110113,
+          "duration_ms": 2888
+        },
+        {
+          "index": 3,
+          "text": "みんな。",
+          "start_ms": 110363,
+          "end_ms": 111567,
+          "duration_ms": 1204
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "いい豆はかごに、悪い豆はみんなさんに。",
+      "start_ms": 112067,
+      "end_ms": 117129,
+      "duration_ms": 5062,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いい豆はかごに、",
+          "start_ms": 112067,
+          "end_ms": 114096,
+          "duration_ms": 2029
+        },
+        {
+          "index": 1,
+          "text": "悪い豆はみんなさんに。",
+          "start_ms": 114346,
+          "end_ms": 117129,
+          "duration_ms": 2783
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "拾うのを手伝ってちょうだい。",
+      "start_ms": 117629,
+      "end_ms": 120354,
+      "duration_ms": 2725,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "拾うのを手伝ってちょうだい。",
+          "start_ms": 117629,
+          "end_ms": 120354,
+          "duration_ms": 2725
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "」 すると、二羽の白いはとが台所の窓から入ってきました。",
+      "start_ms": 120854,
+      "end_ms": 127123,
+      "duration_ms": 6269,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」 すると、",
+          "start_ms": 120854,
+          "end_ms": 122128,
+          "duration_ms": 1274
+        },
+        {
+          "index": 1,
+          "text": "二羽の白いはとが台所の窓から入ってきました。",
+          "start_ms": 122378,
+          "end_ms": 127123,
+          "duration_ms": 4745
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "そのあとでキジバトが来て、最後に空の下の小鳥たちが全部集まってきて、灰の中に降りました。",
+      "start_ms": 127623,
+      "end_ms": 137901,
+      "duration_ms": 10278,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのあとでキジバトが来て、",
+          "start_ms": 127623,
+          "end_ms": 130209,
+          "duration_ms": 2586
+        },
+        {
+          "index": 1,
+          "text": "最後に空の下の小鳥たちが全部集まってきて、",
+          "start_ms": 130459,
+          "end_ms": 135228,
+          "duration_ms": 4769
+        },
+        {
+          "index": 2,
+          "text": "灰の中に降りました。",
+          "start_ms": 135478,
+          "end_ms": 137901,
+          "duration_ms": 2423
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "はとたちが頭をひょこひょこさせて、コッコッコッとつつき始めました。",
+      "start_ms": 138401,
+      "end_ms": 145506,
+      "duration_ms": 7105,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はとたちが頭をひょこひょこさせて、",
+          "start_ms": 138401,
+          "end_ms": 142148,
+          "duration_ms": 3747
+        },
+        {
+          "index": 1,
+          "text": "コッコッコッとつつき始めました。",
+          "start_ms": 142398,
+          "end_ms": 145506,
+          "duration_ms": 3108
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "残りの鳥たちもコッコッコッと始めて、皿に全部の良い豆を集めました。",
+      "start_ms": 146006,
+      "end_ms": 153796,
+      "duration_ms": 7790,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "残りの鳥たちもコッコッコッと始めて、",
+          "start_ms": 146006,
+          "end_ms": 150020,
+          "duration_ms": 4014
+        },
+        {
+          "index": 1,
+          "text": "皿に全部の良い豆を集めました。",
+          "start_ms": 150270,
+          "end_ms": 153796,
+          "duration_ms": 3526
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "text": "一時間もたたないうちに、小鳥たちは終わって、また飛び去りました。",
+      "start_ms": 154296,
+      "end_ms": 162345,
+      "duration_ms": 8049,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "一時間もたたないうちに、",
+          "start_ms": 154296,
+          "end_ms": 157021,
+          "duration_ms": 2725
+        },
+        {
+          "index": 1,
+          "text": "小鳥たちは終わって、",
+          "start_ms": 157271,
+          "end_ms": 159590,
+          "duration_ms": 2319
+        },
+        {
+          "index": 2,
+          "text": "また飛び去りました。",
+          "start_ms": 159840,
+          "end_ms": 162345,
+          "duration_ms": 2505
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "text": "娘は皿をままははのところに持って行きました。",
+      "start_ms": 162845,
+      "end_ms": 167265,
+      "duration_ms": 4420,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "娘は皿をままははのところに持って行きました。",
+          "start_ms": 162845,
+          "end_ms": 167265,
+          "duration_ms": 4420
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "text": "嬉しくて、今度こそお祝いに行けると信じていました。",
+      "start_ms": 167765,
+      "end_ms": 173674,
+      "duration_ms": 5909,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "嬉しくて、",
+          "start_ms": 167765,
+          "end_ms": 169364,
+          "duration_ms": 1599
+        },
+        {
+          "index": 1,
+          "text": "今度こそお祝いに行けると信じていました。",
+          "start_ms": 169614,
+          "end_ms": 173674,
+          "duration_ms": 4060
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "text": "でも、ままははは「だめよ、シンデレラ。",
+      "start_ms": 174174,
+      "end_ms": 179414,
+      "duration_ms": 5240,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 174174,
+          "end_ms": 175158,
+          "duration_ms": 984
+        },
+        {
+          "index": 1,
+          "text": "ままははは「だめよ、",
+          "start_ms": 175408,
+          "end_ms": 177518,
+          "duration_ms": 2110
+        },
+        {
+          "index": 2,
+          "text": "シンデレラ。",
+          "start_ms": 177768,
+          "end_ms": 179414,
+          "duration_ms": 1646
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "text": "服がないじゃないし、踊れないわ。",
+      "start_ms": 179914,
+      "end_ms": 183966,
+      "duration_ms": 4052,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "服がないじゃないし、",
+          "start_ms": 179914,
+          "end_ms": 182059,
+          "duration_ms": 2145
+        },
+        {
+          "index": 1,
+          "text": "踊れないわ。",
+          "start_ms": 182309,
+          "end_ms": 183966,
+          "duration_ms": 1657
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "text": "ただ笑われるだけだよ。",
+      "start_ms": 184466,
+      "end_ms": 186913,
+      "duration_ms": 2447,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ただ笑われるだけだよ。",
+          "start_ms": 184466,
+          "end_ms": 186913,
+          "duration_ms": 2447
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "text": "」と言いました。",
+      "start_ms": 187413,
+      "end_ms": 189128,
+      "duration_ms": 1715,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」と言いました。",
+          "start_ms": 187413,
+          "end_ms": 189128,
+          "duration_ms": 1715
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "text": "シンデレラが泣くと、ままははは「一時間で灰から二皿のレンズ豆を拾ったら、一緒に行ってあげるよ。",
+      "start_ms": 189628,
+      "end_ms": 200000,
+      "duration_ms": 10372,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラが泣くと、",
+          "start_ms": 189628,
+          "end_ms": 191866,
+          "duration_ms": 2238
+        },
+        {
+          "index": 1,
+          "text": "ままははは「一時間で灰から二皿のレンズ豆を拾ったら、",
+          "start_ms": 192116,
+          "end_ms": 197454,
+          "duration_ms": 5338
+        },
+        {
+          "index": 2,
+          "text": "一緒に行ってあげるよ。",
+          "start_ms": 197704,
+          "end_ms": 200000,
+          "duration_ms": 2296
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "text": "」と言いました。",
+      "start_ms": 200500,
+      "end_ms": 202180,
+      "duration_ms": 1680,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」と言いました。",
+          "start_ms": 200500,
+          "end_ms": 202180,
+          "duration_ms": 1680
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "text": "娘はまた庭に行って、小鳥たちにてつだいを頼みました。",
+      "start_ms": 202680,
+      "end_ms": 209042,
+      "duration_ms": 6362,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "娘はまた庭に行って、",
+          "start_ms": 202680,
+          "end_ms": 205347,
+          "duration_ms": 2667
+        },
+        {
+          "index": 1,
+          "text": "小鳥たちにてつだいを頼みました。",
+          "start_ms": 205597,
+          "end_ms": 209042,
+          "duration_ms": 3445
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "text": "今度は三十分もたたないうちに、全部の豆を集めました。",
+      "start_ms": 209542,
+      "end_ms": 216264,
+      "duration_ms": 6722,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今度は三十分もたたないうちに、",
+          "start_ms": 209542,
+          "end_ms": 213173,
+          "duration_ms": 3631
+        },
+        {
+          "index": 1,
+          "text": "全部の豆を集めました。",
+          "start_ms": 213423,
+          "end_ms": 216264,
+          "duration_ms": 2841
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "text": "でも、ままははは「そんなこといくらしてもだめだよ。",
+      "start_ms": 216764,
+      "end_ms": 221861,
+      "duration_ms": 5097,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 216764,
+          "end_ms": 217759,
+          "duration_ms": 995
+        },
+        {
+          "index": 1,
+          "text": "ままははは「そんなこといくらしてもだめだよ。",
+          "start_ms": 218009,
+          "end_ms": 221861,
+          "duration_ms": 3852
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "text": "あなたは行けないわ。",
+      "start_ms": 222361,
+      "end_ms": 224529,
+      "duration_ms": 2168,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "あなたは行けないわ。",
+          "start_ms": 222361,
+          "end_ms": 224529,
+          "duration_ms": 2168
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "text": "服がないし、踊れないじゃないか。",
+      "start_ms": 225029,
+      "end_ms": 229255,
+      "duration_ms": 4226,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "服がないし、",
+          "start_ms": 225029,
+          "end_ms": 226814,
+          "duration_ms": 1785
+        },
+        {
+          "index": 1,
+          "text": "踊れないじゃないか。",
+          "start_ms": 227064,
+          "end_ms": 229255,
+          "duration_ms": 2191
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "text": "私たちの恥ずかしいよ。",
+      "start_ms": 229755,
+      "end_ms": 232399,
+      "duration_ms": 2644,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "私たちの恥ずかしいよ。",
+          "start_ms": 229755,
+          "end_ms": 232399,
+          "duration_ms": 2644
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "text": "」と言って、二人の高慢な娘と一緒に急いで行きました。",
+      "start_ms": 232899,
+      "end_ms": 238971,
+      "duration_ms": 6072,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」と言って、",
+          "start_ms": 232899,
+          "end_ms": 234324,
+          "duration_ms": 1425
+        },
+        {
+          "index": 1,
+          "text": "二人の高慢な娘と一緒に急いで行きました。",
+          "start_ms": 234574,
+          "end_ms": 238971,
+          "duration_ms": 4397
+        }
+      ]
+    }
+  ]
+}

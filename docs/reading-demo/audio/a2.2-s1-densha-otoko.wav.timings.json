@@ -2,774 +2,774 @@
   "audio_file": "a2.2-s1-densha-otoko.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 199001,
+  "total_duration_ms": 198936,
   "sentences": [
     {
       "index": 0,
-      "text": "電車男の物語",
+      "text": "でんしゃおとこの物語",
       "start_ms": 0,
-      "end_ms": 2574,
-      "duration_ms": 2574,
+      "end_ms": 2586,
+      "duration_ms": 2586,
       "clauses": [
         {
           "index": 0,
-          "text": "電車男の物語",
+          "text": "でんしゃおとこの物語",
           "start_ms": 0,
-          "end_ms": 2574,
-          "duration_ms": 2574
+          "end_ms": 2586,
+          "duration_ms": 2586
         }
       ]
     },
     {
       "index": 1,
-      "text": "2004年の日本で、あることが起きました。",
-      "start_ms": 3074,
-      "end_ms": 8054,
-      "duration_ms": 4980,
+      "text": "2004年のにほんで、あることが起きました。",
+      "start_ms": 3086,
+      "end_ms": 8102,
+      "duration_ms": 5016,
       "clauses": [
         {
           "index": 0,
-          "text": "2004年の日本で、",
-          "start_ms": 3074,
-          "end_ms": 5439,
-          "duration_ms": 2365
+          "text": "2004年のにほんで、",
+          "start_ms": 3086,
+          "end_ms": 5498,
+          "duration_ms": 2412
         },
         {
           "index": 1,
           "text": "あることが起きました。",
-          "start_ms": 5689,
-          "end_ms": 8054,
-          "duration_ms": 2365
+          "start_ms": 5748,
+          "end_ms": 8102,
+          "duration_ms": 2354
         }
       ]
     },
     {
       "index": 2,
-      "text": "日本のインターネットの場所で、男の子と女の子の間にとてもいいことが起きました。",
-      "start_ms": 8554,
-      "end_ms": 17065,
-      "duration_ms": 8511,
+      "text": "にほんのインターネットのばしょで、おとこのことおんなのこのあいだにとてもいいことが起きました。",
+      "start_ms": 8602,
+      "end_ms": 16892,
+      "duration_ms": 8290,
       "clauses": [
         {
           "index": 0,
-          "text": "日本のインターネットの場所で、",
-          "start_ms": 8554,
-          "end_ms": 11419,
-          "duration_ms": 2865
+          "text": "にほんのインターネットのばしょで、",
+          "start_ms": 8602,
+          "end_ms": 11362,
+          "duration_ms": 2760
         },
         {
           "index": 1,
-          "text": "男の子と女の子の間にとてもいいことが起きました。",
-          "start_ms": 11669,
-          "end_ms": 17065,
-          "duration_ms": 5396
+          "text": "おとこのことおんなのこのあいだにとてもいいことが起きました。",
+          "start_ms": 11612,
+          "end_ms": 16892,
+          "duration_ms": 5280
         }
       ]
     },
     {
       "index": 3,
-      "text": "これは小説になりました。",
-      "start_ms": 17565,
-      "end_ms": 20418,
-      "duration_ms": 2853,
+      "text": "これはしょうせつになりました。",
+      "start_ms": 17392,
+      "end_ms": 20338,
+      "duration_ms": 2946,
       "clauses": [
         {
           "index": 0,
-          "text": "これは小説になりました。",
-          "start_ms": 17565,
-          "end_ms": 20418,
-          "duration_ms": 2853
+          "text": "これはしょうせつになりました。",
+          "start_ms": 17392,
+          "end_ms": 20338,
+          "duration_ms": 2946
         }
       ]
     },
     {
       "index": 4,
-      "text": "テレビでも見ることができました。",
-      "start_ms": 20918,
-      "end_ms": 23968,
-      "duration_ms": 3050,
+      "text": "テレビでもみることができました。",
+      "start_ms": 20838,
+      "end_ms": 23865,
+      "duration_ms": 3027,
       "clauses": [
         {
           "index": 0,
-          "text": "テレビでも見ることができました。",
-          "start_ms": 20918,
-          "end_ms": 23968,
-          "duration_ms": 3050
+          "text": "テレビでもみることができました。",
+          "start_ms": 20838,
+          "end_ms": 23865,
+          "duration_ms": 3027
         }
       ]
     },
     {
       "index": 5,
-      "text": "映画にもなりました。",
-      "start_ms": 24468,
-      "end_ms": 26741,
-      "duration_ms": 2273,
+      "text": "えいがにもなりました。",
+      "start_ms": 24365,
+      "end_ms": 26626,
+      "duration_ms": 2261,
       "clauses": [
         {
           "index": 0,
-          "text": "映画にもなりました。",
-          "start_ms": 24468,
-          "end_ms": 26741,
-          "duration_ms": 2273
+          "text": "えいがにもなりました。",
+          "start_ms": 24365,
+          "end_ms": 26626,
+          "duration_ms": 2261
         }
       ]
     },
     {
       "index": 6,
-      "text": "そして、世界中で有名になりました。",
-      "start_ms": 27241,
-      "end_ms": 31978,
-      "duration_ms": 4737,
+      "text": "そして、せかいなかでゆうめいになりました。",
+      "start_ms": 27126,
+      "end_ms": 31794,
+      "duration_ms": 4668,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 27241,
-          "end_ms": 28620,
-          "duration_ms": 1379
+          "start_ms": 27126,
+          "end_ms": 28470,
+          "duration_ms": 1344
         },
         {
           "index": 1,
-          "text": "世界中で有名になりました。",
-          "start_ms": 28870,
-          "end_ms": 31978,
-          "duration_ms": 3108
+          "text": "せかいなかでゆうめいになりました。",
+          "start_ms": 28720,
+          "end_ms": 31794,
+          "duration_ms": 3074
         }
       ]
     },
     {
       "index": 7,
       "text": "男の人は22歳で、オタクです。",
-      "start_ms": 32478,
-      "end_ms": 37483,
-      "duration_ms": 5005,
+      "start_ms": 32294,
+      "end_ms": 37263,
+      "duration_ms": 4969,
       "clauses": [
         {
           "index": 0,
           "text": "男の人は22歳で、",
-          "start_ms": 32478,
-          "end_ms": 35645,
-          "duration_ms": 3167
+          "start_ms": 32294,
+          "end_ms": 35356,
+          "duration_ms": 3062
         },
         {
           "index": 1,
           "text": "オタクです。",
-          "start_ms": 35895,
-          "end_ms": 37483,
-          "duration_ms": 1588
+          "start_ms": 35606,
+          "end_ms": 37263,
+          "duration_ms": 1657
         }
       ]
     },
     {
       "index": 8,
-      "text": "とても親切な人です。",
-      "start_ms": 37983,
-      "end_ms": 40674,
-      "duration_ms": 2691,
+      "text": "とてもしんせつな人です。",
+      "start_ms": 37763,
+      "end_ms": 40442,
+      "duration_ms": 2679,
       "clauses": [
         {
           "index": 0,
-          "text": "とても親切な人です。",
-          "start_ms": 37983,
-          "end_ms": 40674,
-          "duration_ms": 2691
+          "text": "とてもしんせつな人です。",
+          "start_ms": 37763,
+          "end_ms": 40442,
+          "duration_ms": 2679
         }
       ]
     },
     {
       "index": 9,
-      "text": "彼の趣味はアニメと漫画とゲームでした。",
-      "start_ms": 41174,
-      "end_ms": 45246,
-      "duration_ms": 4072,
+      "text": "かれのしゅみはアニメとまんがとゲームでした。",
+      "start_ms": 40942,
+      "end_ms": 44944,
+      "duration_ms": 4002,
       "clauses": [
         {
           "index": 0,
-          "text": "彼の趣味はアニメと漫画とゲームでした。",
-          "start_ms": 41174,
-          "end_ms": 45246,
-          "duration_ms": 4072
+          "text": "かれのしゅみはアニメとまんがとゲームでした。",
+          "start_ms": 40942,
+          "end_ms": 44944,
+          "duration_ms": 4002
         }
       ]
     },
     {
       "index": 10,
-      "text": "女の子と付き合ったことがありませんでした。",
-      "start_ms": 45746,
-      "end_ms": 49528,
-      "duration_ms": 3782,
+      "text": "おんなのこと付き合ったことがありませんでした。",
+      "start_ms": 45444,
+      "end_ms": 49168,
+      "duration_ms": 3724,
       "clauses": [
         {
           "index": 0,
-          "text": "女の子と付き合ったことがありませんでした。",
-          "start_ms": 45746,
-          "end_ms": 49528,
-          "duration_ms": 3782
-        }
-      ]
-    },
-    {
-      "index": 11,
-      "text": "ある日、彼は電車の中にいました。",
-      "start_ms": 50028,
-      "end_ms": 55009,
-      "duration_ms": 4981,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "ある日、",
-          "start_ms": 50028,
-          "end_ms": 51674,
-          "duration_ms": 1646
-        },
-        {
-          "index": 1,
-          "text": "彼は電車の中にいました。",
-          "start_ms": 51924,
-          "end_ms": 55009,
-          "duration_ms": 3085
-        }
-      ]
-    },
-    {
-      "index": 12,
-      "text": "そのとき、お酒を飲んだ男の人が、若い女の子に悪いことをしていました。",
-      "start_ms": 55509,
-      "end_ms": 64220,
-      "duration_ms": 8711,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "そのとき、",
-          "start_ms": 55509,
-          "end_ms": 57143,
-          "duration_ms": 1634
-        },
-        {
-          "index": 1,
-          "text": "お酒を飲んだ男の人が、",
-          "start_ms": 57393,
-          "end_ms": 60246,
-          "duration_ms": 2853
-        },
-        {
-          "index": 2,
-          "text": "若い女の子に悪いことをしていました。",
-          "start_ms": 60496,
-          "end_ms": 64220,
+          "text": "おんなのこと付き合ったことがありませんでした。",
+          "start_ms": 45444,
+          "end_ms": 49168,
           "duration_ms": 3724
         }
       ]
     },
     {
-      "index": 13,
-      "text": "女の子はとても困っていました。",
-      "start_ms": 64720,
-      "end_ms": 68130,
-      "duration_ms": 3410,
+      "index": 11,
+      "text": "あるひ / にち、かれはでんしゃのなかにいました。",
+      "start_ms": 49668,
+      "end_ms": 54684,
+      "duration_ms": 5016,
       "clauses": [
         {
           "index": 0,
-          "text": "女の子はとても困っていました。",
-          "start_ms": 64720,
-          "end_ms": 68130,
-          "duration_ms": 3410
+          "text": "あるひ / にち、",
+          "start_ms": 49668,
+          "end_ms": 51395,
+          "duration_ms": 1727
+        },
+        {
+          "index": 1,
+          "text": "かれはでんしゃのなかにいました。",
+          "start_ms": 51645,
+          "end_ms": 54684,
+          "duration_ms": 3039
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "そのとき、おさけを飲んだ男の人が、わかいおんなのこにわるいことをしていました。",
+      "start_ms": 55184,
+      "end_ms": 63848,
+      "duration_ms": 8664,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのとき、",
+          "start_ms": 55184,
+          "end_ms": 56806,
+          "duration_ms": 1622
+        },
+        {
+          "index": 1,
+          "text": "おさけを飲んだ男の人が、",
+          "start_ms": 57056,
+          "end_ms": 59897,
+          "duration_ms": 2841
+        },
+        {
+          "index": 2,
+          "text": "わかいおんなのこにわるいことをしていました。",
+          "start_ms": 60147,
+          "end_ms": 63848,
+          "duration_ms": 3701
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "おんなのこはとても困っていました。",
+      "start_ms": 64348,
+      "end_ms": 67805,
+      "duration_ms": 3457,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おんなのこはとても困っていました。",
+          "start_ms": 64348,
+          "end_ms": 67805,
+          "duration_ms": 3457
         }
       ]
     },
     {
       "index": 14,
-      "text": "彼はちょっと怖かったですが、立って、女の子の前に行きました。",
-      "start_ms": 68630,
-      "end_ms": 76261,
-      "duration_ms": 7631,
+      "text": "かれはちょっと怖かったですが、立って、おんなのこのまえに行きました。",
+      "start_ms": 68305,
+      "end_ms": 75808,
+      "duration_ms": 7503,
       "clauses": [
         {
           "index": 0,
-          "text": "彼はちょっと怖かったですが、",
-          "start_ms": 68630,
-          "end_ms": 71669,
-          "duration_ms": 3039
+          "text": "かれはちょっと怖かったですが、",
+          "start_ms": 68305,
+          "end_ms": 71309,
+          "duration_ms": 3004
         },
         {
           "index": 1,
           "text": "立って、",
-          "start_ms": 71919,
-          "end_ms": 73158,
-          "duration_ms": 1239
+          "start_ms": 71559,
+          "end_ms": 72775,
+          "duration_ms": 1216
         },
         {
           "index": 2,
-          "text": "女の子の前に行きました。",
-          "start_ms": 73408,
-          "end_ms": 76261,
-          "duration_ms": 2853
+          "text": "おんなのこのまえに行きました。",
+          "start_ms": 73025,
+          "end_ms": 75808,
+          "duration_ms": 2783
         }
       ]
     },
     {
       "index": 15,
-      "text": "女の子を助けました。",
-      "start_ms": 76761,
-      "end_ms": 79289,
-      "duration_ms": 2528,
+      "text": "おんなのこを助けました。",
+      "start_ms": 76308,
+      "end_ms": 78848,
+      "duration_ms": 2540,
       "clauses": [
         {
           "index": 0,
-          "text": "女の子を助けました。",
-          "start_ms": 76761,
-          "end_ms": 79289,
-          "duration_ms": 2528
+          "text": "おんなのこを助けました。",
+          "start_ms": 76308,
+          "end_ms": 78848,
+          "duration_ms": 2540
         }
       ]
     },
     {
       "index": 16,
-      "text": "女の子はとてもお礼を言いました。",
-      "start_ms": 79789,
-      "end_ms": 83223,
-      "duration_ms": 3434,
+      "text": "おんなのこはとてもおれいを言いました。",
+      "start_ms": 79348,
+      "end_ms": 82700,
+      "duration_ms": 3352,
       "clauses": [
         {
           "index": 0,
-          "text": "女の子はとてもお礼を言いました。",
-          "start_ms": 79789,
-          "end_ms": 83223,
-          "duration_ms": 3434
+          "text": "おんなのこはとてもおれいを言いました。",
+          "start_ms": 79348,
+          "end_ms": 82700,
+          "duration_ms": 3352
         }
       ]
     },
     {
       "index": 17,
-      "text": "あとで、お礼に、エルメスのとても高いお茶のコップを彼にあげました。",
-      "start_ms": 83723,
-      "end_ms": 91541,
-      "duration_ms": 7818,
+      "text": "あとで、おれいに、エルメスのとてもたかいおちゃのコップをかれにあげました。",
+      "start_ms": 83200,
+      "end_ms": 90994,
+      "duration_ms": 7794,
       "clauses": [
         {
           "index": 0,
           "text": "あとで、",
-          "start_ms": 83723,
-          "end_ms": 84893,
+          "start_ms": 83200,
+          "end_ms": 84370,
           "duration_ms": 1170
         },
         {
           "index": 1,
-          "text": "お礼に、",
-          "start_ms": 85143,
-          "end_ms": 86371,
-          "duration_ms": 1228
+          "text": "おれいに、",
+          "start_ms": 84620,
+          "end_ms": 85836,
+          "duration_ms": 1216
         },
         {
           "index": 2,
-          "text": "エルメスのとても高いお茶のコップを彼にあげました。",
-          "start_ms": 86621,
-          "end_ms": 91541,
-          "duration_ms": 4920
+          "text": "エルメスのとてもたかいおちゃのコップをかれにあげました。",
+          "start_ms": 86086,
+          "end_ms": 90994,
+          "duration_ms": 4908
         }
       ]
     },
     {
       "index": 18,
-      "text": "女の子の名前はエルメスです。",
-      "start_ms": 92041,
-      "end_ms": 95533,
-      "duration_ms": 3492,
+      "text": "おんなのこのなまえはエルメスです。",
+      "start_ms": 91494,
+      "end_ms": 95044,
+      "duration_ms": 3550,
       "clauses": [
         {
           "index": 0,
-          "text": "女の子の名前はエルメスです。",
-          "start_ms": 92041,
-          "end_ms": 95533,
-          "duration_ms": 3492
+          "text": "おんなのこのなまえはエルメスです。",
+          "start_ms": 91494,
+          "end_ms": 95044,
+          "duration_ms": 3550
         }
       ]
     },
     {
       "index": 19,
       "text": "男の人はどうしようかと思いました。",
-      "start_ms": 96033,
-      "end_ms": 100024,
-      "duration_ms": 3991,
+      "start_ms": 95544,
+      "end_ms": 99558,
+      "duration_ms": 4014,
       "clauses": [
         {
           "index": 0,
           "text": "男の人はどうしようかと思いました。",
-          "start_ms": 96033,
-          "end_ms": 100024,
-          "duration_ms": 3991
+          "start_ms": 95544,
+          "end_ms": 99558,
+          "duration_ms": 4014
         }
       ]
     },
     {
       "index": 20,
-      "text": "そこで、彼は悩みをインターネットの場所に書きました。",
-      "start_ms": 100524,
-      "end_ms": 106109,
-      "duration_ms": 5585,
+      "text": "そこで、かれはなやみをインターネットのばしょに書きました。",
+      "start_ms": 100058,
+      "end_ms": 105782,
+      "duration_ms": 5724,
       "clauses": [
         {
           "index": 0,
           "text": "そこで、",
-          "start_ms": 100524,
-          "end_ms": 101694,
-          "duration_ms": 1170
+          "start_ms": 100058,
+          "end_ms": 101274,
+          "duration_ms": 1216
         },
         {
           "index": 1,
-          "text": "彼は悩みをインターネットの場所に書きました。",
-          "start_ms": 101944,
-          "end_ms": 106109,
-          "duration_ms": 4165
+          "text": "かれはなやみをインターネットのばしょに書きました。",
+          "start_ms": 101524,
+          "end_ms": 105782,
+          "duration_ms": 4258
         }
       ]
     },
     {
       "index": 21,
-      "text": "すると、顔も名前も知らない人が、彼を応援しました。",
-      "start_ms": 106609,
-      "end_ms": 113544,
-      "duration_ms": 6935,
+      "text": "すると、かおもなまえも知らない人が、かれを応援しました。",
+      "start_ms": 106282,
+      "end_ms": 113124,
+      "duration_ms": 6842,
       "clauses": [
         {
           "index": 0,
           "text": "すると、",
-          "start_ms": 106609,
-          "end_ms": 107837,
-          "duration_ms": 1228
+          "start_ms": 106282,
+          "end_ms": 107579,
+          "duration_ms": 1297
         },
         {
           "index": 1,
-          "text": "顔も名前も知らない人が、",
-          "start_ms": 108087,
-          "end_ms": 110905,
-          "duration_ms": 2818
+          "text": "かおもなまえも知らない人が、",
+          "start_ms": 107829,
+          "end_ms": 110578,
+          "duration_ms": 2749
         },
         {
           "index": 2,
-          "text": "彼を応援しました。",
-          "start_ms": 111155,
-          "end_ms": 113544,
-          "duration_ms": 2389
+          "text": "かれを応援しました。",
+          "start_ms": 110828,
+          "end_ms": 113124,
+          "duration_ms": 2296
         }
       ]
     },
     {
       "index": 22,
-      "text": "みんなで「髪を切ってください」と言いました。",
-      "start_ms": 114044,
-      "end_ms": 117745,
-      "duration_ms": 3701,
+      "text": "みんなで「かみを切ってください」と言いました。",
+      "start_ms": 113624,
+      "end_ms": 117441,
+      "duration_ms": 3817,
       "clauses": [
         {
           "index": 0,
-          "text": "みんなで「髪を切ってください」と言いました。",
-          "start_ms": 114044,
-          "end_ms": 117745,
-          "duration_ms": 3701
+          "text": "みんなで「かみを切ってください」と言いました。",
+          "start_ms": 113624,
+          "end_ms": 117441,
+          "duration_ms": 3817
         }
       ]
     },
     {
       "index": 23,
-      "text": "「服を買いに行ってください」とも言いました。",
-      "start_ms": 118245,
-      "end_ms": 121737,
-      "duration_ms": 3492,
+      "text": "「ふくを買いに行ってください」とも言いました。",
+      "start_ms": 117941,
+      "end_ms": 121421,
+      "duration_ms": 3480,
       "clauses": [
         {
           "index": 0,
-          "text": "「服を買いに行ってください」とも言いました。",
-          "start_ms": 118245,
-          "end_ms": 121737,
-          "duration_ms": 3492
+          "text": "「ふくを買いに行ってください」とも言いました。",
+          "start_ms": 117941,
+          "end_ms": 121421,
+          "duration_ms": 3480
         }
       ]
     },
     {
       "index": 24,
-      "text": "そして、二人でいるときのことも教えました。",
-      "start_ms": 122237,
-      "end_ms": 127206,
+      "text": "そして、ふたりでいるときのことも教えました。",
+      "start_ms": 121921,
+      "end_ms": 126890,
       "duration_ms": 4969,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 122237,
-          "end_ms": 123592,
-          "duration_ms": 1355
+          "start_ms": 121921,
+          "end_ms": 123288,
+          "duration_ms": 1367
         },
         {
           "index": 1,
-          "text": "二人でいるときのことも教えました。",
-          "start_ms": 123842,
-          "end_ms": 127206,
-          "duration_ms": 3364
+          "text": "ふたりでいるときのことも教えました。",
+          "start_ms": 123538,
+          "end_ms": 126890,
+          "duration_ms": 3352
         }
       ]
     },
     {
       "index": 25,
-      "text": "友達が親切な言葉を言ったから、男の人は自信を持つようになりました。",
-      "start_ms": 127706,
-      "end_ms": 135555,
-      "duration_ms": 7849,
+      "text": "ともだちがしんせつなことばを言ったから、男の人は自信をもつようになりました。",
+      "start_ms": 127390,
+      "end_ms": 135273,
+      "duration_ms": 7883,
       "clauses": [
         {
           "index": 0,
-          "text": "友達が親切な言葉を言ったから、",
-          "start_ms": 127706,
-          "end_ms": 131221,
-          "duration_ms": 3515
+          "text": "ともだちがしんせつなことばを言ったから、",
+          "start_ms": 127390,
+          "end_ms": 130870,
+          "duration_ms": 3480
         },
         {
           "index": 1,
-          "text": "男の人は自信を持つようになりました。",
-          "start_ms": 131471,
-          "end_ms": 135555,
-          "duration_ms": 4084
+          "text": "男の人は自信をもつようになりました。",
+          "start_ms": 131120,
+          "end_ms": 135273,
+          "duration_ms": 4153
         }
       ]
     },
     {
       "index": 26,
-      "text": "女の子と会うときは、いつも緊張していました。",
-      "start_ms": 136055,
-      "end_ms": 141477,
-      "duration_ms": 5422,
+      "text": "おんなのことあうときは、いつも緊張していました。",
+      "start_ms": 135773,
+      "end_ms": 141242,
+      "duration_ms": 5469,
       "clauses": [
         {
           "index": 0,
-          "text": "女の子と会うときは、",
-          "start_ms": 136055,
-          "end_ms": 138502,
-          "duration_ms": 2447
+          "text": "おんなのことあうときは、",
+          "start_ms": 135773,
+          "end_ms": 138255,
+          "duration_ms": 2482
         },
         {
           "index": 1,
           "text": "いつも緊張していました。",
-          "start_ms": 138752,
-          "end_ms": 141477,
-          "duration_ms": 2725
+          "start_ms": 138505,
+          "end_ms": 141242,
+          "duration_ms": 2737
         }
       ]
     },
     {
       "index": 27,
-      "text": "でも、彼はまじめに、よく女の子に会いました。",
-      "start_ms": 141977,
-      "end_ms": 148041,
-      "duration_ms": 6064,
+      "text": "でも、かれはまじめに、よくおんなのこに会いました。",
+      "start_ms": 141742,
+      "end_ms": 147794,
+      "duration_ms": 6052,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 141977,
-          "end_ms": 142961,
-          "duration_ms": 984
+          "start_ms": 141742,
+          "end_ms": 142737,
+          "duration_ms": 995
         },
         {
           "index": 1,
-          "text": "彼はまじめに、",
-          "start_ms": 143211,
-          "end_ms": 145089,
-          "duration_ms": 1878
+          "text": "かれはまじめに、",
+          "start_ms": 142987,
+          "end_ms": 144853,
+          "duration_ms": 1866
         },
         {
           "index": 2,
-          "text": "よく女の子に会いました。",
-          "start_ms": 145339,
-          "end_ms": 148041,
-          "duration_ms": 2702
+          "text": "よくおんなのこに会いました。",
+          "start_ms": 145103,
+          "end_ms": 147794,
+          "duration_ms": 2691
         }
       ]
     },
     {
       "index": 28,
-      "text": "女の子は彼がまじめで親切だとわかりました。",
-      "start_ms": 148541,
-      "end_ms": 153333,
-      "duration_ms": 4792,
+      "text": "おんなのこはかれがまじめでしんせつだとわかりました。",
+      "start_ms": 148294,
+      "end_ms": 153039,
+      "duration_ms": 4745,
       "clauses": [
         {
           "index": 0,
-          "text": "女の子は彼がまじめで親切だとわかりました。",
-          "start_ms": 148541,
-          "end_ms": 153333,
-          "duration_ms": 4792
+          "text": "おんなのこはかれがまじめでしんせつだとわかりました。",
+          "start_ms": 148294,
+          "end_ms": 153039,
+          "duration_ms": 4745
         }
       ]
     },
     {
       "index": 29,
-      "text": "そして、女の子も彼のことが好きになりました。",
-      "start_ms": 153833,
-      "end_ms": 159186,
-      "duration_ms": 5353,
+      "text": "そして、おんなのこもかれのことが好きになりました。",
+      "start_ms": 153539,
+      "end_ms": 159216,
+      "duration_ms": 5677,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 153833,
-          "end_ms": 155212,
-          "duration_ms": 1379
+          "start_ms": 153539,
+          "end_ms": 154929,
+          "duration_ms": 1390
         },
         {
           "index": 1,
-          "text": "女の子も彼のことが好きになりました。",
-          "start_ms": 155462,
-          "end_ms": 159186,
-          "duration_ms": 3724
+          "text": "おんなのこもかれのことが好きになりました。",
+          "start_ms": 155179,
+          "end_ms": 159216,
+          "duration_ms": 4037
         }
       ]
     },
     {
       "index": 30,
-      "text": "友達も心配して、二人のことを毎日見ていました。",
-      "start_ms": 159686,
-      "end_ms": 165967,
-      "duration_ms": 6281,
+      "text": "ともだちもしんぱいして、ふたりのことをまいにち見ていました。",
+      "start_ms": 159716,
+      "end_ms": 165927,
+      "duration_ms": 6211,
       "clauses": [
         {
           "index": 0,
-          "text": "友達も心配して、",
-          "start_ms": 159686,
-          "end_ms": 162179,
-          "duration_ms": 2493
+          "text": "ともだちもしんぱいして、",
+          "start_ms": 159716,
+          "end_ms": 162174,
+          "duration_ms": 2458
         },
         {
           "index": 1,
-          "text": "二人のことを毎日見ていました。",
-          "start_ms": 162429,
-          "end_ms": 165967,
-          "duration_ms": 3538
+          "text": "ふたりのことをまいにち見ていました。",
+          "start_ms": 162424,
+          "end_ms": 165927,
+          "duration_ms": 3503
         }
       ]
     },
     {
       "index": 31,
-      "text": "男の人は女の子に「あなたのことが好きです」と言いました。",
-      "start_ms": 166467,
-      "end_ms": 172037,
-      "duration_ms": 5570,
+      "text": "男の人はおんなのこに「あなたのことが好きです」と言いました。",
+      "start_ms": 166427,
+      "end_ms": 171985,
+      "duration_ms": 5558,
       "clauses": [
         {
           "index": 0,
-          "text": "男の人は女の子に「あなたのことが好きです」と言いました。",
-          "start_ms": 166467,
-          "end_ms": 172037,
-          "duration_ms": 5570
+          "text": "男の人はおんなのこに「あなたのことが好きです」と言いました。",
+          "start_ms": 166427,
+          "end_ms": 171985,
+          "duration_ms": 5558
         }
       ]
     },
     {
       "index": 32,
-      "text": "女の子は笑って、うれしそうでした。",
-      "start_ms": 172537,
-      "end_ms": 176949,
-      "duration_ms": 4412,
+      "text": "おんなのこは笑って、うれしそうでした。",
+      "start_ms": 172485,
+      "end_ms": 176920,
+      "duration_ms": 4435,
       "clauses": [
         {
           "index": 0,
-          "text": "女の子は笑って、",
-          "start_ms": 172537,
-          "end_ms": 174728,
-          "duration_ms": 2191
+          "text": "おんなのこは笑って、",
+          "start_ms": 172485,
+          "end_ms": 174688,
+          "duration_ms": 2203
         },
         {
           "index": 1,
           "text": "うれしそうでした。",
-          "start_ms": 174978,
-          "end_ms": 176949,
-          "duration_ms": 1971
+          "start_ms": 174938,
+          "end_ms": 176920,
+          "duration_ms": 1982
         }
       ]
     },
     {
       "index": 33,
-      "text": "二人は恋人になりました。",
-      "start_ms": 177449,
-      "end_ms": 180453,
-      "duration_ms": 3004,
+      "text": "ふたりは恋人になりました。",
+      "start_ms": 177420,
+      "end_ms": 180296,
+      "duration_ms": 2876,
       "clauses": [
         {
           "index": 0,
-          "text": "二人は恋人になりました。",
-          "start_ms": 177449,
-          "end_ms": 180453,
-          "duration_ms": 3004
+          "text": "ふたりは恋人になりました。",
+          "start_ms": 177420,
+          "end_ms": 180296,
+          "duration_ms": 2876
         }
       ]
     },
     {
       "index": 34,
-      "text": "男の人は今まで趣味のことをしていました。",
-      "start_ms": 180953,
-      "end_ms": 185582,
-      "duration_ms": 4629,
+      "text": "男の人は今までしゅみのことをしていました。",
+      "start_ms": 180796,
+      "end_ms": 185646,
+      "duration_ms": 4850,
       "clauses": [
         {
           "index": 0,
-          "text": "男の人は今まで趣味のことをしていました。",
-          "start_ms": 180953,
-          "end_ms": 185582,
-          "duration_ms": 4629
+          "text": "男の人は今までしゅみのことをしていました。",
+          "start_ms": 180796,
+          "end_ms": 185646,
+          "duration_ms": 4850
         }
       ]
     },
     {
       "index": 35,
-      "text": "そして、新しい世界へ初めて出ました。",
-      "start_ms": 186082,
-      "end_ms": 191087,
-      "duration_ms": 5005,
+      "text": "そして、あたらしいせかいへはじめて出ました。",
+      "start_ms": 186146,
+      "end_ms": 191057,
+      "duration_ms": 4911,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 186082,
-          "end_ms": 187461,
-          "duration_ms": 1379
+          "start_ms": 186146,
+          "end_ms": 187536,
+          "duration_ms": 1390
         },
         {
           "index": 1,
-          "text": "新しい世界へ初めて出ました。",
-          "start_ms": 187711,
-          "end_ms": 191087,
-          "duration_ms": 3376
+          "text": "あたらしいせかいへはじめて出ました。",
+          "start_ms": 187786,
+          "end_ms": 191057,
+          "duration_ms": 3271
         }
       ]
     },
     {
       "index": 36,
-      "text": "二人はとても楽しくなりました。",
-      "start_ms": 191587,
-      "end_ms": 194951,
-      "duration_ms": 3364,
+      "text": "ふたりはとても楽しくなりました。",
+      "start_ms": 191557,
+      "end_ms": 194898,
+      "duration_ms": 3341,
       "clauses": [
         {
           "index": 0,
-          "text": "二人はとても楽しくなりました。",
-          "start_ms": 191587,
-          "end_ms": 194951,
-          "duration_ms": 3364
+          "text": "ふたりはとても楽しくなりました。",
+          "start_ms": 191557,
+          "end_ms": 194898,
+          "duration_ms": 3341
         }
       ]
     },
     {
       "index": 37,
-      "text": "これはとても素敵な物語です。",
-      "start_ms": 195451,
-      "end_ms": 199001,
-      "duration_ms": 3550,
+      "text": "これはとてもすてきな物語です。",
+      "start_ms": 195398,
+      "end_ms": 198936,
+      "duration_ms": 3538,
       "clauses": [
         {
           "index": 0,
-          "text": "これはとても素敵な物語です。",
-          "start_ms": 195451,
-          "end_ms": 199001,
-          "duration_ms": 3550
+          "text": "これはとてもすてきな物語です。",
+          "start_ms": 195398,
+          "end_ms": 198936,
+          "duration_ms": 3538
         }
       ]
     }

@@ -2,421 +2,421 @@
   "audio_file": "b2.1-s11-reglas-mesa-japonesa.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 342245,
+  "total_duration_ms": 341408,
   "sentences": [
     {
       "index": 0,
       "text": "日本食のマナーとして本当に大切なこと",
       "start_ms": 0,
-      "end_ms": 4055,
-      "duration_ms": 4055,
+      "end_ms": 4101,
+      "duration_ms": 4101,
       "clauses": [
         {
           "index": 0,
           "text": "日本食のマナーとして本当に大切なこと",
           "start_ms": 0,
-          "end_ms": 4055,
-          "duration_ms": 4055
+          "end_ms": 4101,
+          "duration_ms": 4101
         }
       ]
     },
     {
       "index": 1,
       "text": "アメリカからの旅行者に「日本で何が心配ですか」と尋ねると、たいてい返ってくるのは言葉や電車のことではなく、食事の場で失礼をしてしまうのではないかという心配だ。",
-      "start_ms": 4555,
-      "end_ms": 19275,
-      "duration_ms": 14720,
+      "start_ms": 4601,
+      "end_ms": 19228,
+      "duration_ms": 14627,
       "clauses": [
         {
           "index": 0,
           "text": "アメリカからの旅行者に「日本で何が心配ですか」と尋ねると、",
-          "start_ms": 4555,
-          "end_ms": 9899,
-          "duration_ms": 5344
+          "start_ms": 4601,
+          "end_ms": 9840,
+          "duration_ms": 5239
         },
         {
           "index": 1,
           "text": "たいてい返ってくるのは言葉や電車のことではなく、",
-          "start_ms": 10149,
-          "end_ms": 14517,
-          "duration_ms": 4368
+          "start_ms": 10090,
+          "end_ms": 14493,
+          "duration_ms": 4403
         },
         {
           "index": 2,
           "text": "食事の場で失礼をしてしまうのではないかという心配だ。",
-          "start_ms": 14767,
-          "end_ms": 19275,
-          "duration_ms": 4508
+          "start_ms": 14743,
+          "end_ms": 19228,
+          "duration_ms": 4485
         }
       ]
     },
     {
       "index": 2,
       "text": "座った人にとって、ほかの人の目は意外に気になるものである。",
-      "start_ms": 19775,
-      "end_ms": 25918,
-      "duration_ms": 6143,
+      "start_ms": 19728,
+      "end_ms": 25859,
+      "duration_ms": 6131,
       "clauses": [
         {
           "index": 0,
           "text": "座った人にとって、",
-          "start_ms": 19775,
-          "end_ms": 21787,
-          "duration_ms": 2012
+          "start_ms": 19728,
+          "end_ms": 21821,
+          "duration_ms": 2093
         },
         {
           "index": 1,
           "text": "ほかの人の目は意外に気になるものである。",
-          "start_ms": 22037,
-          "end_ms": 25918,
-          "duration_ms": 3881
+          "start_ms": 22071,
+          "end_ms": 25859,
+          "duration_ms": 3788
         }
       ]
     },
     {
       "index": 3,
       "text": "ところが、インターネットに出回っている情報というのは、たいてい古いか、ひどく誇張されているということだ。",
-      "start_ms": 26418,
-      "end_ms": 36932,
-      "duration_ms": 10514,
+      "start_ms": 26359,
+      "end_ms": 36781,
+      "duration_ms": 10422,
       "clauses": [
         {
           "index": 0,
           "text": "ところが、",
-          "start_ms": 26418,
-          "end_ms": 27791,
-          "duration_ms": 1373
+          "start_ms": 26359,
+          "end_ms": 27639,
+          "duration_ms": 1280
         },
         {
           "index": 1,
           "text": "インターネットに出回っている情報というのは、",
-          "start_ms": 28041,
-          "end_ms": 31620,
-          "duration_ms": 3579
+          "start_ms": 27889,
+          "end_ms": 31503,
+          "duration_ms": 3614
         },
         {
           "index": 2,
           "text": "たいてい古いか、",
-          "start_ms": 31870,
-          "end_ms": 33649,
-          "duration_ms": 1779
+          "start_ms": 31753,
+          "end_ms": 33486,
+          "duration_ms": 1733
         },
         {
           "index": 3,
           "text": "ひどく誇張されているということだ。",
-          "start_ms": 33899,
-          "end_ms": 36932,
-          "duration_ms": 3033
+          "start_ms": 33736,
+          "end_ms": 36781,
+          "duration_ms": 3045
         }
       ]
     },
     {
       "index": 4,
       "text": "日本の「おもてなし」の心は、客人が地元の習慣を知らないことを前提にしている。",
-      "start_ms": 37432,
-      "end_ms": 45118,
-      "duration_ms": 7686,
+      "start_ms": 37281,
+      "end_ms": 44991,
+      "duration_ms": 7710,
       "clauses": [
         {
           "index": 0,
           "text": "日本の「おもてなし」の心は、",
-          "start_ms": 37432,
-          "end_ms": 40082,
+          "start_ms": 37281,
+          "end_ms": 39931,
           "duration_ms": 2650
         },
         {
           "index": 1,
           "text": "客人が地元の習慣を知らないことを前提にしている。",
-          "start_ms": 40332,
-          "end_ms": 45118,
-          "duration_ms": 4786
+          "start_ms": 40181,
+          "end_ms": 44991,
+          "duration_ms": 4810
         }
       ]
     },
     {
       "index": 5,
-      "text": "それゆえ、観光客にそれほど完全な作法を求めるわけではない。",
-      "start_ms": 45618,
-      "end_ms": 51946,
-      "duration_ms": 6328,
+      "text": "それゆえ、観光客にそれほど完全なさほうを求めるわけではない。",
+      "start_ms": 45491,
+      "end_ms": 51865,
+      "duration_ms": 6374,
       "clauses": [
         {
           "index": 0,
           "text": "それゆえ、",
-          "start_ms": 45618,
-          "end_ms": 47026,
-          "duration_ms": 1408
+          "start_ms": 45491,
+          "end_ms": 46852,
+          "duration_ms": 1361
         },
         {
           "index": 1,
-          "text": "観光客にそれほど完全な作法を求めるわけではない。",
-          "start_ms": 47276,
-          "end_ms": 51946,
-          "duration_ms": 4670
+          "text": "観光客にそれほど完全なさほうを求めるわけではない。",
+          "start_ms": 47102,
+          "end_ms": 51865,
+          "duration_ms": 4763
         }
       ]
     },
     {
       "index": 6,
       "text": "ただ、本当に大切なことがいくつかある。",
-      "start_ms": 52446,
-      "end_ms": 57288,
-      "duration_ms": 4842,
+      "start_ms": 52365,
+      "end_ms": 57102,
+      "duration_ms": 4737,
       "clauses": [
         {
           "index": 0,
           "text": "ただ、",
-          "start_ms": 52446,
-          "end_ms": 53540,
+          "start_ms": 52365,
+          "end_ms": 53459,
           "duration_ms": 1094
         },
         {
           "index": 1,
           "text": "本当に大切なことがいくつかある。",
-          "start_ms": 53790,
-          "end_ms": 57288,
-          "duration_ms": 3498
+          "start_ms": 53709,
+          "end_ms": 57102,
+          "duration_ms": 3393
         }
       ]
     },
     {
       "index": 7,
       "text": "それを知っていることは、不安を抱えて食べることと、心から美味しく食べることを分ける。",
-      "start_ms": 57788,
-      "end_ms": 66436,
+      "start_ms": 57602,
+      "end_ms": 66250,
       "duration_ms": 8648,
       "clauses": [
         {
           "index": 0,
           "text": "それを知っていることは、",
-          "start_ms": 57788,
-          "end_ms": 59974,
-          "duration_ms": 2186
+          "start_ms": 57602,
+          "end_ms": 59776,
+          "duration_ms": 2174
         },
         {
           "index": 1,
           "text": "不安を抱えて食べることと、",
-          "start_ms": 60224,
-          "end_ms": 62804,
-          "duration_ms": 2580
+          "start_ms": 60026,
+          "end_ms": 62572,
+          "duration_ms": 2546
         },
         {
           "index": 2,
           "text": "心から美味しく食べることを分ける。",
-          "start_ms": 63054,
-          "end_ms": 66436,
-          "duration_ms": 3382
+          "start_ms": 62822,
+          "end_ms": 66250,
+          "duration_ms": 3428
         }
       ]
     },
     {
       "index": 8,
-      "text": "まず、箸のマナーは二つだけだ。",
-      "start_ms": 66936,
-      "end_ms": 70547,
-      "duration_ms": 3611,
+      "text": "まず、はしのマナーは二つだけだ。",
+      "start_ms": 66750,
+      "end_ms": 70443,
+      "duration_ms": 3693,
       "clauses": [
         {
           "index": 0,
           "text": "まず、",
-          "start_ms": 66936,
-          "end_ms": 67763,
-          "duration_ms": 827
+          "start_ms": 66750,
+          "end_ms": 67589,
+          "duration_ms": 839
         },
         {
           "index": 1,
-          "text": "箸のマナーは二つだけだ。",
-          "start_ms": 68013,
-          "end_ms": 70547,
-          "duration_ms": 2534
+          "text": "はしのマナーは二つだけだ。",
+          "start_ms": 67839,
+          "end_ms": 70443,
+          "duration_ms": 2604
         }
       ]
     },
     {
       "index": 9,
-      "text": "箸を御飯に突き刺さないこと、そして箸から箸へと食べ物を直接受け渡ししないことだ。",
-      "start_ms": 71047,
-      "end_ms": 79198,
-      "duration_ms": 8151,
+      "text": "はしをごはんに突き刺さないこと、そしてはしからはしへと食べ物を直接受け渡ししないことだ。",
+      "start_ms": 70943,
+      "end_ms": 79024,
+      "duration_ms": 8081,
       "clauses": [
         {
           "index": 0,
-          "text": "箸を御飯に突き刺さないこと、",
-          "start_ms": 71047,
-          "end_ms": 73918,
-          "duration_ms": 2871
+          "text": "はしをごはんに突き刺さないこと、",
+          "start_ms": 70943,
+          "end_ms": 73767,
+          "duration_ms": 2824
         },
         {
           "index": 1,
-          "text": "そして箸から箸へと食べ物を直接受け渡ししないことだ。",
-          "start_ms": 74168,
-          "end_ms": 79198,
-          "duration_ms": 5030
+          "text": "そしてはしからはしへと食べ物を直接受け渡ししないことだ。",
+          "start_ms": 74017,
+          "end_ms": 79024,
+          "duration_ms": 5007
         }
       ]
     },
     {
       "index": 10,
       "text": "どちらも死者の儀式を連想させるせいで、周りの人はとても嫌がる。",
-      "start_ms": 79698,
-      "end_ms": 86699,
-      "duration_ms": 7001,
+      "start_ms": 79524,
+      "end_ms": 86375,
+      "duration_ms": 6851,
       "clauses": [
         {
           "index": 0,
           "text": "どちらも死者の儀式を連想させるせいで、",
-          "start_ms": 79698,
-          "end_ms": 83590,
-          "duration_ms": 3892
+          "start_ms": 79524,
+          "end_ms": 83347,
+          "duration_ms": 3823
         },
         {
           "index": 1,
           "text": "周りの人はとても嫌がる。",
-          "start_ms": 83840,
-          "end_ms": 86699,
-          "duration_ms": 2859
+          "start_ms": 83597,
+          "end_ms": 86375,
+          "duration_ms": 2778
         }
       ]
     },
     {
       "index": 11,
-      "text": "それ以外のことであれば、持ち方、箸を置く場所、少しくらいぎこちなく使ってしまうことなどは、誰も気にしない。",
-      "start_ms": 87199,
-      "end_ms": 99267,
-      "duration_ms": 12068,
+      "text": "それ以外のことであれば、持ち方、はしを置く場所、少しくらいぎこちなく使ってしまうことなどは、誰も気にしない。",
+      "start_ms": 86875,
+      "end_ms": 99106,
+      "duration_ms": 12231,
       "clauses": [
         {
           "index": 0,
           "text": "それ以外のことであれば、",
-          "start_ms": 87199,
-          "end_ms": 89489,
-          "duration_ms": 2290
+          "start_ms": 86875,
+          "end_ms": 89177,
+          "duration_ms": 2302
         },
         {
           "index": 1,
           "text": "持ち方、",
-          "start_ms": 89739,
-          "end_ms": 91124,
-          "duration_ms": 1385
+          "start_ms": 89427,
+          "end_ms": 90823,
+          "duration_ms": 1396
         },
         {
           "index": 2,
-          "text": "箸を置く場所、",
-          "start_ms": 91374,
-          "end_ms": 93165,
-          "duration_ms": 1791
+          "text": "はしを置く場所、",
+          "start_ms": 91073,
+          "end_ms": 92876,
+          "duration_ms": 1803
         },
         {
           "index": 3,
           "text": "少しくらいぎこちなく使ってしまうことなどは、",
-          "start_ms": 93415,
-          "end_ms": 97145,
-          "duration_ms": 3730
+          "start_ms": 93126,
+          "end_ms": 96949,
+          "duration_ms": 3823
         },
         {
           "index": 4,
           "text": "誰も気にしない。",
-          "start_ms": 97395,
-          "end_ms": 99267,
-          "duration_ms": 1872
+          "start_ms": 97199,
+          "end_ms": 99106,
+          "duration_ms": 1907
         }
       ]
     },
     {
       "index": 12,
       "text": "次に、カウンターでは、出されたらすぐに食べたいものだ。",
-      "start_ms": 99767,
-      "end_ms": 106244,
-      "duration_ms": 6477,
+      "start_ms": 99606,
+      "end_ms": 105955,
+      "duration_ms": 6349,
       "clauses": [
         {
           "index": 0,
           "text": "次に、",
-          "start_ms": 99767,
-          "end_ms": 101036,
-          "duration_ms": 1269
+          "start_ms": 99606,
+          "end_ms": 100816,
+          "duration_ms": 1210
         },
         {
           "index": 1,
           "text": "カウンターでは、",
-          "start_ms": 101286,
-          "end_ms": 102868,
-          "duration_ms": 1582
+          "start_ms": 101066,
+          "end_ms": 102625,
+          "duration_ms": 1559
         },
         {
           "index": 2,
           "text": "出されたらすぐに食べたいものだ。",
-          "start_ms": 103118,
-          "end_ms": 106244,
-          "duration_ms": 3126
+          "start_ms": 102875,
+          "end_ms": 105955,
+          "duration_ms": 3080
         }
       ]
     },
     {
       "index": 13,
       "text": "目の前にお寿司が一貫置かれたとき、職人はしゃりとネタの温度をその瞬間に合わせている。",
-      "start_ms": 106744,
-      "end_ms": 115278,
-      "duration_ms": 8534,
+      "start_ms": 106455,
+      "end_ms": 114931,
+      "duration_ms": 8476,
       "clauses": [
         {
           "index": 0,
           "text": "目の前にお寿司が一貫置かれたとき、",
-          "start_ms": 106744,
-          "end_ms": 110242,
-          "duration_ms": 3498
+          "start_ms": 106455,
+          "end_ms": 110011,
+          "duration_ms": 3556
         },
         {
           "index": 1,
           "text": "職人はしゃりとネタの温度をその瞬間に合わせている。",
-          "start_ms": 110492,
-          "end_ms": 115278,
-          "duration_ms": 4786
+          "start_ms": 110261,
+          "end_ms": 114931,
+          "duration_ms": 4670
         }
       ]
     },
     {
       "index": 14,
       "text": "最初の一分間も写真を撮っていると、せっかく支払ったのにその経験を楽しめなくなってしまう。",
-      "start_ms": 115778,
-      "end_ms": 124451,
-      "duration_ms": 8673,
+      "start_ms": 115431,
+      "end_ms": 123941,
+      "duration_ms": 8510,
       "clauses": [
         {
           "index": 0,
           "text": "最初の一分間も写真を撮っていると、",
-          "start_ms": 115778,
-          "end_ms": 119264,
-          "duration_ms": 3486
+          "start_ms": 115431,
+          "end_ms": 118789,
+          "duration_ms": 3358
         },
         {
           "index": 1,
           "text": "せっかく支払ったのにその経験を楽しめなくなってしまう。",
-          "start_ms": 119514,
-          "end_ms": 124451,
-          "duration_ms": 4937
+          "start_ms": 119039,
+          "end_ms": 123941,
+          "duration_ms": 4902
         }
       ]
     },
     {
       "index": 15,
       "text": "写真は二秒で済ませるか、あきらめるのが良い。",
-      "start_ms": 124951,
-      "end_ms": 130002,
-      "duration_ms": 5051,
+      "start_ms": 124441,
+      "end_ms": 129539,
+      "duration_ms": 5098,
       "clauses": [
         {
           "index": 0,
           "text": "写真は二秒で済ませるか、",
-          "start_ms": 124951,
-          "end_ms": 127752,
-          "duration_ms": 2801
+          "start_ms": 124441,
+          "end_ms": 127289,
+          "duration_ms": 2848
         },
         {
           "index": 1,
           "text": "あきらめるのが良い。",
-          "start_ms": 128002,
-          "end_ms": 130002,
+          "start_ms": 127539,
+          "end_ms": 129539,
           "duration_ms": 2000
         }
       ]
@@ -424,266 +424,266 @@
     {
       "index": 16,
       "text": "もし職人を撮りたい場合には、事前に声をかけてほしい。",
-      "start_ms": 130502,
-      "end_ms": 136006,
-      "duration_ms": 5504,
+      "start_ms": 130039,
+      "end_ms": 135613,
+      "duration_ms": 5574,
       "clauses": [
         {
           "index": 0,
           "text": "もし職人を撮りたい場合には、",
-          "start_ms": 130502,
-          "end_ms": 133268,
-          "duration_ms": 2766
+          "start_ms": 130039,
+          "end_ms": 132887,
+          "duration_ms": 2848
         },
         {
           "index": 1,
           "text": "事前に声をかけてほしい。",
-          "start_ms": 133518,
-          "end_ms": 136006,
-          "duration_ms": 2488
+          "start_ms": 133137,
+          "end_ms": 135613,
+          "duration_ms": 2476
         }
       ]
     },
     {
       "index": 17,
-      "text": "そして、香水は控えめにするのが良い。",
-      "start_ms": 136506,
-      "end_ms": 140884,
-      "duration_ms": 4378,
+      "text": "そして、こうすいは控えめにするのが良い。",
+      "start_ms": 136113,
+      "end_ms": 140363,
+      "duration_ms": 4250,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 136506,
-          "end_ms": 137775,
-          "duration_ms": 1269
+          "start_ms": 136113,
+          "end_ms": 137312,
+          "duration_ms": 1199
         },
         {
           "index": 1,
-          "text": "香水は控えめにするのが良い。",
-          "start_ms": 138025,
-          "end_ms": 140884,
-          "duration_ms": 2859
+          "text": "こうすいは控えめにするのが良い。",
+          "start_ms": 137562,
+          "end_ms": 140363,
+          "duration_ms": 2801
         }
       ]
     },
     {
       "index": 18,
       "text": "これは誰もアメリカ人に教えてくれないが、高級店の店主がひそかにいちばん気にしていることだ。",
-      "start_ms": 141384,
-      "end_ms": 150278,
-      "duration_ms": 8894,
+      "start_ms": 140863,
+      "end_ms": 149687,
+      "duration_ms": 8824,
       "clauses": [
         {
           "index": 0,
           "text": "これは誰もアメリカ人に教えてくれないが、",
-          "start_ms": 141384,
-          "end_ms": 145346,
-          "duration_ms": 3962
+          "start_ms": 140863,
+          "end_ms": 144813,
+          "duration_ms": 3950
         },
         {
           "index": 1,
           "text": "高級店の店主がひそかにいちばん気にしていることだ。",
-          "start_ms": 145596,
-          "end_ms": 150278,
-          "duration_ms": 4682
+          "start_ms": 145063,
+          "end_ms": 149687,
+          "duration_ms": 4624
         }
       ]
     },
     {
       "index": 19,
       "text": "料理の場では、香りも料理の一部として考えられている。",
-      "start_ms": 150778,
-      "end_ms": 156676,
-      "duration_ms": 5898,
+      "start_ms": 150187,
+      "end_ms": 156063,
+      "duration_ms": 5876,
       "clauses": [
         {
           "index": 0,
           "text": "料理の場では、",
-          "start_ms": 150778,
-          "end_ms": 152557,
-          "duration_ms": 1779
+          "start_ms": 150187,
+          "end_ms": 151955,
+          "duration_ms": 1768
         },
         {
           "index": 1,
           "text": "香りも料理の一部として考えられている。",
-          "start_ms": 152807,
-          "end_ms": 156676,
-          "duration_ms": 3869
+          "start_ms": 152205,
+          "end_ms": 156063,
+          "duration_ms": 3858
         }
       ]
     },
     {
       "index": 20,
       "text": "強い匂いは二メートル以内に座っている全員に影響を与える。",
-      "start_ms": 157176,
-      "end_ms": 162346,
-      "duration_ms": 5170,
+      "start_ms": 156563,
+      "end_ms": 161791,
+      "duration_ms": 5228,
       "clauses": [
         {
           "index": 0,
           "text": "強い匂いは二メートル以内に座っている全員に影響を与える。",
-          "start_ms": 157176,
-          "end_ms": 162346,
-          "duration_ms": 5170
+          "start_ms": 156563,
+          "end_ms": 161791,
+          "duration_ms": 5228
         }
       ]
     },
     {
       "index": 21,
       "text": "予約の規則に書かれている店もあることだし、書かない店も、ただ客の配慮を願っているだけだ。",
-      "start_ms": 162846,
-      "end_ms": 172318,
-      "duration_ms": 9472,
+      "start_ms": 162291,
+      "end_ms": 171775,
+      "duration_ms": 9484,
       "clauses": [
         {
           "index": 0,
           "text": "予約の規則に書かれている店もあることだし、",
-          "start_ms": 162846,
-          "end_ms": 166657,
-          "duration_ms": 3811
+          "start_ms": 162291,
+          "end_ms": 166125,
+          "duration_ms": 3834
         },
         {
           "index": 1,
           "text": "書かない店も、",
-          "start_ms": 166907,
-          "end_ms": 168675,
-          "duration_ms": 1768
+          "start_ms": 166375,
+          "end_ms": 168120,
+          "duration_ms": 1745
         },
         {
           "index": 2,
           "text": "ただ客の配慮を願っているだけだ。",
-          "start_ms": 168925,
-          "end_ms": 172318,
-          "duration_ms": 3393
+          "start_ms": 168370,
+          "end_ms": 171775,
+          "duration_ms": 3405
         }
       ]
     },
     {
       "index": 22,
       "text": "それから、キャンセルするなら正しくキャンセルしてほしい。",
-      "start_ms": 172818,
-      "end_ms": 178241,
-      "duration_ms": 5423,
+      "start_ms": 172275,
+      "end_ms": 177779,
+      "duration_ms": 5504,
       "clauses": [
         {
           "index": 0,
           "text": "それから、",
-          "start_ms": 172818,
-          "end_ms": 174226,
+          "start_ms": 172275,
+          "end_ms": 173683,
           "duration_ms": 1408
         },
         {
           "index": 1,
           "text": "キャンセルするなら正しくキャンセルしてほしい。",
-          "start_ms": 174476,
-          "end_ms": 178241,
-          "duration_ms": 3765
+          "start_ms": 173933,
+          "end_ms": 177779,
+          "duration_ms": 3846
         }
       ]
     },
     {
       "index": 23,
       "text": "八席だけの店では、八人分の魚を仕入れている。",
-      "start_ms": 178741,
-      "end_ms": 184291,
-      "duration_ms": 5550,
+      "start_ms": 178279,
+      "end_ms": 183771,
+      "duration_ms": 5492,
       "clauses": [
         {
           "index": 0,
           "text": "八席だけの店では、",
-          "start_ms": 178741,
-          "end_ms": 181124,
-          "duration_ms": 2383
+          "start_ms": 178279,
+          "end_ms": 180627,
+          "duration_ms": 2348
         },
         {
           "index": 1,
           "text": "八人分の魚を仕入れている。",
-          "start_ms": 181374,
-          "end_ms": 184291,
-          "duration_ms": 2917
+          "start_ms": 180877,
+          "end_ms": 183771,
+          "duration_ms": 2894
         }
       ]
     },
     {
       "index": 24,
       "text": "無断でいなくなることは、ただの空席ではなく、職人の損失そのものである。",
-      "start_ms": 184791,
-      "end_ms": 192951,
-      "duration_ms": 8160,
+      "start_ms": 184271,
+      "end_ms": 192280,
+      "duration_ms": 8009,
       "clauses": [
         {
           "index": 0,
           "text": "無断でいなくなることは、",
-          "start_ms": 184791,
-          "end_ms": 187070,
-          "duration_ms": 2279
+          "start_ms": 184271,
+          "end_ms": 186561,
+          "duration_ms": 2290
         },
         {
           "index": 1,
           "text": "ただの空席ではなく、",
-          "start_ms": 187320,
-          "end_ms": 189610,
-          "duration_ms": 2290
+          "start_ms": 186811,
+          "end_ms": 189090,
+          "duration_ms": 2279
         },
         {
           "index": 2,
           "text": "職人の損失そのものである。",
-          "start_ms": 189860,
-          "end_ms": 192951,
-          "duration_ms": 3091
+          "start_ms": 189340,
+          "end_ms": 192280,
+          "duration_ms": 2940
         }
       ]
     },
     {
       "index": 25,
-      "text": "外国からの観光客による無断キャンセルは、東京の飲食店を経営する人がいちばんこぼす不満の一つだ。",
-      "start_ms": 193451,
-      "end_ms": 203169,
-      "duration_ms": 9718,
+      "text": "外国からの観光客による無断キャンセルは、とうきょうの飲食店を経営する人がいちばんこぼす不満の一つだ。",
+      "start_ms": 192780,
+      "end_ms": 202464,
+      "duration_ms": 9684,
       "clauses": [
         {
           "index": 0,
           "text": "外国からの観光客による無断キャンセルは、",
-          "start_ms": 193451,
-          "end_ms": 197355,
-          "duration_ms": 3904
+          "start_ms": 192780,
+          "end_ms": 196638,
+          "duration_ms": 3858
         },
         {
           "index": 1,
-          "text": "東京の飲食店を経営する人がいちばんこぼす不満の一つだ。",
-          "start_ms": 197605,
-          "end_ms": 203169,
-          "duration_ms": 5564
+          "text": "とうきょうの飲食店を経営する人がいちばんこぼす不満の一つだ。",
+          "start_ms": 196888,
+          "end_ms": 202464,
+          "duration_ms": 5576
         }
       ]
     },
     {
       "index": 26,
       "text": "遅くなったとしても気まずくても、オンラインでも電話でも、とにかくキャンセルすることが大切だ。",
-      "start_ms": 203669,
-      "end_ms": 212583,
-      "duration_ms": 8914,
+      "start_ms": 202964,
+      "end_ms": 211809,
+      "duration_ms": 8845,
       "clauses": [
         {
           "index": 0,
           "text": "遅くなったとしても気まずくても、",
-          "start_ms": 203669,
-          "end_ms": 206609,
-          "duration_ms": 2940
+          "start_ms": 202964,
+          "end_ms": 205916,
+          "duration_ms": 2952
         },
         {
           "index": 1,
           "text": "オンラインでも電話でも、",
-          "start_ms": 206859,
-          "end_ms": 209149,
-          "duration_ms": 2290
+          "start_ms": 206166,
+          "end_ms": 208375,
+          "duration_ms": 2209
         },
         {
           "index": 2,
           "text": "とにかくキャンセルすることが大切だ。",
-          "start_ms": 209399,
-          "end_ms": 212583,
+          "start_ms": 208625,
+          "end_ms": 211809,
           "duration_ms": 3184
         }
       ]
@@ -691,270 +691,270 @@
     {
       "index": 27,
       "text": "帰るときには、一言をかけたい。",
-      "start_ms": 213083,
-      "end_ms": 217124,
-      "duration_ms": 4041,
+      "start_ms": 212309,
+      "end_ms": 216234,
+      "duration_ms": 3925,
       "clauses": [
         {
           "index": 0,
           "text": "帰るときには、",
-          "start_ms": 213083,
-          "end_ms": 214839,
-          "duration_ms": 1756
+          "start_ms": 212309,
+          "end_ms": 214007,
+          "duration_ms": 1698
         },
         {
           "index": 1,
           "text": "一言をかけたい。",
-          "start_ms": 215089,
-          "end_ms": 217124,
-          "duration_ms": 2035
+          "start_ms": 214257,
+          "end_ms": 216234,
+          "duration_ms": 1977
         }
       ]
     },
     {
       "index": 28,
       "text": "「ごちそうさまでした」という言葉だ。",
-      "start_ms": 217624,
-      "end_ms": 220495,
-      "duration_ms": 2871,
+      "start_ms": 216734,
+      "end_ms": 219616,
+      "duration_ms": 2882,
       "clauses": [
         {
           "index": 0,
           "text": "「ごちそうさまでした」という言葉だ。",
-          "start_ms": 217624,
-          "end_ms": 220495,
-          "duration_ms": 2871
+          "start_ms": 216734,
+          "end_ms": 219616,
+          "duration_ms": 2882
         }
       ]
     },
     {
       "index": 29,
       "text": "これは大体「素晴らしい食事をありがとう」という意味だと言われている。",
-      "start_ms": 220995,
-      "end_ms": 226432,
-      "duration_ms": 5437,
+      "start_ms": 220116,
+      "end_ms": 225576,
+      "duration_ms": 5460,
       "clauses": [
         {
           "index": 0,
           "text": "これは大体「素晴らしい食事をありがとう」という意味だと言われている。",
-          "start_ms": 220995,
-          "end_ms": 226432,
-          "duration_ms": 5437
+          "start_ms": 220116,
+          "end_ms": 225576,
+          "duration_ms": 5460
         }
       ]
     },
     {
       "index": 30,
       "text": "お金はかからないことだし、チップの代わりに文化的に正しい習慣でもあり、小さな店では店員の心に確かに響く。",
-      "start_ms": 226932,
-      "end_ms": 238459,
-      "duration_ms": 11527,
+      "start_ms": 226076,
+      "end_ms": 237708,
+      "duration_ms": 11632,
       "clauses": [
         {
           "index": 0,
           "text": "お金はかからないことだし、",
-          "start_ms": 226932,
-          "end_ms": 229559,
-          "duration_ms": 2627
+          "start_ms": 226076,
+          "end_ms": 228715,
+          "duration_ms": 2639
         },
         {
           "index": 1,
           "text": "チップの代わりに文化的に正しい習慣でもあり、",
-          "start_ms": 229809,
-          "end_ms": 233980,
-          "duration_ms": 4171
+          "start_ms": 228965,
+          "end_ms": 233194,
+          "duration_ms": 4229
         },
         {
           "index": 2,
           "text": "小さな店では店員の心に確かに響く。",
-          "start_ms": 234230,
-          "end_ms": 238459,
-          "duration_ms": 4229
+          "start_ms": 233444,
+          "end_ms": 237708,
+          "duration_ms": 4264
         }
       ]
     },
     {
       "index": 31,
       "text": "もし日本の食事の場で使う言葉を一つだけ覚えるなら、これを覚えよう。",
-      "start_ms": 238959,
-      "end_ms": 246054,
-      "duration_ms": 7095,
+      "start_ms": 238208,
+      "end_ms": 245314,
+      "duration_ms": 7106,
       "clauses": [
         {
           "index": 0,
           "text": "もし日本の食事の場で使う言葉を一つだけ覚えるなら、",
-          "start_ms": 238959,
-          "end_ms": 244036,
-          "duration_ms": 5077
+          "start_ms": 238208,
+          "end_ms": 243238,
+          "duration_ms": 5030
         },
         {
           "index": 1,
           "text": "これを覚えよう。",
-          "start_ms": 244286,
-          "end_ms": 246054,
-          "duration_ms": 1768
+          "start_ms": 243488,
+          "end_ms": 245314,
+          "duration_ms": 1826
         }
       ]
     },
     {
       "index": 32,
-      "text": "「麺は必ず音を立てて食べるものだ」というルールは、実はそれほどではない。",
-      "start_ms": 246554,
-      "end_ms": 253521,
-      "duration_ms": 6967,
+      "text": "「めんは必ず音を立てて食べるものだ」というルールは、実はそれほどではない。",
+      "start_ms": 245814,
+      "end_ms": 252780,
+      "duration_ms": 6966,
       "clauses": [
         {
           "index": 0,
-          "text": "「麺は必ず音を立てて食べるものだ」というルールは、",
-          "start_ms": 246554,
-          "end_ms": 250830,
-          "duration_ms": 4276
+          "text": "「めんは必ず音を立てて食べるものだ」というルールは、",
+          "start_ms": 245814,
+          "end_ms": 250124,
+          "duration_ms": 4310
         },
         {
           "index": 1,
           "text": "実はそれほどではない。",
-          "start_ms": 251080,
-          "end_ms": 253521,
-          "duration_ms": 2441
+          "start_ms": 250374,
+          "end_ms": 252780,
+          "duration_ms": 2406
         }
       ]
     },
     {
       "index": 33,
       "text": "音を立ててすする人もいれば、静かに食べる人もいる。",
-      "start_ms": 254021,
-      "end_ms": 259444,
-      "duration_ms": 5423,
+      "start_ms": 253280,
+      "end_ms": 258760,
+      "duration_ms": 5480,
       "clauses": [
         {
           "index": 0,
           "text": "音を立ててすする人もいれば、",
-          "start_ms": 254021,
-          "end_ms": 256741,
-          "duration_ms": 2720
+          "start_ms": 253280,
+          "end_ms": 256046,
+          "duration_ms": 2766
         },
         {
           "index": 1,
           "text": "静かに食べる人もいる。",
-          "start_ms": 256991,
-          "end_ms": 259444,
-          "duration_ms": 2453
+          "start_ms": 256296,
+          "end_ms": 258760,
+          "duration_ms": 2464
         }
       ]
     },
     {
       "index": 34,
       "text": "どちらであっても誰も評価しない。",
-      "start_ms": 259944,
-      "end_ms": 263175,
-      "duration_ms": 3231,
+      "start_ms": 259260,
+      "end_ms": 262572,
+      "duration_ms": 3312,
       "clauses": [
         {
           "index": 0,
           "text": "どちらであっても誰も評価しない。",
-          "start_ms": 259944,
-          "end_ms": 263175,
-          "duration_ms": 3231
+          "start_ms": 259260,
+          "end_ms": 262572,
+          "duration_ms": 3312
         }
       ]
     },
     {
       "index": 35,
       "text": "無理にすすると、かえって不自然に映ることもある。",
-      "start_ms": 263675,
-      "end_ms": 268761,
-      "duration_ms": 5086,
+      "start_ms": 263072,
+      "end_ms": 268076,
+      "duration_ms": 5004,
       "clauses": [
         {
           "index": 0,
           "text": "無理にすすると、",
-          "start_ms": 263675,
-          "end_ms": 265501,
-          "duration_ms": 1826
+          "start_ms": 263072,
+          "end_ms": 264851,
+          "duration_ms": 1779
         },
         {
           "index": 1,
           "text": "かえって不自然に映ることもある。",
-          "start_ms": 265751,
-          "end_ms": 268761,
-          "duration_ms": 3010
+          "start_ms": 265101,
+          "end_ms": 268076,
+          "duration_ms": 2975
         }
       ]
     },
     {
       "index": 36,
       "text": "「すべて食べきるものだ」ということもない。",
-      "start_ms": 269261,
-      "end_ms": 272445,
-      "duration_ms": 3184,
+      "start_ms": 268576,
+      "end_ms": 271749,
+      "duration_ms": 3173,
       "clauses": [
         {
           "index": 0,
           "text": "「すべて食べきるものだ」ということもない。",
-          "start_ms": 269261,
-          "end_ms": 272445,
-          "duration_ms": 3184
+          "start_ms": 268576,
+          "end_ms": 271749,
+          "duration_ms": 3173
         }
       ]
     },
     {
       "index": 37,
-      "text": "完食すれば喜ばれるが、御飯が残っても誰も責めない。",
-      "start_ms": 272945,
-      "end_ms": 278890,
-      "duration_ms": 5945,
+      "text": "かんしょくすれば喜ばれるが、ごはんが残っても誰も責めない。",
+      "start_ms": 272249,
+      "end_ms": 278159,
+      "duration_ms": 5910,
       "clauses": [
         {
           "index": 0,
-          "text": "完食すれば喜ばれるが、",
-          "start_ms": 272945,
-          "end_ms": 275572,
+          "text": "かんしょくすれば喜ばれるが、",
+          "start_ms": 272249,
+          "end_ms": 274876,
           "duration_ms": 2627
         },
         {
           "index": 1,
-          "text": "御飯が残っても誰も責めない。",
-          "start_ms": 275822,
-          "end_ms": 278890,
-          "duration_ms": 3068
+          "text": "ごはんが残っても誰も責めない。",
+          "start_ms": 275126,
+          "end_ms": 278159,
+          "duration_ms": 3033
         }
       ]
     },
     {
       "index": 38,
       "text": "少なめに注文するのが、賢い解決策だ。",
-      "start_ms": 279390,
-      "end_ms": 284360,
-      "duration_ms": 4970,
+      "start_ms": 278659,
+      "end_ms": 283652,
+      "duration_ms": 4993,
       "clauses": [
         {
           "index": 0,
           "text": "少なめに注文するのが、",
-          "start_ms": 279390,
-          "end_ms": 281924,
+          "start_ms": 278659,
+          "end_ms": 281193,
           "duration_ms": 2534
         },
         {
           "index": 1,
           "text": "賢い解決策だ。",
-          "start_ms": 282174,
-          "end_ms": 284360,
-          "duration_ms": 2186
+          "start_ms": 281443,
+          "end_ms": 283652,
+          "duration_ms": 2209
         }
       ]
     },
     {
       "index": 39,
       "text": "「外国人だからという理由で入店を断られる」と聞いたことがあるかもしれない。",
-      "start_ms": 284860,
-      "end_ms": 290819,
+      "start_ms": 284152,
+      "end_ms": 290111,
       "duration_ms": 5959,
       "clauses": [
         {
           "index": 0,
           "text": "「外国人だからという理由で入店を断られる」と聞いたことがあるかもしれない。",
-          "start_ms": 284860,
-          "end_ms": 290819,
+          "start_ms": 284152,
+          "end_ms": 290111,
           "duration_ms": 5959
         }
       ]
@@ -962,152 +962,152 @@
     {
       "index": 40,
       "text": "一部では日本語を話す客だけを受け入れる店もあることだし、インターネットで言われているほど頻繁ではない。",
-      "start_ms": 291319,
-      "end_ms": 300155,
-      "duration_ms": 8836,
+      "start_ms": 290611,
+      "end_ms": 299458,
+      "duration_ms": 8847,
       "clauses": [
         {
           "index": 0,
           "text": "一部では日本語を話す客だけを受け入れる店もあることだし、",
-          "start_ms": 291319,
-          "end_ms": 296384,
-          "duration_ms": 5065
+          "start_ms": 290611,
+          "end_ms": 295699,
+          "duration_ms": 5088
         },
         {
           "index": 1,
           "text": "インターネットで言われているほど頻繁ではない。",
-          "start_ms": 296634,
-          "end_ms": 300155,
-          "duration_ms": 3521
+          "start_ms": 295949,
+          "end_ms": 299458,
+          "duration_ms": 3509
         }
       ]
     },
     {
       "index": 41,
       "text": "それはあくまでも、客に食事をスムーズに提供する上での問題であり、あなた個人に対して向けられた話ではない。",
-      "start_ms": 300655,
-      "end_ms": 311312,
-      "duration_ms": 10657,
+      "start_ms": 299958,
+      "end_ms": 310533,
+      "duration_ms": 10575,
       "clauses": [
         {
           "index": 0,
           "text": "それはあくまでも、",
-          "start_ms": 300655,
-          "end_ms": 302667,
-          "duration_ms": 2012
+          "start_ms": 299958,
+          "end_ms": 301958,
+          "duration_ms": 2000
         },
         {
           "index": 1,
           "text": "客に食事をスムーズに提供する上での問題であり、",
-          "start_ms": 302917,
-          "end_ms": 307262,
-          "duration_ms": 4345
+          "start_ms": 302208,
+          "end_ms": 306518,
+          "duration_ms": 4310
         },
         {
           "index": 2,
           "text": "あなた個人に対して向けられた話ではない。",
-          "start_ms": 307512,
-          "end_ms": 311312,
-          "duration_ms": 3800
+          "start_ms": 306768,
+          "end_ms": 310533,
+          "duration_ms": 3765
         }
       ]
     },
     {
       "index": 42,
       "text": "言葉の壁を解消してくれる予約の仕組みを使えば、十分に避けられる。",
-      "start_ms": 311812,
-      "end_ms": 318698,
+      "start_ms": 311033,
+      "end_ms": 317919,
       "duration_ms": 6886,
       "clauses": [
         {
           "index": 0,
           "text": "言葉の壁を解消してくれる予約の仕組みを使えば、",
-          "start_ms": 311812,
-          "end_ms": 316320,
-          "duration_ms": 4508
+          "start_ms": 311033,
+          "end_ms": 315576,
+          "duration_ms": 4543
         },
         {
           "index": 1,
           "text": "十分に避けられる。",
-          "start_ms": 316570,
-          "end_ms": 318698,
-          "duration_ms": 2128
+          "start_ms": 315826,
+          "end_ms": 317919,
+          "duration_ms": 2093
         }
       ]
     },
     {
       "index": 43,
       "text": "席につくと出される温かいタオルは、手を拭くときに使うものだ。",
-      "start_ms": 319198,
-      "end_ms": 325421,
-      "duration_ms": 6223,
+      "start_ms": 318419,
+      "end_ms": 324620,
+      "duration_ms": 6201,
       "clauses": [
         {
           "index": 0,
           "text": "席につくと出される温かいタオルは、",
-          "start_ms": 319198,
-          "end_ms": 322649,
-          "duration_ms": 3451
+          "start_ms": 318419,
+          "end_ms": 321859,
+          "duration_ms": 3440
         },
         {
           "index": 1,
           "text": "手を拭くときに使うものだ。",
-          "start_ms": 322899,
-          "end_ms": 325421,
-          "duration_ms": 2522
+          "start_ms": 322109,
+          "end_ms": 324620,
+          "duration_ms": 2511
         }
       ]
     },
     {
       "index": 44,
       "text": "それで顔を拭くのは、いかにも観光客らしい光景ではある。",
-      "start_ms": 325921,
-      "end_ms": 332005,
-      "duration_ms": 6084,
+      "start_ms": 325120,
+      "end_ms": 331216,
+      "duration_ms": 6096,
       "clauses": [
         {
           "index": 0,
           "text": "それで顔を拭くのは、",
-          "start_ms": 325921,
-          "end_ms": 328223,
-          "duration_ms": 2302
+          "start_ms": 325120,
+          "end_ms": 327503,
+          "duration_ms": 2383
         },
         {
           "index": 1,
           "text": "いかにも観光客らしい光景ではある。",
-          "start_ms": 328473,
-          "end_ms": 332005,
-          "duration_ms": 3532
+          "start_ms": 327753,
+          "end_ms": 331216,
+          "duration_ms": 3463
         }
       ]
     },
     {
       "index": 45,
       "text": "といっても、長い一日の終わりに、日本人の男性でもよく拭いている光景を目にすることがあるけれど。",
-      "start_ms": 332505,
-      "end_ms": 342245,
-      "duration_ms": 9740,
+      "start_ms": 331716,
+      "end_ms": 341408,
+      "duration_ms": 9692,
       "clauses": [
         {
           "index": 0,
           "text": "といっても、",
-          "start_ms": 332505,
-          "end_ms": 333890,
-          "duration_ms": 1385
+          "start_ms": 331716,
+          "end_ms": 333135,
+          "duration_ms": 1419
         },
         {
           "index": 1,
           "text": "長い一日の終わりに、",
-          "start_ms": 334140,
-          "end_ms": 336558,
-          "duration_ms": 2418
+          "start_ms": 333385,
+          "end_ms": 335780,
+          "duration_ms": 2395
         },
         {
           "index": 2,
           "text": "日本人の男性でもよく拭いている光景を目にすることがあるけれど。",
-          "start_ms": 336808,
-          "end_ms": 342245,
-          "duration_ms": 5437
+          "start_ms": 336030,
+          "end_ms": 341408,
+          "duration_ms": 5378
         }
       ]
     }

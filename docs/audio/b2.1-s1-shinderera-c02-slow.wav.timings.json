@@ -1,0 +1,498 @@
+{
+  "audio_file": "b2.1-s1-shinderera-c02-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 128614,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "はしばみの木",
+      "start_ms": 0,
+      "end_ms": 2075,
+      "duration_ms": 2075,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はしばみの木",
+          "start_ms": 0,
+          "end_ms": 2075,
+          "duration_ms": 2075
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "たまたまある日、父親が町に行くところでした。",
+      "start_ms": 2575,
+      "end_ms": 8020,
+      "duration_ms": 5445,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たまたまある日、",
+          "start_ms": 2575,
+          "end_ms": 4615,
+          "duration_ms": 2040
+        },
+        {
+          "index": 1,
+          "text": "父親が町に行くところでした。",
+          "start_ms": 4865,
+          "end_ms": 8020,
+          "duration_ms": 3155
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "二人のこいもうとに「お土産に何がほしい？",
+      "start_ms": 8520,
+      "end_ms": 12406,
+      "duration_ms": 3886,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "二人のこいもうとに「お土産に何がほしい？",
+          "start_ms": 8520,
+          "end_ms": 12406,
+          "duration_ms": 3886
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "」と聞きました。",
+      "start_ms": 12906,
+      "end_ms": 14749,
+      "duration_ms": 1843,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」と聞きました。",
+          "start_ms": 12906,
+          "end_ms": 14749,
+          "duration_ms": 1843
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "「きれいなドレスがいいです。",
+      "start_ms": 15249,
+      "end_ms": 17742,
+      "duration_ms": 2493,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「きれいなドレスがいいです。",
+          "start_ms": 15249,
+          "end_ms": 17742,
+          "duration_ms": 2493
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "」一人が言いました。",
+      "start_ms": 18242,
+      "end_ms": 20306,
+      "duration_ms": 2064,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」一人が言いました。",
+          "start_ms": 18242,
+          "end_ms": 20306,
+          "duration_ms": 2064
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "「しんじゅとほうせきをお願いします。",
+      "start_ms": 20806,
+      "end_ms": 23949,
+      "duration_ms": 3143,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「しんじゅとほうせきをお願いします。",
+          "start_ms": 20806,
+          "end_ms": 23949,
+          "duration_ms": 3143
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "」もう一人が言いました。",
+      "start_ms": 24449,
+      "end_ms": 26791,
+      "duration_ms": 2342,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」もう一人が言いました。",
+          "start_ms": 24449,
+          "end_ms": 26791,
+          "duration_ms": 2342
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "「それでは、シンデレラ、あなたは何かほしいものがある？",
+      "start_ms": 27291,
+      "end_ms": 34273,
+      "duration_ms": 6982,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「それでは、",
+          "start_ms": 27291,
+          "end_ms": 28844,
+          "duration_ms": 1553
+        },
+        {
+          "index": 1,
+          "text": "シンデレラ、",
+          "start_ms": 29094,
+          "end_ms": 30740,
+          "duration_ms": 1646
+        },
+        {
+          "index": 2,
+          "text": "あなたは何かほしいものがある？",
+          "start_ms": 30990,
+          "end_ms": 34273,
+          "duration_ms": 3283
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "」 「お父さん、帰り道で、お父さんのぼうしにぶつかる最初の枝を折ってきてください。",
+      "start_ms": 34773,
+      "end_ms": 43623,
+      "duration_ms": 8850,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」 「お父さん、",
+          "start_ms": 34773,
+          "end_ms": 36291,
+          "duration_ms": 1518
+        },
+        {
+          "index": 1,
+          "text": "帰り道で、",
+          "start_ms": 36541,
+          "end_ms": 38314,
+          "duration_ms": 1773
+        },
+        {
+          "index": 2,
+          "text": "お父さんのぼうしにぶつかる最初の枝を折ってきてください。",
+          "start_ms": 38564,
+          "end_ms": 43623,
+          "duration_ms": 5059
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "」 父親は二人のこいもうとにはドレスとしんじゅとほうせきを買いました。",
+      "start_ms": 44123,
+      "end_ms": 50146,
+      "duration_ms": 6023,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "」 父親は二人のこいもうとにはドレスとしんじゅとほうせきを買いました。",
+          "start_ms": 44123,
+          "end_ms": 50146,
+          "duration_ms": 6023
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "帰り道に、緑のしげみを馬で通ったとき、はしばみの枝に当たりました。",
+      "start_ms": 50646,
+      "end_ms": 59240,
+      "duration_ms": 8594,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "帰り道に、",
+          "start_ms": 50646,
+          "end_ms": 52419,
+          "duration_ms": 1773
+        },
+        {
+          "index": 1,
+          "text": "緑のしげみを馬で通ったとき、",
+          "start_ms": 52669,
+          "end_ms": 56056,
+          "duration_ms": 3387
+        },
+        {
+          "index": 2,
+          "text": "はしばみの枝に当たりました。",
+          "start_ms": 56306,
+          "end_ms": 59240,
+          "duration_ms": 2934
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "ぼうしが落ちたので、その枝を折って持ち帰りました。",
+      "start_ms": 59740,
+      "end_ms": 65371,
+      "duration_ms": 5631,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ぼうしが落ちたので、",
+          "start_ms": 59740,
+          "end_ms": 61838,
+          "duration_ms": 2098
+        },
+        {
+          "index": 1,
+          "text": "その枝を折って持ち帰りました。",
+          "start_ms": 62088,
+          "end_ms": 65371,
+          "duration_ms": 3283
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "家に着くと、こいもうとには望んだ品物を渡しました。",
+      "start_ms": 65871,
+      "end_ms": 71932,
+      "duration_ms": 6061,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "家に着くと、",
+          "start_ms": 65871,
+          "end_ms": 67633,
+          "duration_ms": 1762
+        },
+        {
+          "index": 1,
+          "text": "こいもうとには望んだ品物を渡しました。",
+          "start_ms": 67883,
+          "end_ms": 71932,
+          "duration_ms": 4049
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "シンデレラには、はしばみの木から取った枝を渡しました。",
+      "start_ms": 72432,
+      "end_ms": 78446,
+      "duration_ms": 6014,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラには、",
+          "start_ms": 72432,
+          "end_ms": 74298,
+          "duration_ms": 1866
+        },
+        {
+          "index": 1,
+          "text": "はしばみの木から取った枝を渡しました。",
+          "start_ms": 74548,
+          "end_ms": 78446,
+          "duration_ms": 3898
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "シンデレラは父親にお礼を言いました。",
+      "start_ms": 78946,
+      "end_ms": 82844,
+      "duration_ms": 3898,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "シンデレラは父親にお礼を言いました。",
+          "start_ms": 78946,
+          "end_ms": 82844,
+          "duration_ms": 3898
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "それから、母親の墓に行って、枝を植えました。",
+      "start_ms": 83344,
+      "end_ms": 89942,
+      "duration_ms": 6598,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それから、",
+          "start_ms": 83344,
+          "end_ms": 84897,
+          "duration_ms": 1553
+        },
+        {
+          "index": 1,
+          "text": "母親の墓に行って、",
+          "start_ms": 85147,
+          "end_ms": 87605,
+          "duration_ms": 2458
+        },
+        {
+          "index": 2,
+          "text": "枝を植えました。",
+          "start_ms": 87855,
+          "end_ms": 89942,
+          "duration_ms": 2087
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "とても泣いたので、なみだが枝に落ちて、枝を濡らしました。",
+      "start_ms": 90442,
+      "end_ms": 97434,
+      "duration_ms": 6992,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "とても泣いたので、",
+          "start_ms": 90442,
+          "end_ms": 92424,
+          "duration_ms": 1982
+        },
+        {
+          "index": 1,
+          "text": "なみだが枝に落ちて、",
+          "start_ms": 92674,
+          "end_ms": 94981,
+          "duration_ms": 2307
+        },
+        {
+          "index": 2,
+          "text": "枝を濡らしました。",
+          "start_ms": 95231,
+          "end_ms": 97434,
+          "duration_ms": 2203
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "すると、その枝は大きくなって、りっぱな木になりました。",
+      "start_ms": 97934,
+      "end_ms": 104881,
+      "duration_ms": 6947,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すると、",
+          "start_ms": 97934,
+          "end_ms": 99162,
+          "duration_ms": 1228
+        },
+        {
+          "index": 1,
+          "text": "その枝は大きくなって、",
+          "start_ms": 99412,
+          "end_ms": 102184,
+          "duration_ms": 2772
+        },
+        {
+          "index": 2,
+          "text": "りっぱな木になりました。",
+          "start_ms": 102434,
+          "end_ms": 104881,
+          "duration_ms": 2447
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "日に三度、シンデレラはその木の下に行って座り、泣いて、お祈りをしました。",
+      "start_ms": 105381,
+      "end_ms": 115058,
+      "duration_ms": 9677,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "日に三度、",
+          "start_ms": 105381,
+          "end_ms": 107282,
+          "duration_ms": 1901
+        },
+        {
+          "index": 1,
+          "text": "シンデレラはその木の下に行って座り、",
+          "start_ms": 107532,
+          "end_ms": 111325,
+          "duration_ms": 3793
+        },
+        {
+          "index": 2,
+          "text": "泣いて、",
+          "start_ms": 111575,
+          "end_ms": 112710,
+          "duration_ms": 1135
+        },
+        {
+          "index": 3,
+          "text": "お祈りをしました。",
+          "start_ms": 112960,
+          "end_ms": 115058,
+          "duration_ms": 2098
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "すると、一羽の小さい白い鳥がその木に来て、シンデレラが何かを望むと、その鳥が望んだものを落としてくれました。",
+      "start_ms": 115558,
+      "end_ms": 128614,
+      "duration_ms": 13056,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すると、",
+          "start_ms": 115558,
+          "end_ms": 116809,
+          "duration_ms": 1251
+        },
+        {
+          "index": 1,
+          "text": "一羽の小さい白い鳥がその木に来て、",
+          "start_ms": 117059,
+          "end_ms": 121236,
+          "duration_ms": 4177
+        },
+        {
+          "index": 2,
+          "text": "シンデレラが何かを望むと、",
+          "start_ms": 121486,
+          "end_ms": 124478,
+          "duration_ms": 2992
+        },
+        {
+          "index": 3,
+          "text": "その鳥が望んだものを落としてくれました。",
+          "start_ms": 124728,
+          "end_ms": 128614,
+          "duration_ms": 3886
+        }
+      ]
+    }
+  ]
+}
