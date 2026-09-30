@@ -2,98 +2,98 @@
   "audio_file": "a1-s13-deseos-fin-semana.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 44162,
+  "total_duration_ms": 43629,
   "sentences": [
     {
       "index": 0,
       "text": "しゅうまつにしたいこと",
       "start_ms": 0,
-      "end_ms": 2616,
-      "duration_ms": 2616,
+      "end_ms": 2605,
+      "duration_ms": 2605,
       "clauses": [
         {
           "index": 0,
           "text": "しゅうまつにしたいこと",
           "start_ms": 0,
-          "end_ms": 2616,
-          "duration_ms": 2616
+          "end_ms": 2605,
+          "duration_ms": 2605
         }
       ]
     },
     {
       "index": 1,
       "text": "今しゅうまつ、たなかさんはすしを食べたいです。",
-      "start_ms": 3116,
-      "end_ms": 9585,
-      "duration_ms": 6469,
+      "start_ms": 3105,
+      "end_ms": 9528,
+      "duration_ms": 6423,
       "clauses": [
         {
           "index": 0,
           "text": "今しゅうまつ、",
-          "start_ms": 3116,
-          "end_ms": 5442,
-          "duration_ms": 2326
+          "start_ms": 3105,
+          "end_ms": 5373,
+          "duration_ms": 2268
         },
         {
           "index": 1,
           "text": "たなかさんはすしを食べたいです。",
-          "start_ms": 5692,
-          "end_ms": 9585,
-          "duration_ms": 3893
+          "start_ms": 5623,
+          "end_ms": 9528,
+          "duration_ms": 3905
         }
       ]
     },
     {
       "index": 2,
       "text": "それから、ジュースを飲みたいです。",
-      "start_ms": 10085,
-      "end_ms": 14603,
-      "duration_ms": 4518,
+      "start_ms": 10028,
+      "end_ms": 14628,
+      "duration_ms": 4600,
       "clauses": [
         {
           "index": 0,
           "text": "それから、",
-          "start_ms": 10085,
-          "end_ms": 11830,
+          "start_ms": 10028,
+          "end_ms": 11773,
           "duration_ms": 1745
         },
         {
           "index": 1,
           "text": "ジュースを飲みたいです。",
-          "start_ms": 12080,
-          "end_ms": 14603,
-          "duration_ms": 2523
+          "start_ms": 12023,
+          "end_ms": 14628,
+          "duration_ms": 2605
         }
       ]
     },
     {
       "index": 3,
       "text": "ごごはともだちに会いたいです。",
-      "start_ms": 15103,
-      "end_ms": 18439,
-      "duration_ms": 3336,
+      "start_ms": 15128,
+      "end_ms": 18383,
+      "duration_ms": 3255,
       "clauses": [
         {
           "index": 0,
           "text": "ごごはともだちに会いたいです。",
-          "start_ms": 15103,
-          "end_ms": 18439,
-          "duration_ms": 3336
+          "start_ms": 15128,
+          "end_ms": 18383,
+          "duration_ms": 3255
         }
       ]
     },
     {
       "index": 4,
       "text": "話したいです。",
-      "start_ms": 18939,
-      "end_ms": 21044,
+      "start_ms": 18883,
+      "end_ms": 20988,
       "duration_ms": 2105,
       "clauses": [
         {
           "index": 0,
           "text": "話したいです。",
-          "start_ms": 18939,
-          "end_ms": 21044,
+          "start_ms": 18883,
+          "end_ms": 20988,
           "duration_ms": 2105
         }
       ]
@@ -101,93 +101,93 @@
     {
       "index": 5,
       "text": "えいがを見たいです。",
-      "start_ms": 21544,
-      "end_ms": 23998,
-      "duration_ms": 2454,
+      "start_ms": 21488,
+      "end_ms": 23837,
+      "duration_ms": 2349,
       "clauses": [
         {
           "index": 0,
           "text": "えいがを見たいです。",
-          "start_ms": 21544,
-          "end_ms": 23998,
-          "duration_ms": 2454
+          "start_ms": 21488,
+          "end_ms": 23837,
+          "duration_ms": 2349
         }
       ]
     },
     {
       "index": 6,
       "text": "でも、勉強したくないです。",
-      "start_ms": 24498,
-      "end_ms": 28517,
-      "duration_ms": 4019,
+      "start_ms": 24337,
+      "end_ms": 28275,
+      "duration_ms": 3938,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 24498,
-          "end_ms": 25593,
-          "duration_ms": 1095
+          "start_ms": 24337,
+          "end_ms": 25397,
+          "duration_ms": 1060
         },
         {
           "index": 1,
           "text": "勉強したくないです。",
-          "start_ms": 25843,
-          "end_ms": 28517,
-          "duration_ms": 2674
+          "start_ms": 25647,
+          "end_ms": 28275,
+          "duration_ms": 2628
         }
       ]
     },
     {
       "index": 7,
       "text": "遊びたいです。",
-      "start_ms": 29017,
-      "end_ms": 31227,
-      "duration_ms": 2210,
+      "start_ms": 28775,
+      "end_ms": 30892,
+      "duration_ms": 2117,
       "clauses": [
         {
           "index": 0,
           "text": "遊びたいです。",
-          "start_ms": 29017,
-          "end_ms": 31227,
-          "duration_ms": 2210
+          "start_ms": 28775,
+          "end_ms": 30892,
+          "duration_ms": 2117
         }
       ]
     },
     {
       "index": 8,
       "text": "らいねん、にほんへ行きたいです。",
-      "start_ms": 31727,
-      "end_ms": 35979,
-      "duration_ms": 4252,
+      "start_ms": 31392,
+      "end_ms": 35585,
+      "duration_ms": 4193,
       "clauses": [
         {
           "index": 0,
           "text": "らいねん、",
-          "start_ms": 31727,
-          "end_ms": 33322,
-          "duration_ms": 1595
+          "start_ms": 31392,
+          "end_ms": 32905,
+          "duration_ms": 1513
         },
         {
           "index": 1,
           "text": "にほんへ行きたいです。",
-          "start_ms": 33572,
-          "end_ms": 35979,
-          "duration_ms": 2407
+          "start_ms": 33155,
+          "end_ms": 35585,
+          "duration_ms": 2430
         }
       ]
     },
     {
       "index": 9,
       "text": "にほんでおいしい料理を作りたいです。",
-      "start_ms": 36479,
-      "end_ms": 40233,
+      "start_ms": 36085,
+      "end_ms": 39839,
       "duration_ms": 3754,
       "clauses": [
         {
           "index": 0,
           "text": "にほんでおいしい料理を作りたいです。",
-          "start_ms": 36479,
-          "end_ms": 40233,
+          "start_ms": 36085,
+          "end_ms": 39839,
           "duration_ms": 3754
         }
       ]
@@ -195,16 +195,16 @@
     {
       "index": 10,
       "text": "あなたは何がしたいですか。",
-      "start_ms": 40733,
-      "end_ms": 44162,
-      "duration_ms": 3429,
+      "start_ms": 40339,
+      "end_ms": 43629,
+      "duration_ms": 3290,
       "clauses": [
         {
           "index": 0,
           "text": "あなたは何がしたいですか。",
-          "start_ms": 40733,
-          "end_ms": 44162,
-          "duration_ms": 3429
+          "start_ms": 40339,
+          "end_ms": 43629,
+          "duration_ms": 3290
         }
       ]
     }
