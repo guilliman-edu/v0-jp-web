@@ -727,41 +727,50 @@
       "nivel": "B2.1",
       "ejercicios": [
         {
-          "source": "Estoy buscando un cupón en la web.",
-          "en": "I'm searching for a coupon on the website.",
+          "source": "Estoy usando un cupón.",
+          "en": "I am using a coupon.",
           "references": [
-            "サイトでクーポンを検索しています。",
-            "私はサイトでクーポンを検索しています。",
-            "クーポンをサイトで検索しています。"
+            "クーポンを使っています。",
+            "私はクーポンを使っています。",
+            "今、クーポンを使っています。"
           ],
           "gramatica": [
             "te-iru"
           ],
           "vocabulario": [
-            {
-              "literal": "サイト",
-              "lectura": "さいと",
-              "significado": "sitio web"
-            },
             {
               "literal": "クーポン",
               "lectura": "くーぽん",
               "significado": "cupón"
-            },
-            {
-              "literal": "検索-する",
-              "lectura": "けんさくする",
-              "significado": "buscar, hacer una búsqueda"
             }
           ]
         },
         {
-          "source": "Ya se han registrado muchas personas en el sitio web.",
-          "en": "Many people have already registered on the website.",
+          "source": "El gratinado ya está listo.",
+          "en": "The gratin is ready.",
           "references": [
-            "たくさんの人がサイトに登録しています。",
-            "サイトにたくさんの人が登録しています。",
-            "もうたくさんの人がサイトに登録しています。"
+            "グラタンができています。",
+            "グラタンはもうできています。",
+            "もうグラタンができています。"
+          ],
+          "gramatica": [
+            "te-iru"
+          ],
+          "vocabulario": [
+            {
+              "literal": "グラタン",
+              "lectura": "ぐらたん",
+              "significado": "gratinado"
+            }
+          ]
+        },
+        {
+          "source": "Estoy mirando el sitio web.",
+          "en": "I am looking at the website.",
+          "references": [
+            "サイトを見ています。",
+            "私はサイトを見ています。",
+            "今、サイトを見ています。"
           ],
           "gramatica": [
             "te-iru"
@@ -771,93 +780,35 @@
               "literal": "サイト",
               "lectura": "さいと",
               "significado": "sitio web"
-            },
-            {
-              "literal": "登録-する",
-              "lectura": "とうろくする",
-              "significado": "registrarse, darse de alta"
             }
           ]
         },
         {
-          "source": "Se ha añadido un nuevo programa gastronómico a la parrilla.",
-          "en": "A new food program has been added to the schedule.",
+          "source": "Los gustos cambian según la persona.",
+          "en": "Tastes change depending on the person.",
           "references": [
-            "新しいグルメ番組が加わっています。",
-            "グルメ番組が新しく加わっています。",
-            "新しくグルメ番組が加わっています。"
-          ],
-          "gramatica": [
-            "te-iru"
-          ],
-          "vocabulario": [
-            {
-              "literal": "グルメ番組",
-              "lectura": "ぐるめばんぐみ",
-              "significado": "programa gastronómico"
-            },
-            {
-              "literal": "加わる",
-              "lectura": "かわる",
-              "significado": "incorporarse, unirse (a algo)"
-            }
-          ]
-        },
-        {
-          "source": "El precio cambia según la marca.",
-          "en": "The price changes depending on the brand.",
-          "references": [
-            "価格はブランドによって違います。",
-            "ブランドによって価格が違います。",
-            "価格がブランドによって変わります。"
+            "好みは人によって違います。",
+            "人によって好みが違います。",
+            "好みが人によって変わります。"
           ],
           "gramatica": [
             "ni-yotte"
           ],
           "vocabulario": [
             {
-              "literal": "ブランド",
-              "lectura": "ぶらんど",
-              "significado": "marca"
-            },
-            {
-              "literal": "異なる",
-              "lectura": "ちがう",
-              "significado": "diferir, ser distinto"
+              "literal": "好み",
+              "lectura": "このみ",
+              "significado": "gusto, preferencia"
             }
           ]
         },
         {
-          "source": "Las reseñas cambian según la web.",
-          "en": "The reviews change depending on the website.",
+          "source": "El menú cambia según el cocinero.",
+          "en": "The menu changes depending on the chef.",
           "references": [
-            "口コミはサイトによって違います。",
-            "サイトによって口コミが違います。",
-            "口コミがサイトによって変わります。"
-          ],
-          "gramatica": [
-            "ni-yotte"
-          ],
-          "vocabulario": [
-            {
-              "literal": "口コミ",
-              "lectura": "くちこみ",
-              "significado": "reseña, boca a boca"
-            },
-            {
-              "literal": "サイト",
-              "lectura": "さいと",
-              "significado": "sitio web"
-            }
-          ]
-        },
-        {
-          "source": "El sabor cambia según el cocinero.",
-          "en": "The taste changes depending on the chef.",
-          "references": [
-            "味はシェフによって違います。",
-            "シェフによって味が変わります。",
-            "味がシェフによって違います。"
+            "メニューはシェフによって変わります。",
+            "シェフによってメニューが変わります。",
+            "メニューがシェフによって違います。"
           ],
           "gramatica": [
             "ni-yotte"
@@ -871,12 +822,31 @@
           ]
         },
         {
-          "source": "Regístrate mientras aún haya cupón.",
-          "en": "Register while there is still a coupon.",
+          "source": "El precio cambia según la marca.",
+          "en": "The price changes depending on the brand.",
           "references": [
-            "クーポンがあるうちに登録してください。",
-            "クーポンがあるうちに登録しておいてください。",
-            "まだクーポンがあるうちに登録してください。"
+            "値段はブランドによって変わります。",
+            "ブランドによって値段が変わります。",
+            "値段がブランドによって違います。"
+          ],
+          "gramatica": [
+            "ni-yotte"
+          ],
+          "vocabulario": [
+            {
+              "literal": "ブランド",
+              "lectura": "ぶらんど",
+              "significado": "marca"
+            }
+          ]
+        },
+        {
+          "source": "Usa el cupón mientras aún esté.",
+          "en": "Use the coupon while it is still there.",
+          "references": [
+            "クーポンがあるうちに使ってください。",
+            "まだクーポンがあるうちに使ってください。",
+            "クーポンがあるうちに使っておいてください。"
           ],
           "gramatica": [
             "uchi-ni"
@@ -886,45 +856,35 @@
               "literal": "クーポン",
               "lectura": "くーぽん",
               "significado": "cupón"
-            },
-            {
-              "literal": "登録-する",
-              "lectura": "とうろくする",
-              "significado": "registrarse, darse de alta"
             }
           ]
         },
         {
-          "source": "Deja tu comentario mientras la impresión esté fresca.",
-          "en": "Leave your comment while the impression is fresh.",
+          "source": "Mira el sitio web mientras tengas tiempo.",
+          "en": "Look at the website while you have time.",
           "references": [
-            "感想が新しいうちにコメントしましょう。",
-            "感想を新しいうちにコメントしましょう。",
-            "感想が新しいうちにコメントしてください。"
+            "暇なうちにサイトを見てください。",
+            "まだ暇なうちにサイトを見てください。",
+            "暇なうちにサイトを見ておいてください。"
           ],
           "gramatica": [
             "uchi-ni"
           ],
           "vocabulario": [
             {
-              "literal": "感想",
-              "lectura": "かんそう",
-              "significado": "impresión, opinión"
-            },
-            {
-              "literal": "コメント-する",
-              "lectura": "こめんとする",
-              "significado": "comentar"
+              "literal": "サイト",
+              "lectura": "さいと",
+              "significado": "sitio web"
             }
           ]
         },
         {
-          "source": "Para ser un menú del día, ofrece mucha variedad.",
-          "en": "For a lunch menu, it offers a wide variety.",
+          "source": "Para ser un almuerzo, tiene mucha comida.",
+          "en": "For a lunch, it has a lot of food.",
           "references": [
-            "ランチのわりに品物がさまざまです。",
-            "このランチのわりに品物がさまざまです。",
-            "品物の種類がランチのわりにさまざまです。"
+            "このランチのわりに料理が多いです。",
+            "ランチのわりに料理が多いです。",
+            "このランチのわりに料理がたくさんあります。"
           ],
           "gramatica": [
             "wari-ni"
@@ -934,39 +894,25 @@
               "literal": "ランチ",
               "lectura": "らんち",
               "significado": "almuerzo"
-            },
-            {
-              "literal": "品物",
-              "lectura": "しなもの",
-              "significado": "mercancía, artículo"
-            },
-            {
-              "literal": "さまざま（な）",
-              "lectura": "さまざま",
-              "significado": "diverso, variado"
             }
           ]
         },
         {
-          "source": "La bolsa de la suerte contiene más de lo que parece.",
-          "en": "The lucky bag contains more than it seems.",
+          "source": "Para ser un gratinado, es caro.",
+          "en": "For a gratin, it is expensive.",
           "references": [
-            "福袋のわりに中身がたくさんあります。",
-            "福袋のわりに中身が多いです。"
+            "このグラタンのわりに値段が高いです。",
+            "グラタンのわりに値段が高いです。",
+            "このグラタンのわりに値段がかなり高いです。"
           ],
           "gramatica": [
             "wari-ni"
           ],
           "vocabulario": [
             {
-              "literal": "福袋",
-              "lectura": "ふくぶくろ",
-              "significado": "bolsa de la suerte"
-            },
-            {
-              "literal": "中身",
-              "lectura": "なかみ",
-              "significado": "contenido"
+              "literal": "グラタン",
+              "lectura": "ぐらたん",
+              "significado": "gratinado"
             }
           ]
         }

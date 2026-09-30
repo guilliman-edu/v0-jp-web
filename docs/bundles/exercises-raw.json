@@ -554,62 +554,100 @@
     {
       "id": "b2.1-s2-comer-fuera-ej001",
       "type": "translation",
-      "source": "Estoy buscando un cupón en la web.",
+      "source": "Estoy usando un cupón.",
       "sourceLang": "es",
       "targetLevel": "B2.1",
-      "en": "I'm searching for a coupon on the website.",
+      "en": "I am using a coupon.",
       "references": [
         {
-          "text": "サイトでクーポンを検索しています。"
+          "text": "クーポンを使っています。"
         },
         {
-          "text": "私はサイトでクーポンを検索しています。"
+          "text": "私はクーポンを使っています。"
         },
         {
-          "text": "クーポンをサイトで検索しています。"
+          "text": "今、クーポンを使っています。"
         }
       ]
     },
     {
       "id": "b2.1-s2-comer-fuera-ej002",
       "type": "translation",
-      "source": "Ya se han registrado muchas personas en el sitio web.",
+      "source": "El gratinado ya está listo.",
       "sourceLang": "es",
       "targetLevel": "B2.1",
-      "en": "Many people have already registered on the website.",
+      "en": "The gratin is ready.",
       "references": [
         {
-          "text": "たくさんの人がサイトに登録しています。"
+          "text": "グラタンができています。"
         },
         {
-          "text": "サイトにたくさんの人が登録しています。"
+          "text": "グラタンはもうできています。"
         },
         {
-          "text": "もうたくさんの人がサイトに登録しています。"
+          "text": "もうグラタンができています。"
         }
       ]
     },
     {
       "id": "b2.1-s2-comer-fuera-ej003",
       "type": "translation",
-      "source": "Se ha añadido un nuevo programa gastronómico a la parrilla.",
+      "source": "Estoy mirando el sitio web.",
       "sourceLang": "es",
       "targetLevel": "B2.1",
-      "en": "A new food program has been added to the schedule.",
+      "en": "I am looking at the website.",
       "references": [
         {
-          "text": "新しいグルメ番組が加わっています。"
+          "text": "サイトを見ています。"
         },
         {
-          "text": "グルメ番組が新しく加わっています。"
+          "text": "私はサイトを見ています。"
         },
         {
-          "text": "新しくグルメ番組が加わっています。"
+          "text": "今、サイトを見ています。"
         }
       ]
     },
     {
       "id": "b2.1-s2-comer-fuera-ej004",
+      "type": "translation",
+      "source": "Los gustos cambian según la persona.",
+      "sourceLang": "es",
+      "targetLevel": "B2.1",
+      "en": "Tastes change depending on the person.",
+      "references": [
+        {
+          "text": "好みは人によって違います。"
+        },
+        {
+          "text": "人によって好みが違います。"
+        },
+        {
+          "text": "好みが人によって変わります。"
+        }
+      ]
+    },
+    {
+      "id": "b2.1-s2-comer-fuera-ej005",
+      "type": "translation",
+      "source": "El menú cambia según el cocinero.",
+      "sourceLang": "es",
+      "targetLevel": "B2.1",
+      "en": "The menu changes depending on the chef.",
+      "references": [
+        {
+          "text": "メニューはシェフによって変わります。"
+        },
+        {
+          "text": "シェフによってメニューが変わります。"
+        },
+        {
+          "text": "メニューがシェフによって違います。"
+        }
+      ]
+    },
+    {
+      "id": "b2.1-s2-comer-fuera-ej006",
       "type": "translation",
       "source": "El precio cambia según la marca.",
       "sourceLang": "es",
@@ -617,124 +655,89 @@
       "en": "The price changes depending on the brand.",
       "references": [
         {
-          "text": "価格はブランドによって違います。"
+          "text": "値段はブランドによって変わります。"
         },
         {
-          "text": "ブランドによって価格が違います。"
+          "text": "ブランドによって値段が変わります。"
         },
         {
-          "text": "価格がブランドによって変わります。"
-        }
-      ]
-    },
-    {
-      "id": "b2.1-s2-comer-fuera-ej005",
-      "type": "translation",
-      "source": "Las reseñas cambian según la web.",
-      "sourceLang": "es",
-      "targetLevel": "B2.1",
-      "en": "The reviews change depending on the website.",
-      "references": [
-        {
-          "text": "口コミはサイトによって違います。"
-        },
-        {
-          "text": "サイトによって口コミが違います。"
-        },
-        {
-          "text": "口コミがサイトによって変わります。"
-        }
-      ]
-    },
-    {
-      "id": "b2.1-s2-comer-fuera-ej006",
-      "type": "translation",
-      "source": "El sabor cambia según el cocinero.",
-      "sourceLang": "es",
-      "targetLevel": "B2.1",
-      "en": "The taste changes depending on the chef.",
-      "references": [
-        {
-          "text": "味はシェフによって違います。"
-        },
-        {
-          "text": "シェフによって味が変わります。"
-        },
-        {
-          "text": "味がシェフによって違います。"
+          "text": "値段がブランドによって違います。"
         }
       ]
     },
     {
       "id": "b2.1-s2-comer-fuera-ej007",
       "type": "translation",
-      "source": "Regístrate mientras aún haya cupón.",
+      "source": "Usa el cupón mientras aún esté.",
       "sourceLang": "es",
       "targetLevel": "B2.1",
-      "en": "Register while there is still a coupon.",
+      "en": "Use the coupon while it is still there.",
       "references": [
         {
-          "text": "クーポンがあるうちに登録してください。"
+          "text": "クーポンがあるうちに使ってください。"
         },
         {
-          "text": "クーポンがあるうちに登録しておいてください。"
+          "text": "まだクーポンがあるうちに使ってください。"
         },
         {
-          "text": "まだクーポンがあるうちに登録してください。"
+          "text": "クーポンがあるうちに使っておいてください。"
         }
       ]
     },
     {
       "id": "b2.1-s2-comer-fuera-ej008",
       "type": "translation",
-      "source": "Deja tu comentario mientras la impresión esté fresca.",
+      "source": "Mira el sitio web mientras tengas tiempo.",
       "sourceLang": "es",
       "targetLevel": "B2.1",
-      "en": "Leave your comment while the impression is fresh.",
+      "en": "Look at the website while you have time.",
       "references": [
         {
-          "text": "感想が新しいうちにコメントしましょう。"
+          "text": "暇なうちにサイトを見てください。"
         },
         {
-          "text": "感想を新しいうちにコメントしましょう。"
+          "text": "まだ暇なうちにサイトを見てください。"
         },
         {
-          "text": "感想が新しいうちにコメントしてください。"
+          "text": "暇なうちにサイトを見ておいてください。"
         }
       ]
     },
     {
       "id": "b2.1-s2-comer-fuera-ej009",
       "type": "translation",
-      "source": "Para ser un menú del día, ofrece mucha variedad.",
+      "source": "Para ser un almuerzo, tiene mucha comida.",
       "sourceLang": "es",
       "targetLevel": "B2.1",
-      "en": "For a lunch menu, it offers a wide variety.",
+      "en": "For a lunch, it has a lot of food.",
       "references": [
         {
-          "text": "ランチのわりに品物がさまざまです。"
+          "text": "このランチのわりに料理が多いです。"
         },
         {
-          "text": "このランチのわりに品物がさまざまです。"
+          "text": "ランチのわりに料理が多いです。"
         },
         {
-          "text": "品物の種類がランチのわりにさまざまです。"
+          "text": "このランチのわりに料理がたくさんあります。"
         }
       ]
     },
     {
       "id": "b2.1-s2-comer-fuera-ej010",
       "type": "translation",
-      "source": "La bolsa de la suerte contiene más de lo que parece.",
+      "source": "Para ser un gratinado, es caro.",
       "sourceLang": "es",
       "targetLevel": "B2.1",
-      "en": "The lucky bag contains more than it seems.",
+      "en": "For a gratin, it is expensive.",
       "references": [
         {
-          "text": "福袋のわりに中身がたくさんあります。"
+          "text": "このグラタンのわりに値段が高いです。"
         },
         {
-          "text": "福袋のわりに中身が多いです。"
+          "text": "グラタンのわりに値段が高いです。"
+        },
+        {
+          "text": "このグラタンのわりに値段がかなり高いです。"
         }
       ]
     }
