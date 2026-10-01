@@ -2,529 +2,497 @@
   "audio_file": "a2.2-s2-one-piece.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 114023,
+  "total_duration_ms": 110597,
   "sentences": [
     {
       "index": 0,
       "text": "ワンピース",
       "start_ms": 0,
-      "end_ms": 1599,
-      "duration_ms": 1599,
+      "end_ms": 1611,
+      "duration_ms": 1611,
       "clauses": [
         {
           "index": 0,
           "text": "ワンピース",
           "start_ms": 0,
-          "end_ms": 1599,
-          "duration_ms": 1599
+          "end_ms": 1611,
+          "duration_ms": 1611
         }
       ]
     },
     {
       "index": 1,
       "text": "むかし、このせかいに、すごくゆうめいなかいぞくがいました。",
-      "start_ms": 2099,
-      "end_ms": 8976,
-      "duration_ms": 6877,
+      "start_ms": 2111,
+      "end_ms": 9069,
+      "duration_ms": 6958,
       "clauses": [
         {
           "index": 0,
           "text": "むかし、",
-          "start_ms": 2099,
-          "end_ms": 3501,
-          "duration_ms": 1402
+          "start_ms": 2111,
+          "end_ms": 3548,
+          "duration_ms": 1437
         },
         {
           "index": 1,
           "text": "このせかいに、",
-          "start_ms": 3751,
-          "end_ms": 5501,
-          "duration_ms": 1750
+          "start_ms": 3798,
+          "end_ms": 5583,
+          "duration_ms": 1785
         },
         {
           "index": 2,
           "text": "すごくゆうめいなかいぞくがいました。",
-          "start_ms": 5751,
-          "end_ms": 8976,
-          "duration_ms": 3225
+          "start_ms": 5833,
+          "end_ms": 9069,
+          "duration_ms": 3236
         }
       ]
     },
     {
       "index": 2,
       "text": "なまえはゴール・D・ロジャーです。",
-      "start_ms": 9476,
-      "end_ms": 12329,
-      "duration_ms": 2853,
+      "start_ms": 9569,
+      "end_ms": 12352,
+      "duration_ms": 2783,
       "clauses": [
         {
           "index": 0,
           "text": "なまえはゴール・D・ロジャーです。",
-          "start_ms": 9476,
-          "end_ms": 12329,
-          "duration_ms": 2853
+          "start_ms": 9569,
+          "end_ms": 12352,
+          "duration_ms": 2783
         }
       ]
     },
     {
       "index": 3,
       "text": "みんなはロジャーのことを、「かいぞくおう」と言いました。",
-      "start_ms": 12829,
-      "end_ms": 17752,
-      "duration_ms": 4923,
+      "start_ms": 12852,
+      "end_ms": 17879,
+      "duration_ms": 5027,
       "clauses": [
         {
           "index": 0,
           "text": "みんなはロジャーのことを、",
-          "start_ms": 12829,
-          "end_ms": 15113,
-          "duration_ms": 2284
+          "start_ms": 12852,
+          "end_ms": 15206,
+          "duration_ms": 2354
         },
         {
           "index": 1,
           "text": "「かいぞくおう」と言いました。",
-          "start_ms": 15363,
-          "end_ms": 17752,
-          "duration_ms": 2389
+          "start_ms": 15456,
+          "end_ms": 17879,
+          "duration_ms": 2423
         }
       ]
     },
     {
       "index": 4,
-      "text": "ロジャーは、ふねで、せかいなかをりょこうしました。",
-      "start_ms": 18252,
-      "end_ms": 23875,
-      "duration_ms": 5623,
+      "text": "ロジャーは、ふねで、せかいじゅうをりょこうしました。",
+      "start_ms": 18379,
+      "end_ms": 23955,
+      "duration_ms": 5576,
       "clauses": [
         {
           "index": 0,
           "text": "ロジャーは、",
-          "start_ms": 18252,
-          "end_ms": 19445,
-          "duration_ms": 1193
+          "start_ms": 18379,
+          "end_ms": 19583,
+          "duration_ms": 1204
         },
         {
           "index": 1,
           "text": "ふねで、",
-          "start_ms": 19695,
-          "end_ms": 20853,
-          "duration_ms": 1158
+          "start_ms": 19833,
+          "end_ms": 21003,
+          "duration_ms": 1170
         },
         {
           "index": 2,
-          "text": "せかいなかをりょこうしました。",
-          "start_ms": 21103,
-          "end_ms": 23875,
-          "duration_ms": 2772
+          "text": "せかいじゅうをりょこうしました。",
+          "start_ms": 21253,
+          "end_ms": 23955,
+          "duration_ms": 2702
         }
       ]
     },
     {
       "index": 5,
       "text": "ロジャーはしぬまえに、言いました。",
-      "start_ms": 24375,
-      "end_ms": 28241,
-      "duration_ms": 3866,
+      "start_ms": 24455,
+      "end_ms": 28344,
+      "duration_ms": 3889,
       "clauses": [
         {
           "index": 0,
           "text": "ロジャーはしぬまえに、",
-          "start_ms": 24375,
-          "end_ms": 26427,
-          "duration_ms": 2052
+          "start_ms": 24455,
+          "end_ms": 26495,
+          "duration_ms": 2040
         },
         {
           "index": 1,
           "text": "言いました。",
-          "start_ms": 26677,
-          "end_ms": 28241,
-          "duration_ms": 1564
+          "start_ms": 26745,
+          "end_ms": 28344,
+          "duration_ms": 1599
         }
       ]
     },
     {
       "index": 6,
       "text": "「みなさん、わたしのたからがほしいですか。",
-      "start_ms": 28741,
-      "end_ms": 33386,
-      "duration_ms": 4645,
+      "start_ms": 28844,
+      "end_ms": 33454,
+      "duration_ms": 4610,
       "clauses": [
         {
           "index": 0,
           "text": "「みなさん、",
-          "start_ms": 28741,
-          "end_ms": 30178,
+          "start_ms": 28844,
+          "end_ms": 30281,
           "duration_ms": 1437
         },
         {
           "index": 1,
           "text": "わたしのたからがほしいですか。",
-          "start_ms": 30428,
-          "end_ms": 33386,
-          "duration_ms": 2958
+          "start_ms": 30531,
+          "end_ms": 33454,
+          "duration_ms": 2923
         }
       ]
     },
     {
       "index": 7,
-      "text": "」「ほしいです。",
-      "start_ms": 33886,
-      "end_ms": 35555,
-      "duration_ms": 1669,
+      "text": "ほしい人は、じぶんで探してください。",
+      "start_ms": 33954,
+      "end_ms": 38412,
+      "duration_ms": 4458,
       "clauses": [
         {
           "index": 0,
-          "text": "」「ほしいです。",
-          "start_ms": 33886,
-          "end_ms": 35555,
-          "duration_ms": 1669
+          "text": "ほしい人は、",
+          "start_ms": 33954,
+          "end_ms": 35634,
+          "duration_ms": 1680
+        },
+        {
+          "index": 1,
+          "text": "じぶんで探してください。",
+          "start_ms": 35884,
+          "end_ms": 38412,
+          "duration_ms": 2528
         }
       ]
     },
     {
       "index": 8,
-      "text": "あげます。",
-      "start_ms": 36055,
-      "end_ms": 37631,
-      "duration_ms": 1576,
+      "text": "わたしはたからを、あそこに置きました。",
+      "start_ms": 38912,
+      "end_ms": 43463,
+      "duration_ms": 4551,
       "clauses": [
         {
           "index": 0,
-          "text": "あげます。",
-          "start_ms": 36055,
-          "end_ms": 37631,
-          "duration_ms": 1576
+          "text": "わたしはたからを、",
+          "start_ms": 38912,
+          "end_ms": 40987,
+          "duration_ms": 2075
+        },
+        {
+          "index": 1,
+          "text": "あそこに置きました。",
+          "start_ms": 41237,
+          "end_ms": 43463,
+          "duration_ms": 2226
         }
       ]
     },
     {
       "index": 9,
-      "text": "わたしは、たからを、あそこに置きました。",
-      "start_ms": 38131,
-      "end_ms": 43568,
-      "duration_ms": 5437,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "わたしは、",
-          "start_ms": 38131,
-          "end_ms": 39672,
-          "duration_ms": 1541
-        },
-        {
-          "index": 1,
-          "text": "たからを、",
-          "start_ms": 39922,
-          "end_ms": 41103,
-          "duration_ms": 1181
-        },
-        {
-          "index": 2,
-          "text": "あそこに置きました。",
-          "start_ms": 41353,
-          "end_ms": 43568,
-          "duration_ms": 2215
-        }
-      ]
-    },
-    {
-      "index": 10,
-      "text": "じぶんで探してください。",
-      "start_ms": 44068,
-      "end_ms": 46666,
-      "duration_ms": 2598,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "じぶんで探してください。",
-          "start_ms": 44068,
-          "end_ms": 46666,
-          "duration_ms": 2598
-        }
-      ]
-    },
-    {
-      "index": 11,
-      "text": "」\n\nこのことばを聞いて、せかいなかの人が大きなゆめを持ちました。",
-      "start_ms": 47166,
-      "end_ms": 53772,
+      "text": "」\n\nこのことばを聞いて、せかいじゅうの人が大きなゆめを持ちました。",
+      "start_ms": 43963,
+      "end_ms": 50569,
       "duration_ms": 6606,
       "clauses": [
         {
           "index": 0,
           "text": "」\n\nこのことばを聞いて、",
-          "start_ms": 47166,
-          "end_ms": 49311,
-          "duration_ms": 2145
+          "start_ms": 43963,
+          "end_ms": 46154,
+          "duration_ms": 2191
         },
         {
           "index": 1,
-          "text": "せかいなかの人が大きなゆめを持ちました。",
-          "start_ms": 49561,
-          "end_ms": 53772,
-          "duration_ms": 4211
+          "text": "せかいじゅうの人が大きなゆめを持ちました。",
+          "start_ms": 46404,
+          "end_ms": 50569,
+          "duration_ms": 4165
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "たからを探して、うみにでる人が多くなりました。",
+      "start_ms": 51069,
+      "end_ms": 56723,
+      "duration_ms": 5654,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たからを探して、",
+          "start_ms": 51069,
+          "end_ms": 53086,
+          "duration_ms": 2017
+        },
+        {
+          "index": 1,
+          "text": "うみにでる人が多くなりました。",
+          "start_ms": 53336,
+          "end_ms": 56723,
+          "duration_ms": 3387
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "そこから、かいぞくが多くいるせかいになりました。",
+      "start_ms": 57223,
+      "end_ms": 62575,
+      "duration_ms": 5352,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そこから、",
+          "start_ms": 57223,
+          "end_ms": 58845,
+          "duration_ms": 1622
+        },
+        {
+          "index": 1,
+          "text": "かいぞくが多くいるせかいになりました。",
+          "start_ms": 59095,
+          "end_ms": 62575,
+          "duration_ms": 3480
         }
       ]
     },
     {
       "index": 12,
-      "text": "たからを探して、うみにでる人が多くなりました。",
-      "start_ms": 54272,
-      "end_ms": 59892,
-      "duration_ms": 5620,
+      "text": "そのなかに、ひとりのおとこのこがいました。",
+      "start_ms": 63075,
+      "end_ms": 67905,
+      "duration_ms": 4830,
       "clauses": [
         {
           "index": 0,
-          "text": "たからを探して、",
-          "start_ms": 54272,
-          "end_ms": 56278,
-          "duration_ms": 2006
+          "text": "そのなかに、",
+          "start_ms": 63075,
+          "end_ms": 64802,
+          "duration_ms": 1727
         },
         {
           "index": 1,
-          "text": "うみにでる人が多くなりました。",
-          "start_ms": 56528,
-          "end_ms": 59892,
-          "duration_ms": 3364
+          "text": "ひとりのおとこのこがいました。",
+          "start_ms": 65052,
+          "end_ms": 67905,
+          "duration_ms": 2853
         }
       ]
     },
     {
       "index": 13,
-      "text": "そこから、かいぞくが多くいるせかいになりました。",
-      "start_ms": 60392,
-      "end_ms": 65826,
-      "duration_ms": 5434,
+      "text": "なまえはモンキー・D・ルフィです。",
+      "start_ms": 68405,
+      "end_ms": 71270,
+      "duration_ms": 2865,
       "clauses": [
         {
           "index": 0,
-          "text": "そこから、",
-          "start_ms": 60392,
-          "end_ms": 61980,
-          "duration_ms": 1588
-        },
-        {
-          "index": 1,
-          "text": "かいぞくが多くいるせかいになりました。",
-          "start_ms": 62230,
-          "end_ms": 65826,
-          "duration_ms": 3596
+          "text": "なまえはモンキー・D・ルフィです。",
+          "start_ms": 68405,
+          "end_ms": 71270,
+          "duration_ms": 2865
         }
       ]
     },
     {
       "index": 14,
-      "text": "そのなかに、ひとりのおとこのこがいました。",
-      "start_ms": 66326,
-      "end_ms": 71132,
-      "duration_ms": 4806,
+      "text": "ルフィのゆめは、「かいぞくおうになること」です。",
+      "start_ms": 71770,
+      "end_ms": 76658,
+      "duration_ms": 4888,
       "clauses": [
         {
           "index": 0,
-          "text": "そのなかに、",
-          "start_ms": 66326,
-          "end_ms": 68041,
-          "duration_ms": 1715
+          "text": "ルフィのゆめは、",
+          "start_ms": 71770,
+          "end_ms": 73764,
+          "duration_ms": 1994
         },
         {
           "index": 1,
-          "text": "ひとりのおとこのこがいました。",
-          "start_ms": 68291,
-          "end_ms": 71132,
-          "duration_ms": 2841
+          "text": "「かいぞくおうになること」です。",
+          "start_ms": 74014,
+          "end_ms": 76658,
+          "duration_ms": 2644
         }
       ]
     },
     {
       "index": 15,
-      "text": "なまえはモンキー・D・ルフィです。",
-      "start_ms": 71632,
-      "end_ms": 74532,
-      "duration_ms": 2900,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "なまえはモンキー・D・ルフィです。",
-          "start_ms": 71632,
-          "end_ms": 74532,
-          "duration_ms": 2900
-        }
-      ]
-    },
-    {
-      "index": 16,
-      "text": "ルフィのゆめは、「かいぞくおうになること」です。",
-      "start_ms": 75032,
-      "end_ms": 79850,
-      "duration_ms": 4818,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "ルフィのゆめは、",
-          "start_ms": 75032,
-          "end_ms": 76979,
-          "duration_ms": 1947
-        },
-        {
-          "index": 1,
-          "text": "「かいぞくおうになること」です。",
-          "start_ms": 77229,
-          "end_ms": 79850,
-          "duration_ms": 2621
-        }
-      ]
-    },
-    {
-      "index": 17,
       "text": "ルフィは、自分のゆめをたいせつにしました。",
-      "start_ms": 80350,
-      "end_ms": 85273,
+      "start_ms": 77158,
+      "end_ms": 82081,
       "duration_ms": 4923,
       "clauses": [
         {
           "index": 0,
           "text": "ルフィは、",
-          "start_ms": 80350,
-          "end_ms": 81810,
-          "duration_ms": 1460
+          "start_ms": 77158,
+          "end_ms": 78641,
+          "duration_ms": 1483
         },
         {
           "index": 1,
           "text": "自分のゆめをたいせつにしました。",
-          "start_ms": 82060,
-          "end_ms": 85273,
-          "duration_ms": 3213
+          "start_ms": 78891,
+          "end_ms": 82081,
+          "duration_ms": 3190
         }
       ]
     },
     {
-      "index": 18,
+      "index": 16,
       "text": "そして、大きなうみへ出ました。",
-      "start_ms": 85773,
-      "end_ms": 89802,
-      "duration_ms": 4029,
+      "start_ms": 82581,
+      "end_ms": 86586,
+      "duration_ms": 4005,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 85773,
-          "end_ms": 87163,
-          "duration_ms": 1390
+          "start_ms": 82581,
+          "end_ms": 83936,
+          "duration_ms": 1355
         },
         {
           "index": 1,
           "text": "大きなうみへ出ました。",
-          "start_ms": 87413,
-          "end_ms": 89802,
-          "duration_ms": 2389
+          "start_ms": 84186,
+          "end_ms": 86586,
+          "duration_ms": 2400
         }
       ]
     },
     {
-      "index": 19,
+      "index": 17,
       "text": "ルフィはぼうけんのなかで、ともだちを集めました。",
-      "start_ms": 90302,
-      "end_ms": 95875,
-      "duration_ms": 5573,
+      "start_ms": 87086,
+      "end_ms": 92601,
+      "duration_ms": 5515,
       "clauses": [
         {
           "index": 0,
           "text": "ルフィはぼうけんのなかで、",
-          "start_ms": 90302,
-          "end_ms": 93109,
-          "duration_ms": 2807
+          "start_ms": 87086,
+          "end_ms": 89835,
+          "duration_ms": 2749
         },
         {
           "index": 1,
           "text": "ともだちを集めました。",
-          "start_ms": 93359,
-          "end_ms": 95875,
+          "start_ms": 90085,
+          "end_ms": 92601,
           "duration_ms": 2516
         }
       ]
     },
     {
-      "index": 20,
+      "index": 18,
       "text": "ルフィは強くなりました。",
-      "start_ms": 96375,
-      "end_ms": 99182,
-      "duration_ms": 2807,
+      "start_ms": 93101,
+      "end_ms": 95861,
+      "duration_ms": 2760,
       "clauses": [
         {
           "index": 0,
           "text": "ルフィは強くなりました。",
-          "start_ms": 96375,
-          "end_ms": 99182,
-          "duration_ms": 2807
+          "start_ms": 93101,
+          "end_ms": 95861,
+          "duration_ms": 2760
         }
       ]
     },
     {
-      "index": 21,
+      "index": 19,
       "text": "ルフィはせんちょうです。",
-      "start_ms": 99682,
-      "end_ms": 102071,
-      "duration_ms": 2389,
+      "start_ms": 96361,
+      "end_ms": 98715,
+      "duration_ms": 2354,
       "clauses": [
         {
           "index": 0,
           "text": "ルフィはせんちょうです。",
-          "start_ms": 99682,
-          "end_ms": 102071,
-          "duration_ms": 2389
-        }
-      ]
-    },
-    {
-      "index": 22,
-      "text": "ルフィとともだちは、「むぎわらのいちみ」です。",
-      "start_ms": 102571,
-      "end_ms": 107413,
-      "duration_ms": 4842,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "ルフィとともだちは、",
-          "start_ms": 102571,
-          "end_ms": 104809,
-          "duration_ms": 2238
-        },
-        {
-          "index": 1,
-          "text": "「むぎわらのいちみ」です。",
-          "start_ms": 105059,
-          "end_ms": 107413,
+          "start_ms": 96361,
+          "end_ms": 98715,
           "duration_ms": 2354
         }
       ]
     },
     {
-      "index": 23,
+      "index": 20,
+      "text": "ルフィとともだちは、「むぎわらのいちみ」です。",
+      "start_ms": 99215,
+      "end_ms": 104033,
+      "duration_ms": 4818,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ルフィとともだちは、",
+          "start_ms": 99215,
+          "end_ms": 101441,
+          "duration_ms": 2226
+        },
+        {
+          "index": 1,
+          "text": "「むぎわらのいちみ」です。",
+          "start_ms": 101691,
+          "end_ms": 104033,
+          "duration_ms": 2342
+        }
+      ]
+    },
+    {
+      "index": 21,
       "text": "いまも、たからを探して、ふねでぼうけんをしています。",
-      "start_ms": 107913,
-      "end_ms": 114023,
-      "duration_ms": 6110,
+      "start_ms": 104533,
+      "end_ms": 110597,
+      "duration_ms": 6064,
       "clauses": [
         {
           "index": 0,
           "text": "いまも、",
-          "start_ms": 107913,
-          "end_ms": 108874,
-          "duration_ms": 961
+          "start_ms": 104533,
+          "end_ms": 105470,
+          "duration_ms": 937
         },
         {
           "index": 1,
           "text": "たからを探して、",
-          "start_ms": 109124,
-          "end_ms": 111164,
-          "duration_ms": 2040
+          "start_ms": 105720,
+          "end_ms": 107749,
+          "duration_ms": 2029
         },
         {
           "index": 2,
           "text": "ふねでぼうけんをしています。",
-          "start_ms": 111414,
-          "end_ms": 114023,
-          "duration_ms": 2609
+          "start_ms": 107999,
+          "end_ms": 110597,
+          "duration_ms": 2598
         }
       ]
     }
