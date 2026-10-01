@@ -2,438 +2,438 @@
   "audio_file": "b2.1-s1-shinderera-c01.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 176726,
+  "total_duration_ms": 176703,
   "sentences": [
     {
       "index": 0,
       "text": "金持ちの女の人の死",
       "start_ms": 0,
-      "end_ms": 2557,
-      "duration_ms": 2557,
+      "end_ms": 2511,
+      "duration_ms": 2511,
       "clauses": [
         {
           "index": 0,
           "text": "金持ちの女の人の死",
           "start_ms": 0,
-          "end_ms": 2557,
-          "duration_ms": 2557
+          "end_ms": 2511,
+          "duration_ms": 2511
         }
       ]
     },
     {
       "index": 1,
       "text": "金持ちの女の人が病気になりました。",
-      "start_ms": 3057,
-      "end_ms": 6694,
-      "duration_ms": 3637,
+      "start_ms": 3011,
+      "end_ms": 6636,
+      "duration_ms": 3625,
       "clauses": [
         {
           "index": 0,
           "text": "金持ちの女の人が病気になりました。",
-          "start_ms": 3057,
-          "end_ms": 6694,
-          "duration_ms": 3637
+          "start_ms": 3011,
+          "end_ms": 6636,
+          "duration_ms": 3625
         }
       ]
     },
     {
       "index": 2,
       "text": "とても具合が悪くて、もうすぐ死ぬということが分かりました。",
-      "start_ms": 7194,
-      "end_ms": 12722,
-      "duration_ms": 5528,
+      "start_ms": 7136,
+      "end_ms": 12686,
+      "duration_ms": 5550,
       "clauses": [
         {
           "index": 0,
           "text": "とても具合が悪くて、",
-          "start_ms": 7194,
-          "end_ms": 9357,
-          "duration_ms": 2163
+          "start_ms": 7136,
+          "end_ms": 9275,
+          "duration_ms": 2139
         },
         {
           "index": 1,
           "text": "もうすぐ死ぬということが分かりました。",
-          "start_ms": 9607,
-          "end_ms": 12722,
-          "duration_ms": 3115
+          "start_ms": 9525,
+          "end_ms": 12686,
+          "duration_ms": 3161
         }
       ]
     },
     {
       "index": 3,
       "text": "それで、たった一人の娘をベッドのそばに呼んで、「愛しているわが子よ。",
-      "start_ms": 13222,
-      "end_ms": 20511,
-      "duration_ms": 7289,
+      "start_ms": 13186,
+      "end_ms": 20498,
+      "duration_ms": 7312,
       "clauses": [
         {
           "index": 0,
           "text": "それで、",
-          "start_ms": 13222,
-          "end_ms": 14363,
-          "duration_ms": 1141
+          "start_ms": 13186,
+          "end_ms": 14385,
+          "duration_ms": 1199
         },
         {
           "index": 1,
           "text": "たった一人の娘をベッドのそばに呼んで、",
-          "start_ms": 14613,
-          "end_ms": 18238,
+          "start_ms": 14635,
+          "end_ms": 18260,
           "duration_ms": 3625
         },
         {
           "index": 2,
           "text": "「愛しているわが子よ。",
-          "start_ms": 18488,
-          "end_ms": 20511,
-          "duration_ms": 2023
+          "start_ms": 18510,
+          "end_ms": 20498,
+          "duration_ms": 1988
         }
       ]
     },
     {
       "index": 4,
       "text": "いい子でいてね。",
-      "start_ms": 21011,
-      "end_ms": 22663,
-      "duration_ms": 1652,
+      "start_ms": 20998,
+      "end_ms": 22696,
+      "duration_ms": 1698,
       "clauses": [
         {
           "index": 0,
           "text": "いい子でいてね。",
-          "start_ms": 21011,
-          "end_ms": 22663,
-          "duration_ms": 1652
+          "start_ms": 20998,
+          "end_ms": 22696,
+          "duration_ms": 1698
         }
       ]
     },
     {
       "index": 5,
       "text": "神様を信じているなら、神様はいつもあなたを守ってくれるよ。",
-      "start_ms": 23163,
-      "end_ms": 29560,
-      "duration_ms": 6397,
+      "start_ms": 23196,
+      "end_ms": 29628,
+      "duration_ms": 6432,
       "clauses": [
         {
           "index": 0,
           "text": "神様を信じているなら、",
-          "start_ms": 23163,
-          "end_ms": 25627,
-          "duration_ms": 2464
+          "start_ms": 23196,
+          "end_ms": 25718,
+          "duration_ms": 2522
         },
         {
           "index": 1,
           "text": "神様はいつもあなたを守ってくれるよ。",
-          "start_ms": 25877,
-          "end_ms": 29560,
-          "duration_ms": 3683
+          "start_ms": 25968,
+          "end_ms": 29628,
+          "duration_ms": 3660
         }
       ]
     },
     {
       "index": 6,
-      "text": "私は天国からあなたを見下ろしているからね。",
-      "start_ms": 30060,
-      "end_ms": 34138,
-      "duration_ms": 4078,
+      "text": "私は天国からあなたを見下ろしているからね。」",
+      "start_ms": 30128,
+      "end_ms": 34276,
+      "duration_ms": 4148,
       "clauses": [
         {
           "index": 0,
-          "text": "私は天国からあなたを見下ろしているからね。",
-          "start_ms": 30060,
-          "end_ms": 34138,
-          "duration_ms": 4078
+          "text": "私は天国からあなたを見下ろしているからね。」",
+          "start_ms": 30128,
+          "end_ms": 34276,
+          "duration_ms": 4148
         }
       ]
     },
     {
       "index": 7,
-      "text": "」と言いました。",
-      "start_ms": 34638,
-      "end_ms": 36139,
-      "duration_ms": 1501,
+      "text": "と言いました。",
+      "start_ms": 34776,
+      "end_ms": 36323,
+      "duration_ms": 1547,
       "clauses": [
         {
           "index": 0,
-          "text": "」と言いました。",
-          "start_ms": 34638,
-          "end_ms": 36139,
-          "duration_ms": 1501
+          "text": "と言いました。",
+          "start_ms": 34776,
+          "end_ms": 36323,
+          "duration_ms": 1547
         }
       ]
     },
     {
       "index": 8,
       "text": "それから、目を閉じて亡くなりました。",
-      "start_ms": 36639,
-      "end_ms": 40726,
-      "duration_ms": 4087,
+      "start_ms": 36823,
+      "end_ms": 40934,
+      "duration_ms": 4111,
       "clauses": [
         {
           "index": 0,
           "text": "それから、",
-          "start_ms": 36639,
-          "end_ms": 38058,
-          "duration_ms": 1419
+          "start_ms": 36823,
+          "end_ms": 38231,
+          "duration_ms": 1408
         },
         {
           "index": 1,
           "text": "目を閉じて亡くなりました。",
-          "start_ms": 38308,
-          "end_ms": 40726,
-          "duration_ms": 2418
+          "start_ms": 38481,
+          "end_ms": 40934,
+          "duration_ms": 2453
         }
       ]
     },
     {
       "index": 9,
       "text": "娘は毎日、母親の墓に行って泣きました。",
-      "start_ms": 41226,
-      "end_ms": 46359,
-      "duration_ms": 5133,
+      "start_ms": 41434,
+      "end_ms": 46555,
+      "duration_ms": 5121,
       "clauses": [
         {
           "index": 0,
           "text": "娘は毎日、",
-          "start_ms": 41226,
-          "end_ms": 43203,
-          "duration_ms": 1977
+          "start_ms": 41434,
+          "end_ms": 43376,
+          "duration_ms": 1942
         },
         {
           "index": 1,
           "text": "母親の墓に行って泣きました。",
-          "start_ms": 43453,
-          "end_ms": 46359,
-          "duration_ms": 2906
+          "start_ms": 43626,
+          "end_ms": 46555,
+          "duration_ms": 2929
         }
       ]
     },
     {
       "index": 10,
       "text": "でも、いつもいい子でいました。",
-      "start_ms": 46859,
-      "end_ms": 50168,
-      "duration_ms": 3309,
+      "start_ms": 47055,
+      "end_ms": 50399,
+      "duration_ms": 3344,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 46859,
-          "end_ms": 47744,
-          "duration_ms": 885
+          "start_ms": 47055,
+          "end_ms": 47952,
+          "duration_ms": 897
         },
         {
           "index": 1,
           "text": "いつもいい子でいました。",
-          "start_ms": 47994,
-          "end_ms": 50168,
-          "duration_ms": 2174
+          "start_ms": 48202,
+          "end_ms": 50399,
+          "duration_ms": 2197
         }
       ]
     },
     {
       "index": 11,
       "text": "冬になって、雪が墓の上に降りました。",
-      "start_ms": 50668,
-      "end_ms": 55475,
-      "duration_ms": 4807,
+      "start_ms": 50899,
+      "end_ms": 55613,
+      "duration_ms": 4714,
       "clauses": [
         {
           "index": 0,
           "text": "冬になって、",
-          "start_ms": 50668,
-          "end_ms": 52227,
-          "duration_ms": 1559
+          "start_ms": 50899,
+          "end_ms": 52446,
+          "duration_ms": 1547
         },
         {
           "index": 1,
           "text": "雪が墓の上に降りました。",
-          "start_ms": 52477,
-          "end_ms": 55475,
-          "duration_ms": 2998
+          "start_ms": 52696,
+          "end_ms": 55613,
+          "duration_ms": 2917
         }
       ]
     },
     {
       "index": 12,
       "text": "春の太陽が雪を溶かすころ、父は別の女の人を妻にもらいました。",
-      "start_ms": 55975,
-      "end_ms": 62989,
-      "duration_ms": 7014,
+      "start_ms": 56113,
+      "end_ms": 63242,
+      "duration_ms": 7129,
       "clauses": [
         {
           "index": 0,
           "text": "春の太陽が雪を溶かすころ、",
-          "start_ms": 55975,
-          "end_ms": 58939,
-          "duration_ms": 2964
+          "start_ms": 56113,
+          "end_ms": 59123,
+          "duration_ms": 3010
         },
         {
           "index": 1,
           "text": "父は別の女の人を妻にもらいました。",
-          "start_ms": 59189,
-          "end_ms": 62989,
-          "duration_ms": 3800
+          "start_ms": 59373,
+          "end_ms": 63242,
+          "duration_ms": 3869
         }
       ]
     },
     {
       "index": 13,
       "text": "その女は自分の娘を二人一緒に連れてきました。",
-      "start_ms": 63489,
-      "end_ms": 68368,
-      "duration_ms": 4879,
+      "start_ms": 63742,
+      "end_ms": 68552,
+      "duration_ms": 4810,
       "clauses": [
         {
           "index": 0,
           "text": "その女は自分の娘を二人一緒に連れてきました。",
-          "start_ms": 63489,
-          "end_ms": 68368,
-          "duration_ms": 4879
+          "start_ms": 63742,
+          "end_ms": 68552,
+          "duration_ms": 4810
         }
       ]
     },
     {
       "index": 14,
       "text": "二人の娘は顔はとても美しかったですが、心は汚くて真っ黒でした。",
-      "start_ms": 68868,
-      "end_ms": 76264,
-      "duration_ms": 7396,
+      "start_ms": 69052,
+      "end_ms": 76634,
+      "duration_ms": 7582,
       "clauses": [
         {
           "index": 0,
           "text": "二人の娘は顔はとても美しかったですが、",
-          "start_ms": 68868,
-          "end_ms": 73120,
-          "duration_ms": 4252
+          "start_ms": 69052,
+          "end_ms": 73409,
+          "duration_ms": 4357
         },
         {
           "index": 1,
           "text": "心は汚くて真っ黒でした。",
-          "start_ms": 73370,
-          "end_ms": 76264,
-          "duration_ms": 2894
+          "start_ms": 73659,
+          "end_ms": 76634,
+          "duration_ms": 2975
         }
       ]
     },
     {
       "index": 15,
       "text": "それから、かわいそうな継子の辛い生活が始まりました。",
-      "start_ms": 76764,
-      "end_ms": 82593,
-      "duration_ms": 5829,
+      "start_ms": 77134,
+      "end_ms": 83067,
+      "duration_ms": 5933,
       "clauses": [
         {
           "index": 0,
           "text": "それから、",
-          "start_ms": 76764,
-          "end_ms": 78172,
-          "duration_ms": 1408
+          "start_ms": 77134,
+          "end_ms": 78553,
+          "duration_ms": 1419
         },
         {
           "index": 1,
           "text": "かわいそうな継子の辛い生活が始まりました。",
-          "start_ms": 78422,
-          "end_ms": 82593,
-          "duration_ms": 4171
+          "start_ms": 78803,
+          "end_ms": 83067,
+          "duration_ms": 4264
         }
       ]
     },
     {
       "index": 16,
       "text": "「あの頭の悪い子が、私たちと一緒にここに座ってていいの？",
-      "start_ms": 83093,
-      "end_ms": 89107,
-      "duration_ms": 6014,
+      "start_ms": 83567,
+      "end_ms": 89686,
+      "duration_ms": 6119,
       "clauses": [
         {
           "index": 0,
           "text": "「あの頭の悪い子が、",
-          "start_ms": 83093,
-          "end_ms": 85383,
-          "duration_ms": 2290
+          "start_ms": 83567,
+          "end_ms": 85915,
+          "duration_ms": 2348
         },
         {
           "index": 1,
           "text": "私たちと一緒にここに座ってていいの？",
-          "start_ms": 85633,
-          "end_ms": 89107,
-          "duration_ms": 3474
+          "start_ms": 86165,
+          "end_ms": 89686,
+          "duration_ms": 3521
         }
       ]
     },
     {
       "index": 17,
       "text": "ご飯が食べたいなら、自分の力で稼がなくちゃ。",
-      "start_ms": 89607,
-      "end_ms": 94774,
-      "duration_ms": 5167,
+      "start_ms": 90186,
+      "end_ms": 95342,
+      "duration_ms": 5156,
       "clauses": [
         {
           "index": 0,
           "text": "ご飯が食べたいなら、",
-          "start_ms": 89607,
-          "end_ms": 91758,
-          "duration_ms": 2151
+          "start_ms": 90186,
+          "end_ms": 92372,
+          "duration_ms": 2186
         },
         {
           "index": 1,
           "text": "自分の力で稼がなくちゃ。",
-          "start_ms": 92008,
-          "end_ms": 94774,
-          "duration_ms": 2766
+          "start_ms": 92622,
+          "end_ms": 95342,
+          "duration_ms": 2720
         }
       ]
     },
     {
       "index": 18,
-      "text": "台所女中は外よ。",
-      "start_ms": 95274,
-      "end_ms": 97704,
-      "duration_ms": 2430,
+      "text": "台所女中は外よ。」",
+      "start_ms": 95842,
+      "end_ms": 98283,
+      "duration_ms": 2441,
       "clauses": [
         {
           "index": 0,
-          "text": "台所女中は外よ。",
-          "start_ms": 95274,
-          "end_ms": 97704,
-          "duration_ms": 2430
+          "text": "台所女中は外よ。」",
+          "start_ms": 95842,
+          "end_ms": 98283,
+          "duration_ms": 2441
         }
       ]
     },
     {
       "index": 19,
-      "text": "」二人の娘はそう言いました。",
-      "start_ms": 98204,
-      "end_ms": 101133,
-      "duration_ms": 2929,
+      "text": "二人の娘はそう言いました。",
+      "start_ms": 98783,
+      "end_ms": 101596,
+      "duration_ms": 2813,
       "clauses": [
         {
           "index": 0,
-          "text": "」二人の娘はそう言いました。",
-          "start_ms": 98204,
-          "end_ms": 101133,
-          "duration_ms": 2929
+          "text": "二人の娘はそう言いました。",
+          "start_ms": 98783,
+          "end_ms": 101596,
+          "duration_ms": 2813
         }
       ]
     },
     {
       "index": 20,
       "text": "二人の娘は、きれいな服を全部とりあげました。",
-      "start_ms": 101633,
-      "end_ms": 106846,
-      "duration_ms": 5213,
+      "start_ms": 102096,
+      "end_ms": 107298,
+      "duration_ms": 5202,
       "clauses": [
         {
           "index": 0,
           "text": "二人の娘は、",
-          "start_ms": 101633,
-          "end_ms": 103528,
-          "duration_ms": 1895
+          "start_ms": 102096,
+          "end_ms": 103980,
+          "duration_ms": 1884
         },
         {
           "index": 1,
           "text": "きれいな服を全部とりあげました。",
-          "start_ms": 103778,
-          "end_ms": 106846,
+          "start_ms": 104230,
+          "end_ms": 107298,
           "duration_ms": 3068
         }
       ]
@@ -441,260 +441,260 @@
     {
       "index": 21,
       "text": "古い灰色の上着を着せて、木の靴をはかせました。",
-      "start_ms": 107346,
-      "end_ms": 112501,
-      "duration_ms": 5155,
+      "start_ms": 107798,
+      "end_ms": 113011,
+      "duration_ms": 5213,
       "clauses": [
         {
           "index": 0,
           "text": "古い灰色の上着を着せて、",
-          "start_ms": 107346,
-          "end_ms": 109903,
-          "duration_ms": 2557
+          "start_ms": 107798,
+          "end_ms": 110378,
+          "duration_ms": 2580
         },
         {
           "index": 1,
           "text": "木の靴をはかせました。",
-          "start_ms": 110153,
-          "end_ms": 112501,
-          "duration_ms": 2348
+          "start_ms": 110628,
+          "end_ms": 113011,
+          "duration_ms": 2383
         }
       ]
     },
     {
       "index": 22,
       "text": "「高慢な王女様を見てごらん。",
-      "start_ms": 113001,
-      "end_ms": 115732,
-      "duration_ms": 2731,
+      "start_ms": 113511,
+      "end_ms": 116231,
+      "duration_ms": 2720,
       "clauses": [
         {
           "index": 0,
           "text": "「高慢な王女様を見てごらん。",
-          "start_ms": 113001,
-          "end_ms": 115732,
-          "duration_ms": 2731
+          "start_ms": 113511,
+          "end_ms": 116231,
+          "duration_ms": 2720
         }
       ]
     },
     {
       "index": 23,
-      "text": "なんておめかしているの。",
-      "start_ms": 116232,
-      "end_ms": 118418,
-      "duration_ms": 2186,
+      "text": "なんておめかしているの。」",
+      "start_ms": 116731,
+      "end_ms": 118882,
+      "duration_ms": 2151,
       "clauses": [
         {
           "index": 0,
-          "text": "なんておめかしているの。",
-          "start_ms": 116232,
-          "end_ms": 118418,
-          "duration_ms": 2186
+          "text": "なんておめかしているの。」",
+          "start_ms": 116731,
+          "end_ms": 118882,
+          "duration_ms": 2151
         }
       ]
     },
     {
       "index": 24,
-      "text": "」と二人は笑いました。",
-      "start_ms": 118918,
-      "end_ms": 121115,
-      "duration_ms": 2197,
+      "text": "と二人は笑いました。",
+      "start_ms": 119382,
+      "end_ms": 121591,
+      "duration_ms": 2209,
       "clauses": [
         {
           "index": 0,
-          "text": "」と二人は笑いました。",
-          "start_ms": 118918,
-          "end_ms": 121115,
-          "duration_ms": 2197
+          "text": "と二人は笑いました。",
+          "start_ms": 119382,
+          "end_ms": 121591,
+          "duration_ms": 2209
         }
       ]
     },
     {
       "index": 25,
       "text": "それから、娘は朝から晩まで辛い仕事をしなければなりませんでした。",
-      "start_ms": 121615,
-      "end_ms": 128488,
-      "duration_ms": 6873,
+      "start_ms": 122091,
+      "end_ms": 128895,
+      "duration_ms": 6804,
       "clauses": [
         {
           "index": 0,
           "text": "それから、",
-          "start_ms": 121615,
-          "end_ms": 123034,
-          "duration_ms": 1419
+          "start_ms": 122091,
+          "end_ms": 123499,
+          "duration_ms": 1408
         },
         {
           "index": 1,
           "text": "娘は朝から晩まで辛い仕事をしなければなりませんでした。",
-          "start_ms": 123284,
-          "end_ms": 128488,
-          "duration_ms": 5204
+          "start_ms": 123749,
+          "end_ms": 128895,
+          "duration_ms": 5146
         }
       ]
     },
     {
       "index": 26,
       "text": "日の出前に起きて、水を汲んで、火をおこして、料理をして、洗濯をしました。",
-      "start_ms": 128988,
-      "end_ms": 138675,
-      "duration_ms": 9687,
+      "start_ms": 129395,
+      "end_ms": 138931,
+      "duration_ms": 9536,
       "clauses": [
         {
           "index": 0,
           "text": "日の出前に起きて、",
-          "start_ms": 128988,
-          "end_ms": 130918,
-          "duration_ms": 1930
+          "start_ms": 129395,
+          "end_ms": 131383,
+          "duration_ms": 1988
         },
         {
           "index": 1,
           "text": "水を汲んで、",
-          "start_ms": 131168,
-          "end_ms": 132715,
-          "duration_ms": 1547
+          "start_ms": 131633,
+          "end_ms": 133064,
+          "duration_ms": 1431
         },
         {
           "index": 2,
           "text": "火をおこして、",
-          "start_ms": 132965,
-          "end_ms": 134547,
+          "start_ms": 133314,
+          "end_ms": 134896,
           "duration_ms": 1582
         },
         {
           "index": 3,
           "text": "料理をして、",
-          "start_ms": 134797,
-          "end_ms": 136367,
-          "duration_ms": 1570
+          "start_ms": 135146,
+          "end_ms": 136693,
+          "duration_ms": 1547
         },
         {
           "index": 4,
           "text": "洗濯をしました。",
-          "start_ms": 136617,
-          "end_ms": 138675,
-          "duration_ms": 2058
+          "start_ms": 136943,
+          "end_ms": 138931,
+          "duration_ms": 1988
         }
       ]
     },
     {
       "index": 27,
       "text": "それだけでは足りなくて、二人はできる限りのいじわるをしました。",
-      "start_ms": 139175,
-      "end_ms": 145201,
-      "duration_ms": 6026,
+      "start_ms": 139431,
+      "end_ms": 145503,
+      "duration_ms": 6072,
       "clauses": [
         {
           "index": 0,
           "text": "それだけでは足りなくて、",
-          "start_ms": 139175,
-          "end_ms": 141500,
-          "duration_ms": 2325
+          "start_ms": 139431,
+          "end_ms": 141779,
+          "duration_ms": 2348
         },
         {
           "index": 1,
           "text": "二人はできる限りのいじわるをしました。",
-          "start_ms": 141750,
-          "end_ms": 145201,
-          "duration_ms": 3451
+          "start_ms": 142029,
+          "end_ms": 145503,
+          "duration_ms": 3474
         }
       ]
     },
     {
       "index": 28,
       "text": "娘をバカにして、灰の中にエンドウ豆やレンズ豆をまいたので、娘は一度座って豆を全部拾わなければなりませんでした。",
-      "start_ms": 145701,
-      "end_ms": 157588,
-      "duration_ms": 11887,
+      "start_ms": 146003,
+      "end_ms": 157680,
+      "duration_ms": 11677,
       "clauses": [
         {
           "index": 0,
           "text": "娘をバカにして、",
-          "start_ms": 145701,
-          "end_ms": 147782,
-          "duration_ms": 2081
+          "start_ms": 146003,
+          "end_ms": 148026,
+          "duration_ms": 2023
         },
         {
           "index": 1,
           "text": "灰の中にエンドウ豆やレンズ豆をまいたので、",
-          "start_ms": 148032,
-          "end_ms": 152006,
-          "duration_ms": 3974
+          "start_ms": 148276,
+          "end_ms": 152226,
+          "duration_ms": 3950
         },
         {
           "index": 2,
           "text": "娘は一度座って豆を全部拾わなければなりませんでした。",
-          "start_ms": 152256,
-          "end_ms": 157588,
-          "duration_ms": 5332
+          "start_ms": 152476,
+          "end_ms": 157680,
+          "duration_ms": 5204
         }
       ]
     },
     {
       "index": 29,
       "text": "疲れるまで働いた夜には、ベッドがありませんでした。",
-      "start_ms": 158088,
-      "end_ms": 163325,
-      "duration_ms": 5237,
+      "start_ms": 158180,
+      "end_ms": 163278,
+      "duration_ms": 5098,
       "clauses": [
         {
           "index": 0,
           "text": "疲れるまで働いた夜には、",
-          "start_ms": 158088,
-          "end_ms": 160785,
-          "duration_ms": 2697
+          "start_ms": 158180,
+          "end_ms": 160819,
+          "duration_ms": 2639
         },
         {
           "index": 1,
           "text": "ベッドがありませんでした。",
-          "start_ms": 161035,
-          "end_ms": 163325,
-          "duration_ms": 2290
+          "start_ms": 161069,
+          "end_ms": 163278,
+          "duration_ms": 2209
         }
       ]
     },
     {
       "index": 30,
       "text": "灰があるかまどのそばで寝なければなりませんでした。",
-      "start_ms": 163825,
-      "end_ms": 167845,
-      "duration_ms": 4020,
+      "start_ms": 163778,
+      "end_ms": 167868,
+      "duration_ms": 4090,
       "clauses": [
         {
           "index": 0,
           "text": "灰があるかまどのそばで寝なければなりませんでした。",
-          "start_ms": 163825,
-          "end_ms": 167845,
-          "duration_ms": 4020
+          "start_ms": 163778,
+          "end_ms": 167868,
+          "duration_ms": 4090
         }
       ]
     },
     {
       "index": 31,
       "text": "だから、いつも埃をかぶって汚く見えたので、二人は娘を「はいかぶり」と呼びました。",
-      "start_ms": 168345,
-      "end_ms": 176726,
-      "duration_ms": 8381,
+      "start_ms": 168368,
+      "end_ms": 176703,
+      "duration_ms": 8335,
       "clauses": [
         {
           "index": 0,
           "text": "だから、",
-          "start_ms": 168345,
-          "end_ms": 169405,
+          "start_ms": 168368,
+          "end_ms": 169428,
           "duration_ms": 1060
         },
         {
           "index": 1,
           "text": "いつも埃をかぶって汚く見えたので、",
-          "start_ms": 169655,
-          "end_ms": 173071,
-          "duration_ms": 3416
+          "start_ms": 169678,
+          "end_ms": 173129,
+          "duration_ms": 3451
         },
         {
           "index": 2,
           "text": "二人は娘を「はいかぶり」と呼びました。",
-          "start_ms": 173321,
-          "end_ms": 176726,
-          "duration_ms": 3405
+          "start_ms": 173379,
+          "end_ms": 176703,
+          "duration_ms": 3324
         }
       ]
     }

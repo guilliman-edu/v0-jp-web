@@ -2,89 +2,89 @@
   "audio_file": "a2.2-s2-choushiro-c01-slow.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 161407,
+  "total_duration_ms": 160178,
   "sentences": [
     {
       "index": 0,
       "text": "約束",
       "start_ms": 0,
-      "end_ms": 1814,
-      "duration_ms": 1814,
+      "end_ms": 1849,
+      "duration_ms": 1849,
       "clauses": [
         {
           "index": 0,
           "text": "約束",
           "start_ms": 0,
-          "end_ms": 1814,
-          "duration_ms": 1814
+          "end_ms": 1849,
+          "duration_ms": 1849
         }
       ]
     },
     {
       "index": 1,
       "text": "むかし、にほんに、しょうぐんのいえにすんでいるおとこのこがいました。",
-      "start_ms": 2314,
-      "end_ms": 10230,
-      "duration_ms": 7916,
+      "start_ms": 2349,
+      "end_ms": 10323,
+      "duration_ms": 7974,
       "clauses": [
         {
           "index": 0,
           "text": "むかし、",
-          "start_ms": 2314,
-          "end_ms": 3861,
+          "start_ms": 2349,
+          "end_ms": 3896,
           "duration_ms": 1547
         },
         {
           "index": 1,
           "text": "にほんに、",
-          "start_ms": 4111,
-          "end_ms": 5693,
-          "duration_ms": 1582
+          "start_ms": 4146,
+          "end_ms": 5763,
+          "duration_ms": 1617
         },
         {
           "index": 2,
           "text": "しょうぐんのいえにすんでいるおとこのこがいました。",
-          "start_ms": 5943,
-          "end_ms": 10230,
-          "duration_ms": 4287
+          "start_ms": 6013,
+          "end_ms": 10323,
+          "duration_ms": 4310
         }
       ]
     },
     {
       "index": 2,
       "text": "おとこのこのなまえはチョウシロウです。",
-      "start_ms": 10730,
-      "end_ms": 14669,
-      "duration_ms": 3939,
+      "start_ms": 10823,
+      "end_ms": 14774,
+      "duration_ms": 3951,
       "clauses": [
         {
           "index": 0,
           "text": "おとこのこのなまえはチョウシロウです。",
-          "start_ms": 10730,
-          "end_ms": 14669,
-          "duration_ms": 3939
+          "start_ms": 10823,
+          "end_ms": 14774,
+          "duration_ms": 3951
         }
       ]
     },
     {
       "index": 3,
       "text": "チョウシロウは、たけちよのともだちです。",
-      "start_ms": 15169,
-      "end_ms": 20081,
-      "duration_ms": 4912,
+      "start_ms": 15274,
+      "end_ms": 20082,
+      "duration_ms": 4808,
       "clauses": [
         {
           "index": 0,
           "text": "チョウシロウは、",
-          "start_ms": 15169,
-          "end_ms": 17099,
-          "duration_ms": 1930
+          "start_ms": 15274,
+          "end_ms": 17100,
+          "duration_ms": 1826
         },
         {
           "index": 1,
           "text": "たけちよのともだちです。",
-          "start_ms": 17349,
-          "end_ms": 20081,
+          "start_ms": 17350,
+          "end_ms": 20082,
           "duration_ms": 2732
         }
       ]
@@ -92,311 +92,311 @@
     {
       "index": 4,
       "text": "たけちよはしょうぐんのおこさんで、じゅうさいでした。",
-      "start_ms": 20581,
-      "end_ms": 26282,
-      "duration_ms": 5701,
+      "start_ms": 20582,
+      "end_ms": 26307,
+      "duration_ms": 5725,
       "clauses": [
         {
           "index": 0,
           "text": "たけちよはしょうぐんのおこさんで、",
-          "start_ms": 20581,
-          "end_ms": 23974,
-          "duration_ms": 3393
+          "start_ms": 20582,
+          "end_ms": 23906,
+          "duration_ms": 3324
         },
         {
           "index": 1,
           "text": "じゅうさいでした。",
-          "start_ms": 24224,
-          "end_ms": 26282,
-          "duration_ms": 2058
+          "start_ms": 24156,
+          "end_ms": 26307,
+          "duration_ms": 2151
         }
       ]
     },
     {
       "index": 5,
       "text": "チョウシロウはじゅうさんさいでした。",
-      "start_ms": 26782,
-      "end_ms": 30303,
-      "duration_ms": 3521,
+      "start_ms": 26807,
+      "end_ms": 30293,
+      "duration_ms": 3486,
       "clauses": [
         {
           "index": 0,
           "text": "チョウシロウはじゅうさんさいでした。",
-          "start_ms": 26782,
-          "end_ms": 30303,
-          "duration_ms": 3521
+          "start_ms": 26807,
+          "end_ms": 30293,
+          "duration_ms": 3486
         }
       ]
     },
     {
       "index": 6,
       "text": "あるひのあさ、ふたりはいえのなかをあるいていました。",
-      "start_ms": 30803,
-      "end_ms": 37131,
-      "duration_ms": 6328,
+      "start_ms": 30793,
+      "end_ms": 37110,
+      "duration_ms": 6317,
       "clauses": [
         {
           "index": 0,
           "text": "あるひのあさ、",
-          "start_ms": 30803,
-          "end_ms": 32745,
-          "duration_ms": 1942
+          "start_ms": 30793,
+          "end_ms": 32747,
+          "duration_ms": 1954
         },
         {
           "index": 1,
           "text": "ふたりはいえのなかをあるいていました。",
-          "start_ms": 32995,
-          "end_ms": 37131,
-          "duration_ms": 4136
+          "start_ms": 32997,
+          "end_ms": 37110,
+          "duration_ms": 4113
         }
       ]
     },
     {
       "index": 7,
       "text": "いえのたかいところに、かわいいすずめがいました。",
-      "start_ms": 37631,
-      "end_ms": 43146,
-      "duration_ms": 5515,
+      "start_ms": 37610,
+      "end_ms": 43102,
+      "duration_ms": 5492,
       "clauses": [
         {
           "index": 0,
           "text": "いえのたかいところに、",
-          "start_ms": 37631,
-          "end_ms": 40095,
-          "duration_ms": 2464
+          "start_ms": 37610,
+          "end_ms": 40086,
+          "duration_ms": 2476
         },
         {
           "index": 1,
           "text": "かわいいすずめがいました。",
-          "start_ms": 40345,
-          "end_ms": 43146,
-          "duration_ms": 2801
+          "start_ms": 40336,
+          "end_ms": 43102,
+          "duration_ms": 2766
         }
       ]
     },
     {
       "index": 8,
       "text": "たけちよはすごくうれしくて、「あのすずめをとってください」とチョウシロウにいいました。",
-      "start_ms": 43646,
-      "end_ms": 52064,
-      "duration_ms": 8418,
+      "start_ms": 43602,
+      "end_ms": 52009,
+      "duration_ms": 8407,
       "clauses": [
         {
           "index": 0,
           "text": "たけちよはすごくうれしくて、",
-          "start_ms": 43646,
-          "end_ms": 46749,
-          "duration_ms": 3103
+          "start_ms": 43602,
+          "end_ms": 46659,
+          "duration_ms": 3057
         },
         {
           "index": 1,
           "text": "「あのすずめをとってください」とチョウシロウにいいました。",
-          "start_ms": 46999,
-          "end_ms": 52064,
-          "duration_ms": 5065
+          "start_ms": 46909,
+          "end_ms": 52009,
+          "duration_ms": 5100
         }
       ]
     },
     {
       "index": 9,
       "text": "チョウシロウはいいました。",
-      "start_ms": 52564,
-      "end_ms": 55179,
-      "duration_ms": 2615,
+      "start_ms": 52509,
+      "end_ms": 55090,
+      "duration_ms": 2581,
       "clauses": [
         {
           "index": 0,
           "text": "チョウシロウはいいました。",
-          "start_ms": 52564,
-          "end_ms": 55179,
-          "duration_ms": 2615
+          "start_ms": 52509,
+          "end_ms": 55090,
+          "duration_ms": 2581
         }
       ]
     },
     {
       "index": 10,
       "text": "「いまはとりません。",
-      "start_ms": 55679,
-      "end_ms": 57946,
-      "duration_ms": 2267,
+      "start_ms": 55590,
+      "end_ms": 57822,
+      "duration_ms": 2232,
       "clauses": [
         {
           "index": 0,
           "text": "「いまはとりません。",
-          "start_ms": 55679,
-          "end_ms": 57946,
-          "duration_ms": 2267
+          "start_ms": 55590,
+          "end_ms": 57822,
+          "duration_ms": 2232
         }
       ]
     },
     {
       "index": 11,
       "text": "しょうぐんがおこりますから。",
-      "start_ms": 58446,
-      "end_ms": 61189,
-      "duration_ms": 2743,
+      "start_ms": 58322,
+      "end_ms": 61054,
+      "duration_ms": 2732,
       "clauses": [
         {
           "index": 0,
           "text": "しょうぐんがおこりますから。",
-          "start_ms": 58446,
-          "end_ms": 61189,
-          "duration_ms": 2743
+          "start_ms": 58322,
+          "end_ms": 61054,
+          "duration_ms": 2732
         }
       ]
     },
     {
       "index": 12,
-      "text": "よるに、みんながねたあとでとります。",
-      "start_ms": 61689,
-      "end_ms": 66206,
-      "duration_ms": 4517,
+      "text": "よるに、みんながねたあとでとります。」",
+      "start_ms": 61554,
+      "end_ms": 66118,
+      "duration_ms": 4564,
       "clauses": [
         {
           "index": 0,
           "text": "よるに、",
-          "start_ms": 61689,
-          "end_ms": 63027,
-          "duration_ms": 1338
+          "start_ms": 61554,
+          "end_ms": 62904,
+          "duration_ms": 1350
         },
         {
           "index": 1,
-          "text": "みんながねたあとでとります。",
-          "start_ms": 63277,
-          "end_ms": 66206,
-          "duration_ms": 2929
-        }
-      ]
-    },
-    {
-      "index": 13,
-      "text": "」たけちよはいいました。",
-      "start_ms": 66706,
-      "end_ms": 69170,
-      "duration_ms": 2464,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "」たけちよはいいました。",
-          "start_ms": 66706,
-          "end_ms": 69170,
-          "duration_ms": 2464
-        }
-      ]
-    },
-    {
-      "index": 14,
-      "text": "「あした、あのすずめをとってください。",
-      "start_ms": 69670,
-      "end_ms": 74338,
-      "duration_ms": 4668,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "「あした、",
-          "start_ms": 69670,
-          "end_ms": 71124,
-          "duration_ms": 1454
-        },
-        {
-          "index": 1,
-          "text": "あのすずめをとってください。",
-          "start_ms": 71374,
-          "end_ms": 74338,
+          "text": "みんながねたあとでとります。」",
+          "start_ms": 63154,
+          "end_ms": 66118,
           "duration_ms": 2964
         }
       ]
     },
     {
-      "index": 15,
-      "text": "」「わかりました。",
-      "start_ms": 74838,
-      "end_ms": 76780,
-      "duration_ms": 1942,
+      "index": 13,
+      "text": "たけちよはいいました。",
+      "start_ms": 66618,
+      "end_ms": 69141,
+      "duration_ms": 2523,
       "clauses": [
         {
           "index": 0,
-          "text": "」「わかりました。",
-          "start_ms": 74838,
-          "end_ms": 76780,
-          "duration_ms": 1942
+          "text": "たけちよはいいました。",
+          "start_ms": 66618,
+          "end_ms": 69141,
+          "duration_ms": 2523
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "「あした、あのすずめをとってください。」",
+      "start_ms": 69641,
+      "end_ms": 74333,
+      "duration_ms": 4692,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「あした、",
+          "start_ms": 69641,
+          "end_ms": 71084,
+          "duration_ms": 1443
+        },
+        {
+          "index": 1,
+          "text": "あのすずめをとってください。」",
+          "start_ms": 71334,
+          "end_ms": 74333,
+          "duration_ms": 2999
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "「わかりました。",
+      "start_ms": 74833,
+      "end_ms": 76763,
+      "duration_ms": 1930,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「わかりました。",
+          "start_ms": 74833,
+          "end_ms": 76763,
+          "duration_ms": 1930
         }
       ]
     },
     {
       "index": 16,
-      "text": "やくそくします。",
-      "start_ms": 77280,
-      "end_ms": 79350,
-      "duration_ms": 2070,
+      "text": "やくそくします。」",
+      "start_ms": 77263,
+      "end_ms": 79391,
+      "duration_ms": 2128,
       "clauses": [
         {
           "index": 0,
-          "text": "やくそくします。",
-          "start_ms": 77280,
-          "end_ms": 79350,
-          "duration_ms": 2070
+          "text": "やくそくします。」",
+          "start_ms": 77263,
+          "end_ms": 79391,
+          "duration_ms": 2128
         }
       ]
     },
     {
       "index": 17,
-      "text": "」\n\nよるになりました。",
-      "start_ms": 79850,
-      "end_ms": 82071,
-      "duration_ms": 2221,
+      "text": "よるになりました。",
+      "start_ms": 79891,
+      "end_ms": 82077,
+      "duration_ms": 2186,
       "clauses": [
         {
           "index": 0,
-          "text": "」\n\nよるになりました。",
-          "start_ms": 79850,
-          "end_ms": 82071,
-          "duration_ms": 2221
+          "text": "よるになりました。",
+          "start_ms": 79891,
+          "end_ms": 82077,
+          "duration_ms": 2186
         }
       ]
     },
     {
       "index": 18,
       "text": "みんながねたあとで、チョウシロウはいえのたかいところにのぼりました。",
-      "start_ms": 82571,
-      "end_ms": 89921,
-      "duration_ms": 7350,
+      "start_ms": 82577,
+      "end_ms": 89811,
+      "duration_ms": 7234,
       "clauses": [
         {
           "index": 0,
           "text": "みんながねたあとで、",
-          "start_ms": 82571,
-          "end_ms": 84919,
-          "duration_ms": 2348
+          "start_ms": 82577,
+          "end_ms": 84844,
+          "duration_ms": 2267
         },
         {
           "index": 1,
           "text": "チョウシロウはいえのたかいところにのぼりました。",
-          "start_ms": 85169,
-          "end_ms": 89921,
-          "duration_ms": 4752
+          "start_ms": 85094,
+          "end_ms": 89811,
+          "duration_ms": 4717
         }
       ]
     },
     {
       "index": 19,
       "text": "たけちよにあげるすずめと、わたしのすずめをとりました。",
-      "start_ms": 90421,
-      "end_ms": 96633,
-      "duration_ms": 6212,
+      "start_ms": 90311,
+      "end_ms": 96511,
+      "duration_ms": 6200,
       "clauses": [
         {
           "index": 0,
           "text": "たけちよにあげるすずめと、",
-          "start_ms": 90421,
-          "end_ms": 93350,
-          "duration_ms": 2929
+          "start_ms": 90311,
+          "end_ms": 93228,
+          "duration_ms": 2917
         },
         {
           "index": 1,
           "text": "わたしのすずめをとりました。",
-          "start_ms": 93600,
-          "end_ms": 96633,
+          "start_ms": 93478,
+          "end_ms": 96511,
           "duration_ms": 3033
         }
       ]
@@ -404,305 +404,289 @@
     {
       "index": 20,
       "text": "でも、したにころびました。",
-      "start_ms": 97133,
-      "end_ms": 100838,
-      "duration_ms": 3705,
+      "start_ms": 97011,
+      "end_ms": 100704,
+      "duration_ms": 3693,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 97133,
-          "end_ms": 98193,
+          "start_ms": 97011,
+          "end_ms": 98071,
           "duration_ms": 1060
         },
         {
           "index": 1,
           "text": "したにころびました。",
-          "start_ms": 98443,
-          "end_ms": 100838,
-          "duration_ms": 2395
+          "start_ms": 98321,
+          "end_ms": 100704,
+          "duration_ms": 2383
         }
       ]
     },
     {
       "index": 21,
       "text": "おおきいおとがしました。",
-      "start_ms": 101338,
-      "end_ms": 103930,
-      "duration_ms": 2592,
+      "start_ms": 101204,
+      "end_ms": 103843,
+      "duration_ms": 2639,
       "clauses": [
         {
           "index": 0,
           "text": "おおきいおとがしました。",
-          "start_ms": 101338,
-          "end_ms": 103930,
-          "duration_ms": 2592
+          "start_ms": 101204,
+          "end_ms": 103843,
+          "duration_ms": 2639
         }
       ]
     },
     {
       "index": 22,
       "text": "すずめはしんでいました。",
-      "start_ms": 104430,
-      "end_ms": 107185,
-      "duration_ms": 2755,
+      "start_ms": 104343,
+      "end_ms": 107133,
+      "duration_ms": 2790,
       "clauses": [
         {
           "index": 0,
           "text": "すずめはしんでいました。",
-          "start_ms": 104430,
-          "end_ms": 107185,
-          "duration_ms": 2755
+          "start_ms": 104343,
+          "end_ms": 107133,
+          "duration_ms": 2790
         }
       ]
     },
     {
       "index": 23,
       "text": "いえはあまりたかくなかったから、チョウシロウはしにませんでした。",
-      "start_ms": 107685,
-      "end_ms": 114884,
-      "duration_ms": 7199,
+      "start_ms": 107633,
+      "end_ms": 114716,
+      "duration_ms": 7083,
       "clauses": [
         {
           "index": 0,
           "text": "いえはあまりたかくなかったから、",
-          "start_ms": 107685,
-          "end_ms": 111125,
-          "duration_ms": 3440
+          "start_ms": 107633,
+          "end_ms": 110980,
+          "duration_ms": 3347
         },
         {
           "index": 1,
           "text": "チョウシロウはしにませんでした。",
-          "start_ms": 111375,
-          "end_ms": 114884,
-          "duration_ms": 3509
+          "start_ms": 111230,
+          "end_ms": 114716,
+          "duration_ms": 3486
         }
       ]
     },
     {
       "index": 24,
       "text": "ちょっといたかったです。",
-      "start_ms": 115384,
-      "end_ms": 117825,
-      "duration_ms": 2441,
+      "start_ms": 115216,
+      "end_ms": 117762,
+      "duration_ms": 2546,
       "clauses": [
         {
           "index": 0,
           "text": "ちょっといたかったです。",
-          "start_ms": 115384,
-          "end_ms": 117825,
-          "duration_ms": 2441
+          "start_ms": 115216,
+          "end_ms": 117762,
+          "duration_ms": 2546
         }
       ]
     },
     {
       "index": 25,
       "text": "しょうぐんはおおきいおとをききました。",
-      "start_ms": 118325,
-      "end_ms": 122125,
-      "duration_ms": 3800,
+      "start_ms": 118262,
+      "end_ms": 122096,
+      "duration_ms": 3834,
       "clauses": [
         {
           "index": 0,
           "text": "しょうぐんはおおきいおとをききました。",
-          "start_ms": 118325,
-          "end_ms": 122125,
-          "duration_ms": 3800
+          "start_ms": 118262,
+          "end_ms": 122096,
+          "duration_ms": 3834
         }
       ]
     },
     {
       "index": 26,
       "text": "しょうぐんはおきました。",
-      "start_ms": 122625,
-      "end_ms": 125171,
-      "duration_ms": 2546,
+      "start_ms": 122596,
+      "end_ms": 125119,
+      "duration_ms": 2523,
       "clauses": [
         {
           "index": 0,
           "text": "しょうぐんはおきました。",
-          "start_ms": 122625,
-          "end_ms": 125171,
-          "duration_ms": 2546
+          "start_ms": 122596,
+          "end_ms": 125119,
+          "duration_ms": 2523
         }
       ]
     },
     {
       "index": 27,
       "text": "おくさんやぶかをつれて、まどのところにいきました。",
-      "start_ms": 125671,
-      "end_ms": 131535,
-      "duration_ms": 5864,
+      "start_ms": 125619,
+      "end_ms": 131460,
+      "duration_ms": 5841,
       "clauses": [
         {
           "index": 0,
           "text": "おくさんやぶかをつれて、",
-          "start_ms": 125671,
-          "end_ms": 128403,
-          "duration_ms": 2732
+          "start_ms": 125619,
+          "end_ms": 128362,
+          "duration_ms": 2743
         },
         {
           "index": 1,
           "text": "まどのところにいきました。",
-          "start_ms": 128653,
-          "end_ms": 131535,
-          "duration_ms": 2882
+          "start_ms": 128612,
+          "end_ms": 131460,
+          "duration_ms": 2848
         }
       ]
     },
     {
       "index": 28,
       "text": "しょうぐんはろうそくをもって、したをみました。",
-      "start_ms": 132035,
-      "end_ms": 137411,
+      "start_ms": 131960,
+      "end_ms": 137336,
       "duration_ms": 5376,
       "clauses": [
         {
           "index": 0,
           "text": "しょうぐんはろうそくをもって、",
-          "start_ms": 132035,
-          "end_ms": 135045,
-          "duration_ms": 3010
+          "start_ms": 131960,
+          "end_ms": 134947,
+          "duration_ms": 2987
         },
         {
           "index": 1,
           "text": "したをみました。",
-          "start_ms": 135295,
-          "end_ms": 137411,
-          "duration_ms": 2116
+          "start_ms": 135197,
+          "end_ms": 137336,
+          "duration_ms": 2139
         }
       ]
     },
     {
       "index": 29,
       "text": "したに、おとこのこがいました。",
-      "start_ms": 137911,
-      "end_ms": 142300,
-      "duration_ms": 4389,
+      "start_ms": 137836,
+      "end_ms": 142237,
+      "duration_ms": 4401,
       "clauses": [
         {
           "index": 0,
           "text": "したに、",
-          "start_ms": 137911,
-          "end_ms": 139458,
-          "duration_ms": 1547
+          "start_ms": 137836,
+          "end_ms": 139418,
+          "duration_ms": 1582
         },
         {
           "index": 1,
           "text": "おとこのこがいました。",
-          "start_ms": 139708,
-          "end_ms": 142300,
-          "duration_ms": 2592
+          "start_ms": 139668,
+          "end_ms": 142237,
+          "duration_ms": 2569
         }
       ]
     },
     {
       "index": 30,
       "text": "しょうぐんはいいました。",
-      "start_ms": 142800,
-      "end_ms": 145230,
-      "duration_ms": 2430,
+      "start_ms": 142737,
+      "end_ms": 145213,
+      "duration_ms": 2476,
       "clauses": [
         {
           "index": 0,
           "text": "しょうぐんはいいました。",
-          "start_ms": 142800,
-          "end_ms": 145230,
-          "duration_ms": 2430
+          "start_ms": 142737,
+          "end_ms": 145213,
+          "duration_ms": 2476
         }
       ]
     },
     {
       "index": 31,
       "text": "「チョウシロウ、あなたですか。",
-      "start_ms": 145730,
-      "end_ms": 149679,
-      "duration_ms": 3949,
+      "start_ms": 145713,
+      "end_ms": 149557,
+      "duration_ms": 3844,
       "clauses": [
         {
           "index": 0,
           "text": "「チョウシロウ、",
-          "start_ms": 145730,
-          "end_ms": 147382,
-          "duration_ms": 1652
+          "start_ms": 145713,
+          "end_ms": 147342,
+          "duration_ms": 1629
         },
         {
           "index": 1,
           "text": "あなたですか。",
-          "start_ms": 147632,
-          "end_ms": 149679,
-          "duration_ms": 2047
+          "start_ms": 147592,
+          "end_ms": 149557,
+          "duration_ms": 1965
         }
       ]
     },
     {
       "index": 32,
       "text": "よるに、なにをしているのですか。",
-      "start_ms": 150179,
-      "end_ms": 154452,
-      "duration_ms": 4273,
+      "start_ms": 150057,
+      "end_ms": 154423,
+      "duration_ms": 4366,
       "clauses": [
         {
           "index": 0,
           "text": "よるに、",
-          "start_ms": 150179,
-          "end_ms": 151575,
-          "duration_ms": 1396
+          "start_ms": 150057,
+          "end_ms": 151465,
+          "duration_ms": 1408
         },
         {
           "index": 1,
           "text": "なにをしているのですか。",
-          "start_ms": 151825,
-          "end_ms": 154452,
-          "duration_ms": 2627
+          "start_ms": 151715,
+          "end_ms": 154423,
+          "duration_ms": 2708
         }
       ]
     },
     {
       "index": 33,
       "text": "へやにきてください。",
-      "start_ms": 154952,
-      "end_ms": 157347,
-      "duration_ms": 2395,
+      "start_ms": 154923,
+      "end_ms": 157202,
+      "duration_ms": 2279,
       "clauses": [
         {
           "index": 0,
           "text": "へやにきてください。",
-          "start_ms": 154952,
-          "end_ms": 157347,
-          "duration_ms": 2395
+          "start_ms": 154923,
+          "end_ms": 157202,
+          "duration_ms": 2279
         }
       ]
     },
     {
       "index": 34,
-      "text": "せつめいしてください。",
-      "start_ms": 157847,
-      "end_ms": 160381,
-      "duration_ms": 2534,
+      "text": "せつめいしてください。」",
+      "start_ms": 157702,
+      "end_ms": 160178,
+      "duration_ms": 2476,
       "clauses": [
         {
           "index": 0,
-          "text": "せつめいしてください。",
-          "start_ms": 157847,
-          "end_ms": 160381,
-          "duration_ms": 2534
-        }
-      ]
-    },
-    {
-      "index": 35,
-      "text": "」",
-      "start_ms": 160881,
-      "end_ms": 161407,
-      "duration_ms": 526,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "」",
-          "start_ms": 160881,
-          "end_ms": 161407,
-          "duration_ms": 526
+          "text": "せつめいしてください。」",
+          "start_ms": 157702,
+          "end_ms": 160178,
+          "duration_ms": 2476
         }
       ]
     }
