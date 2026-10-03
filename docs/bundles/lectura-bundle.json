@@ -1768,6 +1768,7 @@
         "戻る",
         "次",
         "下ろす",
+        "下ろしました",
         "出る",
         "弁当",
         "食べ物",
@@ -2369,7 +2370,7 @@
         },
         {
           "literal": "みんな",
-          "lectura": "皆んな",
+          "lectura": "みんな",
           "significado": "todos",
           "exclusion": true
         },
@@ -2712,7 +2713,7 @@
         },
         {
           "literal": "入れます",
-          "lectura": "はいれます",
+          "lectura": "いれます",
           "significado": "meter (masu)",
           "exclusion": true
         },
@@ -2736,7 +2737,7 @@
         },
         {
           "literal": "空いて",
-          "lectura": "あいて",
+          "lectura": "すいて",
           "significado": "tener hambre (te)",
           "exclusion": true
         },
@@ -2760,7 +2761,7 @@
         },
         {
           "literal": "伝えましょう",
-          "lectura": "つたえしよう",
+          "lectura": "つたえましょう",
           "significado": "informar (volitivo)",
           "exclusion": true
         },
@@ -2802,7 +2803,7 @@
         },
         {
           "literal": "悪く",
-          "lectura": "あしく",
+          "lectura": "わるく",
           "significado": "mal (adverbio)",
           "exclusion": true
         },
@@ -2868,8 +2869,14 @@
         },
         {
           "literal": "我が",
-          "lectura": "われ",
+          "lectura": "われが",
           "significado": "nuestro (yo formal)",
+          "exclusion": true
+        },
+        {
+          "literal": "下ろしました",
+          "lectura": "おろしました",
+          "significado": "bajar (pasado)",
           "exclusion": true
         },
         {
