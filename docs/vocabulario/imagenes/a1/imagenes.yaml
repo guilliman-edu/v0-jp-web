@@ -1,0 +1,267 @@
+# Imágenes de vocabulario — A1
+# Lote piloto genki1-1 (2026-10-03): 35 términos, 21 con imagen + 14 placeholder.
+# Origen: Openverse CC0/PDM vía skill banco-imagenes (ADR-0090).
+# Estado de TODAS las entradas: propuesto — pendiente de revisión humana
+# término a término (puerta obligatoria antes de commit, ADR-0090).
+titulo: Imágenes de vocabulario — A1
+nivel: a1
+imagenes:
+  - literal: あそこ
+    leccion: genki1-1
+    archivo: genki1-1/あそこ.webp
+    fuente: https://www.rawpixel.com/image/6259433/vector-sticker-vintage-public-domain
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: "Red pointing hand gesture, vintage"
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: あの
+    leccion: genki1-1
+    placeholder: true
+    motivo: "demostrativo determinado: exige un sustantivo posterior; cualquier dibujo sugeriría un objeto concreto ajeno al sentido"
+    estado: propuesto
+  - literal: あれ
+    leccion: genki1-1
+    placeholder: true
+    motivo: "pronombre demostrativo: el referente cambia en cada frase; ninguna imagen lo fija sin inducir a error"
+    estado: propuesto
+  - literal: あちら
+    leccion: genki1-1
+    placeholder: true
+    motivo: "demostrativo de dirección: candidatas descartadas por no ilustrar «por allí» (pictogramas ajenos)"
+    estado: propuesto
+  - literal: あなた
+    leccion: genki1-1
+    placeholder: true
+    motivo: "pronombre de segunda persona: el referente depende de quien escucha; sin candidatas"
+    estado: propuesto
+  - literal: ここ
+    leccion: genki1-1
+    archivo: genki1-1/ここ.webp
+    fuente: https://www.rawpixel.com/image/7669389/png-world-map-cartoon
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: "PNG Location pin clipart, transparent"
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: こちら
+    leccion: genki1-1
+    archivo: genki1-1/こちら.webp
+    fuente: https://www.rawpixel.com/image/6334684/png-sticker-public-domain
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: PNG wooden arrow sign sticker
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: この
+    leccion: genki1-1
+    placeholder: true
+    motivo: "demostrativo determinado: exige un sustantivo posterior; cualquier dibujo sugeriría un objeto concreto ajeno al sentido"
+    estado: propuesto
+  - literal: これ
+    leccion: genki1-1
+    placeholder: true
+    motivo: "pronombre demostrativo: el referente cambia en cada frase; ninguna imagen lo fija sin inducir a error"
+    estado: propuesto
+  - literal: そこ
+    leccion: genki1-1
+    archivo: genki1-1/そこ.webp
+    fuente: https://www.rawpixel.com/image/7374874/vector-public-domain-hand-black
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: "Pointing hand drawing, illustration vector"
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: その
+    leccion: genki1-1
+    placeholder: true
+    motivo: "demostrativo determinado: exige un sustantivo posterior; cualquier dibujo sugeriría un objeto concreto ajeno al sentido"
+    estado: propuesto
+  - literal: それ
+    leccion: genki1-1
+    placeholder: true
+    motivo: "pronombre demostrativo: el referente cambia en cada frase; ninguna imagen lo fija sin inducir a error"
+    estado: propuesto
+  - literal: そちら
+    leccion: genki1-1
+    archivo: genki1-1/そちら.webp
+    fuente: https://svgsilh.com/ffc107/image/29170.html
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: direction
+    proveedor: svgsilh
+    estado: propuesto
+  - literal: どこ
+    leccion: genki1-1
+    placeholder: true
+    motivo: "palabra interrogativa: un signo de interrogación se repetiría en cuatro fichas sin anclar el significado"
+    estado: propuesto
+  - literal: どれ
+    leccion: genki1-1
+    placeholder: true
+    motivo: "palabra interrogativa: un signo de interrogación se repetiría en cuatro fichas sin anclar el significado"
+    estado: propuesto
+  - literal: どの
+    leccion: genki1-1
+    placeholder: true
+    motivo: "palabra interrogativa: un signo de interrogación se repetiría en cuatro fichas sin anclar el significado"
+    estado: propuesto
+  - literal: どちら
+    leccion: genki1-1
+    placeholder: true
+    motivo: "palabra interrogativa sin candidatas: un signo de interrogación se repetiría en cuatro fichas sin anclar el significado"
+    estado: propuesto
+  - literal: 今
+    leccion: genki1-1
+    archivo: genki1-1/今.webp
+    fuente: https://www.rawpixel.com/image/10094033/png-white-background-people
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: "Wall clock png illustration, transparent"
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: 英語
+    leccion: genki1-1
+    archivo: genki1-1/英語.webp
+    fuente: https://svgsilh.com/f44336/image/2514416.html
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: letters
+    proveedor: svgsilh
+    estado: propuesto
+  - literal: 高校
+    leccion: genki1-1
+    archivo: genki1-1/高校.webp
+    fuente: https://www.rawpixel.com/image/6557446/vector-vintage-public-domain-house
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: "Vintage building drawing, Kronoby library"
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: 学生
+    leccion: genki1-1
+    archivo: genki1-1/学生.webp
+    fuente: https://svgsilh.com/ms/3f51b5/image/34599.html
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: pelajar buku pensel elementary
+    proveedor: svgsilh
+    estado: propuesto
+  - literal: 午後
+    leccion: genki1-1
+    placeholder: true
+    motivo: "momento del día sin imagen inequívoca: candidatas descartadas (resplandor azul abstracto, paisaje tenue, emoticono)"
+    estado: propuesto
+  - literal: 午前
+    leccion: genki1-1
+    archivo: genki1-1/午前.webp
+    fuente: https://www.rawpixel.com/image/11729064/vector-person-art-pattern
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: Rising sun Japanese old flag
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: 先生
+    leccion: genki1-1
+    archivo: genki1-1/先生.webp
+    fuente: https://www.rawpixel.com/image/9005093/vector-cartoon-illustrations-mathematics
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: Professor classroom clipart vector
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: 専門
+    leccion: genki1-1
+    archivo: genki1-1/専門.webp
+    fuente: https://svgsilh.com/ms/3f51b5/image/40891.html
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: kardiologi
+    proveedor: svgsilh
+    estado: propuesto
+  - literal: 友達
+    leccion: genki1-1
+    archivo: genki1-1/友達.webp
+    fuente: https://svgsilh.com/ms/ffc107/image/310912.html
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: kawan
+    proveedor: svgsilh
+    estado: propuesto
+  - literal: 大学
+    leccion: genki1-1
+    archivo: genki1-1/大学.webp
+    fuente: https://svgsilh.com/ms/607d8b/image/306957.html
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: universiti
+    proveedor: svgsilh
+    estado: propuesto
+  - literal: 電話
+    leccion: genki1-1
+    archivo: genki1-1/電話.webp
+    fuente: https://www.rawpixel.com/image/6757740/vector-sticker-vintage-phone
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: "Telephone icon collage element, black"
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: 名前
+    leccion: genki1-1
+    archivo: genki1-1/名前.webp
+    fuente: https://svgsilh.com/ms/3f51b5/image/1070493.html
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: menggantung identiti kalung ID
+    proveedor: svgsilh
+    estado: propuesto
+  - literal: 日本
+    leccion: genki1-1
+    archivo: genki1-1/日本.webp
+    fuente: https://www.rawpixel.com/image/11729404/png-sticker-collage
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: "PNG Japan flag sticker, transparent"
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: 日本語
+    leccion: genki1-1
+    archivo: genki1-1/日本語.webp
+    fuente: https://svgsilh.com/image/24153.html
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: japanese character writing japan
+    proveedor: svgsilh
+    estado: propuesto
+  - literal: 私
+    leccion: genki1-1
+    placeholder: true
+    motivo: "pronombre de primera persona: el referente depende de quien habla; sin candidatas"
+    estado: propuesto
+  - literal: 僕
+    leccion: genki1-1
+    archivo: genki1-1/僕.webp
+    fuente: https://www.rawpixel.com/image/7664125/boy-illustration-free-public-domain-cc0-image
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: Boy illustration
+    proveedor: rawpixel
+    estado: propuesto
+  - literal: 彼
+    leccion: genki1-1
+    archivo: genki1-1/彼.webp
+    fuente: https://svgsilh.com/ms/e91e63/image/1892149.html
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: senior
+    proveedor: svgsilh
+    estado: propuesto
+  - literal: 彼女
+    leccion: genki1-1
+    archivo: genki1-1/彼女.webp
+    fuente: https://www.rawpixel.com/image/6677750/vector-vintage-public-domain-woman
+    licencia: cc0
+    licencia_version: "1.0"
+    titulo_original: "Woman portrait drawing, vintage illustration"
+    proveedor: rawpixel
+    estado: propuesto
