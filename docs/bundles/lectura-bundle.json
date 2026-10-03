@@ -2945,7 +2945,16 @@
         "宝",
         "王",
         "冒険",
-        "船長"
+        "船長",
+        "探してください",
+        "探して",
+        "置きました",
+        "自分",
+        "多く",
+        "出ました",
+        "集めました",
+        "強くなりました",
+        "持ちました"
       ],
       "nombres_propios": [
         {
@@ -3164,6 +3173,60 @@
           "literal": "船長",
           "lectura": "せんちょう",
           "significado": "capitán",
+          "exclusion": true
+        },
+        {
+          "literal": "探してください",
+          "lectura": "さがしてください",
+          "significado": "buscar, por favor",
+          "exclusion": true
+        },
+        {
+          "literal": "探して",
+          "lectura": "さがして",
+          "significado": "buscar (forma て)",
+          "exclusion": true
+        },
+        {
+          "literal": "置きました",
+          "lectura": "おかきました",
+          "significado": "poner (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "自分",
+          "lectura": "じぶん",
+          "significado": "uno mismo",
+          "exclusion": true
+        },
+        {
+          "literal": "多く",
+          "lectura": "おおく",
+          "significado": "muchos (forma adverbial)",
+          "exclusion": true
+        },
+        {
+          "literal": "出ました",
+          "lectura": "でました",
+          "significado": "salir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "集めました",
+          "lectura": "あつめました",
+          "significado": "reunir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "強くなりました",
+          "lectura": "つよくなりました",
+          "significado": "volverse fuerte (cambio de estado)",
+          "exclusion": true
+        },
+        {
+          "literal": "持ちました",
+          "lectura": "もちました",
+          "significado": "tener, llevar (pasado)",
           "exclusion": true
         }
       ],
