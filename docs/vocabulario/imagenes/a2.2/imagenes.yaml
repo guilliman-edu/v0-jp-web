@@ -1,0 +1,1241 @@
+# Imágenes de vocabulario — A2.2
+# Lote s2 (2026-10-04): 120 términos, 91 con
+# ilustración + 29 placeholder.
+# Origen: escenas dibujadas a mano con la skill ilustrar-vocabulario y renderizadas
+# con la caja de lápices Alpino (ADR-0091). No hay texto embebido en la imagen:
+# la palabra la pone la ficha.
+# Paleta ESTIMADA a partir de una carta de lápices común; pendiente de calibrar
+# contra la foto de la caja real (no bloquea: si se reajusta, se re-tocan los hex).
+# Estado de TODAS las entradas: propuesto — pendiente del gate humano por
+# lección (ADR-0091 §4). Solo se versionan escena .json + .webp.
+titulo: Imágenes de vocabulario — A2.2
+nivel: a2.2
+imagenes:
+  - literal: あそこ
+    leccion: s2
+    archivo: s2/あそこ.webp
+    escena: s2/あそこ.json
+    estado: revisado
+  - literal: あなた
+    leccion: s2
+    placeholder: true
+    motivo: "pronombre de segunda persona: el referente depende de quien escucha; sin texto no hay imagen unívoca"
+    estado: revisado
+  - literal: あまり
+    leccion: s2
+    placeholder: true
+    motivo: "cuantificador negativo: «no muy» opera sobre el grado de otro término; no tiene referente propio"
+    estado: revisado
+  - literal: いつも
+    leccion: s2
+    placeholder: true
+    motivo: "icono de convención: el círculo recorrido del reloj significa «siempre» por convención; no hay nada «siempre» que se pueda mirar"
+    estado: revisado
+  - literal: お子さん
+    leccion: s2
+    archivo: s2/お子さん.webp
+    escena: s2/お子さん.json
+    estado: revisado
+  - literal: お腹
+    leccion: s2
+    archivo: s2/お腹.webp
+    escena: s2/お腹.json
+    estado: revisado
+  - literal: お腹が空く
+    leccion: s2
+    archivo: s2/お腹が空く.webp
+    escena: s2/お腹が空く.json
+    estado: revisado
+  - literal: お礼
+    leccion: s2
+    placeholder: true
+    motivo: "«礼» significa regalo: dibujarlo enseñaría «regalo». El agradecimiento solo se ve en un gesto social recíproco"
+    estado: revisado
+  - literal: ごめん
+    leccion: s2
+    archivo: s2/ごめん.webp
+    escena: s2/ごめん.json
+    estado: revisado
+  - literal: すごく
+    leccion: s2
+    placeholder: true
+    motivo: "intensificador: solo altera el grado de otro término; sin referente propio"
+    estado: revisado
+  - literal: そして
+    leccion: s2
+    placeholder: true
+    motivo: "conectivo aditivo: no aporta contenido léxico propio"
+    estado: revisado
+  - literal: それ
+    leccion: s2
+    placeholder: true
+    motivo: "deixis: «eso» solo existe respecto de algo que el dibujo no incluye; el dedo que lo señala apunta a un vacío"
+    estado: revisado
+  - literal: ちょっと
+    leccion: s2
+    placeholder: true
+    motivo: "cuantificador: toda escena dibujable es o no es pequeña; el grado no tiene imagen propia"
+    estado: revisado
+  - literal: でも
+    leccion: s2
+    placeholder: true
+    motivo: "conectivo adversativo: la oposición solo existe entre dos enunciados"
+    estado: revisado
+  - literal: ひどい
+    leccion: s2
+    archivo: s2/ひどい.webp
+    escena: s2/ひどい.json
+    estado: revisado
+  - literal: まだ
+    leccion: s2
+    placeholder: true
+    motivo: "negación temporal: afirma la ausencia de un hecho que no se puede dibujar sin saber cuál es"
+    estado: revisado
+  - literal: みんな
+    leccion: s2
+    placeholder: true
+    motivo: "huérfana: la secuencia la declara pero no existe en el corpus de a2.2 ni en el acumulado de a1; pendiente de goi"
+    estado: revisado
+  - literal: もう
+    leccion: s2
+    placeholder: true
+    motivo: "marcador temporal: solo afirma que un hecho ya ocurrió; requiere el contenido anterior"
+    estado: revisado
+  - literal: ろうそく
+    leccion: s2
+    archivo: s2/ろうそく.webp
+    escena: s2/ろうそく.json
+    estado: revisado
+  - literal: わかる
+    leccion: s2
+    placeholder: true
+    motivo: "icono de convención: dos piezas que encajan significan «entender» por código; el dibujo solo muestra que encajan"
+    estado: revisado
+  - literal: 悪い
+    leccion: s2
+    placeholder: true
+    motivo: "el paso de la manzana pasada a «malo» exige una regla: el dibujo de comida estropeada se lee como «podrido» o «pasado», no como la categoría amplia «malo»"
+    estado: revisado
+  - literal: 一人
+    leccion: s2
+    archivo: s2/一人.webp
+    escena: s2/一人.json
+    estado: revisado
+  - literal: 嘘をつく
+    leccion: s2
+    archivo: s2/嘘をつく.webp
+    escena: s2/嘘をつく.json
+    estado: revisado
+  - literal: 奥さん
+    leccion: s2
+    archivo: s2/奥さん.webp
+    escena: s2/奥さん.json
+    estado: revisado
+  - literal: 音
+    leccion: s2
+    placeholder: true
+    motivo: "el sonido no se ve: las ondas alrededor de la campana son el código de quien ya sabe que eso representa sonido"
+    estado: revisado
+  - literal: 下
+    leccion: s2
+    archivo: s2/下.webp
+    escena: s2/下.json
+    estado: revisado
+  - literal: 下ろす
+    leccion: s2
+    archivo: s2/下ろす.webp
+    escena: s2/下ろす.json
+    estado: revisado
+  - literal: 可愛い
+    leccion: s2
+    archivo: s2/可愛い.webp
+    escena: s2/可愛い.json
+    estado: revisado
+  - literal: 家
+    leccion: s2
+    archivo: s2/家.webp
+    escena: s2/家.json
+    estado: revisado
+  - literal: 海
+    leccion: s2
+    placeholder: true
+    motivo: "huérfana: la secuencia la declara pero no existe en el corpus de a2.2 ni en el acumulado de a1; pendiente de goi"
+    estado: revisado
+  - literal: 覚える
+    leccion: s2
+    archivo: s2/覚える.webp
+    escena: s2/覚える.json
+    estado: revisado
+  - literal: 鞄
+    leccion: s2
+    archivo: s2/鞄.webp
+    escena: s2/鞄.json
+    estado: revisado
+  - literal: 顔
+    leccion: s2
+    archivo: s2/顔.webp
+    escena: s2/顔.json
+    estado: revisado
+  - literal: 起きる
+    leccion: s2
+    archivo: s2/起きる.webp
+    escena: s2/起きる.json
+    estado: revisado
+  - literal: 強い
+    leccion: s2
+    archivo: s2/強い.webp
+    escena: s2/強い.json
+    estado: revisado
+  - literal: 見る
+    leccion: s2
+    archivo: s2/見る.webp
+    escena: s2/見る.json
+    estado: revisado
+  - literal: 言う
+    leccion: s2
+    archivo: s2/言う.webp
+    escena: s2/言う.json
+    estado: revisado
+  - literal: 言葉
+    leccion: s2
+    archivo: s2/言葉.webp
+    escena: s2/言葉.json
+    estado: revisado
+  - literal: 後
+    leccion: s2
+    placeholder: true
+    motivo: "abstracto de orden: «después» solo existe respecto de otro evento, y una imagen fija no puede REPRESENTAR la secuencia"
+    estado: revisado
+  - literal: 行く
+    leccion: s2
+    archivo: s2/行く.webp
+    escena: s2/行く.json
+    estado: revisado
+  - literal: 高い
+    leccion: s2
+    placeholder: true
+    motivo: "el precio se lee por la etiqueta, no por la altura de la flecha: para pasar del dibujo a «caro» hay que saber ya que lo alto cuesta dinero"
+    estado: revisado
+  - literal: 今
+    leccion: s2
+    placeholder: true
+    motivo: "icono de convención: un reloj marca una hora, no «ahora»; que esa hora sea el ahora lo pone el momento de mirar, no el dibujo"
+    estado: revisado
+  - literal: 今朝
+    leccion: s2
+    archivo: s2/今朝.webp
+    escena: s2/今朝.json
+    estado: revisado
+  - literal: 困る
+    leccion: s2
+    archivo: s2/困る.webp
+    escena: s2/困る.json
+    estado: revisado
+  - literal: 座る
+    leccion: s2
+    archivo: s2/座る.webp
+    escena: s2/座る.json
+    estado: revisado
+  - literal: 思う
+    leccion: s2
+    archivo: s2/思う.webp
+    escena: s2/思う.json
+    estado: revisado
+  - literal: 死ぬ
+    leccion: s2
+    archivo: s2/死ぬ.webp
+    escena: s2/死ぬ.json
+    estado: revisado
+  - literal: 私
+    leccion: s2
+    archivo: s2/私.webp
+    escena: s2/私.json
+    estado: revisado
+  - literal: 持つ
+    leccion: s2
+    archivo: s2/持つ.webp
+    escena: s2/持つ.json
+    estado: revisado
+  - literal: 時間
+    leccion: s2
+    archivo: s2/時間.webp
+    escena: s2/時間.json
+    estado: revisado
+  - literal: 次
+    leccion: s2
+    placeholder: true
+    motivo: "orden temporal: las huellas solo existen respecto de una serie que el dibujo no muestra; la que viene no se ve"
+    estado: revisado
+  - literal: 自分で
+    leccion: s2
+    placeholder: true
+    motivo: "reflexivo: «uno mismo» necesita la marca reflexiva; señalarse a sí mismo se lee como «私»"
+    estado: revisado
+  - literal: 自由
+    leccion: s2
+    archivo: s2/自由.webp
+    escena: s2/自由.json
+    estado: revisado
+  - literal: 取る
+    leccion: s2
+    archivo: s2/取る.webp
+    escena: s2/取る.json
+    estado: revisado
+  - literal: 集める
+    leccion: s2
+    archivo: s2/集める.webp
+    escena: s2/集める.json
+    estado: revisado
+  - literal: 住む
+    leccion: s2
+    archivo: s2/住む.webp
+    escena: s2/住む.json
+    estado: revisado
+  - literal: 出る
+    leccion: s2
+    archivo: s2/出る.webp
+    escena: s2/出る.json
+    estado: revisado
+  - literal: 所
+    leccion: s2
+    archivo: s2/所.webp
+    escena: s2/所.json
+    estado: revisado
+  - literal: 上
+    leccion: s2
+    archivo: s2/上.webp
+    escena: s2/上.json
+    estado: revisado
+  - literal: 食べる
+    leccion: s2
+    archivo: s2/食べる.webp
+    escena: s2/食べる.json
+    estado: revisado
+  - literal: 食べ物
+    leccion: s2
+    archivo: s2/食べ物.webp
+    escena: s2/食べ物.json
+    estado: revisado
+  - literal: 寝る
+    leccion: s2
+    archivo: s2/寝る.webp
+    escena: s2/寝る.json
+    estado: revisado
+  - literal: 親
+    leccion: s2
+    archivo: s2/親.webp
+    escena: s2/親.json
+    estado: revisado
+  - literal: 人
+    leccion: s2
+    archivo: s2/人.webp
+    escena: s2/人.json
+    estado: revisado
+  - literal: 世界
+    leccion: s2
+    archivo: s2/世界.webp
+    escena: s2/世界.json
+    estado: revisado
+  - literal: 昔
+    leccion: s2
+    placeholder: true
+    motivo: "marca temporal retrospectiva: un objeto antiguo se lee como «viejo», no como «hace mucho tiempo»"
+    estado: revisado
+  - literal: 説明する
+    leccion: s2
+    archivo: s2/説明する.webp
+    escena: s2/説明する.json
+    estado: revisado
+  - literal: 船
+    leccion: s2
+    archivo: s2/船.webp
+    escena: s2/船.json
+    estado: revisado
+  - literal: 前
+    leccion: s2
+    archivo: s2/前.webp
+    escena: s2/前.json
+    estado: revisado
+  - literal: 早い
+    leccion: s2
+    archivo: s2/早い.webp
+    escena: s2/早い.json
+    estado: revisado
+  - literal: 窓
+    leccion: s2
+    archivo: s2/窓.webp
+    escena: s2/窓.json
+    estado: revisado
+  - literal: 側
+    leccion: s2
+    placeholder: true
+    motivo: "deixis de proximidad: el referente cambia con la escena; cualquier dibujo fija un referente y induce a error"
+    estado: revisado
+  - literal: 多い
+    leccion: s2
+    archivo: s2/多い.webp
+    escena: s2/多い.json
+    estado: revisado
+  - literal: 待つ
+    leccion: s2
+    archivo: s2/待つ.webp
+    escena: s2/待つ.json
+    estado: revisado
+  - literal: 大きい
+    leccion: s2
+    archivo: s2/大きい.webp
+    escena: s2/大きい.json
+    estado: revisado
+  - literal: 大切
+    leccion: s2
+    placeholder: true
+    motivo: "icono de convención: sostener algo con las dos manos es un gesto, no un valor; el mismo gesto puede ser ayuda, carga o cuidado"
+    estado: revisado
+  - literal: 誰
+    leccion: s2
+    placeholder: true
+    motivo: "pronombre interrogativo: exige la pregunta como marca; sin texto el dibujo no la declara"
+    estado: revisado
+  - literal: 探す
+    leccion: s2
+    archivo: s2/探す.webp
+    escena: s2/探す.json
+    estado: revisado
+  - literal: 男の子
+    leccion: s2
+    archivo: s2/男の子.webp
+    escena: s2/男の子.json
+    estado: revisado
+  - literal: 知る
+    leccion: s2
+    archivo: s2/知る.webp
+    escena: s2/知る.json
+    estado: revisado
+  - literal: 置く
+    leccion: s2
+    archivo: s2/置く.webp
+    escena: s2/置く.json
+    estado: revisado
+  - literal: 中
+    leccion: s2
+    archivo: s2/中.webp
+    escena: s2/中.json
+    estado: revisado
+  - literal: 仲がいい
+    leccion: s2
+    placeholder: true
+    motivo: "icono de convención: el corazón entre dos personas significa «llevarse bien» solo para quien ya tiene el código; el dibujo muestra compañía"
+    estado: revisado
+  - literal: 朝
+    leccion: s2
+    archivo: s2/朝.webp
+    escena: s2/朝.json
+    estado: revisado
+  - literal: 長い
+    leccion: s2
+    archivo: s2/長い.webp
+    escena: s2/長い.json
+    estado: revisado
+  - literal: 直す
+    leccion: s2
+    archivo: s2/直す.webp
+    escena: s2/直す.json
+    estado: revisado
+  - literal: 痛い
+    leccion: s2
+    archivo: s2/痛い.webp
+    escena: s2/痛い.json
+    estado: revisado
+  - literal: 庭
+    leccion: s2
+    archivo: s2/庭.webp
+    escena: s2/庭.json
+    estado: revisado
+  - literal: 転ぶ
+    leccion: s2
+    archivo: s2/転ぶ.webp
+    escena: s2/転ぶ.json
+    estado: revisado
+  - literal: 伝える
+    leccion: s2
+    archivo: s2/伝える.webp
+    escena: s2/伝える.json
+    estado: revisado
+  - literal: 登る
+    leccion: s2
+    archivo: s2/登る.webp
+    escena: s2/登る.json
+    estado: revisado
+  - literal: 怒る
+    leccion: s2
+    archivo: s2/怒る.webp
+    escena: s2/怒る.json
+    estado: revisado
+  - literal: 二人
+    leccion: s2
+    archivo: s2/二人.webp
+    escena: s2/二人.json
+    estado: revisado
+  - literal: 日
+    leccion: s2
+    archivo: s2/日.webp
+    escena: s2/日.json
+    estado: revisado
+  - literal: 日本
+    leccion: s2
+    archivo: s2/日本.webp
+    escena: s2/日本.json
+    estado: revisado
+  - literal: 入る
+    leccion: s2
+    archivo: s2/入る.webp
+    escena: s2/入る.json
+    estado: revisado
+  - literal: 入れる
+    leccion: s2
+    archivo: s2/入れる.webp
+    escena: s2/入れる.json
+    estado: revisado
+  - literal: 髪
+    leccion: s2
+    archivo: s2/髪.webp
+    escena: s2/髪.json
+    estado: revisado
+  - literal: 悲しい
+    leccion: s2
+    archivo: s2/悲しい.webp
+    escena: s2/悲しい.json
+    estado: revisado
+  - literal: 病気
+    leccion: s2
+    archivo: s2/病気.webp
+    escena: s2/病気.json
+    estado: revisado
+  - literal: 怖い
+    leccion: s2
+    archivo: s2/怖い.webp
+    escena: s2/怖い.json
+    estado: revisado
+  - literal: 部屋
+    leccion: s2
+    archivo: s2/部屋.webp
+    escena: s2/部屋.json
+    estado: revisado
+  - literal: 部下
+    leccion: s2
+    archivo: s2/部下.webp
+    escena: s2/部下.json
+    estado: revisado
+  - literal: 聞く
+    leccion: s2
+    archivo: s2/聞く.webp
+    escena: s2/聞く.json
+    estado: revisado
+  - literal: 閉める
+    leccion: s2
+    archivo: s2/閉める.webp
+    escena: s2/閉める.json
+    estado: revisado
+  - literal: 弁当
+    leccion: s2
+    archivo: s2/弁当.webp
+    escena: s2/弁当.json
+    estado: revisado
+  - literal: 歩く
+    leccion: s2
+    archivo: s2/歩く.webp
+    escena: s2/歩く.json
+    estado: revisado
+  - literal: 夢
+    leccion: s2
+    placeholder: true
+    motivo: "icono de convención: lo encerrado en la nube es un sueño solo para quien ya lo descifra; no hay nada visible «soñado»"
+    estado: revisado
+  - literal: 名前
+    leccion: s2
+    placeholder: true
+    motivo: "abstracto: un nombre solo se ve escrito; la tarjeta en blanco no declara el nombre"
+    estado: revisado
+  - literal: 明日
+    leccion: s2
+    archivo: s2/明日.webp
+    escena: s2/明日.json
+    estado: revisado
+  - literal: 戻る
+    leccion: s2
+    archivo: s2/戻る.webp
+    escena: s2/戻る.json
+    estado: revisado
+  - literal: 夜
+    leccion: s2
+    archivo: s2/夜.webp
+    escena: s2/夜.json
+    estado: revisado
+  - literal: 約束
+    leccion: s2
+    archivo: s2/約束.webp
+    escena: s2/約束.json
+    estado: revisado
+  - literal: 友達
+    leccion: s2
+    archivo: s2/友達.webp
+    escena: s2/友達.json
+    estado: revisado
+  - literal: 有名
+    leccion: s2
+    placeholder: true
+    motivo: "icono de convención: la estrella significa «famoso» por código; una estrella es un astro y no una fama"
+    estado: revisado
+  - literal: 欲しい
+    leccion: s2
+    archivo: s2/欲しい.webp
+    escena: s2/欲しい.json
+    estado: revisado
+  - literal: 来る
+    leccion: s2
+    archivo: s2/来る.webp
+    escena: s2/来る.json
+    estado: revisado
+  - literal: 旅行
+    leccion: s2
+    archivo: s2/旅行.webp
+    escena: s2/旅行.json
+    estado: revisado
+  - literal: 連れていく
+    leccion: s2
+    archivo: s2/連れていく.webp
+    escena: s2/連れていく.json
+    estado: revisado
+  - literal: 話す
+    leccion: s2
+    archivo: s2/話す.webp
+    escena: s2/話す.json
+    estado: revisado
+    # Lote s3 (2026-10-06): 125 términos (Genki 2 lec. 13-17) sin cubrir en
+    # s1/s2: 100 con ilustración + 25 placeholder. Estado propuesto, pendiente
+    # del gate humano por lección (ADR-0091 §4). Ver registro al pie.
+  - literal: ウェイター
+    leccion: s3
+    archivo: s3/ウェイター.webp
+    escena: s3/ウェイター.json
+    estado: revisado
+  - literal: お宅
+    leccion: s3
+    archivo: s3/お宅.webp
+    escena: s3/お宅.json
+    estado: revisado
+  - literal: 大人
+    leccion: s3
+    archivo: s3/大人.webp
+    escena: s3/大人.json
+    estado: revisado
+  - literal: おじいさん
+    leccion: s3
+    archivo: s3/おじいさん.webp
+    escena: s3/おじいさん.json
+    estado: revisado
+  - literal: 辛い
+    leccion: s3
+    archivo: s3/辛い.webp
+    escena: s3/辛い.json
+    estado: revisado
+  - literal: 空手
+    leccion: s3
+    archivo: s3/空手.webp
+    escena: s3/空手.json
+    estado: revisado
+  - literal: カレー
+    leccion: s3
+    archivo: s3/カレー.webp
+    escena: s3/カレー.json
+    estado: revisado
+  - literal: 厳しい
+    leccion: s3
+    archivo: s3/厳しい.webp
+    escena: s3/厳しい.json
+    estado: revisado
+  - literal: 着物
+    leccion: s3
+    archivo: s3/着物.webp
+    escena: s3/着物.json
+    estado: revisado
+  - literal: ケーキ
+    leccion: s3
+    archivo: s3/ケーキ.webp
+    escena: s3/ケーキ.json
+    estado: revisado
+  - literal: 広告
+    leccion: s3
+    archivo: s3/広告.webp
+    escena: s3/広告.json
+    estado: revisado
+  - literal: 紅茶
+    leccion: s3
+    archivo: s3/紅茶.webp
+    escena: s3/紅茶.json
+    estado: revisado
+  - literal: 外国語
+    leccion: s3
+    placeholder: true
+    motivo: "«lengua extranjera»: el globo o las burbujas de diálogo se leen como «mundo» o «habla»; distinguir el idioma exigiría texto"
+    estado: revisado
+  - literal: 楽器
+    leccion: s3
+    archivo: s3/楽器.webp
+    escena: s3/楽器.json
+    estado: revisado
+  - literal: ゴルフ
+    leccion: s3
+    archivo: s3/ゴルフ.webp
+    escena: s3/ゴルフ.json
+    estado: revisado
+  - literal: セーター
+    leccion: s3
+    archivo: s3/セーター.webp
+    escena: s3/セーター.json
+    estado: revisado
+  - literal: ぞう
+    leccion: s3
+    archivo: s3/ぞう.webp
+    escena: s3/ぞう.json
+    estado: revisado
+  - literal: 近い
+    leccion: s3
+    archivo: s3/近い.webp
+    escena: s3/近い.json
+    estado: revisado
+  - literal: バイオリン
+    leccion: s3
+    archivo: s3/バイオリン.webp
+    escena: s3/バイオリン.json
+    estado: revisado
+  - literal: バイク
+    leccion: s3
+    archivo: s3/バイク.webp
+    escena: s3/バイク.json
+    estado: revisado
+  - literal: 物価
+    leccion: s3
+    archivo: s3/物価.webp
+    escena: s3/物価.json
+    estado: revisado
+  - literal: 文法
+    leccion: s3
+    placeholder: true
+    motivo: "«gramática» solo se distingue de «libro de idioma» o «escribir» por convención textual"
+    estado: revisado
+  - literal: 弁護士
+    leccion: s3
+    archivo: s3/弁護士.webp
+    escena: s3/弁護士.json
+    estado: revisado
+  - literal: 募集
+    leccion: s3
+    placeholder: true
+    motivo: "«reclutamiento» es una convención social: el cartel o el papel ofrecido se lee como «dar/recibir», no como «buscar gente»"
+    estado: revisado
+  - literal: 店
+    leccion: s3
+    archivo: s3/店.webp
+    escena: s3/店.json
+    estado: revisado
+  - literal: レポート
+    leccion: s3
+    archivo: s3/レポート.webp
+    escena: s3/レポート.json
+    estado: revisado
+  - literal: 諦める
+    leccion: s3
+    placeholder: true
+    motivo: "«rendirse»: el gesto de abandono se lee como «cansancio» o «tristeza», no como la decisión de dejar de intentarlo"
+    estado: revisado
+  - literal: あに
+    leccion: s3
+    archivo: s3/あに.webp
+    escena: s3/あに.json
+    estado: revisado
+  - literal: 大家さん
+    leccion: s3
+    archivo: s3/大家さん.webp
+    escena: s3/大家さん.json
+    estado: revisado
+  - literal: お返し
+    leccion: s3
+    archivo: s3/お返し.webp
+    escena: s3/お返し.json
+    estado: revisado
+  - literal: おじさん
+    leccion: s3
+    archivo: s3/おじさん.webp
+    escena: s3/おじさん.json
+    estado: revisado
+  - literal: おばさん
+    leccion: s3
+    archivo: s3/おばさん.webp
+    escena: s3/おばさん.json
+    estado: revisado
+  - literal: クラブ
+    leccion: s3
+    archivo: s3/クラブ.webp
+    escena: s3/クラブ.json
+    estado: revisado
+  - literal: クリスマス
+    leccion: s3
+    archivo: s3/クリスマス.webp
+    escena: s3/クリスマス.json
+    estado: revisado
+  - literal: けち
+    leccion: s3
+    placeholder: true
+    motivo: "«tacaño»: rasgo de carácter; apretar la cartera se lee como «guardar dinero», no como tacañería"
+    estado: revisado
+  - literal: ご主人
+    leccion: s3
+    placeholder: true
+    motivo: "«esposo (de otro)»: el parentesco ajeno depende de quien habla; una pareja se lee como «matrimonio» (夫婦, ya ilustrado)"
+    estado: revisado
+  - literal: さら
+    leccion: s3
+    archivo: s3/さら.webp
+    escena: s3/さら.json
+    estado: revisado
+  - literal: チョコレート
+    leccion: s3
+    archivo: s3/チョコレート.webp
+    escena: s3/チョコレート.json
+    estado: revisado
+  - literal: 電子メール
+    leccion: s3
+    archivo: s3/電子メール.webp
+    escena: s3/電子メール.json
+    estado: revisado
+  - literal: 似合う
+    leccion: s3
+    placeholder: true
+    motivo: "«quedar bien»: cualidad relativa de una prenda sobre alguien; sin comparación ni texto no hay imagen unívoca"
+    estado: revisado
+  - literal: ぬいぐるみ
+    leccion: s3
+    archivo: s3/ぬいぐるみ.webp
+    escena: s3/ぬいぐるみ.json
+    estado: revisado
+  - literal: ネクタイ
+    leccion: s3
+    archivo: s3/ネクタイ.webp
+    escena: s3/ネクタイ.json
+    estado: revisado
+  - literal: はは
+    leccion: s3
+    archivo: s3/はは.webp
+    escena: s3/はは.json
+    estado: revisado
+  - literal: 夫婦
+    leccion: s3
+    archivo: s3/夫婦.webp
+    escena: s3/夫婦.json
+    estado: revisado
+  - literal: ホワイトデー
+    leccion: s3
+    placeholder: true
+    motivo: "«Día Blanco»: fecha por convención cultural; sin texto no se distingue de cualquier otro día de regalos"
+    estado: revisado
+  - literal: バレンタインデー
+    leccion: s3
+    archivo: s3/バレンタインデー.webp
+    escena: s3/バレンタインデー.json
+    estado: revisado
+  - literal: ビデオカメラ
+    leccion: s3
+    archivo: s3/ビデオカメラ.webp
+    escena: s3/ビデオカメラ.json
+    estado: revisado
+  - literal: マフラー
+    leccion: s3
+    archivo: s3/マフラー.webp
+    escena: s3/マフラー.json
+    estado: revisado
+  - literal: マンション
+    leccion: s3
+    archivo: s3/マンション.webp
+    escena: s3/マンション.json
+    estado: revisado
+  - literal: 蜜柑
+    leccion: s3
+    archivo: s3/蜜柑.webp
+    escena: s3/蜜柑.json
+    estado: revisado
+  - literal: 指輪
+    leccion: s3
+    archivo: s3/指輪.webp
+    escena: s3/指輪.json
+    estado: revisado
+  - literal: ラジオ
+    leccion: s3
+    archivo: s3/ラジオ.webp
+    escena: s3/ラジオ.json
+    estado: revisado
+  - literal: 履歴書
+    leccion: s3
+    archivo: s3/履歴書.webp
+    escena: s3/履歴書.json
+    estado: revisado
+  - literal: 両親
+    leccion: s3
+    archivo: s3/両親.webp
+    escena: s3/両親.json
+    estado: revisado
+  - literal: 映画館
+    leccion: s3
+    archivo: s3/映画館.webp
+    escena: s3/映画館.json
+    estado: revisado
+  - literal: 家具
+    leccion: s3
+    archivo: s3/家具.webp
+    escena: s3/家具.json
+    estado: revisado
+  - literal: 観光
+    leccion: s3
+    placeholder: true
+    motivo: "concepto abstracto: la cámara o el mapa se leen como «viaje/fotografía», no como la actividad turística en sí"
+    estado: revisado
+  - literal: 結婚式
+    leccion: s3
+    archivo: s3/結婚式.webp
+    escena: s3/結婚式.json
+    estado: revisado
+  - literal: 外国人
+    leccion: s3
+    placeholder: true
+    motivo: "sin imagen unívoca sin texto: globo, maleta o pasaporte se leen como «viaje» o «mundo»"
+    estado: revisado
+  - literal: 習慣
+    leccion: s3
+    placeholder: true
+    motivo: "abstracción (hábito repetido) sin objeto característico reconocible: dibujarla exigiría convención narrativa «por código»"
+    estado: revisado
+  - literal: 締め切り
+    leccion: s3
+    placeholder: true
+    motivo: "fecha límite: calendario + reloj se solapa con 予定 (ilustrado en el mismo lote) y el día marcado no distingue «plazo» de «plan»"
+    estado: revisado
+  - literal: 卒業式
+    leccion: s3
+    archivo: s3/卒業式.webp
+    escena: s3/卒業式.json
+    estado: revisado
+  - literal: 蕎麦
+    leccion: s3
+    archivo: s3/蕎麦.webp
+    escena: s3/蕎麦.json
+    estado: revisado
+  - literal: 地震
+    leccion: s3
+    archivo: s3/地震.webp
+    escena: s3/地震.json
+    estado: revisado
+  - literal: ジャケット
+    leccion: s3
+    archivo: s3/ジャケット.webp
+    escena: s3/ジャケット.json
+    estado: revisado
+  - literal: 税金
+    leccion: s3
+    placeholder: true
+    motivo: "impuesto: monedas o edificio institucional se leen como banco, dinero o sueldo (給料, ilustrado), no como tributo"
+    estado: revisado
+  - literal: 地図
+    leccion: s3
+    archivo: s3/地図.webp
+    escena: s3/地図.json
+    estado: revisado
+  - literal: 電池
+    leccion: s3
+    archivo: s3/電池.webp
+    escena: s3/電池.json
+    estado: revisado
+  - literal: 発表
+    leccion: s3
+    archivo: s3/発表.webp
+    escena: s3/発表.json
+    estado: revisado
+  - literal: 放送
+    leccion: s3
+    archivo: s3/放送.webp
+    escena: s3/放送.json
+    estado: revisado
+  - literal: プール
+    leccion: s3
+    archivo: s3/プール.webp
+    escena: s3/プール.json
+    estado: revisado
+  - literal: ペット
+    leccion: s3
+    archivo: s3/ペット.webp
+    escena: s3/ペット.json
+    estado: revisado
+  - literal: 予定
+    leccion: s3
+    archivo: s3/予定.webp
+    escena: s3/予定.json
+    estado: revisado
+  - literal: 旅館
+    leccion: s3
+    archivo: s3/旅館.webp
+    escena: s3/旅館.json
+    estado: revisado
+  - literal: 割引券
+    leccion: s3
+    archivo: s3/割引券.webp
+    escena: s3/割引券.json
+    estado: revisado
+  - literal: アイロンをかける
+    leccion: s3
+    archivo: s3/アイロンをかける.webp
+    escena: s3/アイロンをかける.json
+    estado: revisado
+  - literal: 朝寝坊する
+    leccion: s3
+    archivo: s3/朝寝坊する.webp
+    escena: s3/朝寝坊する.json
+    estado: revisado
+  - literal: 駅員
+    leccion: s3
+    archivo: s3/駅員.webp
+    escena: s3/駅員.json
+    estado: revisado
+  - literal: 起こす
+    leccion: s3
+    archivo: s3/起こす.webp
+    escena: s3/起こす.json
+    estado: revisado
+  - literal: 奢る
+    leccion: s3
+    archivo: s3/奢る.webp
+    escena: s3/奢る.json
+    estado: revisado
+  - literal: 落ち込む
+    leccion: s3
+    archivo: s3/落ち込む.webp
+    escena: s3/落ち込む.json
+    estado: revisado
+  - literal: 今日中に
+    leccion: s3
+    placeholder: true
+    motivo: "señalamiento temporal deíctico («para el final de hoy»): sin imagen unívoca que no exija texto"
+    estado: revisado
+  - literal: この間
+    leccion: s3
+    placeholder: true
+    motivo: "adverbio temporal vago («el otro día»): referente deíctico sin representación gráfica reconocible"
+    estado: revisado
+  - literal: ゴミ
+    leccion: s3
+    archivo: s3/ゴミ.webp
+    escena: s3/ゴミ.json
+    estado: revisado
+  - literal: 砂糖
+    leccion: s3
+    archivo: s3/砂糖.webp
+    escena: s3/砂糖.json
+    estado: revisado
+  - literal: 失礼します
+    leccion: s3
+    placeholder: true
+    motivo: "fórmula de cortesía convencional: su sentido depende de la situación (entrar/salir), no de un objeto o gesto único"
+    estado: revisado
+  - literal: 奨学金
+    leccion: s3
+    archivo: s3/奨学金.webp
+    escena: s3/奨学金.json
+    estado: revisado
+  - literal: 親戚
+    leccion: s3
+    archivo: s3/親戚.webp
+    escena: s3/親戚.json
+    estado: revisado
+  - literal: 推薦状
+    leccion: s3
+    archivo: s3/推薦状.webp
+    escena: s3/推薦状.json
+    estado: revisado
+  - literal: 授業中に
+    leccion: s3
+    placeholder: true
+    motivo: "señalamiento temporal («durante la clase»): la partícula 中 es relativa al contexto, no dibujable"
+    estado: revisado
+  - literal: 台風
+    leccion: s3
+    archivo: s3/台風.webp
+    escena: s3/台風.json
+    estado: revisado
+  - literal: 大学院
+    leccion: s3
+    archivo: s3/大学院.webp
+    escena: s3/大学院.json
+    estado: revisado
+  - literal: 乗り遅れる
+    leccion: s3
+    archivo: s3/乗り遅れる.webp
+    escena: s3/乗り遅れる.json
+    estado: revisado
+  - literal: ファイル
+    leccion: s3
+    archivo: s3/ファイル.webp
+    escena: s3/ファイル.json
+    estado: revisado
+  - literal: 他の
+    leccion: s3
+    placeholder: true
+    motivo: "adjetivo determinativo «otro/otros»: categoría gramatical sin imagen unívoca"
+    estado: revisado
+  - literal: 道
+    leccion: s3
+    archivo: s3/道.webp
+    escena: s3/道.json
+    estado: revisado
+  - literal: 道に迷う
+    leccion: s3
+    archivo: s3/道に迷う.webp
+    escena: s3/道に迷う.json
+    estado: revisado
+  - literal: 迎えに来る
+    leccion: s3
+    archivo: s3/迎えに来る.webp
+    escena: s3/迎えに来る.json
+    estado: revisado
+  - literal: 目覚まし時計
+    leccion: s3
+    archivo: s3/目覚まし時計.webp
+    escena: s3/目覚まし時計.json
+    estado: revisado
+  - literal: 訳す
+    leccion: s3
+    placeholder: true
+    motivo: "actividad lingüística abstracta: cualquier dibujo (libro, flechas) requeriría convención con texto para distinguirlo de «cambiar»"
+    estado: revisado
+  - literal: 羨ましい
+    leccion: s3
+    placeholder: true
+    motivo: "adjetivo afectivo (envidia/celos) sin imagen unívoca: solo se representaría por un gesto o mirada que exige contexto"
+    estado: revisado
+  - literal: お客さん
+    leccion: s3
+    archivo: s3/お客さん.webp
+    escena: s3/お客さん.json
+    estado: revisado
+  - literal: 男
+    leccion: s3
+    archivo: s3/男.webp
+    escena: s3/男.json
+    estado: revisado
+  - literal: お湯
+    leccion: s3
+    archivo: s3/お湯.webp
+    escena: s3/お湯.json
+    estado: revisado
+  - literal: お湯を沸かす
+    leccion: s3
+    archivo: s3/お湯を沸かす.webp
+    escena: s3/お湯を沸かす.json
+    estado: revisado
+  - literal: 鍵
+    leccion: s3
+    archivo: s3/鍵.webp
+    escena: s3/鍵.json
+    estado: revisado
+  - literal: 鍵をかける
+    leccion: s3
+    archivo: s3/鍵をかける.webp
+    escena: s3/鍵をかける.json
+    estado: revisado
+  - literal: 髪をとかす
+    leccion: s3
+    archivo: s3/髪をとかす.webp
+    escena: s3/髪をとかす.json
+    estado: revisado
+  - literal: 給料
+    leccion: s3
+    archivo: s3/給料.webp
+    escena: s3/給料.json
+    estado: revisado
+  - literal: 込む
+    leccion: s3
+    placeholder: true
+    motivo: "verbo aspectual de estado («estar lleno/concurrido»): sin sustantivo propio que dibujar"
+    estado: revisado
+  - literal: コンタクトレンズ
+    leccion: s3
+    archivo: s3/コンタクトレンズ.webp
+    escena: s3/コンタクトレンズ.json
+    estado: revisado
+  - literal: 最低
+    leccion: s3
+    placeholder: true
+    motivo: "valoración abstracta («lo peor/pésimo») solo legible por código cultural o por texto"
+    estado: revisado
+  - literal: サラリーマン
+    leccion: s3
+    archivo: s3/サラリーマン.webp
+    escena: s3/サラリーマン.json
+    estado: revisado
+  - literal: 少ない
+    leccion: s3
+    placeholder: true
+    motivo: "cuantificador abstracto: la representación (pocos vs. muchos) exige comparación, no una imagen unívoca"
+    estado: revisado
+  - literal: 残業
+    leccion: s3
+    archivo: s3/残業.webp
+    escena: s3/残業.json
+    estado: revisado
+  - literal: 宝くじ
+    leccion: s3
+    archivo: s3/宝くじ.webp
+    escena: s3/宝くじ.json
+    estado: revisado
+  - literal: 宝くじに当たる
+    leccion: s3
+    archivo: s3/宝くじに当たる.webp
+    escena: s3/宝くじに当たる.json
+    estado: revisado
+  - literal: 違い
+    leccion: s3
+    placeholder: true
+    motivo: "sustantivo relacional («diferencia»): solo dibujable mediante la convención de comparar dos cosas"
+    estado: revisado
+  - literal: ニュース
+    leccion: s3
+    archivo: s3/ニュース.webp
+    escena: s3/ニュース.json
+    estado: revisado
+  - literal: ヒーター
+    leccion: s3
+    archivo: s3/ヒーター.webp
+    escena: s3/ヒーター.json
+    estado: revisado
+  - literal: 髭
+    leccion: s3
+    archivo: s3/髭.webp
+    escena: s3/髭.json
+    estado: revisado
+  - literal: 髭を剃る
+    leccion: s3
+    archivo: s3/髭を剃る.webp
+    escena: s3/髭を剃る.json
+    estado: revisado
+  - literal: 秘密
+    leccion: s3
+    placeholder: true
+    motivo: "sustantivo abstracto cuyo símbolo (labios cosidos, llave…) depende de convención cultural «por código»"
+    estado: revisado
+  - literal: 寮
+    leccion: s3
+    archivo: s3/寮.webp
+    escena: s3/寮.json
+    estado: revisado
+  - literal: 旅行会社
+    leccion: s3
+    archivo: s3/旅行会社.webp
+    escena: s3/旅行会社.json
+    estado: revisado
