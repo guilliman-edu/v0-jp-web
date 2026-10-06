@@ -3448,40 +3448,51 @@
         "昔",
         "触る",
         "大切",
-        "角",
         "文化",
-        "伝える",
         "畳",
         "畳表",
         "畳床",
         "畳縁",
         "い草",
+        "人々",
+        "運ぶ",
+        "洋風",
+        "部分",
+        "辺",
+        "布",
+        "柄",
+        "気候",
+        "暮らし",
+        "増える",
+        "特別",
+        "デザイン",
+        "合う",
+        "一つ目",
+        "二つ目",
+        "三つ目",
         "作って",
         "作り方",
         "説明します",
-        "違います",
         "違いました",
-        "違って",
-        "持って",
         "使って",
         "使っていました",
-        "使いません",
-        "似合います",
-        "涼しくて",
-        "伝えたい",
+        "運んで",
+        "増えました",
         "出ました",
         "多くなりました",
+        "少なくなりました",
+        "合っています",
         "長くて"
       ],
       "nombres_propios": [],
-      "texto": "日本の畳\n畳は日本の家にあります。日本の生活にとても大切です。歴史が長くて、作り方も違います。今日は、畳の歴史と作り方、そして将来のことを説明します。\n\n---\n\n畳の歴史\n日本では、昔から畳があります。昔の畳は今と違いました。畳を持って使っていました。そして、お金持ちの家の部屋にありました。\n\nそのあと、畳を使う人も、お茶をする人も多くなりました。畳を作る専門の人や店も出ました。外国の家が多くなりましたが、畳は日本の部屋にまだあります。\n\n---\n\n畳の作り方\n畳には三つの所があります。\n\n一つは畳表です。人が触る所です。い草で作っています。\n\n一つは畳床です。畳の中にある所です。大切な所です。\n\n一つは畳縁です。畳の角にある色の所です。色が素敵です。\n\n---\n\n畳の将来\n今は昔より畳を使いません。でも、畳は日本の天気と部屋に似合います。夏は涼しくて、冬は暖かいです。畳の部屋で休むこともできます。\n\n今の畳は昔と違って、色も素敵になりました。畳は日本の文化です。新しい畳を作って、皆んなに伝えたいと思います。\n",
+      "texto": "日本の畳\n畳は日本の家にあります。日本の生活でとても大切です。歴史が長くて、作り方も特別です。今日は、畳の歴史と作り方、そして今と将来のことを説明します。\n\n---\n\n畳の歴史\n日本では、昔から畳があります。昔の畳は今と違いました。人々は畳を運んで使っていました。お金持ちの家の部屋にありました。\n\nその後、畳を使う人が多くなりました。お茶をする人も増えました。畳を作る専門の人や店も出ました。\n\n洋風の家が多くなりましたが、畳は今も日本の部屋にあります。\n\n---\n\n畳の作り方\n畳は三つの部分でできています。\n\n一つ目は畳表です。人が触るところです。い草で作っています。\n\n二つ目は畳床です。畳の中にある大切な部分です。\n\n三つ目は畳縁です。畳の長い辺にある布です。色や柄がいろいろあります。\n\n---\n\n畳の今と将来\n今は昔より畳の部屋が少なくなりました。でも、畳は日本の気候に合っています。夏は涼しく、冬は暖かいです。畳の部屋で休むこともできます。\n\n今の畳は色やデザインが素敵になりました。畳は日本の大切な文化です。これからも畳のある暮らしを大切にしたいです。\n",
       "preguntas": [
-        "畳は日本の生活にどうですか。",
+        "畳は日本の生活でどうですか。",
         "昔、畳はどんな家の部屋にありましたか。",
-        "畳にはいくつの所がありますか。",
-        "人が触る所の名前は何ですか。",
+        "畳はいくつの部分でできていますか。",
+        "人が触るところの名前は何ですか。",
         "夏と冬、畳の部屋はどうですか。",
-        "最後に、人は畳をどうしたいですか。"
+        "最後に、人は畳のある暮らしをどうしたいですか。"
       ],
       "vocabulario": [
         {
@@ -3538,11 +3549,6 @@
           "exclusion": true
         },
         {
-          "literal": "持つ",
-          "lectura": "もつ",
-          "significado": "llevar / sostener"
-        },
-        {
           "literal": "お金持ち",
           "lectura": "おかねもち",
           "significado": "persona adinerada"
@@ -3573,6 +3579,11 @@
           "significado": "muchos"
         },
         {
+          "literal": "少ない",
+          "lectura": "すくない",
+          "significado": "pocos, escaso"
+        },
+        {
           "literal": "専門",
           "lectura": "せんもん",
           "significado": "especialidad"
@@ -3585,22 +3596,12 @@
         {
           "literal": "出る",
           "lectura": "でる",
-          "significado": "salir"
-        },
-        {
-          "literal": "外国",
-          "lectura": "がいこく",
-          "significado": "país extranjero"
+          "significado": "salir, aparecer"
         },
         {
           "literal": "人",
           "lectura": "ひと",
           "significado": "persona"
-        },
-        {
-          "literal": "所",
-          "lectura": "ところ",
-          "significado": "lugar"
         },
         {
           "literal": "触る",
@@ -3620,12 +3621,6 @@
           "exclusion": true
         },
         {
-          "literal": "角",
-          "lectura": "かど",
-          "significado": "esquina",
-          "exclusion": true
-        },
-        {
           "literal": "色",
           "lectura": "いろ",
           "significado": "color"
@@ -3641,16 +3636,6 @@
           "significado": "ahora"
         },
         {
-          "literal": "似合う",
-          "lectura": "にあう",
-          "significado": "quedar bien; sentar bien"
-        },
-        {
-          "literal": "天気",
-          "lectura": "てんき",
-          "significado": "tiempo, clima"
-        },
-        {
           "literal": "夏",
           "lectura": "なつ",
           "significado": "verano"
@@ -3659,6 +3644,11 @@
           "literal": "涼しい",
           "lectura": "すずしい",
           "significado": "fresco (clima)"
+        },
+        {
+          "literal": "長い",
+          "lectura": "ながい",
+          "significado": "largo, larga"
         },
         {
           "literal": "冬",
@@ -3676,25 +3666,9 @@
           "significado": "descansar"
         },
         {
-          "literal": "新しい",
-          "lectura": "あたらしい",
-          "significado": "nuevo/a"
-        },
-        {
           "literal": "文化",
           "lectura": "ぶんか",
           "significado": "cultura",
-          "exclusion": true
-        },
-        {
-          "literal": "皆んな",
-          "lectura": "みんな",
-          "significado": "todos / todo el mundo"
-        },
-        {
-          "literal": "伝える",
-          "lectura": "つたえる",
-          "significado": "transmitir (un mensaje)",
           "exclusion": true
         },
         {
@@ -3728,6 +3702,102 @@
           "exclusion": true
         },
         {
+          "literal": "人々",
+          "lectura": "ひとびと",
+          "significado": "todos, la gente",
+          "exclusion": true
+        },
+        {
+          "literal": "運ぶ",
+          "lectura": "はこぶ",
+          "significado": "llevar, transportar",
+          "exclusion": true
+        },
+        {
+          "literal": "洋風",
+          "lectura": "ようふう",
+          "significado": "estilo occidental",
+          "exclusion": true
+        },
+        {
+          "literal": "部分",
+          "lectura": "ぶぶん",
+          "significado": "parte, sección",
+          "exclusion": true
+        },
+        {
+          "literal": "辺",
+          "lectura": "へん",
+          "significado": "lado, borde (de la 畳)",
+          "exclusion": true
+        },
+        {
+          "literal": "布",
+          "lectura": "ぬの",
+          "significado": "tela, paño",
+          "exclusion": true
+        },
+        {
+          "literal": "柄",
+          "lectura": "がら",
+          "significado": "dibujo, diseño (de la tela)",
+          "exclusion": true
+        },
+        {
+          "literal": "気候",
+          "lectura": "きこう",
+          "significado": "clima",
+          "exclusion": true
+        },
+        {
+          "literal": "暮らし",
+          "lectura": "くらし",
+          "significado": "vida, modo de vida",
+          "exclusion": true
+        },
+        {
+          "literal": "増える",
+          "lectura": "ふえる",
+          "significado": "aumentar, multiplicarse",
+          "exclusion": true
+        },
+        {
+          "literal": "特別",
+          "lectura": "とくべつ",
+          "significado": "especial",
+          "exclusion": true
+        },
+        {
+          "literal": "デザイン",
+          "lectura": "でざいん",
+          "significado": "diseño",
+          "exclusion": true
+        },
+        {
+          "literal": "合う",
+          "lectura": "あう",
+          "significado": "encajar, ir bien (con)",
+          "exclusion": true
+        },
+        {
+          "literal": "一つ目",
+          "lectura": "ひとつめ",
+          "significado": "el primero (de los tres)",
+          "exclusion": true
+        },
+        {
+          "literal": "二つ目",
+          "lectura": "ふたつめ",
+          "significado": "el segundo (de los tres)",
+          "exclusion": true
+        },
+        {
+          "literal": "三つ目",
+          "lectura": "みっつめ",
+          "significado": "el tercero (de los tres)",
+          "exclusion": true
+        },
+        {
           "literal": "作って",
           "lectura": "つくって",
           "significado": "hacer (forma -te)",
@@ -3746,27 +3816,9 @@
           "exclusion": true
         },
         {
-          "literal": "違います",
-          "lectura": "ちがいます",
-          "significado": "ser diferente (forma -masu)",
-          "exclusion": true
-        },
-        {
           "literal": "違いました",
           "lectura": "ちがいました",
           "significado": "ser diferente (pasado)",
-          "exclusion": true
-        },
-        {
-          "literal": "違って",
-          "lectura": "ちがって",
-          "significado": "ser diferente (forma -te)",
-          "exclusion": true
-        },
-        {
-          "literal": "持って",
-          "lectura": "もって",
-          "significado": "llevar (forma -te)",
           "exclusion": true
         },
         {
@@ -3782,27 +3834,15 @@
           "exclusion": true
         },
         {
-          "literal": "使いません",
-          "lectura": "つかいません",
-          "significado": "no usar (forma -masen)",
+          "literal": "運んで",
+          "lectura": "うんで",
+          "significado": "llevar, transportar (forma -te)",
           "exclusion": true
         },
         {
-          "literal": "似合います",
-          "lectura": "にあいます",
-          "significado": "quedar/sentar bien (forma -masu)",
-          "exclusion": true
-        },
-        {
-          "literal": "涼しくて",
-          "lectura": "すずしくて",
-          "significado": "fresco (unido con -te)",
-          "exclusion": true
-        },
-        {
-          "literal": "伝えたい",
-          "lectura": "つたえたい",
-          "significado": "querer transmitir (forma -tai)",
+          "literal": "増えました",
+          "lectura": "おえました",
+          "significado": "aumentar (pasado)",
           "exclusion": true
         },
         {
@@ -3815,6 +3855,18 @@
           "literal": "多くなりました",
           "lectura": "おおくなりました",
           "significado": "volverse muchos (cambio de estado)",
+          "exclusion": true
+        },
+        {
+          "literal": "少なくなりました",
+          "lectura": "すくなくなりました",
+          "significado": "volverse pocos (cambio de estado)",
+          "exclusion": true
+        },
+        {
+          "literal": "合っています",
+          "lectura": "あっています",
+          "significado": "encajar, ir bien (estado resultante)",
           "exclusion": true
         },
         {
