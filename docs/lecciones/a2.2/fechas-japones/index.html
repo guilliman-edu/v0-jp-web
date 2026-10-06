@@ -13,8 +13,14 @@
 <p class="body-text">Señala un punto fijo del calendario. No mira al hablante: el punto está donde está.</p>
 <table><thead><tr><th>Español</th><th>Japonés</th><th>Lectura</th></tr></thead><tbody><tr><td>las nueve</td><td>九時</td><td>くじ</td></tr><tr><td>el 15 del mes</td><td>十五日</td><td>じゅうごにち</td></tr><tr><td>octubre</td><td>十月</td><td>じゅうがつ</td></tr><tr><td>el año 2026</td><td>2026年</td><td>にせんにじゅうろくねん</td></tr></tbody></table>
 <p class="body-text">Las fechas completas leen las UT en orden de mayor a menor: <strong>2026年10月6日</strong> = にせんにじゅうろくねんじゅうがつむいか.</p>
-<h3 class="section-title">⚠️ Atención (calendario)</h3>
-<ul class="body-list"><li><strong>Días con lectura propia.</strong> Los días 1 a 10 del mes —y el 14, el 20 y el 24— no leen にち: 1日 ついたち, 3日 みっか, 5日 いつか, 6日 むいか, 10日 とおか. El resto va con にち: 15日 じゅうごにち.</li><li><strong>Horas irregulares.</strong> 4時 よじ, 7時 しちじ y 9時 くじ; nunca よんじ, ななじ ni きゅうじ.</li><li><strong>〜週 casi no va sola con numeral.</strong> La semana de calendario se señala con prefijo (今週, iteración 2) o con 間 (三週間, más abajo).</li></ul>
+<h3 class="section-title">⚠️ Atención (calendario): lecturas especiales</h3>
+<p class="body-text"><strong>Días de mes.</strong> Del 1 al 10 se leen con la cuenta nativa del día —y con ella siguen el 14, el 20 y el 24—; todo lo demás es numeral + にち.</p>
+<table><thead><tr><th>día</th><th>lectura</th><th>día</th><th>lectura</th></tr></thead><tbody><tr><td>1日</td><td>ついたち</td><td>6日</td><td>むいか</td></tr><tr><td>2日</td><td>ふつか</td><td>7日</td><td>なのか</td></tr><tr><td>3日</td><td>みっか</td><td>8日</td><td>ようか</td></tr><tr><td>4日</td><td>よっか</td><td>9日</td><td>ここのか</td></tr><tr><td>5日</td><td>いつか</td><td>10日</td><td>とおか</td></tr></tbody></table>
+<ul class="body-list"><li>Excepciones de esa cuenta: <strong>14日 じゅうよっか</strong>, <strong>20日 はつか</strong> y <strong>24日 にじゅうよっか</strong>.</li><li>El resto va con にち: 11日 じゅういちにち, 15日 じゅうごにち, 31日 さんじゅういちにち.</li><li>Ojo: la misma cuenta rige la duración (三日間 = みっかかん, ver más abajo).</li></ul>
+<p class="body-text"><strong>Meses.</strong> El mes es numeral + がつ, pero tres de ellos tienen lectura fija que no sigue al numeral: <strong>4月 しがつ</strong> (no よんがつ), <strong>7月 しちがつ</strong> (no なながつ) y <strong>9月 くがつ</strong> (no きゅうがつ).</p>
+<table><thead><tr><th>mes</th><th>lectura</th><th>mes</th><th>lectura</th></tr></thead><tbody><tr><td>1月</td><td>いちがつ</td><td>7月</td><td>しちがつ</td></tr><tr><td>2月</td><td>にがつ</td><td>8月</td><td>はちがつ</td></tr><tr><td>3月</td><td>さんがつ</td><td>9月</td><td>くがつ</td></tr><tr><td>4月</td><td>しがつ</td><td>10月</td><td>じゅうがつ</td></tr><tr><td>5月</td><td>ごがつ</td><td>11月</td><td>じゅういちがつ</td></tr><tr><td>6月</td><td>ろくがつ</td><td>12月</td><td>じゅうにがつ</td></tr></tbody></table>
+<p class="body-text"><strong>Horas.</strong> 4時 よじ, 7時 しちじ y 9時 くじ; nunca よんじ, ななじ ni きゅうじ.</p>
+<p class="body-text"><strong>〜週 casi no va sola con numeral.</strong> La semana de calendario se señala con prefijo (今週, iteración 2) o con 間 (三週間, más abajo).</p>
 <h3 class="section-title">📐 Tipo intervalo — <code>0 prefijos | Numeral UT 1 sufijo</code></h3>
 <p class="body-text">Un intervalo no dice cuándo ocurre, dice cuánto dura: la casilla de sufijos se llena con <strong>間</strong>.</p>
 <table><thead><tr><th>Español</th><th>Japonés</th><th>Lectura</th></tr></thead><tbody><tr><td>3 horas</td><td>三時間</td><td>さんじかん</td></tr><tr><td>5 días</td><td>五日間</td><td>いつかかん</td></tr><tr><td>2 semanas</td><td>二週間</td><td>にしゅうかん</td></tr><tr><td>2 meses</td><td>二か月間</td><td>にかげつかん</td></tr><tr><td>4 años</td><td>四年間</td><td>よねんかん</td></tr></tbody></table>
@@ -41,12 +47,14 @@
   <h2 class="slide-title">Iteración 3: Resumen y glosario</h2>
   <p class="mission"><em>Misión: Fijar el molde y los tres tipos en una sola vista.</em></p>
   <h3 class="section-title">📌 Resumen</h3>
-<ul class="body-list"><li><strong>Molde único:</strong> <code>0..N prefijos | Numeral UT 0..N Sufijos</code>; solo Numeral + UT es obligatorio.</li><li><strong>UT:</strong> 時, 日, 週, 月, 年.</li><li><strong>Calendario</strong> (sin casillas exteriores): punto fijo → 九時, 十五日, 十月, 2026年.</li><li><strong>Intervalo</strong> (sufijo 間): duración → 三時間, 五日間, 二週間, 二か月間, 四年間.</li><li><strong>Relativo:</strong> específicas (今日, 明日, 昨日, 明後日, 去年) · prefijos 先・来・今 (先週, 来月, 今年) · intervalo + 前/後 (三日前, 四年前).</li><li><strong>Trampas:</strong> los días 1 a 10 tienen lectura propia · 月 lee がつ en calendario y か en duración · 4/7/9時 se leen よじ, しちじ y くじ.</li></ul>
+<ul class="body-list"><li><strong>Molde único:</strong> <code>0..N prefijos | Numeral UT 0..N Sufijos</code>; solo Numeral + UT es obligatorio.</li><li><strong>UT:</strong> 時, 日, 週, 月, 年.</li><li><strong>Calendario</strong> (sin casillas exteriores): punto fijo → 九時, 十五日, 十月, 2026年.</li><li><strong>Intervalo</strong> (sufijo 間): duración → 三時間, 五日間, 二週間, 二か月間, 四年間.</li><li><strong>Relativo:</strong> específicas (今日, 明日, 昨日, 明後日, 去年) · prefijos 先・来・今 (先週, 来月, 今年) · intervalo + 前/後 (三日前, 四年前).</li><li><strong>Trampas:</strong> los días 1 a 10 —y el 14, el 20 y el 24— tienen cuenta propia (ついたち … とおか) · 4/7/9月 se leen しがつ, しちがつ y くがつ · 月 lee がつ en calendario y か en duración · 4/7/9時 se leen よじ, しちじ y くじ.</li></ul>
 <h3 class="section-title">📖 Glosario de la lección</h3>
 <details>
 <summary>Ver términos nuevos</summary>
 <ul>
   <li><strong>Unidad de tiempo (UT)</strong> — palabra fija que cierra el núcleo de una fecha: 時, 日, 週, 月, 年.</li>
+  <li><strong>Cuenta nativa del día</strong> — lecturas fijas de 1日 a 10日 (ついたち … とおか), más 14日, 20日 y 24日; el resto de los días es numeral + にち.</li>
+  <li><strong>Mes de calendario</strong> — numeral + がつ, con tres lecturas fijas: 4月 しがつ, 7月 しちがつ y 9月 くがつ.</li>
   <li><strong>Fecha de calendario</strong> — fecha sin prefijos ni sufijos: señala un punto fijo (九時, 十月).</li>
   <li><strong>Intervalo</strong> — fecha con sufijo 間: mide duración, no momento (三時間).</li>
   <li><strong>Fecha relativa</strong> — fecha medida desde el ahora: específica, con prefijo 先・来・今 o con sufijo 前/後.</li>
