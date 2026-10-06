@@ -3436,6 +3436,409 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s3-nihon-no-tatami"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "日本の畳",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "違う",
+        "説明する",
+        "昔",
+        "触る",
+        "大切",
+        "角",
+        "文化",
+        "伝える",
+        "畳",
+        "畳表",
+        "畳床",
+        "畳縁",
+        "い草",
+        "作って",
+        "作り方",
+        "説明します",
+        "違います",
+        "違いました",
+        "違って",
+        "持って",
+        "使って",
+        "使っていました",
+        "使いません",
+        "似合います",
+        "涼しくて",
+        "伝えたい",
+        "出ました",
+        "多くなりました",
+        "長くて"
+      ],
+      "nombres_propios": [],
+      "texto": "日本の畳\n畳は日本の家にあります。日本の生活にとても大切です。歴史が長くて、作り方も違います。今日は、畳の歴史と作り方、そして将来のことを説明します。\n\n---\n\n畳の歴史\n日本では、昔から畳があります。昔の畳は今と違いました。畳を持って使っていました。そして、お金持ちの家の部屋にありました。\n\nそのあと、畳を使う人も、お茶をする人も多くなりました。畳を作る専門の人や店も出ました。外国の家が多くなりましたが、畳は日本の部屋にまだあります。\n\n---\n\n畳の作り方\n畳には三つの所があります。\n\n一つは畳表です。人が触る所です。い草で作っています。\n\n一つは畳床です。畳の中にある所です。大切な所です。\n\n一つは畳縁です。畳の角にある色の所です。色が素敵です。\n\n---\n\n畳の将来\n今は昔より畳を使いません。でも、畳は日本の天気と部屋に似合います。夏は涼しくて、冬は暖かいです。畳の部屋で休むこともできます。\n\n今の畳は昔と違って、色も素敵になりました。畳は日本の文化です。新しい畳を作って、皆んなに伝えたいと思います。\n",
+      "preguntas": [
+        "畳は日本の生活にどうですか。",
+        "昔、畳はどんな家の部屋にありましたか。",
+        "畳にはいくつの所がありますか。",
+        "人が触る所の名前は何ですか。",
+        "夏と冬、畳の部屋はどうですか。",
+        "最後に、人は畳をどうしたいですか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "家",
+          "lectura": "いえ",
+          "significado": "casa"
+        },
+        {
+          "literal": "生活",
+          "lectura": "せいかつ",
+          "significado": "vida diaria"
+        },
+        {
+          "literal": "歴史",
+          "lectura": "れきし",
+          "significado": "historia"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer"
+        },
+        {
+          "literal": "違う",
+          "lectura": "ちがう",
+          "significado": "ser diferente; estar equivocado",
+          "exclusion": true
+        },
+        {
+          "literal": "今日",
+          "lectura": "きょう",
+          "significado": "hoy"
+        },
+        {
+          "literal": "将来",
+          "lectura": "しょうらい",
+          "significado": "futuro"
+        },
+        {
+          "literal": "説明する",
+          "lectura": "せつめいする",
+          "significado": "explicar",
+          "exclusion": true
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "hace mucho tiempo, tiempos pasados",
+          "exclusion": true
+        },
+        {
+          "literal": "持つ",
+          "lectura": "もつ",
+          "significado": "llevar / sostener"
+        },
+        {
+          "literal": "お金持ち",
+          "lectura": "おかねもち",
+          "significado": "persona adinerada"
+        },
+        {
+          "literal": "部屋",
+          "lectura": "へや",
+          "significado": "habitación, cuarto"
+        },
+        {
+          "literal": "使う",
+          "lectura": "つかう",
+          "significado": "usar"
+        },
+        {
+          "literal": "お茶",
+          "lectura": "おちゃ",
+          "significado": "té"
+        },
+        {
+          "literal": "する",
+          "lectura": "する",
+          "significado": "hacer"
+        },
+        {
+          "literal": "多い",
+          "lectura": "おおい",
+          "significado": "muchos"
+        },
+        {
+          "literal": "専門",
+          "lectura": "せんもん",
+          "significado": "especialidad"
+        },
+        {
+          "literal": "店",
+          "lectura": "みせ",
+          "significado": "tienda"
+        },
+        {
+          "literal": "出る",
+          "lectura": "でる",
+          "significado": "salir"
+        },
+        {
+          "literal": "外国",
+          "lectura": "がいこく",
+          "significado": "país extranjero"
+        },
+        {
+          "literal": "人",
+          "lectura": "ひと",
+          "significado": "persona"
+        },
+        {
+          "literal": "所",
+          "lectura": "ところ",
+          "significado": "lugar"
+        },
+        {
+          "literal": "触る",
+          "lectura": "さわる",
+          "significado": "tocar",
+          "exclusion": true
+        },
+        {
+          "literal": "中",
+          "lectura": "なか",
+          "significado": "dentro"
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante, valioso",
+          "exclusion": true
+        },
+        {
+          "literal": "角",
+          "lectura": "かど",
+          "significado": "esquina",
+          "exclusion": true
+        },
+        {
+          "literal": "色",
+          "lectura": "いろ",
+          "significado": "color"
+        },
+        {
+          "literal": "素敵",
+          "lectura": "すてき",
+          "significado": "fantástico"
+        },
+        {
+          "literal": "今",
+          "lectura": "いま",
+          "significado": "ahora"
+        },
+        {
+          "literal": "似合う",
+          "lectura": "にあう",
+          "significado": "quedar bien; sentar bien"
+        },
+        {
+          "literal": "天気",
+          "lectura": "てんき",
+          "significado": "tiempo, clima"
+        },
+        {
+          "literal": "夏",
+          "lectura": "なつ",
+          "significado": "verano"
+        },
+        {
+          "literal": "涼しい",
+          "lectura": "すずしい",
+          "significado": "fresco (clima)"
+        },
+        {
+          "literal": "冬",
+          "lectura": "ふゆ",
+          "significado": "invierno"
+        },
+        {
+          "literal": "暖かい",
+          "lectura": "あたたかい",
+          "significado": "cálido, templado"
+        },
+        {
+          "literal": "休む",
+          "lectura": "やすむ",
+          "significado": "descansar"
+        },
+        {
+          "literal": "新しい",
+          "lectura": "あたらしい",
+          "significado": "nuevo/a"
+        },
+        {
+          "literal": "文化",
+          "lectura": "ぶんか",
+          "significado": "cultura",
+          "exclusion": true
+        },
+        {
+          "literal": "皆んな",
+          "lectura": "みんな",
+          "significado": "todos / todo el mundo"
+        },
+        {
+          "literal": "伝える",
+          "lectura": "つたえる",
+          "significado": "transmitir (un mensaje)",
+          "exclusion": true
+        },
+        {
+          "literal": "畳",
+          "lectura": "たたみ",
+          "significado": "alfombra japonesa de tatami",
+          "exclusion": true
+        },
+        {
+          "literal": "畳表",
+          "lectura": "たたみおもて",
+          "significado": "superficie de la 畳",
+          "exclusion": true
+        },
+        {
+          "literal": "畳床",
+          "lectura": "たたみどこ",
+          "significado": "núcleo/interior de la 畳",
+          "exclusion": true
+        },
+        {
+          "literal": "畳縁",
+          "lectura": "たたみべり",
+          "significado": "borde de la 畳",
+          "exclusion": true
+        },
+        {
+          "literal": "い草",
+          "lectura": "いぐさ",
+          "significado": "hierba con la que se teje la 畳表",
+          "exclusion": true
+        },
+        {
+          "literal": "作って",
+          "lectura": "つくって",
+          "significado": "hacer (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "作り方",
+          "lectura": "づくりかた",
+          "significado": "manera de hacer (sufijo -kata)",
+          "exclusion": true
+        },
+        {
+          "literal": "説明します",
+          "lectura": "せつめいします",
+          "significado": "explicar (forma -masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "違います",
+          "lectura": "ちがいます",
+          "significado": "ser diferente (forma -masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "違いました",
+          "lectura": "ちがいました",
+          "significado": "ser diferente (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "違って",
+          "lectura": "ちがって",
+          "significado": "ser diferente (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "持って",
+          "lectura": "もって",
+          "significado": "llevar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "使って",
+          "lectura": "つかって",
+          "significado": "usar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "使っていました",
+          "lectura": "つかっていました",
+          "significado": "usar (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "使いません",
+          "lectura": "つかいません",
+          "significado": "no usar (forma -masen)",
+          "exclusion": true
+        },
+        {
+          "literal": "似合います",
+          "lectura": "にあいます",
+          "significado": "quedar/sentar bien (forma -masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "涼しくて",
+          "lectura": "すずしくて",
+          "significado": "fresco (unido con -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "伝えたい",
+          "lectura": "つたえたい",
+          "significado": "querer transmitir (forma -tai)",
+          "exclusion": true
+        },
+        {
+          "literal": "出ました",
+          "lectura": "でました",
+          "significado": "aparecer, surgir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "多くなりました",
+          "lectura": "おおくなりました",
+          "significado": "volverse muchos (cambio de estado)",
+          "exclusion": true
+        },
+        {
+          "literal": "長くて",
+          "lectura": "ながくて",
+          "significado": "largo (unido con -te)",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "forma-simple",
+        "forma-te",
+        "forma-volitiva",
+        "particula-ga",
+        "usos-forma-te",
+        "protocolo-subordinacion"
+      ],
+      "nivel": "A2.2"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s1-shinderera"
     },
     "data": {
