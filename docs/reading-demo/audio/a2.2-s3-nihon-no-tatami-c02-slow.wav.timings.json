@@ -1,0 +1,173 @@
+{
+  "audio_file": "a2.2-s3-nihon-no-tatami-c02-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 44330,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "畳の歴史",
+      "start_ms": 0,
+      "end_ms": 2128,
+      "duration_ms": 2128,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "畳の歴史",
+          "start_ms": 0,
+          "end_ms": 2128,
+          "duration_ms": 2128
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "にほんでは、むかしからたたみがあります。",
+      "start_ms": 2628,
+      "end_ms": 7714,
+      "duration_ms": 5086,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にほんでは、",
+          "start_ms": 2628,
+          "end_ms": 4419,
+          "duration_ms": 1791
+        },
+        {
+          "index": 1,
+          "text": "むかしからたたみがあります。",
+          "start_ms": 4669,
+          "end_ms": 7714,
+          "duration_ms": 3045
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "むかしのたたみはいまとちがいました。",
+      "start_ms": 8214,
+      "end_ms": 12385,
+      "duration_ms": 4171,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかしのたたみはいまとちがいました。",
+          "start_ms": 8214,
+          "end_ms": 12385,
+          "duration_ms": 4171
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "ひとびとはたたみをうんでつかっていました。",
+      "start_ms": 12885,
+      "end_ms": 17172,
+      "duration_ms": 4287,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ひとびとはたたみをうんでつかっていました。",
+          "start_ms": 12885,
+          "end_ms": 17172,
+          "duration_ms": 4287
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "おかねもちのいえのへやにありました。",
+      "start_ms": 17672,
+      "end_ms": 21274,
+      "duration_ms": 3602,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おかねもちのいえのへやにありました。",
+          "start_ms": 17672,
+          "end_ms": 21274,
+          "duration_ms": 3602
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "その後、たたみをつかうひとがおおくなりました。",
+      "start_ms": 21774,
+      "end_ms": 27533,
+      "duration_ms": 5759,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "その後、",
+          "start_ms": 21774,
+          "end_ms": 23495,
+          "duration_ms": 1721
+        },
+        {
+          "index": 1,
+          "text": "たたみをつかうひとがおおくなりました。",
+          "start_ms": 23745,
+          "end_ms": 27533,
+          "duration_ms": 3788
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "おちゃをするひともおえました。",
+      "start_ms": 28033,
+      "end_ms": 31055,
+      "duration_ms": 3022,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おちゃをするひともおえました。",
+          "start_ms": 28033,
+          "end_ms": 31055,
+          "duration_ms": 3022
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "たたみをつくるせんもんのひとやみせもでました。",
+      "start_ms": 31555,
+      "end_ms": 35865,
+      "duration_ms": 4310,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たたみをつくるせんもんのひとやみせもでました。",
+          "start_ms": 31555,
+          "end_ms": 35865,
+          "duration_ms": 4310
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "ようふうのいえがおおくなりましたが、たたみはいまもにほんのへやにあります。",
+      "start_ms": 36365,
+      "end_ms": 44330,
+      "duration_ms": 7965,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ようふうのいえがおおくなりましたが、",
+          "start_ms": 36365,
+          "end_ms": 39874,
+          "duration_ms": 3509
+        },
+        {
+          "index": 1,
+          "text": "たたみはいまもにほんのへやにあります。",
+          "start_ms": 40124,
+          "end_ms": 44330,
+          "duration_ms": 4206
+        }
+      ]
+    }
+  ]
+}

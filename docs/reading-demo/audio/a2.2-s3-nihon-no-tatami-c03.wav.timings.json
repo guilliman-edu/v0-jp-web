@@ -1,0 +1,168 @@
+{
+  "audio_file": "a2.2-s3-nihon-no-tatami-c03.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 33053,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "畳の作り方",
+      "start_ms": 0,
+      "end_ms": 2203,
+      "duration_ms": 2203,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "畳の作り方",
+          "start_ms": 0,
+          "end_ms": 2203,
+          "duration_ms": 2203
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "たたみは三つのぶぶんでできています。",
+      "start_ms": 2703,
+      "end_ms": 6357,
+      "duration_ms": 3654,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たたみは三つのぶぶんでできています。",
+          "start_ms": 2703,
+          "end_ms": 6357,
+          "duration_ms": 3654
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "ひとつめはたたみおもてです。",
+      "start_ms": 6857,
+      "end_ms": 9861,
+      "duration_ms": 3004,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ひとつめはたたみおもてです。",
+          "start_ms": 6857,
+          "end_ms": 9861,
+          "duration_ms": 3004
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "ひとがさわるところです。",
+      "start_ms": 10361,
+      "end_ms": 12831,
+      "duration_ms": 2470,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ひとがさわるところです。",
+          "start_ms": 10361,
+          "end_ms": 12831,
+          "duration_ms": 2470
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "いぐさでつくっています。",
+      "start_ms": 13331,
+      "end_ms": 15720,
+      "duration_ms": 2389,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いぐさでつくっています。",
+          "start_ms": 13331,
+          "end_ms": 15720,
+          "duration_ms": 2389
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "ふたつめはたたみどこです。",
+      "start_ms": 16220,
+      "end_ms": 19050,
+      "duration_ms": 2830,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ふたつめはたたみどこです。",
+          "start_ms": 16220,
+          "end_ms": 19050,
+          "duration_ms": 2830
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "たたみのなかにあるたいせつなぶぶんです。",
+      "start_ms": 19550,
+      "end_ms": 23111,
+      "duration_ms": 3561,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たたみのなかにあるたいせつなぶぶんです。",
+          "start_ms": 19550,
+          "end_ms": 23111,
+          "duration_ms": 3561
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "みっつめはたたみべりです。",
+      "start_ms": 23611,
+      "end_ms": 26278,
+      "duration_ms": 2667,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みっつめはたたみべりです。",
+          "start_ms": 23611,
+          "end_ms": 26278,
+          "duration_ms": 2667
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "たたみのながいへんにあるぬのです。",
+      "start_ms": 26778,
+      "end_ms": 29712,
+      "duration_ms": 2934,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たたみのながいへんにあるぬのです。",
+          "start_ms": 26778,
+          "end_ms": 29712,
+          "duration_ms": 2934
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "いろやがらがいろいろあります。",
+      "start_ms": 30212,
+      "end_ms": 33053,
+      "duration_ms": 2841,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いろやがらがいろいろあります。",
+          "start_ms": 30212,
+          "end_ms": 33053,
+          "duration_ms": 2841
+        }
+      ]
+    }
+  ]
+}
