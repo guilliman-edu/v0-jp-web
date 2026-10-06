@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Fechas en japonés: calendario, intervalo y relativo — a2.2</title><script type="module">(()=>{const n=document.querySelectorAll(".slide"),s=document.querySelectorAll(".toc-link"),l=document.getElementById("slide-counter");if(!n.length)return;let e=0;function c(t){if(t<0||t>=n.length)return;n[e].classList.remove("active"),s[e]&&s[e].classList.remove("active"),e=t,n[e].classList.add("active"),s[e]&&s[e].classList.add("active"),l&&(l.textContent=e+1+" / "+n.length);const o=document.getElementById("prev-slide"),d=document.getElementById("next-slide");o&&(o.disabled=e===0),d&&(d.disabled=e===n.length-1)}document.addEventListener("click",t=>{const o=t.target.closest("[data-goto]");if(!o)return;const d=o.dataset.goto;if(d==="close-toc"){document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open");return}const a=[...n].findIndex(m=>m.id===d);a>=0&&c(a)});const i=document.getElementById("prev-slide"),r=document.getElementById("next-slide");i&&i.addEventListener("click",()=>c(e-1)),r&&r.addEventListener("click",()=>c(e+1)),document.getElementById("toc-toggle").addEventListener("click",()=>{document.getElementById("toc-panel").classList.toggle("open"),document.getElementById("toc-backdrop").classList.toggle("open")}),document.getElementById("toc-backdrop").addEventListener("click",()=>{document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open")}),document.addEventListener("keydown",t=>{t.key==="ArrowLeft"&&c(e-1),t.key==="ArrowRight"&&c(e+1)}),c(0)})();</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="/v0-jp-web/_astro/_alias_.tJJgVSB7.css"></head> <body> <header class="topbar"> <a href="/v0-jp-web/hubs/lecciones/a2.2/" class="back-link" title="Volver al hub"> <i data-lucide="arrow-left" width="18" height="18"></i> <span class="back-text">Volver</span> </a> <a href="/v0-jp-web/deck/a2.2/semana-a2.2-s3/" class="back-link deck-link" title="Volver al deck"> <i data-lucide="archive" width="18" height="18"></i> <span class="back-text">Deck</span> </a> <button id="toc-toggle" class="icon-btn" title="Índice"> <i data-lucide="menu" width="20" height="20"></i> </button> <span class="topbar-title">Fechas en japonés: calendario, intervalo y relativo</span> <span class="topbar-level">a2.2</span> </header> <div id="toc-backdrop" class="toc-backdrop"></div> <aside id="toc-panel" class="toc-panel"> <div class="toc-header"> <h3>Índice</h3> <button id="toc-close" class="icon-btn" data-goto="close-toc"> <i data-lucide="x" width="20" height="20"></i> </button> </div> <nav> <ul class="toc-list" id="toc-list"><li><a data-goto="iteracion-1" class="toc-link active">Iteración 1: El molde, el calendario y el intervalo</a></li>
+<li><a data-goto="iteracion-2" class="toc-link">Iteración 2: El tipo relativo</a></li>
+<li><a data-goto="iteracion-3" class="toc-link">Iteración 3: Resumen y glosario</a></li></ul> </nav> </aside> <main class="main-content"> <div class="content-wrapper"><section id="iteracion-1" class="slide active">
+  <h2 class="slide-title">Iteración 1: El molde, el calendario y el intervalo</h2>
+  <p class="mission"><em>Misión: Montar una fecha sobre el molde común y separar un punto del calendario de una duración.</em></p>
+  <h3 class="section-title">📐 El molde de toda fecha</h3>
+<p class="body-text">Toda fecha japonesa se construye sobre la misma plantilla, que tiene tres casillas: <code>0..N prefijos | Numeral UT 0..N Sufijos</code></p>
+<ul class="body-list"><li><strong>prefijos</strong> (0..N) — delante del numeral: 先, 来, 今.</li><li><strong>Numeral + UT</strong> — el núcleo. La UT (Unidad de Tiempo) es una palabra de tiempo fija; es la única casilla obligatoria.</li><li><strong>sufijos</strong> (0..N) — detrás de la UT: 間, 前, 後.</li></ul>
+<p class="body-text">El <code>0..N</code> de las dos casillas exteriores indica que pueden quedar vacías: sin prefijos ni sufijos, la fecha se reduce al núcleo <strong>Numeral UT</strong>.</p>
+<h3 class="section-title">📖 Las cinco UT</h3>
+<table><thead><tr><th>UT</th><th>Lectura</th><th>Unidad de tiempo</th></tr></thead><tbody><tr><td>時</td><td>じ</td><td>hora</td></tr><tr><td>日</td><td>にち</td><td>día</td></tr><tr><td>週</td><td>しゅう</td><td>semana</td></tr><tr><td>月</td><td>がつ</td><td>mes</td></tr><tr><td>年</td><td>ねん</td><td>año</td></tr></tbody></table>
+<h3 class="section-title">📐 Tipo calendario — <code>0 prefijos | Numeral UT 0 sufijos</code></h3>
+<p class="body-text">Señala un punto fijo del calendario. No mira al hablante: el punto está donde está.</p>
+<table><thead><tr><th>Español</th><th>Japonés</th><th>Lectura</th></tr></thead><tbody><tr><td>las nueve</td><td>九時</td><td>くじ</td></tr><tr><td>el 15 del mes</td><td>十五日</td><td>じゅうごにち</td></tr><tr><td>octubre</td><td>十月</td><td>じゅうがつ</td></tr><tr><td>el año 2026</td><td>2026年</td><td>にせんにじゅうろくねん</td></tr></tbody></table>
+<p class="body-text">Las fechas completas leen las UT en orden de mayor a menor: <strong>2026年10月6日</strong> = にせんにじゅうろくねんじゅうがつむいか.</p>
+<h3 class="section-title">⚠️ Atención (calendario)</h3>
+<ul class="body-list"><li><strong>Días con lectura propia.</strong> Los días 1 a 10 del mes —y el 14, el 20 y el 24— no leen にち: 1日 ついたち, 3日 みっか, 5日 いつか, 6日 むいか, 10日 とおか. El resto va con にち: 15日 じゅうごにち.</li><li><strong>Horas irregulares.</strong> 4時 よじ, 7時 しちじ y 9時 くじ; nunca よんじ, ななじ ni きゅうじ.</li><li><strong>〜週 casi no va sola con numeral.</strong> La semana de calendario se señala con prefijo (今週, iteración 2) o con 間 (三週間, más abajo).</li></ul>
+<h3 class="section-title">📐 Tipo intervalo — <code>0 prefijos | Numeral UT 1 sufijo</code></h3>
+<p class="body-text">Un intervalo no dice cuándo ocurre, dice cuánto dura: la casilla de sufijos se llena con <strong>間</strong>.</p>
+<table><thead><tr><th>Español</th><th>Japonés</th><th>Lectura</th></tr></thead><tbody><tr><td>3 horas</td><td>三時間</td><td>さんじかん</td></tr><tr><td>5 días</td><td>五日間</td><td>いつかかん</td></tr><tr><td>2 semanas</td><td>二週間</td><td>にしゅうかん</td></tr><tr><td>2 meses</td><td>二か月間</td><td>にかげつかん</td></tr><tr><td>4 años</td><td>四年間</td><td>よねんかん</td></tr></tbody></table>
+<p class="body-text"><strong>時間</strong> es literalmente <strong>時 + 間</strong>: la UT hora con su sufijo de duración. Frente al tipo calendario solo cambia la casilla de la derecha: <strong>九時</strong> (las nueve) / <strong>九時間</strong> (nueve horas).</p>
+<h3 class="section-title">⚠️ Atención (intervalo)</h3>
+<ul class="body-list"><li><strong>月 cambia de lectura.</strong> En calendario lee がつ (十月 = じゅうがつ); como duración usa el contador か (二か月 = にかげつ).</li><li><strong>日 conserva su lectura nativa.</strong> 五日間 = いつかかん, nunca ごにちかん.</li></ul>
+</section>
+<section id="iteracion-2" class="slide">
+  <h2 class="slide-title">Iteración 2: El tipo relativo</h2>
+  <p class="mission"><em>Misión: Situar una fecha respecto al ahora con las tres caras del tipo relativo.</em></p>
+  <h3 class="section-title">📐 Tipo relativo — <code>0..N prefijos | Numeral UT 0..N sufijos</code></h3>
+<p class="body-text">Es la única familia que <strong>mira al hablante</strong>: la fecha se mide desde el ahora. Tiene tres caras, y cada una rellena el molde a su manera.</p>
+<p class="body-text"><strong>A. Específicas — el molde está congelado.</strong> Son palabras hechas: ni numeral ni afijos se ven, pero dicen justo lo que diría el molde.</p>
+<table><thead><tr><th>Español</th><th>Japonés</th><th>Lectura</th></tr></thead><tbody><tr><td>hoy</td><td>今日</td><td>きょう</td></tr><tr><td>mañana</td><td>明日</td><td>あした</td></tr><tr><td>ayer</td><td>昨日</td><td>きのう</td></tr><tr><td>pasado mañana</td><td>明後日</td><td>あさって</td></tr><tr><td>el año pasado</td><td>去年</td><td>きょねん</td></tr></tbody></table>
+<p class="body-text"><strong>B. Prefijos 先・来・今 — la casilla del numeral queda vacía.</strong> El prefijo ya trae dentro la dirección temporal, así que el numeral no aparece.</p>
+<table><thead><tr><th>dirección</th><th>週</th><th>月</th><th>año</th></tr></thead><tbody><tr><td>先 (hacia atrás)</td><td>先週 せんしゅう</td><td>先月 せんげつ</td><td>—</td></tr><tr><td>今 (en el ahora)</td><td>今週 こんしゅう</td><td>今月 こんげつ</td><td>今年 ことし</td></tr><tr><td>来 (hacia delante)</td><td>来週 らいしゅう</td><td>来月 らいげつ</td><td>来年 らいねん</td></tr></tbody></table>
+<p class="body-text">⚠️ En lengua hablada no hay prefijo 先 para el año: el año pasado es <ruby>去年<rt>きょねん</rt></ruby>; <ruby>先年<rt>さくねん</rt></ruby> es de registro escrito.</p>
+<p class="body-text"><strong>C. Sufijo 前/後 sobre un intervalo — la base es el tipo intervalo.</strong> Los prefijos van vacíos y la casilla de sufijos se llena partiendo de una duración.</p>
+<table><thead><tr><th>Español</th><th>Japonés</th><th>Lectura</th></tr></thead><tbody><tr><td>hace tres días</td><td>三日前</td><td>みっかまえ</td></tr><tr><td>hace cuatro años</td><td>四年前</td><td>よねんまえ</td></tr><tr><td>dentro de tres horas</td><td>三時間後</td><td>さんじかんご</td></tr></tbody></table>
+<ul class="body-list"><li><strong>前 (まえ)</strong> — retrocede desde el ahora: <em>hace …</em></li><li><strong>後 (ご)</strong> — avanza desde el ahora: <em>dentro de … / … después</em></li></ul>
+<p class="body-text">🔗 Conexión — Esta cara es el tipo intervalo de la iteración 1 con un sufijo más: el núcleo <strong>Numeral UT + 間</strong> sigue idéntico y se le añade 前 o 後.</p>
+</section>
+<section id="iteracion-3" class="slide">
+  <h2 class="slide-title">Iteración 3: Resumen y glosario</h2>
+  <p class="mission"><em>Misión: Fijar el molde y los tres tipos en una sola vista.</em></p>
+  <h3 class="section-title">📌 Resumen</h3>
+<ul class="body-list"><li><strong>Molde único:</strong> <code>0..N prefijos | Numeral UT 0..N Sufijos</code>; solo Numeral + UT es obligatorio.</li><li><strong>UT:</strong> 時, 日, 週, 月, 年.</li><li><strong>Calendario</strong> (sin casillas exteriores): punto fijo → 九時, 十五日, 十月, 2026年.</li><li><strong>Intervalo</strong> (sufijo 間): duración → 三時間, 五日間, 二週間, 二か月間, 四年間.</li><li><strong>Relativo:</strong> específicas (今日, 明日, 昨日, 明後日, 去年) · prefijos 先・来・今 (先週, 来月, 今年) · intervalo + 前/後 (三日前, 四年前).</li><li><strong>Trampas:</strong> los días 1 a 10 tienen lectura propia · 月 lee がつ en calendario y か en duración · 4/7/9時 se leen よじ, しちじ y くじ.</li></ul>
+<h3 class="section-title">📖 Glosario de la lección</h3>
+<details>
+<summary>Ver términos nuevos</summary>
+<ul>
+  <li><strong>Unidad de tiempo (UT)</strong> — palabra fija que cierra el núcleo de una fecha: 時, 日, 週, 月, 年.</li>
+  <li><strong>Fecha de calendario</strong> — fecha sin prefijos ni sufijos: señala un punto fijo (九時, 十月).</li>
+  <li><strong>Intervalo</strong> — fecha con sufijo 間: mide duración, no momento (三時間).</li>
+  <li><strong>Fecha relativa</strong> — fecha medida desde el ahora: específica, con prefijo 先・来・今 o con sufijo 前/後.</li>
+  <li><strong><ruby>間<rt>かん</rt></ruby></strong> — sufijo que convierte una UT en duración.</li>
+  <li><strong><ruby>前<rt>まえ</rt></ruby></strong> — sufijo que retrocede en el tiempo desde el ahora.</li>
+  <li><strong><ruby>後<rt>ご</rt></ruby></strong> — sufijo que avanza en el tiempo desde el ahora.</li>
+  <li><strong>Prefijo deíctico</strong> — 先・来・今: anclan la UT al ahora sin numeral (先週, 来年).</li>
+</ul>
+</details>
+</section></div> </main> <footer class="bottom-nav"> <button id="prev-slide" class="nav-btn" disabled> <i data-lucide="chevron-left" width="16" height="16"></i> Anterior
+</button> <span id="slide-counter" class="slide-counter">1 / 3</span> <button id="next-slide" class="nav-btn">
+Siguiente <i data-lucide="chevron-right" width="16" height="16"></i> </button> </footer> <div class="license-badge"> <p>Contenido bajo <a href="/v0-jp-web/LICENSE.md" target="_blank">licencia copyleft</a>.</p> </div>  <script type="module" src="/v0-jp-web/_astro/_alias_.astro_astro_type_script_index_1_lang.CN6pKSHs.js"></script></body></html>
