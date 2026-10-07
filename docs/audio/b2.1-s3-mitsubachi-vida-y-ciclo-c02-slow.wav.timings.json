@@ -1,0 +1,282 @@
+{
+  "audio_file": "b2.1-s3-mitsubachi-vida-y-ciclo-c02-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 94035,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "第二章　なぜ花蜜がハチミツになるのか",
+      "start_ms": 0,
+      "end_ms": 3805,
+      "duration_ms": 3805,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "第二章　なぜ花蜜がハチミツになるのか",
+          "start_ms": 0,
+          "end_ms": 3805,
+          "duration_ms": 3805
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "がいきんばちがすに戻ってくると、集めたかみつをないきんばちに口移しで渡します。",
+      "start_ms": 4305,
+      "end_ms": 12583,
+      "duration_ms": 8278,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "がいきんばちがすに戻ってくると、",
+          "start_ms": 4305,
+          "end_ms": 7460,
+          "duration_ms": 3155
+        },
+        {
+          "index": 1,
+          "text": "集めたかみつをないきんばちに口移しで渡します。",
+          "start_ms": 7710,
+          "end_ms": 12583,
+          "duration_ms": 4873
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "このとき、がいきんばちがだえきの中に含むこうそが、かみつと混ざり始めます。",
+      "start_ms": 13083,
+      "end_ms": 21863,
+      "duration_ms": 8780,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "このとき、",
+          "start_ms": 13083,
+          "end_ms": 14589,
+          "duration_ms": 1506
+        },
+        {
+          "index": 1,
+          "text": "がいきんばちがだえきの中に含むこうそが、",
+          "start_ms": 14839,
+          "end_ms": 18737,
+          "duration_ms": 3898
+        },
+        {
+          "index": 2,
+          "text": "かみつと混ざり始めます。",
+          "start_ms": 18987,
+          "end_ms": 21863,
+          "duration_ms": 2876
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "このこうそが、かみつに含まれる複雑な糖を、消化しやすい形に分解していくのです。",
+      "start_ms": 22363,
+      "end_ms": 31875,
+      "duration_ms": 9512,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "このこうそが、",
+          "start_ms": 22363,
+          "end_ms": 24194,
+          "duration_ms": 1831
+        },
+        {
+          "index": 1,
+          "text": "かみつに含まれる複雑な糖を、",
+          "start_ms": 24444,
+          "end_ms": 27657,
+          "duration_ms": 3213
+        },
+        {
+          "index": 2,
+          "text": "消化しやすい形に分解していくのです。",
+          "start_ms": 27907,
+          "end_ms": 31875,
+          "duration_ms": 3968
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "ないきんばちはこのかみつを、すの中にあるろっかくけいの小さな部屋（ハニカム）に一滴ずつ詰めていきます。",
+      "start_ms": 32375,
+      "end_ms": 42057,
+      "duration_ms": 9682,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ないきんばちはこのかみつを、",
+          "start_ms": 32375,
+          "end_ms": 35425,
+          "duration_ms": 3050
+        },
+        {
+          "index": 1,
+          "text": "すの中にあるろっかくけいの小さな部屋（ハニカム）に一滴ずつ詰めていきます。",
+          "start_ms": 35675,
+          "end_ms": 42057,
+          "duration_ms": 6382
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "この時点のかみつは、すいぶんがたくさん含まれていて、まだサラサラしています。",
+      "start_ms": 42557,
+      "end_ms": 51047,
+      "duration_ms": 8490,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "この時点のかみつは、",
+          "start_ms": 42557,
+          "end_ms": 44969,
+          "duration_ms": 2412
+        },
+        {
+          "index": 1,
+          "text": "すいぶんがたくさん含まれていて、",
+          "start_ms": 45219,
+          "end_ms": 48304,
+          "duration_ms": 3085
+        },
+        {
+          "index": 2,
+          "text": "まだサラサラしています。",
+          "start_ms": 48554,
+          "end_ms": 51047,
+          "duration_ms": 2493
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "これではすぐに腐ってしまうはずだと考える人もいるでしょう。",
+      "start_ms": 51547,
+      "end_ms": 56954,
+      "duration_ms": 5407,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "これではすぐに腐ってしまうはずだと考える人もいるでしょう。",
+          "start_ms": 51547,
+          "end_ms": 56954,
+          "duration_ms": 5407
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "しかし、ミツバチたちは、すいぶんを減らす工夫をするからこそ、長く保存できるハチミツになると説明できます。",
+      "start_ms": 57454,
+      "end_ms": 70093,
+      "duration_ms": 12639,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "しかし、",
+          "start_ms": 57454,
+          "end_ms": 58949,
+          "duration_ms": 1495
+        },
+        {
+          "index": 1,
+          "text": "ミツバチたちは、",
+          "start_ms": 59199,
+          "end_ms": 61170,
+          "duration_ms": 1971
+        },
+        {
+          "index": 2,
+          "text": "すいぶんを減らす工夫をするからこそ、",
+          "start_ms": 61420,
+          "end_ms": 64784,
+          "duration_ms": 3364
+        },
+        {
+          "index": 3,
+          "text": "長く保存できるハチミツになると説明できます。",
+          "start_ms": 65034,
+          "end_ms": 70093,
+          "duration_ms": 5059
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "ないきんばちたちは、羽を激しくパタパタと動かしてすの中の空気を送ります。",
+      "start_ms": 70593,
+      "end_ms": 78755,
+      "duration_ms": 8162,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ないきんばちたちは、",
+          "start_ms": 70593,
+          "end_ms": 72761,
+          "duration_ms": 2168
+        },
+        {
+          "index": 1,
+          "text": "羽を激しくパタパタと動かしてすの中の空気を送ります。",
+          "start_ms": 73011,
+          "end_ms": 78755,
+          "duration_ms": 5744
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "その風によって、かみつの中のすいぶんが少しずつ蒸発していきます。",
+      "start_ms": 79255,
+      "end_ms": 86662,
+      "duration_ms": 7407,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "その風によって、",
+          "start_ms": 79255,
+          "end_ms": 81353,
+          "duration_ms": 2098
+        },
+        {
+          "index": 1,
+          "text": "かみつの中のすいぶんが少しずつ蒸発していきます。",
+          "start_ms": 81603,
+          "end_ms": 86662,
+          "duration_ms": 5059
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "こうしてぎょうしゅくが進むと、糖分の割合が高くなっていきます。",
+      "start_ms": 87162,
+      "end_ms": 94035,
+      "duration_ms": 6873,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "こうしてぎょうしゅくが進むと、",
+          "start_ms": 87162,
+          "end_ms": 90201,
+          "duration_ms": 3039
+        },
+        {
+          "index": 1,
+          "text": "糖分の割合が高くなっていきます。",
+          "start_ms": 90451,
+          "end_ms": 94035,
+          "duration_ms": 3584
+        }
+      ]
+    }
+  ]
+}
