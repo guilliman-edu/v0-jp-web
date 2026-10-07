@@ -1,8 +1,8 @@
 {
-  "audio_file": "b2.1-s9-mitsubachi-vida-y-ciclo-slow.wav",
+  "audio_file": "b2.1-s3-mitsubachi-vida-y-ciclo-slow.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 494616,
+  "total_duration_ms": 491401,
   "sentences": [
     {
       "index": 0,
@@ -24,378 +24,378 @@
       "index": 1,
       "text": "みなさんは、ハチミツがどうやってできるのか知っていますか。",
       "start_ms": 6244,
-      "end_ms": 12269,
-      "duration_ms": 6025,
+      "end_ms": 12352,
+      "duration_ms": 6108,
       "clauses": [
         {
           "index": 0,
           "text": "みなさんは、",
           "start_ms": 6244,
-          "end_ms": 7750,
-          "duration_ms": 1506
+          "end_ms": 7774,
+          "duration_ms": 1530
         },
         {
           "index": 1,
           "text": "ハチミツがどうやってできるのか知っていますか。",
-          "start_ms": 8000,
-          "end_ms": 12269,
-          "duration_ms": 4269
+          "start_ms": 8024,
+          "end_ms": 12352,
+          "duration_ms": 4328
         }
       ]
     },
     {
       "index": 2,
       "text": "「ミツバチが花のかみつを集めて作るもの」と思う人が多いかもしれません。",
-      "start_ms": 12769,
-      "end_ms": 18919,
+      "start_ms": 12852,
+      "end_ms": 19002,
       "duration_ms": 6150,
       "clauses": [
         {
           "index": 0,
           "text": "「ミツバチが花のかみつを集めて作るもの」と思う人が多いかもしれません。",
-          "start_ms": 12769,
-          "end_ms": 18919,
+          "start_ms": 12852,
+          "end_ms": 19002,
           "duration_ms": 6150
         }
       ]
     },
     {
       "index": 3,
-      "text": "しかし、かみつそのものがそのままハチミツになるわけではありません。",
-      "start_ms": 19419,
-      "end_ms": 26350,
-      "duration_ms": 6931,
+      "text": "しかし、かみつそのものがそのままハチミツになることはできません。",
+      "start_ms": 19502,
+      "end_ms": 26375,
+      "duration_ms": 6873,
       "clauses": [
         {
           "index": 0,
           "text": "しかし、",
-          "start_ms": 19419,
-          "end_ms": 20890,
+          "start_ms": 19502,
+          "end_ms": 20973,
           "duration_ms": 1471
         },
         {
           "index": 1,
-          "text": "かみつそのものがそのままハチミツになるわけではありません。",
-          "start_ms": 21140,
-          "end_ms": 26350,
-          "duration_ms": 5210
+          "text": "かみつそのものがそのままハチミツになることはできません。",
+          "start_ms": 21223,
+          "end_ms": 26375,
+          "duration_ms": 5152
         }
       ]
     },
     {
       "index": 4,
       "text": "かみつとハチミツは、性質も成分も少しずつ違っていくのです。",
-      "start_ms": 26850,
-      "end_ms": 33734,
-      "duration_ms": 6884,
+      "start_ms": 26875,
+      "end_ms": 33807,
+      "duration_ms": 6932,
       "clauses": [
         {
           "index": 0,
           "text": "かみつとハチミツは、",
-          "start_ms": 26850,
-          "end_ms": 29215,
-          "duration_ms": 2365
+          "start_ms": 26875,
+          "end_ms": 29229,
+          "duration_ms": 2354
         },
         {
           "index": 1,
           "text": "性質も成分も少しずつ違っていくのです。",
-          "start_ms": 29465,
-          "end_ms": 33734,
-          "duration_ms": 4269
+          "start_ms": 29479,
+          "end_ms": 33807,
+          "duration_ms": 4328
         }
       ]
     },
     {
       "index": 5,
       "text": "ハチミツ作りは、ミツバチたちの忙しい一日の中から始まります。",
-      "start_ms": 34234,
-      "end_ms": 41455,
-      "duration_ms": 7221,
+      "start_ms": 34307,
+      "end_ms": 41599,
+      "duration_ms": 7292,
       "clauses": [
         {
           "index": 0,
           "text": "ハチミツ作りは、",
-          "start_ms": 34234,
-          "end_ms": 36425,
-          "duration_ms": 2191
+          "start_ms": 34307,
+          "end_ms": 36487,
+          "duration_ms": 2180
         },
         {
           "index": 1,
           "text": "ミツバチたちの忙しい一日の中から始まります。",
-          "start_ms": 36675,
-          "end_ms": 41455,
-          "duration_ms": 4780
+          "start_ms": 36737,
+          "end_ms": 41599,
+          "duration_ms": 4862
         }
       ]
     },
     {
       "index": 6,
       "text": "朝早く、がいきんばちと呼ばれるはたらきばちたちは、すを飛び立って花を探しに出かけます。",
-      "start_ms": 41955,
-      "end_ms": 52176,
-      "duration_ms": 10221,
+      "start_ms": 42099,
+      "end_ms": 52239,
+      "duration_ms": 10140,
       "clauses": [
         {
           "index": 0,
           "text": "朝早く、",
-          "start_ms": 41955,
-          "end_ms": 43961,
+          "start_ms": 42099,
+          "end_ms": 44105,
           "duration_ms": 2006
         },
         {
           "index": 1,
           "text": "がいきんばちと呼ばれるはたらきばちたちは、",
-          "start_ms": 44211,
-          "end_ms": 47900,
-          "duration_ms": 3689
+          "start_ms": 44355,
+          "end_ms": 47998,
+          "duration_ms": 3643
         },
         {
           "index": 2,
           "text": "すを飛び立って花を探しに出かけます。",
-          "start_ms": 48150,
-          "end_ms": 52176,
-          "duration_ms": 4026
+          "start_ms": 48248,
+          "end_ms": 52239,
+          "duration_ms": 3991
         }
       ]
     },
     {
       "index": 7,
       "text": "彼らが目指すのは、甘いかみつと、タンパク源となるかふんです。",
-      "start_ms": 52676,
-      "end_ms": 60086,
-      "duration_ms": 7410,
+      "start_ms": 52739,
+      "end_ms": 60289,
+      "duration_ms": 7550,
       "clauses": [
         {
           "index": 0,
           "text": "彼らが目指すのは、",
-          "start_ms": 52676,
-          "end_ms": 54867,
-          "duration_ms": 2191
+          "start_ms": 52739,
+          "end_ms": 55000,
+          "duration_ms": 2261
         },
         {
           "index": 1,
           "text": "甘いかみつと、",
-          "start_ms": 55117,
-          "end_ms": 57018,
-          "duration_ms": 1901
+          "start_ms": 55250,
+          "end_ms": 57174,
+          "duration_ms": 1924
         },
         {
           "index": 2,
           "text": "タンパク源となるかふんです。",
-          "start_ms": 57268,
-          "end_ms": 60086,
-          "duration_ms": 2818
+          "start_ms": 57424,
+          "end_ms": 60289,
+          "duration_ms": 2865
         }
       ]
     },
     {
       "index": 8,
-      "text": "がいきんばちは、すから2〜3kmほど離れた場所まで飛び、1日に何度も花を訪れます。",
-      "start_ms": 60586,
-      "end_ms": 70458,
-      "duration_ms": 9872,
+      "text": "がいきんばちは、すから2〜3km離れた場所まで飛び、1日に何度も花を訪れます。",
+      "start_ms": 60789,
+      "end_ms": 70428,
+      "duration_ms": 9639,
       "clauses": [
         {
           "index": 0,
           "text": "がいきんばちは、",
-          "start_ms": 60586,
-          "end_ms": 62510,
+          "start_ms": 60789,
+          "end_ms": 62713,
           "duration_ms": 1924
         },
         {
           "index": 1,
-          "text": "すから2〜3kmほど離れた場所まで飛び、",
-          "start_ms": 62760,
-          "end_ms": 66565,
-          "duration_ms": 3805
+          "text": "すから2〜3km離れた場所まで飛び、",
+          "start_ms": 62963,
+          "end_ms": 66443,
+          "duration_ms": 3480
         },
         {
           "index": 2,
           "text": "1日に何度も花を訪れます。",
-          "start_ms": 66815,
-          "end_ms": 70458,
-          "duration_ms": 3643
+          "start_ms": 66693,
+          "end_ms": 70428,
+          "duration_ms": 3735
         }
       ]
     },
     {
       "index": 9,
       "text": "大切なかみつを集めるためには、自分の体重の半分近くもの重さを運ばなければなりません。",
-      "start_ms": 70958,
-      "end_ms": 80061,
-      "duration_ms": 9103,
+      "start_ms": 70928,
+      "end_ms": 80007,
+      "duration_ms": 9079,
       "clauses": [
         {
           "index": 0,
           "text": "大切なかみつを集めるためには、",
-          "start_ms": 70958,
-          "end_ms": 74299,
-          "duration_ms": 3341
+          "start_ms": 70928,
+          "end_ms": 74257,
+          "duration_ms": 3329
         },
         {
           "index": 1,
           "text": "自分の体重の半分近くもの重さを運ばなければなりません。",
-          "start_ms": 74549,
-          "end_ms": 80061,
-          "duration_ms": 5512
+          "start_ms": 74507,
+          "end_ms": 80007,
+          "duration_ms": 5500
         }
       ]
     },
     {
       "index": 10,
       "text": "そのため、経験を積んだ年配のがいきんばちがこの仕事を担当するのがふつうです。",
-      "start_ms": 80561,
-      "end_ms": 88653,
-      "duration_ms": 8092,
+      "start_ms": 80507,
+      "end_ms": 88704,
+      "duration_ms": 8197,
       "clauses": [
         {
           "index": 0,
           "text": "そのため、",
-          "start_ms": 80561,
-          "end_ms": 82079,
-          "duration_ms": 1518
+          "start_ms": 80507,
+          "end_ms": 82060,
+          "duration_ms": 1553
         },
         {
           "index": 1,
           "text": "経験を積んだ年配のがいきんばちがこの仕事を担当するのがふつうです。",
-          "start_ms": 82329,
-          "end_ms": 88653,
-          "duration_ms": 6324
+          "start_ms": 82310,
+          "end_ms": 88704,
+          "duration_ms": 6394
         }
       ]
     },
     {
       "index": 11,
       "text": "がいきんばちがすに戻ってくると、集めたかみつをないきんばちに口移しで渡します。",
-      "start_ms": 89153,
-      "end_ms": 97349,
-      "duration_ms": 8196,
+      "start_ms": 89204,
+      "end_ms": 97680,
+      "duration_ms": 8476,
       "clauses": [
         {
           "index": 0,
           "text": "がいきんばちがすに戻ってくると、",
-          "start_ms": 89153,
-          "end_ms": 92261,
-          "duration_ms": 3108
+          "start_ms": 89204,
+          "end_ms": 92359,
+          "duration_ms": 3155
         },
         {
           "index": 1,
           "text": "集めたかみつをないきんばちに口移しで渡します。",
-          "start_ms": 92511,
-          "end_ms": 97349,
-          "duration_ms": 4838
+          "start_ms": 92609,
+          "end_ms": 97680,
+          "duration_ms": 5071
         }
       ]
     },
     {
       "index": 12,
       "text": "このとき、がいきんばちがだえきの中に含むこうそが、かみつと混ざり始めます。",
-      "start_ms": 97849,
-      "end_ms": 106571,
-      "duration_ms": 8722,
+      "start_ms": 98180,
+      "end_ms": 106914,
+      "duration_ms": 8734,
       "clauses": [
         {
           "index": 0,
           "text": "このとき、",
-          "start_ms": 97849,
-          "end_ms": 99390,
-          "duration_ms": 1541
+          "start_ms": 98180,
+          "end_ms": 99686,
+          "duration_ms": 1506
         },
         {
           "index": 1,
           "text": "がいきんばちがだえきの中に含むこうそが、",
-          "start_ms": 99640,
-          "end_ms": 103561,
-          "duration_ms": 3921
+          "start_ms": 99936,
+          "end_ms": 103753,
+          "duration_ms": 3817
         },
         {
           "index": 2,
           "text": "かみつと混ざり始めます。",
-          "start_ms": 103811,
-          "end_ms": 106571,
-          "duration_ms": 2760
+          "start_ms": 104003,
+          "end_ms": 106914,
+          "duration_ms": 2911
         }
       ]
     },
     {
       "index": 13,
       "text": "このこうそが、かみつに含まれる複雑な糖を、消化しやすい形に分解していくのです。",
-      "start_ms": 107071,
-      "end_ms": 116514,
-      "duration_ms": 9443,
+      "start_ms": 107414,
+      "end_ms": 116926,
+      "duration_ms": 9512,
       "clauses": [
         {
           "index": 0,
           "text": "このこうそが、",
-          "start_ms": 107071,
-          "end_ms": 108868,
-          "duration_ms": 1797
+          "start_ms": 107414,
+          "end_ms": 109222,
+          "duration_ms": 1808
         },
         {
           "index": 1,
           "text": "かみつに含まれる複雑な糖を、",
-          "start_ms": 109118,
-          "end_ms": 112343,
-          "duration_ms": 3225
+          "start_ms": 109472,
+          "end_ms": 112708,
+          "duration_ms": 3236
         },
         {
           "index": 2,
           "text": "消化しやすい形に分解していくのです。",
-          "start_ms": 112593,
-          "end_ms": 116514,
-          "duration_ms": 3921
+          "start_ms": 112958,
+          "end_ms": 116926,
+          "duration_ms": 3968
         }
       ]
     },
     {
       "index": 14,
       "text": "ないきんばちはこのかみつを、すの中にあるろっかくけいの小さな部屋（ハニカム）に一滴ずつ詰めていきます。",
-      "start_ms": 117014,
-      "end_ms": 126511,
-      "duration_ms": 9497,
+      "start_ms": 117426,
+      "end_ms": 127167,
+      "duration_ms": 9741,
       "clauses": [
         {
           "index": 0,
           "text": "ないきんばちはこのかみつを、",
-          "start_ms": 117014,
-          "end_ms": 119960,
-          "duration_ms": 2946
+          "start_ms": 117426,
+          "end_ms": 120500,
+          "duration_ms": 3074
         },
         {
           "index": 1,
           "text": "すの中にあるろっかくけいの小さな部屋（ハニカム）に一滴ずつ詰めていきます。",
-          "start_ms": 120210,
-          "end_ms": 126511,
-          "duration_ms": 6301
+          "start_ms": 120750,
+          "end_ms": 127167,
+          "duration_ms": 6417
         }
       ]
     },
     {
       "index": 15,
       "text": "この時点のかみつは、すいぶんがたくさん含まれていて、まだサラサラしています。",
-      "start_ms": 127011,
-      "end_ms": 135478,
-      "duration_ms": 8467,
+      "start_ms": 127667,
+      "end_ms": 136181,
+      "duration_ms": 8514,
       "clauses": [
         {
           "index": 0,
           "text": "この時点のかみつは、",
-          "start_ms": 127011,
-          "end_ms": 129423,
-          "duration_ms": 2412
+          "start_ms": 127667,
+          "end_ms": 130044,
+          "duration_ms": 2377
         },
         {
           "index": 1,
           "text": "すいぶんがたくさん含まれていて、",
-          "start_ms": 129673,
-          "end_ms": 132723,
-          "duration_ms": 3050
+          "start_ms": 130294,
+          "end_ms": 133426,
+          "duration_ms": 3132
         },
         {
           "index": 2,
           "text": "まだサラサラしています。",
-          "start_ms": 132973,
-          "end_ms": 135478,
+          "start_ms": 133676,
+          "end_ms": 136181,
           "duration_ms": 2505
         }
       ]
@@ -403,968 +403,982 @@
     {
       "index": 16,
       "text": "これではすぐに腐ってしまうはずだと考える人もいるでしょう。",
-      "start_ms": 135978,
-      "end_ms": 141490,
-      "duration_ms": 5512,
+      "start_ms": 136681,
+      "end_ms": 142146,
+      "duration_ms": 5465,
       "clauses": [
         {
           "index": 0,
           "text": "これではすぐに腐ってしまうはずだと考える人もいるでしょう。",
-          "start_ms": 135978,
-          "end_ms": 141490,
-          "duration_ms": 5512
+          "start_ms": 136681,
+          "end_ms": 142146,
+          "duration_ms": 5465
         }
       ]
     },
     {
       "index": 17,
-      "text": "しかし、ミツバチたちは、すいぶんを減らす工夫をするからこそ、長く保存できるハチミツになるわけだと説明できます。",
-      "start_ms": 141990,
-      "end_ms": 154767,
-      "duration_ms": 12777,
+      "text": "しかし、ミツバチたちは、すいぶんを減らす工夫をするからこそ、長く保存できるハチミツになると説明できます。",
+      "start_ms": 142646,
+      "end_ms": 155110,
+      "duration_ms": 12464,
       "clauses": [
         {
           "index": 0,
           "text": "しかし、",
-          "start_ms": 141990,
-          "end_ms": 143427,
-          "duration_ms": 1437
+          "start_ms": 142646,
+          "end_ms": 144001,
+          "duration_ms": 1355
         },
         {
           "index": 1,
           "text": "ミツバチたちは、",
-          "start_ms": 143677,
-          "end_ms": 145636,
-          "duration_ms": 1959
+          "start_ms": 144251,
+          "end_ms": 146187,
+          "duration_ms": 1936
         },
         {
           "index": 2,
           "text": "すいぶんを減らす工夫をするからこそ、",
-          "start_ms": 145886,
-          "end_ms": 149296,
-          "duration_ms": 3410
+          "start_ms": 146437,
+          "end_ms": 149813,
+          "duration_ms": 3376
         },
         {
           "index": 3,
-          "text": "長く保存できるハチミツになるわけだと説明できます。",
-          "start_ms": 149546,
-          "end_ms": 154767,
-          "duration_ms": 5221
+          "text": "長く保存できるハチミツになると説明できます。",
+          "start_ms": 150063,
+          "end_ms": 155110,
+          "duration_ms": 5047
         }
       ]
     },
     {
       "index": 18,
       "text": "ないきんばちたちは、羽を激しくパタパタと動かしてすの中の空気を送ります。",
-      "start_ms": 155267,
-      "end_ms": 163382,
-      "duration_ms": 8115,
+      "start_ms": 155610,
+      "end_ms": 163772,
+      "duration_ms": 8162,
       "clauses": [
         {
           "index": 0,
           "text": "ないきんばちたちは、",
-          "start_ms": 155267,
-          "end_ms": 157458,
-          "duration_ms": 2191
+          "start_ms": 155610,
+          "end_ms": 157790,
+          "duration_ms": 2180
         },
         {
           "index": 1,
           "text": "羽を激しくパタパタと動かしてすの中の空気を送ります。",
-          "start_ms": 157708,
-          "end_ms": 163382,
-          "duration_ms": 5674
+          "start_ms": 158040,
+          "end_ms": 163772,
+          "duration_ms": 5732
         }
       ]
     },
     {
       "index": 19,
       "text": "その風によって、かみつの中のすいぶんが少しずつ蒸発していきます。",
-      "start_ms": 163882,
-      "end_ms": 171336,
-      "duration_ms": 7454,
+      "start_ms": 164272,
+      "end_ms": 171622,
+      "duration_ms": 7350,
       "clauses": [
         {
           "index": 0,
           "text": "その風によって、",
-          "start_ms": 163882,
-          "end_ms": 165992,
-          "duration_ms": 2110
+          "start_ms": 164272,
+          "end_ms": 166359,
+          "duration_ms": 2087
         },
         {
           "index": 1,
           "text": "かみつの中のすいぶんが少しずつ蒸発していきます。",
-          "start_ms": 166242,
-          "end_ms": 171336,
-          "duration_ms": 5094
+          "start_ms": 166609,
+          "end_ms": 171622,
+          "duration_ms": 5013
         }
       ]
     },
     {
       "index": 20,
-      "text": "こうしてぎょうしゅくが進むと、糖分の割合が高くなっていくわけです。",
-      "start_ms": 171836,
-      "end_ms": 178860,
-      "duration_ms": 7024,
+      "text": "こうしてぎょうしゅくが進むと、糖分の割合が高くなっていきます。",
+      "start_ms": 172122,
+      "end_ms": 178845,
+      "duration_ms": 6723,
       "clauses": [
         {
           "index": 0,
           "text": "こうしてぎょうしゅくが進むと、",
-          "start_ms": 171836,
-          "end_ms": 174712,
-          "duration_ms": 2876
+          "start_ms": 172122,
+          "end_ms": 175045,
+          "duration_ms": 2923
         },
         {
           "index": 1,
-          "text": "糖分の割合が高くなっていくわけです。",
-          "start_ms": 174962,
-          "end_ms": 178860,
-          "duration_ms": 3898
+          "text": "糖分の割合が高くなっていきます。",
+          "start_ms": 175295,
+          "end_ms": 178845,
+          "duration_ms": 3550
         }
       ]
     },
     {
       "index": 21,
-      "text": "かみつのすいぶん量が20％くらいまで下がると、ないきんばちはそのハニカムにみつろうというすそのものを作るためのロウでふたをします。",
-      "start_ms": 179360,
-      "end_ms": 191121,
-      "duration_ms": 11761,
+      "text": "かみつのすいぶん量が20％まで下がると、ないきんばちはそのハニカムにみつろうというすそのものを作るためのロウでふたをします。",
+      "start_ms": 179345,
+      "end_ms": 190757,
+      "duration_ms": 11412,
       "clauses": [
         {
           "index": 0,
-          "text": "かみつのすいぶん量が20％くらいまで下がると、",
-          "start_ms": 179360,
-          "end_ms": 183467,
-          "duration_ms": 4107
+          "text": "かみつのすいぶん量が20％まで下がると、",
+          "start_ms": 179345,
+          "end_ms": 183080,
+          "duration_ms": 3735
         },
         {
           "index": 1,
           "text": "ないきんばちはそのハニカムにみつろうというすそのものを作るためのロウでふたをします。",
-          "start_ms": 183717,
-          "end_ms": 191121,
-          "duration_ms": 7404
+          "start_ms": 183330,
+          "end_ms": 190757,
+          "duration_ms": 7427
         }
       ]
     },
     {
       "index": 22,
-      "text": "これは、外の空気に触れさせないための大切な作業です。",
-      "start_ms": 191621,
-      "end_ms": 197960,
-      "duration_ms": 6339,
+      "text": "これは、外の空気に触れないための大切な作業です。",
+      "start_ms": 191257,
+      "end_ms": 197179,
+      "duration_ms": 5922,
       "clauses": [
         {
           "index": 0,
           "text": "これは、",
-          "start_ms": 191621,
-          "end_ms": 192756,
-          "duration_ms": 1135
+          "start_ms": 191257,
+          "end_ms": 192427,
+          "duration_ms": 1170
         },
         {
           "index": 1,
-          "text": "外の空気に触れさせないための大切な作業です。",
-          "start_ms": 193006,
-          "end_ms": 197960,
-          "duration_ms": 4954
+          "text": "外の空気に触れないための大切な作業です。",
+          "start_ms": 192677,
+          "end_ms": 197179,
+          "duration_ms": 4502
         }
       ]
     },
     {
       "index": 23,
       "text": "ふたをしたあとは、しばらくじゅくせいの時間が続きます。",
-      "start_ms": 198460,
-      "end_ms": 204114,
-      "duration_ms": 5654,
+      "start_ms": 197679,
+      "end_ms": 203344,
+      "duration_ms": 5665,
       "clauses": [
         {
           "index": 0,
           "text": "ふたをしたあとは、",
-          "start_ms": 198460,
-          "end_ms": 200419,
-          "duration_ms": 1959
+          "start_ms": 197679,
+          "end_ms": 199626,
+          "duration_ms": 1947
         },
         {
           "index": 1,
           "text": "しばらくじゅくせいの時間が続きます。",
-          "start_ms": 200669,
-          "end_ms": 204114,
-          "duration_ms": 3445
+          "start_ms": 199876,
+          "end_ms": 203344,
+          "duration_ms": 3468
         }
       ]
     },
     {
       "index": 24,
-      "text": "こうそがさらに働き、糖の構造が安定していくにつれて、香りや色、ねっとりとした感触が生まれていきます。",
-      "start_ms": 204614,
-      "end_ms": 217299,
-      "duration_ms": 12685,
+      "text": "こうそがさらに働き、糖の構造が安定していくと、香りや色、ねっとりとした感触が生まれていきます。",
+      "start_ms": 203844,
+      "end_ms": 215867,
+      "duration_ms": 12023,
       "clauses": [
         {
           "index": 0,
           "text": "こうそがさらに働き、",
-          "start_ms": 204614,
-          "end_ms": 207177,
-          "duration_ms": 2563
+          "start_ms": 203844,
+          "end_ms": 206395,
+          "duration_ms": 2551
         },
         {
           "index": 1,
-          "text": "糖の構造が安定していくにつれて、",
-          "start_ms": 207427,
-          "end_ms": 211162,
-          "duration_ms": 3735
+          "text": "糖の構造が安定していくと、",
+          "start_ms": 206645,
+          "end_ms": 209730,
+          "duration_ms": 3085
         },
         {
           "index": 2,
           "text": "香りや色、",
-          "start_ms": 211412,
-          "end_ms": 213174,
-          "duration_ms": 1762
+          "start_ms": 209980,
+          "end_ms": 211777,
+          "duration_ms": 1797
         },
         {
           "index": 3,
           "text": "ねっとりとした感触が生まれていきます。",
-          "start_ms": 213424,
-          "end_ms": 217299,
-          "duration_ms": 3875
+          "start_ms": 212027,
+          "end_ms": 215867,
+          "duration_ms": 3840
         }
       ]
     },
     {
       "index": 25,
       "text": "こうして、かみつは本当のハチミツへと変わっていくのです。",
-      "start_ms": 217799,
-      "end_ms": 223953,
-      "duration_ms": 6154,
+      "start_ms": 216367,
+      "end_ms": 222544,
+      "duration_ms": 6177,
       "clauses": [
         {
           "index": 0,
           "text": "こうして、",
-          "start_ms": 217799,
-          "end_ms": 219201,
-          "duration_ms": 1402
+          "start_ms": 216367,
+          "end_ms": 217757,
+          "duration_ms": 1390
         },
         {
           "index": 1,
           "text": "かみつは本当のハチミツへと変わっていくのです。",
-          "start_ms": 219451,
-          "end_ms": 223953,
-          "duration_ms": 4502
+          "start_ms": 218007,
+          "end_ms": 222544,
+          "duration_ms": 4537
         }
       ]
     },
     {
       "index": 26,
       "text": "自然の中では、糖分が高くなりすぎた液体は、簡単には腐りません。",
-      "start_ms": 224453,
-      "end_ms": 232850,
-      "duration_ms": 8397,
+      "start_ms": 223044,
+      "end_ms": 231430,
+      "duration_ms": 8386,
       "clauses": [
         {
           "index": 0,
           "text": "自然の中では、",
-          "start_ms": 224453,
-          "end_ms": 226528,
-          "duration_ms": 2075
+          "start_ms": 223044,
+          "end_ms": 225131,
+          "duration_ms": 2087
         },
         {
           "index": 1,
           "text": "糖分が高くなりすぎた液体は、",
-          "start_ms": 226778,
-          "end_ms": 230084,
-          "duration_ms": 3306
+          "start_ms": 225381,
+          "end_ms": 228722,
+          "duration_ms": 3341
         },
         {
           "index": 2,
           "text": "簡単には腐りません。",
-          "start_ms": 230334,
-          "end_ms": 232850,
-          "duration_ms": 2516
+          "start_ms": 228972,
+          "end_ms": 231430,
+          "duration_ms": 2458
         }
       ]
     },
     {
       "index": 27,
-      "text": "ハチミツがあのとろりとした状態を保ちながら長い間保存できるのは、すいぶんが極端に少なくなっているからこその性質なわけだと言えるでしょう。",
-      "start_ms": 233350,
-      "end_ms": 246516,
-      "duration_ms": 13166,
+      "text": "ハチミツがあのとろりとした状態で長い間保存できるのは、すいぶんが極端に少なくなっているからこそだと言えるでしょう。",
+      "start_ms": 231930,
+      "end_ms": 243216,
+      "duration_ms": 11286,
       "clauses": [
         {
           "index": 0,
-          "text": "ハチミツがあのとろりとした状態を保ちながら長い間保存できるのは、",
-          "start_ms": 233350,
-          "end_ms": 239663,
-          "duration_ms": 6313
+          "text": "ハチミツがあのとろりとした状態で長い間保存できるのは、",
+          "start_ms": 231930,
+          "end_ms": 237477,
+          "duration_ms": 5547
         },
         {
           "index": 1,
-          "text": "すいぶんが極端に少なくなっているからこその性質なわけだと言えるでしょう。",
-          "start_ms": 239913,
-          "end_ms": 246516,
-          "duration_ms": 6603
+          "text": "すいぶんが極端に少なくなっているからこそだと言えるでしょう。",
+          "start_ms": 237727,
+          "end_ms": 243216,
+          "duration_ms": 5489
         }
       ]
     },
     {
       "index": 28,
       "text": "つまり、ハチミツは「保存のためにミツバチたちが作り上げた食料」とも言えるのです。",
-      "start_ms": 247016,
-      "end_ms": 254969,
-      "duration_ms": 7953,
+      "start_ms": 243716,
+      "end_ms": 251715,
+      "duration_ms": 7999,
       "clauses": [
         {
           "index": 0,
           "text": "つまり、",
-          "start_ms": 247016,
-          "end_ms": 248406,
-          "duration_ms": 1390
+          "start_ms": 243716,
+          "end_ms": 245071,
+          "duration_ms": 1355
         },
         {
           "index": 1,
           "text": "ハチミツは「保存のためにミツバチたちが作り上げた食料」とも言えるのです。",
-          "start_ms": 248656,
-          "end_ms": 254969,
-          "duration_ms": 6313
+          "start_ms": 245321,
+          "end_ms": 251715,
+          "duration_ms": 6394
         }
       ]
     },
     {
       "index": 29,
       "text": "ハチミツが作られる背景には、ミツバチたちの緻密な分担があります。",
-      "start_ms": 255469,
-      "end_ms": 262482,
-      "duration_ms": 7013,
+      "start_ms": 252215,
+      "end_ms": 259309,
+      "duration_ms": 7094,
       "clauses": [
         {
           "index": 0,
           "text": "ハチミツが作られる背景には、",
-          "start_ms": 255469,
-          "end_ms": 258531,
-          "duration_ms": 3062
+          "start_ms": 252215,
+          "end_ms": 255312,
+          "duration_ms": 3097
         },
         {
           "index": 1,
           "text": "ミツバチたちの緻密な分担があります。",
-          "start_ms": 258781,
-          "end_ms": 262482,
-          "duration_ms": 3701
+          "start_ms": 255562,
+          "end_ms": 259309,
+          "duration_ms": 3747
         }
       ]
     },
     {
       "index": 30,
       "text": "すを支えるのは、ほとんどがはたらきばちです。",
-      "start_ms": 262982,
-      "end_ms": 268091,
-      "duration_ms": 5109,
+      "start_ms": 259809,
+      "end_ms": 264999,
+      "duration_ms": 5190,
       "clauses": [
         {
           "index": 0,
           "text": "すを支えるのは、",
-          "start_ms": 262982,
-          "end_ms": 265092,
-          "duration_ms": 2110
+          "start_ms": 259809,
+          "end_ms": 261931,
+          "duration_ms": 2122
         },
         {
           "index": 1,
           "text": "ほとんどがはたらきばちです。",
-          "start_ms": 265342,
-          "end_ms": 268091,
-          "duration_ms": 2749
+          "start_ms": 262181,
+          "end_ms": 264999,
+          "duration_ms": 2818
         }
       ]
     },
     {
       "index": 31,
       "text": "その中でも、じょおうばちはひたすら卵を産む仕事に専念し、はたらきばちたちは年齢によって仕事を変えていきます。",
-      "start_ms": 268591,
-      "end_ms": 280576,
-      "duration_ms": 11985,
+      "start_ms": 265499,
+      "end_ms": 277426,
+      "duration_ms": 11927,
       "clauses": [
         {
           "index": 0,
           "text": "その中でも、",
-          "start_ms": 268591,
-          "end_ms": 270434,
-          "duration_ms": 1843
+          "start_ms": 265499,
+          "end_ms": 267365,
+          "duration_ms": 1866
         },
         {
           "index": 1,
           "text": "じょおうばちはひたすら卵を産む仕事に専念し、",
-          "start_ms": 270684,
-          "end_ms": 275197,
-          "duration_ms": 4513
+          "start_ms": 267615,
+          "end_ms": 272163,
+          "duration_ms": 4548
         },
         {
           "index": 2,
           "text": "はたらきばちたちは年齢によって仕事を変えていきます。",
-          "start_ms": 275447,
-          "end_ms": 280576,
-          "duration_ms": 5129
+          "start_ms": 272413,
+          "end_ms": 277426,
+          "duration_ms": 5013
         }
       ]
     },
     {
       "index": 32,
       "text": "生まれたばかりのはたらきばちは、最初にすの掃除をします。",
-      "start_ms": 281076,
-      "end_ms": 287508,
-      "duration_ms": 6432,
+      "start_ms": 277926,
+      "end_ms": 284381,
+      "duration_ms": 6455,
       "clauses": [
         {
           "index": 0,
           "text": "生まれたばかりのはたらきばちは、",
-          "start_ms": 281076,
-          "end_ms": 284405,
-          "duration_ms": 3329
+          "start_ms": 277926,
+          "end_ms": 281278,
+          "duration_ms": 3352
         },
         {
           "index": 1,
           "text": "最初にすの掃除をします。",
-          "start_ms": 284655,
-          "end_ms": 287508,
+          "start_ms": 281528,
+          "end_ms": 284381,
           "duration_ms": 2853
         }
       ]
     },
     {
       "index": 33,
-      "text": "次に、育てている幼虫の世話や、みつろうを使ってろっかくけいのハニカムを作るなど、ないきんばちとしてすの中の仕事をこなしていきます。",
-      "start_ms": 288008,
-      "end_ms": 302214,
-      "duration_ms": 14206,
+      "text": "次に、育てている幼虫の世話や、みつろうを使ってろっかくけいのハニカムを作るなど、ないきんばちの仕事をこなしていきます。",
+      "start_ms": 284881,
+      "end_ms": 297995,
+      "duration_ms": 13114,
       "clauses": [
         {
           "index": 0,
           "text": "次に、",
-          "start_ms": 288008,
-          "end_ms": 289433,
+          "start_ms": 284881,
+          "end_ms": 286306,
           "duration_ms": 1425
         },
         {
           "index": 1,
           "text": "育てている幼虫の世話や、",
-          "start_ms": 289683,
-          "end_ms": 292594,
-          "duration_ms": 2911
+          "start_ms": 286556,
+          "end_ms": 289444,
+          "duration_ms": 2888
         },
         {
           "index": 2,
           "text": "みつろうを使ってろっかくけいのハニカムを作るなど、",
-          "start_ms": 292844,
-          "end_ms": 297381,
-          "duration_ms": 4537
+          "start_ms": 289694,
+          "end_ms": 294207,
+          "duration_ms": 4513
         },
         {
           "index": 3,
-          "text": "ないきんばちとしてすの中の仕事をこなしていきます。",
-          "start_ms": 297631,
-          "end_ms": 302214,
-          "duration_ms": 4583
+          "text": "ないきんばちの仕事をこなしていきます。",
+          "start_ms": 294457,
+          "end_ms": 297995,
+          "duration_ms": 3538
         }
       ]
     },
     {
       "index": 34,
-      "text": "そして生後20日ほどになると、外に出てかみつやかふんを集めるがいきんばちへと役割が変わります。",
-      "start_ms": 302714,
-      "end_ms": 312595,
-      "duration_ms": 9881,
+      "text": "そして生後20日になると、外に出てかみつやかふんを集めるがいきんばちに役割が変わります。",
+      "start_ms": 298495,
+      "end_ms": 308027,
+      "duration_ms": 9532,
       "clauses": [
         {
           "index": 0,
-          "text": "そして生後20日ほどになると、",
-          "start_ms": 302714,
-          "end_ms": 305939,
-          "duration_ms": 3225
+          "text": "そして生後20日になると、",
+          "start_ms": 298495,
+          "end_ms": 301441,
+          "duration_ms": 2946
         },
         {
           "index": 1,
-          "text": "外に出てかみつやかふんを集めるがいきんばちへと役割が変わります。",
-          "start_ms": 306189,
-          "end_ms": 312595,
-          "duration_ms": 6406
+          "text": "外に出てかみつやかふんを集めるがいきんばちに役割が変わります。",
+          "start_ms": 301691,
+          "end_ms": 308027,
+          "duration_ms": 6336
         }
       ]
     },
     {
       "index": 35,
-      "text": "がいきんばちの一生は、外で働き始めてから約10日間ほどだと言われています。",
-      "start_ms": 313095,
-      "end_ms": 321280,
-      "duration_ms": 8185,
+      "text": "がいきんばちの一生は、外で働き始めてから約10日間だと言われています。",
+      "start_ms": 308527,
+      "end_ms": 316468,
+      "duration_ms": 7941,
       "clauses": [
         {
           "index": 0,
           "text": "がいきんばちの一生は、",
-          "start_ms": 313095,
-          "end_ms": 315507,
-          "duration_ms": 2412
+          "start_ms": 308527,
+          "end_ms": 311020,
+          "duration_ms": 2493
         },
         {
           "index": 1,
-          "text": "外で働き始めてから約10日間ほどだと言われています。",
-          "start_ms": 315757,
-          "end_ms": 321280,
-          "duration_ms": 5523
+          "text": "外で働き始めてから約10日間だと言われています。",
+          "start_ms": 311270,
+          "end_ms": 316468,
+          "duration_ms": 5198
         }
       ]
     },
     {
       "index": 36,
       "text": "危険な外の世界で懸命に働いたあと、短い生涯を終えていくのです。",
-      "start_ms": 321780,
-      "end_ms": 329408,
-      "duration_ms": 7628,
+      "start_ms": 316968,
+      "end_ms": 324642,
+      "duration_ms": 7674,
       "clauses": [
         {
           "index": 0,
           "text": "危険な外の世界で懸命に働いたあと、",
-          "start_ms": 321780,
-          "end_ms": 325899,
-          "duration_ms": 4119
+          "start_ms": 316968,
+          "end_ms": 321063,
+          "duration_ms": 4095
         },
         {
           "index": 1,
           "text": "短い生涯を終えていくのです。",
-          "start_ms": 326149,
-          "end_ms": 329408,
-          "duration_ms": 3259
+          "start_ms": 321313,
+          "end_ms": 324642,
+          "duration_ms": 3329
         }
       ]
     },
     {
       "index": 37,
-      "text": "このように、1匹1匹が自分の役割を果たすからこそ、す全体がうまく回り、ハチミツも作られていくわけだと考えられます。",
-      "start_ms": 329908,
-      "end_ms": 344078,
-      "duration_ms": 14170,
+      "text": "このように、1匹1匹が自分の役割を果たすからこそ、す全体がうまく回り、ハチミツも作られていくのだと考えられます。",
+      "start_ms": 325142,
+      "end_ms": 338919,
+      "duration_ms": 13777,
       "clauses": [
         {
           "index": 0,
           "text": "このように、",
-          "start_ms": 329908,
-          "end_ms": 331472,
-          "duration_ms": 1564
+          "start_ms": 325142,
+          "end_ms": 326730,
+          "duration_ms": 1588
         },
         {
           "index": 1,
           "text": "1匹1匹が自分の役割を果たすからこそ、",
-          "start_ms": 331722,
-          "end_ms": 336711,
-          "duration_ms": 4989
+          "start_ms": 326980,
+          "end_ms": 331772,
+          "duration_ms": 4792
         },
         {
           "index": 2,
           "text": "す全体がうまく回り、",
-          "start_ms": 336961,
-          "end_ms": 339570,
-          "duration_ms": 2609
+          "start_ms": 332022,
+          "end_ms": 334620,
+          "duration_ms": 2598
         },
         {
           "index": 3,
-          "text": "ハチミツも作られていくわけだと考えられます。",
-          "start_ms": 339820,
-          "end_ms": 344078,
-          "duration_ms": 4258
+          "text": "ハチミツも作られていくのだと考えられます。",
+          "start_ms": 334870,
+          "end_ms": 338919,
+          "duration_ms": 4049
         }
       ]
     },
     {
       "index": 38,
       "text": "ミツバチたちが長い時間をかけて作り上げたハチミツは、すの中で大切に蓄えられています。",
-      "start_ms": 344578,
-      "end_ms": 353715,
-      "duration_ms": 9137,
+      "start_ms": 339419,
+      "end_ms": 348509,
+      "duration_ms": 9090,
       "clauses": [
         {
           "index": 0,
           "text": "ミツバチたちが長い時間をかけて作り上げたハチミツは、",
-          "start_ms": 344578,
-          "end_ms": 349718,
-          "duration_ms": 5140
+          "start_ms": 339419,
+          "end_ms": 344466,
+          "duration_ms": 5047
         },
         {
           "index": 1,
           "text": "すの中で大切に蓄えられています。",
-          "start_ms": 349968,
-          "end_ms": 353715,
-          "duration_ms": 3747
+          "start_ms": 344716,
+          "end_ms": 348509,
+          "duration_ms": 3793
         }
       ]
     },
     {
       "index": 39,
-      "text": "養蜂家は、ミツバチたちが冬を越すのに必要な分を残しながら、余ったハチミツだけをさいみつしていきます。",
-      "start_ms": 354215,
-      "end_ms": 365503,
-      "duration_ms": 11288,
+      "text": "養蜂家は、ミツバチたちが冬を越すのに必要な分を残し、余ったハチミツだけをさいみつしていきます。",
+      "start_ms": 349009,
+      "end_ms": 360100,
+      "duration_ms": 11091,
       "clauses": [
         {
           "index": 0,
           "text": "養蜂家は、",
-          "start_ms": 354215,
-          "end_ms": 355930,
-          "duration_ms": 1715
+          "start_ms": 349009,
+          "end_ms": 350806,
+          "duration_ms": 1797
         },
         {
           "index": 1,
-          "text": "ミツバチたちが冬を越すのに必要な分を残しながら、",
-          "start_ms": 356180,
-          "end_ms": 361018,
-          "duration_ms": 4838
+          "text": "ミツバチたちが冬を越すのに必要な分を残し、",
+          "start_ms": 351056,
+          "end_ms": 355581,
+          "duration_ms": 4525
         },
         {
           "index": 2,
           "text": "余ったハチミツだけをさいみつしていきます。",
-          "start_ms": 361268,
-          "end_ms": 365503,
-          "duration_ms": 4235
+          "start_ms": 355831,
+          "end_ms": 360100,
+          "duration_ms": 4269
         }
       ]
     },
     {
       "index": 40,
       "text": "さいみつのときは、まずハニカムのふたになっているみつろうを専用の蜜刀で丁寧に取り除きます。",
-      "start_ms": 366003,
-      "end_ms": 375384,
-      "duration_ms": 9381,
+      "start_ms": 360600,
+      "end_ms": 370086,
+      "duration_ms": 9486,
       "clauses": [
         {
           "index": 0,
           "text": "さいみつのときは、",
-          "start_ms": 366003,
-          "end_ms": 368148,
+          "start_ms": 360600,
+          "end_ms": 362745,
           "duration_ms": 2145
         },
         {
           "index": 1,
           "text": "まずハニカムのふたになっているみつろうを専用の蜜刀で丁寧に取り除きます。",
-          "start_ms": 368398,
-          "end_ms": 375384,
-          "duration_ms": 6986
+          "start_ms": 362995,
+          "end_ms": 370086,
+          "duration_ms": 7091
         }
       ]
     },
     {
       "index": 41,
-      "text": "そして、その枠をえんしんぶんりきに入れて回転させます。",
-      "start_ms": 375884,
-      "end_ms": 382305,
-      "duration_ms": 6421,
+      "text": "そして、その枠をえんしんぶんりきに入れ、機械を回します。",
+      "start_ms": 370586,
+      "end_ms": 377834,
+      "duration_ms": 7248,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 375884,
-          "end_ms": 377251,
+          "start_ms": 370586,
+          "end_ms": 371953,
           "duration_ms": 1367
         },
         {
           "index": 1,
-          "text": "その枠をえんしんぶんりきに入れて回転させます。",
-          "start_ms": 377501,
-          "end_ms": 382305,
-          "duration_ms": 4804
+          "text": "その枠をえんしんぶんりきに入れ、",
+          "start_ms": 372203,
+          "end_ms": 375451,
+          "duration_ms": 3248
+        },
+        {
+          "index": 2,
+          "text": "機械を回します。",
+          "start_ms": 375701,
+          "end_ms": 377834,
+          "duration_ms": 2133
         }
       ]
     },
     {
       "index": 42,
       "text": "遠心力によってハチミツが枠から外に飛び出し、下のタンクに集まっていくのです。",
-      "start_ms": 382805,
-      "end_ms": 390898,
-      "duration_ms": 8093,
+      "start_ms": 378334,
+      "end_ms": 386333,
+      "duration_ms": 7999,
       "clauses": [
         {
           "index": 0,
           "text": "遠心力によってハチミツが枠から外に飛び出し、",
-          "start_ms": 382805,
-          "end_ms": 387400,
-          "duration_ms": 4595
+          "start_ms": 378334,
+          "end_ms": 382940,
+          "duration_ms": 4606
         },
         {
           "index": 1,
           "text": "下のタンクに集まっていくのです。",
-          "start_ms": 387650,
-          "end_ms": 390898,
-          "duration_ms": 3248
+          "start_ms": 383190,
+          "end_ms": 386333,
+          "duration_ms": 3143
         }
       ]
     },
     {
       "index": 43,
       "text": "こうして集められたハチミツには、まだ小さなみつろうのかけらなどが混ざっているため、こしきで丁寧にこしてきれいにします。",
-      "start_ms": 391398,
-      "end_ms": 403080,
-      "duration_ms": 11682,
+      "start_ms": 386833,
+      "end_ms": 398633,
+      "duration_ms": 11800,
       "clauses": [
         {
           "index": 0,
           "text": "こうして集められたハチミツには、",
-          "start_ms": 391398,
-          "end_ms": 394634,
-          "duration_ms": 3236
+          "start_ms": 386833,
+          "end_ms": 390058,
+          "duration_ms": 3225
         },
         {
           "index": 1,
           "text": "まだ小さなみつろうのかけらなどが混ざっているため、",
-          "start_ms": 394884,
-          "end_ms": 399304,
-          "duration_ms": 4420
+          "start_ms": 390308,
+          "end_ms": 394891,
+          "duration_ms": 4583
         },
         {
           "index": 2,
           "text": "こしきで丁寧にこしてきれいにします。",
-          "start_ms": 399554,
-          "end_ms": 403080,
-          "duration_ms": 3526
+          "start_ms": 395141,
+          "end_ms": 398633,
+          "duration_ms": 3492
         }
       ]
     },
     {
       "index": 44,
       "text": "その後、びんづめされて、私たちのもとへ届くのです。",
-      "start_ms": 403580,
-      "end_ms": 410677,
-      "duration_ms": 7097,
+      "start_ms": 399133,
+      "end_ms": 406102,
+      "duration_ms": 6969,
       "clauses": [
         {
           "index": 0,
           "text": "その後、",
-          "start_ms": 403580,
-          "end_ms": 405133,
-          "duration_ms": 1553
+          "start_ms": 399133,
+          "end_ms": 400709,
+          "duration_ms": 1576
         },
         {
           "index": 1,
           "text": "びんづめされて、",
-          "start_ms": 405383,
-          "end_ms": 407307,
-          "duration_ms": 1924
+          "start_ms": 400959,
+          "end_ms": 402790,
+          "duration_ms": 1831
         },
         {
           "index": 2,
           "text": "私たちのもとへ届くのです。",
-          "start_ms": 407557,
-          "end_ms": 410677,
-          "duration_ms": 3120
+          "start_ms": 403040,
+          "end_ms": 406102,
+          "duration_ms": 3062
         }
       ]
     },
     {
       "index": 45,
       "text": "この作業の過程を知ると、ハチミツは、たくさんのミツバチたちと、手間を惜しまない養蜂家の努力のしょうこだと言えるでしょう。",
-      "start_ms": 411177,
-      "end_ms": 423921,
-      "duration_ms": 12744,
+      "start_ms": 406602,
+      "end_ms": 419426,
+      "duration_ms": 12824,
       "clauses": [
         {
           "index": 0,
           "text": "この作業の過程を知ると、",
-          "start_ms": 411177,
-          "end_ms": 413868,
-          "duration_ms": 2691
+          "start_ms": 406602,
+          "end_ms": 409374,
+          "duration_ms": 2772
         },
         {
           "index": 1,
           "text": "ハチミツは、",
-          "start_ms": 414118,
-          "end_ms": 415903,
-          "duration_ms": 1785
+          "start_ms": 409624,
+          "end_ms": 411374,
+          "duration_ms": 1750
         },
         {
           "index": 2,
           "text": "たくさんのミツバチたちと、",
-          "start_ms": 416153,
-          "end_ms": 418751,
-          "duration_ms": 2598
+          "start_ms": 411624,
+          "end_ms": 414198,
+          "duration_ms": 2574
         },
         {
           "index": 3,
           "text": "手間を惜しまない養蜂家の努力のしょうこだと言えるでしょう。",
-          "start_ms": 419001,
-          "end_ms": 423921,
-          "duration_ms": 4920
+          "start_ms": 414448,
+          "end_ms": 419426,
+          "duration_ms": 4978
         }
       ]
     },
     {
       "index": 46,
       "text": "ハチミツは、単に甘いだけのものではありません。",
-      "start_ms": 424421,
-      "end_ms": 429820,
-      "duration_ms": 5399,
+      "start_ms": 419926,
+      "end_ms": 425290,
+      "duration_ms": 5364,
       "clauses": [
         {
           "index": 0,
           "text": "ハチミツは、",
-          "start_ms": 424421,
-          "end_ms": 426171,
+          "start_ms": 419926,
+          "end_ms": 421676,
           "duration_ms": 1750
         },
         {
           "index": 1,
           "text": "単に甘いだけのものではありません。",
-          "start_ms": 426421,
-          "end_ms": 429820,
-          "duration_ms": 3399
+          "start_ms": 421926,
+          "end_ms": 425290,
+          "duration_ms": 3364
         }
       ]
     },
     {
       "index": 47,
       "text": "ミツバチたちはかみつを集めるために花を訪れ、その過程でかふんを運び、受粉を助けています。",
-      "start_ms": 430320,
-      "end_ms": 440865,
-      "duration_ms": 10545,
+      "start_ms": 425790,
+      "end_ms": 436243,
+      "duration_ms": 10453,
       "clauses": [
         {
           "index": 0,
           "text": "ミツバチたちはかみつを集めるために花を訪れ、",
-          "start_ms": 430320,
-          "end_ms": 435112,
-          "duration_ms": 4792
+          "start_ms": 425790,
+          "end_ms": 430408,
+          "duration_ms": 4618
         },
         {
           "index": 1,
           "text": "その過程でかふんを運び、",
-          "start_ms": 435362,
-          "end_ms": 438238,
-          "duration_ms": 2876
+          "start_ms": 430658,
+          "end_ms": 433558,
+          "duration_ms": 2900
         },
         {
           "index": 2,
           "text": "受粉を助けています。",
-          "start_ms": 438488,
-          "end_ms": 440865,
-          "duration_ms": 2377
+          "start_ms": 433808,
+          "end_ms": 436243,
+          "duration_ms": 2435
         }
       ]
     },
     {
       "index": 48,
       "text": "つまり、ミツバチがいなければ、多くの野菜や果物も実らないはずだということが言えるでしょう。",
-      "start_ms": 441365,
-      "end_ms": 451215,
-      "duration_ms": 9850,
+      "start_ms": 436743,
+      "end_ms": 446614,
+      "duration_ms": 9871,
       "clauses": [
         {
           "index": 0,
           "text": "つまり、",
-          "start_ms": 441365,
-          "end_ms": 442744,
-          "duration_ms": 1379
+          "start_ms": 436743,
+          "end_ms": 438075,
+          "duration_ms": 1332
         },
         {
           "index": 1,
           "text": "ミツバチがいなければ、",
-          "start_ms": 442994,
-          "end_ms": 445267,
-          "duration_ms": 2273
+          "start_ms": 438325,
+          "end_ms": 440632,
+          "duration_ms": 2307
         },
         {
           "index": 2,
           "text": "多くの野菜や果物も実らないはずだということが言えるでしょう。",
-          "start_ms": 445517,
-          "end_ms": 451215,
-          "duration_ms": 5698
+          "start_ms": 440882,
+          "end_ms": 446614,
+          "duration_ms": 5732
         }
       ]
     },
     {
       "index": 49,
-      "text": "私たちがハチミツを味わうとき、その一さじには、がいきんばちが何度も花を訪れて運んだかみつと、ないきんばちがすいぶんを飛ばしてじゅくせいさせた時間と、はたらきばちたち全員の役割分担のりゆうが詰まっています。",
-      "start_ms": 451715,
-      "end_ms": 473226,
-      "duration_ms": 21511,
+      "text": "私たちがハチミツを味わうとき、その一さじには、がいきんばちが何度も花を訪れて運んだかみつと、ないきんばちがすいぶんを飛ばし、ハチミツがじゅくせいするまでにかかった時間と、はたらきばちたち全員の役割分担のりゆうが詰まっています。",
+      "start_ms": 447114,
+      "end_ms": 471113,
+      "duration_ms": 23999,
       "clauses": [
         {
           "index": 0,
           "text": "私たちがハチミツを味わうとき、",
-          "start_ms": 451715,
-          "end_ms": 455218,
-          "duration_ms": 3503
+          "start_ms": 447114,
+          "end_ms": 450548,
+          "duration_ms": 3434
         },
         {
           "index": 1,
           "text": "その一さじには、",
-          "start_ms": 455468,
-          "end_ms": 457683,
-          "duration_ms": 2215
+          "start_ms": 450798,
+          "end_ms": 452931,
+          "duration_ms": 2133
         },
         {
           "index": 2,
           "text": "がいきんばちが何度も花を訪れて運んだかみつと、",
-          "start_ms": 457933,
-          "end_ms": 462620,
-          "duration_ms": 4687
+          "start_ms": 453181,
+          "end_ms": 457961,
+          "duration_ms": 4780
         },
         {
           "index": 3,
-          "text": "ないきんばちがすいぶんを飛ばしてじゅくせいさせた時間と、",
-          "start_ms": 462870,
-          "end_ms": 467813,
-          "duration_ms": 4943
+          "text": "ないきんばちがすいぶんを飛ばし、",
+          "start_ms": 458211,
+          "end_ms": 461238,
+          "duration_ms": 3027
         },
         {
           "index": 4,
+          "text": "ハチミツがじゅくせいするまでにかかった時間と、",
+          "start_ms": 461488,
+          "end_ms": 465583,
+          "duration_ms": 4095
+        },
+        {
+          "index": 5,
           "text": "はたらきばちたち全員の役割分担のりゆうが詰まっています。",
-          "start_ms": 468063,
-          "end_ms": 473226,
-          "duration_ms": 5163
+          "start_ms": 465833,
+          "end_ms": 471113,
+          "duration_ms": 5280
         }
       ]
     },
     {
       "index": 50,
       "text": "長い目で見れば、ミツバチと人間は、自然の中で少しずつつながって生きてきた関係なのかもしれません。",
-      "start_ms": 473726,
-      "end_ms": 484538,
-      "duration_ms": 10812,
+      "start_ms": 471613,
+      "end_ms": 482437,
+      "duration_ms": 10824,
       "clauses": [
         {
           "index": 0,
           "text": "長い目で見れば、",
-          "start_ms": 473726,
-          "end_ms": 475778,
+          "start_ms": 471613,
+          "end_ms": 473665,
           "duration_ms": 2052
         },
         {
           "index": 1,
           "text": "ミツバチと人間は、",
-          "start_ms": 476028,
-          "end_ms": 478347,
+          "start_ms": 473915,
+          "end_ms": 476234,
           "duration_ms": 2319
         },
         {
           "index": 2,
           "text": "自然の中で少しずつつながって生きてきた関係なのかもしれません。",
-          "start_ms": 478597,
-          "end_ms": 484538,
-          "duration_ms": 5941
+          "start_ms": 476484,
+          "end_ms": 482437,
+          "duration_ms": 5953
         }
       ]
     },
     {
       "index": 51,
-      "text": "ハチミツを食べるという行為を通して、私たちもそのつながりを少しだけ意識できるようになるでしょう。",
-      "start_ms": 485038,
-      "end_ms": 494616,
-      "duration_ms": 9578,
+      "text": "ハチミツを食べることで、私たちもそのつながりを少しだけ意識できるようになるでしょう。",
+      "start_ms": 482937,
+      "end_ms": 491401,
+      "duration_ms": 8464,
       "clauses": [
         {
           "index": 0,
-          "text": "ハチミツを食べるという行為を通して、",
-          "start_ms": 485038,
-          "end_ms": 488541,
-          "duration_ms": 3503
+          "text": "ハチミツを食べることで、",
+          "start_ms": 482937,
+          "end_ms": 485488,
+          "duration_ms": 2551
         },
         {
           "index": 1,
           "text": "私たちもそのつながりを少しだけ意識できるようになるでしょう。",
-          "start_ms": 488791,
-          "end_ms": 494616,
-          "duration_ms": 5825
+          "start_ms": 485738,
+          "end_ms": 491401,
+          "duration_ms": 5663
         }
       ]
     }
