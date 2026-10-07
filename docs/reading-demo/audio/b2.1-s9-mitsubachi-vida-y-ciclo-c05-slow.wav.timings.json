@@ -1,0 +1,243 @@
+{
+  "audio_file": "b2.1-s9-mitsubachi-vida-y-ciclo-c05-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 84250,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "第五章　養蜂家がハチミツを集めるまで",
+      "start_ms": 0,
+      "end_ms": 4235,
+      "duration_ms": 4235,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "第五章　養蜂家がハチミツを集めるまで",
+          "start_ms": 0,
+          "end_ms": 4235,
+          "duration_ms": 4235
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "ミツバチたちが長い時間をかけて作り上げたハチミツは、すの中で大切に蓄えられています。",
+      "start_ms": 4735,
+      "end_ms": 13884,
+      "duration_ms": 9149,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ミツバチたちが長い時間をかけて作り上げたハチミツは、",
+          "start_ms": 4735,
+          "end_ms": 9748,
+          "duration_ms": 5013
+        },
+        {
+          "index": 1,
+          "text": "すの中で大切に蓄えられています。",
+          "start_ms": 9998,
+          "end_ms": 13884,
+          "duration_ms": 3886
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "養蜂家は、ミツバチたちが冬を越すのに必要な分を残しながら、余ったハチミツだけをさいみつしていきます。",
+      "start_ms": 14384,
+      "end_ms": 25626,
+      "duration_ms": 11242,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "養蜂家は、",
+          "start_ms": 14384,
+          "end_ms": 16099,
+          "duration_ms": 1715
+        },
+        {
+          "index": 1,
+          "text": "ミツバチたちが冬を越すのに必要な分を残しながら、",
+          "start_ms": 16349,
+          "end_ms": 21118,
+          "duration_ms": 4769
+        },
+        {
+          "index": 2,
+          "text": "余ったハチミツだけをさいみつしていきます。",
+          "start_ms": 21368,
+          "end_ms": 25626,
+          "duration_ms": 4258
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "さいみつのときは、まずハニカムのふたになっているみつろうを専用の蜜刀で丁寧に取り除きます。",
+      "start_ms": 26126,
+      "end_ms": 35704,
+      "duration_ms": 9578,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "さいみつのときは、",
+          "start_ms": 26126,
+          "end_ms": 28294,
+          "duration_ms": 2168
+        },
+        {
+          "index": 1,
+          "text": "まずハニカムのふたになっているみつろうを専用の蜜刀で丁寧に取り除きます。",
+          "start_ms": 28544,
+          "end_ms": 35704,
+          "duration_ms": 7160
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "そして、その枠をえんしんぶんりきに入れて回転させます。",
+      "start_ms": 36204,
+      "end_ms": 42671,
+      "duration_ms": 6467,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 36204,
+          "end_ms": 37594,
+          "duration_ms": 1390
+        },
+        {
+          "index": 1,
+          "text": "その枠をえんしんぶんりきに入れて回転させます。",
+          "start_ms": 37844,
+          "end_ms": 42671,
+          "duration_ms": 4827
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "遠心力によってハチミツが枠から外に飛び出し、下のタンクに集まっていくのです。",
+      "start_ms": 43171,
+      "end_ms": 51159,
+      "duration_ms": 7988,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "遠心力によってハチミツが枠から外に飛び出し、",
+          "start_ms": 43171,
+          "end_ms": 47673,
+          "duration_ms": 4502
+        },
+        {
+          "index": 1,
+          "text": "下のタンクに集まっていくのです。",
+          "start_ms": 47923,
+          "end_ms": 51159,
+          "duration_ms": 3236
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "こうして集められたハチミツには、まだ小さなみつろうのかけらなどが混ざっているため、こしきで丁寧にこしてきれいにします。",
+      "start_ms": 51659,
+      "end_ms": 63481,
+      "duration_ms": 11822,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "こうして集められたハチミツには、",
+          "start_ms": 51659,
+          "end_ms": 54849,
+          "duration_ms": 3190
+        },
+        {
+          "index": 1,
+          "text": "まだ小さなみつろうのかけらなどが混ざっているため、",
+          "start_ms": 55099,
+          "end_ms": 59647,
+          "duration_ms": 4548
+        },
+        {
+          "index": 2,
+          "text": "こしきで丁寧にこしてきれいにします。",
+          "start_ms": 59897,
+          "end_ms": 63481,
+          "duration_ms": 3584
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "その後、びんづめされて、私たちのもとへ届くのです。",
+      "start_ms": 63981,
+      "end_ms": 71112,
+      "duration_ms": 7131,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "その後、",
+          "start_ms": 63981,
+          "end_ms": 65603,
+          "duration_ms": 1622
+        },
+        {
+          "index": 1,
+          "text": "びんづめされて、",
+          "start_ms": 65853,
+          "end_ms": 67754,
+          "duration_ms": 1901
+        },
+        {
+          "index": 2,
+          "text": "私たちのもとへ届くのです。",
+          "start_ms": 68004,
+          "end_ms": 71112,
+          "duration_ms": 3108
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "この作業の過程を知ると、ハチミツは、たくさんのミツバチたちと、手間を惜しまない養蜂家の努力のしょうこだと言えるでしょう。",
+      "start_ms": 71612,
+      "end_ms": 84250,
+      "duration_ms": 12638,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "この作業の過程を知ると、",
+          "start_ms": 71612,
+          "end_ms": 74256,
+          "duration_ms": 2644
+        },
+        {
+          "index": 1,
+          "text": "ハチミツは、",
+          "start_ms": 74506,
+          "end_ms": 76268,
+          "duration_ms": 1762
+        },
+        {
+          "index": 2,
+          "text": "たくさんのミツバチたちと、",
+          "start_ms": 76518,
+          "end_ms": 79104,
+          "duration_ms": 2586
+        },
+        {
+          "index": 3,
+          "text": "手間を惜しまない養蜂家の努力のしょうこだと言えるでしょう。",
+          "start_ms": 79354,
+          "end_ms": 84250,
+          "duration_ms": 4896
+        }
+      ]
+    }
+  ]
+}
