@@ -3249,6 +3249,520 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s3-conbini"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "コンビニの歴史とできること",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "多く",
+        "多かったです",
+        "とても",
+        "たくさん",
+        "増えました",
+        "トイレ",
+        "売る",
+        "自分で",
+        "選ぶ",
+        "開く",
+        "時間",
+        "牛乳",
+        "欲しい",
+        "昔",
+        "下ろす",
+        "送る",
+        "歩く",
+        "遠い",
+        "持って行く",
+        "セブン-イレブン",
+        "ローソン",
+        "ATM",
+        "コピー",
+        "営業時間",
+        "選んで",
+        "買って",
+        "開いて",
+        "少なくなっています",
+        "始まりました",
+        "大きく",
+        "言いました",
+        "売りました",
+        "売って",
+        "買います",
+        "座って",
+        "送ります",
+        "急いで",
+        "歩いて",
+        "近く",
+        "短くなった"
+      ],
+      "nombres_propios": [],
+      "texto": "コンビニの歴史\nコンビニは、食べ物や飲み物を売る店です。お客さんは自分で選んで買います。店の中で食べることもできます。本や雑誌も売っています。\n\n多くのコンビニは朝から夜まで開いています。アメリカでは前は24時間開いている店が多かったです。でも、今は少なくなっています。\n\nコンビニは1927年にアメリカで始まりました。その店はあまり大きくありませんでした。お客さんはパンや牛乳が欲しいと言いました。だから、店はパンや牛乳も売りました。その店は今のセブン-イレブンです。\n\n1939年、アメリカでもう一つのコンビニ、ローソンができました。ローソンは牛乳を売る店から始めました。\n\n1974年、日本にもコンビニができました。1975年から、日本にも24時間開いている店がありました。それから、コンビニはとても増えました。今、日本にはコンビニがたくさんあります。\n\n---\n\nコンビニでできること\n日本のコンビニは、昔よりもっと便利になりました。店では、弁当やお茶、薬や本などを買うことができます。\n\n店の中で座って食べることもできます。弁当を買って、そこで食べます。多くの店で、ATMでお金を下ろすことができます。コピーをとることもできます。\n\n荷物を店に持って行くこともできます。そして、店の人が荷物を送ります。急いでいるとき、トイレを使うこともできます。\n\n駅の近くの店は、歩いて行くことができます。遠い店へは、車で行くことができます。昔は24時間開いている店が多かったです。今は営業時間が短くなった店もあります。\n\n昔、コンビニは食べ物を売る店でした。1981年から、店で荷物を送ることができます。1999年から、店でお金を下ろすこともできます。\n",
+      "preguntas": [
+        "コンビニはいつ、どこで始まりましたか。",
+        "お客さんは、店に何がほしいと言いましたか。",
+        "その店は、今、何ですか。",
+        "日本に24時間開いている店がありました。いつからですか。",
+        "今、日本ではコンビニがどうですか。",
+        "店では、何を買うことができますか。",
+        "お客さんは、店の中で何をしますか。",
+        "お金を下ろすとき、お客さんは何を使いますか。",
+        "お客さんは荷物をどこに持って行きますか。",
+        "遠い店には、何で行きますか。"
+      ],
+      "vocabulario": [
+        {
+          "literal": "コンビニ",
+          "lectura": "こんびに",
+          "significado": "tienda de conveniencia"
+        },
+        {
+          "literal": "食べ物",
+          "lectura": "たべもの",
+          "significado": "comida"
+        },
+        {
+          "literal": "飲み物",
+          "lectura": "のみもの",
+          "significado": "bebida"
+        },
+        {
+          "literal": "店",
+          "lectura": "みせ",
+          "significado": "tienda"
+        },
+        {
+          "literal": "お客さん",
+          "lectura": "おきゃくさん",
+          "significado": "cliente"
+        },
+        {
+          "literal": "買う",
+          "lectura": "かう",
+          "significado": "comprar"
+        },
+        {
+          "literal": "中",
+          "lectura": "なか",
+          "significado": "dentro"
+        },
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "本",
+          "lectura": "ほん",
+          "significado": "libro"
+        },
+        {
+          "literal": "雑誌",
+          "lectura": "ざっし",
+          "significado": "revista"
+        },
+        {
+          "literal": "朝",
+          "lectura": "あさ",
+          "significado": "mañana (parte del día)"
+        },
+        {
+          "literal": "夜",
+          "lectura": "よる",
+          "significado": "noche"
+        },
+        {
+          "literal": "アメリカ",
+          "lectura": "あめりか",
+          "significado": "EE. UU."
+        },
+        {
+          "literal": "多い",
+          "lectura": "おおい",
+          "significado": "muchos"
+        },
+        {
+          "literal": "多く",
+          "lectura": "おおく",
+          "significado": "muchos (flexión de 多い)",
+          "exclusion": true
+        },
+        {
+          "literal": "多かったです",
+          "lectura": "おおかったです",
+          "significado": "haber muchos (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "今",
+          "lectura": "いま",
+          "significado": "ahora"
+        },
+        {
+          "literal": "前",
+          "lectura": "まえ",
+          "significado": "antes; delante"
+        },
+        {
+          "literal": "あまり",
+          "lectura": "あまり",
+          "significado": "no muy"
+        },
+        {
+          "literal": "パン",
+          "lectura": "ぱん",
+          "significado": "pan"
+        },
+        {
+          "literal": "言う",
+          "lectura": "いう",
+          "significado": "decir"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "歴史",
+          "lectura": "れきし",
+          "significado": "historia"
+        },
+        {
+          "literal": "とても",
+          "lectura": "とても",
+          "significado": "muy",
+          "exclusion": true
+        },
+        {
+          "literal": "たくさん",
+          "lectura": "たくさん",
+          "significado": "mucho(s), en gran cantidad",
+          "exclusion": true
+        },
+        {
+          "literal": "増えました",
+          "lectura": "ふえました",
+          "significado": "aumentar, multiplicarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "少ない",
+          "lectura": "すくない",
+          "significado": "pocos, escaso"
+        },
+        {
+          "literal": "始める",
+          "lectura": "はじめる",
+          "significado": "empezar"
+        },
+        {
+          "literal": "大きい",
+          "lectura": "おおきい",
+          "significado": "grande"
+        },
+        {
+          "literal": "もっと",
+          "lectura": "もっと",
+          "significado": "más"
+        },
+        {
+          "literal": "便利",
+          "lectura": "べんり",
+          "significado": "conveniente"
+        },
+        {
+          "literal": "弁当",
+          "lectura": "べんとう",
+          "significado": "bento"
+        },
+        {
+          "literal": "お茶",
+          "lectura": "おちゃ",
+          "significado": "té"
+        },
+        {
+          "literal": "薬",
+          "lectura": "くすり",
+          "significado": "medicina"
+        },
+        {
+          "literal": "お金",
+          "lectura": "おかね",
+          "significado": "dinero"
+        },
+        {
+          "literal": "荷物",
+          "lectura": "にもつ",
+          "significado": "equipaje"
+        },
+        {
+          "literal": "トイレ",
+          "lectura": "といれ",
+          "significado": "baño",
+          "exclusion": true
+        },
+        {
+          "literal": "使う",
+          "lectura": "つかう",
+          "significado": "usar"
+        },
+        {
+          "literal": "駅",
+          "lectura": "えき",
+          "significado": "estación (de tren)"
+        },
+        {
+          "literal": "車",
+          "lectura": "くるま",
+          "significado": "coche"
+        },
+        {
+          "literal": "人",
+          "lectura": "ひと",
+          "significado": "persona"
+        },
+        {
+          "literal": "近い",
+          "lectura": "ちかい",
+          "significado": "cercano"
+        },
+        {
+          "literal": "短い",
+          "lectura": "みじかい",
+          "significado": "corto"
+        },
+        {
+          "literal": "急ぐ",
+          "lectura": "いそぐ",
+          "significado": "darse prisa"
+        },
+        {
+          "literal": "座る",
+          "lectura": "すわる",
+          "significado": "sentarse"
+        },
+        {
+          "literal": "売る",
+          "lectura": "うる",
+          "significado": "vender",
+          "exclusion": true
+        },
+        {
+          "literal": "自分で",
+          "lectura": "じぶんで",
+          "significado": "por sí mismo",
+          "exclusion": true
+        },
+        {
+          "literal": "選ぶ",
+          "lectura": "えらぶ",
+          "significado": "elegir",
+          "exclusion": true
+        },
+        {
+          "literal": "開く",
+          "lectura": "あく",
+          "significado": "abrirse, estar abierto",
+          "exclusion": true
+        },
+        {
+          "literal": "時間",
+          "lectura": "じかん",
+          "significado": "tiempo, hora",
+          "exclusion": true
+        },
+        {
+          "literal": "牛乳",
+          "lectura": "ぎゅうにゅう",
+          "significado": "leche",
+          "exclusion": true
+        },
+        {
+          "literal": "欲しい",
+          "lectura": "ほしい",
+          "significado": "querer (adjetivo)",
+          "exclusion": true
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "hace mucho tiempo, tiempos pasados",
+          "exclusion": true
+        },
+        {
+          "literal": "下ろす",
+          "lectura": "おろす",
+          "significado": "retirar dinero",
+          "exclusion": true
+        },
+        {
+          "literal": "送る",
+          "lectura": "おくる",
+          "significado": "enviar",
+          "exclusion": true
+        },
+        {
+          "literal": "歩く",
+          "lectura": "あるく",
+          "significado": "caminar",
+          "exclusion": true
+        },
+        {
+          "literal": "遠い",
+          "lectura": "とおい",
+          "significado": "lejano",
+          "exclusion": true
+        },
+        {
+          "literal": "持って行く",
+          "lectura": "もっていく",
+          "significado": "llevar",
+          "exclusion": true
+        },
+        {
+          "literal": "セブン-イレブン",
+          "lectura": "せぶん-いれぶん",
+          "significado": "cadena 7-Eleven",
+          "exclusion": true
+        },
+        {
+          "literal": "ローソン",
+          "lectura": "ろそん",
+          "significado": "cadena Lawson",
+          "exclusion": true
+        },
+        {
+          "literal": "ATM",
+          "lectura": "エーティーエム",
+          "significado": "cajero automático",
+          "exclusion": true
+        },
+        {
+          "literal": "コピー",
+          "lectura": "こぴー",
+          "significado": "fotocopia",
+          "exclusion": true
+        },
+        {
+          "literal": "営業時間",
+          "lectura": "えいぎょうじかん",
+          "significado": "horario de apertura",
+          "exclusion": true
+        },
+        {
+          "literal": "選んで",
+          "lectura": "えらんで",
+          "significado": "elegir (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "買って",
+          "lectura": "かって",
+          "significado": "comprar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "開いて",
+          "lectura": "あいて",
+          "significado": "abrirse (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "少なくなっています",
+          "lectura": "すくなくなっています",
+          "significado": "volverse pocos (estado actual)",
+          "exclusion": true
+        },
+        {
+          "literal": "始まりました",
+          "lectura": "はじまりました",
+          "significado": "empezar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "大きく",
+          "lectura": "おおきく",
+          "significado": "grande (flexión de adjetivo -い)",
+          "exclusion": true
+        },
+        {
+          "literal": "言いました",
+          "lectura": "いいました",
+          "significado": "decir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "売りました",
+          "lectura": "うりました",
+          "significado": "vender (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "売って",
+          "lectura": "うって",
+          "significado": "vender (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "買います",
+          "lectura": "かいます",
+          "significado": "comprar (forma -masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "座って",
+          "lectura": "すわって",
+          "significado": "sentarse (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "送ります",
+          "lectura": "おくります",
+          "significado": "enviar (forma -masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "急いで",
+          "lectura": "いそいで",
+          "significado": "darse prisa (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "歩いて",
+          "lectura": "あるいて",
+          "significado": "caminar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "近く",
+          "lectura": "ちかく",
+          "significado": "cercanía, cerca (flexión de 近い)",
+          "exclusion": true
+        },
+        {
+          "literal": "短くなった",
+          "lectura": "みじかくなった",
+          "significado": "volverse corto (modifica al sustantivo)",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "forma-simple",
+        "forma-te",
+        "usos-forma-te",
+        "fechas-japones",
+        "particula-ga",
+        "protocolo-subordinacion"
+      ],
+      "nivel": "A2.2"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "a2.2-s3-nihon-no-tatami"
     },
     "data": {

@@ -1,0 +1,715 @@
+{
+  "audio_file": "a2.2-s3-conbini.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 188108,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "コンビニのれきしとできること",
+      "start_ms": 0,
+      "end_ms": 2876,
+      "duration_ms": 2876,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "コンビニのれきしとできること",
+          "start_ms": 0,
+          "end_ms": 2876,
+          "duration_ms": 2876
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "コンビニは、たべものやのみものをうるみせです。",
+      "start_ms": 3376,
+      "end_ms": 8473,
+      "duration_ms": 5097,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "コンビニは、",
+          "start_ms": 3376,
+          "end_ms": 4987,
+          "duration_ms": 1611
+        },
+        {
+          "index": 1,
+          "text": "たべものやのみものをうるみせです。",
+          "start_ms": 5237,
+          "end_ms": 8473,
+          "duration_ms": 3236
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "おきゃくさんはじぶんでえらんでかいます。",
+      "start_ms": 8973,
+      "end_ms": 12383,
+      "duration_ms": 3410,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おきゃくさんはじぶんでえらんでかいます。",
+          "start_ms": 8973,
+          "end_ms": 12383,
+          "duration_ms": 3410
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "みせのなかでたべることもできます。",
+      "start_ms": 12883,
+      "end_ms": 16177,
+      "duration_ms": 3294,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みせのなかでたべることもできます。",
+          "start_ms": 12883,
+          "end_ms": 16177,
+          "duration_ms": 3294
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "ほんやざっしもうっています。",
+      "start_ms": 16677,
+      "end_ms": 19356,
+      "duration_ms": 2679,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ほんやざっしもうっています。",
+          "start_ms": 16677,
+          "end_ms": 19356,
+          "duration_ms": 2679
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "おおくのコンビニはあさからよるまであいています。",
+      "start_ms": 19856,
+      "end_ms": 24265,
+      "duration_ms": 4409,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おおくのコンビニはあさからよるまであいています。",
+          "start_ms": 19856,
+          "end_ms": 24265,
+          "duration_ms": 4409
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "アメリカではまえは24じかんあいているみせがおおかったです。",
+      "start_ms": 24765,
+      "end_ms": 30370,
+      "duration_ms": 5605,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "アメリカではまえは24じかんあいているみせがおおかったです。",
+          "start_ms": 24765,
+          "end_ms": 30370,
+          "duration_ms": 5605
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "でも、いまはすくなくなっています。",
+      "start_ms": 30870,
+      "end_ms": 34829,
+      "duration_ms": 3959,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 30870,
+          "end_ms": 31877,
+          "duration_ms": 1007
+        },
+        {
+          "index": 1,
+          "text": "いまはすくなくなっています。",
+          "start_ms": 32127,
+          "end_ms": 34829,
+          "duration_ms": 2702
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "コンビニは1927年にアメリカではじまりました。",
+      "start_ms": 35329,
+      "end_ms": 41189,
+      "duration_ms": 5860,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "コンビニは1927年にアメリカではじまりました。",
+          "start_ms": 35329,
+          "end_ms": 41189,
+          "duration_ms": 5860
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "そのみせはあまりおおきくありませんでした。",
+      "start_ms": 41689,
+      "end_ms": 45761,
+      "duration_ms": 4072,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのみせはあまりおおきくありませんでした。",
+          "start_ms": 41689,
+          "end_ms": 45761,
+          "duration_ms": 4072
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "おきゃくさんはパンやぎゅうにゅうがほしいといいました。",
+      "start_ms": 46261,
+      "end_ms": 50786,
+      "duration_ms": 4525,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おきゃくさんはパンやぎゅうにゅうがほしいといいました。",
+          "start_ms": 46261,
+          "end_ms": 50786,
+          "duration_ms": 4525
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "だから、みせはパンやぎゅうにゅうもうりました。",
+      "start_ms": 51286,
+      "end_ms": 56232,
+      "duration_ms": 4946,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だから、",
+          "start_ms": 51286,
+          "end_ms": 52467,
+          "duration_ms": 1181
+        },
+        {
+          "index": 1,
+          "text": "みせはパンやぎゅうにゅうもうりました。",
+          "start_ms": 52717,
+          "end_ms": 56232,
+          "duration_ms": 3515
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "そのみせはいまのセブン-イレブンです。",
+      "start_ms": 56732,
+      "end_ms": 60502,
+      "duration_ms": 3770,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのみせはいまのセブン-イレブンです。",
+          "start_ms": 56732,
+          "end_ms": 60502,
+          "duration_ms": 3770
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "1939年、アメリカでもう一つのコンビニ、ローソンができました。",
+      "start_ms": 61002,
+      "end_ms": 69817,
+      "duration_ms": 8815,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1939年、",
+          "start_ms": 61002,
+          "end_ms": 63820,
+          "duration_ms": 2818
+        },
+        {
+          "index": 1,
+          "text": "アメリカでもう一つのコンビニ、",
+          "start_ms": 64070,
+          "end_ms": 67341,
+          "duration_ms": 3271
+        },
+        {
+          "index": 2,
+          "text": "ローソンができました。",
+          "start_ms": 67591,
+          "end_ms": 69817,
+          "duration_ms": 2226
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "ローソンはぎゅうにゅうをうるみせから始めました。",
+      "start_ms": 70317,
+      "end_ms": 74528,
+      "duration_ms": 4211,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ローソンはぎゅうにゅうをうるみせから始めました。",
+          "start_ms": 70317,
+          "end_ms": 74528,
+          "duration_ms": 4211
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "1974年、にほんにもコンビニができました。",
+      "start_ms": 75028,
+      "end_ms": 81042,
+      "duration_ms": 6014,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1974年、",
+          "start_ms": 75028,
+          "end_ms": 77800,
+          "duration_ms": 2772
+        },
+        {
+          "index": 1,
+          "text": "にほんにもコンビニができました。",
+          "start_ms": 78050,
+          "end_ms": 81042,
+          "duration_ms": 2992
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "1975年から、にほんにも24じかんあいているみせがありました。",
+      "start_ms": 81542,
+      "end_ms": 89426,
+      "duration_ms": 7884,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1975年から、",
+          "start_ms": 81542,
+          "end_ms": 84616,
+          "duration_ms": 3074
+        },
+        {
+          "index": 1,
+          "text": "にほんにも24じかんあいているみせがありました。",
+          "start_ms": 84866,
+          "end_ms": 89426,
+          "duration_ms": 4560
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "それから、コンビニはとてもふえました。",
+      "start_ms": 89926,
+      "end_ms": 94826,
+      "duration_ms": 4900,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それから、",
+          "start_ms": 89926,
+          "end_ms": 91479,
+          "duration_ms": 1553
+        },
+        {
+          "index": 1,
+          "text": "コンビニはとてもふえました。",
+          "start_ms": 91729,
+          "end_ms": 94826,
+          "duration_ms": 3097
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "いま、にほんにはコンビニがたくさんあります。",
+      "start_ms": 95326,
+      "end_ms": 99843,
+      "duration_ms": 4517,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いま、",
+          "start_ms": 95326,
+          "end_ms": 96020,
+          "duration_ms": 694
+        },
+        {
+          "index": 1,
+          "text": "にほんにはコンビニがたくさんあります。",
+          "start_ms": 96270,
+          "end_ms": 99843,
+          "duration_ms": 3573
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "にほんのコンビニは、むかしよりもっとべんりになりました。",
+      "start_ms": 100343,
+      "end_ms": 106299,
+      "duration_ms": 5956,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にほんのコンビニは、",
+          "start_ms": 100343,
+          "end_ms": 102534,
+          "duration_ms": 2191
+        },
+        {
+          "index": 1,
+          "text": "むかしよりもっとべんりになりました。",
+          "start_ms": 102784,
+          "end_ms": 106299,
+          "duration_ms": 3515
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "みせでは、べんとうやおちゃ、くすりやほんなどをかうことができます。",
+      "start_ms": 106799,
+      "end_ms": 114013,
+      "duration_ms": 7214,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みせでは、",
+          "start_ms": 106799,
+          "end_ms": 108317,
+          "duration_ms": 1518
+        },
+        {
+          "index": 1,
+          "text": "べんとうやおちゃ、",
+          "start_ms": 108567,
+          "end_ms": 110480,
+          "duration_ms": 1913
+        },
+        {
+          "index": 2,
+          "text": "くすりやほんなどをかうことができます。",
+          "start_ms": 110730,
+          "end_ms": 114013,
+          "duration_ms": 3283
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "みせのなかですわってたべることもできます。",
+      "start_ms": 114513,
+      "end_ms": 118330,
+      "duration_ms": 3817,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みせのなかですわってたべることもできます。",
+          "start_ms": 114513,
+          "end_ms": 118330,
+          "duration_ms": 3817
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "べんとうをかって、そこで食べます。",
+      "start_ms": 118830,
+      "end_ms": 122929,
+      "duration_ms": 4099,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "べんとうをかって、",
+          "start_ms": 118830,
+          "end_ms": 120673,
+          "duration_ms": 1843
+        },
+        {
+          "index": 1,
+          "text": "そこで食べます。",
+          "start_ms": 120923,
+          "end_ms": 122929,
+          "duration_ms": 2006
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "おおくのみせで、ATMでおかねをおろすことができます。",
+      "start_ms": 123429,
+      "end_ms": 128503,
+      "duration_ms": 5074,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おおくのみせで、",
+          "start_ms": 123429,
+          "end_ms": 125272,
+          "duration_ms": 1843
+        },
+        {
+          "index": 1,
+          "text": "ATMでおかねをおろすことができます。",
+          "start_ms": 125522,
+          "end_ms": 128503,
+          "duration_ms": 2981
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "text": "コピーをとることもできます。",
+      "start_ms": 129003,
+      "end_ms": 131740,
+      "duration_ms": 2737,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "コピーをとることもできます。",
+          "start_ms": 129003,
+          "end_ms": 131740,
+          "duration_ms": 2737
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "text": "にもつをみせにもっていくこともできます。",
+      "start_ms": 132240,
+      "end_ms": 135801,
+      "duration_ms": 3561,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にもつをみせにもっていくこともできます。",
+          "start_ms": 132240,
+          "end_ms": 135801,
+          "duration_ms": 3561
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "text": "そして、みせのひとがにもつをおくります。",
+      "start_ms": 136301,
+      "end_ms": 141247,
+      "duration_ms": 4946,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 136301,
+          "end_ms": 137680,
+          "duration_ms": 1379
+        },
+        {
+          "index": 1,
+          "text": "みせのひとがにもつをおくります。",
+          "start_ms": 137930,
+          "end_ms": 141247,
+          "duration_ms": 3317
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "text": "いそいでいるとき、トイレをつかうこともできます。",
+      "start_ms": 141747,
+      "end_ms": 146762,
+      "duration_ms": 5015,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いそいでいるとき、",
+          "start_ms": 141747,
+          "end_ms": 143729,
+          "duration_ms": 1982
+        },
+        {
+          "index": 1,
+          "text": "トイレをつかうこともできます。",
+          "start_ms": 143979,
+          "end_ms": 146762,
+          "duration_ms": 2783
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "text": "えきのちかくのみせは、あるいて行くことができます。",
+      "start_ms": 147262,
+      "end_ms": 152626,
+      "duration_ms": 5364,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "えきのちかくのみせは、",
+          "start_ms": 147262,
+          "end_ms": 149720,
+          "duration_ms": 2458
+        },
+        {
+          "index": 1,
+          "text": "あるいて行くことができます。",
+          "start_ms": 149970,
+          "end_ms": 152626,
+          "duration_ms": 2656
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "text": "とおいみせへは、くるまで行くことができます。",
+      "start_ms": 153126,
+      "end_ms": 157887,
+      "duration_ms": 4761,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "とおいみせへは、",
+          "start_ms": 153126,
+          "end_ms": 154981,
+          "duration_ms": 1855
+        },
+        {
+          "index": 1,
+          "text": "くるまで行くことができます。",
+          "start_ms": 155231,
+          "end_ms": 157887,
+          "duration_ms": 2656
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "text": "むかしは24じかんあいているみせがおおかったです。",
+      "start_ms": 158387,
+      "end_ms": 163098,
+      "duration_ms": 4711,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかしは24じかんあいているみせがおおかったです。",
+          "start_ms": 158387,
+          "end_ms": 163098,
+          "duration_ms": 4711
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "text": "いまはえいぎょうじかんがみじかくなったみせもあります。",
+      "start_ms": 163598,
+      "end_ms": 168262,
+      "duration_ms": 4664,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いまはえいぎょうじかんがみじかくなったみせもあります。",
+          "start_ms": 163598,
+          "end_ms": 168262,
+          "duration_ms": 4664
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "text": "むかし、コンビニはたべものをうるみせでした。",
+      "start_ms": 168762,
+      "end_ms": 174045,
+      "duration_ms": 5283,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかし、",
+          "start_ms": 168762,
+          "end_ms": 170187,
+          "duration_ms": 1425
+        },
+        {
+          "index": 1,
+          "text": "コンビニはたべものをうるみせでした。",
+          "start_ms": 170437,
+          "end_ms": 174045,
+          "duration_ms": 3608
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "text": "1981年から、みせでにもつをおくることができます。",
+      "start_ms": 174545,
+      "end_ms": 181152,
+      "duration_ms": 6607,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1981年から、",
+          "start_ms": 174545,
+          "end_ms": 177561,
+          "duration_ms": 3016
+        },
+        {
+          "index": 1,
+          "text": "みせでにもつをおくることができます。",
+          "start_ms": 177811,
+          "end_ms": 181152,
+          "duration_ms": 3341
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "text": "1999年から、みせでおかねをおろすこともできます。",
+      "start_ms": 181652,
+      "end_ms": 188108,
+      "duration_ms": 6456,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1999年から、",
+          "start_ms": 181652,
+          "end_ms": 184633,
+          "duration_ms": 2981
+        },
+        {
+          "index": 1,
+          "text": "みせでおかねをおろすこともできます。",
+          "start_ms": 184883,
+          "end_ms": 188108,
+          "duration_ms": 3225
+        }
+      ]
+    }
+  ]
+}

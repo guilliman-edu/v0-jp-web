@@ -1,0 +1,364 @@
+{
+  "audio_file": "a2.2-s3-conbini-c02-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 99039,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "コンビニでできること",
+      "start_ms": 0,
+      "end_ms": 2546,
+      "duration_ms": 2546,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "コンビニでできること",
+          "start_ms": 0,
+          "end_ms": 2546,
+          "duration_ms": 2546
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "にほんのコンビニは、むかしよりもっとべんりになりました。",
+      "start_ms": 3046,
+      "end_ms": 9536,
+      "duration_ms": 6490,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にほんのコンビニは、",
+          "start_ms": 3046,
+          "end_ms": 5452,
+          "duration_ms": 2406
+        },
+        {
+          "index": 1,
+          "text": "むかしよりもっとべんりになりました。",
+          "start_ms": 5702,
+          "end_ms": 9536,
+          "duration_ms": 3834
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "みせでは、べんとうやおちゃ、くすりやほんなどをかうことができます。",
+      "start_ms": 10036,
+      "end_ms": 18081,
+      "duration_ms": 8045,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みせでは、",
+          "start_ms": 10036,
+          "end_ms": 11723,
+          "duration_ms": 1687
+        },
+        {
+          "index": 1,
+          "text": "べんとうやおちゃ、",
+          "start_ms": 11973,
+          "end_ms": 14147,
+          "duration_ms": 2174
+        },
+        {
+          "index": 2,
+          "text": "くすりやほんなどをかうことができます。",
+          "start_ms": 14397,
+          "end_ms": 18081,
+          "duration_ms": 3684
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "みせのなかですわってたべることもできます。",
+      "start_ms": 18581,
+      "end_ms": 22845,
+      "duration_ms": 4264,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みせのなかですわってたべることもできます。",
+          "start_ms": 18581,
+          "end_ms": 22845,
+          "duration_ms": 4264
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "べんとうをかって、そこで食べます。",
+      "start_ms": 23345,
+      "end_ms": 27885,
+      "duration_ms": 4540,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "べんとうをかって、",
+          "start_ms": 23345,
+          "end_ms": 25403,
+          "duration_ms": 2058
+        },
+        {
+          "index": 1,
+          "text": "そこで食べます。",
+          "start_ms": 25653,
+          "end_ms": 27885,
+          "duration_ms": 2232
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "おおくのみせで、ATMでおかねをおろすことができます。",
+      "start_ms": 28385,
+      "end_ms": 34017,
+      "duration_ms": 5632,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おおくのみせで、",
+          "start_ms": 28385,
+          "end_ms": 30432,
+          "duration_ms": 2047
+        },
+        {
+          "index": 1,
+          "text": "ATMでおかねをおろすことができます。",
+          "start_ms": 30682,
+          "end_ms": 34017,
+          "duration_ms": 3335
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "コピーをとることもできます。",
+      "start_ms": 34517,
+      "end_ms": 37550,
+      "duration_ms": 3033,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "コピーをとることもできます。",
+          "start_ms": 34517,
+          "end_ms": 37550,
+          "duration_ms": 3033
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "にもつをみせにもっていくこともできます。",
+      "start_ms": 38050,
+      "end_ms": 41954,
+      "duration_ms": 3904,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にもつをみせにもっていくこともできます。",
+          "start_ms": 38050,
+          "end_ms": 41954,
+          "duration_ms": 3904
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "そして、みせのひとがにもつをおくります。",
+      "start_ms": 42454,
+      "end_ms": 47877,
+      "duration_ms": 5423,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 42454,
+          "end_ms": 43978,
+          "duration_ms": 1524
+        },
+        {
+          "index": 1,
+          "text": "みせのひとがにもつをおくります。",
+          "start_ms": 44228,
+          "end_ms": 47877,
+          "duration_ms": 3649
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "いそいでいるとき、トイレをつかうこともできます。",
+      "start_ms": 48377,
+      "end_ms": 53812,
+      "duration_ms": 5435,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いそいでいるとき、",
+          "start_ms": 48377,
+          "end_ms": 50505,
+          "duration_ms": 2128
+        },
+        {
+          "index": 1,
+          "text": "トイレをつかうこともできます。",
+          "start_ms": 50755,
+          "end_ms": 53812,
+          "duration_ms": 3057
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "えきのちかくのみせは、あるいて行くことができます。",
+      "start_ms": 54312,
+      "end_ms": 60130,
+      "duration_ms": 5818,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "えきのちかくのみせは、",
+          "start_ms": 54312,
+          "end_ms": 57009,
+          "duration_ms": 2697
+        },
+        {
+          "index": 1,
+          "text": "あるいて行くことができます。",
+          "start_ms": 57259,
+          "end_ms": 60130,
+          "duration_ms": 2871
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "とおいみせへは、くるまで行くことができます。",
+      "start_ms": 60630,
+      "end_ms": 65902,
+      "duration_ms": 5272,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "とおいみせへは、",
+          "start_ms": 60630,
+          "end_ms": 62688,
+          "duration_ms": 2058
+        },
+        {
+          "index": 1,
+          "text": "くるまで行くことができます。",
+          "start_ms": 62938,
+          "end_ms": 65902,
+          "duration_ms": 2964
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "むかしは24じかんあいているみせがおおかったです。",
+      "start_ms": 66402,
+      "end_ms": 71699,
+      "duration_ms": 5297,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかしは24じかんあいているみせがおおかったです。",
+          "start_ms": 66402,
+          "end_ms": 71699,
+          "duration_ms": 5297
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "いまはえいぎょうじかんがみじかくなったみせもあります。",
+      "start_ms": 72199,
+      "end_ms": 77334,
+      "duration_ms": 5135,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いまはえいぎょうじかんがみじかくなったみせもあります。",
+          "start_ms": 72199,
+          "end_ms": 77334,
+          "duration_ms": 5135
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "むかし、コンビニはたべものをうるみせでした。",
+      "start_ms": 77834,
+      "end_ms": 83524,
+      "duration_ms": 5690,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかし、",
+          "start_ms": 77834,
+          "end_ms": 79300,
+          "duration_ms": 1466
+        },
+        {
+          "index": 1,
+          "text": "コンビニはたべものをうるみせでした。",
+          "start_ms": 79550,
+          "end_ms": 83524,
+          "duration_ms": 3974
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "1981年から、みせでにもつをおくることができます。",
+      "start_ms": 84024,
+      "end_ms": 91305,
+      "duration_ms": 7281,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1981年から、",
+          "start_ms": 84024,
+          "end_ms": 87348,
+          "duration_ms": 3324
+        },
+        {
+          "index": 1,
+          "text": "みせでにもつをおくることができます。",
+          "start_ms": 87598,
+          "end_ms": 91305,
+          "duration_ms": 3707
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "1999年から、みせでおかねをおろすこともできます。",
+      "start_ms": 91805,
+      "end_ms": 99039,
+      "duration_ms": 7234,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1999年から、",
+          "start_ms": 91805,
+          "end_ms": 95140,
+          "duration_ms": 3335
+        },
+        {
+          "index": 1,
+          "text": "みせでおかねをおろすこともできます。",
+          "start_ms": 95390,
+          "end_ms": 99039,
+          "duration_ms": 3649
+        }
+      ]
+    }
+  ]
+}
