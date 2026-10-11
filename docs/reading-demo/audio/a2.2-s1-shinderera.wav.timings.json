@@ -2,236 +2,236 @@
   "audio_file": "a2.2-s1-shinderera.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 146411,
+  "total_duration_ms": 146465,
   "sentences": [
     {
       "index": 0,
       "text": "シンデレラのくつ",
       "start_ms": 0,
-      "end_ms": 2052,
-      "duration_ms": 2052,
+      "end_ms": 2087,
+      "duration_ms": 2087,
       "clauses": [
         {
           "index": 0,
           "text": "シンデレラのくつ",
           "start_ms": 0,
-          "end_ms": 2052,
-          "duration_ms": 2052
+          "end_ms": 2087,
+          "duration_ms": 2087
         }
       ]
     },
     {
       "index": 1,
       "text": "むかし、シンデレラというおんなのこがいました。",
-      "start_ms": 2552,
-      "end_ms": 7660,
-      "duration_ms": 5108,
+      "start_ms": 2587,
+      "end_ms": 7626,
+      "duration_ms": 5039,
       "clauses": [
         {
           "index": 0,
           "text": "むかし、",
-          "start_ms": 2552,
-          "end_ms": 3942,
-          "duration_ms": 1390
+          "start_ms": 2587,
+          "end_ms": 3954,
+          "duration_ms": 1367
         },
         {
           "index": 1,
           "text": "シンデレラというおんなのこがいました。",
-          "start_ms": 4192,
-          "end_ms": 7660,
-          "duration_ms": 3468
+          "start_ms": 4204,
+          "end_ms": 7626,
+          "duration_ms": 3422
         }
       ]
     },
     {
       "index": 2,
       "text": "シンデレラのははが死んだとき、シンデレラは寂しかったです。",
-      "start_ms": 8160,
-      "end_ms": 14523,
-      "duration_ms": 6363,
+      "start_ms": 8126,
+      "end_ms": 14488,
+      "duration_ms": 6362,
       "clauses": [
         {
           "index": 0,
           "text": "シンデレラのははが死んだとき、",
-          "start_ms": 8160,
-          "end_ms": 11118,
-          "duration_ms": 2958
+          "start_ms": 8126,
+          "end_ms": 11037,
+          "duration_ms": 2911
         },
         {
           "index": 1,
           "text": "シンデレラは寂しかったです。",
-          "start_ms": 11368,
-          "end_ms": 14523,
-          "duration_ms": 3155
+          "start_ms": 11287,
+          "end_ms": 14488,
+          "duration_ms": 3201
         }
       ]
     },
     {
       "index": 3,
       "text": "それから、ちちのいえにままははとふたりのおんなのこが来ました。",
-      "start_ms": 15023,
-      "end_ms": 21397,
-      "duration_ms": 6374,
+      "start_ms": 14988,
+      "end_ms": 21211,
+      "duration_ms": 6223,
       "clauses": [
         {
           "index": 0,
           "text": "それから、",
-          "start_ms": 15023,
-          "end_ms": 16576,
-          "duration_ms": 1553
+          "start_ms": 14988,
+          "end_ms": 16483,
+          "duration_ms": 1495
         },
         {
           "index": 1,
           "text": "ちちのいえにままははとふたりのおんなのこが来ました。",
-          "start_ms": 16826,
-          "end_ms": 21397,
-          "duration_ms": 4571
+          "start_ms": 16733,
+          "end_ms": 21211,
+          "duration_ms": 4478
         }
       ]
     },
     {
       "index": 4,
       "text": "ままははとふたりのおんなのこはシンデレラにしんせつではありませんでした。",
-      "start_ms": 21897,
-      "end_ms": 27873,
-      "duration_ms": 5976,
+      "start_ms": 21711,
+      "end_ms": 27641,
+      "duration_ms": 5930,
       "clauses": [
         {
           "index": 0,
           "text": "ままははとふたりのおんなのこはシンデレラにしんせつではありませんでした。",
-          "start_ms": 21897,
-          "end_ms": 27873,
-          "duration_ms": 5976
+          "start_ms": 21711,
+          "end_ms": 27641,
+          "duration_ms": 5930
         }
       ]
     },
     {
       "index": 5,
       "text": "シンデレラはまいにち掃除したり、洗濯したりしました。",
-      "start_ms": 28373,
-      "end_ms": 34445,
-      "duration_ms": 6072,
+      "start_ms": 28141,
+      "end_ms": 34260,
+      "duration_ms": 6119,
       "clauses": [
         {
           "index": 0,
           "text": "シンデレラはまいにち掃除したり、",
-          "start_ms": 28373,
-          "end_ms": 31690,
-          "duration_ms": 3317
+          "start_ms": 28141,
+          "end_ms": 31528,
+          "duration_ms": 3387
         },
         {
           "index": 1,
           "text": "洗濯したりしました。",
-          "start_ms": 31940,
-          "end_ms": 34445,
-          "duration_ms": 2505
+          "start_ms": 31778,
+          "end_ms": 34260,
+          "duration_ms": 2482
         }
       ]
     },
     {
       "index": 6,
       "text": "それから、ふくも作りました。",
-      "start_ms": 34945,
-      "end_ms": 38892,
-      "duration_ms": 3947,
+      "start_ms": 34760,
+      "end_ms": 38742,
+      "duration_ms": 3982,
       "clauses": [
         {
           "index": 0,
           "text": "それから、",
-          "start_ms": 34945,
-          "end_ms": 36509,
+          "start_ms": 34760,
+          "end_ms": 36324,
           "duration_ms": 1564
         },
         {
           "index": 1,
           "text": "ふくも作りました。",
-          "start_ms": 36759,
-          "end_ms": 38892,
-          "duration_ms": 2133
+          "start_ms": 36574,
+          "end_ms": 38742,
+          "duration_ms": 2168
         }
       ]
     },
     {
       "index": 7,
       "text": "シンデレラはとても忙しかったです。",
-      "start_ms": 39392,
-      "end_ms": 42895,
-      "duration_ms": 3503,
+      "start_ms": 39242,
+      "end_ms": 42792,
+      "duration_ms": 3550,
       "clauses": [
         {
           "index": 0,
           "text": "シンデレラはとても忙しかったです。",
-          "start_ms": 39392,
-          "end_ms": 42895,
-          "duration_ms": 3503
+          "start_ms": 39242,
+          "end_ms": 42792,
+          "duration_ms": 3550
         }
       ]
     },
     {
       "index": 8,
       "text": "そして、寂しかったです。",
-      "start_ms": 43395,
-      "end_ms": 47157,
-      "duration_ms": 3762,
+      "start_ms": 43292,
+      "end_ms": 46961,
+      "duration_ms": 3669,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 43395,
-          "end_ms": 44762,
-          "duration_ms": 1367
+          "start_ms": 43292,
+          "end_ms": 44636,
+          "duration_ms": 1344
         },
         {
           "index": 1,
           "text": "寂しかったです。",
-          "start_ms": 45012,
-          "end_ms": 47157,
-          "duration_ms": 2145
+          "start_ms": 44886,
+          "end_ms": 46961,
+          "duration_ms": 2075
         }
       ]
     },
     {
       "index": 9,
       "text": "ある日、おうじのいえでおおきいパーティーがありました。",
-      "start_ms": 47657,
-      "end_ms": 53299,
-      "duration_ms": 5642,
+      "start_ms": 47461,
+      "end_ms": 53116,
+      "duration_ms": 5655,
       "clauses": [
         {
           "index": 0,
           "text": "ある日、",
-          "start_ms": 47657,
-          "end_ms": 49314,
-          "duration_ms": 1657
+          "start_ms": 47461,
+          "end_ms": 49049,
+          "duration_ms": 1588
         },
         {
           "index": 1,
           "text": "おうじのいえでおおきいパーティーがありました。",
-          "start_ms": 49564,
-          "end_ms": 53299,
-          "duration_ms": 3735
+          "start_ms": 49299,
+          "end_ms": 53116,
+          "duration_ms": 3817
         }
       ]
     },
     {
       "index": 10,
       "text": "まちのおんなのこはみんな、パーティーに行きました。",
-      "start_ms": 53799,
-      "end_ms": 58862,
-      "duration_ms": 5063,
+      "start_ms": 53616,
+      "end_ms": 58644,
+      "duration_ms": 5028,
       "clauses": [
         {
           "index": 0,
           "text": "まちのおんなのこはみんな、",
-          "start_ms": 53799,
-          "end_ms": 56490,
-          "duration_ms": 2691
+          "start_ms": 53616,
+          "end_ms": 56272,
+          "duration_ms": 2656
         },
         {
           "index": 1,
           "text": "パーティーに行きました。",
-          "start_ms": 56740,
-          "end_ms": 58862,
+          "start_ms": 56522,
+          "end_ms": 58644,
           "duration_ms": 2122
         }
       ]
@@ -239,15 +239,15 @@
     {
       "index": 11,
       "text": "シンデレラも行きたいと思いました。",
-      "start_ms": 59362,
-      "end_ms": 62598,
+      "start_ms": 59144,
+      "end_ms": 62380,
       "duration_ms": 3236,
       "clauses": [
         {
           "index": 0,
           "text": "シンデレラも行きたいと思いました。",
-          "start_ms": 59362,
-          "end_ms": 62598,
+          "start_ms": 59144,
+          "end_ms": 62380,
           "duration_ms": 3236
         }
       ]
@@ -255,340 +255,340 @@
     {
       "index": 12,
       "text": "でも、ままははは「ふくもくつもありませんから、行きません」と言っていました。",
-      "start_ms": 63098,
-      "end_ms": 70589,
-      "duration_ms": 7491,
+      "start_ms": 62880,
+      "end_ms": 70570,
+      "duration_ms": 7690,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 63098,
-          "end_ms": 64093,
-          "duration_ms": 995
+          "start_ms": 62880,
+          "end_ms": 63864,
+          "duration_ms": 984
         },
         {
           "index": 1,
           "text": "ままははは「ふくもくつもありませんから、",
-          "start_ms": 64343,
-          "end_ms": 67765,
-          "duration_ms": 3422
+          "start_ms": 64114,
+          "end_ms": 67629,
+          "duration_ms": 3515
         },
         {
           "index": 2,
           "text": "行きません」と言っていました。",
-          "start_ms": 68015,
-          "end_ms": 70589,
-          "duration_ms": 2574
+          "start_ms": 67879,
+          "end_ms": 70570,
+          "duration_ms": 2691
         }
       ]
     },
     {
       "index": 13,
       "text": "夜、しろいとりが来ました。",
-      "start_ms": 71089,
-      "end_ms": 74595,
-      "duration_ms": 3506,
+      "start_ms": 71070,
+      "end_ms": 74623,
+      "duration_ms": 3553,
       "clauses": [
         {
           "index": 0,
           "text": "夜、",
-          "start_ms": 71089,
-          "end_ms": 72003,
-          "duration_ms": 914
+          "start_ms": 71070,
+          "end_ms": 72042,
+          "duration_ms": 972
         },
         {
           "index": 1,
           "text": "しろいとりが来ました。",
-          "start_ms": 72253,
-          "end_ms": 74595,
-          "duration_ms": 2342
+          "start_ms": 72292,
+          "end_ms": 74623,
+          "duration_ms": 2331
         }
       ]
     },
     {
       "index": 14,
       "text": "とりはシンデレラにすてきなふくとくつをくれました。",
-      "start_ms": 75095,
-      "end_ms": 79643,
-      "duration_ms": 4548,
+      "start_ms": 75123,
+      "end_ms": 79636,
+      "duration_ms": 4513,
       "clauses": [
         {
           "index": 0,
           "text": "とりはシンデレラにすてきなふくとくつをくれました。",
-          "start_ms": 75095,
-          "end_ms": 79643,
-          "duration_ms": 4548
+          "start_ms": 75123,
+          "end_ms": 79636,
+          "duration_ms": 4513
         }
       ]
     },
     {
       "index": 15,
       "text": "シンデレラはとりからふくとくつをもらって、パーティーへ行きました。",
-      "start_ms": 80143,
-      "end_ms": 86285,
-      "duration_ms": 6142,
+      "start_ms": 80136,
+      "end_ms": 86220,
+      "duration_ms": 6084,
       "clauses": [
         {
           "index": 0,
           "text": "シンデレラはとりからふくとくつをもらって、",
-          "start_ms": 80143,
-          "end_ms": 83913,
-          "duration_ms": 3770
+          "start_ms": 80136,
+          "end_ms": 83825,
+          "duration_ms": 3689
         },
         {
           "index": 1,
           "text": "パーティーへ行きました。",
-          "start_ms": 84163,
-          "end_ms": 86285,
-          "duration_ms": 2122
+          "start_ms": 84075,
+          "end_ms": 86220,
+          "duration_ms": 2145
         }
       ]
     },
     {
       "index": 16,
       "text": "おうじはシンデレラを見て、一番すてきだと思いました。",
-      "start_ms": 86785,
-      "end_ms": 92533,
-      "duration_ms": 5748,
+      "start_ms": 86720,
+      "end_ms": 92537,
+      "duration_ms": 5817,
       "clauses": [
         {
           "index": 0,
           "text": "おうじはシンデレラを見て、",
-          "start_ms": 86785,
-          "end_ms": 89383,
-          "duration_ms": 2598
+          "start_ms": 86720,
+          "end_ms": 89341,
+          "duration_ms": 2621
         },
         {
           "index": 1,
           "text": "一番すてきだと思いました。",
-          "start_ms": 89633,
-          "end_ms": 92533,
-          "duration_ms": 2900
+          "start_ms": 89591,
+          "end_ms": 92537,
+          "duration_ms": 2946
         }
       ]
     },
     {
       "index": 17,
       "text": "おうじはシンデレラとだけ踊りました。",
-      "start_ms": 93033,
-      "end_ms": 96629,
-      "duration_ms": 3596,
+      "start_ms": 93037,
+      "end_ms": 96575,
+      "duration_ms": 3538,
       "clauses": [
         {
           "index": 0,
           "text": "おうじはシンデレラとだけ踊りました。",
-          "start_ms": 93033,
-          "end_ms": 96629,
-          "duration_ms": 3596
+          "start_ms": 93037,
+          "end_ms": 96575,
+          "duration_ms": 3538
         }
       ]
     },
     {
       "index": 18,
       "text": "シンデレラはかえるとき、くつをなくしました。",
-      "start_ms": 97129,
-      "end_ms": 102145,
-      "duration_ms": 5016,
+      "start_ms": 97075,
+      "end_ms": 102079,
+      "duration_ms": 5004,
       "clauses": [
         {
           "index": 0,
           "text": "シンデレラはかえるとき、",
-          "start_ms": 97129,
-          "end_ms": 99680,
+          "start_ms": 97075,
+          "end_ms": 99626,
           "duration_ms": 2551
         },
         {
           "index": 1,
           "text": "くつをなくしました。",
-          "start_ms": 99930,
-          "end_ms": 102145,
-          "duration_ms": 2215
+          "start_ms": 99876,
+          "end_ms": 102079,
+          "duration_ms": 2203
         }
       ]
     },
     {
       "index": 19,
       "text": "次の日、おうじはまちのおんなのこに会いました。",
-      "start_ms": 102645,
-      "end_ms": 108078,
-      "duration_ms": 5433,
+      "start_ms": 102579,
+      "end_ms": 108083,
+      "duration_ms": 5504,
       "clauses": [
         {
           "index": 0,
           "text": "次の日、",
-          "start_ms": 102645,
-          "end_ms": 104325,
-          "duration_ms": 1680
+          "start_ms": 102579,
+          "end_ms": 104318,
+          "duration_ms": 1739
         },
         {
           "index": 1,
           "text": "おうじはまちのおんなのこに会いました。",
-          "start_ms": 104575,
-          "end_ms": 108078,
-          "duration_ms": 3503
+          "start_ms": 104568,
+          "end_ms": 108083,
+          "duration_ms": 3515
         }
       ]
     },
     {
       "index": 20,
       "text": "そして、みんなにくつを履きました。",
-      "start_ms": 108578,
-      "end_ms": 112874,
-      "duration_ms": 4296,
+      "start_ms": 108583,
+      "end_ms": 112798,
+      "duration_ms": 4215,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 108578,
-          "end_ms": 109968,
-          "duration_ms": 1390
+          "start_ms": 108583,
+          "end_ms": 109962,
+          "duration_ms": 1379
         },
         {
           "index": 1,
           "text": "みんなにくつを履きました。",
-          "start_ms": 110218,
-          "end_ms": 112874,
-          "duration_ms": 2656
+          "start_ms": 110212,
+          "end_ms": 112798,
+          "duration_ms": 2586
         }
       ]
     },
     {
       "index": 21,
       "text": "ままははのおんなのこもくつを履きましたが、あしが入りませんでした。",
-      "start_ms": 113374,
-      "end_ms": 119783,
-      "duration_ms": 6409,
+      "start_ms": 113298,
+      "end_ms": 119788,
+      "duration_ms": 6490,
       "clauses": [
         {
           "index": 0,
           "text": "ままははのおんなのこもくつを履きましたが、",
-          "start_ms": 113374,
-          "end_ms": 117121,
-          "duration_ms": 3747
+          "start_ms": 113298,
+          "end_ms": 117115,
+          "duration_ms": 3817
         },
         {
           "index": 1,
           "text": "あしが入りませんでした。",
-          "start_ms": 117371,
-          "end_ms": 119783,
-          "duration_ms": 2412
+          "start_ms": 117365,
+          "end_ms": 119788,
+          "duration_ms": 2423
         }
       ]
     },
     {
       "index": 22,
       "text": "シンデレラがくつをはくと、あしが入りました。",
-      "start_ms": 120283,
-      "end_ms": 125217,
-      "duration_ms": 4934,
+      "start_ms": 120288,
+      "end_ms": 125258,
+      "duration_ms": 4970,
       "clauses": [
         {
           "index": 0,
           "text": "シンデレラがくつをはくと、",
-          "start_ms": 120283,
-          "end_ms": 122927,
-          "duration_ms": 2644
+          "start_ms": 120288,
+          "end_ms": 122979,
+          "duration_ms": 2691
         },
         {
           "index": 1,
           "text": "あしが入りました。",
-          "start_ms": 123177,
-          "end_ms": 125217,
-          "duration_ms": 2040
+          "start_ms": 123229,
+          "end_ms": 125258,
+          "duration_ms": 2029
         }
       ]
     },
     {
       "index": 23,
       "text": "それはシンデレラのくつでした。",
-      "start_ms": 125717,
-      "end_ms": 128988,
+      "start_ms": 125758,
+      "end_ms": 129029,
       "duration_ms": 3271,
       "clauses": [
         {
           "index": 0,
           "text": "それはシンデレラのくつでした。",
-          "start_ms": 125717,
-          "end_ms": 128988,
+          "start_ms": 125758,
+          "end_ms": 129029,
           "duration_ms": 3271
         }
       ]
     },
     {
       "index": 24,
-      "text": "おうじは「シンデレラ、わたしと結婚しませんか」と言いました。",
-      "start_ms": 129488,
-      "end_ms": 135397,
-      "duration_ms": 5909,
+      "text": "おうじは「シンデレラ、わたしとけっこんしませんか」と言いました。",
+      "start_ms": 129529,
+      "end_ms": 135474,
+      "duration_ms": 5945,
       "clauses": [
         {
           "index": 0,
           "text": "おうじは「シンデレラ、",
-          "start_ms": 129488,
-          "end_ms": 131621,
-          "duration_ms": 2133
+          "start_ms": 129529,
+          "end_ms": 131709,
+          "duration_ms": 2180
         },
         {
           "index": 1,
-          "text": "わたしと結婚しませんか」と言いました。",
-          "start_ms": 131871,
-          "end_ms": 135397,
-          "duration_ms": 3526
+          "text": "わたしとけっこんしませんか」と言いました。",
+          "start_ms": 131959,
+          "end_ms": 135474,
+          "duration_ms": 3515
         }
       ]
     },
     {
       "index": 25,
-      "text": "シンデレラは嬉しかったです。",
-      "start_ms": 135897,
-      "end_ms": 138878,
-      "duration_ms": 2981,
+      "text": "シンデレラはうれしかったです。",
+      "start_ms": 135974,
+      "end_ms": 138908,
+      "duration_ms": 2934,
       "clauses": [
         {
           "index": 0,
-          "text": "シンデレラは嬉しかったです。",
-          "start_ms": 135897,
-          "end_ms": 138878,
-          "duration_ms": 2981
+          "text": "シンデレラはうれしかったです。",
+          "start_ms": 135974,
+          "end_ms": 138908,
+          "duration_ms": 2934
         }
       ]
     },
     {
       "index": 26,
-      "text": "ふたりは結婚しました。",
-      "start_ms": 139378,
-      "end_ms": 142045,
-      "duration_ms": 2667,
+      "text": "ふたりはけっこんしました。",
+      "start_ms": 139408,
+      "end_ms": 142133,
+      "duration_ms": 2725,
       "clauses": [
         {
           "index": 0,
-          "text": "ふたりは結婚しました。",
-          "start_ms": 139378,
-          "end_ms": 142045,
-          "duration_ms": 2667
+          "text": "ふたりはけっこんしました。",
+          "start_ms": 139408,
+          "end_ms": 142133,
+          "duration_ms": 2725
         }
       ]
     },
     {
       "index": 27,
-      "text": "そして、嬉しく住みました。",
-      "start_ms": 142545,
-      "end_ms": 146411,
-      "duration_ms": 3866,
+      "text": "そして、うれしくすみました。",
+      "start_ms": 142633,
+      "end_ms": 146465,
+      "duration_ms": 3832,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 142545,
-          "end_ms": 143935,
-          "duration_ms": 1390
+          "start_ms": 142633,
+          "end_ms": 144000,
+          "duration_ms": 1367
         },
         {
           "index": 1,
-          "text": "嬉しく住みました。",
-          "start_ms": 144185,
-          "end_ms": 146411,
-          "duration_ms": 2226
+          "text": "うれしくすみました。",
+          "start_ms": 144250,
+          "end_ms": 146465,
+          "duration_ms": 2215
         }
       ]
     }
