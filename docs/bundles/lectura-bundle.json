@@ -1480,7 +1480,13 @@
       "genero": "practica",
       "titulo": "シンデレラの靴",
       "modoFurigana": "templado",
-      "furiganaList": [],
+      "furiganaList": [
+        "嬉しかった",
+        "嬉しく",
+        "住みました",
+        "結婚しませんか",
+        "結婚しました"
+      ],
       "nombres_propios": [
         {
           "literal": "シンデレラ",
@@ -1699,14 +1705,44 @@
           "significado": "feliz; alegre"
         },
         {
+          "literal": "嬉しかった",
+          "lectura": "うれしかった",
+          "significado": "feliz (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "嬉しく",
+          "lectura": "うれしく",
+          "significado": "feliz (adverbio)",
+          "exclusion": true
+        },
+        {
           "literal": "住む",
           "lectura": "すむ",
           "significado": "vivir, residir"
         },
         {
+          "literal": "住みました",
+          "lectura": "すみました",
+          "significado": "vivir (pasado -masu)",
+          "exclusion": true
+        },
+        {
           "literal": "結婚する",
           "lectura": "けっこんする",
           "significado": "casarse"
+        },
+        {
+          "literal": "結婚しませんか",
+          "lectura": "けっこんしませんか",
+          "significado": "casarse (invitación)",
+          "exclusion": true
+        },
+        {
+          "literal": "結婚しました",
+          "lectura": "けっこんしました",
+          "significado": "casarse (pasado -masu)",
+          "exclusion": true
         }
       ],
       "referencias": [
