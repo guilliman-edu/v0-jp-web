@@ -1,0 +1,491 @@
+{
+  "audio_file": "a2.2-s4-onigiri.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 112499,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "おにぎりのれきし",
+      "start_ms": 0,
+      "end_ms": 1959,
+      "duration_ms": 1959,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おにぎりのれきし",
+          "start_ms": 0,
+          "end_ms": 1959,
+          "duration_ms": 1959
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "おにぎりは、にほんでむかしからあるたべものです。",
+      "start_ms": 2459,
+      "end_ms": 7660,
+      "duration_ms": 5201,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おにぎりは、",
+          "start_ms": 2459,
+          "end_ms": 4081,
+          "duration_ms": 1622
+        },
+        {
+          "index": 1,
+          "text": "にほんでむかしからあるたべものです。",
+          "start_ms": 4331,
+          "end_ms": 7660,
+          "duration_ms": 3329
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "ごはんをにぎってつくります。",
+      "start_ms": 8160,
+      "end_ms": 10862,
+      "duration_ms": 2702,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ごはんをにぎってつくります。",
+          "start_ms": 8160,
+          "end_ms": 10862,
+          "duration_ms": 2702
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "そのれきしはとてもながいです。",
+      "start_ms": 11362,
+      "end_ms": 14726,
+      "duration_ms": 3364,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのれきしはとてもながいです。",
+          "start_ms": 11362,
+          "end_ms": 14726,
+          "duration_ms": 3364
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "むかしのほんにも、おにぎりがでています。",
+      "start_ms": 15226,
+      "end_ms": 19882,
+      "duration_ms": 4656,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかしのほんにも、",
+          "start_ms": 15226,
+          "end_ms": 17290,
+          "duration_ms": 2064
+        },
+        {
+          "index": 1,
+          "text": "おにぎりがでています。",
+          "start_ms": 17540,
+          "end_ms": 19882,
+          "duration_ms": 2342
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "ならじだいのほんには、「にぎりめし」がありました。",
+      "start_ms": 20382,
+      "end_ms": 25317,
+      "duration_ms": 4935,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ならじだいのほんには、",
+          "start_ms": 20382,
+          "end_ms": 22655,
+          "duration_ms": 2273
+        },
+        {
+          "index": 1,
+          "text": "「にぎりめし」がありました。",
+          "start_ms": 22905,
+          "end_ms": 25317,
+          "duration_ms": 2412
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "おにぎりには、ふたつのなまえがあります。",
+      "start_ms": 25817,
+      "end_ms": 30205,
+      "duration_ms": 4388,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おにぎりには、",
+          "start_ms": 25817,
+          "end_ms": 27497,
+          "duration_ms": 1680
+        },
+        {
+          "index": 1,
+          "text": "ふたつのなまえがあります。",
+          "start_ms": 27747,
+          "end_ms": 30205,
+          "duration_ms": 2458
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "「おにぎり」と「おむすび」です。",
+      "start_ms": 30705,
+      "end_ms": 33198,
+      "duration_ms": 2493,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「おにぎり」と「おむすび」です。",
+          "start_ms": 30705,
+          "end_ms": 33198,
+          "duration_ms": 2493
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "なまえはちがいますが、おなじたべものです。",
+      "start_ms": 33698,
+      "end_ms": 38459,
+      "duration_ms": 4761,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "なまえはちがいますが、",
+          "start_ms": 33698,
+          "end_ms": 36029,
+          "duration_ms": 2331
+        },
+        {
+          "index": 1,
+          "text": "おなじたべものです。",
+          "start_ms": 36279,
+          "end_ms": 38459,
+          "duration_ms": 2180
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "おにぎりは、ひとりでたべることもありますが、みんなでわけてたべることがおおいです。",
+      "start_ms": 38959,
+      "end_ms": 47542,
+      "duration_ms": 8583,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おにぎりは、",
+          "start_ms": 38959,
+          "end_ms": 40558,
+          "duration_ms": 1599
+        },
+        {
+          "index": 1,
+          "text": "ひとりでたべることもありますが、",
+          "start_ms": 40808,
+          "end_ms": 43835,
+          "duration_ms": 3027
+        },
+        {
+          "index": 2,
+          "text": "みんなでわけてたべることがおおいです。",
+          "start_ms": 44085,
+          "end_ms": 47542,
+          "duration_ms": 3457
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "だから、じしんのあとでひとがこまっているとき、みんなでおにぎりをつくって、あげます。",
+      "start_ms": 48042,
+      "end_ms": 57535,
+      "duration_ms": 9493,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だから、",
+          "start_ms": 48042,
+          "end_ms": 49212,
+          "duration_ms": 1170
+        },
+        {
+          "index": 1,
+          "text": "じしんのあとでひとがこまっているとき、",
+          "start_ms": 49462,
+          "end_ms": 52884,
+          "duration_ms": 3422
+        },
+        {
+          "index": 2,
+          "text": "みんなでおにぎりをつくって、",
+          "start_ms": 53134,
+          "end_ms": 55732,
+          "duration_ms": 2598
+        },
+        {
+          "index": 3,
+          "text": "あげます。",
+          "start_ms": 55982,
+          "end_ms": 57535,
+          "duration_ms": 1553
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "なかには、うめぼしやさかななど、いろいろなぐがはいっています。",
+      "start_ms": 58035,
+      "end_ms": 65074,
+      "duration_ms": 7039,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "なかには、",
+          "start_ms": 58035,
+          "end_ms": 59541,
+          "duration_ms": 1506
+        },
+        {
+          "index": 1,
+          "text": "うめぼしやさかななど、",
+          "start_ms": 59791,
+          "end_ms": 62145,
+          "duration_ms": 2354
+        },
+        {
+          "index": 2,
+          "text": "いろいろなぐがはいっています。",
+          "start_ms": 62395,
+          "end_ms": 65074,
+          "duration_ms": 2679
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "うみのたべものも、やまのたべものもつかいます。",
+      "start_ms": 65574,
+      "end_ms": 70729,
+      "duration_ms": 5155,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "うみのたべものも、",
+          "start_ms": 65574,
+          "end_ms": 67684,
+          "duration_ms": 2110
+        },
+        {
+          "index": 1,
+          "text": "やまのたべものもつかいます。",
+          "start_ms": 67934,
+          "end_ms": 70729,
+          "duration_ms": 2795
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "いまは、コンビニやスーパーでたくさんうっています。",
+      "start_ms": 71229,
+      "end_ms": 75966,
+      "duration_ms": 4737,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いまは、",
+          "start_ms": 71229,
+          "end_ms": 72236,
+          "duration_ms": 1007
+        },
+        {
+          "index": 1,
+          "text": "コンビニやスーパーでたくさんうっています。",
+          "start_ms": 72486,
+          "end_ms": 75966,
+          "duration_ms": 3480
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "かたちは、たいていさんかくです。",
+      "start_ms": 76466,
+      "end_ms": 80507,
+      "duration_ms": 4041,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かたちは、",
+          "start_ms": 76466,
+          "end_ms": 78019,
+          "duration_ms": 1553
+        },
+        {
+          "index": 1,
+          "text": "たいていさんかくです。",
+          "start_ms": 78269,
+          "end_ms": 80507,
+          "duration_ms": 2238
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "でも、まるいかたちのものもあります。",
+      "start_ms": 81007,
+      "end_ms": 85059,
+      "duration_ms": 4052,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 81007,
+          "end_ms": 81968,
+          "duration_ms": 961
+        },
+        {
+          "index": 1,
+          "text": "まるいかたちのものもあります。",
+          "start_ms": 82218,
+          "end_ms": 85059,
+          "duration_ms": 2841
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "おにぎりは、せかいでもゆうめいになりました。",
+      "start_ms": 85559,
+      "end_ms": 90401,
+      "duration_ms": 4842,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おにぎりは、",
+          "start_ms": 85559,
+          "end_ms": 87170,
+          "duration_ms": 1611
+        },
+        {
+          "index": 1,
+          "text": "せかいでもゆうめいになりました。",
+          "start_ms": 87420,
+          "end_ms": 90401,
+          "duration_ms": 2981
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "がいこくのみせでもうっています。",
+      "start_ms": 90901,
+      "end_ms": 93835,
+      "duration_ms": 2934,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "がいこくのみせでもうっています。",
+          "start_ms": 90901,
+          "end_ms": 93835,
+          "duration_ms": 2934
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "2024年には、えいごのじしょに「onigiri」がはいりました。",
+      "start_ms": 94335,
+      "end_ms": 99862,
+      "duration_ms": 5527,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "2024年には、",
+          "start_ms": 94335,
+          "end_ms": 96747,
+          "duration_ms": 2412
+        },
+        {
+          "index": 1,
+          "text": "えいごのじしょに「onigiri」がはいりました。",
+          "start_ms": 96997,
+          "end_ms": 99862,
+          "duration_ms": 2865
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "むかしといまで、かたちやぐはちがいます。",
+      "start_ms": 100362,
+      "end_ms": 104995,
+      "duration_ms": 4633,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかしといまで、",
+          "start_ms": 100362,
+          "end_ms": 102240,
+          "duration_ms": 1878
+        },
+        {
+          "index": 1,
+          "text": "かたちやぐはちがいます。",
+          "start_ms": 102490,
+          "end_ms": 104995,
+          "duration_ms": 2505
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "でも、おにぎりは、これからもにほんのたいせつなたべものです。",
+      "start_ms": 105495,
+      "end_ms": 112499,
+      "duration_ms": 7004,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 105495,
+          "end_ms": 106502,
+          "duration_ms": 1007
+        },
+        {
+          "index": 1,
+          "text": "おにぎりは、",
+          "start_ms": 106752,
+          "end_ms": 108351,
+          "duration_ms": 1599
+        },
+        {
+          "index": 2,
+          "text": "これからもにほんのたいせつなたべものです。",
+          "start_ms": 108601,
+          "end_ms": 112499,
+          "duration_ms": 3898
+        }
+      ]
+    }
+  ]
+}
