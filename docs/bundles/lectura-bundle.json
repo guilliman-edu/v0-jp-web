@@ -4515,6 +4515,357 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s4-onigiri"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "おにぎりの歴史",
+      "tituloEs": "La historia del onigiri",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "おにぎり",
+        "にぎって",
+        "作ります",
+        "昔",
+        "出ています",
+        "奈良時代",
+        "握飯",
+        "ありました",
+        "二つ",
+        "違います",
+        "同じ",
+        "おむすび",
+        "分けて",
+        "地震",
+        "困っている",
+        "作って",
+        "梅干し",
+        "具",
+        "入っています",
+        "使います",
+        "売っています",
+        "形",
+        "三角",
+        "丸い",
+        "店",
+        "入りました",
+        "大切"
+      ],
+      "nombres_propios": [],
+      "ilustracion": {
+        "escena": "onigiri",
+        "alt": "Dos onigiri triangulares de arroz con banda de alga, con granos de arroz sueltos alrededor y el rótulo おにぎり",
+        "ruta": "lectura/imagenes/a2.2-s4-onigiri.webp"
+      },
+      "texto": "おにぎりは、日本で昔からある食べ物です。ごはんをにぎって作ります。\n\nその歴史はとても長いです。昔の本にも、おにぎりが出ています。奈良時代の本には、「握飯」がありました。\n\nおにぎりには、二つの名前があります。「おにぎり」と「おむすび」です。名前は違いますが、同じ食べ物です。\n\nおにぎりは、一人で食べることもありますが、みんなで分けて食べることが多いです。だから、地震の後で人が困っているとき、みんなでおにぎりを作って、あげます。\n\n中には、梅干しや魚など、いろいろな具が入っています。うみの食べ物も、山の食べ物も使います。\n\n今は、コンビニやスーパーでたくさん売っています。形は、たいてい三角です。でも、丸い形のものもあります。\n\nおにぎりは、世界でも有名になりました。外国の店でも売っています。2024年には、英語の辞書に「onigiri」が入りました。\n\n昔と今で、形や具は違います。でも、おにぎりは、これからも日本の大切な食べ物です。\n",
+      "textoEs": "El onigiri es una comida que existe en Japón desde hace mucho tiempo. Se hace amasando el arroz con la mano.\n\nSu historia es muy larga. El onigiri aparece también en libros antiguos. En un libro del período Nara aparecía «nigirimeshi».\n\nEl onigiri tiene dos nombres: «onigiri» y «omusubi». Los nombres son diferentes, pero es la misma comida.\n\nEl onigiri a veces se come uno solo, pero muchas veces se come compartiéndolo entre todos. Por eso, después de un terremoto, cuando la gente está en apuros, todos hacen onigiri y se lo dan.\n\nDentro lleva ingredientes variados, como ciruela encurtida o pescado. Se usan alimentos del mar y también de la montaña.\n\nHoy se vende mucho en tiendas de conveniencia y supermercados. La forma es casi siempre triangular. Pero también hay onigiri de forma redonda.\n\nEl onigiri se ha hecho famoso también en el mundo. También se vende en tiendas extranjeras. En 2024, la palabra «onigiri» entró en un diccionario de inglés.\n\nEntre el pasado y el presente, la forma y los ingredientes son diferentes. Pero el onigiri, también de ahora en adelante, es una comida importante de Japón.\n",
+      "preguntas": [
+        "おにぎりは、何から作りますか。",
+        "奈良時代の本には、何がありましたか。",
+        "おにぎりには、どんな名前がありますか。",
+        "地震の後で、人はおにぎりをどうしますか。",
+        "おにぎりの中には、何が入っていますか。",
+        "2024年、英語の辞書に何が入りましたか。"
+      ],
+      "preguntasEs": [
+        "¿De qué se hace el onigiri?",
+        "¿Qué aparecía en un libro del período Nara?",
+        "¿Qué nombres tiene el onigiri?",
+        "Después de un terremoto, ¿qué hace la gente con el onigiri?",
+        "¿Qué lleva dentro el onigiri?",
+        "En 2024, ¿qué entró en un diccionario de inglés?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "おにぎり",
+          "lectura": "おにぎり",
+          "significado": "onigiri (bola de arroz)",
+          "exclusion": true
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "食べ物",
+          "lectura": "たべもの",
+          "significado": "comida"
+        },
+        {
+          "literal": "にぎって",
+          "lectura": "にぎって",
+          "significado": "formar (el onigiri) con la mano",
+          "exclusion": true
+        },
+        {
+          "literal": "作ります",
+          "lectura": "つくります",
+          "significado": "hacer",
+          "exclusion": true
+        },
+        {
+          "literal": "歴史",
+          "lectura": "れきし",
+          "significado": "historia"
+        },
+        {
+          "literal": "長い",
+          "lectura": "ながい",
+          "significado": "largo"
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "hace mucho tiempo, tiempos pasados",
+          "exclusion": true
+        },
+        {
+          "literal": "本",
+          "lectura": "ほん",
+          "significado": "libro"
+        },
+        {
+          "literal": "出ています",
+          "lectura": "でています",
+          "significado": "aparecer, salir (estado)",
+          "exclusion": true
+        },
+        {
+          "literal": "奈良時代",
+          "lectura": "ならじだい",
+          "significado": "período Nara",
+          "exclusion": true
+        },
+        {
+          "literal": "握飯",
+          "lectura": "にぎりめし",
+          "significado": "bola de arroz (nombre antiguo)",
+          "exclusion": true
+        },
+        {
+          "literal": "ありました",
+          "lectura": "ありました",
+          "significado": "haber, existir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "二つ",
+          "lectura": "ふたつ",
+          "significado": "dos (cosas)",
+          "exclusion": true
+        },
+        {
+          "literal": "名前",
+          "lectura": "なまえ",
+          "significado": "nombre"
+        },
+        {
+          "literal": "違います",
+          "lectura": "ちがいます",
+          "significado": "ser diferente",
+          "exclusion": true
+        },
+        {
+          "literal": "同じ",
+          "lectura": "おなじ",
+          "significado": "mismo",
+          "exclusion": true
+        },
+        {
+          "literal": "おむすび",
+          "lectura": "おむすび",
+          "significado": "onigiri (nombre alternativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "一人",
+          "lectura": "ひとり",
+          "significado": "una persona"
+        },
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "分けて",
+          "lectura": "わけて",
+          "significado": "dividir, repartir (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "多い",
+          "lectura": "おおい",
+          "significado": "muchos"
+        },
+        {
+          "literal": "地震",
+          "lectura": "じしん",
+          "significado": "terremoto",
+          "exclusion": true
+        },
+        {
+          "literal": "後",
+          "lectura": "あと",
+          "significado": "después"
+        },
+        {
+          "literal": "人",
+          "lectura": "ひと",
+          "significado": "persona"
+        },
+        {
+          "literal": "困っている",
+          "lectura": "こまっている",
+          "significado": "estar en apuros",
+          "exclusion": true
+        },
+        {
+          "literal": "作って",
+          "lectura": "つくって",
+          "significado": "hacer (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "中",
+          "lectura": "なか",
+          "significado": "dentro"
+        },
+        {
+          "literal": "梅干し",
+          "lectura": "うめぼし",
+          "significado": "ciruela encurtida (umeboshi)",
+          "exclusion": true
+        },
+        {
+          "literal": "魚",
+          "lectura": "さかな",
+          "significado": "pescado"
+        },
+        {
+          "literal": "具",
+          "lectura": "ぐ",
+          "significado": "ingrediente (de relleno)",
+          "exclusion": true
+        },
+        {
+          "literal": "入っています",
+          "lectura": "はいっています",
+          "significado": "entrar, estar dentro",
+          "exclusion": true
+        },
+        {
+          "literal": "山",
+          "lectura": "やま",
+          "significado": "montaña"
+        },
+        {
+          "literal": "使います",
+          "lectura": "つかいます",
+          "significado": "usar",
+          "exclusion": true
+        },
+        {
+          "literal": "今",
+          "lectura": "いま",
+          "significado": "ahora"
+        },
+        {
+          "literal": "コンビニ",
+          "lectura": "コンビニ",
+          "significado": "tienda de conveniencia"
+        },
+        {
+          "literal": "スーパー",
+          "lectura": "スーパー",
+          "significado": "supermercado"
+        },
+        {
+          "literal": "売っています",
+          "lectura": "うっています",
+          "significado": "vender (estado)",
+          "exclusion": true
+        },
+        {
+          "literal": "形",
+          "lectura": "かたち",
+          "significado": "forma",
+          "exclusion": true
+        },
+        {
+          "literal": "三角",
+          "lectura": "さんかく",
+          "significado": "triángulo",
+          "exclusion": true
+        },
+        {
+          "literal": "丸い",
+          "lectura": "まるい",
+          "significado": "redondo",
+          "exclusion": true
+        },
+        {
+          "literal": "世界",
+          "lectura": "せかい",
+          "significado": "mundo"
+        },
+        {
+          "literal": "有名",
+          "lectura": "ゆうめい",
+          "significado": "famoso"
+        },
+        {
+          "literal": "外国",
+          "lectura": "がいこく",
+          "significado": "país extranjero"
+        },
+        {
+          "literal": "店",
+          "lectura": "みせ",
+          "significado": "tienda",
+          "exclusion": true
+        },
+        {
+          "literal": "英語",
+          "lectura": "えいご",
+          "significado": "inglés (idioma)"
+        },
+        {
+          "literal": "辞書",
+          "lectura": "じしょ",
+          "significado": "diccionario"
+        },
+        {
+          "literal": "入りました",
+          "lectura": "はいりました",
+          "significado": "entrar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "うみ",
+          "lectura": "うみ",
+          "significado": "mar"
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante, valioso",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "forma-te",
+        "usos-forma-te",
+        "particula-ga"
+      ],
+      "nivel": "A2.2"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s1-shinderera"
     },
     "data": {
