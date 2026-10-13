@@ -1481,11 +1481,36 @@
       "titulo": "シンデレラの靴",
       "modoFurigana": "templado",
       "furiganaList": [
+        "死んだ",
+        "来ました",
+        "掃除したり",
+        "洗濯したり",
+        "作りました",
+        "忙しかった",
+        "寂しかった",
+        "行きました",
+        "行きたい",
+        "行きません",
+        "言いました",
+        "言っていました",
+        "見て",
+        "踊りました",
+        "なくしました",
+        "会いました",
+        "履きました",
+        "入りました",
+        "入りませんでした",
         "嬉しかった",
         "嬉しく",
         "住みました",
         "結婚しませんか",
-        "結婚しました"
+        "結婚しました",
+        "思いました",
+        "ある日",
+        "夜",
+        "一番",
+        "次の日",
+        "そして"
       ],
       "nombres_propios": [
         {
@@ -1494,6 +1519,11 @@
           "significado": "Cenicienta"
         }
       ],
+      "ilustracion": {
+        "escena": "shinderera",
+        "alt": "Cenicienta de perfil con vestido azul y diadema, el pájaro blanco que le trae los zapatos y el zapato de cristal flotando entre brillos",
+        "ruta": "lectura/imagenes/a2.2-s1-shinderera.webp"
+      },
       "texto": "むかし、シンデレラという女の子がいました。シンデレラの母が死んだとき、シンデレラは寂しかったです。それから、父の家に継母と二人の女の子が来ました。継母と二人の女の子はシンデレラに親切ではありませんでした。シンデレラは毎日掃除したり、洗濯したりしました。それから、服も作りました。シンデレラはとても忙しかったです。そして、寂しかったです。\n\nある日、王子の家で大きいパーティーがありました。町の女の子はみんな、パーティーに行きました。シンデレラも行きたいと思いました。でも、継母は「服も靴もありませんから、行きません」と言っていました。\n\n夜、白い鳥が来ました。鳥はシンデレラに素敵な服と靴をくれました。シンデレラは鳥から服と靴をもらって、パーティーへ行きました。王子はシンデレラを見て、一番素敵だと思いました。王子はシンデレラとだけ踊りました。シンデレラは帰るとき、靴をなくしました。\n\n次の日、王子は町の女の子に会いました。そして、みんなに靴を履きました。継母の女の子も靴を履きましたが、足が入りませんでした。シンデレラが靴を履くと、足が入りました。それはシンデレラの靴でした。\n\n王子は「シンデレラ、私と結婚しませんか」と言いました。シンデレラは嬉しかったです。二人は結婚しました。そして、嬉しく住みました。\n",
       "preguntas": [
         "シンデレラの母はどうなりましたか。",
@@ -1530,6 +1560,12 @@
           "significado": "morir"
         },
         {
+          "literal": "死んだ",
+          "lectura": "しんだ",
+          "significado": "morir (pasado)",
+          "exclusion": true
+        },
+        {
           "literal": "父",
           "lectura": "ちち",
           "significado": "padre"
@@ -1555,6 +1591,12 @@
           "significado": "venir"
         },
         {
+          "literal": "来ました",
+          "lectura": "きました",
+          "significado": "venir (pasado -masu)",
+          "exclusion": true
+        },
+        {
           "literal": "親切",
           "lectura": "しんせつ",
           "significado": "amable, gentil"
@@ -1570,9 +1612,21 @@
           "significado": "limpiar, hacer la limpieza"
         },
         {
+          "literal": "掃除したり",
+          "lectura": "そうじしたり",
+          "significado": "limpiar (enumeración -tari)",
+          "exclusion": true
+        },
+        {
           "literal": "洗濯する",
           "lectura": "せんたくする",
           "significado": "lavar (la ropa)"
+        },
+        {
+          "literal": "洗濯したり",
+          "lectura": "せんたくしたり",
+          "significado": "lavar la ropa (enumeración -tari)",
+          "exclusion": true
         },
         {
           "literal": "服",
@@ -1585,14 +1639,32 @@
           "significado": "hacer, fabricar"
         },
         {
+          "literal": "作りました",
+          "lectura": "つくりました",
+          "significado": "hacer (pasado -masu)",
+          "exclusion": true
+        },
+        {
           "literal": "忙しい",
           "lectura": "いそがしい",
           "significado": "ocupado, atareado"
         },
         {
+          "literal": "忙しかった",
+          "lectura": "いそがしかった",
+          "significado": "ocupado (pasado)",
+          "exclusion": true
+        },
+        {
           "literal": "寂しい",
           "lectura": "さびしい",
           "significado": "triste, solitario"
+        },
+        {
+          "literal": "寂しかった",
+          "lectura": "さびしかった",
+          "significado": "triste (pasado)",
+          "exclusion": true
         },
         {
           "literal": "王子",
@@ -1625,9 +1697,39 @@
           "significado": "ir"
         },
         {
+          "literal": "行きました",
+          "lectura": "いきました",
+          "significado": "ir (pasado -masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "行きたい",
+          "lectura": "いきたい",
+          "significado": "ir (querer)",
+          "exclusion": true
+        },
+        {
+          "literal": "行きません",
+          "lectura": "いきません",
+          "significado": "ir (negado -masu)",
+          "exclusion": true
+        },
+        {
           "literal": "言う",
           "lectura": "いう",
           "significado": "decir"
+        },
+        {
+          "literal": "言いました",
+          "lectura": "いいました",
+          "significado": "decir (pasado -masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "言っていました",
+          "lectura": "いっていました",
+          "significado": "decir (pasado continuo)",
+          "exclusion": true
         },
         {
           "literal": "靴",
@@ -1660,9 +1762,21 @@
           "significado": "ver, mirar"
         },
         {
+          "literal": "見て",
+          "lectura": "みて",
+          "significado": "ver (forma -te)",
+          "exclusion": true
+        },
+        {
           "literal": "踊る",
           "lectura": "おどる",
           "significado": "bailar"
+        },
+        {
+          "literal": "踊りました",
+          "lectura": "おどりました",
+          "significado": "bailar (pasado -masu)",
+          "exclusion": true
         },
         {
           "literal": "帰る",
@@ -1675,14 +1789,32 @@
           "significado": "perder"
         },
         {
+          "literal": "なくしました",
+          "lectura": "なくしました",
+          "significado": "perder (pasado -masu)",
+          "exclusion": true
+        },
+        {
           "literal": "会う",
           "lectura": "あう",
           "significado": "encontrarse con"
         },
         {
+          "literal": "会いました",
+          "lectura": "あいました",
+          "significado": "encontrarse (pasado -masu)",
+          "exclusion": true
+        },
+        {
           "literal": "履く",
           "lectura": "はく",
           "significado": "calzar, ponerse (zapatos)"
+        },
+        {
+          "literal": "履きました",
+          "lectura": "はきました",
+          "significado": "calzar (pasado -masu)",
+          "exclusion": true
         },
         {
           "literal": "足",
@@ -1693,6 +1825,18 @@
           "literal": "入る",
           "lectura": "はいる",
           "significado": "entrar, caber"
+        },
+        {
+          "literal": "入りました",
+          "lectura": "はいりました",
+          "significado": "entrar, caber (pasado -masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "入りませんでした",
+          "lectura": "はいりませんでした",
+          "significado": "entrar, caber (negado -masu)",
+          "exclusion": true
         },
         {
           "literal": "私",
@@ -1743,14 +1887,50 @@
           "lectura": "けっこんしました",
           "significado": "casarse (pasado -masu)",
           "exclusion": true
+        },
+        {
+          "literal": "思いました",
+          "lectura": "おもいました",
+          "significado": "pensar (pasado -masu)",
+          "exclusion": true
+        },
+        {
+          "literal": "ある日",
+          "lectura": "あるひ",
+          "significado": "un día",
+          "exclusion": true
+        },
+        {
+          "literal": "夜",
+          "lectura": "よる",
+          "significado": "noche",
+          "exclusion": true
+        },
+        {
+          "literal": "一番",
+          "lectura": "いちばん",
+          "significado": "el más (superlativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "次の日",
+          "lectura": "つぎのひ",
+          "significado": "al día siguiente",
+          "exclusion": true
+        },
+        {
+          "literal": "そして",
+          "lectura": "そして",
+          "significado": "y entonces",
+          "exclusion": true
         }
       ],
       "referencias": [
-        "tokio-pasado",
-        "enumeracion-tari",
-        "opinion-to-omoimasu",
-        "estilo-indirecto-to-itte-imashita",
-        "dar-recibir-agemasu-moraimasu"
+        "forma-simple",
+        "forma-te",
+        "usos-forma-te",
+        "particula-ga",
+        "forma-volitiva"
       ],
       "nivel": "A2.2"
     }
@@ -3051,6 +3231,11 @@
           "significado": "los Sombreros de Paja"
         }
       ],
+      "ilustracion": {
+        "escena": "onepiece",
+        "alt": "Niño pirata con sombrero de paja y chaleco rojo navegando en un barco de vela por el mar, con sol y gaviotas",
+        "ruta": "lectura/imagenes/a2.2-s2-one-piece.webp"
+      },
       "texto": "昔、この世界に、すごく有名な海賊がいました。名前はゴール・D・ロジャーです。みんなはロジャーのことを、「海賊王」と言いました。ロジャーは、船で、世界中を旅行しました。\n\nロジャーは死ぬ前に、言いました。「みなさん、私の宝が欲しいですか。欲しい人は、自分で探してください。私は宝を、あそこに置きました。」\n\nこの言葉を聞いて、世界中の人が大きな夢を持ちました。宝を探して、海に出る人が多くなりました。そこから、海賊が多くいる世界になりました。\n\nその中に、一人の男の子がいました。名前はモンキー・D・ルフィです。ルフィの夢は、「海賊王になること」です。ルフィは、自分の夢を大切にしました。そして、大きな海へ出ました。\n\nルフィは冒険の中で、友達を集めました。ルフィは強くなりました。ルフィは船長です。ルフィと友達は、「麦わらの一味」です。今も、宝を探して、船で冒険をしています。\n",
       "preguntas": [
         "ゴール・D・ロジャーは、死ぬ前に何と言いましたか。",
@@ -4337,7 +4522,39 @@
       "titulo": "シンデレラ",
       "nivel": "B2.1",
       "modoFurigana": "templado",
-      "furiganaList": [],
+      "furiganaList": [
+        "継母",
+        "継娘",
+        "灰かぶり",
+        "舞踏会",
+        "宮殿",
+        "鳩小屋",
+        "花嫁",
+        "王子",
+        "上靴",
+        "はしばみ",
+        "教会",
+        "意地悪",
+        "不誠実",
+        "真珠",
+        "宝石",
+        "鳩",
+        "鶉",
+        "期日",
+        "茂み",
+        "涙",
+        "立派",
+        "招待",
+        "許可",
+        "手伝い",
+        "美しい",
+        "驚く",
+        "逃げる",
+        "計略",
+        "階段",
+        "偽",
+        "罰"
+      ],
       "preguntas": [
         "シンデレラの母親はいつ亡くなりましたか。",
         "継母はシンデレラにどんな仕事をさせましたか。",
@@ -4350,56 +4567,79 @@
         "金の上靴に合うのは誰でしたか。",
         "二人の姉たちはどうなりましたか。"
       ],
+      "tituloEs": "Cenicienta",
+      "preguntasEs": [
+        "¿Cuándo murió la madre de Cenicienta?",
+        "¿Qué trabajos hacía hacer la madrastra a Cenicienta?",
+        "¿Qué le compró el padre a Cenicienta?",
+        "¿Qué pájaro venía al árbol de avellano?",
+        "¿Cuántos días duró la fiesta del rey?",
+        "¿Por qué no pudo ir Cenicienta al baile?",
+        "¿Qué le regalaron los pajaritos a Cenicienta?",
+        "¿Qué le dijo el príncipe a Cenicienta?",
+        "¿A quién le calzó el zapato de oro?",
+        "¿Qué les pasó a las dos hermanas?"
+      ],
       "vocabulario": [
         {
           "literal": "継母",
           "lectura": "ままはは",
-          "significado": "madrastra"
+          "significado": "madrastra",
+          "exclusion": true
         },
         {
           "literal": "継娘",
           "lectura": "こいもうと",
-          "significado": "hijastra"
+          "significado": "hijastra",
+          "exclusion": true
         },
         {
           "literal": "灰かぶり",
           "lectura": "はいかぶり",
-          "significado": "Cenicienta"
+          "significado": "Cenicienta",
+          "exclusion": true
         },
         {
           "literal": "舞踏会",
           "lectura": "ぶとうかい",
-          "significado": "baile"
+          "significado": "baile",
+          "exclusion": true
         },
         {
           "literal": "宮殿",
           "lectura": "きゅうでん",
-          "significado": "palacio"
+          "significado": "palacio",
+          "exclusion": true
         },
         {
           "literal": "鳩小屋",
           "lectura": "はとや",
-          "significado": "palomar"
+          "significado": "palomar",
+          "exclusion": true
         },
         {
           "literal": "花嫁",
           "lectura": "はなよめ",
-          "significado": "novia"
+          "significado": "novia",
+          "exclusion": true
         },
         {
           "literal": "王子",
           "lectura": "おうじ",
-          "significado": "príncipe"
+          "significado": "príncipe",
+          "exclusion": true
         },
         {
           "literal": "上靴",
           "lectura": "うわぐつ",
-          "significado": "zapato"
+          "significado": "zapato",
+          "exclusion": true
         },
         {
           "literal": "はしばみ",
           "lectura": "はしばみ",
-          "significado": "avellano"
+          "significado": "avellano",
+          "exclusion": true
         },
         {
           "literal": "結婚式",
@@ -4409,17 +4649,20 @@
         {
           "literal": "教会",
           "lectura": "きょうかい",
-          "significado": "iglesia"
+          "significado": "iglesia",
+          "exclusion": true
         },
         {
           "literal": "意地悪",
           "lectura": "いじわる",
-          "significado": "malicia"
+          "significado": "malicia",
+          "exclusion": true
         },
         {
           "literal": "不誠実",
           "lectura": "ふせいじつ",
-          "significado": "desleal"
+          "significado": "desleal",
+          "exclusion": true
         },
         {
           "literal": "生涯",
@@ -4429,32 +4672,38 @@
         {
           "literal": "真珠",
           "lectura": "しんじゅ",
-          "significado": "perla"
+          "significado": "perla",
+          "exclusion": true
         },
         {
           "literal": "宝石",
           "lectura": "ほうせき",
-          "significado": "joyas"
+          "significado": "joyas",
+          "exclusion": true
         },
         {
           "literal": "鳩",
           "lectura": "はと",
-          "significado": "paloma"
+          "significado": "paloma",
+          "exclusion": true
         },
         {
           "literal": "鶉",
           "lectura": "きじばと",
-          "significado": "tórtola"
+          "significado": "tórtola",
+          "exclusion": true
         },
         {
           "literal": "期日",
           "lectura": "きじつ",
-          "significado": "fecha límite"
+          "significado": "fecha límite",
+          "exclusion": true
         },
         {
           "literal": "茂み",
           "lectura": "しげみ",
-          "significado": "maleza"
+          "significado": "maleza",
+          "exclusion": true
         },
         {
           "literal": "帽子",
@@ -4464,81 +4713,93 @@
         {
           "literal": "涙",
           "lectura": "なみだ",
-          "significado": "lágrimas"
+          "significado": "lágrimas",
+          "exclusion": true
         },
         {
           "literal": "立派",
           "lectura": "りっぱ",
-          "significado": "imponente"
+          "significado": "imponente",
+          "exclusion": true
         },
         {
           "literal": "招待",
           "lectura": "しょうたい",
-          "significado": "invitación"
+          "significado": "invitación",
+          "exclusion": true
         },
         {
           "literal": "許可",
           "lectura": "きょか",
-          "significado": "permiso"
+          "significado": "permiso",
+          "exclusion": true
         },
         {
           "literal": "手伝い",
           "lectura": "てつだい",
-          "significado": "ayuda"
+          "significado": "ayuda",
+          "exclusion": true
         },
         {
           "literal": "美しい",
           "lectura": "うつくしい",
-          "significado": "hermoso/a"
+          "significado": "hermoso/a",
+          "exclusion": true
         },
         {
           "literal": "驚く",
           "lectura": "おどろく",
-          "significado": "sorprenderse"
+          "significado": "sorprenderse",
+          "exclusion": true
         },
         {
           "literal": "逃げる",
           "lectura": "にげる",
-          "significado": "huir"
+          "significado": "huir",
+          "exclusion": true
         },
         {
           "literal": "計略",
           "lectura": "けいりゃく",
-          "significado": "estratagema"
+          "significado": "estratagema",
+          "exclusion": true
         },
         {
           "literal": "階段",
           "lectura": "かいだん",
-          "significado": "escalera"
+          "significado": "escalera",
+          "exclusion": true
         },
         {
           "literal": "偽",
           "lectura": "いつわ",
-          "significado": "falso/a"
+          "significado": "falso/a",
+          "exclusion": true
         },
         {
           "literal": "罰",
           "lectura": "ばつ",
-          "significado": "castigo"
+          "significado": "castigo",
+          "exclusion": true
         }
       ],
       "nombres_propios": [
         {
           "literal": "シンデレラ",
-          "lectura": "シンデレラ"
+          "lectura": "シンデレラ",
+          "significado": "Cenicienta"
         },
         {
           "literal": "王様",
-          "lectura": "おうさま"
+          "lectura": "おうさま",
+          "significado": "rey"
         }
       ],
       "referencias": [
-        "b2.1-s1-ni-okeru",
-        "b2.1-s1-te-hoshii",
-        "b2.1-s1-yo-ne",
-        "b2.1-s1-deshou-darou"
+        "s1-te-hoshii"
       ],
-      "texto": "金持ちの女の人の死\n金持ちの女の人が病気になりました。とても具合が悪くて、もうすぐ死ぬということが分かりました。それで、たった一人の娘をベッドのそばに呼んで、「愛しているわが子よ。いい子でいてね。神様を信じているなら、神様はいつもあなたを守ってくれるよ。私は天国からあなたを見下ろしているからね。」と言いました。それから、目を閉じて亡くなりました。 娘は毎日、母親の墓に行って泣きました。でも、いつもいい子でいました。 冬になって、雪が墓の上に降りました。春の太陽が雪を溶かすころ、父は別の女の人を妻にもらいました。その女は自分の娘を二人一緒に連れてきました。 二人の娘は顔はとても美しかったですが、心は汚くて真っ黒でした。それから、かわいそうな継子の辛い生活が始まりました。 「あの頭の悪い子が、私たちと一緒にここに座ってていいの？ご飯が食べたいなら、自分の力で稼がなくちゃ。台所女中は外よ。」二人の娘はそう言いました。 二人の娘は、きれいな服を全部とりあげました。古い灰色の上着を着せて、木の靴をはかせました。「高慢な王女様を見てごらん。なんておめかしているの。」と二人は笑いました。 それから、娘は朝から晩まで辛い仕事をしなければなりませんでした。 日の出前に起きて、水を汲んで、火をおこして、料理をして、洗濯をしました。それだけでは足りなくて、二人はできる限りの意地悪をしました。娘をバカにして、灰の中にエンドウ豆やレンズ豆をまいたので、娘は一度座って豆を全部拾わなければなりませんでした。 疲れるまで働いた夜には、ベッドがありませんでした。灰があるかまどのそばで寝なければなりませんでした。だから、いつも埃をかぶって汚く見えたので、二人は娘を「灰かぶり」と呼びました。\n\n\n---\n\nはしばみの木\nたまたまある日、父親が町に行くところでした。二人の継娘に「お土産に何がほしい？」と聞きました。 「きれいなドレスがいいです。」一人が言いました。 「真珠と宝石をお願いします。」もう一人が言いました。 「それでは、シンデレラ、あなたは何かほしいものがある？」 「お父さん、帰り道で、お父さんの帽子にぶつかる最初の枝を折ってきてください。」 父親は二人の継娘にはドレスと真珠と宝石を買いました。帰り道に、緑の茂みを馬で通ったとき、はしばみの枝に当たりました。帽子が落ちたので、その枝を折って持ち帰りました。 家に着くと、継娘には望んだ品物を渡しました。シンデレラには、はしばみの木から取った枝を渡しました。 シンデレラは父親にお礼を言いました。それから、母親の墓に行って、枝を植えました。とても泣いたので、涙が枝に落ちて、枝を濡らしました。 すると、その枝は大きくなって、立派な木になりました。 日に三度、シンデレラはその木の下に行って座り、泣いて、お祈りをしました。すると、一羽の小さい白い鳥がその木に来て、シンデレラが何かを望むと、その鳥が望んだものを落としてくれました。\n\n\n---\n\n舞踏会への招待\nところが、王様がお祝いを開くことになりました。三日間続くお祝いで、王様の息子が花嫁を選ぶために、国の美しい若い娘は全部招待されることになりました。 二人の継娘は、自分たちもお祝いに行けると聞いて、とても喜びました。そして、シンデレラを呼びました。 「私たちの髪をとかして、靴を磨いて、ベルトをしめて。私たちは王様の宮殿のお祝いに行くのだから。」 シンデレラも行きたくて、泣きました。自分も一緒に踊りに行きたかったからです。それから、継母にそうする許可をもらおうと頼みました。 「あなたは埃と泥まみれでしょう。それで舞踏会に行くの？服もないし、靴もないのに、踊るっていうの？」 でも、シンデレラがしつこく頼み続けたので、継母はついにこう言いました。 「ほら、灰の中にレンズ豆を一皿空けておいたから。二時間でそれを全部拾えたら、一緒に行ってあげるよ。」 娘は裏口から庭に出ました。 「お友達のハトさん、キジバトさん、空の下の小鳥さんたち、みんな。いい豆はかごに、悪い豆はみんなさんに。拾うのを手伝ってちょうだい。」 すると、二羽の白い鳩が台所の窓から入ってきました。そのあとでキジバトが来て、最後に空の下の小鳥たちが全部集まってきて、灰の中に降りました。 鳩たちが頭をひょこひょこさせて、コッコッコッとつつき始めました。残りの鳥たちもコッコッコッと始めて、皿に全部の良い豆を集めました。 一時間もたたないうちに、小鳥たちは終わって、また飛び去りました。娘は皿を継母のところに持って行きました。嬉しくて、今度こそお祝いに行けると信じていました。 でも、継母は「だめよ、シンデレラ。服がないじゃないし、踊れないわ。ただ笑われるだけだよ。」と言いました。 シンデレラが泣くと、継母は「一時間で灰から二皿のレンズ豆を拾ったら、一緒に行ってあげるよ。」と言いました。 娘はまた庭に行って、小鳥たちに手伝いを頼みました。今度は三十分もたたないうちに、全部の豆を集めました。 でも、継母は「そんなこといくらしてもだめだよ。あなたは行けないわ。服がないし、踊れないじゃないか。私たちの恥ずかしいよ。」と言って、二人の高慢な娘と一緒に急いで行きました。\n\n\n---\n\n舞踏会\nもう誰もいないと分かると、シンデレラははしばみの木の下にある母親の墓に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥が金銀のドレスと、銀で刺しゅうされた上靴を落としてくれました。娘は急いでドレスを着て、舞踏会に行きました。 二人の姉や継母は、娘が分からず、「外国の王女様に違いない」と思いました。金のドレスを着て、とても美しかったからです。 王子が娘に近づいて、手を取って一緒に踊りました。他の娘とは踊ろうとせず、娘の手を放しませんでした。他の誰かが娘に申し込もうとすると、王子は「こちらは私の相手です。」と言いました。 娘は夕方まで踊りました。それから、家に帰ろうと思いました。でも、王子は「あなたと一緒に帰りたいです。お伴いをさせてください。」と言いました。王子は、この美しい娘が誰の娘か知りたかったからです。 でも、娘は王子から逃げて、鳩小屋に飛び込みました。王子が待っていると、父親が来て、「見知らぬ娘が鳩小屋に飛び込みました。」と言いました。父親は「シンデレラかな？」と思いました。 それで、鳩小屋を壊すために斧とつるはしを持ってこさせましたが、誰も中にはいませんでした。みんなが帰ってきたとき、シンデレラは灰の中で汚い服を着て、薄暗いランプが暖炉の上で燃えていました。 翌日、舞踏会がまた始まりました。両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥は前日よりさらに美しいドレスを落としてくれました。シンデレラがそのドレスを着て舞踏会に現れると、みんながその美しさに驚きました。 王子は娘が来るまで待っていて、すぐに娘の手を取って、娘とだけ踊りました。夕方になると、娘は家に帰ろうとしました。王子は娘のあとをつけて、どの家に行ったか確かめしようとしました。 でも、娘は跳んで逃げて、家の後ろの庭に入りました。庭に梨の実がついている美しい高い木がありました。娘はリスのようにすばしっこく枝の間によじ登ったので、王子はどこに消えたのか分かりませんでした。 三日目、両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 今度の小鳥は、これまでのどのドレスよりもすばらしく豪華なドレスを落としてくれました。上靴も金でした。 舞踏会に行くと、驚きのあまり誰もどうしていいか分かりませんでした。王子は娘とだけ踊りました。夕方になると、シンデレラは帰ろうとしました。王子は娘と一緒に行きたがりましたが、娘は素早く逃げました。 でも、王子は計略を練っていて、階段にピッチを塗らせておいたのです。娘が駆け下りると、左の上靴がくっついて離れませんでした。\n\n\n---\n\n金の上靴\n翌朝、王子は父親の處にいて、「この金の上靴に合う足の人以外は、妻にはしません。」と言いました。 二人の継娘は喜びました。可愛い足をしていたからです。 上の娘が靴を持って部屋に入り、履いてみようとしました。でも、親指を入れることができませんでした。靴が小さすぎたからです。 母親は小刀を渡して、「親指を切りなさい。お后になったら、もう歩かなくてもいいんだから。」と言いました。 娘は親指を切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、墓の處を通ると、はしばみの木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子は娘の足を見ると、血が滴り落ちているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人は当人じゃありません。もう一人の妹に靴を履かせてください。」と言いました。 妹が部屋に入り、靴に無事に親指を入れました。でも、かかとが大きすぎました。 母親は小刀を渡して、「かかとを少し切りなさい。お后になったら、もう歩かなくてもいいんだだから。」と言いました。 娘はかかとを少し切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、はしばみの木のそばを通ると、木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子が娘の足を見下ろすと、血が靴から流れていて、白い靴下が真っ赤に染まっているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人も当人じゃありません。もう他に娘はいないのですか？」と言いました。 「はい、いません。まだ亡くなった妻が残していった、少し風変わりな台所女中はいますが、花嫁とはとんでもございません。」父親はそう言いました。 王子は、その娘を連れてくるように言いました。母親は「とんでもございません。あまりにも汚くて、お目にかかりませんよ。」と答えました。 でも、王子あくまで言い張ったので、シンデレラを呼ばなければなりませんでした。 娘はまず両手と顔を洗ってきれいにし、王子の前に行ってお辞儀をしました。王子は娘に金の靴を渡しました。娘は足載せ台に座って、重い木の靴から足を出して、上靴を履きました。ぴったり合いました。 娘が立ち上がると、王子はその顔を見て、自分が踊った美しい娘だと分かりました。「この人が本当の花嫁だ！」と叫びました。 継母と二人の姉たちは恐ろしくなって、怒りで青ざめました。 王子はシンデレラを馬に乗せて、一緒に去りました。 はしばみの木のそばを通ると、二羽の白い鳩が叫びました。 「振り向いて覗いてごらん。振り向いて覗いてごらん。靴に血がついていないよ。靴は小さすぎない。本当の花嫁があなたと一緒だよ。」 二羽は降りってきて、シンデレラの肩に止まりました。一羽が右に、もう一羽が左に、そのまま座ったままになりました。 王子の結婚式が行われることになりました。二人の不実な姉たちがやってきて、シンデレラの機嫌をとり、幸せを分けてもらおうとしました。 教会に行ったとき、姉は右側に、妹は左側にいました。鳩たちがそれぞれから片目をつついて取り出しました。帰りには姉が左、妹が右になったので、鳩たちはそれぞれからもう一つの目をつついて取り出しました。 こうして、意地悪と不誠実な二人は、罰を受けて、生涯目が見えないままでした。\n"
+      "texto": "金持ちの女の人の死\n金持ちの女の人が病気になりました。とても具合が悪くて、もうすぐ死ぬということが分かりました。それで、たった一人の娘をベッドのそばに呼んで、「愛しているわが子よ。いい子でいてね。神様を信じているなら、神様はいつもあなたを守ってくれるよ。私は天国からあなたを見下ろしているからね。」と言いました。それから、目を閉じて亡くなりました。 娘は毎日、母親の墓に行って泣きました。でも、いつもいい子でいました。 冬になって、雪が墓の上に降りました。春の太陽が雪を溶かすころ、父は別の女の人を妻にもらいました。その女は自分の娘を二人一緒に連れてきました。 二人の娘は顔はとても美しかったですが、心は汚くて真っ黒でした。それから、かわいそうな継子の辛い生活が始まりました。 「あの頭の悪い子が、私たちと一緒にここに座ってていいの？ご飯が食べたいなら、自分の力で稼がなくちゃ。台所女中は外よ。」二人の娘はそう言いました。 二人の娘は、きれいな服を全部とりあげました。古い灰色の上着を着せて、木の靴をはかせました。「高慢な王女様を見てごらん。なんておめかしているの。」と二人は笑いました。 それから、娘は朝から晩まで辛い仕事をしなければなりませんでした。 日の出前に起きて、水を汲んで、火をおこして、料理をして、洗濯をしました。それだけでは足りなくて、二人はできる限りの意地悪をしました。娘をバカにして、灰の中にエンドウ豆やレンズ豆をまいたので、娘は一度座って豆を全部拾わなければなりませんでした。 疲れるまで働いた夜には、ベッドがありませんでした。灰があるかまどのそばで寝なければなりませんでした。だから、いつも埃をかぶって汚く見えたので、二人は娘を「灰かぶり」と呼びました。\n\n\n---\n\nはしばみの木\nたまたまある日、父親が町に行くところでした。二人の継娘に「お土産に何がほしい？」と聞きました。 「きれいなドレスがいいです。」一人が言いました。 「真珠と宝石をお願いします。」もう一人が言いました。 「それでは、シンデレラ、あなたは何かほしいものがある？」 「お父さん、帰り道で、お父さんの帽子にぶつかる最初の枝を折ってきてください。」 父親は二人の継娘にはドレスと真珠と宝石を買いました。帰り道に、緑の茂みを馬で通ったとき、はしばみの枝に当たりました。帽子が落ちたので、その枝を折って持ち帰りました。 家に着くと、継娘には望んだ品物を渡しました。シンデレラには、はしばみの木から取った枝を渡しました。 シンデレラは父親にお礼を言いました。それから、母親の墓に行って、枝を植えました。とても泣いたので、涙が枝に落ちて、枝を濡らしました。 すると、その枝は大きくなって、立派な木になりました。 日に三度、シンデレラはその木の下に行って座り、泣いて、お祈りをしました。すると、一羽の小さい白い鳥がその木に来て、シンデレラが何かを望むと、その鳥が望んだものを落としてくれました。\n\n\n---\n\n舞踏会への招待\nところが、王様がお祝いを開くことになりました。三日間続くお祝いで、王様の息子が花嫁を選ぶために、国の美しい若い娘は全部招待されることになりました。 二人の継娘は、自分たちもお祝いに行けると聞いて、とても喜びました。そして、シンデレラを呼びました。 「私たちの髪をとかして、靴を磨いて、ベルトをしめて。私たちは王様の宮殿のお祝いに行くのだから。」 シンデレラも行きたくて、泣きました。自分も一緒に踊りに行きたかったからです。それから、継母にそうする許可をもらおうと頼みました。 「あなたは埃と泥まみれでしょう。それで舞踏会に行くの？服もないし、靴もないのに、踊るっていうの？」 でも、シンデレラがしつこく頼み続けたので、継母はついにこう言いました。 「ほら、灰の中にレンズ豆を一皿空けておいたから。二時間でそれを全部拾えたら、一緒に行ってあげるよ。」 娘は裏口から庭に出ました。 「お友達のハトさん、キジバトさん、空の下の小鳥さんたち、みんな。いい豆はかごに、悪い豆はみんなさんに。拾うのを手伝ってちょうだい。」 すると、二羽の白い鳩が台所の窓から入ってきました。そのあとでキジバトが来て、最後に空の下の小鳥たちが全部集まってきて、灰の中に降りました。 鳩たちが頭をひょこひょこさせて、コッコッコッとつつき始めました。残りの鳥たちもコッコッコッと始めて、皿に全部の良い豆を集めました。 一時間もたたないうちに、小鳥たちは終わって、また飛び去りました。娘は皿を継母のところに持って行きました。嬉しくて、今度こそお祝いに行けると信じていました。 でも、継母は「だめよ、シンデレラ。服がないじゃないし、踊れないわ。ただ笑われるだけだよ。」と言いました。 シンデレラが泣くと、継母は「一時間で灰から二皿のレンズ豆を拾ったら、一緒に行ってあげるよ。」と言いました。 娘はまた庭に行って、小鳥たちに手伝いを頼みました。今度は三十分もたたないうちに、全部の豆を集めました。 でも、継母は「そんなこといくらしてもだめだよ。あなたは行けないわ。服がないし、踊れないじゃないか。私たちの恥ずかしいよ。」と言って、二人の高慢な娘と一緒に急いで行きました。\n\n\n---\n\n舞踏会\nもう誰もいないと分かると、シンデレラははしばみの木の下にある母親の墓に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥が金銀のドレスと、銀で刺しゅうされた上靴を落としてくれました。娘は急いでドレスを着て、舞踏会に行きました。 二人の姉や継母は、娘が分からず、「外国の王女様に違いない」と思いました。金のドレスを着て、とても美しかったからです。 王子が娘に近づいて、手を取って一緒に踊りました。他の娘とは踊ろうとせず、娘の手を放しませんでした。他の誰かが娘に申し込もうとすると、王子は「こちらは私の相手です。」と言いました。 娘は夕方まで踊りました。それから、家に帰ろうと思いました。でも、王子は「あなたと一緒に帰りたいです。お伴いをさせてください。」と言いました。王子は、この美しい娘が誰の娘か知りたかったからです。 でも、娘は王子から逃げて、鳩小屋に飛び込みました。王子が待っていると、父親が来て、「見知らぬ娘が鳩小屋に飛び込みました。」と言いました。父親は「シンデレラかな？」と思いました。 それで、鳩小屋を壊すために斧とつるはしを持ってこさせましたが、誰も中にはいませんでした。みんなが帰ってきたとき、シンデレラは灰の中で汚い服を着て、薄暗いランプが暖炉の上で燃えていました。 翌日、舞踏会がまた始まりました。両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥は前日よりさらに美しいドレスを落としてくれました。シンデレラがそのドレスを着て舞踏会に現れると、みんながその美しさに驚きました。 王子は娘が来るまで待っていて、すぐに娘の手を取って、娘とだけ踊りました。夕方になると、娘は家に帰ろうとしました。王子は娘のあとをつけて、どの家に行ったか確かめしようとしました。 でも、娘は跳んで逃げて、家の後ろの庭に入りました。庭に梨の実がついている美しい高い木がありました。娘はリスのようにすばしっこく枝の間によじ登ったので、王子はどこに消えたのか分かりませんでした。 三日目、両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 今度の小鳥は、これまでのどのドレスよりもすばらしく豪華なドレスを落としてくれました。上靴も金でした。 舞踏会に行くと、驚きのあまり誰もどうしていいか分かりませんでした。王子は娘とだけ踊りました。夕方になると、シンデレラは帰ろうとしました。王子は娘と一緒に行きたがりましたが、娘は素早く逃げました。 でも、王子は計略を練っていて、階段にピッチを塗らせておいたのです。娘が駆け下りると、左の上靴がくっついて離れませんでした。\n\n\n---\n\n金の上靴\n翌朝、王子は父親の處にいて、「この金の上靴に合う足の人以外は、妻にはしません。」と言いました。 二人の継娘は喜びました。可愛い足をしていたからです。 上の娘が靴を持って部屋に入り、履いてみようとしました。でも、親指を入れることができませんでした。靴が小さすぎたからです。 母親は小刀を渡して、「親指を切りなさい。お后になったら、もう歩かなくてもいいんだから。」と言いました。 娘は親指を切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、墓の處を通ると、はしばみの木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子は娘の足を見ると、血が滴り落ちているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人は当人じゃありません。もう一人の妹に靴を履かせてください。」と言いました。 妹が部屋に入り、靴に無事に親指を入れました。でも、かかとが大きすぎました。 母親は小刀を渡して、「かかとを少し切りなさい。お后になったら、もう歩かなくてもいいんだだから。」と言いました。 娘はかかとを少し切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、はしばみの木のそばを通ると、木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子が娘の足を見下ろすと、血が靴から流れていて、白い靴下が真っ赤に染まっているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人も当人じゃありません。もう他に娘はいないのですか？」と言いました。 「はい、いません。まだ亡くなった妻が残していった、少し風変わりな台所女中はいますが、花嫁とはとんでもございません。」父親はそう言いました。 王子は、その娘を連れてくるように言いました。母親は「とんでもございません。あまりにも汚くて、お目にかかりませんよ。」と答えました。 でも、王子あくまで言い張ったので、シンデレラを呼ばなければなりませんでした。 娘はまず両手と顔を洗ってきれいにし、王子の前に行ってお辞儀をしました。王子は娘に金の靴を渡しました。娘は足載せ台に座って、重い木の靴から足を出して、上靴を履きました。ぴったり合いました。 娘が立ち上がると、王子はその顔を見て、自分が踊った美しい娘だと分かりました。「この人が本当の花嫁だ！」と叫びました。 継母と二人の姉たちは恐ろしくなって、怒りで青ざめました。 王子はシンデレラを馬に乗せて、一緒に去りました。 はしばみの木のそばを通ると、二羽の白い鳩が叫びました。 「振り向いて覗いてごらん。振り向いて覗いてごらん。靴に血がついていないよ。靴は小さすぎない。本当の花嫁があなたと一緒だよ。」 二羽は降りってきて、シンデレラの肩に止まりました。一羽が右に、もう一羽が左に、そのまま座ったままになりました。 王子の結婚式が行われることになりました。二人の不実な姉たちがやってきて、シンデレラの機嫌をとり、幸せを分けてもらおうとしました。 教会に行ったとき、姉は右側に、妹は左側にいました。鳩たちがそれぞれから片目をつついて取り出しました。帰りには姉が左、妹が右になったので、鳩たちはそれぞれからもう一つの目をつついて取り出しました。 こうして、意地悪と不誠実な二人は、罰を受けて、生涯目が見えないままでした。\n",
+      "textoEs": "La muerte de la mujer rica\nUna mujer rica cayó enferma. Se puso muy mal y comprendió que moriría pronto. Entonces llamó a su única hija junto a la cama y le dijo: «Hija mía, a quien quiero mucho, sé buena. Si crees en Dios, Dios te protegerá siempre. Yo te miraré desde el cielo». Después cerró los ojos y murió. La hija iba todos los días a la tumba de su madre a llorar. Pero siempre se portaba bien. Llegó el invierno y nevó sobre la tumba. Cuando el sol de primavera empezaba a derretir la nieve, el padre se casó con otra mujer. Esa mujer trajo consigo a sus dos hijas. Las dos hijas eran muy hermosas de cara, pero tenían el corazón sucio y negro. Y así empezó la vida desdichada de la pobre hijastra. «¿Esa tonta se puede sentar aquí con nosotras? Si quiere comer, que se lo gane con sus propias fuerzas. Las sirvientas de cocina, fuera», decían las dos hijas. Las dos hijas le quitaron todas sus ropas bonitas. La vistieron con una vieja chaqueta gris y le pusieron zuecos de madera. «Mirad a la orgullosa princesita, ¡qué bien que va vestida!», se reían las dos. Después, la hija tuvo que trabajar de la mañana a la noche. Se levantaba antes de que saliera el sol, iba a por agua, encendía el fuego, cocinaba y lavaba la ropa. Y no bastaba con eso: las dos hacían cuanto malicia cabía. Se burlaban de ella y esparcían guisantes y lentejas en la ceniza, de modo que la hija tenía que sentarse y recogerlos todos. Por la noche, tras trabajar hasta agotarse, no tenía cama. Tenía que dormir junto al horno de leña, en la ceniza. Por eso siempre iba polvorienta y sucia, y las dos la llamaban «Cenicienta».\n\n\n---\n\nEl árbol de avellano\nUn día, por casualidad, el padre estaba a punto de ir al pueblo. Preguntó a sus dos hijastras: «¿Qué queréis de regalo?». «Quiero un vestido bonito», dijo una. «Quisiera perlas y joyas», dijo la otra. «Y tú, Cenicienta, ¿quieres algo?». «Padre, por el camino de vuelta, tráeme la primera rama que choque con tu sombrero». El padre compró vestidos, perlas y joyas para sus dos hijastras. En el camino de vuelta, al pasar a caballo por una espesa maleza verde, una rama de avellano le golpeó. Se le cayó el sombrero, así que arrancó la rama y se la llevó a casa. Al llegar a casa, entregó a las hijastras lo que habían pedido. A Cenicienta le dio la rama que había tomado del árbol de avellano. Cenicienta dio las gracias a su padre. Después fue a la tumba de su madre y plantó la rama. Lloró tanto que sus lágrimas cayeron sobre la rama y la mojaron. Entonces la rama creció y se convirtió en un árbol imponente. Tres veces al día, Cenicienta iba bajo ese árbol, se sentaba, lloraba y rezaba. Entonces venía al árbol un pájaro blanco y pequeño, y cuando Cenicienta deseaba algo, el pájaro le dejaba caer lo que ella había pedido.\n\n\n---\n\nInvitación al baile\nPero resultó que el rey iba a dar una fiesta. Era una fiesta de tres días, y a todas las chicas jóvenes y hermosas del reino se les envió una invitación, para que el hijo del rey eligiera esposa. Las dos hijastras se alegraron mucho al enterarse de que ellas también podían ir a la fiesta. Y llamaron a Cenicienta. «Peinanos el pelo, límpianos los zapatos y apriétanos el cinturón. Vamos a la fiesta en el palacio del rey». A Cenicienta también le daban ganas de ir, y lloró. Porque ella también quería ir a bailar. Después rogó a su madrastra que le diera permiso para hacerlo. «Estarás cubierta de polvo y barro, ¿no? ¿Y quieres ir al baile así? Sin ropa y sin zapatos, ¿y quieres bailar?». Pero Cenicienta siguió insistiendo, y al final la madrastra dijo: «Mira, he dejado un plato de lentejas en la ceniza. Si las recoges todas en dos horas, te llevaré conmigo». La hija salió al jardín por la puerta trasera. «Amigas palomas, tórtolas y pajaritos de bajo el cielo, todas. Las buenas lentejas, a la cesta; las malas, para vosotras. Por favor, ayudadme a recogerlas». Entonces entraron por la ventana de la cocina dos palomas blancas. Después vino la tórtola y, por último, se juntaron todos los pajaritos de bajo el cielo y descendieron sobre la ceniza. Las palomas empezaron a picotear con la cabeza, ¡cocorocó! Las demás aves también empezaron, ¡cocorocó!, y juntaron en el plato todas las buenas lentejas. Antes de pasar una hora, los pajaritos acabaron y volaron lejos. La hija llevó el plato a su madrastra. Estaba tan contenta que creía que esta vez sí que podría ir a la fiesta. Pero la madrastra dijo: «No, Cenicienta. No tienes ropa y no sabes bailar. Solo te reirán». Cuando Cenicienta se puso a llorar, la madrastra dijo: «Si recoges dos platos de lentejas de la ceniza en una hora, te llevaré conmigo». La hija volvió al jardín y les pidió ayuda a los pajaritos. Esta vez, antes de pasar media hora, juntaron todas las lentejas. Pero la madrastra dijo: «De nada sirve que hagas eso. Tú no puedes ir. No tienes ropa y no sabes bailar, ¿no? Nos vas a dar vergüenza». Y se fue deprisa con sus dos hijas orgullosas.\n\n\n---\n\nEl baile\nCuando se cercioró de que ya no quedaba nadie, Cenicienta fue a la tumba de su madre, que estaba bajo el árbol de avellano. «Sacude, sacude, arbolito joven; déjame caer plata y oro». Entonces el pájaro le dejó caer un vestido de oro y plata y un zapato de gala bordado en plata. La hija se puso deprisa el vestido y fue al baile. Sus dos hermanas y su madrastra no la reconocieron y pensaron que debía ser una princesa de otro país. Porque iba con un vestido de oro y era muy hermosa. El príncipe se acercó a la hija, le tomó de la mano y bailó con ella. No quiso bailar con ninguna otra y no le soltó la mano. Cuando algún otro pretendía invitarla, el príncipe decía: «Esta es mi pareja». La hija bailó hasta el atardecer. Después pensó en volver a casa. Pero el príncipe dijo: «Quiero volver contigo. Permíteme acompañarte». El príncipe quería saber de quién era hija aquella chica hermosa. Pero la hija huyó del príncipe y se refugió en el palomar. Mientras el príncipe esperaba, llegó el padre y dijo: «Una chica desconocida se ha metido en el palomar». El padre pensó: «¿Será Cenicienta?». Entonces mandó traer un hacha y un escoplo para derribar el palomar, pero dentro no había nadie. Cuando todos volvieron, Cenicienta estaba entre la ceniza con la ropa sucia, y una lámpara débil ardía sobre la chimenea. Al día siguiente empezó de nuevo el baile. Cuando sus padres y sus hermanas salieron, Cenicienta fue al árbol de avellano. «Sacude, sacude, arbolito joven; déjame caer plata y oro». Entonces el pájaro le dejó caer un vestido aún más hermoso que el del día anterior. Cuando Cenicienta apareció en el baile con ese vestido, todos se asombraron ante su hermosura. El príncipe la estaba esperando, y en cuanto llegó le tomó de la mano y bailó solo con ella. Al llegar el atardecer, la hija quiso volver a casa. El príncipe la siguió para comprobar a qué casa iba. Pero la hija dio un salto, huyó y entró en el jardín detrás de la casa. En el jardín había un árbol alto y hermoso cargado de peras. La hija trepó con agilidad de ardilla entre las ramas, y el príncipe no supo dónde había desaparecido. El tercer día, cuando sus padres y sus hermanas salieron, Cenicienta fue al árbol de avellano. «Sacude, sacude, arbolito joven; déjame caer plata y oro». Esta vez el pájaro le dejó caer un vestido más espléndido y lujoso que ningún otro de los anteriores. El zapato de gala también era de oro. Al ir al baile, ante el asombro de todos, nadie sabía qué hacer. El príncipe bailó solo con la hija. Al atardecer, Cenicienta quiso volver a casa. El príncipe quiso ir con ella, pero la hija escapó velozmente. Pero el príncipe había urdido una estratagema: había hecho untar pez en la escalera. Cuando la hija bajó corriendo, el zapato de gala izquierdo se quedó pegado y no se pudo quitar.\n\n\n---\n\nEl zapato de oro\nA la mañana siguiente, el príncipe estaba en casa del padre y dijo: «No me casaré con nadie cuyo pie no calce con este zapato de oro». Las dos hijastras se alegraron. Porque tenían unos pies bonitos. La hija mayor entró en la habitación con el zapato y quiso probárselo. Pero no pudo meterse el dedo gordo del pie. Porque el zapato era demasiado pequeño. La madre le pasó un cuchillo y dijo: «Córtate el dedo gordo. Cuando seas reina, ya no tendrás que andar». La hija se cortó el dedo y se metió el pie a la fuerza en el zapato. Aguanto el dolor y fue a enseñárselo al príncipe. El príncipe la tomó por esposa, la montó a caballo y salieron corriendo juntos. Pero al pasar junto a la tumba, dos palomas posadas sobre el árbol de avellano gritaron: «Mira hacia atrás. Hay sangre en el zapato. Ese zapato es demasiado pequeño para esa chica. La verdadera novia te está esperando». Cuando el príncipe miró el pie de la chica, vio que chorreaba sangre. El príncipe dio media vuelta y devolvió a casa a la falsa novia. «Esta no es la persona. Dejad que la otra hermana se pruebe el zapato», dijo. La hermana menor entró en la habitación y logró meter el dedo gordo en el zapato. Pero el talón era demasiado grande. La madre le pasó un cuchillo y dijo: «Córtate un poco el talón. Cuando seas reina, ya no tendrás que andar». La hija se cortó un poco el talón y se metió el pie a la fuerza en el zapato. Aguanto el dolor y fue a enseñárselo al príncipe. El príncipe la tomó por esposa, la montó a caballo y salieron corriendo juntos. Pero al pasar junto al árbol de avellano, dos palomas posadas en el árbol gritaron: «Mira hacia atrás. Hay sangre en el zapato. Ese zapato es demasiado pequeño para esa chica. La verdadera novia te está esperando». Cuando el príncipe miró hacia abajo el pie de la chica, vio que la sangre salía del zapato y que el calcetín blanco estaba teñido de rojo. El príncipe dio media vuelta y devolvió a casa a la falsa novia. «Esta tampoco es la persona. ¿No hay más hijas?», dijo. «No, no hay más. Aunque queda una sirvienta de cocina un poco rara que dejó mi difunta esposa, no es ni idea para ser novia», dijo el padre. El príncipe ordenó que le trajeran a esa chica. La madre respondió: «Ni hablar. Está tan sucia que no puede presentarse ante usted». Pero el príncipe insistió en su empeño, y no hubo más remedio que llamar a Cenicienta. La hija se lavó primero las manos y la cara hasta quedar limpia, se presentó ante el príncipe y le hizo una reverencia. El príncipe le dio el zapato de oro. La hija se sentó en el escabel, se sacó el pie de la pesada zapata de madera y se calzó el zapato de gala. Le quedó perfecto. Cuando la hija se levantó, el príncipe miró su cara y reconoció a la hermosa chica con la que había bailado. «¡Esta es la verdadera novia!», gritó. La madrastra y las dos hermanas se quedaron aterradas y pálidas de rabia. El príncipe montó a Cenicienta a caballo y se marcharon juntos. Al pasar junto al árbol de avellano, dos palomas blancas gritaron: «Mira hacia atrás, mira hacia atrás. El zapato no lleva sangre. El zapato no es demasiado pequeño. La verdadera novia está contigo». Las dos bajaron y se posaron en los hombros de Cenicienta. Una a la derecha y otra a la izquierda, y así se quedaron sentadas. Se celebró la boda del príncipe. Las dos hermanas desleales aparecieron, trataron de quedar bien con Cenicienta y de compartir su felicidad. Cuando fueron a la iglesia, la hermana mayor estaba a la derecha y la menor a la izquierda. Las palomas les sacaron a cada una un ojo con un picotazo. En el camino de vuelta la hermana mayor quedó a la izquierda y la menor a la derecha, así que las palomas les sacaron con otro picotazo el otro ojo. Así, las dos, malvadas y desleales, recibieron su castigo y se quedaron sin vista durante toda la vida.\n"
     }
   },
   {
@@ -4601,7 +4862,11 @@
         "進化",
         "組織",
         "別",
-        "国"
+        "国",
+        "リスト",
+        "テクニック",
+        "サイト",
+        "つながる"
       ],
       "texto": "『ポケットモンスター』はどんな遊び？\n『ポケットモンスター』の作品は、あなたが主人公になって、仲間の不思議な動物たちと旅行を進める、ロールプレイングゲーム（RPG）です。一人で楽しむだけでなく、友達とポケモンを交換したり試合をしたりすることもできます。これが『ポケットモンスター』の大きな特徴の一つです。2014年には、新しい作品『ポケットモンスター オメガルビー』と『ポケットモンスター アルファサファイア』が出ました！\n\nすごく不思議な動物、ポケモン！\nポケットモンスター、つまりポケモンは、すごく不思議な動物です。人間と仲がいいポケモンもいますし、山や湖に住むポケモンもいます。その生活の様子は、まだわからないことも多くあります。\nその後、『ポケットモンスター 金・銀』や『ポケットモンスター ルビー・サファイア』などの作品が出ました。そして、新しい作品が出るたびに、多くのポケモンが加わりました。今では、知られているポケモンは700種類もあります。\n\n初めての仲間は、この3匹！\n『ポケットモンスター』の旅行は、3匹のポケモンの中から仲間になるポケモンを選んで、トレーナーとして始めます。『オメガルビー・アルファサファイア』では、キモリ・アチャモ・ミズゴロウの中から選ぶことになっています。\n\n「チャンピオン」を目指す旅行！\nこの作品で大きな夢の一つは、誰よりも上手なトレーナー「チャンピオン」になることです。まずは、多くの町に行って、その町で勝っているトレーナー「ジムリーダー」と試合をして、「ジムバッジ」を集めましょう！8つのジムバッジを集めた人だけが、「ポケモンリーグ」に行くことができます。そこには四天王が待っています！\n\n悪い組織も出てくる！\n「チャンピオン」になるための旅行の途中で、悪い組織も出てきます！『オメガルビー・アルファサファイア』では、2つの悪い組織があなたの前にやってきます！\n\nポケモンが捕まったら、仲間にしましょう！\n旅行の途中で出合ったポケモンは、「モンスターボール」を使って捕まります！捕まったポケモンは、「ポケモンずかん」のリストに入っていきます。「ポケモンずかん」を完成させることも、すごく楽しいことです！\n\n試合をして、もっと強くしよう！\n『ポケットモンスター』の試合は、ポケモンとポケモンとのものです！仲間のポケモンを捕まっていれば、山や湖にいるポケモンや、別のトレーナーと試合をすることができます！\n\n種類を考えて、もっと楽しい試合を！\nポケモンや、ポケモンが覚えるテクニックには多くの種類があります。相手の種類や使うテクニックによって、大きな力を与えたり、力が少なくなったりすることがあります！\n\nポケモンは進化して、もっと強くなる！\n試合をすればするほど、ポケモンはもっと強くなります。\nポケモンの中には、大きくなったり、あることをしたりすると「進化」して、様子が変化するポケモンもいます！進化すると、力も一気に強くなります！\n皆が知っているピカチュウも、ピチューというポケモンが進化したものです！さらにピカチュウが進化すると、ライチュウというポケモンになります！\n\n友達と家族と世界の人と遊ぼう！\n仲間になったポケモンは、友達はもちろん、家族や誰かと交換したり、試合をしたりすることができます！サイトを使うと、国の中だけでなく、外国の人ともつながることができます。「ポケモン」を通じて、世界中の友達と遊ぶこともできます！\n",
       "preguntas": [
@@ -4612,16 +4877,28 @@
         "「ポケモンずかん」はどういうものですか。",
         "ポケモンが進化すると、どうなりますか。"
       ],
+      "tituloEs": "Qué es Pokémon",
+      "textoEs": "¿En qué consiste «Pokémon»?\nLas obras de «Pokémon» son un juego de rol (RPG) en el que tú eres el protagonista y progresas en un viaje junto a tus compañeros, unos animales muy extraños. No solo se puede disfrutar en solitario: también se puede intercambiar Pokémon con los amigos y jugar partidos. Esa es una de las grandes características de «Pokémon». ¡En 2014 salieron dos títulos nuevos, «Pokémon Omega Rubí» y «Pokémon Alfa Zafiro»!\n\n¡Pokémon, unos animales muy extraños!\n«Pocket Monsters», es decir, «Pokémon», es un animal muy extraño. Hay Pokémon que se llevan bien con los seres humanos y Pokémon que viven en las montañas y en los lagos. Sobre su vida diaria todavía queda mucho por averiguar.\nDespués salieron obras como «Pokémon Oro y Plata» y «Pokémon Rubí y Zafiro». Y con cada obra nueva se añadieron muchos Pokémon más. Hoy se conocen ya 700 tipos de Pokémon.\n\n¡Los tres primeros compañeros!\nEl viaje de «Pokémon» empieza eligiendo, de entre tres Pokémon, cuál será tu compañero, y haciéndote entrenador. En «Omega Rubí y Alfa Zafiro» se elige entre Treecko, Torchic y Mudkip.\n\n¡Un viaje con el Campeón como meta!\nUno de los grandes sueños de esta obra es convertirse en el Campeón, el entrenador más hábil que existe. Primero hay que ir a muchos pueblos, jugar un partido contra el Líder de gimnasio, el entrenador que gana en ese pueblo, e ir juntando las insignias de gimnasio. ¡Solo quien junta las ocho insignias de gimnasio puede ir a la Liga Pokémon! ¡Allí le espera la Elite de los Cuatro!\n\n¡También aparecen organizaciones malvadas!\nEn el camino para convertirse en Campeón también salen organizaciones malvadas. ¡En «Omega Rubí y Alfa Zafiro» aparecen ante ti dos organizaciones malvadas!\n\n¡Cuando captures a un Pokémon, hazlo compañero!\nLos Pokémon que te encuentras por el camino se capturan con la Poké Ball. ¡Los Pokémon capturados entran en la lista del Pokédex! ¡Completar el Pokédex también es algo muy divertido!\n\n¡Juega partidos y hazte más fuerte!\nLos partidos de «Pokémon» los juegan Pokémon contra Pokémon. ¡Si tienes capturados a tus Pokémon compañeros, puedes jugar partidos contra los Pokémon de las montañas y de los lagos y contra otros entrenadores!\n\n¡Piensa en los tipos para que el partido sea aún más divertido!\nTanto los Pokémon como las técnicas que aprenden tienen muchos tipos. Según el tipo del rival y la técnica que este utilice, a veces le otorga una gran fuerza y otras veces le resta fuerza.\n\n¡Los Pokémon evolucionan y se hacen más fuertes!\nCuanto más partidos juegues, más fuertes se vuelven los Pokémon.\nHay Pokémon que, al crecer o al hacer algo determinado, «evolucionan» y cambian de aspecto. ¡Al evolucionar, su fuerza aumenta de golpe!\n¡Pikachu, que todos conocéis, es un Pokémon que evolucionó a partir de Pichu. Y cuando Pikachu evoluciona, se convierte en el Pokémon Raichu!\n\n¡Juega con tus amigos, con tu familia y con gente de todo el mundo!\nLos Pokémon que se han convertido en compañeros se pueden intercambiar y se pueden jugar partidos con amigos, con la familia y con quien quieras. Si usas el sitio web, no solo te puedes conectar dentro del país, sino también con gente de un país extranjero. ¡A través de «Pokémon» también se puede jugar con amigos de todo el mundo!\n",
+      "preguntasEs": [
+        "¿Qué tipo de juego es «Pokémon»?",
+        "¿En qué clase de lugares viven los Pokémon?",
+        "¿Con qué se empieza el viaje de «Pokémon»?",
+        "¿A dónde puede ir quien junta las ocho insignias de gimnasio?",
+        "¿Qué es el Pokédex?",
+        "¿Qué ocurre cuando un Pokémon evoluciona?"
+      ],
       "vocabulario": [
         {
           "literal": "動物",
           "lectura": "どうぶつ",
-          "significado": "animal"
+          "significado": "animal",
+          "exclusion": true
         },
         {
           "literal": "人間",
           "lectura": "にんげん",
-          "significado": "ser humano"
+          "significado": "ser humano",
+          "exclusion": true
         },
         {
           "literal": "住む",
@@ -4636,12 +4913,14 @@
         {
           "literal": "様子",
           "lectura": "ようす",
-          "significado": "apariencia; aspecto"
+          "significado": "apariencia; aspecto",
+          "exclusion": true
         },
         {
           "literal": "作品",
           "lectura": "さくひん",
-          "significado": "obra"
+          "significado": "obra",
+          "exclusion": true
         },
         {
           "literal": "新しい",
@@ -4656,7 +4935,8 @@
         {
           "literal": "仲間",
           "lectura": "なかま",
-          "significado": "compañero; grupo de amigos"
+          "significado": "compañero; grupo de amigos",
+          "exclusion": true
         },
         {
           "literal": "選ぶ",
@@ -4696,7 +4976,8 @@
         {
           "literal": "リスト",
           "lectura": "リスト",
-          "significado": "lista"
+          "significado": "lista",
+          "exclusion": true
         },
         {
           "literal": "楽しい",
@@ -4706,7 +4987,8 @@
         {
           "literal": "力",
           "lectura": "ちから",
-          "significado": "fuerza; poder"
+          "significado": "fuerza; poder",
+          "exclusion": true
         },
         {
           "literal": "覚える",
@@ -4716,7 +4998,8 @@
         {
           "literal": "テクニック",
           "lectura": "テクニック",
-          "significado": "técnica"
+          "significado": "técnica",
+          "exclusion": true
         },
         {
           "literal": "種類",
@@ -4731,7 +5014,8 @@
         {
           "literal": "一気に",
           "lectura": "いっきに",
-          "significado": "de golpe; de una vez"
+          "significado": "de golpe; de una vez",
+          "exclusion": true
         },
         {
           "literal": "皆",
@@ -4756,7 +5040,8 @@
         {
           "literal": "サイト",
           "lectura": "サイト",
-          "significado": "sitio web"
+          "significado": "sitio web",
+          "exclusion": true
         },
         {
           "literal": "外国",
@@ -4766,7 +5051,8 @@
         {
           "literal": "つながる",
           "lectura": "つながる",
-          "significado": "conectarse"
+          "significado": "conectarse",
+          "exclusion": true
         },
         {
           "literal": "世界",
@@ -4776,7 +5062,8 @@
         {
           "literal": "特徴",
           "lectura": "とくちょう",
-          "significado": "característica"
+          "significado": "característica",
+          "exclusion": true
         },
         {
           "literal": "仲がいい",
@@ -4787,67 +5074,83 @@
       "nombres_propios": [
         {
           "literal": "ポケットモンスター",
-          "lectura": "ぽけっともんすたー"
+          "lectura": "ぽけっともんすたー",
+          "significado": "Pokémon"
         },
         {
           "literal": "ポケモン",
-          "lectura": "ぽけもん"
+          "lectura": "ぽけもん",
+          "significado": "Pokémon"
         },
         {
           "literal": "オメガルビー",
-          "lectura": "おめがるびー"
+          "lectura": "おめがるびー",
+          "significado": "Omega Rubí"
         },
         {
           "literal": "アルファサファイア",
-          "lectura": "あるふぁさふぁいあ"
+          "lectura": "あるふぁさふぁいあ",
+          "significado": "Alfa Zafiro"
         },
         {
           "literal": "金・銀",
-          "lectura": "きんぎん"
+          "lectura": "きんぎん",
+          "significado": "Oro y Plata"
         },
         {
           "literal": "ルビー・サファイア",
-          "lectura": "るびーさふぁいあ"
+          "lectura": "るびーさふぁいあ",
+          "significado": "Rubí y Zafiro"
         },
         {
           "literal": "キモリ",
-          "lectura": "きもり"
+          "lectura": "きもり",
+          "significado": "Treecko"
         },
         {
           "literal": "アチャモ",
-          "lectura": "あちゃも"
+          "lectura": "あちゃも",
+          "significado": "Torchic"
         },
         {
           "literal": "ミズゴロウ",
-          "lectura": "みずごろう"
+          "lectura": "みずごろう",
+          "significado": "Mudkip"
         },
         {
           "literal": "ピカチュウ",
-          "lectura": "ぴかちゅう"
+          "lectura": "ぴかちゅう",
+          "significado": "Pikachu"
         },
         {
           "literal": "ピチュー",
-          "lectura": "ぴちゅー"
+          "lectura": "ぴちゅー",
+          "significado": "Pichu"
         },
         {
           "literal": "ライチュウ",
-          "lectura": "らいちゅう"
+          "lectura": "らいちゅう",
+          "significado": "Raichu"
         },
         {
           "literal": "チャンピオン",
-          "lectura": "ちゃんぴおん"
+          "lectura": "ちゃんぴおん",
+          "significado": "Campeón"
         },
         {
           "literal": "ジムリーダー",
-          "lectura": "じむりーだー"
+          "lectura": "じむりーだー",
+          "significado": "Líder de gimnasio"
         },
         {
           "literal": "ポケモンリーグ",
-          "lectura": "ぽけもんりーぐ"
+          "lectura": "ぽけもんりーぐ",
+          "significado": "Liga Pokémon"
         },
         {
           "literal": "四天王",
-          "lectura": "してんのう"
+          "lectura": "してんのう",
+          "significado": "Elite de los Cuatro"
         }
       ],
       "referencias": [
@@ -4875,6 +5178,16 @@
         "無断キャンセルが問題なのはなぜですか。",
         "「ごちそうさまでした」はどういう意味ですか。",
         "麺の音を立てて食べることについて、筆者はどう考えていますか。"
+      ],
+      "tituloEs": "Lo que de verdad importa en las buenas maneras de la comida japonesa",
+      "textoEs": "Si le preguntas a un viajero de Estados Unidos «¿Qué te preocupa de Japón?», la respuesta casi nunca es el idioma o el tren: es el temor a faltar a las buenas maneras en la mesa. Para el que está sentado, la mirada de los demás inquieta más de lo que cabe esperar. Ahora bien, la información que circula por internet suele estar vieja o ser una exageración flagrante. El espíritu de la «hospitalidad» japonesa parte de que el huésped no conoce las costumbres del lugar. Por eso no se le exige al turista un dominio perfecto de las buenas maneras. Pero hay algunas cosas que de verdad importan. Saberlas es lo que separa comer con la inquietud encima de comer de verdad y con ganas.\nEn primer lugar, las buenas maneras de los palillos se reducen a dos: no clavar los palillos en el arroz y no pasar alimentos directamente de unos palillos a otros. Las dos cosas evocan rituales para los difuntos, y a los de alrededor les resultan muy desagradables. En lo demás —cómo se sujetan, dónde se apoyan o el hecho de usarlos un poco torpemente—, a nadie le importa.\nDespués, en el mostrador, lo que te sirven tienes que querer comerlo enseguida. Cuando delante de ti se coloca un nigiri, el cocinero está ajustando en ese instante la temperatura del arroz y del relleno. Si te pasas el primer minuto haciendo fotos, acabas sin disfrutar de la experiencia por la que ya has pagado. Lo mejor es hacer las fotos en dos segundos o prescindir de ellas. Si quieres retratar al cocinero, pídele permiso antes.\nY en cuanto al perfume, mejor dejarlo suave. Nadie se lo explica a los estadounidenses, pero es lo que en secreto más les preocupa a los dueños de los restaurantes caros. En la mesa, la fragancia también se considera parte del plato. Un olor fuerte afecta a todos los que están sentados a menos de dos metros. Hay restaurantes que lo escriben en las normas de la reserva, y hay otros que no lo escriben y solo esperan la consideración de sus clientes.\nY luego, si vas a cancelar, haz bien la cancelación. En un restaurante de ocho plazas se compra pescado para ocho comensales. Desaparecer sin avisar no es solo una mesa vacía: es una pérdida para el cocinero. Las cancelaciones sin avisar de los turistas extranjeros son una de las quejas que más se oyen entre quienes gestionan restaurantes en Tokio. Aunque llegues tarde y te sientas incómodo, lo importante es hacer la cancelación, sea por internet o por teléfono.\nA la hora de irse, conviene decir unas palabras: la expresión «gochisōsama deshita». Se dice que viene a significar, en general, «gracias por la comida estupenda»: es una expresión de gratitud al terminar de comer. No cuesta dinero y, en lugar de propina, es una costumbre culturalmente correcta; en los locales pequeños llega de verdad al corazón del personal. Si solo vas a aprender una palabra para usar en la mesa japonesa, que sea ésta.\nLa regla de que «los fideos siempre se comen haciendo ruido» no es tal en realidad. Hay quien los come sorbiendo con ruido y quien los come en silencio. Nadie juzga lo que se haga. Y si se fuerza el sorbido, puede resultar hasta poco natural.\nTampoco existe la regla de que haya que terminar el plato. Si lo terminas, se alegran; pero si te queda arroz, nadie te echa una bronca. Pedir menos es la solución sensata.\nSe habrá oído que a veces se cierra la puerta a uno por ser extranjero. En algunos sitios hay locales que solo admiten a clientes que hablan japonés, pero no ocurre tan a menudo como se dice por internet. En cualquier caso, se trata de un problema para dar el servicio con fluidez, no de algo dirigido a ti personalmente. Si usas el sistema de reservas, que salva la barrera de la lengua, se evita con facilidad.\nLa toalla caliente que te sirven al sentarte es para secarse las manos. Secarse la cara con ella es un cuadro de manual de turista. Aun así, al cabo de un largo día, no es raro ver a algún japonés que también se limpia la cara con ella.\n",
+      "preguntasEs": [
+        "¿Cuáles son las dos cosas que a los de alrededor les desagradan mucho con los palillos?",
+        "¿Cuándo conviene comer lo que te sirven en el mostrador?",
+        "¿Por qué conviene moderar el perfume?",
+        "¿Por qué es un problema la cancelación sin avisar?",
+        "¿Qué significa «gochisōsama deshita»?",
+        "¿Qué opina el autor sobre comer los fideos haciendo ruido?"
       ],
       "vocabulario": [
         {
@@ -4936,11 +5249,13 @@
       "nombres_propios": [
         {
           "literal": "東京",
-          "lectura": "とうきょう"
+          "lectura": "とうきょう",
+          "significado": "Tokio"
         },
         {
           "literal": "アメリカ",
-          "lectura": "アメリカ"
+          "lectura": "アメリカ",
+          "significado": "Estados Unidos"
         }
       ],
       "referencias": [
@@ -4987,6 +5302,14 @@
         "昔の武士は、なぜすぐに新しい主君を見つけることができましたか。",
         "江戸時代のあと、浪人はどうなりましたか。",
         "現代では、浪人という言葉は何を指しますか。"
+      ],
+      "tituloEs": "Rōnin",
+      "textoEs": "Un rōnin es un samurái que no tiene señor feudal ni trabajo. En el pasado, las batallas continuaban sin cesar, y los samuráis encontraban enseguida un señor feudal nuevo. Pero cuando llegó la era Edo y con ella la paz, aumentó el número de samuráis sin trabajo.\n\nEn su juventud, algunos lograban encontrar de nuevo un lugar donde trabajar, pero también había muchos que no lo conseguían. Hoy en día, la palabra «rōnin» designa a los estudiantes —los que repiten el año— que suspenden el examen y están en la preparación para el del año siguiente. Los exámenes difieren según la escuela, pero la palabra rōnin se sigue usando hoy.\n",
+      "preguntasEs": [
+        "¿Qué clase de samurái es un rōnin?",
+        "¿Por qué podían los samuráis del pasado encontrar enseguida un señor feudal nuevo?",
+        "¿Qué ocurrió con los rōnin tras la era Edo?",
+        "¿A qué designa hoy la palabra «rōnin»?"
       ],
       "vocabulario": [
         {
@@ -5165,6 +5488,16 @@
         "花蜜の水分量が20％まで下がると、内勤蜂は何をしますか。",
         "ミツバチがいなければ、何が実らないと言えるでしょうか。",
         "養蜂家は、ハチミツをどのように集めますか。"
+      ],
+      "tituloEs": "Cómo se hace la miel — La vida de las abejas y el ciclo de la miel",
+      "textoEs": "Capítulo 1 · Del néctar de las flores a la miel\n\n¿Sabes cómo se hace la miel? Puede que muchos piensen que «las abejas la hacen recogiendo el néctar de las flores». Pero el néctar en sí no puede convertirse directamente en miel. El néctar y la miel se van diferenciando poco a poco, tanto en su naturaleza como en su composición.\n\nLa fabricación de la miel empieza dentro del ajetreado día de las abejas. Temprano por la mañana, las abejas obreras de exterior salen volando de la colmena en busca de flores. Lo que persiguen es el néctar dulce y el polen, que sirve de fuente de proteínas.\n\nLa abeja obrera de exterior vuela hasta lugares a dos o tres kilómetros de la colmena y visita las flores varias veces al día. Para recoger ese néctar precioso tiene que transportar un peso de casi la mitad de su propio cuerpo. Por eso suele encargarse de ese trabajo la abeja obrera de exterior que es mayor y ya tiene experiencia.\n\n---\n\nCapítulo 2 · Por qué el néctar se convierte en miel\n\nCuando la abeja obrera de exterior vuelve a la colmena, le pasa el néctar recogido a la abeja obrera de interior, boca a boca. Entonces la enzima que la abeja de exterior lleva en la saliva empieza a mezclarse con el néctar. Esa enzima va descomponiendo los azúcares complejos del néctar en una forma que se digiere con facilidad.\n\nLa abeja obrera de interior va depositando ese néctar gota a gota en las pequeñas celdas con forma de hexágono (los panales) de la colmena. El néctar de ese momento contiene mucha humedad y todavía sigue siendo líquido y suelto. Habrá quien piense que así se echaría a perder enseguida. Pero se explica que, precisamente porque las abejas hacen un trabajo para reducir la humedad, el producto acaba siendo una miel que se conserva mucho tiempo.\n\nLas abejas obreras de interior mueven las alas con fuerza, en vaivén, para enviar aire por dentro de la colmena. Con esa corriente, la humedad del néctar va evaporándose poco a poco. Así, al producirse la concentración, va subiendo el porcentaje de azúcar.\n\n---\n\nCapítulo 3 · La tapa que convierte el néctar en miel\n\nCuando la humedad del néctar baja hasta el 20 %, la abeja obrera de interior tapa la celda del panal con cera de abejas, la cera con la que se fabrica la propia colmena. Es una tarea fundamental para que no entre en contacto con el aire del exterior.\n\nDespués de taparla, llega un tiempo de maduración. Cuando las enzimas siguen trabajando y la estructura del azúcar se estabiliza, nacen el aroma, el color y la textura pegajosa. Así el néctar acaba convirtiéndose en miel de verdad.\n\nEn la naturaleza, un líquido con demasiado azúcar no se echa a perder fácilmente. Se puede decir que la miel se conserva mucho tiempo en ese estado espeso precisamente porque la humedad es extremadamente baja. Es decir, la miel también puede definirse como «un alimento que las abejas han fabricado para conservarlo».\n\n---\n\nCapítulo 4 · El reparto de funciones de las abejas obreras\n\nDetrás de la fabricación de la miel hay un reparto de funciones minucioso entre las abejas. Casi todas las que sostienen la colmena son abejas obreras. Entre ellas, la abeja reina se dedica sin más a poner huevos, y las abejas obreras van cambiando de trabajo según la edad.\n\nUna abeja obrera recién nacida empieza limpiando la colmena. Después se ocupa de las larvas que cría y de construir, con cera de abejas, los panales hexagonales: en definitiva, hace el trabajo de la abeja obrera de interior.\n\nY cuando cumplen 20 días, su función cambia y pasan a ser la abeja obrera de exterior, que sale al exterior a recoger néctar y polen. Se dice que la vida de la abeja obrera de exterior dura unos diez días desde que empieza a trabajar fuera. Después de trabajar duramente fuera, en un mundo peligroso, llegan al final de su corta vida.\n\nDe este modo, se piensa que es precisamente porque cada abeja cumple su función por lo que toda la colmena funciona bien y la miel se va fabricando.\n\n---\n\nCapítulo 5 · Cómo el apicultor llega a recoger la miel\n\nLa miel que las abejas han tardado tanto tiempo en fabricar se guarda con cuidado en la colmena. El apicultor deja la parte que las abejas necesitan para pasar el invierno y solo hace la extracción de miel que sobra.\n\nEn la extracción, primero se retira con cuidado la cera de abejas que hace de tapa de los panales, con un cuchillo especial para la miel. Después se mete el marco en la centrífuga y se hace girar la máquina. Por la fuerza centrífuga, la miel sale despedida del marco y va acumulándose en el depósito de abajo.\n\nLa miel así recogida todavía lleva trocitos de cera de abejas y otras impurezas, así que se cuela con cuidado en un filtro hasta quedar limpia. Después se procede al envasado en frascos y la miel llega hasta nosotros.\n\nSi conoces el proceso de este trabajo, puedes decir que la miel es la prueba del esfuerzo de tantas abejas y de los apicultores que no escatiman trabajo.\n\n---\n\nCapítulo 6 · La miel y su relación con nosotros\n\nLa miel no es solo algo dulce. Las abejas visitan las flores para recoger néctar y, en ese proceso, transportan polen y ayudan a la polinización. Es decir, se puede decir que, si no hubiera abejas, muchas verduras y frutas no llegarían a dar fruto.\n\nCuando saboreamos la miel, en esa cucharada van incluidos el néctar que la abeja obrera de exterior transportó tras visitar las flores muchas veces, el tiempo que la abeja obrera de interior tardó en evaporar la humedad y en que la miel madurara, y la razón del reparto de funciones de todas las abejas obreras.\n\nMirando a largo plazo, puede que la relación entre las abejas y los humanos sea la de dos seres que han vivido unidos poco a poco dentro de la naturaleza. Al comer miel, quizá nos demos cuenta un poco más de ese vínculo.\n",
+      "preguntasEs": [
+        "¿En qué se diferencian la miel y el néctar?",
+        "¿Qué trabajo hace la abeja obrera de exterior?",
+        "¿Cómo va disminuyendo la humedad del néctar?",
+        "¿Qué hace la abeja obrera de interior cuando la humedad del néctar baja hasta el 20 %?",
+        "¿Qué frutos no llegaría a dar, se puede decir, si no hubiera abejas?",
+        "¿Cómo recoge el apicultor la miel?"
       ],
       "vocabulario": [
         {
