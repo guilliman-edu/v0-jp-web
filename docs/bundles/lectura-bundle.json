@@ -6043,6 +6043,366 @@
     }
   },
   {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "b2.1-s4-onigiri-nombres-historia"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "「おにぎり」の名前と歴史 ― 日本のおにぎりから世界へ",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "気温",
+        "生活",
+        "歴史",
+        "場所",
+        "敬語",
+        "意味",
+        "神様",
+        "地震",
+        "特徴",
+        "辞書",
+        "英語",
+        "コンビニ",
+        "食べ物",
+        "野菜",
+        "魚",
+        "植える",
+        "表す",
+        "説明する",
+        "日本語",
+        "昔",
+        "名前",
+        "言葉",
+        "国",
+        "山",
+        "店",
+        "皆んな",
+        "日本",
+        "水",
+        "握飯",
+        "米",
+        "三角形",
+        "江戸時代",
+        "注目",
+        "身近",
+        "評価",
+        "証拠",
+        "手段",
+        "中心",
+        "中身",
+        "守る",
+        "第一章",
+        "第二章",
+        "第三章",
+        "第四章",
+        "第五章",
+        "第六章",
+        "第七章"
+      ],
+      "nombres_propios": [],
+      "ilustracion": {
+        "escena": "musubi",
+        "alt": "Un manojo de espigas de arroz atado con una cuerda de paja (むすび, unión), con algunas espigas sueltas alrededor",
+        "ruta": "lectura/imagenes/b2.1-s4-onigiri-nombres-historia.webp"
+      },
+      "texto": "第一章　日本にとって大切な食べ物\n\n日本では2025年、気温が高くて米が買えなくなり、お金も高くなりました。いつも買えると思ってきたのに買えなくなると、日本では長いあいだ、米が生活の中でとても大切なものだと、皆んなが気がつきました。そこで、皆んなが知っている毎日の食べ物「おにぎり」に注目する人が出ました。その歴史を見てみましょう。\n\n---\n\n第二章　昔のおにぎり\n\nおにぎりは、いつからあったのか、はっきりしていません。日本で米を作るようになってから、人は作った米を手でまとめていたと考えられています。日本のある場所では、2000年前の米が出たこともあります。手で作ったのではなく、ほかの手段で作られたと考えられているものもあります。そして、それを「昔のおにぎりの証拠」と言っています。この米については、人によって違う説明をしています。\n\n大切なのは、米を手でまとめて持ちやすくすることを、日本ではとても昔からやっていることです。昔の本には、日本語で「握飯」と書かれた言葉が出ています。人は食べ物を持って会い、米を皆んなで食べていました。その使い方は、とても身近なものでした。\n\n---\n\n第三章　「おにぎり」の名前\n\n「おにぎり」という言葉の昔の名前は「握飯」（にぎりいい）です。日本では昔、「にぎりいい」と言っていました。「にぎりいい」が使われているうちに、「にぎりめし」という名前の言葉に換えました。さらに、敬語の「お」を付けた名前が「おにぎり」です。\n\n「おにぎり」を説明する言葉は、「おむすび」もあります。「むすび」という名前を皆んなが使い始めたのは、江戸時代です。そこにも敬語の「お」を付けました。昔の本には、「むすび」を「握飯」の別の名前と書いて、「もとは女の言葉です」とも書かれています。\n\n「むすび」は、名前の意味を表すだけの言葉ではありません。神様の名前も、昔の本に出ています。そこに、何かを作る意味とか、人と人がつながる意味とかが加わっているのです。つまり、「むすび」は、意味がさまざまに加わった言葉ということです。\n\nもちろん、「むすび」という名前が神様とつながっているとは言えません。でも、言葉の意味がさまざまに加わっていることに注目すると、この毎日の食べ物が日本に住む人にとって、大切な意味を持つのでしょう。\n\n---\n\n第四章　皆んなで食べる\n\n米を作る仕事は、一人では終わりません。皆んなで水を集め、皆んなで使います。水を守るのも、米を植えるのも、皆んなの仕事です。そして、作った米を皆んなで食べるのに、とてもいい食べ物が「おにぎり」です。\n\n地震のとき、日本ではよく「おにぎり」が出ます。持ちやすく、作るのも楽で、食べるのに何も要りません。皆んなにおにぎりを与えました。そのとき、人は人と人がつながることを知りました。2000年、日本では1月17日を「おむすびの日」にしました。「おにぎり」ではなく「おむすび」という名前を使ったのは、人と人がつながることを大切にしたからです。\n\n---\n\n第五章　山とうみの食べ物\n\n日本は、うみの近くにあって、山が多い国です。「おにぎり」を見ると、日本の山とうみのようすが分かります。山の近くに住む人は野菜を使い、うみの近くに住む人は魚を使います。「おにぎり」の中には、山とうみの食べ物が入っています。そのさまざまなおにぎりが、日本の食べ物の特徴を表しています。\n\n今は、ほかの国の食べ物も、昔は知らなかった中身も多くなっています。\n\n---\n\n第六章　なぜ「三角」なのか？\n\n日本のおにぎりは、三角形がとても多いです。コンビニのおにぎりになってから、そのようすが決まりました。三角形は、持つ場合、壊さずに持ちやすいからです。多く作って、多く運ぶのにも便利です。昔は、日本でも、場所によってようすが違いました。今は、いろいろな中身を入れて、食べやすくするためのようすもあります。\n\n---\n\n第七章　世界でのおにぎり\n\n日本のおにぎりは、世界でも注目されています。おにぎりだけの店がとても多くなっています。世界の人も食べるようになり、おにぎりを評価する人も多くなっています。\n\n2024年、英語の大きな辞書に「onigiri」が出ました。日本語の名前で知られた証拠です。\n\nおにぎりは、いろいろなようすになり、世界にも広がっています。でも、米を手でまとめて皆んなで食べる中心は、今もあります。これからも、日本のおにぎりは皆んなに食べられていくでしょう。\n",
+      "preguntas": [
+        "「おにぎり」の名前は、どんな順番で変わりましたか。",
+        "日本のある場所から、何年前の米が出たこともありますか。",
+        "「おむすび」という名前を皆んなが使い始めたのは、いつですか。",
+        "地震のとき、日本でよく出るのは何ですか。なぜですか。",
+        "日本のおにぎりは、なぜ三角が多いですか。",
+        "2024年、英語の大きな辞書に何が出ましたか。"
+      ],
+      "tituloEs": "El nombre y la historia del «onigiri» — Del onigiri de Japón al mundo",
+      "textoEs": "Capítulo 1 · Un alimento importante para Japón\n\nEn 2025, en Japón el calor fue tan fuerte que el arroz dejó de comprarse y encareció. Cuando algo que se creía siempre disponible de repente desaparece, la gente de Japón se da cuenta de que el arroz ocupa un lugar muy importante en su vida cotidiana. Por eso han empezado a fijarse en «onigiri», el alimento de todos los días que todo el mundo conoce. Veamos su historia.\n\n---\n\nCapítulo 2 · Los onigiris antiguos\n\nNo se sabe con certeza desde cuándo existen los onigiris. Se piensa que, desde que en Japón se empezó a cultivar arroz, la gente iba reuniendo con la mano el arroz que cultivaba. En algún lugar de Japón también ha aparecido arroz de hace dos mil años. Hay también cosas que se consideran hechas por otros medios, no con la mano, y a eso se le llama «prueba de los onigiris antiguos». Sobre ese arroz hay explicaciones distintas según la persona.\n\nLo importante es que en Japón se hace desde hace muchísimo tiempo: reunir el arroz con la mano para que sea fácil de llevar. En los libros antiguos aparece una palabra que se escribe en japonés como «nigirii». La gente se llevaba comida para encontrarse y comía el arroz todos juntos. Ese uso era algo muy cotidiano.\n\n---\n\nCapítulo 3 · El nombre de «onigiri»\n\nEl nombre antiguo de la palabra «onigiri» era «nigirii». En el Japón antiguo se decía «nigirii». Mientras se usaba «nigirii», la palabra acabó llamándose «nigirimeshi». Y el nombre con el honorífico «o» es «onigiri».\n\nPara explicar «onigiri» existe también la palabra «omusubi». La gente empezó a usar el nombre «musubi» en el periodo Edo; también allí se añadió el honorífico «o». En los libros antiguos se escribe «musubi» como otro nombre de «nigirii», y también se dice que «originalmente era una palabra de las mujeres».\n\n«Musubi» no es solo una palabra que expresa el significado de un nombre. También hay nombres de dioses en los libros antiguos. A ellos se le han añadido el significado de crear algo y el significado de que las personas se conectan entre sí. Es decir, «musubi» es una palabra a la que se le han añadido significados variados.\n\nDesde luego, no se puede decir que el nombre «musubi» esté conectado con los dioses. Pero si se pone la atención en que a la palabra se le han añadido significados variados, este alimento cotidiano tendrá un significado importante para la gente que vive en Japón.\n\n---\n\nCapítulo 4 · Comerlo todos juntos\n\nEl trabajo de cultivar arroz no lo acaba una sola persona. Todos recogen agua y todos la usan. Proteger el agua y plantar el arroz es el trabajo de todos. Y para comer juntos el arroz que se ha cultivado, un alimento muy bueno es «onigiri».\n\nCuando hay un terremoto, en Japón suele repartirse «onigiri»: es fácil de llevar, fácil de hacer y no hace falta nada para comerlo. Se dieron onigiris a todo el mundo, y entonces la gente comprendió que las personas se conectan entre sí. En el año 2000, Japón declaró el 17 de enero «día del omusubi». No se usó el nombre «onigiri» sino «omusubi» porque se quiso dar importancia a que las personas se conecten.\n\n---\n\nCapítulo 5 · Alimentos de la montaña y del mar\n\nJapón es un país cercano al mar y con muchas montañas. Si se mira el «onigiri», se entiende cómo son la montaña y el mar de Japón. Quien vive cerca de la montaña usa verduras, y quien vive cerca del mar usa pescado. Dentro del «onigiri» hay alimentos de la montaña y del mar. Esos onigiris variados expresan la característica de los alimentos de Japón.\n\nHoy hay también muchos rellenos que antes no se conocían, además de alimentos de otros países.\n\n---\n\nCapítulo 6 · ¿Por qué son «triangulares»?\n\nLos onigiri de Japón son muy a menudo triangulares. Esa forma se fijó a partir del onigiri de las tiendas de conveniencia. El triángulo es fácil de sostener sin que se rompa cuando se lleva, y además es cómodo para hacer muchos y transportar muchos. Antes, incluso dentro de Japón, la forma variaba según el lugar. Hoy hay también formas pensadas para que sea más fácil comerlos, con rellenos variados dentro.\n\n---\n\nCapítulo 7 · El onigiri en el mundo\n\nLos onigiri de Japón atraen la atención también en el mundo. Han proliferado las tiendas exclusivas de onigiri. La gente de otros países también los come, y hay cada vez más personas que valoran los onigiris.\n\nEn 2024, la palabra «onigiri» apareció en un diccionario grande de inglés. Es la prueba de que se conoce como nombre en japonés.\n\nLos onigiri adoptan formas variadas y se han extendido por el mundo. Pero la idea de reunir el arroz con la mano y comerlo todos sigue estando ahí. Los onigiris de Japón seguirán siendo comidos por todo el mundo.\n",
+      "preguntasEs": [
+        "¿En qué orden cambió el nombre de «onigiri»?",
+        "¿De hace cuántos años salió arroz en algún lugar de Japón?",
+        "¿Cuándo empezó la gente a usar el nombre «omusubi»?",
+        "Cuando hay un terremoto, ¿qué suele salir en Japón y por qué?",
+        "¿Por qué hay tantos onigiri triangulares en Japón?",
+        "En 2024, ¿qué apareció en un diccionario de inglés?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "気温",
+          "lectura": "きおん",
+          "significado": "temperatura"
+        },
+        {
+          "literal": "生活",
+          "lectura": "せいかつ",
+          "significado": "vida diaria"
+        },
+        {
+          "literal": "歴史",
+          "lectura": "れきし",
+          "significado": "historia"
+        },
+        {
+          "literal": "場所",
+          "lectura": "ばしょ",
+          "significado": "lugar; ubicación"
+        },
+        {
+          "literal": "敬語",
+          "lectura": "けいご",
+          "significado": "lenguaje honorífico"
+        },
+        {
+          "literal": "意味",
+          "lectura": "いみ",
+          "significado": "significado"
+        },
+        {
+          "literal": "神様",
+          "lectura": "かみさま",
+          "significado": "dios"
+        },
+        {
+          "literal": "地震",
+          "lectura": "じしん",
+          "significado": "terremoto"
+        },
+        {
+          "literal": "特徴",
+          "lectura": "とくちょう",
+          "significado": "característica"
+        },
+        {
+          "literal": "辞書",
+          "lectura": "じしょ",
+          "significado": "diccionario"
+        },
+        {
+          "literal": "英語",
+          "lectura": "えいご",
+          "significado": "inglés (idioma)"
+        },
+        {
+          "literal": "コンビニ",
+          "lectura": "こんびに",
+          "significado": "tienda de conveniencia"
+        },
+        {
+          "literal": "食べ物",
+          "lectura": "たべもの",
+          "significado": "comida"
+        },
+        {
+          "literal": "野菜",
+          "lectura": "やさい",
+          "significado": "verdura"
+        },
+        {
+          "literal": "魚",
+          "lectura": "さかな",
+          "significado": "pescado"
+        },
+        {
+          "literal": "植える",
+          "lectura": "うえる",
+          "significado": "plantar"
+        },
+        {
+          "literal": "表す",
+          "lectura": "あらわす",
+          "significado": "expresar; representar"
+        },
+        {
+          "literal": "説明する",
+          "lectura": "せつめいする",
+          "significado": "explicar"
+        },
+        {
+          "literal": "日本語",
+          "lectura": "にほんご",
+          "significado": "japonés (idioma)"
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "pasado; tiempos pasados"
+        },
+        {
+          "literal": "名前",
+          "lectura": "なまえ",
+          "significado": "nombre"
+        },
+        {
+          "literal": "言葉",
+          "lectura": "ことば",
+          "significado": "palabra"
+        },
+        {
+          "literal": "国",
+          "lectura": "くに",
+          "significado": "país"
+        },
+        {
+          "literal": "山",
+          "lectura": "やま",
+          "significado": "montaña"
+        },
+        {
+          "literal": "店",
+          "lectura": "みせ",
+          "significado": "tienda"
+        },
+        {
+          "literal": "皆んな",
+          "lectura": "みんな",
+          "significado": "todos; todo el mundo"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "水",
+          "lectura": "みず",
+          "significado": "agua"
+        },
+        {
+          "literal": "おにぎり",
+          "lectura": "おにぎり",
+          "significado": "bola de arroz prensada (onigiri)"
+        },
+        {
+          "literal": "おむすび",
+          "lectura": "おむすび",
+          "significado": "nombre alternativo del onigiri (omusubi)"
+        },
+        {
+          "literal": "握飯",
+          "lectura": "にぎりいい",
+          "significado": "nombre antiguo del onigiri"
+        },
+        {
+          "literal": "にぎりめし",
+          "lectura": "にぎりめし",
+          "significado": "nombre intermedio del onigiri"
+        },
+        {
+          "literal": "米",
+          "lectura": "こめ",
+          "significado": "arroz (grano crudo, sin cocer)"
+        },
+        {
+          "literal": "三角形",
+          "lectura": "さんかくけい",
+          "significado": "triángulo (como forma)"
+        },
+        {
+          "literal": "江戸時代",
+          "lectura": "えどじだい",
+          "significado": "periodo Edo (1603–1868)"
+        },
+        {
+          "literal": "注目",
+          "lectura": "ちゅうもく",
+          "significado": "atención; prestar atención",
+          "exclusion": true
+        },
+        {
+          "literal": "身近",
+          "lectura": "みじか",
+          "significado": "cercano; familiar",
+          "exclusion": true
+        },
+        {
+          "literal": "評価",
+          "lectura": "ひょうか",
+          "significado": "evaluación; valoración",
+          "exclusion": true
+        },
+        {
+          "literal": "証拠",
+          "lectura": "しょうこ",
+          "significado": "prueba; evidencia",
+          "exclusion": true
+        },
+        {
+          "literal": "手段",
+          "lectura": "しゅだん",
+          "significado": "medio; procedimiento",
+          "exclusion": true
+        },
+        {
+          "literal": "中心",
+          "lectura": "ちゅうしん",
+          "significado": "centro; núcleo",
+          "exclusion": true
+        },
+        {
+          "literal": "中身",
+          "lectura": "なかみ",
+          "significado": "contenido; relleno",
+          "exclusion": true
+        },
+        {
+          "literal": "守る",
+          "lectura": "まもる",
+          "significado": "proteger",
+          "exclusion": true
+        },
+        {
+          "literal": "第一章",
+          "lectura": "だいいっしょう",
+          "significado": "capítulo 1",
+          "exclusion": true
+        },
+        {
+          "literal": "第二章",
+          "lectura": "だいにしょう",
+          "significado": "capítulo 2",
+          "exclusion": true
+        },
+        {
+          "literal": "第三章",
+          "lectura": "だいさんしょう",
+          "significado": "capítulo 3",
+          "exclusion": true
+        },
+        {
+          "literal": "第四章",
+          "lectura": "だいよんしょう",
+          "significado": "capítulo 4",
+          "exclusion": true
+        },
+        {
+          "literal": "第五章",
+          "lectura": "だいごしょう",
+          "significado": "capítulo 5",
+          "exclusion": true
+        },
+        {
+          "literal": "第六章",
+          "lectura": "だいろくしょう",
+          "significado": "capítulo 6",
+          "exclusion": true
+        },
+        {
+          "literal": "第七章",
+          "lectura": "だいななしょう",
+          "significado": "capítulo 7",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "s2-te-iru",
+        "s2-ni-yotte",
+        "s2-uchi-ni",
+        "s3-ni-totte"
+      ],
+      "nivel": "B2.1"
+    }
+  },
+  {
     "apiVersion": "maquinaria/v1",
     "kind": "ActividadLectura",
     "metadata": {

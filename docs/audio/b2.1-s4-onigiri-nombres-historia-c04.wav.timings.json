@@ -1,0 +1,268 @@
+{
+  "audio_file": "b2.1-s4-onigiri-nombres-historia-c04.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 64598,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "第四章　皆んなで食べる",
+      "start_ms": 0,
+      "end_ms": 2534,
+      "duration_ms": 2534,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "第四章　皆んなで食べる",
+          "start_ms": 0,
+          "end_ms": 2534,
+          "duration_ms": 2534
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "こめを作る仕事は、一人では終わりません。",
+      "start_ms": 3034,
+      "end_ms": 7586,
+      "duration_ms": 4552,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "こめを作る仕事は、",
+          "start_ms": 3034,
+          "end_ms": 5173,
+          "duration_ms": 2139
+        },
+        {
+          "index": 1,
+          "text": "一人では終わりません。",
+          "start_ms": 5423,
+          "end_ms": 7586,
+          "duration_ms": 2163
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "みんなでみずを集め、みんなで使います。",
+      "start_ms": 8086,
+      "end_ms": 12266,
+      "duration_ms": 4180,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みんなでみずを集め、",
+          "start_ms": 8086,
+          "end_ms": 10109,
+          "duration_ms": 2023
+        },
+        {
+          "index": 1,
+          "text": "みんなで使います。",
+          "start_ms": 10359,
+          "end_ms": 12266,
+          "duration_ms": 1907
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "みずをまもるのも、こめをうえるのも、みんなの仕事です。",
+      "start_ms": 12766,
+      "end_ms": 19033,
+      "duration_ms": 6267,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みずをまもるのも、",
+          "start_ms": 12766,
+          "end_ms": 14696,
+          "duration_ms": 1930
+        },
+        {
+          "index": 1,
+          "text": "こめをうえるのも、",
+          "start_ms": 14946,
+          "end_ms": 16795,
+          "duration_ms": 1849
+        },
+        {
+          "index": 2,
+          "text": "みんなの仕事です。",
+          "start_ms": 17045,
+          "end_ms": 19033,
+          "duration_ms": 1988
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "そして、作ったこめをみんなで食べるのに、とてもいいたべものが「おにぎり」です。",
+      "start_ms": 19533,
+      "end_ms": 27124,
+      "duration_ms": 7591,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 19533,
+          "end_ms": 20778,
+          "duration_ms": 1245
+        },
+        {
+          "index": 1,
+          "text": "作ったこめをみんなで食べるのに、",
+          "start_ms": 21028,
+          "end_ms": 24026,
+          "duration_ms": 2998
+        },
+        {
+          "index": 2,
+          "text": "とてもいいたべものが「おにぎり」です。",
+          "start_ms": 24276,
+          "end_ms": 27124,
+          "duration_ms": 2848
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "じしんのとき、にほんではよく「おにぎり」が出ます。",
+      "start_ms": 27624,
+      "end_ms": 32617,
+      "duration_ms": 4993,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "じしんのとき、",
+          "start_ms": 27624,
+          "end_ms": 29322,
+          "duration_ms": 1698
+        },
+        {
+          "index": 1,
+          "text": "にほんではよく「おにぎり」が出ます。",
+          "start_ms": 29572,
+          "end_ms": 32617,
+          "duration_ms": 3045
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "持ちやすく、作るのも楽で、食べるのに何も要りません。",
+      "start_ms": 33117,
+      "end_ms": 39640,
+      "duration_ms": 6523,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "持ちやすく、",
+          "start_ms": 33117,
+          "end_ms": 34687,
+          "duration_ms": 1570
+        },
+        {
+          "index": 1,
+          "text": "作るのも楽で、",
+          "start_ms": 34937,
+          "end_ms": 36786,
+          "duration_ms": 1849
+        },
+        {
+          "index": 2,
+          "text": "食べるのに何も要りません。",
+          "start_ms": 37036,
+          "end_ms": 39640,
+          "duration_ms": 2604
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "みんなにおにぎりを与えました。",
+      "start_ms": 40140,
+      "end_ms": 42825,
+      "duration_ms": 2685,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みんなにおにぎりを与えました。",
+          "start_ms": 40140,
+          "end_ms": 42825,
+          "duration_ms": 2685
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "そのとき、人は人と人がつながることを知りました。",
+      "start_ms": 43325,
+      "end_ms": 48979,
+      "duration_ms": 5654,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのとき、",
+          "start_ms": 43325,
+          "end_ms": 44779,
+          "duration_ms": 1454
+        },
+        {
+          "index": 1,
+          "text": "人は人と人がつながることを知りました。",
+          "start_ms": 45029,
+          "end_ms": 48979,
+          "duration_ms": 3950
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "2000年、にほんでは1月17日を「おむすびの日」にしました。",
+      "start_ms": 49479,
+      "end_ms": 55947,
+      "duration_ms": 6468,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "2000年、",
+          "start_ms": 49479,
+          "end_ms": 50887,
+          "duration_ms": 1408
+        },
+        {
+          "index": 1,
+          "text": "にほんでは1月17日を「おむすびの日」にしました。",
+          "start_ms": 51137,
+          "end_ms": 55947,
+          "duration_ms": 4810
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "「おにぎり」ではなく「おむすび」というなまえを使ったのは、人と人がつながることを大切にしたからです。",
+      "start_ms": 56447,
+      "end_ms": 64598,
+      "duration_ms": 8151,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「おにぎり」ではなく「おむすび」というなまえを使ったのは、",
+          "start_ms": 56447,
+          "end_ms": 60305,
+          "duration_ms": 3858
+        },
+        {
+          "index": 1,
+          "text": "人と人がつながることを大切にしたからです。",
+          "start_ms": 60555,
+          "end_ms": 64598,
+          "duration_ms": 4043
+        }
+      ]
+    }
+  ]
+}

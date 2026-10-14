@@ -1,0 +1,130 @@
+{
+  "audio_file": "b2.1-s4-onigiri-nombres-historia-c01-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 39934,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "第一章　日本にとって大切な食べ物",
+      "start_ms": 0,
+      "end_ms": 3817,
+      "duration_ms": 3817,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "第一章　日本にとって大切な食べ物",
+          "start_ms": 0,
+          "end_ms": 3817,
+          "duration_ms": 3817
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "にほんでは2025年、きおんが高くてこめが買えなくなり、お金も高くなりました。",
+      "start_ms": 4317,
+      "end_ms": 14096,
+      "duration_ms": 9779,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にほんでは2025年、",
+          "start_ms": 4317,
+          "end_ms": 7542,
+          "duration_ms": 3225
+        },
+        {
+          "index": 1,
+          "text": "きおんが高くてこめが買えなくなり、",
+          "start_ms": 7792,
+          "end_ms": 11179,
+          "duration_ms": 3387
+        },
+        {
+          "index": 2,
+          "text": "お金も高くなりました。",
+          "start_ms": 11429,
+          "end_ms": 14096,
+          "duration_ms": 2667
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "いつも買えると思ってきたのに買えなくなると、にほんでは長いあいだ、こめがせいかつの中でとても大切なものだと、みんなが気がつきました。",
+      "start_ms": 14596,
+      "end_ms": 28953,
+      "duration_ms": 14357,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いつも買えると思ってきたのに買えなくなると、",
+          "start_ms": 14596,
+          "end_ms": 18738,
+          "duration_ms": 4142
+        },
+        {
+          "index": 1,
+          "text": "にほんでは長いあいだ、",
+          "start_ms": 18988,
+          "end_ms": 21423,
+          "duration_ms": 2435
+        },
+        {
+          "index": 2,
+          "text": "こめがせいかつの中でとても大切なものだと、",
+          "start_ms": 21673,
+          "end_ms": 26268,
+          "duration_ms": 4595
+        },
+        {
+          "index": 3,
+          "text": "みんなが気がつきました。",
+          "start_ms": 26518,
+          "end_ms": 28953,
+          "duration_ms": 2435
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "そこで、みんなが知っている毎日のたべもの「おにぎり」にちゅうもくする人が出ました。",
+      "start_ms": 29453,
+      "end_ms": 36709,
+      "duration_ms": 7256,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そこで、",
+          "start_ms": 29453,
+          "end_ms": 30692,
+          "duration_ms": 1239
+        },
+        {
+          "index": 1,
+          "text": "みんなが知っている毎日のたべもの「おにぎり」にちゅうもくする人が出ました。",
+          "start_ms": 30942,
+          "end_ms": 36709,
+          "duration_ms": 5767
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "そのれきしを見てみましょう。",
+      "start_ms": 37209,
+      "end_ms": 39934,
+      "duration_ms": 2725,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのれきしを見てみましょう。",
+          "start_ms": 37209,
+          "end_ms": 39934,
+          "duration_ms": 2725
+        }
+      ]
+    }
+  ]
+}

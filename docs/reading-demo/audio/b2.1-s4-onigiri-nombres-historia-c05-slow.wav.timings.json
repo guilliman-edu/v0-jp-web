@@ -1,0 +1,176 @@
+{
+  "audio_file": "b2.1-s4-onigiri-nombres-historia-c05-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 47725,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "第五章　山とうみの食べ物",
+      "start_ms": 0,
+      "end_ms": 3039,
+      "duration_ms": 3039,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "第五章　山とうみの食べ物",
+          "start_ms": 0,
+          "end_ms": 3039,
+          "duration_ms": 3039
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "にほんは、うみの近くにあって、やまが多いくにです。",
+      "start_ms": 3539,
+      "end_ms": 10136,
+      "duration_ms": 6597,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にほんは、",
+          "start_ms": 3539,
+          "end_ms": 5022,
+          "duration_ms": 1483
+        },
+        {
+          "index": 1,
+          "text": "うみの近くにあって、",
+          "start_ms": 5272,
+          "end_ms": 7521,
+          "duration_ms": 2249
+        },
+        {
+          "index": 2,
+          "text": "やまが多いくにです。",
+          "start_ms": 7771,
+          "end_ms": 10136,
+          "duration_ms": 2365
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "「おにぎり」を見ると、にほんのやまとうみのようすが分かります。",
+      "start_ms": 10636,
+      "end_ms": 16384,
+      "duration_ms": 5748,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「おにぎり」を見ると、",
+          "start_ms": 10636,
+          "end_ms": 12700,
+          "duration_ms": 2064
+        },
+        {
+          "index": 1,
+          "text": "にほんのやまとうみのようすが分かります。",
+          "start_ms": 12950,
+          "end_ms": 16384,
+          "duration_ms": 3434
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "やまの近くに住む人はやさいを使い、うみの近くに住む人はさかなを使います。",
+      "start_ms": 16884,
+      "end_ms": 25243,
+      "duration_ms": 8359,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "やまの近くに住む人はやさいを使い、",
+          "start_ms": 16884,
+          "end_ms": 20828,
+          "duration_ms": 3944
+        },
+        {
+          "index": 1,
+          "text": "うみの近くに住む人はさかなを使います。",
+          "start_ms": 21078,
+          "end_ms": 25243,
+          "duration_ms": 4165
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "「おにぎり」の中には、やまとうみのたべものが入っています。",
+      "start_ms": 25743,
+      "end_ms": 31618,
+      "duration_ms": 5875,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「おにぎり」の中には、",
+          "start_ms": 25743,
+          "end_ms": 27958,
+          "duration_ms": 2215
+        },
+        {
+          "index": 1,
+          "text": "やまとうみのたべものが入っています。",
+          "start_ms": 28208,
+          "end_ms": 31618,
+          "duration_ms": 3410
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "そのさまざまなおにぎりが、にほんのたべもののとくちょうを表しています。",
+      "start_ms": 32118,
+      "end_ms": 38956,
+      "duration_ms": 6838,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのさまざまなおにぎりが、",
+          "start_ms": 32118,
+          "end_ms": 34785,
+          "duration_ms": 2667
+        },
+        {
+          "index": 1,
+          "text": "にほんのたべもののとくちょうを表しています。",
+          "start_ms": 35035,
+          "end_ms": 38956,
+          "duration_ms": 3921
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "今は、ほかのくにのたべものも、むかしは知らなかったなかみも多くなっています。",
+      "start_ms": 39456,
+      "end_ms": 47725,
+      "duration_ms": 8269,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今は、",
+          "start_ms": 39456,
+          "end_ms": 40463,
+          "duration_ms": 1007
+        },
+        {
+          "index": 1,
+          "text": "ほかのくにのたべものも、",
+          "start_ms": 40713,
+          "end_ms": 43322,
+          "duration_ms": 2609
+        },
+        {
+          "index": 2,
+          "text": "むかしは知らなかったなかみも多くなっています。",
+          "start_ms": 43572,
+          "end_ms": 47725,
+          "duration_ms": 4153
+        }
+      ]
+    }
+  ]
+}
