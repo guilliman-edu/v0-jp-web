@@ -1,13 +1,14 @@
 # Imágenes de vocabulario — A2.2
-# Lote s2 (2026-10-04): 120 términos, 91 con
-# ilustración + 29 placeholder.
+# Lote s2 (2026-10-04): 120 términos (91 con ilustración + 29 placeholder) —
+# revisado. Lote s3 (2026-10-06, cap13–cap17) — revisado.
+# Lote s4 (2026-10-14): 39 términos nuevos del repaso léxico de la unidad 1
+# (léxico A1 reutilizado por el «Cierre de Genki I»); revisado (gate humano
+# confirmado 2026-10-15). Solo se versionan escena .json + .webp.
 # Origen: escenas dibujadas a mano con la skill ilustrar-vocabulario y renderizadas
 # con la caja de lápices Alpino (ADR-0091). No hay texto embebido en la imagen:
 # la palabra la pone la ficha.
 # Paleta ESTIMADA a partir de una carta de lápices común; pendiente de calibrar
 # contra la foto de la caja real (no bloquea: si se reajusta, se re-tocan los hex).
-# Estado de TODAS las entradas: propuesto — pendiente del gate humano por
-# lección (ADR-0091 §4). Solo se versionan escena .json + .webp.
 titulo: Imágenes de vocabulario — A2.2
 nivel: a2.2
 imagenes:
@@ -1238,4 +1239,203 @@ imagenes:
     leccion: s3
     archivo: s3/旅行会社.webp
     escena: s3/旅行会社.json
+    estado: revisado
+
+# Lote s4 (2026-10-14) — A2.2 «Cierre de Genki I»: 39 términos pendientes del
+# repaso léxico de la unidad 1 (léxico A1 reutilizado). Escenas nuevas; estado
+# propuesto hasta el gate humano por lección (ADR-0091 §4).
+  - literal: Tシャツ
+    leccion: s4
+    archivo: s4/Tシャツ.webp
+    escena: s4/Tシャツ.json
+    estado: revisado
+  - literal: アルバイト
+    leccion: s4
+    archivo: s4/アルバイト.webp
+    escena: s4/アルバイト.json
+    estado: revisado
+  - literal: お兄さん
+    leccion: s4
+    archivo: s4/お兄さん.webp
+    escena: s4/お兄さん.json
+    estado: revisado
+  - literal: お姉さん
+    leccion: s4
+    archivo: s4/お姉さん.webp
+    escena: s4/お姉さん.json
+    estado: revisado
+  - literal: お婆さん
+    leccion: s4
+    archivo: s4/お婆さん.webp
+    escena: s4/お婆さん.json
+    estado: revisado
+  - literal: ジーンズ
+    leccion: s4
+    archivo: s4/ジーンズ.webp
+    escena: s4/ジーンズ.json
+    estado: revisado
+  - literal: シャツ
+    leccion: s4
+    archivo: s4/シャツ.webp
+    escena: s4/シャツ.json
+    estado: revisado
+  - literal: パンツ
+    leccion: s4
+    archivo: s4/パンツ.webp
+    escena: s4/パンツ.json
+    estado: revisado
+  - literal: 医者
+    leccion: s4
+    archivo: s4/医者.webp
+    escena: s4/医者.json
+    estado: revisado
+  - literal: 飲む
+    leccion: s4
+    archivo: s4/飲む.webp
+    escena: s4/飲む.json
+    estado: revisado
+  - literal: 家族
+    leccion: s4
+    archivo: s4/家族.webp
+    escena: s4/家族.json
+    estado: revisado
+  - literal: 会社
+    leccion: s4
+    archivo: s4/会社.webp
+    escena: s4/会社.json
+    estado: revisado
+  - literal: 会社員
+    leccion: s4
+    archivo: s4/会社員.webp
+    escena: s4/会社員.json
+    estado: revisado
+  - literal: 学生
+    leccion: s4
+    archivo: s4/学生.webp
+    escena: s4/学生.json
+    estado: revisado
+  - literal: 眼鏡
+    leccion: s4
+    archivo: s4/眼鏡.webp
+    escena: s4/眼鏡.json
+    estado: revisado
+  - literal: 帰る
+    leccion: s4
+    archivo: s4/帰る.webp
+    escena: s4/帰る.json
+    estado: revisado
+  - literal: 休む
+    leccion: s4
+    archivo: s4/休む.webp
+    escena: s4/休む.json
+    estado: revisado
+  - literal: 靴
+    leccion: s4
+    archivo: s4/靴.webp
+    escena: s4/靴.json
+    estado: revisado
+  - literal: 兄弟
+    leccion: s4
+    archivo: s4/兄弟.webp
+    escena: s4/兄弟.json
+    estado: revisado
+  - literal: 高校
+    leccion: s4
+    archivo: s4/高校.webp
+    escena: s4/高校.json
+    estado: revisado
+  - literal: 国
+    leccion: s4
+    archivo: s4/国.webp
+    escena: s4/国.json
+    estado: revisado
+  - literal: 仕事
+    leccion: s4
+    archivo: s4/仕事.webp
+    escena: s4/仕事.json
+    estado: revisado
+  - literal: 社長
+    leccion: s4
+    archivo: s4/社長.webp
+    escena: s4/社長.json
+    estado: revisado
+  - literal: 手袋
+    leccion: s4
+    archivo: s4/手袋.webp
+    escena: s4/手袋.json
+    estado: revisado
+  - literal: 出身
+    leccion: s4
+    archivo: s4/出身.webp
+    escena: s4/出身.json
+    estado: revisado
+  - literal: 書く
+    leccion: s4
+    archivo: s4/書く.webp
+    escena: s4/書く.json
+    estado: revisado
+  - literal: 女
+    leccion: s4
+    archivo: s4/女.webp
+    escena: s4/女.json
+    estado: revisado
+  - literal: 将来
+    leccion: s4
+    archivo: s4/将来.webp
+    escena: s4/将来.json
+    estado: revisado
+  - literal: 先生
+    leccion: s4
+    archivo: s4/先生.webp
+    escena: s4/先生.json
+    estado: revisado
+  - literal: 大学
+    leccion: s4
+    archivo: s4/大学.webp
+    escena: s4/大学.json
+    estado: revisado
+  - literal: 弟
+    leccion: s4
+    archivo: s4/弟.webp
+    escena: s4/弟.json
+    estado: revisado
+  - literal: 働く
+    leccion: s4
+    archivo: s4/働く.webp
+    escena: s4/働く.json
+    estado: revisado
+  - literal: 読む
+    leccion: s4
+    archivo: s4/読む.webp
+    escena: s4/読む.json
+    estado: revisado
+  - literal: 父
+    leccion: s4
+    archivo: s4/父.webp
+    escena: s4/父.json
+    estado: revisado
+  - literal: 服
+    leccion: s4
+    archivo: s4/服.webp
+    escena: s4/服.json
+    estado: revisado
+  - literal: 勉強する
+    leccion: s4
+    archivo: s4/勉強する.webp
+    escena: s4/勉強する.json
+    estado: revisado
+  - literal: 帽子
+    leccion: s4
+    archivo: s4/帽子.webp
+    escena: s4/帽子.json
+    estado: revisado
+  - literal: 妹
+    leccion: s4
+    archivo: s4/妹.webp
+    escena: s4/妹.json
+    estado: revisado
+  - literal: 履く
+    leccion: s4
+    archivo: s4/履く.webp
+    escena: s4/履く.json
     estado: revisado
