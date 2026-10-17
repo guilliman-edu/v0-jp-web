@@ -4,6 +4,18 @@
 </span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li><li class="timeline-item" data-semana="semana-a2.2-s3" data-checkpoints="a2.2-s3::a2.2-s3-nihon-no-tatami,a2.2-s3::a2.2-s3-conbini"> <a href="/v0-jp-web/deck/a2.2/semana-a2.2-s3/" class="timeline-link"> <span class="timeline-ord">s3</span> <span class="timeline-cuerpo"> <span class="timeline-titulo">Semana 3</span> <span class="timeline-sub">Fechas en japonés, 〜んです para explicar razones y vocabulario de repaso, con la lectura del tatami japonés</span> <span class="timeline-meta" data-meta> 2 checkpoints
 </span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li><li class="timeline-item" data-semana="semana-a2.2-s4" data-checkpoints="a2.2-s4::a2.2-s4-onigiri"> <a href="/v0-jp-web/deck/a2.2/semana-a2.2-s4/" class="timeline-link"> <span class="timeline-ord">s4</span> <span class="timeline-cuerpo"> <span class="timeline-titulo">Semana 4</span> <span class="timeline-sub">Cierre de Genki I: 〜ほうがいいです, 〜ので, 〜なければいけません y 〜でしょう, con repaso de vocabulario de la unidad 1 y lectura «おにぎりの歴史»</span> <span class="timeline-meta" data-meta> 1 checkpoints
 </span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li> </ul> </section> </div>  <script>
+  // Switch de nivel (ADR-0084 Q4/Q18): el `<select>` de la cabecera lista los
+  // niveles materializados (`option.value` = URL canónica del nivel) y navega al
+  // elegido. Registro de cambios 2026-10-17 (Constitución Art. 5; AGENTS §6):
+  // faltaba este manejador, de modo que cambiar de opción no hacía nada.
+  (function () {
+    var select = document.getElementById("deckNivelSwitch")
+    if (!select) return
+    select.addEventListener("change", function () {
+      if (select.value) window.location.href = select.value
+    })
+  })();
+
   // Estado agregado del timeline (ADR-0084 Q12): completa cada tarjeta en cliente
   // leyendo `v0jp:deck:act_*` para esa semana. (El atributo data-deck está arriba.)
   (function () {

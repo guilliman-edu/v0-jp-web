@@ -4,6 +4,18 @@
 </span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li><li class="timeline-item" data-semana="semana-b2.1-s3" data-checkpoints="b2.1-s3::b2.1-s3-mitsubachi-vida-y-ciclo"> <a href="/v0-jp-web/deck/b2.1/semana-b2.1-s3/" class="timeline-link"> <span class="timeline-ord">s3</span> <span class="timeline-cuerpo"> <span class="timeline-titulo">Semana 3</span> <span class="timeline-sub">Reflexionar sobre costumbres y hábitos, con los patrones de cortesía y condición, y la lectura sobre la miel</span> <span class="timeline-meta" data-meta> 1 checkpoints
 </span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li><li class="timeline-item" data-semana="semana-b2.1-s4" data-checkpoints="b2.1-s4::b2.1-s4-onigiri-nombres-historia"> <a href="/v0-jp-web/deck/b2.1/semana-b2.1-s4/" class="timeline-link"> <span class="timeline-ord">s4</span> <span class="timeline-cuerpo"> <span class="timeline-titulo">Semana 4</span> <span class="timeline-sub">Comunicarse en el entorno: petición educada, direcciones y localización; lectura sobre el onigiri</span> <span class="timeline-meta" data-meta> 1 checkpoints
 </span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li> </ul> </section> </div>  <script>
+  // Switch de nivel (ADR-0084 Q4/Q18): el `<select>` de la cabecera lista los
+  // niveles materializados (`option.value` = URL canónica del nivel) y navega al
+  // elegido. Registro de cambios 2026-10-17 (Constitución Art. 5; AGENTS §6):
+  // faltaba este manejador, de modo que cambiar de opción no hacía nada.
+  (function () {
+    var select = document.getElementById("deckNivelSwitch")
+    if (!select) return
+    select.addEventListener("change", function () {
+      if (select.value) window.location.href = select.value
+    })
+  })();
+
   // Estado agregado del timeline (ADR-0084 Q12): completa cada tarjeta en cliente
   // leyendo `v0jp:deck:act_*` para esa semana. (El atributo data-deck está arriba.)
   (function () {

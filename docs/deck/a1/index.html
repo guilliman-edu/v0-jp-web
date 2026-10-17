@@ -7,6 +7,18 @@
 </span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li><li class="timeline-item" data-semana="semana-a1-s9" data-checkpoints="a1-s9::a1-s9-lectura-dia-ciudad"> <a href="/v0-jp-web/deck/a1/semana-a1-s9/" class="timeline-link"> <span class="timeline-ord">s9</span> <span class="timeline-cuerpo"> <span class="timeline-titulo">Semana 9</span> <span class="timeline-sub">Lectura de un día en la ciudad, sobre adverbios de tiempo y frecuencia</span> <span class="timeline-meta" data-meta> 1 checkpoints
 </span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li><li class="timeline-item" data-semana="semana-a1-s13" data-checkpoints="a1-s13::a1-s13-deseos-fin-semana"> <a href="/v0-jp-web/deck/a1/semana-a1-s13/" class="timeline-link"> <span class="timeline-ord">s13</span> <span class="timeline-cuerpo"> <span class="timeline-titulo">Semana 13</span> <span class="timeline-sub">Lectura de lo que quiero hacer el fin de semana, con enumeraciones y la forma 〜たい</span> <span class="timeline-meta" data-meta> 1 checkpoints
 </span> </span> <span class="timeline-estado" data-estado>nueva</span> </a> </li> </ul> </section> </div>  <script>
+  // Switch de nivel (ADR-0084 Q4/Q18): el `<select>` de la cabecera lista los
+  // niveles materializados (`option.value` = URL canónica del nivel) y navega al
+  // elegido. Registro de cambios 2026-10-17 (Constitución Art. 5; AGENTS §6):
+  // faltaba este manejador, de modo que cambiar de opción no hacía nada.
+  (function () {
+    var select = document.getElementById("deckNivelSwitch")
+    if (!select) return
+    select.addEventListener("change", function () {
+      if (select.value) window.location.href = select.value
+    })
+  })();
+
   // Estado agregado del timeline (ADR-0084 Q12): completa cada tarjeta en cliente
   // leyendo `v0jp:deck:act_*` para esa semana. (El atributo data-deck está arriba.)
   (function () {
