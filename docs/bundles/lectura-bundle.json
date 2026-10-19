@@ -1079,12 +1079,13 @@
     "apiVersion": "maquinaria/v1",
     "kind": "ActividadLectura",
     "metadata": {
-      "name": "a2.2-s1-numeros"
+      "name": "a2.2-s5-numeros"
     },
     "data": {
       "genero": "juego",
       "tipo": "numeros",
       "nivel": "A2.2",
+      "secuencia": 5,
       "dificultad": "medio",
       "digitosInicio": 1,
       "digitosMax": 8,
