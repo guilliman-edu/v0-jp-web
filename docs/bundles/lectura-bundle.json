@@ -1076,6 +1076,23 @@
     }
   },
   {
+    "apiVersion": "maquinaria/v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a2.2-s1-numeros"
+    },
+    "data": {
+      "genero": "juego",
+      "tipo": "numeros",
+      "nivel": "A2.2",
+      "dificultad": "medio",
+      "digitosInicio": 1,
+      "digitosMax": 8,
+      "cerosIntermedios": 0.4,
+      "semilla": 42
+    }
+  },
+  {
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {

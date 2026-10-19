@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Cifras grandes: la bisagra 万 — a2.2</title><script type="module">(()=>{const n=document.querySelectorAll(".slide"),s=document.querySelectorAll(".toc-link"),l=document.getElementById("slide-counter");if(!n.length)return;let e=0;function c(t){if(t<0||t>=n.length)return;n[e].classList.remove("active"),s[e]&&s[e].classList.remove("active"),e=t,n[e].classList.add("active"),s[e]&&s[e].classList.add("active"),l&&(l.textContent=e+1+" / "+n.length);const o=document.getElementById("prev-slide"),d=document.getElementById("next-slide");o&&(o.disabled=e===0),d&&(d.disabled=e===n.length-1)}document.addEventListener("click",t=>{const o=t.target.closest("[data-goto]");if(!o)return;const d=o.dataset.goto;if(d==="close-toc"){document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open");return}const a=[...n].findIndex(m=>m.id===d);a>=0&&c(a)});const i=document.getElementById("prev-slide"),r=document.getElementById("next-slide");i&&i.addEventListener("click",()=>c(e-1)),r&&r.addEventListener("click",()=>c(e+1)),document.getElementById("toc-toggle").addEventListener("click",()=>{document.getElementById("toc-panel").classList.toggle("open"),document.getElementById("toc-backdrop").classList.toggle("open")}),document.getElementById("toc-backdrop").addEventListener("click",()=>{document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open")}),document.addEventListener("keydown",t=>{t.key==="ArrowLeft"&&c(e-1),t.key==="ArrowRight"&&c(e+1)}),c(0)})();</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="/v0-jp-web/_astro/_alias_.tJJgVSB7.css"></head> <body> <header class="topbar"> <a href="/v0-jp-web/hubs/lecciones/a2.2/" class="back-link" title="Volver al hub"> <i data-lucide="arrow-left" width="18" height="18"></i> <span class="back-text">Volver</span> </a>  <button id="toc-toggle" class="icon-btn" title="Índice"> <i data-lucide="menu" width="20" height="20"></i> </button> <span class="topbar-title">Cifras grandes: la bisagra 万</span> <span class="topbar-level">a2.2</span> </header> <div id="toc-backdrop" class="toc-backdrop"></div> <aside id="toc-panel" class="toc-panel"> <div class="toc-header"> <h3>Índice</h3> <button id="toc-close" class="icon-btn" data-goto="close-toc"> <i data-lucide="x" width="20" height="20"></i> </button> </div> <nav> <ul class="toc-list" id="toc-list"><li><a data-goto="iteracion-1" class="toc-link active">Iteración 1: El truco de la bisagra</a></li>
+<li><a data-goto="iteracion-2" class="toc-link">Iteración 2: Ceros intermedios y rendaku dentro del bloque</a></li>
+<li><a data-goto="iteracion-3" class="toc-link">Iteración 3: Hasta 99.999.999 — el techo y las trampas</a></li></ul> </nav> </aside> <main class="main-content"> <div class="content-wrapper"><section id="iteracion-1" class="slide active">
+  <h2 class="slide-title">Iteración 1: El truco de la bisagra</h2>
+  <p class="mission"><em>Misión: Partir cualquier cifra de más de cuatro dígitos en el punto de 万 y leer cada mitad por separado.</em></p>
+  <h3 class="section-title">📐 El japonés cuenta de cuatro en cuatro</h3>
+<p class="body-text">En español los grupos van de tres en tres (1.000.000 = «un millón»). En japonés los grupos van de <strong>cuatro en cuatro</strong>, y el separador es <strong>万 (まん)</strong> = 10.000:</p>
+<table><thead><tr><th>Español</th><th>Japonés</th><th>Corte</th></tr></thead><tbody><tr><td>25.000</td><td><ruby>二万五千<rt>にまんごせん</rt></ruby></td><td>2 **</td><td>** 5000</td></tr><tr><td>725.000</td><td><ruby>七十二万五千<rt>ななじゅうにまんごせん</rt></ruby></td><td>72 **</td><td>** 5000</td></tr><tr><td>925.670</td><td><ruby>九十二万五千六百七十<rt>きゅうじゅうにまんごせんろっぴゃくななじゅう</rt></ruby></td><td>92 **</td><td>** 5670</td></tr></tbody></table>
+<h3 class="section-title">🔪 La bisagra</h3>
+<p class="body-text">Toda cifra de más de cuatro dígitos se parte en <strong>dos mitades</strong> justo en el punto de 万 — ahí está la <strong>bisagra</strong> — y cada mitad se lee <strong>como si fuera una cifra aparte</strong>:</p>
+<p class="body-text"><code>`</code></p>
+<p class="body-text">925.670  →  92 | 5670  →  九十二  万  五千六百七十  →  きゅうじゅうまん…</p>
+<p class="body-text">↑ la bisagra aporta el まん</p>
+<p class="body-text"><code>`</code></p>
+<ul class="body-list"><li>La mitad de la izquierda: 92 → <ruby>九十二<rt>きゅうじゅうに</rt></ruby>.</li><li>La bisagra: <strong>万</strong> (まん).</li><li>La mitad de la derecha: 5670 → <ruby>五千六百七十<rt>ごせんろっぴゃくななじゅう</rt></ruby>.</li><li>Todo junto: <strong><ruby>九十二万五千六百七十<rt>きゅうじゅうにまんごせんろっぴゃくななじゅう</rt></ruby></strong>.</li></ul>
+<p class="body-text">⚠️ Si la mitad de la derecha <strong>empieza por cero</strong> (no cabe 千), simplemente no se escribe: 725.000 es 七十二万五千 — el cinco cae en el sitio de 万+5000, no de 50.000. La posición manda, no los ceros.</p>
+<h3 class="section-title">✍️ Prueba la bisagra</h3>
+<ul class="body-list"><li><strong>1.</strong> Parte 25.000 en mitades y escribe sus kanji.</li><li><strong>2.</strong> ¿Cuántos dígitos tiene cada mitad de 925.670?</li><li><strong>3.</strong> ¿Cómo se escribe 10.000? (Pista: la izquierda es 1)</li></ul>
+<details>
+<summary>Ver soluciones</summary>
+<ul>
+  <li><strong>1.</strong> 2 <strong>|</strong> 5000 → <ruby>二万五千<rt>にまんごせん</rt></ruby>.</li>
+  <li><strong>2.</strong> Dos a la izquierda (92) y cuatro a la derecha (5670): la derecha siempre tiene cuatro huecos.</li>
+  <li><strong>3.</strong> <ruby>一万<rt>いちまん</rt></ruby>: la mitad izquierda es 1 y lleva el 一 explícito (no se omite ante 万).</li>
+</ul>
+</details>
+</section>
+<section id="iteracion-2" class="slide">
+  <h2 class="slide-title">Iteración 2: Ceros intermedios y rendaku dentro del bloque</h2>
+  <p class="mission"><em>Misión: Leer bloques con huecos vacíos y las lecturas que cambian con la voz.</em></p>
+  <h3 class="section-title">🕳️ El cero se calla pero ocupa sitio</h3>
+<p class="body-text">Dentro de la mitad de la derecha (los cuatro huecos) pueden faltar unidades. El cero <strong>no se escribe</strong> en kanji, pero su hueco se respeta al leer:</p>
+<table><thead><tr><th>Cifra</th><th>Corte</th><th>Kanji</th><th>Lectura</th></tr></thead><tbody><tr><td>500.000</td><td>50 **</td><td>** 0000</td><td><ruby>五十万<rt>ごまん</rt></ruby></td><td>ごまん</td></tr><tr><td>1.050.000</td><td>105 **</td><td>** 0000</td><td><ruby>百五万<rt>ひゃくごまん</rt></ruby></td><td>ひゃくごまん</td></tr><tr><td>10.500.000</td><td>1050 **</td><td>** 0000</td><td><ruby>千五十万<rt>せんごじゅうまん</rt></ruby></td><td>せんごじゅうまん</td></tr><tr><td>925.070</td><td>92 **</td><td>** 5070</td><td><ruby>九十二万五千七十<rt>きゅうじゅうにまんごせんななじゅう</rt></ruby></td><td>きゅうじゅうにまんごせんななじゅう</td></tr></tbody></table>
+<p class="body-text">Lee primero la mitad, luego 万, luego la otra mitad: <strong>百五万 = 百五 + 万 = ひゃくご + まん</strong>.</p>
+<h3 class="section-title">🔊 百 y 十 cambian de voz (rendaku y contracción)</h3>
+<p class="body-text">Dentro del bloque, tres lecturas no son «numeral + unidad» sino fijas:</p>
+<table><thead><tr><th>Con 3</th><th>Con 6</th><th>Con 8</th></tr></thead><tbody><tr><td><ruby>三百<rt>さんびゃく</rt></ruby></td><td><ruby>六百<rt>ろっぴゃく</rt></ruby></td><td><ruby>八百<rt>はっぴゃく</rt></ruby></td></tr><tr><td><ruby>三千<rt>さんぜん</rt></ruby></td><td><ruby>六千<rt>ろくせん</rt></ruby></td><td><ruby>八千<rt>はっせん</rt></ruby></td></tr></tbody></table>
+<ul class="body-list"><li>百 solo se lee ひゃく (百円 = ひゃくえん); con 3, 6 y 8 se vuelve <strong>びゃく/ぴゃく</strong>.</li><li>千 solo se lee せん; con 3 y 8 se vuelve <strong>ぜん/せん con geminación</strong>.</li><li>十 siempre じゅう — sin excepciones: 九十 = きゅうじゅう.</li></ul>
+<h3 class="section-title">✍️ Prueba huecos y voces</h3>
+<ul class="body-list"><li><strong>1.</strong> Escribe en kanji 3.300 (sin bisagra: cabe entera en un bloque).</li><li><strong>2.</strong> ¿Cómo se lee 三百五(3.500)? ¿Y 三百(300)?</li><li><strong>3.</strong> Cambia solo la voz: せんごじゅうまん → escribe la cifra.</li></ul>
+<details>
+<summary>Ver soluciones</summary>
+<ul>
+  <li><strong>1.</strong> <ruby>三千三百<rt>さんぜんさんびゃく</rt></ruby>: ojo, ambas con voz cambiana — さんぜん y さんびゃく.</li>
+  <li><strong>2.</strong> <ruby>三千五百<rt>さんぜんごひゃく</rt></ruby> = さんぜんごひゃく; <ruby>三百<rt>さんびゃく</rt></ruby>. La trampa es creer que la variante afecta a más numerales.</li>
+  <li><strong>3.</strong> 10.500.000 → <ruby>千五十万<rt>せんごじゅうまん</rt></ruby>: 千五十 + 万.</li>
+</ul>
+</details>
+</section>
+<section id="iteracion-3" class="slide">
+  <h2 class="slide-title">Iteración 3: Hasta 99.999.999 — el techo y las trampas</h2>
+  <p class="mission"><em>Misión: Leer la cifra máxima del tópico y no caer en las confusiones habituales.</em></p>
+  <h3 class="section-title">🏁 El techo: 99.999.999</h3>
+<p class="body-text">La mitad izquierda llega hasta 9999, así que la cifra máxima <strong>de este tópico</strong> es:</p>
+<p class="body-text"><code>`</code></p>
+<p class="body-text">99.999.999  →  9999 | 9999  →  九千九百九十九万九千九百九十九</p>
+<p class="body-text">きゅうせんきゅうひゃくきゅうじゅうきゅうまん</p>
+<p class="body-text">きゅうせんきゅうひゃくきゅうじゅうきゅう</p>
+<p class="body-text"><code>`</code></p>
+<p class="body-text">A partir de 100.000.000 entra <strong><ruby>億<rt>おく</rt></ruby></strong> en juego y la cifra se parte en tres bloques; eso queda fuera de esta lección y de la actividad de números.</p>
+<h3 class="section-title">⚠️ Trampas frecuentes</h3>
+<ul class="body-list"><li><strong>«Millón» no existe como bloque</strong> — <ruby>百万<rt>ひゃくまん</rt></ruby> se lee «cien diez-miles»: 1.000.000 = 百万 = ひゃくまん. Un español no «convierte» a millones: piensa en múltiplos de 万.</li><li><strong>El 一 de 万 no se omite</strong> — <ruby>一万<rt>いちまん</rt></ruby>, nunca solo 万.</li><li><strong>La derecha siempre tiene cuatro huecos</strong> — 925.670 no es «92 + 567 + 0»: es 92 + 5670. Si la derecha tiene menos de cuatro dígitos, rellena con ceros a la izquierda antes de leer.</li><li><strong>Rendaku solo con 3, 6 y 8</strong> — no se propaga: <ruby>四百<rt>よんひゃく</rt></ruby>, <ruby>七百<rt>ななひゃく</rt></ruby>, <ruby>九百<rt>きゅうひゃく</rt></ruby> son regulares.</li><li><strong>千 inicial no lleva 一</strong> — 1.500 = <ruby>千五百<rt>せんごひゃく</rt></ruby>, no 一千五百.</li></ul>
+<h3 class="section-title">✍️ Repaso final</h3>
+<ul class="body-list"><li><strong>1.</strong> Lee completo: 8.456.300 → corte, kanji y lectura.</li><li><strong>2.</strong> ¿Qué cifra es <ruby>九十万八千<rt>きゅうまんはっせん</rt></ruby>?</li><li><strong>3.</strong> Escribe 100.000.000 y di por qué queda fuera del tópico.</li></ul>
+<details>
+<summary>Ver soluciones</summary>
+<ul>
+  <li><strong>1.</strong> 845 | 6300 → <ruby>八百四十五万六千三百<rt>はっぴゃくよんじゅうごまんろくせんさんびゃく</rt></ruby> — con はっぴゃく y さんびゃく.</li>
+  <li><strong>2.</strong> 908.000 → 90 | 8000 → 九十万八千.</li>
+  <li><strong>3.</strong> <ruby>一億<rt>いちおく</rt></ruby>: cruza el techo de 99.999.999 y exige el bloque 億 (fuera de alcance, ADR-0097).</li>
+</ul>
+</details>
+<h3 class="section-title">📖 Glosario de la lección</h3>
+<details>
+<summary>Ver términos nuevos</summary>
+<ul>
+  <li><strong><ruby>万<rt>まん</rt></ruby></strong> — unidad de 10.000; bisagra de los bloques japoneses.</li>
+  <li><strong>Bisagra</strong> — punto de corte de la cifra en el punto de 万; cada mitad se lee por separado.</li>
+  <li><strong><ruby>百万<rt>ひゃくまん</rt></ruby></strong> — 1.000.000 = «cien diez-miles», el bloque español «millón».</li>
+  <li><strong>Rendaku</strong> — cambio de voz de <ruby>千<rt>せん</rt></ruby>→ぜん y <ruby>百<rt>ひゃく</rt></ruby>→びゃく/ぴゃく con ciertos numerales.</li>
+  <li><strong>Techo del tópico</strong> — 99.999.999: la mitad izquierda no puede llegar a 10000; por encima entra <ruby>億<rt>おく</rt></ruby>.</li>
+</ul>
+</details>
+</section></div> </main> <footer class="bottom-nav"> <button id="prev-slide" class="nav-btn" disabled> <i data-lucide="chevron-left" width="16" height="16"></i> Anterior
+</button> <span id="slide-counter" class="slide-counter">1 / 3</span> <button id="next-slide" class="nav-btn">
+Siguiente <i data-lucide="chevron-right" width="16" height="16"></i> </button> </footer> <div class="license-badge"> <p>Contenido bajo <a href="/v0-jp-web/LICENSE.md" target="_blank">licencia copyleft</a>.</p> </div>  <script type="module" src="/v0-jp-web/_astro/_alias_.astro_astro_type_script_index_1_lang.CN6pKSHs.js"></script></body></html>
