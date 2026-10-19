@@ -13,6 +13,9 @@
  *   - continuous: false, interimResults: false
  *   - Watchdog de 20s — aborta si no hay resultado
  *   - Stale-recognizer guard — ignora resultados de sesiones previas
+ *   - onError opcional (4.º argumento): recibe el código `error` del
+ *     reconocedor (not-allowed, no-speech, network…) — cambio aditivo
+ *     2026-10-19, no afecta a los callers existentes.
  */
 ;(function() {
   'use strict'
@@ -29,15 +32,17 @@
   var _onResult = null
   var _onListeningChange = null
   var _onEnd = null
+  var _onError = null
   var _gotResult = false
   var _recognition = null
   var _watchdog = null
 
-  function listen(onResult, onListeningChange, onEnd) {
+  function listen(onResult, onListeningChange, onEnd, onError) {
     if (_listening) return
     _onResult = onResult
     _onListeningChange = onListeningChange
     _onEnd = onEnd || null
+    _onError = onError || null
     _listening = true
     _gotResult = false
     _onListeningChange && _onListeningChange(true)
@@ -76,12 +81,13 @@
       _onResult && _onResult(candidates)
     }
 
-    r.onerror = function() {
+    r.onerror = function(e) {
       if (_recognition !== r) return
       clearTimeout(_watchdog)
       _listening = false
       _recognition = null
       _onListeningChange && _onListeningChange(false)
+      _onError && _onError((e && e.error) || "unknown")
     }
 
     r.onend = function() {
