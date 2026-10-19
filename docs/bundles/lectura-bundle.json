@@ -4866,6 +4866,381 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s5-rapunzel"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "ラプンツェルの長い髪",
+      "tituloEs": "Rapunzel, el pelo largo",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "魔女",
+        "王子",
+        "塔",
+        "産む",
+        "落ちる",
+        "目"
+      ],
+      "ilustracion": {
+        "escena": "rapunzel",
+        "alt": "Torre azul de techo cónico con una sola ventana; Rapunzel asoma la cabeza de perfil con una corona dorada y su pelo largo baja ondulado por la pared hasta encharcarse en el suelo, con flores al pie.",
+        "ruta": "lectura/imagenes/a2.2-s5-rapunzel.webp"
+      },
+      "nombres_propios": [
+        {
+          "literal": "ラプンツェル",
+          "lectura": "らぷんつぇる",
+          "significado": "Rapunzel"
+        }
+      ],
+      "preguntas": [
+        "夫婦には、赤ちゃんがいましたか。",
+        "男は、どうして魔女の庭に入りましたか。",
+        "12歳になったとき、魔女はラプンツェルをどこに入れましたか。",
+        "魔女は、ラプンツェルの長い髪をどうしましたか。",
+        "最後に、王子の目はどうなりましたか。"
+      ],
+      "preguntasEs": [
+        "¿Tenía el matrimonio un bebé?",
+        "¿Por qué entró el hombre en el jardín de la bruja?",
+        "¿Dónde puso la bruja a Rapunzel cuando cumplió 12 años?",
+        "¿Qué hizo la bruja con el pelo largo de Rapunzel?",
+        "¿Qué ocurrió al final con los ojos del príncipe?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "夫婦",
+          "lectura": "ふうふ",
+          "significado": "pareja casada, matrimonio"
+        },
+        {
+          "literal": "男",
+          "lectura": "おとこ",
+          "significado": "hombre"
+        },
+        {
+          "literal": "女",
+          "lectura": "おんな",
+          "significado": "mujer"
+        },
+        {
+          "literal": "赤ちゃん",
+          "lectura": "あかちゃん",
+          "significado": "bebé, infante"
+        },
+        {
+          "literal": "女の子",
+          "lectura": "おんなのこ",
+          "significado": "niña"
+        },
+        {
+          "literal": "男の子",
+          "lectura": "おとこのこ",
+          "significado": "niño"
+        },
+        {
+          "literal": "名前",
+          "lectura": "なまえ",
+          "significado": "nombre"
+        },
+        {
+          "literal": "家",
+          "lectura": "いえ",
+          "significado": "casa"
+        },
+        {
+          "literal": "庭",
+          "lectura": "にわ",
+          "significado": "jardín; patio"
+        },
+        {
+          "literal": "窓",
+          "lectura": "まど",
+          "significado": "ventana"
+        },
+        {
+          "literal": "野菜",
+          "lectura": "やさい",
+          "significado": "verdura"
+        },
+        {
+          "literal": "山",
+          "lectura": "やま",
+          "significado": "montaña"
+        },
+        {
+          "literal": "国",
+          "lectura": "くに",
+          "significado": "país"
+        },
+        {
+          "literal": "道",
+          "lectura": "みち",
+          "significado": "camino"
+        },
+        {
+          "literal": "場所",
+          "lectura": "ばしょ",
+          "significado": "lugar"
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "érase una vez, tiempos pasados"
+        },
+        {
+          "literal": "夕方",
+          "lectura": "ゆうがた",
+          "significado": "atardecer, anochecer"
+        },
+        {
+          "literal": "夜",
+          "lectura": "よる",
+          "significado": "noche"
+        },
+        {
+          "literal": "毎晩",
+          "lectura": "まいばん",
+          "significado": "todas las noches"
+        },
+        {
+          "literal": "歌",
+          "lectura": "うた",
+          "significado": "canción"
+        },
+        {
+          "literal": "髪",
+          "lectura": "かみ",
+          "significado": "cabello, pelo"
+        },
+        {
+          "literal": "顔",
+          "lectura": "かお",
+          "significado": "cara, rostro"
+        },
+        {
+          "literal": "病気",
+          "lectura": "びょうき",
+          "significado": "enfermedad"
+        },
+        {
+          "literal": "約束",
+          "lectura": "やくそく",
+          "significado": "promesa; cita"
+        },
+        {
+          "literal": "泥棒",
+          "lectura": "どろぼう",
+          "significado": "ladrón"
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante, valioso"
+        },
+        {
+          "literal": "思い出",
+          "lectura": "おもいで",
+          "significado": "recuerdos; reminiscencia"
+        },
+        {
+          "literal": "長い",
+          "lectura": "ながい",
+          "significado": "largo"
+        },
+        {
+          "literal": "高い",
+          "lectura": "たかい",
+          "significado": "alto; caro"
+        },
+        {
+          "literal": "遠い",
+          "lectura": "とおい",
+          "significado": "lejano, distante"
+        },
+        {
+          "literal": "重い",
+          "lectura": "おもい",
+          "significado": "pesado; grave"
+        },
+        {
+          "literal": "強い",
+          "lectura": "つよい",
+          "significado": "fuerte"
+        },
+        {
+          "literal": "若い",
+          "lectura": "わかい",
+          "significado": "joven"
+        },
+        {
+          "literal": "悲しい",
+          "lectura": "かなしい",
+          "significado": "triste"
+        },
+        {
+          "literal": "嬉しい",
+          "lectura": "うれしい",
+          "significado": "feliz; alegre"
+        },
+        {
+          "literal": "怖い",
+          "lectura": "こわい",
+          "significado": "que da miedo, espantoso/a"
+        },
+        {
+          "literal": "素敵",
+          "lectura": "すてき",
+          "significado": "fantástico"
+        },
+        {
+          "literal": "可愛い",
+          "lectura": "かわいい",
+          "significado": "lindo, bonito"
+        },
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "怒る",
+          "lectura": "おこる",
+          "significado": "enojarse"
+        },
+        {
+          "literal": "切る",
+          "lectura": "きる",
+          "significado": "cortar"
+        },
+        {
+          "literal": "置く",
+          "lectura": "おく",
+          "significado": "poner, colocar"
+        },
+        {
+          "literal": "触る",
+          "lectura": "さわる",
+          "significado": "tocar"
+        },
+        {
+          "literal": "探す",
+          "lectura": "さがす",
+          "significado": "buscar"
+        },
+        {
+          "literal": "待つ",
+          "lectura": "まつ",
+          "significado": "esperar"
+        },
+        {
+          "literal": "会う",
+          "lectura": "あう",
+          "significado": "encontrarse"
+        },
+        {
+          "literal": "助かる",
+          "lectura": "たすかる",
+          "significado": "salvarse"
+        },
+        {
+          "literal": "入る",
+          "lectura": "はいる",
+          "significado": "entrar"
+        },
+        {
+          "literal": "出る",
+          "lectura": "でる",
+          "significado": "salir"
+        },
+        {
+          "literal": "登る",
+          "lectura": "のぼる",
+          "significado": "escalar, subir"
+        },
+        {
+          "literal": "下ろす",
+          "lectura": "おろす",
+          "significado": "soltar, bajar"
+        },
+        {
+          "literal": "連れていく",
+          "lectura": "つれていく",
+          "significado": "llevar a alguien (a un lugar)"
+        },
+        {
+          "literal": "生活する",
+          "lectura": "せいかつする",
+          "significado": "vivir, llevar una vida"
+        },
+        {
+          "literal": "帰る",
+          "lectura": "かえる",
+          "significado": "volver a casa"
+        },
+        {
+          "literal": "住む",
+          "lectura": "すむ",
+          "significado": "vivir (residir)"
+        },
+        {
+          "literal": "欲しい",
+          "lectura": "ほしい",
+          "significado": "querer, desear; deseable"
+        },
+        {
+          "literal": "魔女",
+          "lectura": "むじょ",
+          "significado": "bruja",
+          "exclusion": true
+        },
+        {
+          "literal": "王子",
+          "lectura": "おうじ",
+          "significado": "príncipe",
+          "exclusion": true
+        },
+        {
+          "literal": "塔",
+          "lectura": "とう",
+          "significado": "torre",
+          "exclusion": true
+        },
+        {
+          "literal": "産む",
+          "lectura": "うむ",
+          "significado": "dar a luz",
+          "exclusion": true
+        },
+        {
+          "literal": "落ちる",
+          "lectura": "おちる",
+          "significado": "caer(se)",
+          "exclusion": true
+        },
+        {
+          "literal": "目",
+          "lectura": "め",
+          "significado": "ojo",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "frases-causa-node",
+        "conjetura-deshou",
+        "forma-te",
+        "usos-forma-te",
+        "particula-ga"
+      ],
+      "nivel": "A2.2",
+      "texto": "魔女と赤ちゃん\n昔、とても仲のいい男と女がいました。二人は夫婦でした。でも、二人には赤ちゃんがいませんでした。女はいつも赤ちゃんが欲しいと思っていました。家の奥に小さな窓がありました。そこから庭を見ました。庭にはたくさんの野菜がありました。その庭はすごく素敵でした。でも、その庭は魔女のものでした。だから、だれも庭に入りませんでした。魔女はとても強い人でした。世界の人はみんな魔女を怖がっていました。\n\nある日、女は窓から庭の野菜を見て、「あの野菜を食べたいです。すごく食べたいです」と言いました。でも、庭は魔女のものでした。だから、女は庭に入ることができませんでした。女は毎日そう思っていたので、気分がとても悪くなりました。\n\n男は女をとても愛していました。だから、男は夕方になったとき、魔女の庭に入りました。男は野菜をたくさん取りました。そして、女にあげました。女はすぐに野菜を食べました。すごくおいしかったです。次の日、女は「もっと食べたいです」と言いました。そして、次の日も、夕方になったとき、男は庭に入りました。\n\nでも、そのとき、魔女が男の前に立っていました。魔女は「よくも私の庭で野菜を取ったですね。泥棒です」と怒りました。男は怖くなって、「ごめんなさい。女はとても病気です。この野菜を食べたいと言っています。だから、庭に入りました」と言いました。\n\nそれで、魔女は怒りをやめました。「庭の野菜を取ってもいいですよ。でも、一つだけ約束があります。赤ちゃんが家に来るとき、私にください。とても大切にします」と言いました。\n\n男は怖くて、魔女に「はい」と言いました。それから時間がたちました。女は赤ちゃんを産みました。魔女はすぐに男の家に来ました。赤ちゃんの名前はラプンツェルになりました。魔女はラプンツェルを連れて行きました。\n\n\n---\n\n塔の中のラプンツェル\nラプンツェルは大きくなって、すごく可愛い女の子になりました。12歳になったとき、魔女はラプンツェルを高い塔に入れました。塔には窓が一つだけありました。魔女は塔の下に行きました。「ラプンツェル、髪を下ろしてください」と言いました。ラプンツェルはとても長い髪をしていました。ラプンツェルは窓から髪を下ろしました。魔女はその髪を持って、上に登りました。\n\n時間がたちました。ある日の夕方、王子が山の近くを歩いていました。そのとき、塔から素敵な歌が聞こえました。王子は立って、歌を聞きました。それはラプンツェルの歌でした。ラプンツェルは一人でした。毎日、一人で歌を歌っていました。\n\n王子は毎晩、山へ行って、歌を聞きました。塔の下を探しましたが、上に行く道はありませんでした。ある夜、王子は山で待っていました。魔女が来て、「ラプンツェル、髪を下ろしてください」と言いました。そして、ラプンツェルは窓から髪を下ろしました。魔女はその髪を持って、上に登りました。王子は「僕もあの髪で上に登りたい」と思いました。\n\n次の日、夜になったとき、王子は塔の下に行きました。「ラプンツェル、髪を下ろしてください」と言いました。髪を下ろしたので、王子は上に登りました。\n\nラプンツェルは初めて人が来たので、とても怖がりました。でも、王子はとても若くて、かっこいい人でした。二人はよく話しました。ラプンツェルは怖くなくなりました。王子は「僕と一緒に住んでください」と言いました。ラプンツェルは「はい。でも、塔を出ることができません」と言いました。王子は「毎晩、僕が塔に登ります。魔女は朝に来るから、夜に会いましょう」と言いました。\n\n\n---\n\nまた会った二人\nそれから、王子は毎晩ラプンツェルに会いました。魔女は何も気がつきませんでした。ある日、ラプンツェルは魔女に言いました。「おばさん、あなたは重いです。だから、上に登るとき、髪がすごく重かったです」。魔女は「あなたは王子と話したのでしょう。悪い子ですね」と怒りました。魔女はラプンツェルの長い髪を切りました。そして、ラプンツェルを遠い山に連れて行きました。ラプンツェルはそこで一人で生活しました。すごく悲しかったです。\n\nその日、魔女は切った髪を窓の側に置きました。夜、王子が来ました。「ラプンツェル、髪を下ろしてください」と言いました。髪を下ろしたので、王子は上に登りました。でも、そこには魔女がいました。「もうラプンツェルはここにいません。あなたはもうラプンツェルに会いません」と言いました。王子はすごく悲しくて、塔の上から落ちました。王子は助かりました。でも、王子の目は、もう何も見ることができなくなりました。王子は毎日、山の中を歩きました。ラプンツェルのことを、いつも思い出していました。\n\n長い時間がたちました。ある日、王子は遠い山で歌が聞こえました。それはラプンツェルの歌でした。王子は歌の場所に行きました。ラプンツェルには、男の子と女の子の赤ちゃんがいました。ラプンツェルは王子の名前を言いました。ラプンツェルが王子の顔に触ったとき、王子の目はなおりました。二人はすごく嬉しかったです。二人は王子の国に帰りました。二人は仲よく、すごく楽しく住みました。\n",
+      "textoEs": "La bruja y el bebé\nHace mucho tiempo vivían un hombre y una mujer que se llevaban muy bien. Eran un matrimonio. Pero el matrimonio no tenía bebé. La mujer siempre pensaba que quería un bebé. En el fondo de la casa había una ventana pequeña. Desde allí veía el jardín. En el jardín había muchas verduras. Ese jardín era estupendo. Pero ese jardín era de la bruja. Por eso, nadie entraba en el jardín. La bruja era una persona muy fuerte. La gente del mundo tenía miedo de la bruja.\n\nUn día, la mujer miró desde la ventana las verduras del jardín y dijo: «Quiero comer esas verduras. Las quiero comer muchísimo». Pero el jardín era de la bruja. Por eso, la mujer no podía entrar en el jardín. Como la mujer pensaba eso todos los días, su estado de ánimo se puso muy malo.\n\nEl hombre quería mucho a la mujer. Por eso, cuando llegaba el atardecer, el hombre entraba en el jardín de la bruja. El hombre cogió muchas verduras. Y se las dio a la mujer. La mujer comió las verduras en seguida. Estaban muy buenas. Al día siguiente, la mujer dijo: «Quiero comer más». Y al día siguiente también, cuando llegaba el atardecer, el hombre entraba en el jardín.\n\nPero en ese momento, la bruja estaba de pie delante del hombre. La bruja dijo, enfadada: «Vaya, has cogido verduras de mi jardín. Eres un ladrón». El hombre, asustado, dijo: «Lo siento. La mujer está muy enferma. Dice que quiere comer estas verduras. Por eso, he entrado en el jardín».\n\nEntonces, la bruja dejó de enfadarse. «Puedes coger las verduras del jardín. Pero solo tengo una promesa. Cuando un bebé venga a vuestra casa, dádmelo. Lo cuidaré mucho», dijo.\n\nEl hombre, asustado, le dijo «sí» a la bruja. Con el tiempo pasó. La mujer dio a luz un bebé. La bruja vino en seguida a casa del hombre. El nombre del bebé pasó a ser Rapunzel. La bruja se llevó a Rapunzel.\n\n\n---\n\nRapunzel en la torre\nRapunzel creció y se convirtió en una niña muy linda. Cuando cumplió 12 años, la bruja metió a Rapunzel en una torre alta. En la torre solo había una ventana. La bruja fue al pie de la torre. «Rapunzel, suelta el pelo, por favor», dijo. Rapunzel tenía el pelo muy largo. Rapunzel soltó el pelo desde la ventana. La bruja se agarró a ese pelo y subió.\n\nPasó el tiempo. Una tarde, el príncipe caminaba cerca de la montaña. En ese momento, se oía una canción estupenda desde la torre. El príncipe se quedó de pie y escuchó la canción. Esa era la canción de Rapunzel. Rapunzel estaba sola. Todos los días cantaba sola.\n\nEl príncipe iba todas las noches a la montaña y escuchaba la canción. Buscaba al pie de la torre, pero no había camino para subir. Una noche, el príncipe esperaba en la montaña. Vino la bruja y dijo: «Rapunzel, suelta el pelo, por favor». Rapunzel soltó el pelo desde la ventana. La bruja se agarró a ese pelo y subió. El príncipe pensó: «Yo también quiero subir por ese pelo».\n\nAl día siguiente, cuando llegó la noche, el príncipe fue al pie de la torre. «Rapunzel, suelta el pelo, por favor», dijo. Como se soltó el pelo, el príncipe subió.\n\nComo era la primera vez que venía alguien, Rapunzel tuvo mucho miedo. Pero el príncipe era una persona muy joven y guapa. Los dos hablaron mucho. Rapunzel dejó de tener miedo. El príncipe dijo: «Vive conmigo, por favor». Rapunzel dijo: «Sí. Pero no puedo salir de la torre». El príncipe dijo: «Cada noche subo a la torre. Como la bruja viene por la mañana, encontremosnos por la noche».\n\n\n---\n\nLos dos se encontraron otra vez\nDesde entonces, el príncipe se veía con Rapunzel todas las noches. La bruja no se enteró de nada. Un día, Rapunzel le dijo a la bruja: «Señora tía, usted es pesada. Por eso, cuando sube, el pelo era muy pesado». La bruja se enfadó y dijo: «¿Le hablaste al príncipe? Niña mala». La bruja le cortó el pelo largo a Rapunzel. Y se llevó a Rapunzel a una montaña lejana. Rapunzel vivió allí sola. Estaba muy triste.\n\nEse día, la bruja puso el pelo cortado junto a la ventana. De noche vino el príncipe. «Rapunzel, suelta el pelo, por favor», dijo. Como se soltó el pelo, el príncipe subió. Pero allí estaba la bruja. «Rapunzel ya no está aquí. Ya no la verás nunca más», dijo. El príncipe, muy triste, se cayó desde lo alto de la torre. El príncipe se salvó. Pero los ojos del príncipe ya no pudieron ver nada. El príncipe caminaba todos los días por el interior de la montaña. Siempre recordaba a Rapunzel.\n\nPasó mucho tiempo. Un día, el príncipe oyó una canción en una montaña lejana. Esa era la canción de Rapunzel. El príncipe fue al lugar de la canción. Rapunzel tenía un bebé niño y una bebé niña. Rapunzel dijo el nombre del príncipe. Cuando Rapunzel tocó el rostro del príncipe, los ojos del príncipe se curaron. Los dos estaban muy contentos. Los dos volvieron al país del príncipe. Los dos vivieron en buena armonía y muy alegremente.\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s1-shinderera"
     },
     "data": {
