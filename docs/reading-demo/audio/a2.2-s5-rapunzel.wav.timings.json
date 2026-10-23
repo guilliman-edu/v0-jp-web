@@ -2,617 +2,617 @@
   "audio_file": "a2.2-s5-rapunzel.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 549856,
+  "total_duration_ms": 548675,
   "sentences": [
     {
       "index": 0,
       "text": "ラプンツェルのながいかみ",
       "start_ms": 0,
-      "end_ms": 2470,
-      "duration_ms": 2470,
+      "end_ms": 2505,
+      "duration_ms": 2505,
       "clauses": [
         {
           "index": 0,
           "text": "ラプンツェルのながいかみ",
           "start_ms": 0,
-          "end_ms": 2470,
-          "duration_ms": 2470
+          "end_ms": 2505,
+          "duration_ms": 2505
         }
       ]
     },
     {
       "index": 1,
-      "text": "むかし、とても仲のいいおとことおんながいました。",
-      "start_ms": 2970,
-      "end_ms": 8450,
-      "duration_ms": 5480,
+      "text": "むかし、とてもなかのいいおとことおんながいました。",
+      "start_ms": 3005,
+      "end_ms": 8555,
+      "duration_ms": 5550,
       "clauses": [
         {
           "index": 0,
           "text": "むかし、",
-          "start_ms": 2970,
+          "start_ms": 3005,
           "end_ms": 4372,
-          "duration_ms": 1402
+          "duration_ms": 1367
         },
         {
           "index": 1,
-          "text": "とても仲のいいおとことおんながいました。",
+          "text": "とてもなかのいいおとことおんながいました。",
           "start_ms": 4622,
-          "end_ms": 8450,
-          "duration_ms": 3828
+          "end_ms": 8555,
+          "duration_ms": 3933
         }
       ]
     },
     {
       "index": 2,
-      "text": "二人はふうふでした。",
-      "start_ms": 8950,
-      "end_ms": 11269,
-      "duration_ms": 2319,
+      "text": "ふたりはふうふでした。",
+      "start_ms": 9055,
+      "end_ms": 11409,
+      "duration_ms": 2354,
       "clauses": [
         {
           "index": 0,
-          "text": "二人はふうふでした。",
-          "start_ms": 8950,
-          "end_ms": 11269,
-          "duration_ms": 2319
+          "text": "ふたりはふうふでした。",
+          "start_ms": 9055,
+          "end_ms": 11409,
+          "duration_ms": 2354
         }
       ]
     },
     {
       "index": 3,
-      "text": "でも、二人にはあかちゃんがいませんでした。",
-      "start_ms": 11769,
-      "end_ms": 16552,
-      "duration_ms": 4783,
+      "text": "でも、ふたりにはあかちゃんがいませんでした。",
+      "start_ms": 11909,
+      "end_ms": 16716,
+      "duration_ms": 4807,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 11769,
-          "end_ms": 12764,
-          "duration_ms": 995
+          "start_ms": 11909,
+          "end_ms": 12928,
+          "duration_ms": 1019
         },
         {
           "index": 1,
-          "text": "二人にはあかちゃんがいませんでした。",
-          "start_ms": 13014,
-          "end_ms": 16552,
+          "text": "ふたりにはあかちゃんがいませんでした。",
+          "start_ms": 13178,
+          "end_ms": 16716,
           "duration_ms": 3538
         }
       ]
     },
     {
       "index": 4,
-      "text": "おんなはいつもあかちゃんがほしいと思っていました。",
-      "start_ms": 17052,
-      "end_ms": 21275,
-      "duration_ms": 4223,
+      "text": "おんなはいつもあかちゃんがほしいとおもっていました。",
+      "start_ms": 17216,
+      "end_ms": 21346,
+      "duration_ms": 4130,
       "clauses": [
         {
           "index": 0,
-          "text": "おんなはいつもあかちゃんがほしいと思っていました。",
-          "start_ms": 17052,
-          "end_ms": 21275,
-          "duration_ms": 4223
+          "text": "おんなはいつもあかちゃんがほしいとおもっていました。",
+          "start_ms": 17216,
+          "end_ms": 21346,
+          "duration_ms": 4130
         }
       ]
     },
     {
       "index": 5,
-      "text": "いえの奥に小さなまどがありました。",
-      "start_ms": 21775,
-      "end_ms": 25406,
-      "duration_ms": 3631,
+      "text": "いえのおくにちいさなまどがありました。",
+      "start_ms": 21846,
+      "end_ms": 25454,
+      "duration_ms": 3608,
       "clauses": [
         {
           "index": 0,
-          "text": "いえの奥に小さなまどがありました。",
-          "start_ms": 21775,
-          "end_ms": 25406,
-          "duration_ms": 3631
+          "text": "いえのおくにちいさなまどがありました。",
+          "start_ms": 21846,
+          "end_ms": 25454,
+          "duration_ms": 3608
         }
       ]
     },
     {
       "index": 6,
-      "text": "そこからにわを見ました。",
-      "start_ms": 25906,
-      "end_ms": 28422,
-      "duration_ms": 2516,
+      "text": "そこからにわをみました。",
+      "start_ms": 25954,
+      "end_ms": 28505,
+      "duration_ms": 2551,
       "clauses": [
         {
           "index": 0,
-          "text": "そこからにわを見ました。",
-          "start_ms": 25906,
-          "end_ms": 28422,
-          "duration_ms": 2516
+          "text": "そこからにわをみました。",
+          "start_ms": 25954,
+          "end_ms": 28505,
+          "duration_ms": 2551
         }
       ]
     },
     {
       "index": 7,
       "text": "にわにはたくさんのやさいがありました。",
-      "start_ms": 28922,
-      "end_ms": 32599,
-      "duration_ms": 3677,
+      "start_ms": 29005,
+      "end_ms": 32659,
+      "duration_ms": 3654,
       "clauses": [
         {
           "index": 0,
           "text": "にわにはたくさんのやさいがありました。",
-          "start_ms": 28922,
-          "end_ms": 32599,
-          "duration_ms": 3677
+          "start_ms": 29005,
+          "end_ms": 32659,
+          "duration_ms": 3654
         }
       ]
     },
     {
       "index": 8,
       "text": "そのにわはすごくすてきでした。",
-      "start_ms": 33099,
-      "end_ms": 36347,
-      "duration_ms": 3248,
+      "start_ms": 33159,
+      "end_ms": 36395,
+      "duration_ms": 3236,
       "clauses": [
         {
           "index": 0,
           "text": "そのにわはすごくすてきでした。",
-          "start_ms": 33099,
-          "end_ms": 36347,
-          "duration_ms": 3248
-        }
-      ]
-    },
-    {
-      "index": 9,
-      "text": "でも、そのにわはむじょのものでした。",
-      "start_ms": 36847,
-      "end_ms": 41340,
-      "duration_ms": 4493,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "でも、",
-          "start_ms": 36847,
-          "end_ms": 37854,
-          "duration_ms": 1007
-        },
-        {
-          "index": 1,
-          "text": "そのにわはむじょのものでした。",
-          "start_ms": 38104,
-          "end_ms": 41340,
+          "start_ms": 33159,
+          "end_ms": 36395,
           "duration_ms": 3236
         }
       ]
     },
     {
-      "index": 10,
-      "text": "だから、だれもにわに入りませんでした。",
-      "start_ms": 41840,
-      "end_ms": 46310,
+      "index": 9,
+      "text": "でも、そのにわはまじょのものでした。",
+      "start_ms": 36895,
+      "end_ms": 41365,
       "duration_ms": 4470,
       "clauses": [
         {
           "index": 0,
-          "text": "だから、",
-          "start_ms": 41840,
-          "end_ms": 43044,
-          "duration_ms": 1204
+          "text": "でも、",
+          "start_ms": 36895,
+          "end_ms": 37890,
+          "duration_ms": 995
         },
         {
           "index": 1,
-          "text": "だれもにわに入りませんでした。",
-          "start_ms": 43294,
-          "end_ms": 46310,
+          "text": "そのにわはまじょのものでした。",
+          "start_ms": 38140,
+          "end_ms": 41365,
+          "duration_ms": 3225
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "だから、だれもにわにはいりませんでした。",
+      "start_ms": 41865,
+      "end_ms": 46312,
+      "duration_ms": 4447,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だから、",
+          "start_ms": 41865,
+          "end_ms": 43046,
+          "duration_ms": 1181
+        },
+        {
+          "index": 1,
+          "text": "だれもにわにはいりませんでした。",
+          "start_ms": 43296,
+          "end_ms": 46312,
           "duration_ms": 3016
         }
       ]
     },
     {
       "index": 11,
-      "text": "むじょはとてもつよい人でした。",
-      "start_ms": 46810,
-      "end_ms": 49918,
-      "duration_ms": 3108,
+      "text": "まじょはとてもつよいひとでした。",
+      "start_ms": 46812,
+      "end_ms": 50060,
+      "duration_ms": 3248,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょはとてもつよい人でした。",
-          "start_ms": 46810,
-          "end_ms": 49918,
-          "duration_ms": 3108
+          "text": "まじょはとてもつよいひとでした。",
+          "start_ms": 46812,
+          "end_ms": 50060,
+          "duration_ms": 3248
         }
       ]
     },
     {
       "index": 12,
-      "text": "世界の人はみんなむじょを怖がっていました。",
-      "start_ms": 50418,
-      "end_ms": 54815,
-      "duration_ms": 4397,
+      "text": "せかいのひとはみんなまじょをこわがっていました。",
+      "start_ms": 50560,
+      "end_ms": 54771,
+      "duration_ms": 4211,
       "clauses": [
         {
           "index": 0,
-          "text": "世界の人はみんなむじょを怖がっていました。",
-          "start_ms": 50418,
-          "end_ms": 54815,
-          "duration_ms": 4397
+          "text": "せかいのひとはみんなまじょをこわがっていました。",
+          "start_ms": 50560,
+          "end_ms": 54771,
+          "duration_ms": 4211
         }
       ]
     },
     {
       "index": 13,
-      "text": "ある日、おんなはまどからにわのやさいを見て、「あのやさいを食べたいです。",
-      "start_ms": 55315,
-      "end_ms": 63399,
-      "duration_ms": 8084,
+      "text": "あるひ、おんなはまどからにわのやさいをみて、「あのやさいをたべたいです。",
+      "start_ms": 55271,
+      "end_ms": 63273,
+      "duration_ms": 8002,
       "clauses": [
         {
           "index": 0,
-          "text": "ある日、",
-          "start_ms": 55315,
-          "end_ms": 56868,
-          "duration_ms": 1553
+          "text": "あるひ、",
+          "start_ms": 55271,
+          "end_ms": 56661,
+          "duration_ms": 1390
         },
         {
           "index": 1,
-          "text": "おんなはまどからにわのやさいを見て、",
-          "start_ms": 57118,
-          "end_ms": 60482,
-          "duration_ms": 3364
+          "text": "おんなはまどからにわのやさいをみて、",
+          "start_ms": 56911,
+          "end_ms": 60298,
+          "duration_ms": 3387
         },
         {
           "index": 2,
-          "text": "「あのやさいを食べたいです。",
-          "start_ms": 60732,
-          "end_ms": 63399,
-          "duration_ms": 2667
+          "text": "「あのやさいをたべたいです。",
+          "start_ms": 60548,
+          "end_ms": 63273,
+          "duration_ms": 2725
         }
       ]
     },
     {
       "index": 14,
-      "text": "すごく食べたいです」と言いました。",
-      "start_ms": 63899,
-      "end_ms": 66891,
-      "duration_ms": 2992,
+      "text": "すごくたべたいです」といいました。",
+      "start_ms": 63773,
+      "end_ms": 66707,
+      "duration_ms": 2934,
       "clauses": [
         {
           "index": 0,
-          "text": "すごく食べたいです」と言いました。",
-          "start_ms": 63899,
-          "end_ms": 66891,
-          "duration_ms": 2992
+          "text": "すごくたべたいです」といいました。",
+          "start_ms": 63773,
+          "end_ms": 66707,
+          "duration_ms": 2934
         }
       ]
     },
     {
       "index": 15,
-      "text": "でも、にわはむじょのものでした。",
-      "start_ms": 67391,
-      "end_ms": 71570,
-      "duration_ms": 4179,
+      "text": "でも、にわはまじょのものでした。",
+      "start_ms": 67207,
+      "end_ms": 71306,
+      "duration_ms": 4099,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 67391,
-          "end_ms": 68386,
-          "duration_ms": 995
+          "start_ms": 67207,
+          "end_ms": 68191,
+          "duration_ms": 984
         },
         {
           "index": 1,
-          "text": "にわはむじょのものでした。",
-          "start_ms": 68636,
-          "end_ms": 71570,
-          "duration_ms": 2934
+          "text": "にわはまじょのものでした。",
+          "start_ms": 68441,
+          "end_ms": 71306,
+          "duration_ms": 2865
         }
       ]
     },
     {
       "index": 16,
       "text": "だから、おんなはにわにはいることができませんでした。",
-      "start_ms": 72070,
-      "end_ms": 77259,
+      "start_ms": 71806,
+      "end_ms": 76995,
       "duration_ms": 5189,
       "clauses": [
         {
           "index": 0,
           "text": "だから、",
-          "start_ms": 72070,
-          "end_ms": 73216,
+          "start_ms": 71806,
+          "end_ms": 72952,
           "duration_ms": 1146
         },
         {
           "index": 1,
           "text": "おんなはにわにはいることができませんでした。",
-          "start_ms": 73466,
-          "end_ms": 77259,
+          "start_ms": 73202,
+          "end_ms": 76995,
           "duration_ms": 3793
         }
       ]
     },
     {
       "index": 17,
-      "text": "おんなは毎日そう思っていたので、気分がとても悪くなりました。",
-      "start_ms": 77759,
-      "end_ms": 84353,
-      "duration_ms": 6594,
+      "text": "おんなはまいにちそうおもっていたので、きぶんがとてもわるくなりました。",
+      "start_ms": 77495,
+      "end_ms": 84020,
+      "duration_ms": 6525,
       "clauses": [
         {
           "index": 0,
-          "text": "おんなは毎日そう思っていたので、",
-          "start_ms": 77759,
-          "end_ms": 81018,
-          "duration_ms": 3259
+          "text": "おんなはまいにちそうおもっていたので、",
+          "start_ms": 77495,
+          "end_ms": 80731,
+          "duration_ms": 3236
         },
         {
           "index": 1,
-          "text": "気分がとても悪くなりました。",
-          "start_ms": 81268,
-          "end_ms": 84353,
-          "duration_ms": 3085
+          "text": "きぶんがとてもわるくなりました。",
+          "start_ms": 80981,
+          "end_ms": 84020,
+          "duration_ms": 3039
         }
       ]
     },
     {
       "index": 18,
-      "text": "おとこはおんなをとても愛していました。",
-      "start_ms": 84853,
-      "end_ms": 88612,
-      "duration_ms": 3759,
+      "text": "おとこはおんなをとてもあいしていました。",
+      "start_ms": 84520,
+      "end_ms": 88267,
+      "duration_ms": 3747,
       "clauses": [
         {
           "index": 0,
-          "text": "おとこはおんなをとても愛していました。",
-          "start_ms": 84853,
-          "end_ms": 88612,
-          "duration_ms": 3759
+          "text": "おとこはおんなをとてもあいしていました。",
+          "start_ms": 84520,
+          "end_ms": 88267,
+          "duration_ms": 3747
         }
       ]
     },
     {
       "index": 19,
-      "text": "だから、おとこはゆうがたになったとき、むじょのにわに入りました。",
-      "start_ms": 89112,
-      "end_ms": 96510,
-      "duration_ms": 7398,
+      "text": "だから、おとこはゆうがたになったとき、まじょのにわにはいりました。",
+      "start_ms": 88767,
+      "end_ms": 96166,
+      "duration_ms": 7399,
       "clauses": [
         {
           "index": 0,
           "text": "だから、",
-          "start_ms": 89112,
-          "end_ms": 90258,
-          "duration_ms": 1146
+          "start_ms": 88767,
+          "end_ms": 89925,
+          "duration_ms": 1158
         },
         {
           "index": 1,
           "text": "おとこはゆうがたになったとき、",
-          "start_ms": 90508,
-          "end_ms": 93651,
-          "duration_ms": 3143
+          "start_ms": 90175,
+          "end_ms": 93237,
+          "duration_ms": 3062
         },
         {
           "index": 2,
-          "text": "むじょのにわに入りました。",
-          "start_ms": 93901,
-          "end_ms": 96510,
-          "duration_ms": 2609
+          "text": "まじょのにわにはいりました。",
+          "start_ms": 93487,
+          "end_ms": 96166,
+          "duration_ms": 2679
         }
       ]
     },
     {
       "index": 20,
-      "text": "おとこはやさいをたくさん取りました。",
-      "start_ms": 97010,
-      "end_ms": 100374,
-      "duration_ms": 3364,
+      "text": "おとこはやさいをたくさんとりました。",
+      "start_ms": 96666,
+      "end_ms": 100053,
+      "duration_ms": 3387,
       "clauses": [
         {
           "index": 0,
-          "text": "おとこはやさいをたくさん取りました。",
-          "start_ms": 97010,
-          "end_ms": 100374,
-          "duration_ms": 3364
+          "text": "おとこはやさいをたくさんとりました。",
+          "start_ms": 96666,
+          "end_ms": 100053,
+          "duration_ms": 3387
         }
       ]
     },
     {
       "index": 21,
       "text": "そして、おんなにあげました。",
-      "start_ms": 100874,
-      "end_ms": 104555,
-      "duration_ms": 3681,
+      "start_ms": 100553,
+      "end_ms": 104256,
+      "duration_ms": 3703,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 100874,
-          "end_ms": 102195,
-          "duration_ms": 1321
+          "start_ms": 100553,
+          "end_ms": 101908,
+          "duration_ms": 1355
         },
         {
           "index": 1,
           "text": "おんなにあげました。",
-          "start_ms": 102445,
-          "end_ms": 104555,
-          "duration_ms": 2110
+          "start_ms": 102158,
+          "end_ms": 104256,
+          "duration_ms": 2098
         }
       ]
     },
     {
       "index": 22,
-      "text": "おんなはすぐにやさいを食べました。",
-      "start_ms": 105055,
-      "end_ms": 108198,
-      "duration_ms": 3143,
+      "text": "おんなはすぐにやさいをたべました。",
+      "start_ms": 104756,
+      "end_ms": 107981,
+      "duration_ms": 3225,
       "clauses": [
         {
           "index": 0,
-          "text": "おんなはすぐにやさいを食べました。",
-          "start_ms": 105055,
-          "end_ms": 108198,
-          "duration_ms": 3143
+          "text": "おんなはすぐにやさいをたべました。",
+          "start_ms": 104756,
+          "end_ms": 107981,
+          "duration_ms": 3225
         }
       ]
     },
     {
       "index": 23,
       "text": "すごくおいしかったです。",
-      "start_ms": 108698,
-      "end_ms": 111180,
-      "duration_ms": 2482,
+      "start_ms": 108481,
+      "end_ms": 110904,
+      "duration_ms": 2423,
       "clauses": [
         {
           "index": 0,
           "text": "すごくおいしかったです。",
-          "start_ms": 108698,
-          "end_ms": 111180,
-          "duration_ms": 2482
+          "start_ms": 108481,
+          "end_ms": 110904,
+          "duration_ms": 2423
         }
       ]
     },
     {
       "index": 24,
-      "text": "次の日、おんなは「もっと食べたいです」と言いました。",
-      "start_ms": 111680,
-      "end_ms": 117183,
-      "duration_ms": 5503,
+      "text": "つぎのひ、おんなは「もっとたべたいです」といいました。",
+      "start_ms": 111404,
+      "end_ms": 116675,
+      "duration_ms": 5271,
       "clauses": [
         {
           "index": 0,
-          "text": "次の日、",
-          "start_ms": 111680,
-          "end_ms": 113407,
-          "duration_ms": 1727
+          "text": "つぎのひ、",
+          "start_ms": 111404,
+          "end_ms": 112968,
+          "duration_ms": 1564
         },
         {
           "index": 1,
-          "text": "おんなは「もっと食べたいです」と言いました。",
-          "start_ms": 113657,
-          "end_ms": 117183,
-          "duration_ms": 3526
+          "text": "おんなは「もっとたべたいです」といいました。",
+          "start_ms": 113218,
+          "end_ms": 116675,
+          "duration_ms": 3457
         }
       ]
     },
     {
       "index": 25,
-      "text": "そして、次の日も、ゆうがたになったとき、おとこはにわに入りました。",
-      "start_ms": 117683,
-      "end_ms": 126746,
-      "duration_ms": 9063,
+      "text": "そして、つぎのひも、ゆうがたになったとき、おとこはにわにはいりました。",
+      "start_ms": 117175,
+      "end_ms": 126110,
+      "duration_ms": 8935,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 117683,
-          "end_ms": 119015,
-          "duration_ms": 1332
+          "start_ms": 117175,
+          "end_ms": 118554,
+          "duration_ms": 1379
         },
         {
           "index": 1,
-          "text": "次の日も、",
-          "start_ms": 119265,
-          "end_ms": 121050,
-          "duration_ms": 1785
+          "text": "つぎのひも、",
+          "start_ms": 118804,
+          "end_ms": 120519,
+          "duration_ms": 1715
         },
         {
           "index": 2,
           "text": "ゆうがたになったとき、",
-          "start_ms": 121300,
-          "end_ms": 123631,
+          "start_ms": 120769,
+          "end_ms": 123100,
           "duration_ms": 2331
         },
         {
           "index": 3,
-          "text": "おとこはにわに入りました。",
-          "start_ms": 123881,
-          "end_ms": 126746,
-          "duration_ms": 2865
+          "text": "おとこはにわにはいりました。",
+          "start_ms": 123350,
+          "end_ms": 126110,
+          "duration_ms": 2760
         }
       ]
     },
     {
       "index": 26,
-      "text": "でも、そのとき、むじょがおとこの前に立っていました。",
-      "start_ms": 127246,
-      "end_ms": 133740,
-      "duration_ms": 6494,
+      "text": "でも、そのとき、まじょがおとこのまえにたっていました。",
+      "start_ms": 126610,
+      "end_ms": 133196,
+      "duration_ms": 6586,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 127246,
-          "end_ms": 128265,
-          "duration_ms": 1019
+          "start_ms": 126610,
+          "end_ms": 127594,
+          "duration_ms": 984
         },
         {
           "index": 1,
           "text": "そのとき、",
-          "start_ms": 128515,
-          "end_ms": 130126,
-          "duration_ms": 1611
+          "start_ms": 127844,
+          "end_ms": 129466,
+          "duration_ms": 1622
         },
         {
           "index": 2,
-          "text": "むじょがおとこの前に立っていました。",
-          "start_ms": 130376,
-          "end_ms": 133740,
-          "duration_ms": 3364
+          "text": "まじょがおとこのまえにたっていました。",
+          "start_ms": 129716,
+          "end_ms": 133196,
+          "duration_ms": 3480
         }
       ]
     },
     {
       "index": 27,
-      "text": "むじょは「よくも私のにわでやさいを取ったですね。",
-      "start_ms": 134240,
-      "end_ms": 138742,
-      "duration_ms": 4502,
+      "text": "まじょは「よくもわたしのにわでやさいをとったですね。",
+      "start_ms": 133696,
+      "end_ms": 138186,
+      "duration_ms": 4490,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょは「よくも私のにわでやさいを取ったですね。",
-          "start_ms": 134240,
-          "end_ms": 138742,
-          "duration_ms": 4502
+          "text": "まじょは「よくもわたしのにわでやさいをとったですね。",
+          "start_ms": 133696,
+          "end_ms": 138186,
+          "duration_ms": 4490
         }
       ]
     },
     {
       "index": 28,
-      "text": "どろぼうです」と怒りました。",
-      "start_ms": 139242,
-      "end_ms": 141921,
-      "duration_ms": 2679,
+      "text": "どろぼうです」とおこりました。",
+      "start_ms": 138686,
+      "end_ms": 141342,
+      "duration_ms": 2656,
       "clauses": [
         {
           "index": 0,
-          "text": "どろぼうです」と怒りました。",
-          "start_ms": 139242,
-          "end_ms": 141921,
-          "duration_ms": 2679
+          "text": "どろぼうです」とおこりました。",
+          "start_ms": 138686,
+          "end_ms": 141342,
+          "duration_ms": 2656
         }
       ]
     },
     {
       "index": 29,
-      "text": "おとこは怖くなって、「ごめんなさい。",
-      "start_ms": 142421,
-      "end_ms": 146752,
-      "duration_ms": 4331,
+      "text": "おとこはこわくなって、「ごめんなさい。",
+      "start_ms": 141842,
+      "end_ms": 146277,
+      "duration_ms": 4435,
       "clauses": [
         {
           "index": 0,
-          "text": "おとこは怖くなって、",
-          "start_ms": 142421,
-          "end_ms": 144775,
-          "duration_ms": 2354
+          "text": "おとこはこわくなって、",
+          "start_ms": 141842,
+          "end_ms": 144300,
+          "duration_ms": 2458
         },
         {
           "index": 1,
           "text": "「ごめんなさい。",
-          "start_ms": 145025,
-          "end_ms": 146752,
+          "start_ms": 144550,
+          "end_ms": 146277,
           "duration_ms": 1727
         }
       ]
@@ -620,499 +620,499 @@
     {
       "index": 30,
       "text": "おんなはとてもびょうきです。",
-      "start_ms": 147252,
-      "end_ms": 150035,
-      "duration_ms": 2783,
+      "start_ms": 146777,
+      "end_ms": 149595,
+      "duration_ms": 2818,
       "clauses": [
         {
           "index": 0,
           "text": "おんなはとてもびょうきです。",
-          "start_ms": 147252,
-          "end_ms": 150035,
-          "duration_ms": 2783
+          "start_ms": 146777,
+          "end_ms": 149595,
+          "duration_ms": 2818
         }
       ]
     },
     {
       "index": 31,
-      "text": "このやさいを食べたいと言っています。",
-      "start_ms": 150535,
-      "end_ms": 153852,
-      "duration_ms": 3317,
+      "text": "このやさいをたべたいといっています。",
+      "start_ms": 150095,
+      "end_ms": 153494,
+      "duration_ms": 3399,
       "clauses": [
         {
           "index": 0,
-          "text": "このやさいを食べたいと言っています。",
-          "start_ms": 150535,
-          "end_ms": 153852,
-          "duration_ms": 3317
+          "text": "このやさいをたべたいといっています。",
+          "start_ms": 150095,
+          "end_ms": 153494,
+          "duration_ms": 3399
         }
       ]
     },
     {
       "index": 32,
-      "text": "だから、にわに入りました」と言いました。",
-      "start_ms": 154352,
-      "end_ms": 158625,
-      "duration_ms": 4273,
+      "text": "だから、にわにはいりました」といいました。",
+      "start_ms": 153994,
+      "end_ms": 158337,
+      "duration_ms": 4343,
       "clauses": [
         {
           "index": 0,
           "text": "だから、",
-          "start_ms": 154352,
-          "end_ms": 155510,
-          "duration_ms": 1158
+          "start_ms": 153994,
+          "end_ms": 155187,
+          "duration_ms": 1193
         },
         {
           "index": 1,
-          "text": "にわに入りました」と言いました。",
-          "start_ms": 155760,
-          "end_ms": 158625,
-          "duration_ms": 2865
+          "text": "にわにはいりました」といいました。",
+          "start_ms": 155437,
+          "end_ms": 158337,
+          "duration_ms": 2900
         }
       ]
     },
     {
       "index": 33,
-      "text": "それで、むじょは怒りをやめました。",
-      "start_ms": 159125,
-      "end_ms": 163572,
-      "duration_ms": 4447,
+      "text": "それで、まじょはおこりをやめました。",
+      "start_ms": 158837,
+      "end_ms": 163261,
+      "duration_ms": 4424,
       "clauses": [
         {
           "index": 0,
           "text": "それで、",
-          "start_ms": 159125,
-          "end_ms": 160434,
+          "start_ms": 158837,
+          "end_ms": 160146,
           "duration_ms": 1309
         },
         {
           "index": 1,
-          "text": "むじょは怒りをやめました。",
-          "start_ms": 160684,
-          "end_ms": 163572,
-          "duration_ms": 2888
+          "text": "まじょはおこりをやめました。",
+          "start_ms": 160396,
+          "end_ms": 163261,
+          "duration_ms": 2865
         }
       ]
     },
     {
       "index": 34,
-      "text": "「にわのやさいを取ってもいいですよ。",
-      "start_ms": 164072,
-      "end_ms": 167180,
-      "duration_ms": 3108,
+      "text": "「にわのやさいをとってもいいですよ。",
+      "start_ms": 163761,
+      "end_ms": 166881,
+      "duration_ms": 3120,
       "clauses": [
         {
           "index": 0,
-          "text": "「にわのやさいを取ってもいいですよ。",
-          "start_ms": 164072,
-          "end_ms": 167180,
-          "duration_ms": 3108
+          "text": "「にわのやさいをとってもいいですよ。",
+          "start_ms": 163761,
+          "end_ms": 166881,
+          "duration_ms": 3120
         }
       ]
     },
     {
       "index": 35,
-      "text": "でも、一つだけやくそくがあります。",
-      "start_ms": 167680,
-      "end_ms": 171755,
-      "duration_ms": 4075,
+      "text": "でも、ひとつだけやくそくがあります。",
+      "start_ms": 167381,
+      "end_ms": 171457,
+      "duration_ms": 4076,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 167680,
-          "end_ms": 168652,
-          "duration_ms": 972
+          "start_ms": 167381,
+          "end_ms": 168342,
+          "duration_ms": 961
         },
         {
           "index": 1,
-          "text": "一つだけやくそくがあります。",
-          "start_ms": 168902,
-          "end_ms": 171755,
-          "duration_ms": 2853
+          "text": "ひとつだけやくそくがあります。",
+          "start_ms": 168592,
+          "end_ms": 171457,
+          "duration_ms": 2865
         }
       ]
     },
     {
       "index": 36,
-      "text": "あかちゃんがいえに来るとき、私にください。",
-      "start_ms": 172255,
-      "end_ms": 177248,
-      "duration_ms": 4993,
+      "text": "あかちゃんがいえにくるとき、わたしにください。",
+      "start_ms": 171957,
+      "end_ms": 176996,
+      "duration_ms": 5039,
       "clauses": [
         {
           "index": 0,
-          "text": "あかちゃんがいえに来るとき、",
-          "start_ms": 172255,
-          "end_ms": 174946,
+          "text": "あかちゃんがいえにくるとき、",
+          "start_ms": 171957,
+          "end_ms": 174648,
           "duration_ms": 2691
         },
         {
           "index": 1,
-          "text": "私にください。",
-          "start_ms": 175196,
-          "end_ms": 177248,
-          "duration_ms": 2052
+          "text": "わたしにください。",
+          "start_ms": 174898,
+          "end_ms": 176996,
+          "duration_ms": 2098
         }
       ]
     },
     {
       "index": 37,
-      "text": "とてもたいせつにします」と言いました。",
-      "start_ms": 177748,
-      "end_ms": 180903,
-      "duration_ms": 3155,
+      "text": "とてもたいせつにします」といいました。",
+      "start_ms": 177496,
+      "end_ms": 180767,
+      "duration_ms": 3271,
       "clauses": [
         {
           "index": 0,
-          "text": "とてもたいせつにします」と言いました。",
-          "start_ms": 177748,
-          "end_ms": 180903,
-          "duration_ms": 3155
+          "text": "とてもたいせつにします」といいました。",
+          "start_ms": 177496,
+          "end_ms": 180767,
+          "duration_ms": 3271
         }
       ]
     },
     {
       "index": 38,
-      "text": "おとこは怖くて、むじょに「はい」と言いました。",
-      "start_ms": 181403,
-      "end_ms": 186175,
-      "duration_ms": 4772,
+      "text": "おとこはこわくて、まじょに「はい」といいました。",
+      "start_ms": 181267,
+      "end_ms": 186085,
+      "duration_ms": 4818,
       "clauses": [
         {
           "index": 0,
-          "text": "おとこは怖くて、",
-          "start_ms": 181403,
-          "end_ms": 183525,
-          "duration_ms": 2122
+          "text": "おとこはこわくて、",
+          "start_ms": 181267,
+          "end_ms": 183400,
+          "duration_ms": 2133
         },
         {
           "index": 1,
-          "text": "むじょに「はい」と言いました。",
-          "start_ms": 183775,
-          "end_ms": 186175,
-          "duration_ms": 2400
+          "text": "まじょに「はい」といいました。",
+          "start_ms": 183650,
+          "end_ms": 186085,
+          "duration_ms": 2435
         }
       ]
     },
     {
       "index": 39,
-      "text": "それから時間がたちました。",
-      "start_ms": 186675,
-      "end_ms": 189458,
-      "duration_ms": 2783,
+      "text": "それからじかんがたちました。",
+      "start_ms": 186585,
+      "end_ms": 189403,
+      "duration_ms": 2818,
       "clauses": [
         {
           "index": 0,
-          "text": "それから時間がたちました。",
-          "start_ms": 186675,
-          "end_ms": 189458,
-          "duration_ms": 2783
+          "text": "それからじかんがたちました。",
+          "start_ms": 186585,
+          "end_ms": 189403,
+          "duration_ms": 2818
         }
       ]
     },
     {
       "index": 40,
-      "text": "おんなはあかちゃんを産みました。",
-      "start_ms": 189958,
-      "end_ms": 192799,
-      "duration_ms": 2841,
+      "text": "おんなはあかちゃんをうみました。",
+      "start_ms": 189903,
+      "end_ms": 192733,
+      "duration_ms": 2830,
       "clauses": [
         {
           "index": 0,
-          "text": "おんなはあかちゃんを産みました。",
-          "start_ms": 189958,
-          "end_ms": 192799,
-          "duration_ms": 2841
+          "text": "おんなはあかちゃんをうみました。",
+          "start_ms": 189903,
+          "end_ms": 192733,
+          "duration_ms": 2830
         }
       ]
     },
     {
       "index": 41,
-      "text": "むじょはすぐにおとこのいえに来ました。",
-      "start_ms": 193299,
-      "end_ms": 196849,
-      "duration_ms": 3550,
+      "text": "まじょはすぐにおとこのいえにきました。",
+      "start_ms": 193233,
+      "end_ms": 196887,
+      "duration_ms": 3654,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょはすぐにおとこのいえに来ました。",
-          "start_ms": 193299,
-          "end_ms": 196849,
-          "duration_ms": 3550
+          "text": "まじょはすぐにおとこのいえにきました。",
+          "start_ms": 193233,
+          "end_ms": 196887,
+          "duration_ms": 3654
         }
       ]
     },
     {
       "index": 42,
       "text": "あかちゃんのなまえはラプンツェルになりました。",
-      "start_ms": 197349,
-      "end_ms": 201108,
-      "duration_ms": 3759,
+      "start_ms": 197387,
+      "end_ms": 201239,
+      "duration_ms": 3852,
       "clauses": [
         {
           "index": 0,
           "text": "あかちゃんのなまえはラプンツェルになりました。",
-          "start_ms": 197349,
-          "end_ms": 201108,
-          "duration_ms": 3759
+          "start_ms": 197387,
+          "end_ms": 201239,
+          "duration_ms": 3852
         }
       ]
     },
     {
       "index": 43,
-      "text": "むじょはラプンツェルを連れて行きました。",
-      "start_ms": 201608,
-      "end_ms": 204949,
+      "text": "まじょはラプンツェルをつれていきました。",
+      "start_ms": 201739,
+      "end_ms": 205080,
       "duration_ms": 3341,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょはラプンツェルを連れて行きました。",
-          "start_ms": 201608,
-          "end_ms": 204949,
+          "text": "まじょはラプンツェルをつれていきました。",
+          "start_ms": 201739,
+          "end_ms": 205080,
           "duration_ms": 3341
         }
       ]
     },
     {
       "index": 44,
-      "text": "ラプンツェルは大きくなって、すごくかわいいおんなのこになりました。",
-      "start_ms": 205449,
-      "end_ms": 211823,
-      "duration_ms": 6374,
+      "text": "ラプンツェルはおおきになって、すごくかわいいおんなのこになりました。",
+      "start_ms": 205580,
+      "end_ms": 212070,
+      "duration_ms": 6490,
       "clauses": [
         {
           "index": 0,
-          "text": "ラプンツェルは大きくなって、",
-          "start_ms": 205449,
-          "end_ms": 208337,
-          "duration_ms": 2888
+          "text": "ラプンツェルはおおきになって、",
+          "start_ms": 205580,
+          "end_ms": 208526,
+          "duration_ms": 2946
         },
         {
           "index": 1,
           "text": "すごくかわいいおんなのこになりました。",
-          "start_ms": 208587,
-          "end_ms": 211823,
-          "duration_ms": 3236
+          "start_ms": 208776,
+          "end_ms": 212070,
+          "duration_ms": 3294
         }
       ]
     },
     {
       "index": 45,
-      "text": "12歳になったとき、むじょはラプンツェルをたかいとうに入れました。",
-      "start_ms": 212323,
-      "end_ms": 218755,
-      "duration_ms": 6432,
+      "text": "12さいになったとき、まじょはラプンツェルをたかいとうにいれました。",
+      "start_ms": 212570,
+      "end_ms": 218851,
+      "duration_ms": 6281,
       "clauses": [
         {
           "index": 0,
-          "text": "12歳になったとき、",
-          "start_ms": 212323,
-          "end_ms": 214828,
-          "duration_ms": 2505
+          "text": "12さいになったとき、",
+          "start_ms": 212570,
+          "end_ms": 215017,
+          "duration_ms": 2447
         },
         {
           "index": 1,
-          "text": "むじょはラプンツェルをたかいとうに入れました。",
-          "start_ms": 215078,
-          "end_ms": 218755,
-          "duration_ms": 3677
+          "text": "まじょはラプンツェルをたかいとうにいれました。",
+          "start_ms": 215267,
+          "end_ms": 218851,
+          "duration_ms": 3584
         }
       ]
     },
     {
       "index": 46,
-      "text": "とうにはまどが一つだけありました。",
-      "start_ms": 219255,
-      "end_ms": 222898,
-      "duration_ms": 3643,
+      "text": "とうにはまどがひとつだけありました。",
+      "start_ms": 219351,
+      "end_ms": 222889,
+      "duration_ms": 3538,
       "clauses": [
         {
           "index": 0,
-          "text": "とうにはまどが一つだけありました。",
-          "start_ms": 219255,
-          "end_ms": 222898,
-          "duration_ms": 3643
+          "text": "とうにはまどがひとつだけありました。",
+          "start_ms": 219351,
+          "end_ms": 222889,
+          "duration_ms": 3538
         }
       ]
     },
     {
       "index": 47,
-      "text": "むじょはとうの下に行きました。",
-      "start_ms": 223398,
-      "end_ms": 226472,
-      "duration_ms": 3074,
+      "text": "まじょはとうのしもにいきました。",
+      "start_ms": 223389,
+      "end_ms": 226648,
+      "duration_ms": 3259,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょはとうの下に行きました。",
-          "start_ms": 223398,
-          "end_ms": 226472,
-          "duration_ms": 3074
+          "text": "まじょはとうのしもにいきました。",
+          "start_ms": 223389,
+          "end_ms": 226648,
+          "duration_ms": 3259
         }
       ]
     },
     {
       "index": 48,
-      "text": "「ラプンツェル、かみを下ろしてください」と言いました。",
-      "start_ms": 226972,
-      "end_ms": 232301,
-      "duration_ms": 5329,
+      "text": "「ラプンツェル、かみをおろしてください」といいました。",
+      "start_ms": 227148,
+      "end_ms": 232303,
+      "duration_ms": 5155,
       "clauses": [
         {
           "index": 0,
           "text": "「ラプンツェル、",
-          "start_ms": 226972,
-          "end_ms": 228722,
-          "duration_ms": 1750
+          "start_ms": 227148,
+          "end_ms": 228875,
+          "duration_ms": 1727
         },
         {
           "index": 1,
-          "text": "かみを下ろしてください」と言いました。",
-          "start_ms": 228972,
-          "end_ms": 232301,
-          "duration_ms": 3329
+          "text": "かみをおろしてください」といいました。",
+          "start_ms": 229125,
+          "end_ms": 232303,
+          "duration_ms": 3178
         }
       ]
     },
     {
       "index": 49,
       "text": "ラプンツェルはとてもながいかみをしていました。",
-      "start_ms": 232801,
-      "end_ms": 237012,
-      "duration_ms": 4211,
+      "start_ms": 232803,
+      "end_ms": 236956,
+      "duration_ms": 4153,
       "clauses": [
         {
           "index": 0,
           "text": "ラプンツェルはとてもながいかみをしていました。",
-          "start_ms": 232801,
-          "end_ms": 237012,
-          "duration_ms": 4211
+          "start_ms": 232803,
+          "end_ms": 236956,
+          "duration_ms": 4153
         }
       ]
     },
     {
       "index": 50,
-      "text": "ラプンツェルはまどからかみを下ろしました。",
-      "start_ms": 237512,
-      "end_ms": 241631,
-      "duration_ms": 4119,
+      "text": "ラプンツェルはまどからかみをおろしました。",
+      "start_ms": 237456,
+      "end_ms": 241180,
+      "duration_ms": 3724,
       "clauses": [
         {
           "index": 0,
-          "text": "ラプンツェルはまどからかみを下ろしました。",
-          "start_ms": 237512,
-          "end_ms": 241631,
-          "duration_ms": 4119
+          "text": "ラプンツェルはまどからかみをおろしました。",
+          "start_ms": 237456,
+          "end_ms": 241180,
+          "duration_ms": 3724
         }
       ]
     },
     {
       "index": 51,
-      "text": "むじょはそのかみを持って、上に登りました。",
-      "start_ms": 242131,
-      "end_ms": 247216,
-      "duration_ms": 5085,
+      "text": "まじょはそのかみをもって、うえにのぼりました。",
+      "start_ms": 241680,
+      "end_ms": 246800,
+      "duration_ms": 5120,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょはそのかみを持って、",
-          "start_ms": 242131,
-          "end_ms": 244798,
-          "duration_ms": 2667
+          "text": "まじょはそのかみをもって、",
+          "start_ms": 241680,
+          "end_ms": 244417,
+          "duration_ms": 2737
         },
         {
           "index": 1,
-          "text": "上に登りました。",
-          "start_ms": 245048,
-          "end_ms": 247216,
-          "duration_ms": 2168
+          "text": "うえにのぼりました。",
+          "start_ms": 244667,
+          "end_ms": 246800,
+          "duration_ms": 2133
         }
       ]
     },
     {
       "index": 52,
-      "text": "時間がたちました。",
-      "start_ms": 247716,
-      "end_ms": 249931,
-      "duration_ms": 2215,
+      "text": "じかんがたちました。",
+      "start_ms": 247300,
+      "end_ms": 249538,
+      "duration_ms": 2238,
       "clauses": [
         {
           "index": 0,
-          "text": "時間がたちました。",
-          "start_ms": 247716,
-          "end_ms": 249931,
-          "duration_ms": 2215
+          "text": "じかんがたちました。",
+          "start_ms": 247300,
+          "end_ms": 249538,
+          "duration_ms": 2238
         }
       ]
     },
     {
       "index": 53,
-      "text": "ある日のゆうがた、おうじがやまの近くを歩いていました。",
-      "start_ms": 250431,
-      "end_ms": 256398,
-      "duration_ms": 5967,
+      "text": "あるひのゆうがた、おうじがやまのちかくをあるいていました。",
+      "start_ms": 250038,
+      "end_ms": 255971,
+      "duration_ms": 5933,
       "clauses": [
         {
           "index": 0,
-          "text": "ある日のゆうがた、",
-          "start_ms": 250431,
-          "end_ms": 252564,
-          "duration_ms": 2133
+          "text": "あるひのゆうがた、",
+          "start_ms": 250038,
+          "end_ms": 252090,
+          "duration_ms": 2052
         },
         {
           "index": 1,
-          "text": "おうじがやまの近くを歩いていました。",
-          "start_ms": 252814,
-          "end_ms": 256398,
-          "duration_ms": 3584
+          "text": "おうじがやまのちかくをあるいていました。",
+          "start_ms": 252340,
+          "end_ms": 255971,
+          "duration_ms": 3631
         }
       ]
     },
     {
       "index": 54,
-      "text": "そのとき、とうからすてきなうたが聞こえました。",
-      "start_ms": 256898,
-      "end_ms": 262076,
-      "duration_ms": 5178,
+      "text": "そのとき、とうからすてきなうたがきこえました。",
+      "start_ms": 256471,
+      "end_ms": 261591,
+      "duration_ms": 5120,
       "clauses": [
         {
           "index": 0,
           "text": "そのとき、",
-          "start_ms": 256898,
-          "end_ms": 258567,
-          "duration_ms": 1669
+          "start_ms": 256471,
+          "end_ms": 258082,
+          "duration_ms": 1611
         },
         {
           "index": 1,
-          "text": "とうからすてきなうたが聞こえました。",
-          "start_ms": 258817,
-          "end_ms": 262076,
+          "text": "とうからすてきなうたがきこえました。",
+          "start_ms": 258332,
+          "end_ms": 261591,
           "duration_ms": 3259
         }
       ]
     },
     {
       "index": 55,
-      "text": "おうじは立って、うたを聞きました。",
-      "start_ms": 262576,
-      "end_ms": 266710,
-      "duration_ms": 4134,
+      "text": "おうじはたって、うたをききました。",
+      "start_ms": 262091,
+      "end_ms": 266248,
+      "duration_ms": 4157,
       "clauses": [
         {
           "index": 0,
-          "text": "おうじは立って、",
-          "start_ms": 262576,
-          "end_ms": 264396,
-          "duration_ms": 1820
+          "text": "おうじはたって、",
+          "start_ms": 262091,
+          "end_ms": 263934,
+          "duration_ms": 1843
         },
         {
           "index": 1,
-          "text": "うたを聞きました。",
-          "start_ms": 264646,
-          "end_ms": 266710,
+          "text": "うたをききました。",
+          "start_ms": 264184,
+          "end_ms": 266248,
           "duration_ms": 2064
         }
       ]
@@ -1120,1153 +1120,1153 @@
     {
       "index": 56,
       "text": "それはラプンツェルのうたでした。",
-      "start_ms": 267210,
-      "end_ms": 270400,
-      "duration_ms": 3190,
+      "start_ms": 266748,
+      "end_ms": 269915,
+      "duration_ms": 3167,
       "clauses": [
         {
           "index": 0,
           "text": "それはラプンツェルのうたでした。",
-          "start_ms": 267210,
-          "end_ms": 270400,
-          "duration_ms": 3190
+          "start_ms": 266748,
+          "end_ms": 269915,
+          "duration_ms": 3167
         }
       ]
     },
     {
       "index": 57,
-      "text": "ラプンツェルは一人でした。",
-      "start_ms": 270900,
-      "end_ms": 273591,
-      "duration_ms": 2691,
+      "text": "ラプンツェルはひとりでした。",
+      "start_ms": 270415,
+      "end_ms": 273152,
+      "duration_ms": 2737,
       "clauses": [
         {
           "index": 0,
-          "text": "ラプンツェルは一人でした。",
-          "start_ms": 270900,
-          "end_ms": 273591,
-          "duration_ms": 2691
+          "text": "ラプンツェルはひとりでした。",
+          "start_ms": 270415,
+          "end_ms": 273152,
+          "duration_ms": 2737
         }
       ]
     },
     {
       "index": 58,
-      "text": "毎日、一人でうたをうたっていました。",
-      "start_ms": 274091,
-      "end_ms": 279072,
-      "duration_ms": 4981,
+      "text": "まいにち、ひとりでうたをうたっていました。",
+      "start_ms": 273652,
+      "end_ms": 278644,
+      "duration_ms": 4992,
       "clauses": [
         {
           "index": 0,
-          "text": "毎日、",
-          "start_ms": 274091,
-          "end_ms": 275853,
-          "duration_ms": 1762
+          "text": "まいにち、",
+          "start_ms": 273652,
+          "end_ms": 275425,
+          "duration_ms": 1773
         },
         {
           "index": 1,
-          "text": "一人でうたをうたっていました。",
-          "start_ms": 276103,
-          "end_ms": 279072,
+          "text": "ひとりでうたをうたっていました。",
+          "start_ms": 275675,
+          "end_ms": 278644,
           "duration_ms": 2969
         }
       ]
     },
     {
       "index": 59,
-      "text": "おうじはまいばん、やまへ行って、うたを聞きました。",
-      "start_ms": 279572,
-      "end_ms": 285845,
-      "duration_ms": 6273,
+      "text": "おうじはまいばん、やまへいって、うたをききました。",
+      "start_ms": 279144,
+      "end_ms": 285394,
+      "duration_ms": 6250,
       "clauses": [
         {
           "index": 0,
           "text": "おうじはまいばん、",
-          "start_ms": 279572,
-          "end_ms": 281566,
-          "duration_ms": 1994
+          "start_ms": 279144,
+          "end_ms": 281184,
+          "duration_ms": 2040
         },
         {
           "index": 1,
-          "text": "やまへ行って、",
-          "start_ms": 281816,
-          "end_ms": 283508,
-          "duration_ms": 1692
+          "text": "やまへいって、",
+          "start_ms": 281434,
+          "end_ms": 283080,
+          "duration_ms": 1646
         },
         {
           "index": 2,
-          "text": "うたを聞きました。",
-          "start_ms": 283758,
-          "end_ms": 285845,
-          "duration_ms": 2087
+          "text": "うたをききました。",
+          "start_ms": 283330,
+          "end_ms": 285394,
+          "duration_ms": 2064
         }
       ]
     },
     {
       "index": 60,
-      "text": "とうの下を探しましたが、上に行くみちはありませんでした。",
-      "start_ms": 286345,
-      "end_ms": 292290,
-      "duration_ms": 5945,
+      "text": "とうのしもをさがしましたが、うえにいくみちはありませんでした。",
+      "start_ms": 285894,
+      "end_ms": 292001,
+      "duration_ms": 6107,
       "clauses": [
         {
           "index": 0,
-          "text": "とうの下を探しましたが、",
-          "start_ms": 286345,
-          "end_ms": 289024,
-          "duration_ms": 2679
+          "text": "とうのしもをさがしましたが、",
+          "start_ms": 285894,
+          "end_ms": 288689,
+          "duration_ms": 2795
         },
         {
           "index": 1,
-          "text": "上に行くみちはありませんでした。",
-          "start_ms": 289274,
-          "end_ms": 292290,
-          "duration_ms": 3016
+          "text": "うえにいくみちはありませんでした。",
+          "start_ms": 288939,
+          "end_ms": 292001,
+          "duration_ms": 3062
         }
       ]
     },
     {
       "index": 61,
-      "text": "あるよる、おうじはやまで待っていました。",
-      "start_ms": 292790,
-      "end_ms": 297341,
-      "duration_ms": 4551,
+      "text": "あるよる、おうじはやまでまっていました。",
+      "start_ms": 292501,
+      "end_ms": 297145,
+      "duration_ms": 4644,
       "clauses": [
         {
           "index": 0,
           "text": "あるよる、",
-          "start_ms": 292790,
-          "end_ms": 294238,
-          "duration_ms": 1448
+          "start_ms": 292501,
+          "end_ms": 293972,
+          "duration_ms": 1471
         },
         {
           "index": 1,
-          "text": "おうじはやまで待っていました。",
-          "start_ms": 294488,
-          "end_ms": 297341,
-          "duration_ms": 2853
+          "text": "おうじはやまでまっていました。",
+          "start_ms": 294222,
+          "end_ms": 297145,
+          "duration_ms": 2923
         }
       ]
     },
     {
       "index": 62,
-      "text": "むじょが来て、「ラプンツェル、かみを下ろしてください」と言いました。",
-      "start_ms": 297841,
-      "end_ms": 305113,
-      "duration_ms": 7272,
+      "text": "まじょがきて、「ラプンツェル、かみをおろしてください」といいました。",
+      "start_ms": 297645,
+      "end_ms": 304696,
+      "duration_ms": 7051,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょが来て、",
-          "start_ms": 297841,
-          "end_ms": 299487,
-          "duration_ms": 1646
+          "text": "まじょがきて、",
+          "start_ms": 297645,
+          "end_ms": 299256,
+          "duration_ms": 1611
         },
         {
           "index": 1,
           "text": "「ラプンツェル、",
-          "start_ms": 299737,
-          "end_ms": 301476,
-          "duration_ms": 1739
+          "start_ms": 299506,
+          "end_ms": 301233,
+          "duration_ms": 1727
         },
         {
           "index": 2,
-          "text": "かみを下ろしてください」と言いました。",
-          "start_ms": 301726,
-          "end_ms": 305113,
-          "duration_ms": 3387
-        }
-      ]
-    },
-    {
-      "index": 63,
-      "text": "そして、ラプンツェルはまどからかみを下ろしました。",
-      "start_ms": 305613,
-      "end_ms": 311279,
-      "duration_ms": 5666,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "そして、",
-          "start_ms": 305613,
-          "end_ms": 306980,
-          "duration_ms": 1367
-        },
-        {
-          "index": 1,
-          "text": "ラプンツェルはまどからかみを下ろしました。",
-          "start_ms": 307230,
-          "end_ms": 311279,
-          "duration_ms": 4049
-        }
-      ]
-    },
-    {
-      "index": 64,
-      "text": "むじょはそのかみを持って、上に登りました。",
-      "start_ms": 311779,
-      "end_ms": 316841,
-      "duration_ms": 5062,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "むじょはそのかみを持って、",
-          "start_ms": 311779,
-          "end_ms": 314411,
-          "duration_ms": 2632
-        },
-        {
-          "index": 1,
-          "text": "上に登りました。",
-          "start_ms": 314661,
-          "end_ms": 316841,
-          "duration_ms": 2180
-        }
-      ]
-    },
-    {
-      "index": 65,
-      "text": "おうじは「僕もあのかみで上に登りたい」と思いました。",
-      "start_ms": 317341,
-      "end_ms": 322388,
-      "duration_ms": 5047,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "おうじは「僕もあのかみで上に登りたい」と思いました。",
-          "start_ms": 317341,
-          "end_ms": 322388,
-          "duration_ms": 5047
-        }
-      ]
-    },
-    {
-      "index": 66,
-      "text": "次の日、よるになったとき、おうじはとうの下に行きました。",
-      "start_ms": 322888,
-      "end_ms": 330462,
-      "duration_ms": 7574,
-      "clauses": [
-        {
-          "index": 0,
-          "text": "次の日、",
-          "start_ms": 322888,
-          "end_ms": 324627,
-          "duration_ms": 1739
-        },
-        {
-          "index": 1,
-          "text": "よるになったとき、",
-          "start_ms": 324877,
-          "end_ms": 326999,
-          "duration_ms": 2122
-        },
-        {
-          "index": 2,
-          "text": "おうじはとうの下に行きました。",
-          "start_ms": 327249,
-          "end_ms": 330462,
+          "text": "かみをおろしてください」といいました。",
+          "start_ms": 301483,
+          "end_ms": 304696,
           "duration_ms": 3213
         }
       ]
     },
     {
+      "index": 63,
+      "text": "そして、ラプンツェルはまどからかみをおろしました。",
+      "start_ms": 305196,
+      "end_ms": 310664,
+      "duration_ms": 5468,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 305196,
+          "end_ms": 306586,
+          "duration_ms": 1390
+        },
+        {
+          "index": 1,
+          "text": "ラプンツェルはまどからかみをおろしました。",
+          "start_ms": 306836,
+          "end_ms": 310664,
+          "duration_ms": 3828
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "text": "まじょはそのかみをもって、うえにのぼりました。",
+      "start_ms": 311164,
+      "end_ms": 316354,
+      "duration_ms": 5190,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "まじょはそのかみをもって、",
+          "start_ms": 311164,
+          "end_ms": 313889,
+          "duration_ms": 2725
+        },
+        {
+          "index": 1,
+          "text": "うえにのぼりました。",
+          "start_ms": 314139,
+          "end_ms": 316354,
+          "duration_ms": 2215
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "text": "おうじは「ぼくもあのかみでうえにのぼりたい」とおもいました。",
+      "start_ms": 316854,
+      "end_ms": 321936,
+      "duration_ms": 5082,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おうじは「ぼくもあのかみでうえにのぼりたい」とおもいました。",
+          "start_ms": 316854,
+          "end_ms": 321936,
+          "duration_ms": 5082
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "text": "つぎのひ、よるになったとき、おうじはとうのしもにいきました。",
+      "start_ms": 322436,
+      "end_ms": 329882,
+      "duration_ms": 7446,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "つぎのひ、",
+          "start_ms": 322436,
+          "end_ms": 323989,
+          "duration_ms": 1553
+        },
+        {
+          "index": 1,
+          "text": "よるになったとき、",
+          "start_ms": 324239,
+          "end_ms": 326291,
+          "duration_ms": 2052
+        },
+        {
+          "index": 2,
+          "text": "おうじはとうのしもにいきました。",
+          "start_ms": 326541,
+          "end_ms": 329882,
+          "duration_ms": 3341
+        }
+      ]
+    },
+    {
       "index": 67,
-      "text": "「ラプンツェル、かみを下ろしてください」と言いました。",
-      "start_ms": 330962,
-      "end_ms": 336233,
-      "duration_ms": 5271,
+      "text": "「ラプンツェル、かみをおろしてください」といいました。",
+      "start_ms": 330382,
+      "end_ms": 335607,
+      "duration_ms": 5225,
       "clauses": [
         {
           "index": 0,
           "text": "「ラプンツェル、",
-          "start_ms": 330962,
-          "end_ms": 332689,
-          "duration_ms": 1727
+          "start_ms": 330382,
+          "end_ms": 332132,
+          "duration_ms": 1750
         },
         {
           "index": 1,
-          "text": "かみを下ろしてください」と言いました。",
-          "start_ms": 332939,
-          "end_ms": 336233,
-          "duration_ms": 3294
+          "text": "かみをおろしてください」といいました。",
+          "start_ms": 332382,
+          "end_ms": 335607,
+          "duration_ms": 3225
         }
       ]
     },
     {
       "index": 68,
-      "text": "かみを下ろしたので、おうじは上に登りました。",
-      "start_ms": 336733,
-      "end_ms": 342317,
-      "duration_ms": 5584,
+      "text": "かみをおろしたので、おうじはうえにのぼりました。",
+      "start_ms": 336107,
+      "end_ms": 341552,
+      "duration_ms": 5445,
       "clauses": [
         {
           "index": 0,
-          "text": "かみを下ろしたので、",
-          "start_ms": 336733,
-          "end_ms": 339017,
-          "duration_ms": 2284
+          "text": "かみをおろしたので、",
+          "start_ms": 336107,
+          "end_ms": 338217,
+          "duration_ms": 2110
         },
         {
           "index": 1,
-          "text": "おうじは上に登りました。",
-          "start_ms": 339267,
-          "end_ms": 342317,
-          "duration_ms": 3050
+          "text": "おうじはうえにのぼりました。",
+          "start_ms": 338467,
+          "end_ms": 341552,
+          "duration_ms": 3085
         }
       ]
     },
     {
       "index": 69,
-      "text": "ラプンツェルは初めて人が来たので、とても怖がりました。",
-      "start_ms": 342817,
-      "end_ms": 349191,
-      "duration_ms": 6374,
+      "text": "ラプンツェルははじめてひとがきたので、とてもこわがりました。",
+      "start_ms": 342052,
+      "end_ms": 348263,
+      "duration_ms": 6211,
       "clauses": [
         {
           "index": 0,
-          "text": "ラプンツェルは初めて人が来たので、",
-          "start_ms": 342817,
-          "end_ms": 346518,
-          "duration_ms": 3701
+          "text": "ラプンツェルははじめてひとがきたので、",
+          "start_ms": 342052,
+          "end_ms": 345636,
+          "duration_ms": 3584
         },
         {
           "index": 1,
-          "text": "とても怖がりました。",
-          "start_ms": 346768,
-          "end_ms": 349191,
-          "duration_ms": 2423
+          "text": "とてもこわがりました。",
+          "start_ms": 345886,
+          "end_ms": 348263,
+          "duration_ms": 2377
         }
       ]
     },
     {
       "index": 70,
-      "text": "でも、おうじはとても若くて、かっこいい人でした。",
-      "start_ms": 349691,
-      "end_ms": 355836,
-      "duration_ms": 6145,
+      "text": "でも、おうじはとてもわかくて、かっこいいひとでした。",
+      "start_ms": 348763,
+      "end_ms": 355058,
+      "duration_ms": 6295,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 349691,
-          "end_ms": 350675,
-          "duration_ms": 984
+          "start_ms": 348763,
+          "end_ms": 349770,
+          "duration_ms": 1007
         },
         {
           "index": 1,
-          "text": "おうじはとても若くて、",
-          "start_ms": 350925,
-          "end_ms": 353453,
-          "duration_ms": 2528
+          "text": "おうじはとてもわかくて、",
+          "start_ms": 350020,
+          "end_ms": 352652,
+          "duration_ms": 2632
         },
         {
           "index": 2,
-          "text": "かっこいい人でした。",
-          "start_ms": 353703,
-          "end_ms": 355836,
-          "duration_ms": 2133
+          "text": "かっこいいひとでした。",
+          "start_ms": 352902,
+          "end_ms": 355058,
+          "duration_ms": 2156
         }
       ]
     },
     {
       "index": 71,
-      "text": "二人はよく話しました。",
-      "start_ms": 356336,
-      "end_ms": 359363,
-      "duration_ms": 3027,
+      "text": "ふたりはよくはなしました。",
+      "start_ms": 355558,
+      "end_ms": 358504,
+      "duration_ms": 2946,
       "clauses": [
         {
           "index": 0,
-          "text": "二人はよく話しました。",
-          "start_ms": 356336,
-          "end_ms": 359363,
-          "duration_ms": 3027
+          "text": "ふたりはよくはなしました。",
+          "start_ms": 355558,
+          "end_ms": 358504,
+          "duration_ms": 2946
         }
       ]
     },
     {
       "index": 72,
-      "text": "ラプンツェルは怖くなくなりました。",
-      "start_ms": 359863,
-      "end_ms": 363378,
-      "duration_ms": 3515,
+      "text": "ラプンツェルはこわくなくなりました。",
+      "start_ms": 359004,
+      "end_ms": 362623,
+      "duration_ms": 3619,
       "clauses": [
         {
           "index": 0,
-          "text": "ラプンツェルは怖くなくなりました。",
-          "start_ms": 359863,
-          "end_ms": 363378,
-          "duration_ms": 3515
+          "text": "ラプンツェルはこわくなくなりました。",
+          "start_ms": 359004,
+          "end_ms": 362623,
+          "duration_ms": 3619
         }
       ]
     },
     {
       "index": 73,
-      "text": "おうじは「僕と一緒に住んでください」と言いました。",
-      "start_ms": 363878,
-      "end_ms": 368473,
-      "duration_ms": 4595,
+      "text": "おうじは「ぼくといっしょにすんでください」といいました。",
+      "start_ms": 363123,
+      "end_ms": 367683,
+      "duration_ms": 4560,
       "clauses": [
         {
           "index": 0,
-          "text": "おうじは「僕と一緒に住んでください」と言いました。",
-          "start_ms": 363878,
-          "end_ms": 368473,
-          "duration_ms": 4595
+          "text": "おうじは「ぼくといっしょにすんでください」といいました。",
+          "start_ms": 363123,
+          "end_ms": 367683,
+          "duration_ms": 4560
         }
       ]
     },
     {
       "index": 74,
       "text": "ラプンツェルは「はい。",
-      "start_ms": 368973,
-      "end_ms": 371095,
-      "duration_ms": 2122,
+      "start_ms": 368183,
+      "end_ms": 370270,
+      "duration_ms": 2087,
       "clauses": [
         {
           "index": 0,
           "text": "ラプンツェルは「はい。",
-          "start_ms": 368973,
-          "end_ms": 371095,
-          "duration_ms": 2122
+          "start_ms": 368183,
+          "end_ms": 370270,
+          "duration_ms": 2087
         }
       ]
     },
     {
       "index": 75,
-      "text": "でも、とうをでることができません」と言いました。",
-      "start_ms": 371595,
-      "end_ms": 376181,
+      "text": "でも、とうをでることができません」といいました。",
+      "start_ms": 370770,
+      "end_ms": 375356,
       "duration_ms": 4586,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 371595,
-          "end_ms": 372602,
-          "duration_ms": 1007
+          "start_ms": 370770,
+          "end_ms": 371742,
+          "duration_ms": 972
         },
         {
           "index": 1,
-          "text": "とうをでることができません」と言いました。",
-          "start_ms": 372852,
-          "end_ms": 376181,
-          "duration_ms": 3329
+          "text": "とうをでることができません」といいました。",
+          "start_ms": 371992,
+          "end_ms": 375356,
+          "duration_ms": 3364
         }
       ]
     },
     {
       "index": 76,
-      "text": "おうじは「まいばん、僕がとうに登ります。",
-      "start_ms": 376681,
-      "end_ms": 381476,
-      "duration_ms": 4795,
+      "text": "おうじは「まいばん、ぼくがとうにのぼります。",
+      "start_ms": 375856,
+      "end_ms": 380570,
+      "duration_ms": 4714,
       "clauses": [
         {
           "index": 0,
           "text": "おうじは「まいばん、",
-          "start_ms": 376681,
-          "end_ms": 378721,
-          "duration_ms": 2040
+          "start_ms": 375856,
+          "end_ms": 377850,
+          "duration_ms": 1994
         },
         {
           "index": 1,
-          "text": "僕がとうに登ります。",
-          "start_ms": 378971,
-          "end_ms": 381476,
-          "duration_ms": 2505
+          "text": "ぼくがとうにのぼります。",
+          "start_ms": 378100,
+          "end_ms": 380570,
+          "duration_ms": 2470
         }
       ]
     },
     {
       "index": 77,
-      "text": "むじょは朝に来るから、よるに会いましょう」と言いました。",
-      "start_ms": 381976,
-      "end_ms": 387607,
-      "duration_ms": 5631,
+      "text": "まじょはあさにくるから、よるにあいましょう」といいました。",
+      "start_ms": 381070,
+      "end_ms": 386713,
+      "duration_ms": 5643,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょは朝に来るから、",
-          "start_ms": 381976,
-          "end_ms": 384434,
-          "duration_ms": 2458
+          "text": "まじょはあさにくるから、",
+          "start_ms": 381070,
+          "end_ms": 383552,
+          "duration_ms": 2482
         },
         {
           "index": 1,
-          "text": "よるに会いましょう」と言いました。",
-          "start_ms": 384684,
-          "end_ms": 387607,
-          "duration_ms": 2923
+          "text": "よるにあいましょう」といいました。",
+          "start_ms": 383802,
+          "end_ms": 386713,
+          "duration_ms": 2911
         }
       ]
     },
     {
       "index": 78,
-      "text": "それから、おうじはまいばんラプンツェルに会いました。",
-      "start_ms": 388107,
-      "end_ms": 393575,
-      "duration_ms": 5468,
+      "text": "それから、おうじはまいばんラプンツェルにあいました。",
+      "start_ms": 387213,
+      "end_ms": 392705,
+      "duration_ms": 5492,
       "clauses": [
         {
           "index": 0,
           "text": "それから、",
-          "start_ms": 388107,
-          "end_ms": 389613,
-          "duration_ms": 1506
+          "start_ms": 387213,
+          "end_ms": 388743,
+          "duration_ms": 1530
         },
         {
           "index": 1,
-          "text": "おうじはまいばんラプンツェルに会いました。",
-          "start_ms": 389863,
-          "end_ms": 393575,
+          "text": "おうじはまいばんラプンツェルにあいました。",
+          "start_ms": 388993,
+          "end_ms": 392705,
           "duration_ms": 3712
         }
       ]
     },
     {
       "index": 79,
-      "text": "むじょは何も気がつきませんでした。",
-      "start_ms": 394075,
-      "end_ms": 397276,
-      "duration_ms": 3201,
+      "text": "まじょはなんもきがつきませんでした。",
+      "start_ms": 393205,
+      "end_ms": 396546,
+      "duration_ms": 3341,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょは何も気がつきませんでした。",
-          "start_ms": 394075,
-          "end_ms": 397276,
-          "duration_ms": 3201
+          "text": "まじょはなんもきがつきませんでした。",
+          "start_ms": 393205,
+          "end_ms": 396546,
+          "duration_ms": 3341
         }
       ]
     },
     {
       "index": 80,
-      "text": "ある日、ラプンツェルはむじょに言いました。",
-      "start_ms": 397776,
-      "end_ms": 402733,
-      "duration_ms": 4957,
+      "text": "あるひ、ラプンツェルはまじょにいいました。",
+      "start_ms": 397046,
+      "end_ms": 401900,
+      "duration_ms": 4854,
       "clauses": [
         {
           "index": 0,
-          "text": "ある日、",
-          "start_ms": 397776,
-          "end_ms": 399398,
-          "duration_ms": 1622
+          "text": "あるひ、",
+          "start_ms": 397046,
+          "end_ms": 398425,
+          "duration_ms": 1379
         },
         {
           "index": 1,
-          "text": "ラプンツェルはむじょに言いました。",
-          "start_ms": 399648,
-          "end_ms": 402733,
-          "duration_ms": 3085
+          "text": "ラプンツェルはまじょにいいました。",
+          "start_ms": 398675,
+          "end_ms": 401900,
+          "duration_ms": 3225
         }
       ]
     },
     {
       "index": 81,
       "text": "「おばさん、あなたはおもいです。",
-      "start_ms": 403233,
-      "end_ms": 407006,
-      "duration_ms": 3773,
+      "start_ms": 402400,
+      "end_ms": 406127,
+      "duration_ms": 3727,
       "clauses": [
         {
           "index": 0,
           "text": "「おばさん、",
-          "start_ms": 403233,
-          "end_ms": 404495,
-          "duration_ms": 1262
+          "start_ms": 402400,
+          "end_ms": 403628,
+          "duration_ms": 1228
         },
         {
           "index": 1,
           "text": "あなたはおもいです。",
-          "start_ms": 404745,
-          "end_ms": 407006,
-          "duration_ms": 2261
+          "start_ms": 403878,
+          "end_ms": 406127,
+          "duration_ms": 2249
         }
       ]
     },
     {
       "index": 82,
-      "text": "だから、上にのぼるとき、かみがすごく重かったです」。",
-      "start_ms": 407506,
-      "end_ms": 414046,
-      "duration_ms": 6540,
+      "text": "だから、うえにのぼるとき、かみがすごくおもかったです」。",
+      "start_ms": 406627,
+      "end_ms": 413132,
+      "duration_ms": 6505,
       "clauses": [
         {
           "index": 0,
           "text": "だから、",
-          "start_ms": 407506,
-          "end_ms": 408664,
+          "start_ms": 406627,
+          "end_ms": 407785,
           "duration_ms": 1158
         },
         {
           "index": 1,
-          "text": "上にのぼるとき、",
-          "start_ms": 408914,
-          "end_ms": 411036,
-          "duration_ms": 2122
+          "text": "うえにのぼるとき、",
+          "start_ms": 408035,
+          "end_ms": 410122,
+          "duration_ms": 2087
         },
         {
           "index": 2,
-          "text": "かみがすごく重かったです」。",
-          "start_ms": 411286,
-          "end_ms": 414046,
+          "text": "かみがすごくおもかったです」。",
+          "start_ms": 410372,
+          "end_ms": 413132,
           "duration_ms": 2760
         }
       ]
     },
     {
       "index": 83,
-      "text": "むじょは「あなたはおうじと話したのでしょう。",
-      "start_ms": 414546,
-      "end_ms": 418490,
-      "duration_ms": 3944,
+      "text": "まじょは「あなたはおうじとはなしたのでしょう。",
+      "start_ms": 413632,
+      "end_ms": 417623,
+      "duration_ms": 3991,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょは「あなたはおうじと話したのでしょう。",
-          "start_ms": 414546,
-          "end_ms": 418490,
-          "duration_ms": 3944
+          "text": "まじょは「あなたはおうじとはなしたのでしょう。",
+          "start_ms": 413632,
+          "end_ms": 417623,
+          "duration_ms": 3991
         }
       ]
     },
     {
       "index": 84,
-      "text": "悪い子ですね」と怒りました。",
-      "start_ms": 418990,
-      "end_ms": 421890,
+      "text": "わるいこですね」とおこりました。",
+      "start_ms": 418123,
+      "end_ms": 421023,
       "duration_ms": 2900,
       "clauses": [
         {
           "index": 0,
-          "text": "悪い子ですね」と怒りました。",
-          "start_ms": 418990,
-          "end_ms": 421890,
+          "text": "わるいこですね」とおこりました。",
+          "start_ms": 418123,
+          "end_ms": 421023,
           "duration_ms": 2900
         }
       ]
     },
     {
       "index": 85,
-      "text": "むじょはラプンツェルのながいかみを切りました。",
-      "start_ms": 422390,
-      "end_ms": 426183,
-      "duration_ms": 3793,
+      "text": "まじょはラプンツェルのながいかみをきりました。",
+      "start_ms": 421523,
+      "end_ms": 425363,
+      "duration_ms": 3840,
       "clauses": [
         {
           "index": 0,
-          "text": "むじょはラプンツェルのながいかみを切りました。",
-          "start_ms": 422390,
-          "end_ms": 426183,
-          "duration_ms": 3793
+          "text": "まじょはラプンツェルのながいかみをきりました。",
+          "start_ms": 421523,
+          "end_ms": 425363,
+          "duration_ms": 3840
         }
       ]
     },
     {
       "index": 86,
-      "text": "そして、ラプンツェルをとおいやまに連れて行きました。",
-      "start_ms": 426683,
-      "end_ms": 431954,
-      "duration_ms": 5271,
+      "text": "そして、ラプンツェルをとおいやまにつれていきました。",
+      "start_ms": 425863,
+      "end_ms": 431157,
+      "duration_ms": 5294,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 426683,
-          "end_ms": 428073,
-          "duration_ms": 1390
+          "start_ms": 425863,
+          "end_ms": 427230,
+          "duration_ms": 1367
         },
         {
           "index": 1,
-          "text": "ラプンツェルをとおいやまに連れて行きました。",
-          "start_ms": 428323,
-          "end_ms": 431954,
-          "duration_ms": 3631
+          "text": "ラプンツェルをとおいやまにつれていきました。",
+          "start_ms": 427480,
+          "end_ms": 431157,
+          "duration_ms": 3677
         }
       ]
     },
     {
       "index": 87,
-      "text": "ラプンツェルはそこで一人で生活しました。",
-      "start_ms": 432454,
-      "end_ms": 436526,
-      "duration_ms": 4072,
+      "text": "ラプンツェルはそこでひとりでせいかつしました。",
+      "start_ms": 431657,
+      "end_ms": 435706,
+      "duration_ms": 4049,
       "clauses": [
         {
           "index": 0,
-          "text": "ラプンツェルはそこで一人で生活しました。",
-          "start_ms": 432454,
-          "end_ms": 436526,
-          "duration_ms": 4072
+          "text": "ラプンツェルはそこでひとりでせいかつしました。",
+          "start_ms": 431657,
+          "end_ms": 435706,
+          "duration_ms": 4049
         }
       ]
     },
     {
       "index": 88,
-      "text": "すごく悲しかったです。",
-      "start_ms": 437026,
-      "end_ms": 439449,
-      "duration_ms": 2423,
+      "text": "すごくかなしかったです。",
+      "start_ms": 436206,
+      "end_ms": 438722,
+      "duration_ms": 2516,
       "clauses": [
         {
           "index": 0,
-          "text": "すごく悲しかったです。",
-          "start_ms": 437026,
-          "end_ms": 439449,
-          "duration_ms": 2423
+          "text": "すごくかなしかったです。",
+          "start_ms": 436206,
+          "end_ms": 438722,
+          "duration_ms": 2516
         }
       ]
     },
     {
       "index": 89,
-      "text": "その日、むじょは切ったかみをまどの側に置きました。",
-      "start_ms": 439949,
-      "end_ms": 445581,
-      "duration_ms": 5632,
+      "text": "そのひ、まじょはきったかみをまどのそばにおくきました。",
+      "start_ms": 439222,
+      "end_ms": 444922,
+      "duration_ms": 5700,
       "clauses": [
         {
           "index": 0,
-          "text": "その日、",
-          "start_ms": 439949,
-          "end_ms": 441479,
-          "duration_ms": 1530
+          "text": "そのひ、",
+          "start_ms": 439222,
+          "end_ms": 440635,
+          "duration_ms": 1413
         },
         {
           "index": 1,
-          "text": "むじょは切ったかみをまどの側に置きました。",
-          "start_ms": 441729,
-          "end_ms": 445581,
-          "duration_ms": 3852
+          "text": "まじょはきったかみをまどのそばにおくきました。",
+          "start_ms": 440885,
+          "end_ms": 444922,
+          "duration_ms": 4037
         }
       ]
     },
     {
       "index": 90,
-      "text": "よる、おうじが来ました。",
-      "start_ms": 446081,
-      "end_ms": 449240,
-      "duration_ms": 3159,
+      "text": "よる、おうじがきました。",
+      "start_ms": 445422,
+      "end_ms": 448650,
+      "duration_ms": 3228,
       "clauses": [
         {
           "index": 0,
           "text": "よる、",
-          "start_ms": 446081,
-          "end_ms": 446984,
-          "duration_ms": 903
+          "start_ms": 445422,
+          "end_ms": 446336,
+          "duration_ms": 914
         },
         {
           "index": 1,
-          "text": "おうじが来ました。",
-          "start_ms": 447234,
-          "end_ms": 449240,
-          "duration_ms": 2006
+          "text": "おうじがきました。",
+          "start_ms": 446586,
+          "end_ms": 448650,
+          "duration_ms": 2064
         }
       ]
     },
     {
       "index": 91,
-      "text": "「ラプンツェル、かみを下ろしてください」と言いました。",
-      "start_ms": 449740,
-      "end_ms": 454988,
-      "duration_ms": 5248,
+      "text": "「ラプンツェル、かみをおろしてください」といいました。",
+      "start_ms": 449150,
+      "end_ms": 454282,
+      "duration_ms": 5132,
       "clauses": [
         {
           "index": 0,
           "text": "「ラプンツェル、",
-          "start_ms": 449740,
-          "end_ms": 451444,
-          "duration_ms": 1704
+          "start_ms": 449150,
+          "end_ms": 450877,
+          "duration_ms": 1727
         },
         {
           "index": 1,
-          "text": "かみを下ろしてください」と言いました。",
-          "start_ms": 451694,
-          "end_ms": 454988,
-          "duration_ms": 3294
+          "text": "かみをおろしてください」といいました。",
+          "start_ms": 451127,
+          "end_ms": 454282,
+          "duration_ms": 3155
         }
       ]
     },
     {
       "index": 92,
-      "text": "かみを下ろしたので、おうじは上に登りました。",
-      "start_ms": 455488,
-      "end_ms": 461073,
-      "duration_ms": 5585,
+      "text": "かみをおろしたので、おうじはうえにのぼりました。",
+      "start_ms": 454782,
+      "end_ms": 460204,
+      "duration_ms": 5422,
       "clauses": [
         {
           "index": 0,
-          "text": "かみを下ろしたので、",
-          "start_ms": 455488,
-          "end_ms": 457749,
-          "duration_ms": 2261
+          "text": "かみをおろしたので、",
+          "start_ms": 454782,
+          "end_ms": 456927,
+          "duration_ms": 2145
         },
         {
           "index": 1,
-          "text": "おうじは上に登りました。",
-          "start_ms": 457999,
-          "end_ms": 461073,
-          "duration_ms": 3074
+          "text": "おうじはうえにのぼりました。",
+          "start_ms": 457177,
+          "end_ms": 460204,
+          "duration_ms": 3027
         }
       ]
     },
     {
       "index": 93,
-      "text": "でも、そこにはむじょがいました。",
-      "start_ms": 461573,
-      "end_ms": 465625,
-      "duration_ms": 4052,
+      "text": "でも、そこにはまじょがいました。",
+      "start_ms": 460704,
+      "end_ms": 464710,
+      "duration_ms": 4006,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 461573,
-          "end_ms": 462568,
-          "duration_ms": 995
+          "start_ms": 460704,
+          "end_ms": 461711,
+          "duration_ms": 1007
         },
         {
           "index": 1,
-          "text": "そこにはむじょがいました。",
-          "start_ms": 462818,
-          "end_ms": 465625,
-          "duration_ms": 2807
+          "text": "そこにはまじょがいました。",
+          "start_ms": 461961,
+          "end_ms": 464710,
+          "duration_ms": 2749
         }
       ]
     },
     {
       "index": 94,
       "text": "「もうラプンツェルはここにいません。",
-      "start_ms": 466125,
-      "end_ms": 469233,
-      "duration_ms": 3108,
+      "start_ms": 465210,
+      "end_ms": 468260,
+      "duration_ms": 3050,
       "clauses": [
         {
           "index": 0,
           "text": "「もうラプンツェルはここにいません。",
-          "start_ms": 466125,
-          "end_ms": 469233,
-          "duration_ms": 3108
+          "start_ms": 465210,
+          "end_ms": 468260,
+          "duration_ms": 3050
         }
       ]
     },
     {
       "index": 95,
-      "text": "あなたはもうラプンツェルに会いません」と言いました。",
-      "start_ms": 469733,
-      "end_ms": 473793,
-      "duration_ms": 4060,
+      "text": "あなたはもうラプンツェルにあいません」といいました。",
+      "start_ms": 468760,
+      "end_ms": 472774,
+      "duration_ms": 4014,
       "clauses": [
         {
           "index": 0,
-          "text": "あなたはもうラプンツェルに会いません」と言いました。",
-          "start_ms": 469733,
-          "end_ms": 473793,
-          "duration_ms": 4060
+          "text": "あなたはもうラプンツェルにあいません」といいました。",
+          "start_ms": 468760,
+          "end_ms": 472774,
+          "duration_ms": 4014
         }
       ]
     },
     {
       "index": 96,
-      "text": "おうじはすごく悲しくて、とうの上から落ちました。",
-      "start_ms": 474293,
-      "end_ms": 479854,
-      "duration_ms": 5561,
+      "text": "おうじはすごくかなしくて、とうのうえからおちました。",
+      "start_ms": 473274,
+      "end_ms": 478881,
+      "duration_ms": 5607,
       "clauses": [
         {
           "index": 0,
-          "text": "おうじはすごく悲しくて、",
-          "start_ms": 474293,
-          "end_ms": 476995,
-          "duration_ms": 2702
+          "text": "おうじはすごくかなしくて、",
+          "start_ms": 473274,
+          "end_ms": 476057,
+          "duration_ms": 2783
         },
         {
           "index": 1,
-          "text": "とうの上から落ちました。",
-          "start_ms": 477245,
-          "end_ms": 479854,
-          "duration_ms": 2609
+          "text": "とうのうえからおちました。",
+          "start_ms": 476307,
+          "end_ms": 478881,
+          "duration_ms": 2574
         }
       ]
     },
     {
       "index": 97,
-      "text": "おうじは助かりました。",
-      "start_ms": 480354,
-      "end_ms": 482917,
-      "duration_ms": 2563,
+      "text": "おうじはたすかりました。",
+      "start_ms": 479381,
+      "end_ms": 481979,
+      "duration_ms": 2598,
       "clauses": [
         {
           "index": 0,
-          "text": "おうじは助かりました。",
-          "start_ms": 480354,
-          "end_ms": 482917,
-          "duration_ms": 2563
+          "text": "おうじはたすかりました。",
+          "start_ms": 479381,
+          "end_ms": 481979,
+          "duration_ms": 2598
         }
       ]
     },
     {
       "index": 98,
-      "text": "でも、おうじのめは、もう何も見ることができなくなりました。",
-      "start_ms": 483417,
-      "end_ms": 490223,
-      "duration_ms": 6806,
+      "text": "でも、おうじのめは、もうなにもみることができなくなりました。",
+      "start_ms": 482479,
+      "end_ms": 489228,
+      "duration_ms": 6749,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 483417,
-          "end_ms": 484412,
-          "duration_ms": 995
+          "start_ms": 482479,
+          "end_ms": 483463,
+          "duration_ms": 984
         },
         {
           "index": 1,
           "text": "おうじのめは、",
-          "start_ms": 484662,
-          "end_ms": 486435,
-          "duration_ms": 1773
+          "start_ms": 483713,
+          "end_ms": 485463,
+          "duration_ms": 1750
         },
         {
           "index": 2,
-          "text": "もう何も見ることができなくなりました。",
-          "start_ms": 486685,
-          "end_ms": 490223,
-          "duration_ms": 3538
+          "text": "もうなにもみることができなくなりました。",
+          "start_ms": 485713,
+          "end_ms": 489228,
+          "duration_ms": 3515
         }
       ]
     },
     {
       "index": 99,
-      "text": "おうじは毎日、やまの中を歩きました。",
-      "start_ms": 490723,
-      "end_ms": 495970,
-      "duration_ms": 5247,
+      "text": "おうじはまいにち、やまのなかをあるきました。",
+      "start_ms": 489728,
+      "end_ms": 494894,
+      "duration_ms": 5166,
       "clauses": [
         {
           "index": 0,
-          "text": "おうじは毎日、",
-          "start_ms": 490723,
-          "end_ms": 492879,
-          "duration_ms": 2156
+          "text": "おうじはまいにち、",
+          "start_ms": 489728,
+          "end_ms": 491861,
+          "duration_ms": 2133
         },
         {
           "index": 1,
-          "text": "やまの中を歩きました。",
-          "start_ms": 493129,
-          "end_ms": 495970,
-          "duration_ms": 2841
+          "text": "やまのなかをあるきました。",
+          "start_ms": 492111,
+          "end_ms": 494894,
+          "duration_ms": 2783
         }
       ]
     },
     {
       "index": 100,
       "text": "ラプンツェルのことを、いつもおもいでしていました。",
-      "start_ms": 496470,
-      "end_ms": 501579,
-      "duration_ms": 5109,
+      "start_ms": 495394,
+      "end_ms": 500537,
+      "duration_ms": 5143,
       "clauses": [
         {
           "index": 0,
           "text": "ラプンツェルのことを、",
-          "start_ms": 496470,
-          "end_ms": 498685,
-          "duration_ms": 2215
+          "start_ms": 495394,
+          "end_ms": 497655,
+          "duration_ms": 2261
         },
         {
           "index": 1,
           "text": "いつもおもいでしていました。",
-          "start_ms": 498935,
-          "end_ms": 501579,
-          "duration_ms": 2644
+          "start_ms": 497905,
+          "end_ms": 500537,
+          "duration_ms": 2632
         }
       ]
     },
     {
       "index": 101,
-      "text": "ながい時間がたちました。",
-      "start_ms": 502079,
-      "end_ms": 504735,
-      "duration_ms": 2656,
+      "text": "ながいじかんがたちました。",
+      "start_ms": 501037,
+      "end_ms": 503635,
+      "duration_ms": 2598,
       "clauses": [
         {
           "index": 0,
-          "text": "ながい時間がたちました。",
-          "start_ms": 502079,
-          "end_ms": 504735,
-          "duration_ms": 2656
+          "text": "ながいじかんがたちました。",
+          "start_ms": 501037,
+          "end_ms": 503635,
+          "duration_ms": 2598
         }
       ]
     },
     {
       "index": 102,
-      "text": "ある日、おうじはとおいやまでうたが聞こえました。",
-      "start_ms": 505235,
-      "end_ms": 510668,
-      "duration_ms": 5433,
+      "text": "あるひ、おうじはとおいやまでうたがきこえました。",
+      "start_ms": 504135,
+      "end_ms": 509499,
+      "duration_ms": 5364,
       "clauses": [
         {
           "index": 0,
-          "text": "ある日、",
-          "start_ms": 505235,
-          "end_ms": 506799,
-          "duration_ms": 1564
+          "text": "あるひ、",
+          "start_ms": 504135,
+          "end_ms": 505537,
+          "duration_ms": 1402
         },
         {
           "index": 1,
-          "text": "おうじはとおいやまでうたが聞こえました。",
-          "start_ms": 507049,
-          "end_ms": 510668,
-          "duration_ms": 3619
+          "text": "おうじはとおいやまでうたがきこえました。",
+          "start_ms": 505787,
+          "end_ms": 509499,
+          "duration_ms": 3712
         }
       ]
     },
     {
       "index": 103,
       "text": "それはラプンツェルのうたでした。",
-      "start_ms": 511168,
-      "end_ms": 514381,
-      "duration_ms": 3213,
+      "start_ms": 509999,
+      "end_ms": 513177,
+      "duration_ms": 3178,
       "clauses": [
         {
           "index": 0,
           "text": "それはラプンツェルのうたでした。",
-          "start_ms": 511168,
-          "end_ms": 514381,
-          "duration_ms": 3213
+          "start_ms": 509999,
+          "end_ms": 513177,
+          "duration_ms": 3178
         }
       ]
     },
     {
       "index": 104,
-      "text": "おうじはうたのばしょに行きました。",
-      "start_ms": 514881,
-      "end_ms": 518291,
-      "duration_ms": 3410,
+      "text": "おうじはうたのばしょにいきました。",
+      "start_ms": 513677,
+      "end_ms": 517018,
+      "duration_ms": 3341,
       "clauses": [
         {
           "index": 0,
-          "text": "おうじはうたのばしょに行きました。",
-          "start_ms": 514881,
-          "end_ms": 518291,
-          "duration_ms": 3410
+          "text": "おうじはうたのばしょにいきました。",
+          "start_ms": 513677,
+          "end_ms": 517018,
+          "duration_ms": 3341
         }
       ]
     },
     {
       "index": 105,
       "text": "ラプンツェルには、おとこのことおんなのこのあかちゃんがいました。",
-      "start_ms": 518791,
-      "end_ms": 524922,
-      "duration_ms": 6131,
+      "start_ms": 517518,
+      "end_ms": 523730,
+      "duration_ms": 6212,
       "clauses": [
         {
           "index": 0,
           "text": "ラプンツェルには、",
-          "start_ms": 518791,
-          "end_ms": 520762,
-          "duration_ms": 1971
+          "start_ms": 517518,
+          "end_ms": 519512,
+          "duration_ms": 1994
         },
         {
           "index": 1,
           "text": "おとこのことおんなのこのあかちゃんがいました。",
-          "start_ms": 521012,
-          "end_ms": 524922,
-          "duration_ms": 3910
+          "start_ms": 519762,
+          "end_ms": 523730,
+          "duration_ms": 3968
         }
       ]
     },
     {
       "index": 106,
-      "text": "ラプンツェルはおうじのなまえを言いました。",
-      "start_ms": 525422,
-      "end_ms": 529366,
-      "duration_ms": 3944,
+      "text": "ラプンツェルはおうじのなまえをいいました。",
+      "start_ms": 524230,
+      "end_ms": 528058,
+      "duration_ms": 3828,
       "clauses": [
         {
           "index": 0,
-          "text": "ラプンツェルはおうじのなまえを言いました。",
-          "start_ms": 525422,
-          "end_ms": 529366,
-          "duration_ms": 3944
+          "text": "ラプンツェルはおうじのなまえをいいました。",
+          "start_ms": 524230,
+          "end_ms": 528058,
+          "duration_ms": 3828
         }
       ]
     },
     {
       "index": 107,
-      "text": "ラプンツェルがおうじのかおに触ったとき、おうじのめはなおりました。",
-      "start_ms": 529866,
-      "end_ms": 536519,
-      "duration_ms": 6653,
+      "text": "ラプンツェルがおうじのかおにさわったとき、おうじのめはなおりました。",
+      "start_ms": 528558,
+      "end_ms": 535269,
+      "duration_ms": 6711,
       "clauses": [
         {
           "index": 0,
-          "text": "ラプンツェルがおうじのかおに触ったとき、",
-          "start_ms": 529866,
-          "end_ms": 533741,
+          "text": "ラプンツェルがおうじのかおにさわったとき、",
+          "start_ms": 528558,
+          "end_ms": 532433,
           "duration_ms": 3875
         },
         {
           "index": 1,
           "text": "おうじのめはなおりました。",
-          "start_ms": 533991,
-          "end_ms": 536519,
-          "duration_ms": 2528
+          "start_ms": 532683,
+          "end_ms": 535269,
+          "duration_ms": 2586
         }
       ]
     },
     {
       "index": 108,
-      "text": "二人はすごく嬉しかったです。",
-      "start_ms": 537019,
-      "end_ms": 540151,
-      "duration_ms": 3132,
+      "text": "ふたりはすごくうれしかったです。",
+      "start_ms": 535769,
+      "end_ms": 538912,
+      "duration_ms": 3143,
       "clauses": [
         {
           "index": 0,
-          "text": "二人はすごく嬉しかったです。",
-          "start_ms": 537019,
-          "end_ms": 540151,
-          "duration_ms": 3132
+          "text": "ふたりはすごくうれしかったです。",
+          "start_ms": 535769,
+          "end_ms": 538912,
+          "duration_ms": 3143
         }
       ]
     },
     {
       "index": 109,
-      "text": "二人はおうじのくにに帰りました。",
-      "start_ms": 540651,
-      "end_ms": 544201,
-      "duration_ms": 3550,
+      "text": "ふたりはおうじのくににかえりました。",
+      "start_ms": 539412,
+      "end_ms": 543055,
+      "duration_ms": 3643,
       "clauses": [
         {
           "index": 0,
-          "text": "二人はおうじのくにに帰りました。",
-          "start_ms": 540651,
-          "end_ms": 544201,
-          "duration_ms": 3550
+          "text": "ふたりはおうじのくににかえりました。",
+          "start_ms": 539412,
+          "end_ms": 543055,
+          "duration_ms": 3643
         }
       ]
     },
     {
       "index": 110,
-      "text": "二人は仲よく、すごく楽しく住みました。",
-      "start_ms": 544701,
-      "end_ms": 549856,
-      "duration_ms": 5155,
+      "text": "ふたりはなかよく、すごくたのしくすみました。",
+      "start_ms": 543555,
+      "end_ms": 548675,
+      "duration_ms": 5120,
       "clauses": [
         {
           "index": 0,
-          "text": "二人は仲よく、",
-          "start_ms": 544701,
-          "end_ms": 546811,
-          "duration_ms": 2110
+          "text": "ふたりはなかよく、",
+          "start_ms": 543555,
+          "end_ms": 545607,
+          "duration_ms": 2052
         },
         {
           "index": 1,
-          "text": "すごく楽しく住みました。",
-          "start_ms": 547061,
-          "end_ms": 549856,
-          "duration_ms": 2795
+          "text": "すごくたのしくすみました。",
+          "start_ms": 545857,
+          "end_ms": 548675,
+          "duration_ms": 2818
         }
       ]
     }
