@@ -2,18 +2,18 @@
   "audio_file": "b2.1-s4-onigiri-nombres-historia-c06.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 39941,
+  "total_duration_ms": 40036,
   "sentences": [
     {
       "index": 0,
-      "text": "第六章　なぜ「三角」なのか？",
+      "text": "だいろくしょう　なぜ「三角」なのか？",
       "start_ms": 0,
       "end_ms": 2801,
       "duration_ms": 2801,
       "clauses": [
         {
           "index": 0,
-          "text": "第六章　なぜ「三角」なのか？",
+          "text": "だいろくしょう　なぜ「三角」なのか？",
           "start_ms": 0,
           "end_ms": 2801,
           "duration_ms": 2801
@@ -24,44 +24,44 @@
       "index": 1,
       "text": "にほんのおにぎりは、さんかくけいがとても多いです。",
       "start_ms": 3301,
-      "end_ms": 8317,
-      "duration_ms": 5016,
+      "end_ms": 8398,
+      "duration_ms": 5097,
       "clauses": [
         {
           "index": 0,
           "text": "にほんのおにぎりは、",
           "start_ms": 3301,
-          "end_ms": 5185,
-          "duration_ms": 1884
+          "end_ms": 5231,
+          "duration_ms": 1930
         },
         {
           "index": 1,
           "text": "さんかくけいがとても多いです。",
-          "start_ms": 5435,
-          "end_ms": 8317,
-          "duration_ms": 2882
+          "start_ms": 5481,
+          "end_ms": 8398,
+          "duration_ms": 2917
         }
       ]
     },
     {
       "index": 2,
       "text": "コンビニのおにぎりになってから、そのようすが決まりました。",
-      "start_ms": 8817,
-      "end_ms": 14042,
-      "duration_ms": 5225,
+      "start_ms": 8898,
+      "end_ms": 14135,
+      "duration_ms": 5237,
       "clauses": [
         {
           "index": 0,
           "text": "コンビニのおにぎりになってから、",
-          "start_ms": 8817,
-          "end_ms": 11409,
-          "duration_ms": 2592
+          "start_ms": 8898,
+          "end_ms": 11502,
+          "duration_ms": 2604
         },
         {
           "index": 1,
           "text": "そのようすが決まりました。",
-          "start_ms": 11659,
-          "end_ms": 14042,
+          "start_ms": 11752,
+          "end_ms": 14135,
           "duration_ms": 2383
         }
       ]
@@ -69,82 +69,82 @@
     {
       "index": 3,
       "text": "さんかくけいは、持つ場合、壊さずに持ちやすいからです。",
-      "start_ms": 14542,
-      "end_ms": 20949,
-      "duration_ms": 6407,
+      "start_ms": 14635,
+      "end_ms": 20984,
+      "duration_ms": 6349,
       "clauses": [
         {
           "index": 0,
           "text": "さんかくけいは、",
-          "start_ms": 14542,
-          "end_ms": 16356,
-          "duration_ms": 1814
+          "start_ms": 14635,
+          "end_ms": 16368,
+          "duration_ms": 1733
         },
         {
           "index": 1,
           "text": "持つ場合、",
-          "start_ms": 16606,
-          "end_ms": 18049,
+          "start_ms": 16618,
+          "end_ms": 18061,
           "duration_ms": 1443
         },
         {
           "index": 2,
           "text": "壊さずに持ちやすいからです。",
-          "start_ms": 18299,
-          "end_ms": 20949,
-          "duration_ms": 2650
+          "start_ms": 18311,
+          "end_ms": 20984,
+          "duration_ms": 2673
         }
       ]
     },
     {
       "index": 4,
       "text": "多く作って、多く運ぶのにも便利です。",
-      "start_ms": 21449,
-      "end_ms": 25838,
-      "duration_ms": 4389,
+      "start_ms": 21484,
+      "end_ms": 25955,
+      "duration_ms": 4471,
       "clauses": [
         {
           "index": 0,
           "text": "多く作って、",
-          "start_ms": 21449,
-          "end_ms": 23019,
-          "duration_ms": 1570
+          "start_ms": 21484,
+          "end_ms": 23043,
+          "duration_ms": 1559
         },
         {
           "index": 1,
           "text": "多く運ぶのにも便利です。",
-          "start_ms": 23269,
-          "end_ms": 25838,
-          "duration_ms": 2569
+          "start_ms": 23293,
+          "end_ms": 25955,
+          "duration_ms": 2662
         }
       ]
     },
     {
       "index": 5,
       "text": "むかしは、にほんでも、ばしょによってようすが違いました。",
-      "start_ms": 26338,
-      "end_ms": 32628,
-      "duration_ms": 6290,
+      "start_ms": 26455,
+      "end_ms": 32746,
+      "duration_ms": 6291,
       "clauses": [
         {
           "index": 0,
           "text": "むかしは、",
-          "start_ms": 26338,
-          "end_ms": 27699,
-          "duration_ms": 1361
+          "start_ms": 26455,
+          "end_ms": 27770,
+          "duration_ms": 1315
         },
         {
           "index": 1,
           "text": "にほんでも、",
-          "start_ms": 27949,
-          "end_ms": 29403,
-          "duration_ms": 1454
+          "start_ms": 28020,
+          "end_ms": 29521,
+          "duration_ms": 1501
         },
         {
           "index": 2,
           "text": "ばしょによってようすが違いました。",
-          "start_ms": 29653,
-          "end_ms": 32628,
+          "start_ms": 29771,
+          "end_ms": 32746,
           "duration_ms": 2975
         }
       ]
@@ -152,30 +152,30 @@
     {
       "index": 6,
       "text": "今は、いろいろななかみを入れて、食べやすくするためのようすもあります。",
-      "start_ms": 33128,
-      "end_ms": 39941,
-      "duration_ms": 6813,
+      "start_ms": 33246,
+      "end_ms": 40036,
+      "duration_ms": 6790,
       "clauses": [
         {
           "index": 0,
           "text": "今は、",
-          "start_ms": 33128,
-          "end_ms": 34037,
-          "duration_ms": 909
+          "start_ms": 33246,
+          "end_ms": 34131,
+          "duration_ms": 885
         },
         {
           "index": 1,
           "text": "いろいろななかみを入れて、",
-          "start_ms": 34287,
-          "end_ms": 36600,
-          "duration_ms": 2313
+          "start_ms": 34381,
+          "end_ms": 36718,
+          "duration_ms": 2337
         },
         {
           "index": 2,
           "text": "食べやすくするためのようすもあります。",
-          "start_ms": 36850,
-          "end_ms": 39941,
-          "duration_ms": 3091
+          "start_ms": 36968,
+          "end_ms": 40036,
+          "duration_ms": 3068
         }
       ]
     }

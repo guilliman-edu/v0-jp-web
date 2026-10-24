@@ -2,265 +2,265 @@
   "audio_file": "b2.1-s4-onigiri-nombres-historia-c02.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 70915,
+  "total_duration_ms": 70624,
   "sentences": [
     {
       "index": 0,
-      "text": "第二章　昔のおにぎり",
+      "text": "だいにしょう　むかしのおにぎり",
       "start_ms": 0,
-      "end_ms": 2453,
-      "duration_ms": 2453,
+      "end_ms": 2430,
+      "duration_ms": 2430,
       "clauses": [
         {
           "index": 0,
-          "text": "第二章　昔のおにぎり",
+          "text": "だいにしょう　むかしのおにぎり",
           "start_ms": 0,
-          "end_ms": 2453,
-          "duration_ms": 2453
+          "end_ms": 2430,
+          "duration_ms": 2430
         }
       ]
     },
     {
       "index": 1,
       "text": "おにぎりは、いつからあったのか、はっきりしていません。",
-      "start_ms": 2953,
-      "end_ms": 8943,
-      "duration_ms": 5990,
+      "start_ms": 2930,
+      "end_ms": 8838,
+      "duration_ms": 5908,
       "clauses": [
         {
           "index": 0,
           "text": "おにぎりは、",
-          "start_ms": 2953,
-          "end_ms": 4431,
-          "duration_ms": 1478
+          "start_ms": 2930,
+          "end_ms": 4384,
+          "duration_ms": 1454
         },
         {
           "index": 1,
           "text": "いつからあったのか、",
-          "start_ms": 4681,
-          "end_ms": 6693,
-          "duration_ms": 2012
+          "start_ms": 4634,
+          "end_ms": 6611,
+          "duration_ms": 1977
         },
         {
           "index": 2,
           "text": "はっきりしていません。",
-          "start_ms": 6943,
-          "end_ms": 8943,
-          "duration_ms": 2000
+          "start_ms": 6861,
+          "end_ms": 8838,
+          "duration_ms": 1977
         }
       ]
     },
     {
       "index": 2,
       "text": "にほんでこめを作るようになってから、人は作ったこめを手でまとめていたと考えられています。",
-      "start_ms": 9443,
-      "end_ms": 17756,
-      "duration_ms": 8313,
+      "start_ms": 9338,
+      "end_ms": 17465,
+      "duration_ms": 8127,
       "clauses": [
         {
           "index": 0,
           "text": "にほんでこめを作るようになってから、",
-          "start_ms": 9443,
-          "end_ms": 12476,
-          "duration_ms": 3033
+          "start_ms": 9338,
+          "end_ms": 12336,
+          "duration_ms": 2998
         },
         {
           "index": 1,
           "text": "人は作ったこめを手でまとめていたと考えられています。",
-          "start_ms": 12726,
-          "end_ms": 17756,
-          "duration_ms": 5030
+          "start_ms": 12586,
+          "end_ms": 17465,
+          "duration_ms": 4879
         }
       ]
     },
     {
       "index": 3,
       "text": "にほんのあるばしょでは、2000年前のこめが出たこともあります。",
-      "start_ms": 18256,
-      "end_ms": 23841,
-      "duration_ms": 5585,
+      "start_ms": 17965,
+      "end_ms": 23608,
+      "duration_ms": 5643,
       "clauses": [
         {
           "index": 0,
           "text": "にほんのあるばしょでは、",
-          "start_ms": 18256,
-          "end_ms": 20326,
-          "duration_ms": 2070
+          "start_ms": 17965,
+          "end_ms": 20069,
+          "duration_ms": 2104
         },
         {
           "index": 1,
           "text": "2000年前のこめが出たこともあります。",
-          "start_ms": 20576,
-          "end_ms": 23841,
-          "duration_ms": 3265
+          "start_ms": 20319,
+          "end_ms": 23608,
+          "duration_ms": 3289
         }
       ]
     },
     {
       "index": 4,
       "text": "手で作ったのではなく、ほかのしゅだんで作られたと考えられているものもあります。",
-      "start_ms": 24341,
-      "end_ms": 31320,
-      "duration_ms": 6979,
+      "start_ms": 24108,
+      "end_ms": 31179,
+      "duration_ms": 7071,
       "clauses": [
         {
           "index": 0,
           "text": "手で作ったのではなく、",
-          "start_ms": 24341,
-          "end_ms": 26562,
-          "duration_ms": 2221
+          "start_ms": 24108,
+          "end_ms": 26340,
+          "duration_ms": 2232
         },
         {
           "index": 1,
           "text": "ほかのしゅだんで作られたと考えられているものもあります。",
-          "start_ms": 26812,
-          "end_ms": 31320,
-          "duration_ms": 4508
+          "start_ms": 26590,
+          "end_ms": 31179,
+          "duration_ms": 4589
         }
       ]
     },
     {
       "index": 5,
       "text": "そして、それを「むかしのおにぎりのしょうこ」と言っています。",
-      "start_ms": 31820,
-      "end_ms": 37126,
-      "duration_ms": 5306,
+      "start_ms": 31679,
+      "end_ms": 36997,
+      "duration_ms": 5318,
       "clauses": [
         {
           "index": 0,
           "text": "そして、",
-          "start_ms": 31820,
-          "end_ms": 33065,
+          "start_ms": 31679,
+          "end_ms": 32924,
           "duration_ms": 1245
         },
         {
           "index": 1,
           "text": "それを「むかしのおにぎりのしょうこ」と言っています。",
-          "start_ms": 33315,
-          "end_ms": 37126,
-          "duration_ms": 3811
+          "start_ms": 33174,
+          "end_ms": 36997,
+          "duration_ms": 3823
         }
       ]
     },
     {
       "index": 6,
       "text": "このこめについては、人によって違う説明をしています。",
-      "start_ms": 37626,
-      "end_ms": 43222,
-      "duration_ms": 5596,
+      "start_ms": 37497,
+      "end_ms": 43059,
+      "duration_ms": 5562,
       "clauses": [
         {
           "index": 0,
           "text": "このこめについては、",
-          "start_ms": 37626,
-          "end_ms": 39672,
-          "duration_ms": 2046
+          "start_ms": 37497,
+          "end_ms": 39485,
+          "duration_ms": 1988
         },
         {
           "index": 1,
           "text": "人によって違う説明をしています。",
-          "start_ms": 39922,
-          "end_ms": 43222,
-          "duration_ms": 3300
+          "start_ms": 39735,
+          "end_ms": 43059,
+          "duration_ms": 3324
         }
       ]
     },
     {
       "index": 7,
       "text": "大切なのは、こめを手でまとめて持ちやすくすることを、にほんではとてもむかしからやっていることです。",
-      "start_ms": 43722,
-      "end_ms": 53032,
-      "duration_ms": 9310,
+      "start_ms": 43559,
+      "end_ms": 52856,
+      "duration_ms": 9297,
       "clauses": [
         {
           "index": 0,
           "text": "大切なのは、",
-          "start_ms": 43722,
-          "end_ms": 45467,
-          "duration_ms": 1745
+          "start_ms": 43559,
+          "end_ms": 45280,
+          "duration_ms": 1721
         },
         {
           "index": 1,
           "text": "こめを手でまとめて持ちやすくすることを、",
-          "start_ms": 45717,
-          "end_ms": 48994,
-          "duration_ms": 3277
+          "start_ms": 45530,
+          "end_ms": 48795,
+          "duration_ms": 3265
         },
         {
           "index": 2,
           "text": "にほんではとてもむかしからやっていることです。",
-          "start_ms": 49244,
-          "end_ms": 53032,
-          "duration_ms": 3788
+          "start_ms": 49045,
+          "end_ms": 52856,
+          "duration_ms": 3811
         }
       ]
     },
     {
       "index": 8,
       "text": "むかしの本には、にほんごで「にぎりいい」と書かれたことばが出ています。",
-      "start_ms": 53532,
-      "end_ms": 59384,
-      "duration_ms": 5852,
+      "start_ms": 53356,
+      "end_ms": 59254,
+      "duration_ms": 5898,
       "clauses": [
         {
           "index": 0,
           "text": "むかしの本には、",
-          "start_ms": 53532,
-          "end_ms": 55393,
-          "duration_ms": 1861
+          "start_ms": 53356,
+          "end_ms": 55251,
+          "duration_ms": 1895
         },
         {
           "index": 1,
           "text": "にほんごで「にぎりいい」と書かれたことばが出ています。",
-          "start_ms": 55643,
-          "end_ms": 59384,
-          "duration_ms": 3741
+          "start_ms": 55501,
+          "end_ms": 59254,
+          "duration_ms": 3753
         }
       ]
     },
     {
       "index": 9,
       "text": "人はたべものを持って会い、こめをみんなで食べていました。",
-      "start_ms": 59884,
-      "end_ms": 65724,
-      "duration_ms": 5840,
+      "start_ms": 59754,
+      "end_ms": 65421,
+      "duration_ms": 5667,
       "clauses": [
         {
           "index": 0,
           "text": "人はたべものを持って会い、",
-          "start_ms": 59884,
-          "end_ms": 62801,
-          "duration_ms": 2917
+          "start_ms": 59754,
+          "end_ms": 62532,
+          "duration_ms": 2778
         },
         {
           "index": 1,
           "text": "こめをみんなで食べていました。",
-          "start_ms": 63051,
-          "end_ms": 65724,
-          "duration_ms": 2673
+          "start_ms": 62782,
+          "end_ms": 65421,
+          "duration_ms": 2639
         }
       ]
     },
     {
       "index": 10,
       "text": "その使い方は、とてもみじかなものでした。",
-      "start_ms": 66224,
-      "end_ms": 70915,
-      "duration_ms": 4691,
+      "start_ms": 65921,
+      "end_ms": 70624,
+      "duration_ms": 4703,
       "clauses": [
         {
           "index": 0,
           "text": "その使い方は、",
-          "start_ms": 66224,
-          "end_ms": 68166,
-          "duration_ms": 1942
+          "start_ms": 65921,
+          "end_ms": 67840,
+          "duration_ms": 1919
         },
         {
           "index": 1,
           "text": "とてもみじかなものでした。",
-          "start_ms": 68416,
-          "end_ms": 70915,
-          "duration_ms": 2499
+          "start_ms": 68090,
+          "end_ms": 70624,
+          "duration_ms": 2534
         }
       ]
     }

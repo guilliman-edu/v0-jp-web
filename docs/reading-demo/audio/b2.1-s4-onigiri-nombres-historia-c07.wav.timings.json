@@ -2,43 +2,43 @@
   "audio_file": "b2.1-s4-onigiri-nombres-historia-c07.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 49392,
+  "total_duration_ms": 49228,
   "sentences": [
     {
       "index": 0,
-      "text": "第七章　世界でのおにぎり",
+      "text": "だいななしょう　世界でのおにぎり",
       "start_ms": 0,
-      "end_ms": 2697,
-      "duration_ms": 2697,
+      "end_ms": 2650,
+      "duration_ms": 2650,
       "clauses": [
         {
           "index": 0,
-          "text": "第七章　世界でのおにぎり",
+          "text": "だいななしょう　世界でのおにぎり",
           "start_ms": 0,
-          "end_ms": 2697,
-          "duration_ms": 2697
+          "end_ms": 2650,
+          "duration_ms": 2650
         }
       ]
     },
     {
       "index": 1,
       "text": "にほんのおにぎりは、世界でもちゅうもくされています。",
-      "start_ms": 3197,
-      "end_ms": 8190,
-      "duration_ms": 4993,
+      "start_ms": 3150,
+      "end_ms": 8108,
+      "duration_ms": 4958,
       "clauses": [
         {
           "index": 0,
           "text": "にほんのおにぎりは、",
-          "start_ms": 3197,
-          "end_ms": 5127,
-          "duration_ms": 1930
+          "start_ms": 3150,
+          "end_ms": 5045,
+          "duration_ms": 1895
         },
         {
           "index": 1,
           "text": "世界でもちゅうもくされています。",
-          "start_ms": 5377,
-          "end_ms": 8190,
+          "start_ms": 5295,
+          "end_ms": 8108,
           "duration_ms": 2813
         }
       ]
@@ -46,107 +46,107 @@
     {
       "index": 2,
       "text": "おにぎりだけのみせがとても多くなっています。",
-      "start_ms": 8690,
-      "end_ms": 12513,
-      "duration_ms": 3823,
+      "start_ms": 8608,
+      "end_ms": 12396,
+      "duration_ms": 3788,
       "clauses": [
         {
           "index": 0,
           "text": "おにぎりだけのみせがとても多くなっています。",
-          "start_ms": 8690,
-          "end_ms": 12513,
-          "duration_ms": 3823
+          "start_ms": 8608,
+          "end_ms": 12396,
+          "duration_ms": 3788
         }
       ]
     },
     {
       "index": 3,
       "text": "世界の人も食べるようになり、おにぎりをひょうかする人も多くなっています。",
-      "start_ms": 13013,
-      "end_ms": 19562,
-      "duration_ms": 6549,
+      "start_ms": 12896,
+      "end_ms": 19456,
+      "duration_ms": 6560,
       "clauses": [
         {
           "index": 0,
           "text": "世界の人も食べるようになり、",
-          "start_ms": 13013,
-          "end_ms": 15733,
-          "duration_ms": 2720
+          "start_ms": 12896,
+          "end_ms": 15569,
+          "duration_ms": 2673
         },
         {
           "index": 1,
           "text": "おにぎりをひょうかする人も多くなっています。",
-          "start_ms": 15983,
-          "end_ms": 19562,
-          "duration_ms": 3579
+          "start_ms": 15819,
+          "end_ms": 19456,
+          "duration_ms": 3637
         }
       ]
     },
     {
       "index": 4,
       "text": "2024年、えいごの大きなじしょに「onigiri」が出ました。",
-      "start_ms": 20062,
-      "end_ms": 25113,
-      "duration_ms": 5051,
+      "start_ms": 19956,
+      "end_ms": 24937,
+      "duration_ms": 4981,
       "clauses": [
         {
           "index": 0,
           "text": "2024年、",
-          "start_ms": 20062,
-          "end_ms": 22004,
-          "duration_ms": 1942
+          "start_ms": 19956,
+          "end_ms": 21805,
+          "duration_ms": 1849
         },
         {
           "index": 1,
           "text": "えいごの大きなじしょに「onigiri」が出ました。",
-          "start_ms": 22254,
-          "end_ms": 25113,
-          "duration_ms": 2859
+          "start_ms": 22055,
+          "end_ms": 24937,
+          "duration_ms": 2882
         }
       ]
     },
     {
       "index": 5,
       "text": "にほんごのなまえで知られたしょうこです。",
-      "start_ms": 25613,
-      "end_ms": 28704,
-      "duration_ms": 3091,
+      "start_ms": 25437,
+      "end_ms": 28493,
+      "duration_ms": 3056,
       "clauses": [
         {
           "index": 0,
           "text": "にほんごのなまえで知られたしょうこです。",
-          "start_ms": 25613,
-          "end_ms": 28704,
-          "duration_ms": 3091
+          "start_ms": 25437,
+          "end_ms": 28493,
+          "duration_ms": 3056
         }
       ]
     },
     {
       "index": 6,
       "text": "おにぎりは、いろいろなようすになり、世界にも広がっています。",
-      "start_ms": 29204,
-      "end_ms": 35785,
-      "duration_ms": 6581,
+      "start_ms": 28993,
+      "end_ms": 35621,
+      "duration_ms": 6628,
       "clauses": [
         {
           "index": 0,
           "text": "おにぎりは、",
-          "start_ms": 29204,
-          "end_ms": 30658,
-          "duration_ms": 1454
+          "start_ms": 28993,
+          "end_ms": 30471,
+          "duration_ms": 1478
         },
         {
           "index": 1,
           "text": "いろいろなようすになり、",
-          "start_ms": 30908,
-          "end_ms": 33036,
-          "duration_ms": 2128
+          "start_ms": 30721,
+          "end_ms": 32872,
+          "duration_ms": 2151
         },
         {
           "index": 2,
           "text": "世界にも広がっています。",
-          "start_ms": 33286,
-          "end_ms": 35785,
+          "start_ms": 33122,
+          "end_ms": 35621,
           "duration_ms": 2499
         }
       ]
@@ -154,52 +154,52 @@
     {
       "index": 7,
       "text": "でも、こめを手でまとめてみんなで食べるちゅうしんは、今もあります。",
-      "start_ms": 36285,
-      "end_ms": 43261,
-      "duration_ms": 6976,
+      "start_ms": 36121,
+      "end_ms": 43062,
+      "duration_ms": 6941,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 36285,
-          "end_ms": 37194,
-          "duration_ms": 909
+          "start_ms": 36121,
+          "end_ms": 37018,
+          "duration_ms": 897
         },
         {
           "index": 1,
           "text": "こめを手でまとめてみんなで食べるちゅうしんは、",
-          "start_ms": 37444,
-          "end_ms": 41290,
+          "start_ms": 37268,
+          "end_ms": 41114,
           "duration_ms": 3846
         },
         {
           "index": 2,
           "text": "今もあります。",
-          "start_ms": 41540,
-          "end_ms": 43261,
-          "duration_ms": 1721
+          "start_ms": 41364,
+          "end_ms": 43062,
+          "duration_ms": 1698
         }
       ]
     },
     {
       "index": 8,
       "text": "これからも、にほんのおにぎりはみんなに食べられていくでしょう。",
-      "start_ms": 43761,
-      "end_ms": 49392,
-      "duration_ms": 5631,
+      "start_ms": 43562,
+      "end_ms": 49228,
+      "duration_ms": 5666,
       "clauses": [
         {
           "index": 0,
           "text": "これからも、",
-          "start_ms": 43761,
-          "end_ms": 45215,
-          "duration_ms": 1454
+          "start_ms": 43562,
+          "end_ms": 45051,
+          "duration_ms": 1489
         },
         {
           "index": 1,
           "text": "にほんのおにぎりはみんなに食べられていくでしょう。",
-          "start_ms": 45465,
-          "end_ms": 49392,
+          "start_ms": 45301,
+          "end_ms": 49228,
           "duration_ms": 3927
         }
       ]
