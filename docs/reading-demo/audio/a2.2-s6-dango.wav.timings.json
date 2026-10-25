@@ -1,0 +1,572 @@
+{
+  "audio_file": "a2.2-s6-dango.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 140776,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "だんごのれきし",
+      "start_ms": 0,
+      "end_ms": 1866,
+      "duration_ms": 1866,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だんごのれきし",
+          "start_ms": 0,
+          "end_ms": 1866,
+          "duration_ms": 1866
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "だんごは、にほんでむかしからあるおかしです。",
+      "start_ms": 2366,
+      "end_ms": 7277,
+      "duration_ms": 4911,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だんごは、",
+          "start_ms": 2366,
+          "end_ms": 3837,
+          "duration_ms": 1471
+        },
+        {
+          "index": 1,
+          "text": "にほんでむかしからあるおかしです。",
+          "start_ms": 4087,
+          "end_ms": 7277,
+          "duration_ms": 3190
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "こめのこなとみずでつくります。",
+      "start_ms": 7777,
+      "end_ms": 10677,
+      "duration_ms": 2900,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "こめのこなとみずでつくります。",
+          "start_ms": 7777,
+          "end_ms": 10677,
+          "duration_ms": 2900
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "かたちは、たいていまるいです。",
+      "start_ms": 11177,
+      "end_ms": 15078,
+      "duration_ms": 3901,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かたちは、",
+          "start_ms": 11177,
+          "end_ms": 12741,
+          "duration_ms": 1564
+        },
+        {
+          "index": 1,
+          "text": "たいていまるいです。",
+          "start_ms": 12991,
+          "end_ms": 15078,
+          "duration_ms": 2087
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "だんごのれきしは、とてもながいです。",
+      "start_ms": 15578,
+      "end_ms": 19990,
+      "duration_ms": 4412,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だんごのれきしは、",
+          "start_ms": 15578,
+          "end_ms": 17642,
+          "duration_ms": 2064
+        },
+        {
+          "index": 1,
+          "text": "とてもながいです。",
+          "start_ms": 17892,
+          "end_ms": 19990,
+          "duration_ms": 2098
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "じょうもんじだいのひとは、きのみからこなをつくりました。",
+      "start_ms": 20490,
+      "end_ms": 26156,
+      "duration_ms": 5666,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "じょうもんじだいのひとは、",
+          "start_ms": 20490,
+          "end_ms": 22948,
+          "duration_ms": 2458
+        },
+        {
+          "index": 1,
+          "text": "きのみからこなをつくりました。",
+          "start_ms": 23198,
+          "end_ms": 26156,
+          "duration_ms": 2958
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "そして、そのこなをみずであらって、まるめてたべました。",
+      "start_ms": 26656,
+      "end_ms": 33336,
+      "duration_ms": 6680,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 26656,
+          "end_ms": 28000,
+          "duration_ms": 1344
+        },
+        {
+          "index": 1,
+          "text": "そのこなをみずであらって、",
+          "start_ms": 28250,
+          "end_ms": 30871,
+          "duration_ms": 2621
+        },
+        {
+          "index": 2,
+          "text": "まるめてたべました。",
+          "start_ms": 31121,
+          "end_ms": 33336,
+          "duration_ms": 2215
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "これが、だんごのはじまりでしょう。",
+      "start_ms": 33836,
+      "end_ms": 37888,
+      "duration_ms": 4052,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "これが、",
+          "start_ms": 33836,
+          "end_ms": 35145,
+          "duration_ms": 1309
+        },
+        {
+          "index": 1,
+          "text": "だんごのはじまりでしょう。",
+          "start_ms": 35395,
+          "end_ms": 37888,
+          "duration_ms": 2493
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "いま、にほんにはいろいろなだんごがあります。",
+      "start_ms": 38388,
+      "end_ms": 42765,
+      "duration_ms": 4377,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いま、",
+          "start_ms": 38388,
+          "end_ms": 39070,
+          "duration_ms": 682
+        },
+        {
+          "index": 1,
+          "text": "にほんにはいろいろなだんごがあります。",
+          "start_ms": 39320,
+          "end_ms": 42765,
+          "duration_ms": 3445
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "にいがたけんの「ささだんご」も、そのひとつです。",
+      "start_ms": 43265,
+      "end_ms": 48026,
+      "duration_ms": 4761,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にいがたけんの「ささだんご」も、",
+          "start_ms": 43265,
+          "end_ms": 45805,
+          "duration_ms": 2540
+        },
+        {
+          "index": 1,
+          "text": "そのひとつです。",
+          "start_ms": 46055,
+          "end_ms": 48026,
+          "duration_ms": 1971
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "ささだんごは、だんごをささのはでつつんで、ひもでむすんだものです。",
+      "start_ms": 48526,
+      "end_ms": 56099,
+      "duration_ms": 7573,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ささだんごは、",
+          "start_ms": 48526,
+          "end_ms": 50311,
+          "duration_ms": 1785
+        },
+        {
+          "index": 1,
+          "text": "だんごをささのはでつつんで、",
+          "start_ms": 50561,
+          "end_ms": 53321,
+          "duration_ms": 2760
+        },
+        {
+          "index": 2,
+          "text": "ひもでむすんだものです。",
+          "start_ms": 53571,
+          "end_ms": 56099,
+          "duration_ms": 2528
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "にいがたのひとは、ごひゃくねんぐらいまえからささだんごをたべています。",
+      "start_ms": 56599,
+      "end_ms": 62927,
+      "duration_ms": 6328,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にいがたのひとは、",
+          "start_ms": 56599,
+          "end_ms": 58535,
+          "duration_ms": 1936
+        },
+        {
+          "index": 1,
+          "text": "ごひゃくねんぐらいまえからささだんごをたべています。",
+          "start_ms": 58785,
+          "end_ms": 62927,
+          "duration_ms": 4142
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "ささのはのなかのだんごは、ながいあいだわるくなりません。",
+      "start_ms": 63427,
+      "end_ms": 69174,
+      "duration_ms": 5747,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ささのはのなかのだんごは、",
+          "start_ms": 63427,
+          "end_ms": 66129,
+          "duration_ms": 2702
+        },
+        {
+          "index": 1,
+          "text": "ながいあいだわるくなりません。",
+          "start_ms": 66379,
+          "end_ms": 69174,
+          "duration_ms": 2795
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "だから、むかしのひとは、りょこうのとき、ささだんごをもっていったでしょう。",
+      "start_ms": 69674,
+      "end_ms": 78306,
+      "duration_ms": 8632,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だから、",
+          "start_ms": 69674,
+          "end_ms": 70855,
+          "duration_ms": 1181
+        },
+        {
+          "index": 1,
+          "text": "むかしのひとは、",
+          "start_ms": 71105,
+          "end_ms": 73006,
+          "duration_ms": 1901
+        },
+        {
+          "index": 2,
+          "text": "りょこうのとき、",
+          "start_ms": 73256,
+          "end_ms": 75087,
+          "duration_ms": 1831
+        },
+        {
+          "index": 3,
+          "text": "ささだんごをもっていったでしょう。",
+          "start_ms": 75337,
+          "end_ms": 78306,
+          "duration_ms": 2969
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "でも、ささだんごのはじまりは、ひとつではありません。",
+      "start_ms": 78806,
+      "end_ms": 84998,
+      "duration_ms": 6192,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 78806,
+          "end_ms": 79790,
+          "duration_ms": 984
+        },
+        {
+          "index": 1,
+          "text": "ささだんごのはじまりは、",
+          "start_ms": 80040,
+          "end_ms": 82522,
+          "duration_ms": 2482
+        },
+        {
+          "index": 2,
+          "text": "ひとつではありません。",
+          "start_ms": 82772,
+          "end_ms": 84998,
+          "duration_ms": 2226
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "むかしののうかのひとは、われたこめをつかって、おいしいだんごをつくりました。",
+      "start_ms": 85498,
+      "end_ms": 93431,
+      "duration_ms": 7933,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかしののうかのひとは、",
+          "start_ms": 85498,
+          "end_ms": 87910,
+          "duration_ms": 2412
+        },
+        {
+          "index": 1,
+          "text": "われたこめをつかって、",
+          "start_ms": 88160,
+          "end_ms": 90502,
+          "duration_ms": 2342
+        },
+        {
+          "index": 2,
+          "text": "おいしいだんごをつくりました。",
+          "start_ms": 90752,
+          "end_ms": 93431,
+          "duration_ms": 2679
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "むかしは、ささだんごのなかに、きんぴらなどいえのおかずをいれました。",
+      "start_ms": 93931,
+      "end_ms": 101516,
+      "duration_ms": 7585,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかしは、",
+          "start_ms": 93931,
+          "end_ms": 95368,
+          "duration_ms": 1437
+        },
+        {
+          "index": 1,
+          "text": "ささだんごのなかに、",
+          "start_ms": 95618,
+          "end_ms": 97856,
+          "duration_ms": 2238
+        },
+        {
+          "index": 2,
+          "text": "きんぴらなどいえのおかずをいれました。",
+          "start_ms": 98106,
+          "end_ms": 101516,
+          "duration_ms": 3410
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "ささだんごは、まいにちのたいせつなごはんでした。",
+      "start_ms": 102016,
+      "end_ms": 107264,
+      "duration_ms": 5248,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ささだんごは、",
+          "start_ms": 102016,
+          "end_ms": 103813,
+          "duration_ms": 1797
+        },
+        {
+          "index": 1,
+          "text": "まいにちのたいせつなごはんでした。",
+          "start_ms": 104063,
+          "end_ms": 107264,
+          "duration_ms": 3201
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "せんきゅうひゃくろくじゅうよねんに、にいがたでおおきいスポーツのたいかいがありました。",
+      "start_ms": 107764,
+      "end_ms": 114881,
+      "duration_ms": 7117,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくろくじゅうよねんに、",
+          "start_ms": 107764,
+          "end_ms": 110629,
+          "duration_ms": 2865
+        },
+        {
+          "index": 1,
+          "text": "にいがたでおおきいスポーツのたいかいがありました。",
+          "start_ms": 110879,
+          "end_ms": 114881,
+          "duration_ms": 4002
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "そのとき、ささだんごはたいかいのおみやげになって、とてもゆうめいになりました。",
+      "start_ms": 115381,
+      "end_ms": 123919,
+      "duration_ms": 8538,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのとき、",
+          "start_ms": 115381,
+          "end_ms": 117027,
+          "duration_ms": 1646
+        },
+        {
+          "index": 1,
+          "text": "ささだんごはたいかいのおみやげになって、",
+          "start_ms": 117277,
+          "end_ms": 120978,
+          "duration_ms": 3701
+        },
+        {
+          "index": 2,
+          "text": "とてもゆうめいになりました。",
+          "start_ms": 121228,
+          "end_ms": 123919,
+          "duration_ms": 2691
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "いまのささだんごのなかには、たいていあんこがはいっています。",
+      "start_ms": 124419,
+      "end_ms": 130166,
+      "duration_ms": 5747,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いまのささだんごのなかには、",
+          "start_ms": 124419,
+          "end_ms": 127156,
+          "duration_ms": 2737
+        },
+        {
+          "index": 1,
+          "text": "たいていあんこがはいっています。",
+          "start_ms": 127406,
+          "end_ms": 130166,
+          "duration_ms": 2760
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "わがしのみせやおみやげのみせでうっています。",
+      "start_ms": 130666,
+      "end_ms": 134471,
+      "duration_ms": 3805,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "わがしのみせやおみやげのみせでうっています。",
+          "start_ms": 130666,
+          "end_ms": 134471,
+          "duration_ms": 3805
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "れいとうのささだんごもあるので、がいこくにもおくっています。",
+      "start_ms": 134971,
+      "end_ms": 140776,
+      "duration_ms": 5805,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "れいとうのささだんごもあるので、",
+          "start_ms": 134971,
+          "end_ms": 137882,
+          "duration_ms": 2911
+        },
+        {
+          "index": 1,
+          "text": "がいこくにもおくっています。",
+          "start_ms": 138132,
+          "end_ms": 140776,
+          "duration_ms": 2644
+        }
+      ]
+    }
+  ]
+}
