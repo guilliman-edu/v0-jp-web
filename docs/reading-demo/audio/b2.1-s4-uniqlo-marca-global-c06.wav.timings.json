@@ -1,0 +1,130 @@
+{
+  "audio_file": "b2.1-s4-uniqlo-marca-global-c06.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 38680,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "だいろくしょう　これからのユニクロ",
+      "start_ms": 0,
+      "end_ms": 2778,
+      "duration_ms": 2778,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だいろくしょう　これからのユニクロ",
+          "start_ms": 0,
+          "end_ms": 2778,
+          "duration_ms": 2778
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "かいしゃは、2027年8月までの1ねんかんのうりあげが4ちょう4,500おく円になり、はじめて4ちょう円をこえるとよそうしています。",
+      "start_ms": 3278,
+      "end_ms": 15934,
+      "duration_ms": 12656,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいしゃは、",
+          "start_ms": 3278,
+          "end_ms": 4709,
+          "duration_ms": 1431
+        },
+        {
+          "index": 1,
+          "text": "2027年8月までの1ねんかんのうりあげが4ちょう4,500おく円になり、",
+          "start_ms": 4959,
+          "end_ms": 12024,
+          "duration_ms": 7065
+        },
+        {
+          "index": 2,
+          "text": "はじめて4ちょう円をこえるとよそうしています。",
+          "start_ms": 12274,
+          "end_ms": 15934,
+          "duration_ms": 3660
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "これからも、せかいであたらしいみせを出していくけいかくです。",
+      "start_ms": 16434,
+      "end_ms": 22065,
+      "duration_ms": 5631,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "これからも、",
+          "start_ms": 16434,
+          "end_ms": 17923,
+          "duration_ms": 1489
+        },
+        {
+          "index": 1,
+          "text": "せかいであたらしいみせを出していくけいかくです。",
+          "start_ms": 18173,
+          "end_ms": 22065,
+          "duration_ms": 3892
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "ユニクロを知る人がふえるにつれて、「LifeWear」をえらぶ人も増えていくでしょう。",
+      "start_ms": 22565,
+      "end_ms": 28556,
+      "duration_ms": 5991,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ユニクロを知る人がふえるにつれて、",
+          "start_ms": 22565,
+          "end_ms": 25598,
+          "duration_ms": 3033
+        },
+        {
+          "index": 1,
+          "text": "「LifeWear」をえらぶ人も増えていくでしょう。",
+          "start_ms": 25848,
+          "end_ms": 28556,
+          "duration_ms": 2708
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "ひろしまの小さなみせから始まったユニクロは、今、せかいの人がふだんきるふくのブランドにせいちょうしました。",
+      "start_ms": 29056,
+      "end_ms": 38680,
+      "duration_ms": 9624,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ひろしまの小さなみせから始まったユニクロは、",
+          "start_ms": 29056,
+          "end_ms": 32972,
+          "duration_ms": 3916
+        },
+        {
+          "index": 1,
+          "text": "今、",
+          "start_ms": 33222,
+          "end_ms": 33864,
+          "duration_ms": 642
+        },
+        {
+          "index": 2,
+          "text": "せかいの人がふだんきるふくのブランドにせいちょうしました。",
+          "start_ms": 34114,
+          "end_ms": 38680,
+          "duration_ms": 4566
+        }
+      ]
+    }
+  ]
+}

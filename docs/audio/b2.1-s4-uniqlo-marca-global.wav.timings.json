@@ -1,0 +1,890 @@
+{
+  "audio_file": "b2.1-s4-uniqlo-marca-global.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 261994,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "ユニクロ ― ひろしまの小さなみせからせかいのブランドへ",
+      "start_ms": 0,
+      "end_ms": 4264,
+      "duration_ms": 4264,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ユニクロ ― ひろしまの小さなみせからせかいのブランドへ",
+          "start_ms": 0,
+          "end_ms": 4264,
+          "duration_ms": 4264
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "ユニクロは、にほんのふくのブランドです。",
+      "start_ms": 4764,
+      "end_ms": 8956,
+      "duration_ms": 4192,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ユニクロは、",
+          "start_ms": 4764,
+          "end_ms": 6253,
+          "duration_ms": 1489
+        },
+        {
+          "index": 1,
+          "text": "にほんのふくのブランドです。",
+          "start_ms": 6503,
+          "end_ms": 8956,
+          "duration_ms": 2453
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "ユニクロのみせを持っているかいしゃは「ファーストリテイリング」といいます。",
+      "start_ms": 9456,
+      "end_ms": 14544,
+      "duration_ms": 5088,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ユニクロのみせを持っているかいしゃは「ファーストリテイリング」といいます。",
+          "start_ms": 9456,
+          "end_ms": 14544,
+          "duration_ms": 5088
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "1984年、ひろしまにさいしょのみせができました。",
+      "start_ms": 15044,
+      "end_ms": 21233,
+      "duration_ms": 6189,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1984年、",
+          "start_ms": 15044,
+          "end_ms": 17590,
+          "duration_ms": 2546
+        },
+        {
+          "index": 1,
+          "text": "ひろしまにさいしょのみせができました。",
+          "start_ms": 17840,
+          "end_ms": 21233,
+          "duration_ms": 3393
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "今では、にほんだけでなく、せかいのたくさんのくににみせがあります。",
+      "start_ms": 21733,
+      "end_ms": 28698,
+      "duration_ms": 6965,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今では、",
+          "start_ms": 21733,
+          "end_ms": 22955,
+          "duration_ms": 1222
+        },
+        {
+          "index": 1,
+          "text": "にほんだけでなく、",
+          "start_ms": 23205,
+          "end_ms": 25124,
+          "duration_ms": 1919
+        },
+        {
+          "index": 2,
+          "text": "せかいのたくさんのくににみせがあります。",
+          "start_ms": 25374,
+          "end_ms": 28698,
+          "duration_ms": 3324
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "ユニクロのふくは、とくべつな日ではなく、ふだんのせいかつできるふくです。",
+      "start_ms": 29198,
+      "end_ms": 36626,
+      "duration_ms": 7428,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ユニクロのふくは、",
+          "start_ms": 29198,
+          "end_ms": 31128,
+          "duration_ms": 1930
+        },
+        {
+          "index": 1,
+          "text": "とくべつな日ではなく、",
+          "start_ms": 31378,
+          "end_ms": 33610,
+          "duration_ms": 2232
+        },
+        {
+          "index": 2,
+          "text": "ふだんのせいかつできるふくです。",
+          "start_ms": 33860,
+          "end_ms": 36626,
+          "duration_ms": 2766
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "かいしゃは、ふくで人のまいにちのせいかつをよくしたいと考えていて、このかんがえかたを「LifeWear」と呼んでいます。",
+      "start_ms": 37126,
+      "end_ms": 46726,
+      "duration_ms": 9600,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいしゃは、",
+          "start_ms": 37126,
+          "end_ms": 38569,
+          "duration_ms": 1443
+        },
+        {
+          "index": 1,
+          "text": "ふくで人のまいにちのせいかつをよくしたいと考えていて、",
+          "start_ms": 38819,
+          "end_ms": 43768,
+          "duration_ms": 4949
+        },
+        {
+          "index": 2,
+          "text": "このかんがえかたを「LifeWear」と呼んでいます。",
+          "start_ms": 44018,
+          "end_ms": 46726,
+          "duration_ms": 2708
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "2026年10月8日、ファーストリテイリングは、2026年8月までの1ねんかんのけっかをはっぴょうしました。",
+      "start_ms": 47226,
+      "end_ms": 58602,
+      "duration_ms": 11376,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "2026年10月8日、",
+          "start_ms": 47226,
+          "end_ms": 50515,
+          "duration_ms": 3289
+        },
+        {
+          "index": 1,
+          "text": "ファーストリテイリングは、",
+          "start_ms": 50765,
+          "end_ms": 52788,
+          "duration_ms": 2023
+        },
+        {
+          "index": 2,
+          "text": "2026年8月までの1ねんかんのけっかをはっぴょうしました。",
+          "start_ms": 53038,
+          "end_ms": 58602,
+          "duration_ms": 5564
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "かいしゃぜんたいのうりあげは3ちょう9,633おく円で、前の年より16.",
+      "start_ms": 59102,
+      "end_ms": 67396,
+      "duration_ms": 8294,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいしゃぜんたいのうりあげは3ちょう9,633おく円で、",
+          "start_ms": 59102,
+          "end_ms": 64995,
+          "duration_ms": 5893
+        },
+        {
+          "index": 1,
+          "text": "前の年より16.",
+          "start_ms": 65245,
+          "end_ms": 67396,
+          "duration_ms": 2151
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "6％増えました。",
+      "start_ms": 67896,
+      "end_ms": 69652,
+      "duration_ms": 1756,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "6％増えました。",
+          "start_ms": 67896,
+          "end_ms": 69652,
+          "duration_ms": 1756
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "りえきも30.",
+      "start_ms": 70152,
+      "end_ms": 71989,
+      "duration_ms": 1837,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "りえきも30.",
+          "start_ms": 70152,
+          "end_ms": 71989,
+          "duration_ms": 1837
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "4％増えて、5年続けて今までで一番いいけっかになりました。",
+      "start_ms": 72489,
+      "end_ms": 78840,
+      "duration_ms": 6351,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "4％増えて、",
+          "start_ms": 72489,
+          "end_ms": 73908,
+          "duration_ms": 1419
+        },
+        {
+          "index": 1,
+          "text": "5年続けて今までで一番いいけっかになりました。",
+          "start_ms": 74158,
+          "end_ms": 78840,
+          "duration_ms": 4682
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "はっぴょうのとおり、ユニクロはにほんでもかいがいでも、すべてのちいきでうりあげとりえきが増えました。",
+      "start_ms": 79340,
+      "end_ms": 88278,
+      "duration_ms": 8938,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はっぴょうのとおり、",
+          "start_ms": 79340,
+          "end_ms": 81131,
+          "duration_ms": 1791
+        },
+        {
+          "index": 1,
+          "text": "ユニクロはにほんでもかいがいでも、",
+          "start_ms": 81381,
+          "end_ms": 84321,
+          "duration_ms": 2940
+        },
+        {
+          "index": 2,
+          "text": "すべてのちいきでうりあげとりえきが増えました。",
+          "start_ms": 84571,
+          "end_ms": 88278,
+          "duration_ms": 3707
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "特に大きく伸びたのは、かいがいのユニクロです。",
+      "start_ms": 88778,
+      "end_ms": 93644,
+      "duration_ms": 4866,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "特に大きく伸びたのは、",
+          "start_ms": 88778,
+          "end_ms": 91115,
+          "duration_ms": 2337
+        },
+        {
+          "index": 1,
+          "text": "かいがいのユニクロです。",
+          "start_ms": 91365,
+          "end_ms": 93644,
+          "duration_ms": 2279
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "かいがいのうりあげは2ちょう4,111おく円で、にほんのうりあげ（1ちょう848おく円）の2倍以上になりました。",
+      "start_ms": 94144,
+      "end_ms": 105433,
+      "duration_ms": 11289,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいがいのうりあげは2ちょう4,111おく円で、",
+          "start_ms": 94144,
+          "end_ms": 99236,
+          "duration_ms": 5092
+        },
+        {
+          "index": 1,
+          "text": "にほんのうりあげ（1ちょう848おく円）の2倍以上になりました。",
+          "start_ms": 99486,
+          "end_ms": 105433,
+          "duration_ms": 5947
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "伸び方はちいきによってさまざまですが、ヨーロッパでは38.",
+      "start_ms": 105933,
+      "end_ms": 112517,
+      "duration_ms": 6584,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "伸び方はちいきによってさまざまですが、",
+          "start_ms": 105933,
+          "end_ms": 109512,
+          "duration_ms": 3579
+        },
+        {
+          "index": 1,
+          "text": "ヨーロッパでは38.",
+          "start_ms": 109762,
+          "end_ms": 112517,
+          "duration_ms": 2755
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "7％、ほくべいでは34.",
+      "start_ms": 113017,
+      "end_ms": 116408,
+      "duration_ms": 3391,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "7％、",
+          "start_ms": 113017,
+          "end_ms": 113949,
+          "duration_ms": 932
+        },
+        {
+          "index": 1,
+          "text": "ほくべいでは34.",
+          "start_ms": 114199,
+          "end_ms": 116408,
+          "duration_ms": 2209
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "6％もうりあげが増えました。",
+      "start_ms": 116908,
+      "end_ms": 119338,
+      "duration_ms": 2430,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "6％もうりあげが増えました。",
+          "start_ms": 116908,
+          "end_ms": 119338,
+          "duration_ms": 2430
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "ヨーロッパとほくべいを合わせたうりあげは、ちゅうごくなどのちいきや、かんこく・とうなんあじあなどのちいきをはじめて超えたということです。",
+      "start_ms": 119838,
+      "end_ms": 131075,
+      "duration_ms": 11237,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ヨーロッパとほくべいを合わせたうりあげは、",
+          "start_ms": 119838,
+          "end_ms": 123185,
+          "duration_ms": 3347
+        },
+        {
+          "index": 1,
+          "text": "ちゅうごくなどのちいきや、",
+          "start_ms": 123435,
+          "end_ms": 125748,
+          "duration_ms": 2313
+        },
+        {
+          "index": 2,
+          "text": "かんこく・とうなんあじあなどのちいきをはじめて超えたということです。",
+          "start_ms": 125998,
+          "end_ms": 131075,
+          "duration_ms": 5077
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "今では、ヨーロッパとほくべいは、かいしゃにとってたいせつなちいきになっています。",
+      "start_ms": 131575,
+      "end_ms": 139317,
+      "duration_ms": 7742,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今では、",
+          "start_ms": 131575,
+          "end_ms": 132751,
+          "duration_ms": 1176
+        },
+        {
+          "index": 1,
+          "text": "ヨーロッパとほくべいは、",
+          "start_ms": 133001,
+          "end_ms": 135175,
+          "duration_ms": 2174
+        },
+        {
+          "index": 2,
+          "text": "かいしゃにとってたいせつなちいきになっています。",
+          "start_ms": 135425,
+          "end_ms": 139317,
+          "duration_ms": 3892
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "かいしゃは、あたらしいみせを出す際、そのくにの人に「LifeWear」のよさが伝わるように、みせのつくりをくふうしているということです。",
+      "start_ms": 139817,
+      "end_ms": 151075,
+      "duration_ms": 11258,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいしゃは、",
+          "start_ms": 139817,
+          "end_ms": 141260,
+          "duration_ms": 1443
+        },
+        {
+          "index": 1,
+          "text": "あたらしいみせを出す際、",
+          "start_ms": 141510,
+          "end_ms": 143905,
+          "duration_ms": 2395
+        },
+        {
+          "index": 2,
+          "text": "そのくにの人に「LifeWear」のよさが伝わるように、",
+          "start_ms": 144155,
+          "end_ms": 147432,
+          "duration_ms": 3277
+        },
+        {
+          "index": 3,
+          "text": "みせのつくりをくふうしているということです。",
+          "start_ms": 147682,
+          "end_ms": 151075,
+          "duration_ms": 3393
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "にほんでは、よくのびる「ウルトラストレッチパンツ」や、なつの強いひざしからからだをまもる「UVカット」のふくなど、せいかつにべんりなふくがよく売れました。",
+      "start_ms": 151575,
+      "end_ms": 164829,
+      "duration_ms": 13254,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にほんでは、",
+          "start_ms": 151575,
+          "end_ms": 153064,
+          "duration_ms": 1489
+        },
+        {
+          "index": 1,
+          "text": "よくのびる「ウルトラストレッチパンツ」や、",
+          "start_ms": 153314,
+          "end_ms": 156440,
+          "duration_ms": 3126
+        },
+        {
+          "index": 2,
+          "text": "なつの強いひざしからからだをまもる「UVカット」のふくなど、",
+          "start_ms": 156690,
+          "end_ms": 161093,
+          "duration_ms": 4403
+        },
+        {
+          "index": 3,
+          "text": "せいかつにべんりなふくがよく売れました。",
+          "start_ms": 161343,
+          "end_ms": 164829,
+          "duration_ms": 3486
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "また、はやりのかたちの「バレルパンツ」も、にほんとかいがいでよく売れました。",
+      "start_ms": 165329,
+      "end_ms": 172503,
+      "duration_ms": 7174,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "また、",
+          "start_ms": 165329,
+          "end_ms": 166354,
+          "duration_ms": 1025
+        },
+        {
+          "index": 1,
+          "text": "はやりのかたちの「バレルパンツ」も、",
+          "start_ms": 166604,
+          "end_ms": 169452,
+          "duration_ms": 2848
+        },
+        {
+          "index": 2,
+          "text": "にほんとかいがいでよく売れました。",
+          "start_ms": 169702,
+          "end_ms": 172503,
+          "duration_ms": 2801
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "べんりなふくと、はやりのふく。",
+      "start_ms": 173003,
+      "end_ms": 176638,
+      "duration_ms": 3635,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "べんりなふくと、",
+          "start_ms": 173003,
+          "end_ms": 174748,
+          "duration_ms": 1745
+        },
+        {
+          "index": 1,
+          "text": "はやりのふく。",
+          "start_ms": 174998,
+          "end_ms": 176638,
+          "duration_ms": 1640
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "text": "そのりょうほうがあるからこそ、たくさんのおきゃくさんがユニクロをえらぶのでしょう。",
+      "start_ms": 177138,
+      "end_ms": 183606,
+      "duration_ms": 6468,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのりょうほうがあるからこそ、",
+          "start_ms": 177138,
+          "end_ms": 179533,
+          "duration_ms": 2395
+        },
+        {
+          "index": 1,
+          "text": "たくさんのおきゃくさんがユニクロをえらぶのでしょう。",
+          "start_ms": 179783,
+          "end_ms": 183606,
+          "duration_ms": 3823
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "text": "でも、しんぱいなこともあります。",
+      "start_ms": 184106,
+      "end_ms": 187671,
+      "duration_ms": 3565,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 184106,
+          "end_ms": 184991,
+          "duration_ms": 885
+        },
+        {
+          "index": 1,
+          "text": "しんぱいなこともあります。",
+          "start_ms": 185241,
+          "end_ms": 187671,
+          "duration_ms": 2430
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "text": "えんやすによって、がいこくでふくをつくるひようが高くなりました。",
+      "start_ms": 188171,
+      "end_ms": 193907,
+      "duration_ms": 5736,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "えんやすによって、",
+          "start_ms": 188171,
+          "end_ms": 189939,
+          "duration_ms": 1768
+        },
+        {
+          "index": 1,
+          "text": "がいこくでふくをつくるひようが高くなりました。",
+          "start_ms": 190189,
+          "end_ms": 193907,
+          "duration_ms": 3718
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "text": "そのため、にほんのユニクロでは、うりあげの中のもうけのわりあいが少し下がりました。",
+      "start_ms": 194407,
+      "end_ms": 202823,
+      "duration_ms": 8416,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのため、",
+          "start_ms": 194407,
+          "end_ms": 195815,
+          "duration_ms": 1408
+        },
+        {
+          "index": 1,
+          "text": "にほんのユニクロでは、",
+          "start_ms": 196065,
+          "end_ms": 198181,
+          "duration_ms": 2116
+        },
+        {
+          "index": 2,
+          "text": "うりあげの中のもうけのわりあいが少し下がりました。",
+          "start_ms": 198431,
+          "end_ms": 202823,
+          "duration_ms": 4392
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "text": "来年も、えんやすによってふくをつくるひようが高くなりそうです。",
+      "start_ms": 203323,
+      "end_ms": 209268,
+      "duration_ms": 5945,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "来年も、",
+          "start_ms": 203323,
+          "end_ms": 204708,
+          "duration_ms": 1385
+        },
+        {
+          "index": 1,
+          "text": "えんやすによってふくをつくるひようが高くなりそうです。",
+          "start_ms": 204958,
+          "end_ms": 209268,
+          "duration_ms": 4310
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "text": "かいしゃは、にほんでのもうけのわりあいがまた少し下がるおそれがあると考えています。",
+      "start_ms": 209768,
+      "end_ms": 217211,
+      "duration_ms": 7443,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいしゃは、",
+          "start_ms": 209768,
+          "end_ms": 211199,
+          "duration_ms": 1431
+        },
+        {
+          "index": 1,
+          "text": "にほんでのもうけのわりあいがまた少し下がるおそれがあると考えています。",
+          "start_ms": 211449,
+          "end_ms": 217211,
+          "duration_ms": 5762
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "text": "そのため、来年のにほんでのりえきは、前の年と同じくらいにとどまるということです。",
+      "start_ms": 217711,
+      "end_ms": 226161,
+      "duration_ms": 8450,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのため、",
+          "start_ms": 217711,
+          "end_ms": 219084,
+          "duration_ms": 1373
+        },
+        {
+          "index": 1,
+          "text": "来年のにほんでのりえきは、",
+          "start_ms": 219334,
+          "end_ms": 221891,
+          "duration_ms": 2557
+        },
+        {
+          "index": 2,
+          "text": "前の年と同じくらいにとどまるということです。",
+          "start_ms": 222141,
+          "end_ms": 226161,
+          "duration_ms": 4020
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "text": "かいしゃは、2027年8月までの1ねんかんのうりあげが4ちょう4,500おく円になり、はじめて4ちょう円をこえるとよそうしています。",
+      "start_ms": 226661,
+      "end_ms": 239144,
+      "duration_ms": 12483,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいしゃは、",
+          "start_ms": 226661,
+          "end_ms": 228057,
+          "duration_ms": 1396
+        },
+        {
+          "index": 1,
+          "text": "2027年8月までの1ねんかんのうりあげが4ちょう4,500おく円になり、",
+          "start_ms": 228307,
+          "end_ms": 235280,
+          "duration_ms": 6973
+        },
+        {
+          "index": 2,
+          "text": "はじめて4ちょう円をこえるとよそうしています。",
+          "start_ms": 235530,
+          "end_ms": 239144,
+          "duration_ms": 3614
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "text": "これからも、せかいであたらしいみせを出していくけいかくです。",
+      "start_ms": 239644,
+      "end_ms": 245299,
+      "duration_ms": 5655,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "これからも、",
+          "start_ms": 239644,
+          "end_ms": 241110,
+          "duration_ms": 1466
+        },
+        {
+          "index": 1,
+          "text": "せかいであたらしいみせを出していくけいかくです。",
+          "start_ms": 241360,
+          "end_ms": 245299,
+          "duration_ms": 3939
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "text": "ユニクロを知る人がふえるにつれて、「LifeWear」をえらぶ人も増えていくでしょう。",
+      "start_ms": 245799,
+      "end_ms": 251802,
+      "duration_ms": 6003,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ユニクロを知る人がふえるにつれて、",
+          "start_ms": 245799,
+          "end_ms": 248844,
+          "duration_ms": 3045
+        },
+        {
+          "index": 1,
+          "text": "「LifeWear」をえらぶ人も増えていくでしょう。",
+          "start_ms": 249094,
+          "end_ms": 251802,
+          "duration_ms": 2708
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "text": "ひろしまの小さなみせから始まったユニクロは、今、せかいの人がふだんきるふくのブランドにせいちょうしました。",
+      "start_ms": 252302,
+      "end_ms": 261994,
+      "duration_ms": 9692,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ひろしまの小さなみせから始まったユニクロは、",
+          "start_ms": 252302,
+          "end_ms": 256241,
+          "duration_ms": 3939
+        },
+        {
+          "index": 1,
+          "text": "今、",
+          "start_ms": 256491,
+          "end_ms": 257109,
+          "duration_ms": 618
+        },
+        {
+          "index": 2,
+          "text": "せかいの人がふだんきるふくのブランドにせいちょうしました。",
+          "start_ms": 257359,
+          "end_ms": 261994,
+          "duration_ms": 4635
+        }
+      ]
+    }
+  ]
+}

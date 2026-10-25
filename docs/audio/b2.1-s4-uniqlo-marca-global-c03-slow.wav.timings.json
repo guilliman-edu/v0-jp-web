@@ -1,0 +1,229 @@
+{
+  "audio_file": "b2.1-s4-uniqlo-marca-global-c03-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 72631,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "だいさんしょう　かいがいで大きく伸びたユニクロ",
+      "start_ms": 0,
+      "end_ms": 4328,
+      "duration_ms": 4328,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だいさんしょう　かいがいで大きく伸びたユニクロ",
+          "start_ms": 0,
+          "end_ms": 4328,
+          "duration_ms": 4328
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "特に大きく伸びたのは、かいがいのユニクロです。",
+      "start_ms": 4828,
+      "end_ms": 10111,
+      "duration_ms": 5283,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "特に大きく伸びたのは、",
+          "start_ms": 4828,
+          "end_ms": 7414,
+          "duration_ms": 2586
+        },
+        {
+          "index": 1,
+          "text": "かいがいのユニクロです。",
+          "start_ms": 7664,
+          "end_ms": 10111,
+          "duration_ms": 2447
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "かいがいのうりあげは2ちょう4,111おく円で、にほんのうりあげ（1ちょう848おく円）の2倍以上になりました。",
+      "start_ms": 10611,
+      "end_ms": 23008,
+      "duration_ms": 12397,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいがいのうりあげは2ちょう4,111おく円で、",
+          "start_ms": 10611,
+          "end_ms": 16248,
+          "duration_ms": 5637
+        },
+        {
+          "index": 1,
+          "text": "にほんのうりあげ（1ちょう848おく円）の2倍以上になりました。",
+          "start_ms": 16498,
+          "end_ms": 23008,
+          "duration_ms": 6510
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "伸び方はちいきによってさまざまですが、ヨーロッパでは38.",
+      "start_ms": 23508,
+      "end_ms": 30764,
+      "duration_ms": 7256,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "伸び方はちいきによってさまざまですが、",
+          "start_ms": 23508,
+          "end_ms": 27510,
+          "duration_ms": 4002
+        },
+        {
+          "index": 1,
+          "text": "ヨーロッパでは38.",
+          "start_ms": 27760,
+          "end_ms": 30764,
+          "duration_ms": 3004
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "7％、ほくべいでは34.",
+      "start_ms": 31264,
+      "end_ms": 34921,
+      "duration_ms": 3657,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "7％、",
+          "start_ms": 31264,
+          "end_ms": 32306,
+          "duration_ms": 1042
+        },
+        {
+          "index": 1,
+          "text": "ほくべいでは34.",
+          "start_ms": 32556,
+          "end_ms": 34921,
+          "duration_ms": 2365
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "6％もうりあげが増えました。",
+      "start_ms": 35421,
+      "end_ms": 38077,
+      "duration_ms": 2656,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "6％もうりあげが増えました。",
+          "start_ms": 35421,
+          "end_ms": 38077,
+          "duration_ms": 2656
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "ヨーロッパとほくべいを合わせたうりあげは、ちゅうごくなどのちいきや、かんこく・とうなんあじあなどのちいきをはじめて超えたということです。",
+      "start_ms": 38577,
+      "end_ms": 50829,
+      "duration_ms": 12252,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ヨーロッパとほくべいを合わせたうりあげは、",
+          "start_ms": 38577,
+          "end_ms": 42231,
+          "duration_ms": 3654
+        },
+        {
+          "index": 1,
+          "text": "ちゅうごくなどのちいきや、",
+          "start_ms": 42481,
+          "end_ms": 45009,
+          "duration_ms": 2528
+        },
+        {
+          "index": 2,
+          "text": "かんこく・とうなんあじあなどのちいきをはじめて超えたということです。",
+          "start_ms": 45259,
+          "end_ms": 50829,
+          "duration_ms": 5570
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "今では、ヨーロッパとほくべいは、かいしゃにとってたいせつなちいきになっています。",
+      "start_ms": 51329,
+      "end_ms": 59795,
+      "duration_ms": 8466,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今では、",
+          "start_ms": 51329,
+          "end_ms": 52684,
+          "duration_ms": 1355
+        },
+        {
+          "index": 1,
+          "text": "ヨーロッパとほくべいは、",
+          "start_ms": 52934,
+          "end_ms": 55299,
+          "duration_ms": 2365
+        },
+        {
+          "index": 2,
+          "text": "かいしゃにとってたいせつなちいきになっています。",
+          "start_ms": 55549,
+          "end_ms": 59795,
+          "duration_ms": 4246
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "かいしゃは、あたらしいみせを出す際、そのくにの人に「LifeWear」のよさが伝わるように、みせのつくりをくふうしているということです。",
+      "start_ms": 60295,
+      "end_ms": 72631,
+      "duration_ms": 12336,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいしゃは、",
+          "start_ms": 60295,
+          "end_ms": 61894,
+          "duration_ms": 1599
+        },
+        {
+          "index": 1,
+          "text": "あたらしいみせを出す際、",
+          "start_ms": 62144,
+          "end_ms": 64846,
+          "duration_ms": 2702
+        },
+        {
+          "index": 2,
+          "text": "そのくにの人に「LifeWear」のよさが伝わるように、",
+          "start_ms": 65096,
+          "end_ms": 68669,
+          "duration_ms": 3573
+        },
+        {
+          "index": 3,
+          "text": "みせのつくりをくふうしているということです。",
+          "start_ms": 68919,
+          "end_ms": 72631,
+          "duration_ms": 3712
+        }
+      ]
+    }
+  ]
+}

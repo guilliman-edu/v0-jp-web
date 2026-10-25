@@ -1,0 +1,176 @@
+{
+  "audio_file": "b2.1-s4-uniqlo-marca-global-c05.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 45102,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "だいごしょう　えんやすによるしんぱい",
+      "start_ms": 0,
+      "end_ms": 2720,
+      "duration_ms": 2720,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だいごしょう　えんやすによるしんぱい",
+          "start_ms": 0,
+          "end_ms": 2720,
+          "duration_ms": 2720
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "でも、しんぱいなこともあります。",
+      "start_ms": 3220,
+      "end_ms": 6716,
+      "duration_ms": 3496,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 3220,
+          "end_ms": 4129,
+          "duration_ms": 909
+        },
+        {
+          "index": 1,
+          "text": "しんぱいなこともあります。",
+          "start_ms": 4379,
+          "end_ms": 6716,
+          "duration_ms": 2337
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "えんやすによって、がいこくでふくをつくるひようが高くなりました。",
+      "start_ms": 7216,
+      "end_ms": 12987,
+      "duration_ms": 5771,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "えんやすによって、",
+          "start_ms": 7216,
+          "end_ms": 8984,
+          "duration_ms": 1768
+        },
+        {
+          "index": 1,
+          "text": "がいこくでふくをつくるひようが高くなりました。",
+          "start_ms": 9234,
+          "end_ms": 12987,
+          "duration_ms": 3753
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "そのため、にほんのユニクロでは、うりあげの中のもうけのわりあいが少し下がりました。",
+      "start_ms": 13487,
+      "end_ms": 21961,
+      "duration_ms": 8474,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのため、",
+          "start_ms": 13487,
+          "end_ms": 14918,
+          "duration_ms": 1431
+        },
+        {
+          "index": 1,
+          "text": "にほんのユニクロでは、",
+          "start_ms": 15168,
+          "end_ms": 17354,
+          "duration_ms": 2186
+        },
+        {
+          "index": 2,
+          "text": "うりあげの中のもうけのわりあいが少し下がりました。",
+          "start_ms": 17604,
+          "end_ms": 21961,
+          "duration_ms": 4357
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "来年も、えんやすによってふくをつくるひようが高くなりそうです。",
+      "start_ms": 22461,
+      "end_ms": 28325,
+      "duration_ms": 5864,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "来年も、",
+          "start_ms": 22461,
+          "end_ms": 23811,
+          "duration_ms": 1350
+        },
+        {
+          "index": 1,
+          "text": "えんやすによってふくをつくるひようが高くなりそうです。",
+          "start_ms": 24061,
+          "end_ms": 28325,
+          "duration_ms": 4264
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "かいしゃは、にほんでのもうけのわりあいがまた少し下がるおそれがあると考えています。",
+      "start_ms": 28825,
+      "end_ms": 36129,
+      "duration_ms": 7304,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいしゃは、",
+          "start_ms": 28825,
+          "end_ms": 30210,
+          "duration_ms": 1385
+        },
+        {
+          "index": 1,
+          "text": "にほんでのもうけのわりあいがまた少し下がるおそれがあると考えています。",
+          "start_ms": 30460,
+          "end_ms": 36129,
+          "duration_ms": 5669
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "そのため、来年のにほんでのりえきは、前の年と同じくらいにとどまるということです。",
+      "start_ms": 36629,
+      "end_ms": 45102,
+      "duration_ms": 8473,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのため、",
+          "start_ms": 36629,
+          "end_ms": 38048,
+          "duration_ms": 1419
+        },
+        {
+          "index": 1,
+          "text": "来年のにほんでのりえきは、",
+          "start_ms": 38298,
+          "end_ms": 40832,
+          "duration_ms": 2534
+        },
+        {
+          "index": 2,
+          "text": "前の年と同じくらいにとどまるということです。",
+          "start_ms": 41082,
+          "end_ms": 45102,
+          "duration_ms": 4020
+        }
+      ]
+    }
+  ]
+}
