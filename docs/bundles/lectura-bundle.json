@@ -5962,6 +5962,442 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s6-dango"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "だんごの歴史",
+      "tituloEs": "La historia del dango",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "だんご",
+        "昔",
+        "米",
+        "粉",
+        "作ります",
+        "形",
+        "丸い",
+        "縄文時代",
+        "木の実",
+        "作りました",
+        "洗って",
+        "丸めて",
+        "食べました",
+        "始まり",
+        "県",
+        "笹団子",
+        "一つ",
+        "笹",
+        "葉",
+        "包んで",
+        "ひも",
+        "結んだ",
+        "五百年",
+        "食べています",
+        "悪く",
+        "持って行った",
+        "農家",
+        "割れた",
+        "使って",
+        "きんぴら",
+        "おかず",
+        "入れました",
+        "大切",
+        "1964年",
+        "スポーツ",
+        "大会",
+        "あんこ",
+        "入っています",
+        "和菓子",
+        "店",
+        "売っています",
+        "冷凍",
+        "送っています"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "新潟",
+          "lectura": "にいがた",
+          "significado": "Niigata (prefectura del norte de Japón)"
+        }
+      ],
+      "texto": "だんごは、日本で昔からあるお菓子です。米の粉と水で作ります。形は、たいてい丸いです。\n\nだんごの歴史は、とても長いです。縄文時代の人は、木の実から粉を作りました。そして、その粉を水で洗って、丸めて食べました。これが、だんごの始まりでしょう。\n\n今、日本にはいろいろなだんごがあります。新潟県の「笹団子」も、その一つです。笹団子は、だんごを笹の葉で包んで、ひもで結んだものです。\n\n新潟の人は、五百年ぐらい前から笹団子を食べています。笹の葉の中のだんごは、長い間悪くなりません。だから、昔の人は、旅行のとき、笹団子を持って行ったでしょう。\n\nでも、笹団子の始まりは、一つではありません。昔の農家の人は、割れた米を使って、おいしいだんごを作りました。\n\n昔は、笹団子の中に、きんぴらなど家のおかずを入れました。笹団子は、毎日の大切なごはんでした。\n\n1964年に、新潟で大きいスポーツの大会がありました。そのとき、笹団子は大会のお土産になって、とても有名になりました。\n\n今の笹団子の中には、たいていあんこが入っています。和菓子の店やお土産の店で売っています。冷凍の笹団子もあるので、外国にも送っています。\n",
+      "textoEs": "El dango es un dulce que existe en Japón desde hace mucho tiempo. Se hace con harina de arroz y agua. La forma casi siempre es redonda.\n\nLa historia del dango es muy larga. La gente del período Jōmon hacía harina con frutos de los árboles. Después lavaban esa harina con agua, hacían bolas y se las comían. Este sería probablemente el comienzo del dango.\n\nHoy en Japón hay dango de muchos tipos. El «sasadango» de la prefectura de Niigata es uno de ellos. El sasadango es dango envuelto en hojas de bambú sasa y atado con un cordel.\n\nLa gente de Niigata come sasadango desde hace unos quinientos años. El dango dentro de las hojas de sasa no se estropea durante mucho tiempo. Por eso, probablemente la gente de antes llevaba sasadango cuando iba de viaje.\n\nPero el comienzo del sasadango no es uno solo. Antiguamente, la gente de las casas campesinas hacía dango sabroso usando arroz partido.\n\nAntes, dentro del sasadango ponían comida casera, como kinpira. El sasadango era una comida importante de todos los días.\n\nEn 1964 hubo en Niigata una gran competición deportiva. Entonces el sasadango se convirtió en el recuerdo de la competición y se hizo muy conocido.\n\nHoy el sasadango casi siempre lleva anko (pasta dulce de judías) dentro. Se vende en tiendas de dulces japoneses y en tiendas de recuerdos. Como también hay sasadango congelado, se envía también al extranjero.\n",
+      "preguntas": [
+        "だんごは、何で作りますか。",
+        "縄文時代の人は、何から粉を作りましたか。",
+        "笹団子は、何で包みますか。",
+        "昔の人は、旅行のとき、何を持って行ったでしょうか。",
+        "1964年に、新潟で何がありましたか。",
+        "今の笹団子の中には、たいてい何が入っていますか。"
+      ],
+      "preguntasEs": [
+        "¿Con qué se hace el dango?",
+        "¿De qué hacía harina la gente del período Jōmon?",
+        "¿Con qué se envuelve el sasadango?",
+        "¿Qué llevaba probablemente la gente de antes cuando iba de viaje?",
+        "¿Qué hubo en Niigata en 1964?",
+        "¿Qué lleva normalmente dentro el sasadango actual?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "だんご",
+          "lectura": "だんご",
+          "significado": "dango (bola de masa de harina de arroz)",
+          "exclusion": true
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "hace mucho tiempo, tiempos pasados",
+          "exclusion": true
+        },
+        {
+          "literal": "お菓子",
+          "lectura": "おかし",
+          "significado": "dulce"
+        },
+        {
+          "literal": "米",
+          "lectura": "こめ",
+          "significado": "arroz (grano)",
+          "exclusion": true
+        },
+        {
+          "literal": "粉",
+          "lectura": "こな",
+          "significado": "harina, polvo",
+          "exclusion": true
+        },
+        {
+          "literal": "水",
+          "lectura": "みず",
+          "significado": "agua"
+        },
+        {
+          "literal": "作ります",
+          "lectura": "つくります",
+          "significado": "hacer",
+          "exclusion": true
+        },
+        {
+          "literal": "形",
+          "lectura": "かたち",
+          "significado": "forma",
+          "exclusion": true
+        },
+        {
+          "literal": "丸い",
+          "lectura": "まるい",
+          "significado": "redondo",
+          "exclusion": true
+        },
+        {
+          "literal": "歴史",
+          "lectura": "れきし",
+          "significado": "historia"
+        },
+        {
+          "literal": "長い",
+          "lectura": "ながい",
+          "significado": "largo"
+        },
+        {
+          "literal": "縄文時代",
+          "lectura": "じょうもんじだい",
+          "significado": "período Jōmon (prehistoria de Japón)",
+          "exclusion": true
+        },
+        {
+          "literal": "人",
+          "lectura": "ひと",
+          "significado": "persona"
+        },
+        {
+          "literal": "木の実",
+          "lectura": "きのみ",
+          "significado": "fruto de árbol (bellota, nuez…)",
+          "exclusion": true
+        },
+        {
+          "literal": "作りました",
+          "lectura": "つくりました",
+          "significado": "hacer (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "洗って",
+          "lectura": "あらって",
+          "significado": "lavar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "丸めて",
+          "lectura": "まるめて",
+          "significado": "hacer una bola, redondear (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "食べました",
+          "lectura": "たべました",
+          "significado": "comer (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "始まり",
+          "lectura": "はじまり",
+          "significado": "comienzo, origen",
+          "exclusion": true
+        },
+        {
+          "literal": "今",
+          "lectura": "いま",
+          "significado": "ahora"
+        },
+        {
+          "literal": "県",
+          "lectura": "けん",
+          "significado": "prefectura",
+          "exclusion": true
+        },
+        {
+          "literal": "笹団子",
+          "lectura": "ささだんご",
+          "significado": "sasadango (dango envuelto en hojas de bambú sasa)",
+          "exclusion": true
+        },
+        {
+          "literal": "一つ",
+          "lectura": "ひとつ",
+          "significado": "uno (cosa)",
+          "exclusion": true
+        },
+        {
+          "literal": "笹",
+          "lectura": "ささ",
+          "significado": "sasa (bambú enano)",
+          "exclusion": true
+        },
+        {
+          "literal": "葉",
+          "lectura": "は",
+          "significado": "hoja",
+          "exclusion": true
+        },
+        {
+          "literal": "包んで",
+          "lectura": "つつんで",
+          "significado": "envolver (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "ひも",
+          "lectura": "ひも",
+          "significado": "cordel, cuerda",
+          "exclusion": true
+        },
+        {
+          "literal": "結んだ",
+          "lectura": "むすんだ",
+          "significado": "atar (pasado simple)",
+          "exclusion": true
+        },
+        {
+          "literal": "五百年",
+          "lectura": "ごひゃくねん",
+          "significado": "quinientos años",
+          "exclusion": true
+        },
+        {
+          "literal": "前",
+          "lectura": "まえ",
+          "significado": "antes"
+        },
+        {
+          "literal": "食べています",
+          "lectura": "たべています",
+          "significado": "comer (habitual)",
+          "exclusion": true
+        },
+        {
+          "literal": "中",
+          "lectura": "なか",
+          "significado": "dentro"
+        },
+        {
+          "literal": "間",
+          "lectura": "あいだ",
+          "significado": "intervalo, durante"
+        },
+        {
+          "literal": "悪く",
+          "lectura": "わるく",
+          "significado": "malo (forma adverbial; 悪くなる = estropearse)",
+          "exclusion": true
+        },
+        {
+          "literal": "旅行",
+          "lectura": "りょこう",
+          "significado": "viaje"
+        },
+        {
+          "literal": "持って行った",
+          "lectura": "もっていった",
+          "significado": "llevar (consigo) (pasado simple)",
+          "exclusion": true
+        },
+        {
+          "literal": "農家",
+          "lectura": "のうか",
+          "significado": "casa campesina, familia de agricultores",
+          "exclusion": true
+        },
+        {
+          "literal": "割れた",
+          "lectura": "われた",
+          "significado": "partido, roto (pasado simple de 割れる)",
+          "exclusion": true
+        },
+        {
+          "literal": "使って",
+          "lectura": "つかって",
+          "significado": "usar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "きんぴら",
+          "lectura": "きんぴら",
+          "significado": "kinpira (verduras salteadas con soja y azúcar)",
+          "exclusion": true
+        },
+        {
+          "literal": "家",
+          "lectura": "いえ",
+          "significado": "casa"
+        },
+        {
+          "literal": "おかず",
+          "lectura": "おかず",
+          "significado": "plato de acompañamiento (comida casera)",
+          "exclusion": true
+        },
+        {
+          "literal": "入れました",
+          "lectura": "いれました",
+          "significado": "meter, poner dentro (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "毎日",
+          "lectura": "まいにち",
+          "significado": "todos los días"
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante, valioso",
+          "exclusion": true
+        },
+        {
+          "literal": "1964年",
+          "lectura": "せんきゅうひゃくろくじゅうよねん",
+          "significado": "año 1964",
+          "exclusion": true
+        },
+        {
+          "literal": "大きい",
+          "lectura": "おおきい",
+          "significado": "grande"
+        },
+        {
+          "literal": "スポーツ",
+          "lectura": "スポーツ",
+          "significado": "deporte",
+          "exclusion": true
+        },
+        {
+          "literal": "大会",
+          "lectura": "たいかい",
+          "significado": "campeonato, gran competición",
+          "exclusion": true
+        },
+        {
+          "literal": "お土産",
+          "lectura": "おみやげ",
+          "significado": "recuerdo (regalo de viaje)"
+        },
+        {
+          "literal": "有名",
+          "lectura": "ゆうめい",
+          "significado": "famoso"
+        },
+        {
+          "literal": "あんこ",
+          "lectura": "あんこ",
+          "significado": "anko (pasta dulce de judías rojas)",
+          "exclusion": true
+        },
+        {
+          "literal": "入っています",
+          "lectura": "はいっています",
+          "significado": "entrar, estar dentro",
+          "exclusion": true
+        },
+        {
+          "literal": "和菓子",
+          "lectura": "わがし",
+          "significado": "dulce tradicional japonés",
+          "exclusion": true
+        },
+        {
+          "literal": "店",
+          "lectura": "みせ",
+          "significado": "tienda",
+          "exclusion": true
+        },
+        {
+          "literal": "売っています",
+          "lectura": "うっています",
+          "significado": "vender (estado)",
+          "exclusion": true
+        },
+        {
+          "literal": "冷凍",
+          "lectura": "れいとう",
+          "significado": "congelado, congelación",
+          "exclusion": true
+        },
+        {
+          "literal": "外国",
+          "lectura": "がいこく",
+          "significado": "país extranjero"
+        },
+        {
+          "literal": "送っています",
+          "lectura": "おくっています",
+          "significado": "enviar (habitual)",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "forma-te",
+        "usos-forma-te",
+        "particula-ga",
+        "frases-causa-node",
+        "conjetura-deshou"
+      ],
+      "nivel": "A2.2"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s1-shinderera"
     },
     "data": {
@@ -7498,6 +7934,468 @@
         "s2-te-iru",
         "s2-ni-yotte",
         "s2-uchi-ni",
+        "s3-ni-totte"
+      ],
+      "nivel": "B2.1"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "b2.1-s5-uniqlo-marca-global"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "ユニクロ ― 広島の小さな店から世界のブランドへ",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "服",
+        "会社",
+        "世界",
+        "国",
+        "店",
+        "日本",
+        "生活",
+        "普段",
+        "毎日",
+        "発表",
+        "結果",
+        "外国",
+        "中国",
+        "韓国",
+        "便利",
+        "夏",
+        "お客さん",
+        "選ぶ",
+        "心配",
+        "作る",
+        "大切",
+        "新しい",
+        "初めて",
+        "売り上げ",
+        "利益",
+        "海外",
+        "地域",
+        "億",
+        "兆",
+        "円安",
+        "費用",
+        "割合",
+        "予想",
+        "伸びる",
+        "増える",
+        "超える",
+        "日差し",
+        "両方",
+        "全体",
+        "年間",
+        "ブランド",
+        "工夫",
+        "計画",
+        "守る",
+        "成長",
+        "特別",
+        "最初",
+        "着る",
+        "体",
+        "形",
+        "考え方",
+        "第一章",
+        "第二章",
+        "第三章",
+        "第四章",
+        "第五章",
+        "第六章"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "ユニクロ",
+          "lectura": "ゆにくろ",
+          "significado": "Uniqlo, marca de ropa de Fast Retailing"
+        },
+        {
+          "literal": "ファーストリテイリング",
+          "lectura": "ふぁーすとりていりんぐ",
+          "significado": "Fast Retailing, empresa propietaria de Uniqlo"
+        },
+        {
+          "literal": "広島",
+          "lectura": "ひろしま",
+          "significado": "Hiroshima (ciudad donde abrió la primera tienda, 1984)"
+        },
+        {
+          "literal": "LifeWear",
+          "lectura": "らいふうぇあ",
+          "significado": "LifeWear, concepto de ropa de Uniqlo para la vida diaria"
+        },
+        {
+          "literal": "ヨーロッパ",
+          "lectura": "よーろっぱ",
+          "significado": "Europa"
+        },
+        {
+          "literal": "北米",
+          "lectura": "ほくべい",
+          "significado": "Norteamérica"
+        },
+        {
+          "literal": "東南アジア",
+          "lectura": "とうなんあじあ",
+          "significado": "Sudeste Asiático"
+        },
+        {
+          "literal": "ウルトラストレッチパンツ",
+          "lectura": "うるとらすとれっちぱんつ",
+          "significado": "Ultra Stretch Pants (pantalón elástico de Uniqlo)"
+        },
+        {
+          "literal": "UVカット",
+          "lectura": "ゆーぶいかっと",
+          "significado": "UV Cut (ropa con protección UV)"
+        },
+        {
+          "literal": "バレルパンツ",
+          "lectura": "ばれるぱんつ",
+          "significado": "Barrel Pants (pantalón ancho en forma de barril)"
+        }
+      ],
+      "texto": "第一章　広島の小さな店から\n\nユニクロは、日本の服のブランドです。ユニクロの店を持っている会社は「ファーストリテイリング」といいます。1984年、広島に最初の店ができました。今では、日本だけでなく、世界のたくさんの国に店があります。\n\nユニクロの服は、特別な日ではなく、普段の生活で着る服です。会社は、服で人の毎日の生活をよくしたいと考えていて、この考え方を「LifeWear」と呼んでいます。\n\n---\n\n第二章　2026年の結果\n\n2026年10月8日、ファーストリテイリングは、2026年8月までの1年間の結果を発表しました。会社全体の売り上げは3兆9,633億円で、前の年より16.6％増えました。利益も30.4％増えて、5年続けて今までで一番いい結果になりました。\n\n発表のとおり、ユニクロは日本でも海外でも、すべての地域で売り上げと利益が増えました。\n\n---\n\n第三章　海外で大きく伸びたユニクロ\n\n特に大きく伸びたのは、海外のユニクロです。海外の売り上げは2兆4,111億円で、日本の売り上げ（1兆848億円）の2倍以上になりました。\n\n伸び方は地域によってさまざまですが、ヨーロッパでは38.7％、北米では34.6％も売り上げが増えました。ヨーロッパと北米を合わせた売り上げは、中国などの地域や、韓国・東南アジアなどの地域を初めて超えたということです。今では、ヨーロッパと北米は、会社にとって大切な地域になっています。\n\n会社は、新しい店を出す際、その国の人に「LifeWear」のよさが伝わるように、店のつくりを工夫しているということです。\n\n---\n\n第四章　便利な服と、はやりの服\n\n日本では、よく伸びる「ウルトラストレッチパンツ」や、夏の強い日差しから体を守る「UVカット」の服など、生活に便利な服がよく売れました。また、はやりの形の「バレルパンツ」も、日本と海外でよく売れました。\n\n便利な服と、はやりの服。その両方があるからこそ、たくさんのお客さんがユニクロを選ぶのでしょう。\n\n---\n\n第五章　円安による心配\n\nでも、心配なこともあります。円安によって、外国で服を作る費用が高くなりました。そのため、日本のユニクロでは、売り上げの中のもうけの割合が少し下がりました。\n\n来年も、円安によって服を作る費用が高くなりそうです。会社は、日本でのもうけの割合がまた少し下がるおそれがあると考えています。そのため、来年の日本での利益は、前の年と同じくらいにとどまるということです。\n\n---\n\n第六章　これからのユニクロ\n\n会社は、2027年8月までの1年間の売り上げが4兆4,500億円になり、初めて4兆円を超えると予想しています。これからも、世界で新しい店を出していく計画です。ユニクロを知る人が増えるにつれて、「LifeWear」を選ぶ人も増えていくでしょう。\n\n広島の小さな店から始まったユニクロは、今、世界の人が普段着る服のブランドに成長しました。\n",
+      "preguntas": [
+        "ユニクロの最初の店は、いつ、どこにできましたか。",
+        "2026年8月までの1年間で、会社全体の売り上げは前の年より何％増えましたか。",
+        "海外の売り上げは、日本の売り上げの何倍になりましたか。",
+        "ヨーロッパと北米を合わせた売り上げは、何を初めて超えましたか。",
+        "日本では、どんな服がよく売れましたか。",
+        "円安によって、どんなおそれがありますか。"
+      ],
+      "tituloEs": "Uniqlo — De una pequeña tienda de Hiroshima a marca mundial",
+      "textoEs": "Capítulo 1 · Desde una pequeña tienda de Hiroshima\n\nUniqlo es una marca de ropa japonesa. La empresa que tiene las tiendas Uniqlo se llama «Fast Retailing». En 1984 abrió la primera tienda en Hiroshima. Hoy tiene tiendas no solo en Japón, sino en muchos países del mundo.\n\nLa ropa de Uniqlo no es para los días especiales, sino ropa para ponerse en la vida diaria normal. La empresa quiere mejorar con su ropa la vida de todos los días de las personas, y a esta forma de pensar la llama «LifeWear».\n\n---\n\nCapítulo 2 · Los resultados de 2026\n\nEl 8 de octubre de 2026, Fast Retailing presentó los resultados del año que terminó en agosto de 2026. Las ventas de toda la empresa fueron de 3 billones 963.300 millones de yenes, un 16,6 % más que el año anterior. El beneficio también subió un 30,4 %, y por quinto año seguido fue el mejor resultado de su historia.\n\nTal como dice el anuncio, Uniqlo aumentó sus ventas y sus beneficios en todas las regiones, tanto en Japón como en el extranjero.\n\n---\n\nCapítulo 3 · Uniqlo crece con fuerza en el extranjero\n\nLo que más creció fue Uniqlo en el extranjero. Las ventas en el extranjero fueron de 2 billones 411.100 millones de yenes, más del doble de las ventas en Japón (1 billón 84.800 millones de yenes).\n\nEl ritmo de crecimiento cambia según la región, pero en Europa las ventas subieron nada menos que un 38,7 % y en Norteamérica un 34,6 %. Según la empresa, las ventas de Europa y Norteamérica juntas superaron por primera vez a las de la región de China y otras zonas, y a las de la región de Corea, el Sudeste Asiático y otras zonas. Ahora Europa y Norteamérica se han convertido en regiones importantes para la empresa.\n\nSegún la empresa, cuando abre una tienda nueva, cuida el diseño de la tienda para que la gente de ese país entienda lo bueno de «LifeWear».\n\n---\n\nCapítulo 4 · Ropa práctica y ropa de moda\n\nEn Japón se vendió mucho la ropa práctica para la vida diaria, como los «Ultra Stretch Pants», que se estiran mucho, o la ropa «UV Cut», que protege el cuerpo del sol fuerte del verano. Además, los «Barrel Pants», de forma que está de moda, también se vendieron mucho en Japón y en el extranjero.\n\nRopa práctica y ropa de moda. Precisamente porque tiene las dos cosas, muchos clientes eligen Uniqlo.\n\n---\n\nCapítulo 5 · La preocupación por el yen débil\n\nPero también hay motivos de preocupación. Por culpa del yen débil, subió el coste de fabricar la ropa en el extranjero. Por eso, en Uniqlo Japón bajó un poco la proporción de ganancia dentro de las ventas.\n\nParece que el año que viene el yen débil también encarecerá la fabricación de la ropa. La empresa piensa que existe el riesgo de que la proporción de ganancia en Japón vuelva a bajar un poco. Por eso, según la empresa, el beneficio en Japón del año que viene se quedará más o menos igual que el del año anterior.\n\n---\n\nCapítulo 6 · El Uniqlo del futuro\n\nLa empresa prevé que las ventas del año que termina en agosto de 2027 serán de 4 billones 450.000 millones de yenes y que superarán por primera vez los 4 billones de yenes. Tiene previsto seguir abriendo tiendas nuevas en el mundo. A medida que aumente la gente que conoce Uniqlo, seguramente también aumentará la gente que elige «LifeWear».\n\nUniqlo, que empezó con una pequeña tienda en Hiroshima, ha crecido hasta convertirse hoy en una marca de la ropa que la gente del mundo se pone a diario.\n",
+      "preguntasEs": [
+        "¿Cuándo y dónde abrió la primera tienda de Uniqlo?",
+        "En el año hasta agosto de 2026, ¿qué porcentaje aumentaron las ventas de toda la empresa respecto al año anterior?",
+        "¿Cuántas veces mayores que las de Japón llegaron a ser las ventas en el extranjero?",
+        "¿Qué superaron por primera vez las ventas de Europa y Norteamérica juntas?",
+        "¿Qué tipo de ropa se vendió mucho en Japón?",
+        "Por culpa del yen débil, ¿qué riesgo existe?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "服",
+          "lectura": "ふく",
+          "significado": "ropa"
+        },
+        {
+          "literal": "会社",
+          "lectura": "かいしゃ",
+          "significado": "empresa, compañía"
+        },
+        {
+          "literal": "世界",
+          "lectura": "せかい",
+          "significado": "mundo"
+        },
+        {
+          "literal": "国",
+          "lectura": "くに",
+          "significado": "país"
+        },
+        {
+          "literal": "店",
+          "lectura": "みせ",
+          "significado": "tienda"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "生活",
+          "lectura": "せいかつ",
+          "significado": "vida diaria"
+        },
+        {
+          "literal": "普段",
+          "lectura": "ふだん",
+          "significado": "normalmente, habitualmente"
+        },
+        {
+          "literal": "毎日",
+          "lectura": "まいにち",
+          "significado": "todos los días"
+        },
+        {
+          "literal": "発表",
+          "lectura": "はっぴょう",
+          "significado": "presentación; anuncio"
+        },
+        {
+          "literal": "結果",
+          "lectura": "けっか",
+          "significado": "resultado"
+        },
+        {
+          "literal": "外国",
+          "lectura": "がいこく",
+          "significado": "país extranjero"
+        },
+        {
+          "literal": "中国",
+          "lectura": "ちゅうごく",
+          "significado": "China"
+        },
+        {
+          "literal": "韓国",
+          "lectura": "かんこく",
+          "significado": "Corea"
+        },
+        {
+          "literal": "便利",
+          "lectura": "べんり",
+          "significado": "conveniente, útil"
+        },
+        {
+          "literal": "夏",
+          "lectura": "なつ",
+          "significado": "verano"
+        },
+        {
+          "literal": "お客さん",
+          "lectura": "おきゃくさん",
+          "significado": "cliente; visitante"
+        },
+        {
+          "literal": "選ぶ",
+          "lectura": "えらぶ",
+          "significado": "elegir, escoger"
+        },
+        {
+          "literal": "心配",
+          "lectura": "しんぱい",
+          "significado": "preocupación, inquietud"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "hacer, fabricar"
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante, valioso"
+        },
+        {
+          "literal": "新しい",
+          "lectura": "あたらしい",
+          "significado": "nuevo/a"
+        },
+        {
+          "literal": "初めて",
+          "lectura": "はじめて",
+          "significado": "por primera vez"
+        },
+        {
+          "literal": "売り上げ",
+          "lectura": "うりあげ",
+          "significado": "ventas; facturación"
+        },
+        {
+          "literal": "利益",
+          "lectura": "りえき",
+          "significado": "beneficio, ganancia (de una empresa)"
+        },
+        {
+          "literal": "海外",
+          "lectura": "かいがい",
+          "significado": "extranjero, ultramar"
+        },
+        {
+          "literal": "地域",
+          "lectura": "ちいき",
+          "significado": "región, zona"
+        },
+        {
+          "literal": "億",
+          "lectura": "おく",
+          "significado": "cien millones (10⁸)"
+        },
+        {
+          "literal": "兆",
+          "lectura": "ちょう",
+          "significado": "billón (10¹²)"
+        },
+        {
+          "literal": "円安",
+          "lectura": "えんやす",
+          "significado": "yen débil, depreciación del yen"
+        },
+        {
+          "literal": "費用",
+          "lectura": "ひよう",
+          "significado": "coste, gasto"
+        },
+        {
+          "literal": "割合",
+          "lectura": "わりあい",
+          "significado": "proporción, porcentaje"
+        },
+        {
+          "literal": "予想",
+          "lectura": "よそう",
+          "significado": "previsión; prever"
+        },
+        {
+          "literal": "伸びる",
+          "lectura": "のびる",
+          "significado": "crecer; estirarse"
+        },
+        {
+          "literal": "増える",
+          "lectura": "ふえる",
+          "significado": "aumentar (intr.)"
+        },
+        {
+          "literal": "超える",
+          "lectura": "こえる",
+          "significado": "superar"
+        },
+        {
+          "literal": "日差し",
+          "lectura": "ひざし",
+          "significado": "luz del sol, rayos de sol"
+        },
+        {
+          "literal": "両方",
+          "lectura": "りょうほう",
+          "significado": "ambos, los dos"
+        },
+        {
+          "literal": "全体",
+          "lectura": "ぜんたい",
+          "significado": "conjunto, total"
+        },
+        {
+          "literal": "年間",
+          "lectura": "ねんかん",
+          "significado": "periodo de un año; anual"
+        },
+        {
+          "literal": "もうけ",
+          "lectura": "もうけ",
+          "significado": "ganancia, margen"
+        },
+        {
+          "literal": "はやり",
+          "lectura": "はやり",
+          "significado": "moda, tendencia"
+        },
+        {
+          "literal": "ブランド",
+          "lectura": "ぶらんど",
+          "significado": "marca",
+          "exclusion": true
+        },
+        {
+          "literal": "工夫",
+          "lectura": "くふう",
+          "significado": "ingenio; idear, cuidar (algo)",
+          "exclusion": true
+        },
+        {
+          "literal": "計画",
+          "lectura": "けいかく",
+          "significado": "plan",
+          "exclusion": true
+        },
+        {
+          "literal": "守る",
+          "lectura": "まもる",
+          "significado": "proteger",
+          "exclusion": true
+        },
+        {
+          "literal": "成長",
+          "lectura": "せいちょう",
+          "significado": "crecimiento; crecer",
+          "exclusion": true
+        },
+        {
+          "literal": "特別",
+          "lectura": "とくべつ",
+          "significado": "especial",
+          "exclusion": true
+        },
+        {
+          "literal": "最初",
+          "lectura": "さいしょ",
+          "significado": "primero/a; al principio",
+          "exclusion": true
+        },
+        {
+          "literal": "着る",
+          "lectura": "きる",
+          "significado": "ponerse (ropa)",
+          "exclusion": true
+        },
+        {
+          "literal": "体",
+          "lectura": "からだ",
+          "significado": "cuerpo",
+          "exclusion": true
+        },
+        {
+          "literal": "形",
+          "lectura": "かたち",
+          "significado": "forma",
+          "exclusion": true
+        },
+        {
+          "literal": "考え方",
+          "lectura": "かんがえかた",
+          "significado": "forma de pensar",
+          "exclusion": true
+        },
+        {
+          "literal": "第一章",
+          "lectura": "だいいっしょう",
+          "significado": "capítulo 1",
+          "exclusion": true
+        },
+        {
+          "literal": "第二章",
+          "lectura": "だいにしょう",
+          "significado": "capítulo 2",
+          "exclusion": true
+        },
+        {
+          "literal": "第三章",
+          "lectura": "だいさんしょう",
+          "significado": "capítulo 3",
+          "exclusion": true
+        },
+        {
+          "literal": "第四章",
+          "lectura": "だいよんしょう",
+          "significado": "capítulo 4",
+          "exclusion": true
+        },
+        {
+          "literal": "第五章",
+          "lectura": "だいごしょう",
+          "significado": "capítulo 5",
+          "exclusion": true
+        },
+        {
+          "literal": "第六章",
+          "lectura": "だいろくしょう",
+          "significado": "capítulo 6",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "s2-te-iru",
+        "s2-ni-yotte",
         "s3-ni-totte"
       ],
       "nivel": "B2.1"
