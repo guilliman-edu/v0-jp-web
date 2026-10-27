@@ -5970,47 +5970,26 @@
       "tituloEs": "La historia del dango",
       "modoFurigana": "templado",
       "furiganaList": [
-        "だんご",
         "昔",
-        "米",
-        "粉",
         "作ります",
-        "形",
-        "丸い",
-        "縄文時代",
-        "木の実",
         "作りました",
         "洗って",
         "丸めて",
         "食べました",
-        "始まり",
-        "県",
-        "笹団子",
         "一つ",
-        "笹",
-        "葉",
         "包んで",
-        "ひも",
         "結んだ",
         "五百年",
         "食べています",
         "悪く",
         "持って行った",
-        "農家",
         "割れた",
         "使って",
-        "きんぴら",
-        "おかず",
         "入れました",
         "大切",
-        "スポーツ",
-        "大会",
-        "あんこ",
         "入っています",
-        "和菓子",
         "店",
         "売っています",
-        "冷凍",
         "送っています"
       ],
       "nombres_propios": [
@@ -6047,8 +6026,7 @@
         {
           "literal": "だんご",
           "lectura": "だんご",
-          "significado": "dango (bola de masa de harina de arroz)",
-          "exclusion": true
+          "significado": "dango (bola de masa de harina de arroz)"
         },
         {
           "literal": "日本",
@@ -6069,14 +6047,12 @@
         {
           "literal": "米",
           "lectura": "こめ",
-          "significado": "arroz (grano)",
-          "exclusion": true
+          "significado": "arroz (grano)"
         },
         {
           "literal": "粉",
           "lectura": "こな",
-          "significado": "harina, polvo",
-          "exclusion": true
+          "significado": "harina, polvo"
         },
         {
           "literal": "水",
@@ -6092,14 +6068,12 @@
         {
           "literal": "形",
           "lectura": "かたち",
-          "significado": "forma",
-          "exclusion": true
+          "significado": "forma"
         },
         {
           "literal": "丸い",
           "lectura": "まるい",
-          "significado": "redondo",
-          "exclusion": true
+          "significado": "redondo"
         },
         {
           "literal": "歴史",
@@ -6114,8 +6088,7 @@
         {
           "literal": "縄文時代",
           "lectura": "じょうもんじだい",
-          "significado": "período Jōmon (prehistoria de Japón)",
-          "exclusion": true
+          "significado": "período Jōmon (prehistoria de Japón)"
         },
         {
           "literal": "人",
@@ -6125,8 +6098,7 @@
         {
           "literal": "木の実",
           "lectura": "きのみ",
-          "significado": "fruto de árbol (bellota, nuez…)",
-          "exclusion": true
+          "significado": "fruto de árbol (bellota, nuez…)"
         },
         {
           "literal": "作りました",
@@ -6155,8 +6127,7 @@
         {
           "literal": "始まり",
           "lectura": "はじまり",
-          "significado": "comienzo, origen",
-          "exclusion": true
+          "significado": "comienzo, origen"
         },
         {
           "literal": "今",
@@ -6166,14 +6137,12 @@
         {
           "literal": "県",
           "lectura": "けん",
-          "significado": "prefectura",
-          "exclusion": true
+          "significado": "prefectura"
         },
         {
           "literal": "笹団子",
           "lectura": "ささだんご",
-          "significado": "sasadango (dango envuelto en hojas de bambú sasa)",
-          "exclusion": true
+          "significado": "sasadango (dango envuelto en hojas de bambú sasa)"
         },
         {
           "literal": "一つ",
@@ -6184,14 +6153,12 @@
         {
           "literal": "笹",
           "lectura": "ささ",
-          "significado": "sasa (bambú enano)",
-          "exclusion": true
+          "significado": "sasa (bambú enano)"
         },
         {
           "literal": "葉",
           "lectura": "は",
-          "significado": "hoja",
-          "exclusion": true
+          "significado": "hoja"
         },
         {
           "literal": "包んで",
@@ -6202,8 +6169,7 @@
         {
           "literal": "ひも",
           "lectura": "ひも",
-          "significado": "cordel, cuerda",
-          "exclusion": true
+          "significado": "cordel, cuerda"
         },
         {
           "literal": "結んだ",
@@ -6258,8 +6224,7 @@
         {
           "literal": "農家",
           "lectura": "のうか",
-          "significado": "casa campesina, familia de agricultores",
-          "exclusion": true
+          "significado": "casa campesina, familia de agricultores"
         },
         {
           "literal": "割れた",
@@ -6276,8 +6241,7 @@
         {
           "literal": "きんぴら",
           "lectura": "きんぴら",
-          "significado": "kinpira (verduras salteadas con soja y azúcar)",
-          "exclusion": true
+          "significado": "kinpira (verduras salteadas con soja y azúcar)"
         },
         {
           "literal": "家",
@@ -6287,8 +6251,7 @@
         {
           "literal": "おかず",
           "lectura": "おかず",
-          "significado": "plato de acompañamiento (comida casera)",
-          "exclusion": true
+          "significado": "plato de acompañamiento (comida casera)"
         },
         {
           "literal": "入れました",
@@ -6315,14 +6278,12 @@
         {
           "literal": "スポーツ",
           "lectura": "スポーツ",
-          "significado": "deporte",
-          "exclusion": true
+          "significado": "deporte"
         },
         {
           "literal": "大会",
           "lectura": "たいかい",
-          "significado": "campeonato, gran competición",
-          "exclusion": true
+          "significado": "campeonato, gran competición"
         },
         {
           "literal": "お土産",
@@ -6337,8 +6298,7 @@
         {
           "literal": "あんこ",
           "lectura": "あんこ",
-          "significado": "anko (pasta dulce de judías rojas)",
-          "exclusion": true
+          "significado": "anko (pasta dulce de judías rojas)"
         },
         {
           "literal": "入っています",
@@ -6349,8 +6309,7 @@
         {
           "literal": "和菓子",
           "lectura": "わがし",
-          "significado": "dulce tradicional japonés",
-          "exclusion": true
+          "significado": "dulce tradicional japonés"
         },
         {
           "literal": "店",
@@ -6367,8 +6326,7 @@
         {
           "literal": "冷凍",
           "lectura": "れいとう",
-          "significado": "congelado, congelación",
-          "exclusion": true
+          "significado": "congelado, congelación"
         },
         {
           "literal": "外国",
