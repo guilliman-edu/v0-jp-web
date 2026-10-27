@@ -1439,3 +1439,132 @@ imagenes:
     archivo: s4/履く.webp
     escena: s4/履く.json
     estado: revisado
+
+# Lote s6 (2026-10-27) — A2.2 «だんごの歴史»: 25 términos del repaso léxico de la
+# unidad. Escenas nuevas; estado propuesto hasta el gate humano por lección
+# (ADR-0091 §4). No se versionan los .webp hasta estado: revisado.
+  - literal: あんこ
+    leccion: s6
+    archivo: s6/あんこ.webp
+    escena: s6/あんこ.json
+    estado: revisado
+  - literal: おかず
+    leccion: s6
+    archivo: s6/おかず.webp
+    escena: s6/おかず.json
+    estado: revisado
+  - literal: 形
+    leccion: s6
+    archivo: s6/形.webp
+    escena: s6/形.json
+    estado: revisado
+  - literal: 木の実
+    leccion: s6
+    archivo: s6/木の実.webp
+    escena: s6/木の実.json
+    estado: revisado
+  - literal: きんぴら
+    leccion: s6
+    archivo: s6/きんぴら.webp
+    escena: s6/きんぴら.json
+    estado: revisado
+  - literal: 県
+    leccion: s6
+    archivo: s6/県.webp
+    escena: s6/県.json
+    estado: revisado
+  - literal: 粉
+    leccion: s6
+    archivo: s6/粉.webp
+    escena: s6/粉.json
+    estado: revisado
+  - literal: 米
+    leccion: s6
+    archivo: s6/米.webp
+    escena: s6/米.json
+    estado: revisado
+  - literal: 笹
+    leccion: s6
+    archivo: s6/笹.webp
+    escena: s6/笹.json
+    estado: revisado
+  - literal: 笹団子
+    leccion: s6
+    archivo: s6/笹団子.webp
+    escena: s6/笹団子.json
+    estado: revisado
+  - literal: スポーツ
+    leccion: s6
+    archivo: s6/スポーツ.webp
+    escena: s6/スポーツ.json
+    estado: revisado
+  - literal: 縄文時代
+    leccion: s6
+    archivo: s6/縄文時代.webp
+    escena: s6/縄文時代.json
+    estado: revisado
+  - literal: 大会
+    leccion: s6
+    archivo: s6/大会.webp
+    escena: s6/大会.json
+    estado: revisado
+  - literal: 包む
+    leccion: s6
+    archivo: s6/包む.webp
+    escena: s6/包む.json
+    estado: revisado
+  - literal: だんご
+    leccion: s6
+    archivo: s6/だんご.webp
+    escena: s6/だんご.json
+    estado: revisado
+  - literal: 農家
+    leccion: s6
+    archivo: s6/農家.webp
+    escena: s6/農家.json
+    estado: revisado
+  - literal: 葉
+    leccion: s6
+    archivo: s6/葉.webp
+    escena: s6/葉.json
+    estado: revisado
+  - literal: 始まり
+    leccion: s6
+    archivo: s6/始まり.webp
+    escena: s6/始まり.json
+    estado: revisado
+  - literal: ひも
+    leccion: s6
+    archivo: s6/ひも.webp
+    escena: s6/ひも.json
+    estado: revisado
+  - literal: 丸い
+    leccion: s6
+    archivo: s6/丸い.webp
+    escena: s6/丸い.json
+    estado: revisado
+  - literal: 丸める
+    leccion: s6
+    archivo: s6/丸める.webp
+    escena: s6/丸める.json
+    estado: revisado
+  - literal: 結ぶ
+    leccion: s6
+    archivo: s6/結ぶ.webp
+    escena: s6/結ぶ.json
+    estado: revisado
+  - literal: 冷凍
+    leccion: s6
+    archivo: s6/冷凍.webp
+    escena: s6/冷凍.json
+    estado: revisado
+  - literal: 和菓子
+    leccion: s6
+    archivo: s6/和菓子.webp
+    escena: s6/和菓子.json
+    estado: revisado
+  - literal: 割れる
+    leccion: s6
+    archivo: s6/割れる.webp
+    escena: s6/割れる.json
+    estado: revisado
