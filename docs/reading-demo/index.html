@@ -1103,7 +1103,8 @@ Apaisado (horizontal)
       const incluirLamina = form.elements.namedItem("lamina")?.checked || false
 
       try {
-        const { generarDocumentoPdf, nombreArchivoDe } = (window as any).PDFGenerador
+        // @ts-ignore PDFGenerador está en window gracias a pdf-init.ts
+        const { generarDocumentoPdf, nombreArchivoDe } = window.PDFGenerador
         if (!generarDocumentoPdf || !nombreArchivoDe) {
           throw new Error("PDFGenerador no cargado. Recarga la página.")
         }
