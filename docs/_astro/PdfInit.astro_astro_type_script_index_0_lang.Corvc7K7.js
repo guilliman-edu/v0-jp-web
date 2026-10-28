@@ -1,1 +1,0 @@
-import{n as o,g as r}from"./index.D27T1l-j.js";import"./preload-helper.-yzuyGuI.js";window.PDFGenerador={generarDocumentoPdf:r,nombreArchivoDe:o};console.log("✓ PDFGenerador inicializado:",window.PDFGenerador);
