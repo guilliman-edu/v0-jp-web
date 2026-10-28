@@ -1103,8 +1103,10 @@ Apaisado (horizontal)
       const incluirLamina = form.elements.namedItem("lamina")?.checked || false
 
       try {
-        const { generarDocumentoPdf, nombreArchivoDe } = await import("@maquinaria/pdf-generador")
-        
+        const { generarDocumentoPdf, nombreArchivoDe } = (window as any).PDFGenerador
+        if (!generarDocumentoPdf || !nombreArchivoDe) {
+          throw new Error("PDFGenerador no cargado. Recarga la página.")
+        }
 
         const meta = {
           titulo: actividad.data.titulo || "Práctica",
