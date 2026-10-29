@@ -1225,9 +1225,10 @@ Apaisado (horizontal)
               texto: _textilizar(cap.textoEsOriginal),
             })
           }
+          const numerado = /^第[〇一二三四五六七八九十百0-9]+章/.test(cap.titulo || "")
           secciones.push({
-            numero: String(i + 1),
-            etiqueta: "Capítulo",
+            numero: numerado ? "" : String(i + 1),
+            etiqueta: numerado ? undefined : "Capítulo",
             titulo: _aplicarRubyFragmentos(cap.titulo, vocabGen, nombresGen, apuntillaGen, exclusionGen),
             bloques,
           })
