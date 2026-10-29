@@ -46,21 +46,18 @@ Apaisado (horizontal)
       return _LECTURA_BUNDLE.find(r => r.metadata.name === id)
     }
 
-    // URL de la semana del deck a la que pertenece la práctica. Primero consulta el
-    // bundle de Semanas (la semana que realmente la enlaza, ADR-0084); si no está
-    // enlazada en ninguna semana, deriva de forma legacy desde el id
+    // URL del deck de nivel al que pertenece la práctica. El nivel sale de la semana
+    // que la enlaza (bundle de Semanas, ADR-0084); si no está enlazada, del id
     // (`<nivel>-s<N>-<slug>`, p. ej. a2.2-s1-densha-otoko).
     function urlVolverAlDeck(actividadId) {
       const semanaId = _PRACTICA_SEMANA[actividadId]
       if (semanaId) {
         const m = String(semanaId).match(/^semana-(.+)-s\d+$/i)
-        if (m && m[1]) return _BASE_URL + "deck/" + m[1].toLowerCase() + "/" + semanaId + "/"
+        if (m && m[1]) return _BASE_URL + "deck/" + m[1].toLowerCase() + "/"
       }
       const md = String(actividadId || "").match(/^(.*)-s(\d+)-(.*)$/)
-      if (!md || !md[1] || !md[2]) return ""
-      const nivel = md[1]
-      const semanaFallback = "semana-" + nivel + "-s" + md[2]
-      return _BASE_URL + "deck/" + nivel.toLowerCase() + "/" + semanaFallback + "/"
+      if (!md || !md[1]) return ""
+      return _BASE_URL + "deck/" + md[1].toLowerCase() + "/"
     }
 
     function setBackLink(actividadId) {
