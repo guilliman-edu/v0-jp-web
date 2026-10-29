@@ -6356,6 +6356,2000 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s6-katsuno"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "カツノの復讐",
+      "tituloEs": "La venganza de Katsuno",
+      "procedencia": "Adaptación educativa del cuento de dominio público «Katsuno's Revenge» (Tales of the Samurai, Project Gutenberg #67650).",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "復讐",
+        "侍",
+        "話",
+        "話します",
+        "話して",
+        "大きくて",
+        "大きな",
+        "大きく",
+        "城",
+        "働いていました",
+        "働きました",
+        "働いて",
+        "年",
+        "五十二",
+        "体",
+        "力",
+        "殿様",
+        "者",
+        "持っていました",
+        "持って",
+        "見て",
+        "見ます",
+        "起きていました",
+        "起きて",
+        "皆",
+        "怖かったです",
+        "部下",
+        "怒りました",
+        "自分",
+        "言葉",
+        "思っていました",
+        "思って",
+        "言いました",
+        "言いませんでした",
+        "言います",
+        "若くて",
+        "子",
+        "読みました",
+        "好き",
+        "奥さん",
+        "料理",
+        "十九",
+        "結婚",
+        "聞きました",
+        "聞いています",
+        "選びませんでした",
+        "立ちました",
+        "負ける",
+        "殺さなければ",
+        "居ました",
+        "来ました",
+        "知っていました",
+        "会いました",
+        "笑いました",
+        "要ります",
+        "出しました",
+        "出し",
+        "心配",
+        "日",
+        "何",
+        "知っています",
+        "知って",
+        "約束",
+        "働きます",
+        "見ていました",
+        "怒って",
+        "怒らないでください",
+        "立っていました",
+        "立って",
+        "殺します",
+        "赤くなっていました",
+        "庭",
+        "飲みました",
+        "座っていました",
+        "大切",
+        "苦しかった",
+        "終わり",
+        "火事",
+        "出ました",
+        "出て",
+        "入りました",
+        "入ります",
+        "書いてあります",
+        "取りに",
+        "熱く",
+        "探しました",
+        "刀",
+        "刺しました",
+        "倒れて",
+        "死にました",
+        "死",
+        "方",
+        "行きました",
+        "持っています",
+        "持ちました",
+        "言われました",
+        "居た",
+        "居ませんでした",
+        "刺した",
+        "刺してください",
+        "死にます",
+        "行きましょう",
+        "行って",
+        "行ってください",
+        "一つ",
+        "呼んで",
+        "答えました",
+        "悲しみました",
+        "食べませんでした",
+        "早く",
+        "小さな",
+        "失礼します",
+        "元気",
+        "望み",
+        "会って",
+        "殺しに",
+        "悲しんでいる",
+        "言われた",
+        "働いてください",
+        "見た",
+        "思いました",
+        "思います",
+        "居るでしょう",
+        "来ます",
+        "来てください",
+        "会います",
+        "会ってください",
+        "白くて",
+        "座りました",
+        "書いてある",
+        "探しています",
+        "別",
+        "歩きました",
+        "歩いて",
+        "帰って",
+        "助けたい",
+        "助けました",
+        "母",
+        "喜びました",
+        "喜んで",
+        "桜",
+        "咲きました",
+        "掃除",
+        "お客",
+        "弓",
+        "使います",
+        "待ちません",
+        "待ってください",
+        "待って",
+        "多く",
+        "少し",
+        "来て",
+        "見ました",
+        "聞こえる",
+        "聞こえました",
+        "聞こえませんでした",
+        "殺しました",
+        "赤くて",
+        "白くなっていました",
+        "助けてください",
+        "使いました",
+        "五十三人目",
+        "降って",
+        "八幡様",
+        "必ず",
+        "最後",
+        "一日",
+        "祈りました",
+        "お返し",
+        "音",
+        "願い",
+        "居ます",
+        "終わります",
+        "入って",
+        "入れました",
+        "書いてありました",
+        "死なないでください",
+        "待っていました",
+        "祈りたい",
+        "亡くなった",
+        "逃げませんでした",
+        "逃げません",
+        "逃げます",
+        "逃げて",
+        "お寺",
+        "考え",
+        "親戚",
+        "二十七",
+        "言うとおりに",
+        "正しい",
+        "嬉しい",
+        "今夜",
+        "開けて",
+        "一度",
+        "殺して",
+        "殺されました",
+        "会えて",
+        "出して",
+        "出しません",
+        "終わりません",
+        "助けます",
+        "兄",
+        "強い",
+        "時間",
+        "急いで",
+        "住みませんか",
+        "二つ",
+        "四つ",
+        "話してください",
+        "起きていませんでした",
+        "言いたい",
+        "居て",
+        "書きました",
+        "死んでいました",
+        "喜びます",
+        "嬉しかった",
+        "喧嘩",
+        "寒かったです",
+        "二十二",
+        "一つ目",
+        "二つ目",
+        "三つ目",
+        "四つ目",
+        "お礼",
+        "足りません",
+        "悲しまないでください",
+        "昔",
+        "勝ちます"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "カツノ",
+          "lectura": "かつの",
+          "significado": "Katsuno"
+        },
+        {
+          "literal": "ハチヤ",
+          "lectura": "はちや",
+          "significado": "Hachiya"
+        },
+        {
+          "literal": "シチロエモン",
+          "lectura": "しちろえもん",
+          "significado": "Shichiroyemon"
+        },
+        {
+          "literal": "オートラ",
+          "lectura": "おおとら",
+          "significado": "Ōtora"
+        }
+      ],
+      "preguntas": [
+        "シチロエモンは、どうしてハチヤを、殺したいと思いましたか",
+        "ハチヤは、どうして家に、入りましたか",
+        "カツノは、隣の国で、どこで、働きましたか",
+        "弓の大会で、カツノは、第何人目の侍を、見ましたか",
+        "カツノは、最後の夜に、何を、書きましたか",
+        "喧嘩が、終わるために、カツノは、どうしましたか"
+      ],
+      "preguntasEs": [
+        "¿Por qué quiso Shichiroyemon matar a Hachiya?",
+        "¿Por qué entró Hachiya en casa?",
+        "¿Dónde trabajó Katsuno en el país vecino?",
+        "En el torneo de arco, ¿al cuántosimo samurái vio Katsuno?",
+        "¿Qué escribió Katsuno en su última noche?",
+        "¿Qué hizo Katsuno para que terminara la guerra?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "復讐",
+          "lectura": "ふくしゅう",
+          "significado": "venganza",
+          "exclusion": true
+        },
+        {
+          "literal": "二人",
+          "lectura": "ふたり",
+          "significado": "dos personas"
+        },
+        {
+          "literal": "侍",
+          "lectura": "さむらい",
+          "significado": "samurái",
+          "exclusion": true
+        },
+        {
+          "literal": "人",
+          "lectura": "ひと",
+          "significado": "persona"
+        },
+        {
+          "literal": "話",
+          "lectura": "はなし",
+          "significado": "historia, relato",
+          "exclusion": true
+        },
+        {
+          "literal": "話します",
+          "lectura": "はなします",
+          "significado": "contar, hablar",
+          "exclusion": true
+        },
+        {
+          "literal": "話して",
+          "lectura": "はなして",
+          "significado": "contar, hablar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "大きい",
+          "lectura": "おおきい",
+          "significado": "grande"
+        },
+        {
+          "literal": "大きくて",
+          "lectura": "おおきくて",
+          "significado": "grande (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "大きな",
+          "lectura": "おおきな",
+          "significado": "grande (antes de sustantivo)",
+          "exclusion": true
+        },
+        {
+          "literal": "大きく",
+          "lectura": "おおきく",
+          "significado": "mucho, en grande (adverbio)",
+          "exclusion": true
+        },
+        {
+          "literal": "城",
+          "lectura": "しろ",
+          "significado": "castillo",
+          "exclusion": true
+        },
+        {
+          "literal": "働いていました",
+          "lectura": "はたらいていました",
+          "significado": "trabajar (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "働きました",
+          "lectura": "はたらきました",
+          "significado": "trabajar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "働いて",
+          "lectura": "はたらいて",
+          "significado": "trabajar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "名前",
+          "lectura": "なまえ",
+          "significado": "nombre"
+        },
+        {
+          "literal": "年",
+          "lectura": "とし",
+          "significado": "edad, años",
+          "exclusion": true
+        },
+        {
+          "literal": "五十二",
+          "lectura": "ごじゅうに",
+          "significado": "cincuenta y dos",
+          "exclusion": true
+        },
+        {
+          "literal": "体",
+          "lectura": "からだ",
+          "significado": "cuerpo",
+          "exclusion": true
+        },
+        {
+          "literal": "力",
+          "lectura": "ちから",
+          "significado": "fuerza",
+          "exclusion": true
+        },
+        {
+          "literal": "殿様",
+          "lectura": "とのさま",
+          "significado": "señor feudal",
+          "exclusion": true
+        },
+        {
+          "literal": "右",
+          "lectura": "みぎ",
+          "significado": "derecha"
+        },
+        {
+          "literal": "者",
+          "lectura": "もの",
+          "significado": "persona, individuo",
+          "exclusion": true
+        },
+        {
+          "literal": "仕事",
+          "lectura": "しごと",
+          "significado": "trabajo"
+        },
+        {
+          "literal": "お金",
+          "lectura": "おかね",
+          "significado": "dinero"
+        },
+        {
+          "literal": "持っていました",
+          "lectura": "もっていました",
+          "significado": "tener (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "持って",
+          "lectura": "もって",
+          "significado": "tener, llevar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "悪い",
+          "lectura": "わるい",
+          "significado": "malo"
+        },
+        {
+          "literal": "夢",
+          "lectura": "ゆめ",
+          "significado": "sueño"
+        },
+        {
+          "literal": "見て",
+          "lectura": "みて",
+          "significado": "ver (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "見ます",
+          "lectura": "みます",
+          "significado": "ver (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "夜",
+          "lectura": "よる",
+          "significado": "noche"
+        },
+        {
+          "literal": "起きていました",
+          "lectura": "おきていました",
+          "significado": "despertarse (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "起きて",
+          "lectura": "おきて",
+          "significado": "levantarse, despertarse (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "皆",
+          "lectura": "みな",
+          "significado": "todos",
+          "exclusion": true
+        },
+        {
+          "literal": "怖かったです",
+          "lectura": "こわかったです",
+          "significado": "dar miedo (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "部下",
+          "lectura": "ぶか",
+          "significado": "subordinado",
+          "exclusion": true
+        },
+        {
+          "literal": "怒りました",
+          "lectura": "おこりました",
+          "significado": "enfadarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "自分",
+          "lectura": "じぶん",
+          "significado": "uno mismo",
+          "exclusion": true
+        },
+        {
+          "literal": "言葉",
+          "lectura": "ことば",
+          "significado": "palabra",
+          "exclusion": true
+        },
+        {
+          "literal": "思っていました",
+          "lectura": "おもっていました",
+          "significado": "pensar (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "思って",
+          "lectura": "おもって",
+          "significado": "pensar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "言いました",
+          "lectura": "いいました",
+          "significado": "decir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "言いませんでした",
+          "lectura": "いいませんでした",
+          "significado": "decir (pasado negativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "言います",
+          "lectura": "いいます",
+          "significado": "decir (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "一人",
+          "lectura": "ひとり",
+          "significado": "una persona"
+        },
+        {
+          "literal": "若くて",
+          "lectura": "わかくて",
+          "significado": "joven (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "農家",
+          "lectura": "のうか",
+          "significado": "casa campesina"
+        },
+        {
+          "literal": "子",
+          "lectura": "こ",
+          "significado": "hijo",
+          "exclusion": true
+        },
+        {
+          "literal": "前",
+          "lectura": "まえ",
+          "significado": "antes, delante"
+        },
+        {
+          "literal": "本",
+          "lectura": "ほん",
+          "significado": "libro"
+        },
+        {
+          "literal": "読みました",
+          "lectura": "よみました",
+          "significado": "leer (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "毎日",
+          "lectura": "まいにち",
+          "significado": "todos los días"
+        },
+        {
+          "literal": "好き",
+          "lectura": "すき",
+          "significado": "gustar, querer",
+          "exclusion": true
+        },
+        {
+          "literal": "奥さん",
+          "lectura": "おくさん",
+          "significado": "señora, esposa",
+          "exclusion": true
+        },
+        {
+          "literal": "隣",
+          "lectura": "となり",
+          "significado": "al lado"
+        },
+        {
+          "literal": "顔",
+          "lectura": "かお",
+          "significado": "cara"
+        },
+        {
+          "literal": "素敵",
+          "lectura": "すてき",
+          "significado": "estupendo"
+        },
+        {
+          "literal": "料理",
+          "lectura": "りょうり",
+          "significado": "cocina, plato",
+          "exclusion": true
+        },
+        {
+          "literal": "上手",
+          "lectura": "じょうず",
+          "significado": "hábil, bueno en"
+        },
+        {
+          "literal": "十九",
+          "lectura": "じゅうきゅう",
+          "significado": "diecinueve",
+          "exclusion": true
+        },
+        {
+          "literal": "結婚",
+          "lectura": "けっこん",
+          "significado": "boda, casarse",
+          "exclusion": true
+        },
+        {
+          "literal": "聞きました",
+          "lectura": "ききました",
+          "significado": "oír (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "聞いています",
+          "lectura": "きいています",
+          "significado": "preguntar, oír (continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "選びませんでした",
+          "lectura": "えらびませんでした",
+          "significado": "elegir (pasado negativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "上",
+          "lectura": "うえ",
+          "significado": "arriba, encima"
+        },
+        {
+          "literal": "立つ",
+          "lectura": "たつ",
+          "significado": "ponerse de pie"
+        },
+        {
+          "literal": "立ちました",
+          "lectura": "たちました",
+          "significado": "ponerse de pie (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "負ける",
+          "lectura": "まける",
+          "significado": "perder",
+          "exclusion": true
+        },
+        {
+          "literal": "殺さなければ",
+          "lectura": "ころさなければ",
+          "significado": "matar (hay que…)",
+          "exclusion": true
+        },
+        {
+          "literal": "部屋",
+          "lectura": "へや",
+          "significado": "habitación"
+        },
+        {
+          "literal": "居ました",
+          "lectura": "いました",
+          "significado": "estar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "女",
+          "lectura": "おんな",
+          "significado": "mujer"
+        },
+        {
+          "literal": "来ました",
+          "lectura": "きました",
+          "significado": "venir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "知っていました",
+          "lectura": "しっていました",
+          "significado": "saber (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "会いました",
+          "lectura": "あいました",
+          "significado": "encontrarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "赤い",
+          "lectura": "あかい",
+          "significado": "rojo"
+        },
+        {
+          "literal": "笑いました",
+          "lectura": "わらいました",
+          "significado": "reírse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "要ります",
+          "lectura": "いります",
+          "significado": "hacer falta",
+          "exclusion": true
+        },
+        {
+          "literal": "出しました",
+          "lectura": "だしました",
+          "significado": "sacar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "出し",
+          "lectura": "だし",
+          "significado": "sacar (forma de enlace)",
+          "exclusion": true
+        },
+        {
+          "literal": "初めて",
+          "lectura": "はじめて",
+          "significado": "por primera vez"
+        },
+        {
+          "literal": "心配",
+          "lectura": "しんぱい",
+          "significado": "preocupación",
+          "exclusion": true
+        },
+        {
+          "literal": "葉",
+          "lectura": "は",
+          "significado": "hoja"
+        },
+        {
+          "literal": "家",
+          "lectura": "いえ",
+          "significado": "casa"
+        },
+        {
+          "literal": "下",
+          "lectura": "した",
+          "significado": "abajo, debajo"
+        },
+        {
+          "literal": "日",
+          "lectura": "ひ",
+          "significado": "día",
+          "exclusion": true
+        },
+        {
+          "literal": "何",
+          "lectura": "なに",
+          "significado": "qué, nada (con negación)",
+          "exclusion": true
+        },
+        {
+          "literal": "私",
+          "lectura": "わたし",
+          "significado": "yo"
+        },
+        {
+          "literal": "知っています",
+          "lectura": "しっています",
+          "significado": "saber (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "知って",
+          "lectura": "しって",
+          "significado": "saber (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "約束",
+          "lectura": "やくそく",
+          "significado": "promesa",
+          "exclusion": true
+        },
+        {
+          "literal": "働きます",
+          "lectura": "はたらきます",
+          "significado": "trabajar (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "見ていました",
+          "lectura": "みていました",
+          "significado": "mirar (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "怒って",
+          "lectura": "おこって",
+          "significado": "enfadarse (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "怒らないでください",
+          "lectura": "おこらないでください",
+          "significado": "no enfadarse (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "立っていました",
+          "lectura": "たっていました",
+          "significado": "estar de pie (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "立って",
+          "lectura": "たって",
+          "significado": "estar de pie (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "殺します",
+          "lectura": "ころします",
+          "significado": "matar (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "赤くなっていました",
+          "lectura": "あかくなっていました",
+          "significado": "ponerse rojo (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "秋",
+          "lectura": "あき",
+          "significado": "otoño"
+        },
+        {
+          "literal": "庭",
+          "lectura": "にわ",
+          "significado": "jardín",
+          "exclusion": true
+        },
+        {
+          "literal": "白い",
+          "lectura": "しろい",
+          "significado": "blanco"
+        },
+        {
+          "literal": "天気",
+          "lectura": "てんき",
+          "significado": "tiempo meteorológico"
+        },
+        {
+          "literal": "晴れ",
+          "lectura": "はれ",
+          "significado": "despejado"
+        },
+        {
+          "literal": "お酒",
+          "lectura": "おさけ",
+          "significado": "sake"
+        },
+        {
+          "literal": "飲みました",
+          "lectura": "のみました",
+          "significado": "beber (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "座っていました",
+          "lectura": "すわっていました",
+          "significado": "sentarse (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante, valorar",
+          "exclusion": true
+        },
+        {
+          "literal": "苦しかった",
+          "lectura": "くるしかった",
+          "significado": "sufrir, angustiarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "終わり",
+          "lectura": "おわり",
+          "significado": "final",
+          "exclusion": true
+        },
+        {
+          "literal": "中",
+          "lectura": "なか",
+          "significado": "dentro"
+        },
+        {
+          "literal": "火事",
+          "lectura": "かじ",
+          "significado": "incendio",
+          "exclusion": true
+        },
+        {
+          "literal": "出ました",
+          "lectura": "でました",
+          "significado": "salir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "出て",
+          "lectura": "でて",
+          "significado": "salir (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "水",
+          "lectura": "みず",
+          "significado": "agua"
+        },
+        {
+          "literal": "入りました",
+          "lectura": "はいりました",
+          "significado": "entrar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "入ります",
+          "lectura": "はいります",
+          "significado": "entrar (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "書いてあります",
+          "lectura": "かいてあります",
+          "significado": "estar escrito",
+          "exclusion": true
+        },
+        {
+          "literal": "取りに",
+          "lectura": "とりに",
+          "significado": "a por, para tomar",
+          "exclusion": true
+        },
+        {
+          "literal": "熱く",
+          "lectura": "あつく",
+          "significado": "caliente (adverbio)",
+          "exclusion": true
+        },
+        {
+          "literal": "探しました",
+          "lectura": "さがしました",
+          "significado": "buscar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "男",
+          "lectura": "おとこ",
+          "significado": "hombre"
+        },
+        {
+          "literal": "長い",
+          "lectura": "ながい",
+          "significado": "largo"
+        },
+        {
+          "literal": "刀",
+          "lectura": "かたな",
+          "significado": "espada",
+          "exclusion": true
+        },
+        {
+          "literal": "刺しました",
+          "lectura": "さしました",
+          "significado": "apuñalar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "倒れて",
+          "lectura": "たおれて",
+          "significado": "caerse (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "死にました",
+          "lectura": "しにました",
+          "significado": "morir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "死",
+          "lectura": "し",
+          "significado": "muerte",
+          "exclusion": true
+        },
+        {
+          "literal": "朝",
+          "lectura": "あさ",
+          "significado": "mañana"
+        },
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "pueblo, ciudad"
+        },
+        {
+          "literal": "方",
+          "lectura": "ほう",
+          "significado": "dirección",
+          "exclusion": true
+        },
+        {
+          "literal": "行きました",
+          "lectura": "いきました",
+          "significado": "ir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "持っています",
+          "lectura": "もっています",
+          "significado": "tener (continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "持ちました",
+          "lectura": "もちました",
+          "significado": "coger, tener (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "言われました",
+          "lectura": "いわれました",
+          "significado": "decir (pasiva)",
+          "exclusion": true
+        },
+        {
+          "literal": "居た",
+          "lectura": "いた",
+          "significado": "estar (pasado simple)",
+          "exclusion": true
+        },
+        {
+          "literal": "居ませんでした",
+          "lectura": "いませんでした",
+          "significado": "no estar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "知っている",
+          "lectura": "しっている",
+          "significado": "saber (continuo)"
+        },
+        {
+          "literal": "刺した",
+          "lectura": "さした",
+          "significado": "apuñalar (pasado simple)",
+          "exclusion": true
+        },
+        {
+          "literal": "刺してください",
+          "lectura": "さしてください",
+          "significado": "apuñalar (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "死にます",
+          "lectura": "しにます",
+          "significado": "morir (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "行きましょう",
+          "lectura": "いきましょう",
+          "significado": "ir (volitivo)",
+          "exclusion": true
+        },
+        {
+          "literal": "行って",
+          "lectura": "いって",
+          "significado": "ir (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "行ってください",
+          "lectura": "いってください",
+          "significado": "ir (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "次",
+          "lectura": "つぎ",
+          "significado": "siguiente"
+        },
+        {
+          "literal": "誰",
+          "lectura": "だれ",
+          "significado": "quién"
+        },
+        {
+          "literal": "一つ",
+          "lectura": "ひとつ",
+          "significado": "uno (cosa)",
+          "exclusion": true
+        },
+        {
+          "literal": "有名",
+          "lectura": "ゆうめい",
+          "significado": "famoso"
+        },
+        {
+          "literal": "呼んで",
+          "lectura": "よんで",
+          "significado": "llamar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "答えました",
+          "lectura": "こたえました",
+          "significado": "responder (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "国",
+          "lectura": "くに",
+          "significado": "país"
+        },
+        {
+          "literal": "悲しみました",
+          "lectura": "かなしみました",
+          "significado": "entristecerse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "食べませんでした",
+          "lectura": "たべませんでした",
+          "significado": "comer (pasado negativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "早く",
+          "lectura": "はやく",
+          "significado": "deprisa, pronto",
+          "exclusion": true
+        },
+        {
+          "literal": "小さな",
+          "lectura": "ちいさな",
+          "significado": "pequeño (antes de sustantivo)",
+          "exclusion": true
+        },
+        {
+          "literal": "失礼します",
+          "lectura": "しつれいします",
+          "significado": "despedirse",
+          "exclusion": true
+        },
+        {
+          "literal": "元気",
+          "lectura": "げんき",
+          "significado": "animado, bien",
+          "exclusion": true
+        },
+        {
+          "literal": "望み",
+          "lectura": "のぞみ",
+          "significado": "esperanza",
+          "exclusion": true
+        },
+        {
+          "literal": "会って",
+          "lectura": "あって",
+          "significado": "encontrarse (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir (forma simple)"
+        },
+        {
+          "literal": "殺しに",
+          "lectura": "ころしに",
+          "significado": "para matar",
+          "exclusion": true
+        },
+        {
+          "literal": "悲しんでいる",
+          "lectura": "かなしんでいる",
+          "significado": "estar triste (continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "言われた",
+          "lectura": "いわれた",
+          "significado": "decir (pasiva, pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "働いてください",
+          "lectura": "はたらいてください",
+          "significado": "trabajar (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "見た",
+          "lectura": "みた",
+          "significado": "ver (pasado simple)",
+          "exclusion": true
+        },
+        {
+          "literal": "思いました",
+          "lectura": "おもいました",
+          "significado": "pensar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "思います",
+          "lectura": "おもいます",
+          "significado": "pensar (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "居るでしょう",
+          "lectura": "いるでしょう",
+          "significado": "estar (conjetura)",
+          "exclusion": true
+        },
+        {
+          "literal": "来ます",
+          "lectura": "きます",
+          "significado": "venir (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "来てください",
+          "lectura": "きてください",
+          "significado": "venir (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "会います",
+          "lectura": "あいます",
+          "significado": "encontrarse (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "会ってください",
+          "lectura": "あってください",
+          "significado": "encontrarse (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "白くて",
+          "lectura": "しろくて",
+          "significado": "blanco (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "座りました",
+          "lectura": "すわりました",
+          "significado": "sentarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "書いてある",
+          "lectura": "かいてある",
+          "significado": "estar escrito",
+          "exclusion": true
+        },
+        {
+          "literal": "探しています",
+          "lectura": "さがしています",
+          "significado": "buscar (continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "男の子",
+          "lectura": "おとこのこ",
+          "significado": "niño"
+        },
+        {
+          "literal": "服",
+          "lectura": "ふく",
+          "significado": "ropa"
+        },
+        {
+          "literal": "別",
+          "lectura": "べつ",
+          "significado": "otro, distinto",
+          "exclusion": true
+        },
+        {
+          "literal": "歩きました",
+          "lectura": "あるきました",
+          "significado": "caminar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "歩いて",
+          "lectura": "あるいて",
+          "significado": "caminar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "帰って",
+          "lectura": "かえって",
+          "significado": "volver (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "お茶",
+          "lectura": "おちゃ",
+          "significado": "té"
+        },
+        {
+          "literal": "助けたい",
+          "lectura": "たすけたい",
+          "significado": "querer ayudar",
+          "exclusion": true
+        },
+        {
+          "literal": "助けました",
+          "lectura": "たすけました",
+          "significado": "ayudar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "母",
+          "lectura": "はは",
+          "significado": "madre",
+          "exclusion": true
+        },
+        {
+          "literal": "父",
+          "lectura": "ちち",
+          "significado": "padre"
+        },
+        {
+          "literal": "喜びました",
+          "lectura": "よろこびました",
+          "significado": "alegrarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "喜んで",
+          "lectura": "よろこんで",
+          "significado": "alegrarse (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "春",
+          "lectura": "はる",
+          "significado": "primavera"
+        },
+        {
+          "literal": "桜",
+          "lectura": "さくら",
+          "significado": "cerezo",
+          "exclusion": true
+        },
+        {
+          "literal": "咲きました",
+          "lectura": "さきました",
+          "significado": "florecer (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "掃除",
+          "lectura": "そうじ",
+          "significado": "limpieza",
+          "exclusion": true
+        },
+        {
+          "literal": "お客",
+          "lectura": "おきゃく",
+          "significado": "invitado",
+          "exclusion": true
+        },
+        {
+          "literal": "明日",
+          "lectura": "あした",
+          "significado": "mañana"
+        },
+        {
+          "literal": "弓",
+          "lectura": "ゆみ",
+          "significado": "arco",
+          "exclusion": true
+        },
+        {
+          "literal": "大会",
+          "lectura": "たいかい",
+          "significado": "torneo, campeonato"
+        },
+        {
+          "literal": "使います",
+          "lectura": "つかいます",
+          "significado": "usar (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "待ちません",
+          "lectura": "まちません",
+          "significado": "esperar (negativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "待ってください",
+          "lectura": "まってください",
+          "significado": "esperar (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "待って",
+          "lectura": "まって",
+          "significado": "esperar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "今日",
+          "lectura": "きょう",
+          "significado": "hoy"
+        },
+        {
+          "literal": "多く",
+          "lectura": "おおく",
+          "significado": "muchos, muchas",
+          "exclusion": true
+        },
+        {
+          "literal": "少し",
+          "lectura": "すこし",
+          "significado": "un poco",
+          "exclusion": true
+        },
+        {
+          "literal": "来る",
+          "lectura": "くる",
+          "significado": "venir (forma simple)"
+        },
+        {
+          "literal": "来て",
+          "lectura": "きて",
+          "significado": "venir (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "見ました",
+          "lectura": "みました",
+          "significado": "ver (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "聞こえる",
+          "lectura": "きこえる",
+          "significado": "oírse",
+          "exclusion": true
+        },
+        {
+          "literal": "聞こえました",
+          "lectura": "きこえました",
+          "significado": "oírse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "聞こえませんでした",
+          "lectura": "きこえませんでした",
+          "significado": "oírse (pasado negativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "殺しました",
+          "lectura": "ころしました",
+          "significado": "matar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "赤くて",
+          "lectura": "あかくて",
+          "significado": "rojo (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "白くなっていました",
+          "lectura": "しろくなっていました",
+          "significado": "ponerse blanco (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "助けてください",
+          "lectura": "たすけてください",
+          "significado": "ayudar (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "使いました",
+          "lectura": "つかいました",
+          "significado": "usar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "五十三人目",
+          "lectura": "ごじゅうさんにんめ",
+          "significado": "el número cincuenta y tres",
+          "exclusion": true
+        },
+        {
+          "literal": "髪",
+          "lectura": "かみ",
+          "significado": "pelo"
+        },
+        {
+          "literal": "降って",
+          "lectura": "ふって",
+          "significado": "caer (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "八幡様",
+          "lectura": "はちまんさま",
+          "significado": "Hachiman (dios de la guerra)",
+          "exclusion": true
+        },
+        {
+          "literal": "必ず",
+          "lectura": "かならず",
+          "significado": "sin falta",
+          "exclusion": true
+        },
+        {
+          "literal": "最後",
+          "lectura": "さいご",
+          "significado": "último",
+          "exclusion": true
+        },
+        {
+          "literal": "一日",
+          "lectura": "いちにち",
+          "significado": "día entero",
+          "exclusion": true
+        },
+        {
+          "literal": "祈りました",
+          "lectura": "いのりました",
+          "significado": "rezar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "お返し",
+          "lectura": "おへんし",
+          "significado": "represalia, devolución",
+          "exclusion": true
+        },
+        {
+          "literal": "音",
+          "lectura": "おと",
+          "significado": "sonido",
+          "exclusion": true
+        },
+        {
+          "literal": "願い",
+          "lectura": "ねがい",
+          "significado": "deseo",
+          "exclusion": true
+        },
+        {
+          "literal": "言う",
+          "lectura": "いう",
+          "significado": "decir (forma simple)"
+        },
+        {
+          "literal": "若い",
+          "lectura": "わかい",
+          "significado": "joven"
+        },
+        {
+          "literal": "居ます",
+          "lectura": "います",
+          "significado": "estar (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "終わります",
+          "lectura": "おわります",
+          "significado": "terminar (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "入って",
+          "lectura": "はいって",
+          "significado": "entrar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "入れました",
+          "lectura": "いれました",
+          "significado": "meter (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "書いてありました",
+          "lectura": "かいてありました",
+          "significado": "estar escrito (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "死ぬ",
+          "lectura": "しぬ",
+          "significado": "morir"
+        },
+        {
+          "literal": "死なないでください",
+          "lectura": "しなないでください",
+          "significado": "no morir (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "待っていました",
+          "lectura": "まっていました",
+          "significado": "esperar (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "祈りたい",
+          "lectura": "いのりたい",
+          "significado": "querer rezar",
+          "exclusion": true
+        },
+        {
+          "literal": "亡くなった",
+          "lectura": "なくなった",
+          "significado": "fallecer (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "逃げませんでした",
+          "lectura": "にげませんでした",
+          "significado": "huir (pasado negativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "逃げません",
+          "lectura": "にげません",
+          "significado": "no huir",
+          "exclusion": true
+        },
+        {
+          "literal": "逃げます",
+          "lectura": "にげます",
+          "significado": "huir (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "逃げて",
+          "lectura": "にげて",
+          "significado": "huir (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "お寺",
+          "lectura": "おてら",
+          "significado": "templo",
+          "exclusion": true
+        },
+        {
+          "literal": "考え",
+          "lectura": "かんがえ",
+          "significado": "idea, pensamiento",
+          "exclusion": true
+        },
+        {
+          "literal": "親戚",
+          "lectura": "しんせき",
+          "significado": "pariente",
+          "exclusion": true
+        },
+        {
+          "literal": "二十七",
+          "lectura": "にじゅうなな",
+          "significado": "veintisiete",
+          "exclusion": true
+        },
+        {
+          "literal": "言うとおりに",
+          "lectura": "いうとおりに",
+          "significado": "según lo que dice",
+          "exclusion": true
+        },
+        {
+          "literal": "正しい",
+          "lectura": "ただしい",
+          "significado": "correcto",
+          "exclusion": true
+        },
+        {
+          "literal": "嬉しい",
+          "lectura": "うれしい",
+          "significado": "alegre",
+          "exclusion": true
+        },
+        {
+          "literal": "今夜",
+          "lectura": "こんや",
+          "significado": "esta noche",
+          "exclusion": true
+        },
+        {
+          "literal": "手紙",
+          "lectura": "てがみ",
+          "significado": "carta"
+        },
+        {
+          "literal": "開けて",
+          "lectura": "あけて",
+          "significado": "abrir (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "一度",
+          "lectura": "いちど",
+          "significado": "una vez",
+          "exclusion": true
+        },
+        {
+          "literal": "殺して",
+          "lectura": "ころして",
+          "significado": "matar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "殺されました",
+          "lectura": "ころされました",
+          "significado": "matar (pasiva)",
+          "exclusion": true
+        },
+        {
+          "literal": "会えて",
+          "lectura": "あえて",
+          "significado": "encontrarse (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "出して",
+          "lectura": "だして",
+          "significado": "sacar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "出しません",
+          "lectura": "だしません",
+          "significado": "sacar (negativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "終わりません",
+          "lectura": "おわりません",
+          "significado": "terminar (negativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "助けます",
+          "lectura": "たすけます",
+          "significado": "ayudar (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "兄",
+          "lectura": "あに",
+          "significado": "hermano mayor",
+          "exclusion": true
+        },
+        {
+          "literal": "強い",
+          "lectura": "つよい",
+          "significado": "fuerte",
+          "exclusion": true
+        },
+        {
+          "literal": "弟",
+          "lectura": "おとうと",
+          "significado": "hermano menor"
+        },
+        {
+          "literal": "時間",
+          "lectura": "じかん",
+          "significado": "tiempo",
+          "exclusion": true
+        },
+        {
+          "literal": "急いで",
+          "lectura": "いそいで",
+          "significado": "apresurarse (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "住みませんか",
+          "lectura": "すみませんか",
+          "significado": "vivir (pregunta negativa)",
+          "exclusion": true
+        },
+        {
+          "literal": "後ろ",
+          "lectura": "うしろ",
+          "significado": "espalda, detrás"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "二つ",
+          "lectura": "ふたつ",
+          "significado": "dos (cosas)",
+          "exclusion": true
+        },
+        {
+          "literal": "思う",
+          "lectura": "おもう",
+          "significado": "pensar (forma simple)"
+        },
+        {
+          "literal": "久しぶり",
+          "lectura": "ひさしぶり",
+          "significado": "hace mucho tiempo (sin verse)"
+        },
+        {
+          "literal": "四つ",
+          "lectura": "よっつ",
+          "significado": "cuatro (cosas)",
+          "exclusion": true
+        },
+        {
+          "literal": "話してください",
+          "lectura": "はなしてください",
+          "significado": "contar (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "起きていませんでした",
+          "lectura": "おきていませんでした",
+          "significado": "despertarse (pasado negativo continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "言いたい",
+          "lectura": "いいたい",
+          "significado": "querer decir",
+          "exclusion": true
+        },
+        {
+          "literal": "居て",
+          "lectura": "いて",
+          "significado": "estar (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "書きました",
+          "lectura": "かきました",
+          "significado": "escribir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "死んでいました",
+          "lectura": "しんでいました",
+          "significado": "haber muerto (pasado continuo)",
+          "exclusion": true
+        },
+        {
+          "literal": "喜びます",
+          "lectura": "よろこびます",
+          "significado": "alegrarse (presente)",
+          "exclusion": true
+        },
+        {
+          "literal": "嬉しかった",
+          "lectura": "うれしかった",
+          "significado": "alegrarse (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "喧嘩",
+          "lectura": "けんか",
+          "significado": "pelea",
+          "exclusion": true
+        },
+        {
+          "literal": "冬",
+          "lectura": "ふゆ",
+          "significado": "invierno"
+        },
+        {
+          "literal": "寒かったです",
+          "lectura": "さむかったです",
+          "significado": "hacer frío (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "二十二",
+          "lectura": "にじゅうに",
+          "significado": "veintidós",
+          "exclusion": true
+        },
+        {
+          "literal": "一つ目",
+          "lectura": "ひとつめ",
+          "significado": "el primero",
+          "exclusion": true
+        },
+        {
+          "literal": "二つ目",
+          "lectura": "につめ",
+          "significado": "el segundo",
+          "exclusion": true
+        },
+        {
+          "literal": "三つ目",
+          "lectura": "みっつめ",
+          "significado": "el tercero",
+          "exclusion": true
+        },
+        {
+          "literal": "四つ目",
+          "lectura": "よっつめ",
+          "significado": "el cuarto",
+          "exclusion": true
+        },
+        {
+          "literal": "お礼",
+          "lectura": "おれい",
+          "significado": "agradecimiento",
+          "exclusion": true
+        },
+        {
+          "literal": "足りません",
+          "lectura": "たりません",
+          "significado": "bastar (negativo)",
+          "exclusion": true
+        },
+        {
+          "literal": "悲しまないでください",
+          "lectura": "かなしまないでください",
+          "significado": "no entristecerse (petición)",
+          "exclusion": true
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "tiempos pasados",
+          "exclusion": true
+        },
+        {
+          "literal": "勝ちます",
+          "lectura": "かちます",
+          "significado": "ganar (presente)",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "frases-causa-shi",
+        "noticia-sou",
+        "forma-te",
+        "usos-forma-te",
+        "particula-ga",
+        "frases-causa-node",
+        "conjetura-deshou"
+      ],
+      "nivel": "A2.2",
+      "texto": "一　二人の侍\nむかし、むかしの話です。あるところに、大きい城がありました。城には二人の侍が働いていました。名前はシチロエモンとハチヤです。\n\nシチロエモンは、年をとっていました。年は、五十二でした。体は、大きくて、力が、ありました。殿様の右の者で、城で大きな仕事を、していました。お金も、たくさん、持っていました。でも、いつも、悪い夢を、見て、夜は、よく、起きていました。\n\n城の人は、皆、シチロエモンが、怖かったです。部下を、よく、怒りました。自分の言葉が、殿様の言葉でした。そう、思っていました。\n\nもう一人の侍、ハチヤは、若くて、まじめでした。農家の子です。前から、本を、よく、読みました。城でも、毎日、まじめに、働きました。殿様は、ハチヤを、とても、好きでした。殿様の奥さんは、いつも、言いました。「ハチヤは、いい人です。もう、一人は、よくありません。いい女の人を、あげましょう」。そう、城の人は、話していました。\n\nその「いい女の人」は、カツノです。カツノは、殿様の奥さんの隣で、働いていました。年は、十九でした。顔は、素敵で、料理も、上手で、皆、カツノが、好きでした。ハチヤも、カツノが、好きでした。カツノも、ハチヤが、好きでした。二人は、もう、結婚することになっていました。\n\nこの話を、シチロエモンは、聞きました。シチロエモンも、前から、カツノが、好きでした。でも、カツノは、シチロエモンを、選びませんでした。それなのに、ハチヤに、あげるのです。そして、ハチヤは、もう、シチロエモンの上に、立つのです。「農家の子の、あのハチヤに、負けるのですか。こんなこと、よくありません。ハチヤは、殺さなければ、なりません」。\n\nその夜、シチロエモンは、部屋に、居ました。一人で、何も、言いませんでした。そこへ、女が、来ました。名前は、オートラです。オートラも、城で、働いていました。年をとっていました。お金が、好きでした。悪いことも、する人でした。殿様のことも、女の人たちのことも、よく、知っていました。だから、シチロエモンは、オートラに、会いました。\n\n「シチロエモンさん。顔が、赤いですね。どうしましたか」。\n「ハチヤのことを、聞いていますか。とても、怒りました」。\nオートラは、笑いました。「よく、知っています。では、話します。でも、お金が、要ります」。\n「では、お金は、あげます」。シチロエモンは、お金を、出しました。\nオートラは、言いました。「殿様は、ハチヤを、右の者に、します。それから、カツノを、ハチヤに、あげるそうです」。\n「そうですか。そうなんですか」。\n「そうです。女の人たちが、皆、そう言います」。\n\nシチロエモンは、立ちました。「ハチヤは、殺さなければ、なりません。そうして、初めて、いい夢を、見ます」。オートラは、言いました。「私が、上手に、します。心配しないでください」。「では、そうします。上手に、してください」。\n\n部屋は、もう、何も、ありませんでした。二人は、何も、言いませんでした。\n\n\n---\n\n二　結婚の約束\n秋になりました。城の庭は素敵で、葉が赤くなっていました。白いものも、たくさん、ありました。天気は、晴れでした。\n\nハチヤと、カツノは、その日に、結婚の約束を、しました。二人は、お酒を、飲みました。殿様と、奥さんも、座っていました。殿様は、言いました。「ハチヤ。いい女の人です。大切に、してください」。ハチヤは、「はい」と、言いました。「まじめに、働きます。カツノを、大切に、します」。カツノは、「はい」と、言いました。「私も、ハチヤを、大切に、します」。皆、「おめでとう、おめでとう」と、言いました。\n\nでも、庭の中で、シチロエモンが、立っていました。顔で、二人を見ていました。顔は、赤くなっていました。でも、とても、苦しかったです。「ハチヤ。あなたは、もう、終わりだ。私が、殺します。カツノは、あなたには、あげません。私のものに、します」。オートラも、シチロエモンの隣に、立っていました。「シチロエモンさん。もう、怒らないでください。怒っては、いけません。でも、心配しないでください。私が、上手に、します」。\n\n\n---\n\n三　火事の夜\nある夜、ハチヤの家が火事になりました。火事は、大きく、なりました。城の人は、水を、持って、来ました。でも、火事は、まだ、大きく、ありました。ハチヤは、家の中へ、入りました。「殿様の言葉が、書いてあります。それを、取りに、入ります」。そう、言いました。家の中は、熱く、ハチヤは、大切なものを、探しました。それから、家を、出ました。家の前から、一人の男が、出て来ました。男は、長い刀を持っていました。ハチヤを見て、言いました。「ハチヤさん。よく来ましたね。もう、終わりです」。男は、刀で、ハチヤを、刺しました。ハチヤは、倒れて、死にました。家の火事は、朝まで、大きく、ありました。\n\n男は、何も、言いませんでした。それから、町の方へ、行きました。\n\n\n---\n\n四　カツノの決心\nその次の朝、殿様は、ハチヤの死を、聞きました。「ハチヤが、死にました」。殿様は、しばらく、何も、言いませんでした。それから、言いました。「ハチヤは、いい人でした。誰が、したのでしょう」。\n\n右の者は、言いました。「ハチヤの、下に、一つの刀が、ありました。それは、有名な刀です。殿様も、知っています。あの刀は、シチロエモンが、持っています。皆、知っています」。\n\n殿様は、男を、呼んで、聞きました。「家の、前で、居た男です。誰に、言われたのですか」。男は、答えました。「シチロエモンに、言われました。シチロエモンは、「ハチヤの家を、火事に、しなさい」と、言いました」。\n\nシチロエモンは、もう、城に、居ませんでした。隣の国の、大きい城へ、行きました。隣の国の殿様は、シチロエモンを、大切に、しています。だから、もう、何も、できません。オートラも、もう、城に、居ませんでした。\n\nカツノは、とても、悲しみました。もう、食べませんでした。いつも、部屋に、居ました。\n\n殿様は、カツノを、呼んで、言いました。「とても、悲しみました。でも、もう、悲しんでいるのは、終わりに、しましょう。早く、あの男を、殺しに行きましょう」。\nカツノは、言いました。「殿様。私に、行って、ください。私が、行って、殺します」。\n殿様は、笑いました。「あなたは、女の人です。一人で、行くなんて、そんなこと、できません」。\n「できます。できます。どうぞ、行って、ください」。\n殿様は、しばらく、何も、言いませんでした。それから、小さな刀を、出しました。「これは、ハチヤを、刺した刀です。有名な刀です。シチロエモンが、知っている刀です。この刀を、持って、行ってください。そして、あの男に、会って、この刀を、刺してください」。\nカツノは、刀を、持ちました。「はい。殺します。いつでも、死にます。でも、殺します」。\n「殿様、ありがとうございました。では、失礼します」。カツノは、部屋を、出ました。顔は、元気でした。もう、何も、望みはありませんでした。\n\n\n---\n\n五　隣の国へ\nカツノは、女の服で、一人で、城を、出ました。名前も、別の名前に、しました。隣の国まで、歩きました。隣の国に、大きい城と、町が、ありました。町の中に、農家がありました。農家は、カツノのおじさんの、家でした。\n\nある日、城の殿様の男の子が、町から、帰って、農家に、座りました。カツノは、お茶を、出しました。「いい人ですね。どこで、働いて、いますか」。\n「私は、お城で、働いて、います。奥さんを、助けたいと思っています」。\n男の子は、言いました。「私の母は、奥さんです。いつも、「いい女の人を、探しています」と、言います。あなたは、どうですか」。\nカツノは、「はい」と、言いました。「したいです。とても、したいです」。\n男の子は、喜びました。「では、城へ、来てください。母に、会ってください」。\n\n早く、城へ、行きました。奥さんは、カツノを見て、言いました。「いい人ですね。いい顔です。では、ここで、働いてください」。カツノは、喜んで、「はい」と、答えました。それから、毎日、奥さんを、助けました。奥さんは、カツノを、好きになりました。「いい人ですね。上手に、働きますね」。城の人も、皆、カツノが、好きでした。\n\nでも、カツノは、いつも、思っていました。「シチロエモンは、どこに、居るでしょう。この城に、居るでしょう。いつか、会います」。\n\n春になりました。城の庭に、桜が、咲きました。白くて、素敵でした。城の人は、庭を見て、喜びました。カツノも、庭を見て、思いました。「素敵です。でも、ハチヤのことを、思います」。\n\nある朝、城の人が、庭を、掃除していました。「今日は、何を、しますか。多くのお客が、来て、いますね」。奥さんは、答えました。「明日、弓の大会があります。侍が、多く、来ます。皆、弓を、上手に、使います。歩いて、上手に、します」。「侍は、皆、来ますか」。奥さんは、笑いました。「皆、来ます。殿様も、来ます。あなたは、弓が、好きですか」。「いいえ。父が、好きでした。前から、弓を見たことが、ありました。だから、少し、知っています」。\n\n奥さんは、書いてあるものを、出しました。「では、これを見てください。来る侍の、名前が、書いてあります」。カツノは、それを、持ちました。上から、下まで、読みました。名前がありました。「シチロエモン」。カツノは、また、読みました。「シチロエモン」。はい、シチロエモンです。「ついに、来ます。もう、待ちません」。\n\nその夜、カツノは、起きていました。小さな刀を、持ちました。「ハチヤ。明日、会います。明日、殺します。もう、待ってください」。\n\n\n---\n\n六　桜の日\nその次の日、天気は、晴れでした。庭の中は、素敵でした。お客が、多く、座っていました。殿様と、奥さんも、座っていました。カツノは、奥さんの隣に、立っていました。服の中に、小さな刀を、持って、いました。\n\n侍が、一人で、出て来ました。また、一人で、出て来ました。庭の中を、歩きました。それから、立って、弓を、使いました。お客は、「いいですね。いいですね」と、言いました。音は、大きく、聞こえました。\n\nカツノは、一人で、思いました。「今日か、もう、ありません。今日、必ず、会います。今日が、最後です」。八幡様。どうぞ、私を、助けてください。今日一日を、助けてください。そう、祈りました。誰にも、聞こえませんでした。\n\n侍は、五十三人目で、シチロエモンが、出て来ました。白い服でした。大きな人でした。顔は、赤くて、髪は、白くなっていました。シチロエモンは、庭の中を、よく、歩きました。それから、殿様の前へ、来ました。みんなに、聞こえるように、名前を、言いました。「シチロエモン」。\n\n「シチロエモン。待ってください」。カツノは、前に、出ました。城の人は、皆、カツノを見ました。奥さんも、見ました。カツノは、聞こえるように、言いました。「私は、ハチヤと、結婚することになっていました。あなたは、ハチヤを、殺しました。私は、そのお返しに、来ました。では、さようなら」。カツノは、小さな刀を、出し、シチロエモンを、刺しました。シチロエモンは、下に、倒れて、死にました。カツノは、聞こえるように、言いました。「ハチヤ。やりました。お返しを、しました」。\n\nそのあと、白い桜が、一つ、降って、刀の上に、ありました。皆、何も、言いませんでした。庭には、桜が、まだ、ありました。\n\n\n---\n\n七　奥さんのお願い\n隣の国の殿様は、カツノを、城の部屋に、入れました。部屋の前に、侍が、座っていました。カツノは、逃げませんでした。もう、何も、望みはありませんでした。いつでも、死ぬと、思っていました。でも、顔は、元気でした。「もう、いいです。ハチヤの、お返しを、しました。もう、何も、ありません」。\n\nその夜、奥さんが、一人で、来ました。部屋へ、入って、座りました。「カツノ。部屋を、素敵に、しましたね。もう、元気ですか」。\n「はい。奥さん。ありがとう。あなたが、来ました。もう、何も、望みは、ありません。いつでも、死にます」。\n「死なないでください。あなたは、いい人です。そんなこと、よくありません」。\n「でも、奥さん。私は、もう、何も、ありません。お寺へ、行って、毎日、祈りたいです。亡くなったハチヤを、思って、祈りたいです。それが、私の、願いです」。\n奥さんは、しばらく、何も、言いませんでした。それから、言いました。「そんな、考えは、よくありません。あなたは、若いです。あなたの、家が、終わります。そうしては、いけません。もう一度、いい人と、結婚してください」。\n「いいえ。そんなこと、できません」。\n「いいえ、できます。私の親戚に、若い侍が、居ます。年は、二十七でした。いい人で、上手に、働いて、います。あなたは、どうですか」。\nカツノは、しばらく、何も、言いませんでした。「奥さんの言うとおりに、します。あなたが、正しいと言うなら、そうします」。\n「そうですか。嬉しいです。では、今夜、逃げてください。部屋の前に、居た侍を、部屋から、出しました。町に、人が、待っています。早く、行ってください」。\n「私は、逃げません。死にます」。\n「かならず、逃げてください。これは、奥さんの、言うことです。死んでは、いけません」。\n\nカツノは、「はい」と、言いました。「逃げます。奥さん、ありがとうございました」。奥さんは、手紙を、出しました。「これは、手紙です。開けてください。隣の国へ、行ってください」。カツノは、手紙を、持って、部屋を、出ました。城を、出ました。夜の中を、歩きました。朝になりました。手紙を、見ました。若い侍のことと、殿様のことが、書いてありました。若い侍は、カツノを、待っていました。\n\n\n---\n\n八　もう一つの城\nカツノは、隣の国の、若い侍と、結婚しました。年は、二十七でした。いい人でした。上手に、働いて、いました。殿様は、二人を、好きでした。「いいことを、しましたね。私は、二人を、助けます。心配しないでください」。\n\nでも、シチロエモンに、兄が、いました。侍として、有名でした。体は、大きくて、強い人でした。兄は、殿様の前に、来て、言いました。「弟が、女に、殺されました。これは、大きいことです。弟のことは、もう、終わりません。私も、仕事が、できません。どうぞ、あの女を、出して、ください」。\n\n殿様は、言いました。「いいえ。出しません。あの女は、いい女の人です。この国で、そう思うような女は、多くありません。シチロエモンは、よく、しませんでした。ハチヤを、殺して、家を、火事に、しました。あの男は、悪いことを、したのです。もう、いいです。私は、いい女の人を、助けます。出しません」。\n\n兄は、怒りました。とても、怒りました。でも、もう、何も、できませんでした。いつも、何も、言いませんでした。夜も、よく、起きていました。\n\n秋の日でした。カツノは、庭に、立っていました。若い侍は、城に、行って、いました。若い女の人も、隣に、居ました。\n\n一人の女が、庭へ、入って来ました。年をとっていました。オートラでした。「カツノさん。会えて、嬉しいです。久しぶりです」。カツノは、言いました。「オートラ。あなたは、ここに、住みませんか」。「いいえ。この町に、来ました。今日は、時間が、ありませんから、また、来ます。では、さようなら」。オートラは、急いで、行きました。カツノは、オートラの後ろを、見ました。「オートラは、悪い人の、友達です。よくも、来ましたね」。\n\nそのあとで、庭の中で、弓の音が、聞こえました。カツノは、早く、下に、座りました。隣の女の人も、立ちました。「あそこに、人が、居ます。早く、早く」。若い侍たちは、出て来て、庭の中へ、行きました。弓が、二つ、ありました。でも、もう、人は、居ませんでした。\n\n\n---\n\n九　四つの手紙\n若い侍たちは、二人の男に、会いました。「ここに、来てください」と、言いました。「話してください。誰に、言われたのですか」。男は、答えました。「シチロエモンの兄に、言われました。兄は、「カツノを、殺してきてください」と、言いました。オートラは、私たちの、知っている女です。オートラは、前に、行きました。そして、私たちは、あとから、行きました」。\n\n隣の国の殿様は、言いました。「二人は、悪い人です。町の人に、悪いことを、します。だから、二人を、殺しました。町の人は、皆、そう、思ってください」。\n\nシチロエモンの兄は、怒りました。とても、怒りました。殿様の前に、行って、言いました。「もう、喧嘩を、しましょう。そうして、初めて、弟が、喜びます」。でも、殿様は、「喧嘩は、しません。でも、喧嘩に、なるなら、勝ちます。心配しないでください」と、言いました。\n\n城と、城が、喧嘩に、なりそうです。町の人は、皆、心配しました。\n\nカツノは、聞きました。そして、思いました。「この喧嘩は、私の、したことです。私は、もう、死にました。でも、私は、死にます。私が、死ぬなら、喧嘩は、終わります。そうすれば、町の人は、喜びます」。\n\n冬の夜でした。夜は、とても、寒かったです。城の中は、何も、聞こえませんでした。若い侍は、起きていませんでした。カツノは、起きて、小さな刀を、出しました。四つの手紙を、書きました。それから、小さな刀で、死にました。年は、二十二でした。\n\n一つ目の手紙は、もう一つの城の殿様への手紙です。「殿様。お礼を、言いたいです。でも、言葉は、足りません。あなたは、私に、たくさん、してもらいました。もう、何も、心配、しないでください。どうぞ、元気で、いてください」。\n\n二つ目の手紙は、若い侍への手紙です。「あなたは、私を、大切に、思いました。あなたと、居て、嬉しかったです。ありがとう。もう、悲しまないでください」。\n\n三つ目の手紙は、奥さんへの手紙です。「奥さん。あなたは、私の、いい友達です。あの夜、私の部屋へ、来ました。そして、「逃げてください」と、言いました。あなたが、なければ、私は、もう、死んでいました。でも、もう、こうして、死にます。どうぞ、元気で、いてください」。\n\n四つ目の手紙は、昔の殿様への手紙です。「殿様。昔から、いろいろ、してもらいました。カツノは、悪い女の人ですか。でも、もう、終わりです。どうぞ、元気で、いてください。そして、もう、悲しまないでください」。\n\nカツノの手紙は、四つ、ありました。城の人は、皆、カツノを、思っていました。「いい女の人でした。でも、もう、ありません。カツノのことは、いつも、思っています」。\n",
+      "textoEs": "Los dos samuráis\nÉrase una vez, hace mucho tiempo. En un lugar había un castillo grande. En el castillo trabajaban dos samuráis. Se llamaban Shichiroyemon y Hachiya.\n\nShichiroyemon era ya mayor. Tenía cincuenta y dos años. Era grande y tenía fuerza. Era el hombre de confianza del señor feudal y en el castillo hacía un trabajo importante. También tenía mucho dinero. Pero siempre tenía malos sueños y por la noche se despertaba a menudo.\n\nTodos tenían miedo de Shichiroyemon. Se enfadaba a menudo con sus subordinados. Pensaba que sus propias palabras eran las palabras del señor. Así lo pensaba.\n\nEl otro samurái, Hachiya, era joven y serio. Era hijo de una familia campesina. Desde tiempo atrás leía muchos libros. En el castillo también trabajaba serio todos los días. Al señor le gustaba mucho Hachiya. La esposa del señor siempre decía: «Hachiya es buena persona. Que siga soltero ya no está bien. Le daremos a una buena mujer». Así lo decía la gente del castillo.\n\nEsa «buena mujer» era Katsuno. Katsuno trabajaba junto a la esposa del señor. Tenía diecinueve años. Era de rostro estupendo y además buena cocinera, y todos querían a Katsuno. A Hachiya también le gustaba Katsuno. A Katsuno también le gustaba Hachiya. Los dos ya iban a casarse.\n\nShichiroyemon oyó esa historia. Shichiroyemon también quería a Katsuno desde hacía tiempo. Pero Katsuno no lo eligió. Pese a eso, la dan a Hachiya. Y Hachiya ya se pone por encima de Shichiroyemon. «¿Perder ante aquel Hachiya, el hijo de un campesino? Esto no está bien. Hay que matar a Hachiya».\n\nAquella noche Shichiroyemon estaba en su habitación. Solo no decía nada. En ese momento vino una mujer. Se llamaba Ōtora. Ōtora también trabajaba en el castillo. Era mayor. Le gustaba el dinero. Era una persona que hacía cosas malas. Sabía bien lo del señor y lo de las mujeres. Por eso Shichiroyemon se encontró con Ōtora.\n\n«Shichiroyemon, tiene la cara roja. ¿Qué le pasa?».\n«¿Ha oído lo de Hachiya? Estoy muy enfadado».\nŌtora se rió. «Lo sé bien. Entonces le contaré. Pero necesito dinero».\n«Entonces le doy dinero». Shichiroyemon sacó el dinero.\nŌtora dijo: «El señor va a poner a Hachiya como su hombre de confianza. Y además, se dice que le dará a Katsuno a Hachiya».\n«¿Es así? ¿De verdad es así?».\n«Sí, así es. Todas las mujeres lo dicen así».\n\nShichiroyemon se puso de pie. «Hay que matar a Hachiya. Solo así volveré a tener buenos sueños». Ōtora dijo: «Yo lo haré bien. No se preocupe». «Entonces, hágalo así. Hágalo bien».\n\nEn la habitación ya no había nada. Los dos no dijeron nada.\n\n\n---\n\nLa promesa de boda\nLlegó el otoño. El jardín del castillo era estupendo y las hojas se habían puesto rojas. También había muchas cosas blancas. El tiempo estaba despejado.\n\nEse día Hachiya y Katsuno hicieron la promesa de boda. Los dos bebieron sake. El señor y su esposa también estaban sentados. El señor dijo: «Hachiya, es buena mujer. Cuídala mucho». Hachiya dijo: «Sí. Trabajaré con seriedad. Trataré bien a Katsuno». Katsuno dijo: «Sí. Yo también trataré bien a Hachiya». Todos dijeron: «¡Felicidades, felicidades!».\n\nPero en el jardín estaba Shichiroyemon, de pie. Miraba a los dos con la cara. La cara se le había puesto roja. Pero estaba muy angustiado. «Hachiya, ya has terminado. Yo te mataré. No te daré a Katsuno. La haré mía». Ōtora también estaba de pie junto a Shichiroyemon. «Señor Shichiroyemon, ya no se enfade. No debe enfadarse. Pero no se preocupe. Yo lo haré bien».\n\n\n---\n\nLa noche del incendio\nUna noche la casa de Hachiya se incendió. El incendio se hizo grande. La gente del castillo vino con agua. Pero el incendio seguía siendo grande. Hachiya entró en la casa. «Las palabras del señor están escritas ahí. Entro a por eso», dijo. El interior de la casa estaba caliente y Hachiya buscó sus cosas importantes. Después salió de la casa. Delante de la casa salió un hombre. El hombre llevaba una espada larga. Miró a Hachiya y dijo: «Señor Hachiya, qué bien que ha venido. Ya se acabó». El hombre apuñaló a Hachiya con la espada. Hachiya cayó y murió. El incendio de la casa siguió siendo grande hasta la mañana.\n\nEl hombre no dijo nada. Después fue hacia el pueblo.\n\n\n---\n\nLa decisión de Katsuno\nA la mañana siguiente el señor se enteró de la muerte de Hachiya. «Hachiya ha muerto». El señor no dijo nada durante un rato. Después dijo: «Hachiya era buena persona. ¿Quién lo habrá hecho?».\n\nEl hombre de confianza dijo: «Debajo de Hachiya había una espada. Es una espada famosa. El señor también la conoce. Esa espada la tiene Shichiroyemon. Todos la conocen».\n\nEl señor llamó al hombre y le preguntó: «Eres el hombre que estaba delante de la casa. ¿Quién te lo dijo?». El hombre respondió: «Me lo dijo Shichiroyemon. Shichiroyemon dijo: \"Haz que la casa de Hachiya se incendie\"».\n\nShichiroyemon ya no estaba en el castillo. Fue a un castillo grande del país vecino. El señor del país vecino aprecia mucho a Shichiroyemon. Por eso ya no se puede hacer nada. Ōtora ya tampoco estaba en el castillo.\n\nKatsuno se entristeció mucho. Ya no comía. Siempre estaba en la habitación.\n\nEl señor llamó a Katsuno y dijo: «Se ha entristecido mucho. Pero dejemos ya de estar tristes. Váyase pronto a matar a aquel hombre».\nKatsuno dijo: «Señor, déjeme ir a mí. Yo iré y lo mataré».\nEl señor se rió. «Usted es mujer. Ir sola, eso no se puede».\n«Sí que puedo. Sí que puedo. Por favor, déjeme ir».\nEl señor no dijo nada durante un rato. Después sacó una espada pequeña. «Esta es la espada con la que apuñalaron a Hachiya. Es una espada famosa. Es la espada que conoce Shichiroyemon. Llévese esta espada. Y cuando se encuentre con aquel hombre, puñále con esta espada».\nKatsuno tomó la espada. «Sí. Lo mataré. Puedo morir en cualquier momento. Pero lo mataré».\n«Señor, muchas gracias. Entonces, me despido». Katsuno salió de la habitación. Su cara estaba animada. Ya no tenía ninguna esperanza.\n\n\n---\n\nHacia el país vecino\nKatsuno salió sola del castillo con ropa de mujer. También cambió de nombre. Caminó hasta el país vecino. En el país vecino había un castillo grande y un pueblo. En el pueblo había una casa campesina. La casa campesina era la casa del tío de Katsuno.\n\nUn día el hijo del señor del castillo volvió del pueblo y se sentó en la casa campesina. Katsuno sirvió té. «Usted es buena persona. ¿Dónde trabaja?».\n«Trabajo en el castillo. Quiero ayudar a la señora».\nEl niño dijo: «Mi madre es la señora. Siempre dice: \"Estoy buscando a una buena mujer\". ¿Y usted?».\nKatsuno dijo: «Sí. Quiero hacerlo. Lo quiero hacer mucho».\nEl niño se alegró. «Entonces venga al castillo. Conozca a mi madre».\n\nFueron en seguida al castillo. La señora miró a Katsuno y dijo: «Es buena persona. Tiene buena cara. Entonces, trabaje aquí». Katsuno respondió contenta: «Sí». Después ayudó a la señora todos los días. A la señora le agradó Katsuno. «Es buena persona. Trabaja bien, ¿eh?». La gente del castillo también quería mucho a Katsuno.\n\nPero Katsuno siempre pensaba: «¿Dónde estará Shichiroyemon? Estará en este castillo. Algún día me encontraré con él».\n\nLlegó la primavera. En el jardín del castillo florecieron los cerezos. Era blanco y estupendo. La gente del castillo vio el jardín y se alegró. Katsuno también miró el jardín y pensó: «Es estupendo. Pero pienso en Hachiya».\n\nUna mañana la gente del castillo limpiaba el jardín. «¿Qué vamos a hacer hoy? Vienen muchos invitados». La señora respondió: «Mañana hay un torneo de arco. Vienen muchos samuráis. Todos usan bien el arco. Y lo hacen bien caminando». «¿Vienen todos los samuráis?». La señora se rió. «Vienen todos. También viene el señor. ¿A usted le gusta el arco?». «No. A mi padre le gustaba. Ya había visto el arco desde antes. Por eso un poco lo sé».\n\nLa señora sacó lo que estaba escrito. «Entonces, mire esto. Aquí están escritos los nombres de los samuráis que vendrán». Katsuno lo tomó. Lo leyó de arriba abajo. Había un nombre: «Shichiroyemon». Katsuno lo leyó otra vez: «Shichiroyemon». Sí, Shichiroyemon. «Por fin viene. Ya no espero más».\n\nAquella noche Katsuno estaba despierta. Sostenía una espada pequeña. «Hachiya, mañana me encontraré con él. Mañana lo mataré. Espere un poco más».\n\n\n---\n\nEl día de los cerezos\nAl día siguiente el tiempo estaba despejado. El jardín estaba estupendo. Estaban sentados muchos invitados. El señor y su esposa también estaban sentados. Katsuno estaba de pie junto a la señora. Llevaba una espada pequeña dentro de la ropa.\n\nUn samurái salió solo. Otro salió solo. Caminaron por el jardín. Después, de pie, usaron el arco. Los invitados decían: «Bien, bien». El sonido se oía fuerte.\n\nKatsuno pensó para sí: «O es hoy o ya no hay más. Hoy me encontraré con él sin falta. Hoy es el último día». Señor Hachiman, ayúdeme, por favor. Ayúdeme a pasar este día entero. Así rezó. Nadie lo oyó.\n\nEl número cincuenta y tres fue Shichiroyemon, que salió. Llevaba ropa blanca. Era un hombre grande. Tenía la cara roja y el pelo se le había puesto blanco. Shichiroyemon caminó bien por el jardín. Después fue delante del señor. Dijo su nombre para que todos lo oyeran: «Shichiroyemon».\n\n«Shichiroyemon, espere». Katsuno salió al frente. Toda la gente del castillo miró a Katsuno. La señora también la miró. Katsuno dijo para que todos la oyeran: «Yo iba a casarme con Hachiya. Usted mató a Hachiya. He venido en devolución. Pues bien, adiós». Katsuno sacó la espada pequeña y apuñaló a Shichiroyemon. Shichiroyemon cayó al suelo y murió. Katsuno dijo para que todos la oyeran: «Hachiya, lo he hecho. He devuelto el favor».\n\nDespués cayó una flor blanca de cerezo y quedó sobre la espada. Nadie dijo nada. En el jardín aún había cerezos.\n\n\n---\n\nLa petición de la señora\nEl señor del país vecino metió a Katsuno en una habitación del castillo. Delante de la habitación estaba sentado un samurái. Katsuno no huyó. Ya no tenía ninguna esperanza. Pensaba que moriría cuando fuera. Pero su cara estaba animada. «Ya está bien. He devuelto lo de Hachiya. Ya no hay nada más».\n\nAquella noche la señora vino sola. Entró en la habitación y se sentó. «Katsuno, la habitación está estupenda, ¿eh? ¿Ya se encuentra bien?».\n«Sí. Señora, gracias. Gracias a que usted ha venido. Ya no tengo ninguna esperanza. Puedo morir en cualquier momento».\n«No muera, por favor. Usted es buena persona. Eso no está bien».\n«Pero señora, ya no tengo nada. Quiero ir al templo y rezar todos los días. Quiero rezar pensando en Hachiya, que ha muerto. Ese es mi deseo».\nLa señora no dijo nada durante un rato. Después dijo: «Esa idea no está bien. Usted es joven. Su familia se acabará. No debe hacer eso. Casese otra vez con una buena persona».\n«No. Eso no puedo hacerlo».\n«Sí, sí puede. Tengo un pariente joven que es samurái. Tiene veintisiete años. Es buena persona y trabaja bien. ¿Y usted?».\nKatsuno no dijo nada durante un rato. «Haré según dice la señora. Si usted dice que es correcto, lo haré así».\n«¿Sí? Me alegro. Entonces, escape esta noche. He hecho salir al samurái que estaba delante de la habitación. Hay gente esperando en el pueblo. Vaya en seguida».\n«Yo no huyo. Voy a morir».\n«Escape sí o sí. Esto lo dice la señora. No debe morir».\n\nKatsuno dijo: «Sí. Escapo. Señora, muchas gracias». La señora sacó una carta. «Esta es una carta. Ábrala. Vaya al país vecino». Katsuno tomó la carta y salió de la habitación. Salió del castillo. Caminó por la noche. Llegó la mañana. Miró la carta. Estaban escritas cosas del joven samurái y del señor. El joven samurái esperaba a Katsuno.\n\n\n---\n\nOtro castillo\nKatsuno se casó con el joven samurái del país vecino. Tenía veintisiete años. Era buena persona. Trabajaba bien. El señor quería a los dos. «Han hecho una buena cosa. Yo ayudaré a los dos. No se preocupen».\n\nPero Shichiroyemon tenía un hermano mayor. Era famoso como samurái. Era un hombre grande y fuerte. El hermano mayor fue delante del señor y dijo: «Mi hermano menor fue matado por una mujer. Esto es algo grande. Lo de mi hermano menor no termina. Yo tampoco puedo trabajar. Por favor, entregue a esa mujer».\n\nEl señor dijo: «No. No la entrego. Esa mujer es buena mujer. En este país no hay muchas mujeres así. Shichiroyemon no se portó bien. Mató a Hachiya e incendió la casa. Ese hombre hizo cosas malas. Ya está. Yo ayudo a la buena mujer. No la entrego».\n\nEl hermano mayor se enfadó. Se enfadó mucho. Pero ya no podía hacer nada. No decía nada en absoluto. Y por la noche también se despertaba a menudo.\n\nEra un día de otoño. Katsuno estaba de pie en el jardín. El joven samurái había ido al castillo. Una mujer joven también estaba a su lado.\n\nUna mujer entró en el jardín. Era mayor. Era Ōtora. «Katsuno, me alegra verte. Cuánto tiempo». Katsuno dijo: «Ōtora, ¿no vive usted aquí?». «No. He venido a este pueblo. Hoy no tengo tiempo, así que vendré otra vez. Pues, adiós». Ōtora se fue deprisa. Katsuno miró la espalda de Ōtora. «Ōtora es amiga de la gente mala. ¡Vaya, qué bien que ha venido!».\n\nDespués se oyó el sonido del arco en el jardín. Katsuno se sentó enseguida abajo. La mujer de al lado también se puso de pie. «Hay alguien allí. Rápido, rápido». Los jóvenes samuráis salieron y fueron al jardín. Había dos arcos. Pero ya no había nadie.\n\n\n---\n\nLas cuatro cartas\nLos jóvenes samuráis encontraron a los dos hombres. «Vengan aquí», dijeron. «Háblenos. ¿Quién se lo dijo?». Los hombres respondieron: «Nos lo dijo el hermano de Shichiroyemon. El hermano dijo: \"Vayan y maten a Katsuno\". Ōtora es una mujer que conocemos. Ōtora fue primero. Y nosotros fuimos después».\n\nEl señor del país vecino dijo: «Los dos son gente mala. Hacen cosas malas al pueblo. Por eso los maté. Todos los del pueblo deben pensar eso».\n\nEl hermano de Shichiroyemon se enfadó. Se enfadó mucho. Fue delante del señor y dijo: «Peleemos ya. Solo así se alegrará mi hermano menor». Pero el señor dijo: «No haré una pelea. Pero si hay pelea, la ganamos. No se preocupe».\n\nSe decía que los dos castillos iban a pelear. Toda la gente del pueblo estaba preocupada.\n\nKatsuno se enteró. Y pensó: «Esta pelea es cosa mía. Yo ya estoy muerta. Pero voy a morir. Si yo muero, la pelea terminará. Así la gente del pueblo se alegrará».\n\nEra una noche de invierno. Hacía muchísimo frío. En el castillo no se oía nada. El joven samurái no estaba despierto. Katsuno se levantó y sacó una espada pequeña. Escribió cuatro cartas. Después murió con la espada pequeña. Tenía veintidós años.\n\nLa primera carta es para el señor del otro castillo. «Señor, quiero darle las gracias. Pero no me bastan las palabras. Usted me ha hecho muchas cosas. Ya no se preocupe de nada. Por favor, que esté bien».\n\nLa segunda carta es para el joven samurái. «Usted me ha valorado. Estar con usted me hizo feliz. Gracias. Ya no se entristezca».\n\nLa tercera carta es para la señora. «Señora, usted es mi buena amiga. Aquella noche vino a mi habitación y dijo: \"Escape\". Si no fuera por usted, yo ya estaría muerta. Pero ahora muero así. Por favor, que esté bien».\n\nLa cuarta carta es para el señor de antes. «Señor, desde hace mucho tiempo me ha hecho muchas cosas. ¿Es Katsuno una mujer mala? Pero ya se acabó. Que esté bien. Y ya no se entristezca».\n\nKatsuno tenía cuatro cartas. Toda la gente del castillo pensaba en Katsuno. «Fue buena mujer. Pero ya no está. Siempre pensamos en Katsuno».\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s1-shinderera"
     },
     "data": {
