@@ -1,0 +1,437 @@
+{
+  "audio_file": "a2.2-s6-katsuno-c03.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 87908,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "三　かじのよる",
+      "start_ms": 0,
+      "end_ms": 2017,
+      "duration_ms": 2017,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "三　かじのよる",
+          "start_ms": 0,
+          "end_ms": 2017,
+          "duration_ms": 2017
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "あるよる、ハチヤのいえがかじになりました。",
+      "start_ms": 2517,
+      "end_ms": 7474,
+      "duration_ms": 4957,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "あるよる、",
+          "start_ms": 2517,
+          "end_ms": 3988,
+          "duration_ms": 1471
+        },
+        {
+          "index": 1,
+          "text": "ハチヤのいえがかじになりました。",
+          "start_ms": 4238,
+          "end_ms": 7474,
+          "duration_ms": 3236
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "かじはおおきく、なりました。",
+      "start_ms": 7974,
+      "end_ms": 11817,
+      "duration_ms": 3843,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かじはおおきく、",
+          "start_ms": 7974,
+          "end_ms": 9921,
+          "duration_ms": 1947
+        },
+        {
+          "index": 1,
+          "text": "なりました。",
+          "start_ms": 10171,
+          "end_ms": 11817,
+          "duration_ms": 1646
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "しろのひとはみずをもって、きました。",
+      "start_ms": 12317,
+      "end_ms": 16845,
+      "duration_ms": 4528,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "しろのひとはみずをもって、",
+          "start_ms": 12317,
+          "end_ms": 15077,
+          "duration_ms": 2760
+        },
+        {
+          "index": 1,
+          "text": "きました。",
+          "start_ms": 15327,
+          "end_ms": 16845,
+          "duration_ms": 1518
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "でもかじはまだ、おおきく、ありました。",
+      "start_ms": 17345,
+      "end_ms": 22794,
+      "duration_ms": 5449,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でもかじはまだ、",
+          "start_ms": 17345,
+          "end_ms": 19339,
+          "duration_ms": 1994
+        },
+        {
+          "index": 1,
+          "text": "おおきく、",
+          "start_ms": 19589,
+          "end_ms": 20933,
+          "duration_ms": 1344
+        },
+        {
+          "index": 2,
+          "text": "ありました。",
+          "start_ms": 21183,
+          "end_ms": 22794,
+          "duration_ms": 1611
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "ハチヤはいえのなかへはいりました。",
+      "start_ms": 23294,
+      "end_ms": 26786,
+      "duration_ms": 3492,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ハチヤはいえのなかへはいりました。",
+          "start_ms": 23294,
+          "end_ms": 26786,
+          "duration_ms": 3492
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "「とのさまのことばがかいてあります。",
+      "start_ms": 27286,
+      "end_ms": 30685,
+      "duration_ms": 3399,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「とのさまのことばがかいてあります。",
+          "start_ms": 27286,
+          "end_ms": 30685,
+          "duration_ms": 3399
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "それをとりにはいります」。",
+      "start_ms": 31185,
+      "end_ms": 33678,
+      "duration_ms": 2493,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それをとりにはいります」。",
+          "start_ms": 31185,
+          "end_ms": 33678,
+          "duration_ms": 2493
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "そう、いいました。",
+      "start_ms": 34178,
+      "end_ms": 37000,
+      "duration_ms": 2822,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そう、",
+          "start_ms": 34178,
+          "end_ms": 35139,
+          "duration_ms": 961
+        },
+        {
+          "index": 1,
+          "text": "いいました。",
+          "start_ms": 35389,
+          "end_ms": 37000,
+          "duration_ms": 1611
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "いえのなかはあつく、ハチヤはたいせつなものをさがしました。",
+      "start_ms": 37500,
+      "end_ms": 43676,
+      "duration_ms": 6176,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いえのなかはあつく、",
+          "start_ms": 37500,
+          "end_ms": 39691,
+          "duration_ms": 2191
+        },
+        {
+          "index": 1,
+          "text": "ハチヤはたいせつなものをさがしました。",
+          "start_ms": 39941,
+          "end_ms": 43676,
+          "duration_ms": 3735
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "それからいえをでました。",
+      "start_ms": 44176,
+      "end_ms": 46634,
+      "duration_ms": 2458,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それからいえをでました。",
+          "start_ms": 44176,
+          "end_ms": 46634,
+          "duration_ms": 2458
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "いえのまえからひとりのおとこがでてきました。",
+      "start_ms": 47134,
+      "end_ms": 50939,
+      "duration_ms": 3805,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いえのまえからひとりのおとこがでてきました。",
+          "start_ms": 47134,
+          "end_ms": 50939,
+          "duration_ms": 3805
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "おとこはながいかたなをもっていました。",
+      "start_ms": 51439,
+      "end_ms": 54849,
+      "duration_ms": 3410,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おとこはながいかたなをもっていました。",
+          "start_ms": 51439,
+          "end_ms": 54849,
+          "duration_ms": 3410
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "ハチヤをみて、いいました。",
+      "start_ms": 55349,
+      "end_ms": 59053,
+      "duration_ms": 3704,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ハチヤをみて、",
+          "start_ms": 55349,
+          "end_ms": 57192,
+          "duration_ms": 1843
+        },
+        {
+          "index": 1,
+          "text": "いいました。",
+          "start_ms": 57442,
+          "end_ms": 59053,
+          "duration_ms": 1611
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "「ハチヤさん。",
+      "start_ms": 59553,
+      "end_ms": 61222,
+      "duration_ms": 1669,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「ハチヤさん。",
+          "start_ms": 59553,
+          "end_ms": 61222,
+          "duration_ms": 1669
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "よくきましたね。",
+      "start_ms": 61722,
+      "end_ms": 63623,
+      "duration_ms": 1901,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "よくきましたね。",
+          "start_ms": 61722,
+          "end_ms": 63623,
+          "duration_ms": 1901
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "もう、おわりです」。",
+      "start_ms": 64123,
+      "end_ms": 66759,
+      "duration_ms": 2636,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "もう、",
+          "start_ms": 64123,
+          "end_ms": 64968,
+          "duration_ms": 845
+        },
+        {
+          "index": 1,
+          "text": "おわりです」。",
+          "start_ms": 65218,
+          "end_ms": 66759,
+          "duration_ms": 1541
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "おとこはかたなでハチヤをさしました。",
+      "start_ms": 67259,
+      "end_ms": 70785,
+      "duration_ms": 3526,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おとこはかたなでハチヤをさしました。",
+          "start_ms": 67259,
+          "end_ms": 70785,
+          "duration_ms": 3526
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "ハチヤはたおれて、しにました。",
+      "start_ms": 71285,
+      "end_ms": 75314,
+      "duration_ms": 4029,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ハチヤはたおれて、",
+          "start_ms": 71285,
+          "end_ms": 73372,
+          "duration_ms": 2087
+        },
+        {
+          "index": 1,
+          "text": "しにました。",
+          "start_ms": 73622,
+          "end_ms": 75314,
+          "duration_ms": 1692
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "いえのかじはあさまでおおきく、ありました。",
+      "start_ms": 75814,
+      "end_ms": 80621,
+      "duration_ms": 4807,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いえのかじはあさまでおおきく、",
+          "start_ms": 75814,
+          "end_ms": 78772,
+          "duration_ms": 2958
+        },
+        {
+          "index": 1,
+          "text": "ありました。",
+          "start_ms": 79022,
+          "end_ms": 80621,
+          "duration_ms": 1599
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "おとこはなにもいいませんでした。",
+      "start_ms": 81121,
+      "end_ms": 84288,
+      "duration_ms": 3167,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おとこはなにもいいませんでした。",
+          "start_ms": 81121,
+          "end_ms": 84288,
+          "duration_ms": 3167
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "それからまちのほうへいきました。",
+      "start_ms": 84788,
+      "end_ms": 87908,
+      "duration_ms": 3120,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それからまちのほうへいきました。",
+          "start_ms": 84788,
+          "end_ms": 87908,
+          "duration_ms": 3120
+        }
+      ]
+    }
+  ]
+}
