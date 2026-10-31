@@ -8362,6 +8362,11 @@
       "titulo": "古都、奈良",
       "tituloEs": "La antigua capital, Nara",
       "procedencia": "Adaptación educativa del texto turístico sobre la ciudad de Nara proporcionado por el usuario (2026-10-31).",
+      "ilustracion": {
+        "escena": "naramachi",
+        "alt": "Dos casas tradicionales de madera con tejado de teja flanquean una calle estrecha; en el centro, un ciervo de perfil con manchas, un farolillo colgando del alero y una rama de cerezo en flor con pétalos cayendo. Rótulo ならまち.",
+        "ruta": "lectura/imagenes/a2.2-s7-nara.webp"
+      },
       "modoFurigana": "templado",
       "furiganaList": [
         "中心",
@@ -9175,7 +9180,8 @@
         "海外",
         "新しい",
         "少ない",
-        "高い"
+        "高い",
+        "きっかけ"
       ],
       "preguntas": [
         "黒澤明は、子どものころ何に夢中になりましたか。",
@@ -9226,7 +9232,8 @@
         {
           "literal": "絵画",
           "lectura": "かいが",
-          "significado": "pintura (cuadro)"
+          "significado": "pintura (cuadro)",
+          "exclusion": true
         },
         {
           "literal": "夢中",
@@ -9242,7 +9249,8 @@
         {
           "literal": "人生",
           "lectura": "じんせい",
-          "significado": "vida"
+          "significado": "vida",
+          "exclusion": true
         },
         {
           "literal": "会社",
@@ -9252,12 +9260,14 @@
         {
           "literal": "きっかけ",
           "lectura": "きっかけ",
-          "significado": "ocasión, impulso"
+          "significado": "ocasión, impulso",
+          "exclusion": true
         },
         {
           "literal": "年代",
           "lectura": "ねんだい",
-          "significado": "época, década"
+          "significado": "época, década",
+          "exclusion": true
         },
         {
           "literal": "後半",
@@ -9277,7 +9287,8 @@
         {
           "literal": "作品",
           "lectura": "さくひん",
-          "significado": "obra"
+          "significado": "obra",
+          "exclusion": true
         },
         {
           "literal": "発表",
@@ -9293,17 +9304,20 @@
         {
           "literal": "人間",
           "lectura": "にんげん",
-          "significado": "ser humano"
+          "significado": "ser humano",
+          "exclusion": true
         },
         {
           "literal": "力",
           "lectura": "ちから",
-          "significado": "fuerza"
+          "significado": "fuerza",
+          "exclusion": true
         },
         {
           "literal": "心",
           "lectura": "こころ",
-          "significado": "corazón"
+          "significado": "corazón",
+          "exclusion": true
         },
         {
           "literal": "世界",
@@ -9313,7 +9327,8 @@
         {
           "literal": "海外",
           "lectura": "かいがい",
-          "significado": "extranjero, ultramar"
+          "significado": "extranjero, ultramar",
+          "exclusion": true
         },
         {
           "literal": "新しい",
@@ -9361,6 +9376,11 @@
           "literal": "ヴェネツィア",
           "lectura": "ヴェネツィア",
           "significado": "Venecia"
+        },
+        {
+          "literal": "用心棒",
+          "lectura": "ようじんぼう",
+          "significado": "Yojimbo (película)"
         }
       ],
       "referencias": [

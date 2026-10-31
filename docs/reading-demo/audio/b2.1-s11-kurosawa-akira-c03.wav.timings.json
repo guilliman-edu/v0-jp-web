@@ -1,0 +1,137 @@
+{
+  "audio_file": "b2.1-s11-kurosawa-akira-c03.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 38094,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "三、困難な時代",
+      "start_ms": 0,
+      "end_ms": 2752,
+      "duration_ms": 2752,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "三、",
+          "start_ms": 0,
+          "end_ms": 723,
+          "duration_ms": 723
+        },
+        {
+          "index": 1,
+          "text": "困難な時代",
+          "start_ms": 973,
+          "end_ms": 2752,
+          "duration_ms": 1779
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "1960ねんだいのこうはん、にほんでは映画を見る人が少なくなり、映画を作る仕事は困難になった。",
+      "start_ms": 3252,
+      "end_ms": 13885,
+      "duration_ms": 10633,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1960ねんだいのこうはん、",
+          "start_ms": 3252,
+          "end_ms": 6436,
+          "duration_ms": 3184
+        },
+        {
+          "index": 1,
+          "text": "にほんでは映画を見る人が少なくなり、",
+          "start_ms": 6686,
+          "end_ms": 10184,
+          "duration_ms": 3498
+        },
+        {
+          "index": 2,
+          "text": "映画を作る仕事は困難になった。",
+          "start_ms": 10434,
+          "end_ms": 13885,
+          "duration_ms": 3451
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "黒澤はアメリカで仕事をしようとしたものの、思ったようにはいかなかった。",
+      "start_ms": 14385,
+      "end_ms": 21665,
+      "duration_ms": 7280,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "黒澤はアメリカで仕事をしようとしたものの、",
+          "start_ms": 14385,
+          "end_ms": 18498,
+          "duration_ms": 4113
+        },
+        {
+          "index": 1,
+          "text": "思ったようにはいかなかった。",
+          "start_ms": 18748,
+          "end_ms": 21665,
+          "duration_ms": 2917
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "それでも、かいがいのしきんのおかげで、『デルス・ウザーラ』『影武者』『乱』を作ることができた。",
+      "start_ms": 22165,
+      "end_ms": 30232,
+      "duration_ms": 8067,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それでも、",
+          "start_ms": 22165,
+          "end_ms": 23608,
+          "duration_ms": 1443
+        },
+        {
+          "index": 1,
+          "text": "かいがいのしきんのおかげで、",
+          "start_ms": 23858,
+          "end_ms": 26241,
+          "duration_ms": 2383
+        },
+        {
+          "index": 2,
+          "text": "『デルス・ウザーラ』『影武者』『乱』を作ることができた。",
+          "start_ms": 26491,
+          "end_ms": 30232,
+          "duration_ms": 3741
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "1985年には、映画を作る人として初めて文化勲章を受けた。",
+      "start_ms": 30732,
+      "end_ms": 38094,
+      "duration_ms": 7362,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1985年には、",
+          "start_ms": 30732,
+          "end_ms": 33568,
+          "duration_ms": 2836
+        },
+        {
+          "index": 1,
+          "text": "映画を作る人として初めて文化勲章を受けた。",
+          "start_ms": 33818,
+          "end_ms": 38094,
+          "duration_ms": 4276
+        }
+      ]
+    }
+  ]
+}

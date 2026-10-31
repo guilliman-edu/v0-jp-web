@@ -1,0 +1,208 @@
+{
+  "audio_file": "b2.1-s11-kurosawa-akira-c04-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 57055,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "四、晩年と今",
+      "start_ms": 0,
+      "end_ms": 2647,
+      "duration_ms": 2647,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "四、",
+          "start_ms": 0,
+          "end_ms": 624,
+          "duration_ms": 624
+        },
+        {
+          "index": 1,
+          "text": "晩年と今",
+          "start_ms": 874,
+          "end_ms": 2647,
+          "duration_ms": 1773
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "1990年には『夢』を作り、アカデミー名誉賞を受けた。",
+      "start_ms": 3147,
+      "end_ms": 10276,
+      "duration_ms": 7129,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1990年には『夢』を作り、",
+          "start_ms": 3147,
+          "end_ms": 7312,
+          "duration_ms": 4165
+        },
+        {
+          "index": 1,
+          "text": "アカデミー名誉賞を受けた。",
+          "start_ms": 7562,
+          "end_ms": 10276,
+          "duration_ms": 2714
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "黒澤はしょうがいで30本のさくひんを作り、そのうち16本はみふねとしろうと作ったものだ。",
+      "start_ms": 10776,
+      "end_ms": 20552,
+      "duration_ms": 9776,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "黒澤はしょうがいで30本のさくひんを作り、",
+          "start_ms": 10776,
+          "end_ms": 15243,
+          "duration_ms": 4467
+        },
+        {
+          "index": 1,
+          "text": "そのうち16本はみふねとしろうと作ったものだ。",
+          "start_ms": 15493,
+          "end_ms": 20552,
+          "duration_ms": 5059
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "1998年に死んだ。",
+      "start_ms": 21052,
+      "end_ms": 24567,
+      "duration_ms": 3515,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "1998年に死んだ。",
+          "start_ms": 21052,
+          "end_ms": 24567,
+          "duration_ms": 3515
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "死んだあと、国民栄誉賞が与えられた。",
+      "start_ms": 25067,
+      "end_ms": 29793,
+      "duration_ms": 4726,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "死んだあと、",
+          "start_ms": 25067,
+          "end_ms": 26655,
+          "duration_ms": 1588
+        },
+        {
+          "index": 1,
+          "text": "国民栄誉賞が与えられた。",
+          "start_ms": 26905,
+          "end_ms": 29793,
+          "duration_ms": 2888
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "黒澤の映画は今もせかいで見られ、多くの人に大きなちからを与えている。",
+      "start_ms": 30293,
+      "end_ms": 38605,
+      "duration_ms": 8312,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "黒澤の映画は今もせかいで見られ、",
+          "start_ms": 30293,
+          "end_ms": 34295,
+          "duration_ms": 4002
+        },
+        {
+          "index": 1,
+          "text": "多くの人に大きなちからを与えている。",
+          "start_ms": 34545,
+          "end_ms": 38605,
+          "duration_ms": 4060
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "黒澤のさくひんは、にんげんのこころの強さを描いている。",
+      "start_ms": 39105,
+      "end_ms": 45188,
+      "duration_ms": 6083,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "黒澤のさくひんは、",
+          "start_ms": 39105,
+          "end_ms": 41412,
+          "duration_ms": 2307
+        },
+        {
+          "index": 1,
+          "text": "にんげんのこころの強さを描いている。",
+          "start_ms": 41662,
+          "end_ms": 45188,
+          "duration_ms": 3526
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "これからも、彼の映画はせかいで見られるだろう。",
+      "start_ms": 45688,
+      "end_ms": 51110,
+      "duration_ms": 5422,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "これからも、",
+          "start_ms": 45688,
+          "end_ms": 47252,
+          "duration_ms": 1564
+        },
+        {
+          "index": 1,
+          "text": "彼の映画はせかいで見られるだろう。",
+          "start_ms": 47502,
+          "end_ms": 51110,
+          "duration_ms": 3608
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "そして、今も多くの人にかんどうを与えつつある。",
+      "start_ms": 51610,
+      "end_ms": 57055,
+      "duration_ms": 5445,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 51610,
+          "end_ms": 53012,
+          "duration_ms": 1402
+        },
+        {
+          "index": 1,
+          "text": "今も多くの人にかんどうを与えつつある。",
+          "start_ms": 53262,
+          "end_ms": 57055,
+          "duration_ms": 3793
+        }
+      ]
+    }
+  ]
+}
