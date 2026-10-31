@@ -8355,6 +8355,496 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s7-nara"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "古都、奈良",
+      "tituloEs": "La antigua capital, Nara",
+      "procedencia": "Adaptación educativa del texto turístico sobre la ciudad de Nara proporcionado por el usuario (2026-10-31).",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "中心",
+        "文化",
+        "歩いています",
+        "作った",
+        "見て",
+        "来て",
+        "入りました",
+        "言います",
+        "来た",
+        "作りました",
+        "大きかった",
+        "あって",
+        "行った",
+        "行きます",
+        "歩いた",
+        "怖がりません",
+        "大きな"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "奈良",
+          "lectura": "なら",
+          "significado": "Nara"
+        },
+        {
+          "literal": "平城京",
+          "lectura": "へいじょうきょう",
+          "significado": "Heijō-kyō (antigua capital)"
+        },
+        {
+          "literal": "京都",
+          "lectura": "きょうと",
+          "significado": "Kioto"
+        },
+        {
+          "literal": "東大寺",
+          "lectura": "とうだいじ",
+          "significado": "Tōdai-ji"
+        },
+        {
+          "literal": "興福寺",
+          "lectura": "こうふくじ",
+          "significado": "Kōfuku-ji"
+        },
+        {
+          "literal": "春日大社",
+          "lectura": "かすがたいしゃ",
+          "significado": "Kasuga Taisha"
+        },
+        {
+          "literal": "奈良公園",
+          "lectura": "ならこうえん",
+          "significado": "parque de Nara"
+        },
+        {
+          "literal": "天平文化",
+          "lectura": "てんぴょうぶんか",
+          "significado": "cultura Tenpyō"
+        },
+        {
+          "literal": "唐招提寺",
+          "lectura": "とうしょうだいじ",
+          "significado": "Tōshōdai-ji"
+        },
+        {
+          "literal": "鑑真",
+          "lectura": "がんじん",
+          "significado": "Ganjin"
+        },
+        {
+          "literal": "薬師寺",
+          "lectura": "やくしじ",
+          "significado": "Yakushi-ji"
+        },
+        {
+          "literal": "ならまち",
+          "lectura": "ならまち",
+          "significado": "Naramachi (barrio de Nara)"
+        },
+        {
+          "literal": "若草山",
+          "lectura": "わかくさやま",
+          "significado": "monte Wakakusa"
+        },
+        {
+          "literal": "若草山焼き",
+          "lectura": "わかくさやまやき",
+          "significado": "Wakakusa-yaki (quema del monte Wakakusa)"
+        }
+      ],
+      "preguntas": [
+        "奈良は、今から何年前の都ですか。",
+        "奈良には、世界遺産がいくつありますか。",
+        "東大寺の大仏は、どんな大仏ですか。",
+        "奈良公園では、鹿は人を怖がりますか。",
+        "若草山焼きは、一年に何回ありますか。",
+        "奈良へ行くなら、何をしたほうがいいですか。"
+      ],
+      "preguntasEs": [
+        "¿Hace cuántos años era Nara la capital?",
+        "¿Cuántos patrimonios mundiales hay en Nara?",
+        "¿Cómo es el gran Buda del Tōdai-ji?",
+        "¿Los ciervos tienen miedo de las personas en el parque de Nara?",
+        "¿Cuántas veces al año se celebra el Wakakusa-yaki?",
+        "Si vas a Nara, ¿qué es mejor que hagas?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "古都",
+          "lectura": "こと",
+          "significado": "antigua capital"
+        },
+        {
+          "literal": "寺",
+          "lectura": "てら",
+          "significado": "templo"
+        },
+        {
+          "literal": "神社",
+          "lectura": "じんじゃ",
+          "significado": "santuario sintoísta"
+        },
+        {
+          "literal": "大仏",
+          "lectura": "だいぶつ",
+          "significado": "gran Buda"
+        },
+        {
+          "literal": "鹿",
+          "lectura": "しか",
+          "significado": "ciervo"
+        },
+        {
+          "literal": "世界遺産",
+          "lectura": "せかいいさん",
+          "significado": "patrimonio mundial"
+        },
+        {
+          "literal": "文化財",
+          "lectura": "ぶんかざい",
+          "significado": "bien cultural"
+        },
+        {
+          "literal": "都",
+          "lectura": "みやこ",
+          "significado": "capital (ciudad)"
+        },
+        {
+          "literal": "古い",
+          "lectura": "ふるい",
+          "significado": "viejo, antiguo"
+        },
+        {
+          "literal": "時代",
+          "lectura": "じだい",
+          "significado": "época"
+        },
+        {
+          "literal": "仏教",
+          "lectura": "ぶっきょう",
+          "significado": "budismo"
+        },
+        {
+          "literal": "桜",
+          "lectura": "さくら",
+          "significado": "cerezo (flor del cerezo)"
+        },
+        {
+          "literal": "紅葉",
+          "lectura": "こうよう",
+          "significado": "hojas otoñales, colores de otoño"
+        },
+        {
+          "literal": "行事",
+          "lectura": "ぎょうじ",
+          "significado": "evento, acto"
+        },
+        {
+          "literal": "焼く",
+          "lectura": "やく",
+          "significado": "quemar"
+        },
+        {
+          "literal": "一月",
+          "lectura": "いちがつ",
+          "significado": "enero"
+        },
+        {
+          "literal": "一回",
+          "lectura": "いっかい",
+          "significado": "una vez"
+        },
+        {
+          "literal": "二回",
+          "lectura": "にかい",
+          "significado": "dos veces"
+        },
+        {
+          "literal": "八つ",
+          "lectura": "やっつ",
+          "significado": "ocho (cosas)"
+        },
+        {
+          "literal": "まっすぐ",
+          "lectura": "まっすぐ",
+          "significado": "recto, derecho"
+        },
+        {
+          "literal": "近く",
+          "lectura": "ちかく",
+          "significado": "cerca, alrededores"
+        },
+        {
+          "literal": "静か",
+          "lectura": "しずか",
+          "significado": "tranquilo"
+        },
+        {
+          "literal": "たくさん",
+          "lectura": "たくさん",
+          "significado": "muchos, mucho"
+        },
+        {
+          "literal": "きれい",
+          "lectura": "きれい",
+          "significado": "bonito, limpio"
+        },
+        {
+          "literal": "好き",
+          "lectura": "すき",
+          "significado": "gustar"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "前",
+          "lectura": "まえ",
+          "significado": "delante"
+        },
+        {
+          "literal": "中心",
+          "lectura": "ちゅうしん",
+          "significado": "centro",
+          "exclusion": true
+        },
+        {
+          "literal": "大きい",
+          "lectura": "おおきい",
+          "significado": "grande"
+        },
+        {
+          "literal": "人",
+          "lectura": "ひと",
+          "significado": "persona"
+        },
+        {
+          "literal": "歴史",
+          "lectura": "れきし",
+          "significado": "historia"
+        },
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "pueblo"
+        },
+        {
+          "literal": "長い",
+          "lectura": "ながい",
+          "significado": "largo"
+        },
+        {
+          "literal": "中国",
+          "lectura": "ちゅうごく",
+          "significado": "China"
+        },
+        {
+          "literal": "道",
+          "lectura": "みち",
+          "significado": "camino, calle"
+        },
+        {
+          "literal": "外国",
+          "lectura": "がいこく",
+          "significado": "país extranjero"
+        },
+        {
+          "literal": "新しい",
+          "lectura": "あたらしい",
+          "significado": "nuevo/a"
+        },
+        {
+          "literal": "文化",
+          "lectura": "ぶんか",
+          "significado": "cultura",
+          "exclusion": true
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante, valioso"
+        },
+        {
+          "literal": "多い",
+          "lectura": "おおい",
+          "significado": "muchos"
+        },
+        {
+          "literal": "今",
+          "lectura": "いま",
+          "significado": "ahora"
+        },
+        {
+          "literal": "楽しい",
+          "lectura": "たのしい",
+          "significado": "divertido/a, agradable"
+        },
+        {
+          "literal": "場所",
+          "lectura": "ばしょ",
+          "significado": "lugar; ubicación"
+        },
+        {
+          "literal": "家",
+          "lectura": "いえ",
+          "significado": "casa"
+        },
+        {
+          "literal": "春",
+          "lectura": "はる",
+          "significado": "primavera"
+        },
+        {
+          "literal": "公園",
+          "lectura": "こうえん",
+          "significado": "parque"
+        },
+        {
+          "literal": "秋",
+          "lectura": "あき",
+          "significado": "otoño"
+        },
+        {
+          "literal": "山",
+          "lectura": "やま",
+          "significado": "montaña"
+        },
+        {
+          "literal": "一年",
+          "lectura": "いちねん",
+          "significado": "un año (periodo)"
+        },
+        {
+          "literal": "私",
+          "lectura": "わたし",
+          "significado": "yo"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver"
+        },
+        {
+          "literal": "会う",
+          "lectura": "あう",
+          "significado": "encontrarse"
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir"
+        },
+        {
+          "literal": "歩いています",
+          "lectura": "あるいています",
+          "significado": "caminar (progresivo)",
+          "exclusion": true
+        },
+        {
+          "literal": "作った",
+          "lectura": "つくった",
+          "significado": "hacer (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "見て",
+          "lectura": "みて",
+          "significado": "ver (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "来て",
+          "lectura": "きて",
+          "significado": "venir (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "入りました",
+          "lectura": "はいりました",
+          "significado": "entrar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "言います",
+          "lectura": "いいます",
+          "significado": "decir (cortés)",
+          "exclusion": true
+        },
+        {
+          "literal": "来た",
+          "lectura": "きた",
+          "significado": "venir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "作りました",
+          "lectura": "つくりました",
+          "significado": "hacer (pasado, cortés)",
+          "exclusion": true
+        },
+        {
+          "literal": "大きかった",
+          "lectura": "おおきかった",
+          "significado": "ser grande (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "あって",
+          "lectura": "あって",
+          "significado": "haber (forma -te)",
+          "exclusion": true
+        },
+        {
+          "literal": "行った",
+          "lectura": "いった",
+          "significado": "ir (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "行きます",
+          "lectura": "いきます",
+          "significado": "ir (cortés)",
+          "exclusion": true
+        },
+        {
+          "literal": "歩いた",
+          "lectura": "あるいた",
+          "significado": "caminar (pasado)",
+          "exclusion": true
+        },
+        {
+          "literal": "怖がりません",
+          "lectura": "こわがりません",
+          "significado": "no tener miedo",
+          "exclusion": true
+        },
+        {
+          "literal": "大きな",
+          "lectura": "おおきな",
+          "significado": "grande (forma atributiva)",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "condicional-nara",
+        "frecuencia-n-ni-n-kai",
+        "verbo-potencial",
+        "frases-causa-shi",
+        "noticia-sou"
+      ],
+      "nivel": "A2.2",
+      "texto": "古い都\n奈良は、日本の古い都です。今から1300年前、奈良は「平城京」でした。京都が都になる前、奈良は日本の中心でした。奈良には、古い寺や神社がたくさんあります。「古都奈良の文化財」は、八つの世界遺産です。東大寺、興福寺、春日大社などがあります。\n\n東大寺の大仏は、とても大きいです。奈良公園では、鹿が歩いています。鹿は人を怖がりません。奈良は、歴史が好きな人にいい町だそうです。\n\n\n---\n\n天平の文化\n奈良の歴史は、とても長いです。平城京は、中国の都を見て作った町でした。道はまっすぐでした。たくさんの人が外国から来て、新しい文化が入りました。この文化を「天平文化」と言います。\n\nこの時代、仏教はとても大切でした。奈良には、東大寺や興福寺など、大きい寺があります。唐招提寺は、中国から来た鑑真が作りました。薬師寺も、とても古い寺です。奈良は古い寺が多いし、歴史も長いです。平城京は、今の奈良より大きかったそうです。\n\n\n---\n\n今の奈良\n今の奈良にも、楽しい場所がたくさんあります。奈良公園の近くに「ならまち」があります。ならまちには古い家がたくさんあって、静かな町です。春なら、公園の桜がきれいです。秋なら、山の紅葉がきれいです。\n\n奈良では、一年に一回、一月に「若草山焼き」があります。若草山を焼く大きな行事です。歴史が好きなら、平城京の公園へ行ったほうがいいです。私は一年に二回、奈良へ行きます。奈良へ行くなら、公園を歩いたほうがいいです。鹿に会うことができます。奈良は静かだし、公園もきれいです。奈良で、古い寺を見ることができます。\n",
+      "textoEs": "La antigua capital\nNara es una antigua capital de Japón. Hace 1300 años, Nara era «Heijō-kyō». Antes de que Kioto fuera la capital, Nara era el centro de Japón. En Nara hay muchos templos y santuarios antiguos. «Los bienes culturales de la antigua capital de Nara» son ocho patrimonios mundiales. Están el Tōdai-ji, el Kōfuku-ji, el Kasuga Taisha, entre otros.\n\nEl gran Buda del Tōdai-ji es muy grande. En el parque de Nara, los ciervos caminan. Los ciervos no tienen miedo de las personas. Se dice que Nara es una buena ciudad para quien le gusta la historia.\n\n\n---\n\nLa cultura Tenpyō\nLa historia de Nara es muy larga. Heijō-kyō era una ciudad que se construyó fijándose en la capital de China. Las calles eran rectas. Mucha gente vino del extranjero y llegó una nueva cultura. A esta cultura se la llama «cultura Tenpyō».\n\nEn esta época, el budismo era muy importante. En Nara hay templos grandes, como el Tōdai-ji y el Kōfuku-ji. El Tōshōdai-ji lo construyó Ganjin, que vino de China. El Yakushi-ji también es un templo muy antiguo. Nara tiene muchos templos antiguos y además una historia larga. Se dice que Heijō-kyō era más grande que la Nara actual.\n\n\n---\n\nLa Nara de hoy\nTambién en la Nara de hoy hay muchos lugares agradables. Cerca del parque de Nara está «Naramachi». Naramachi tiene muchas casas antiguas y es un barrio tranquilo. Si es primavera, los cerezos del parque son bonitos. Si es otoño, los colores otoñales de la montaña son bonitos.\n\nEn Nara, una vez al año, en enero, hay un «Wakakusa-yaki». Es un gran evento en el que se quema el monte Wakakusa. Si te gusta la historia, es mejor que vayas al parque de Heijō-kyō. Yo voy a Nara dos veces al año. Si vas a Nara, es mejor que camines por el parque. Se pueden encontrar ciervos. Nara es tranquila y además el parque es bonito. En Nara se pueden ver templos antiguos.\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s1-shinderera"
     },
     "data": {
@@ -8640,6 +9130,245 @@
       ],
       "texto": "金持ちの女の人の死\n金持ちの女の人が病気になりました。とても具合が悪くて、もうすぐ死ぬということが分かりました。それで、たった一人の娘をベッドのそばに呼んで、「愛しているわが子よ。いい子でいてね。神様を信じているなら、神様はいつもあなたを守ってくれるよ。私は天国からあなたを見下ろしているからね。」と言いました。それから、目を閉じて亡くなりました。 娘は毎日、母親の墓に行って泣きました。でも、いつもいい子でいました。 冬になって、雪が墓の上に降りました。春の太陽が雪を溶かすころ、父は別の女の人を妻にもらいました。その女は自分の娘を二人一緒に連れてきました。 二人の娘は顔はとても美しかったですが、心は汚くて真っ黒でした。それから、かわいそうな継子の辛い生活が始まりました。 「あの頭の悪い子が、私たちと一緒にここに座ってていいの？ご飯が食べたいなら、自分の力で稼がなくちゃ。台所女中は外よ。」二人の娘はそう言いました。 二人の娘は、きれいな服を全部とりあげました。古い灰色の上着を着せて、木の靴をはかせました。「高慢な王女様を見てごらん。なんておめかしているの。」と二人は笑いました。 それから、娘は朝から晩まで辛い仕事をしなければなりませんでした。 日の出前に起きて、水を汲んで、火をおこして、料理をして、洗濯をしました。それだけでは足りなくて、二人はできる限りの意地悪をしました。娘をバカにして、灰の中にエンドウ豆やレンズ豆をまいたので、娘は一度座って豆を全部拾わなければなりませんでした。 疲れるまで働いた夜には、ベッドがありませんでした。灰があるかまどのそばで寝なければなりませんでした。だから、いつも埃をかぶって汚く見えたので、二人は娘を「灰かぶり」と呼びました。\n\n\n---\n\nはしばみの木\nたまたまある日、父親が町に行くところでした。二人の継娘に「お土産に何がほしい？」と聞きました。 「きれいなドレスがいいです。」一人が言いました。 「真珠と宝石をお願いします。」もう一人が言いました。 「それでは、シンデレラ、あなたは何かほしいものがある？」 「お父さん、帰り道で、お父さんの帽子にぶつかる最初の枝を折ってきてください。」 父親は二人の継娘にはドレスと真珠と宝石を買いました。帰り道に、緑の茂みを馬で通ったとき、はしばみの枝に当たりました。帽子が落ちたので、その枝を折って持ち帰りました。 家に着くと、継娘には望んだ品物を渡しました。シンデレラには、はしばみの木から取った枝を渡しました。 シンデレラは父親にお礼を言いました。それから、母親の墓に行って、枝を植えました。とても泣いたので、涙が枝に落ちて、枝を濡らしました。 すると、その枝は大きくなって、立派な木になりました。 日に三度、シンデレラはその木の下に行って座り、泣いて、お祈りをしました。すると、一羽の小さい白い鳥がその木に来て、シンデレラが何かを望むと、その鳥が望んだものを落としてくれました。\n\n\n---\n\n舞踏会への招待\nところが、王様がお祝いを開くことになりました。三日間続くお祝いで、王様の息子が花嫁を選ぶために、国の美しい若い娘は全部招待されることになりました。 二人の継娘は、自分たちもお祝いに行けると聞いて、とても喜びました。そして、シンデレラを呼びました。 「私たちの髪をとかして、靴を磨いて、ベルトをしめて。私たちは王様の宮殿のお祝いに行くのだから。」 シンデレラも行きたくて、泣きました。自分も一緒に踊りに行きたかったからです。それから、継母にそうする許可をもらおうと頼みました。 「あなたは埃と泥まみれでしょう。それで舞踏会に行くの？服もないし、靴もないのに、踊るっていうの？」 でも、シンデレラがしつこく頼み続けたので、継母はついにこう言いました。 「ほら、灰の中にレンズ豆を一皿空けておいたから。二時間でそれを全部拾えたら、一緒に行ってあげるよ。」 娘は裏口から庭に出ました。 「お友達のハトさん、キジバトさん、空の下の小鳥さんたち、みんな。いい豆はかごに、悪い豆はみんなさんに。拾うのを手伝ってちょうだい。」 すると、二羽の白い鳩が台所の窓から入ってきました。そのあとでキジバトが来て、最後に空の下の小鳥たちが全部集まってきて、灰の中に降りました。 鳩たちが頭をひょこひょこさせて、コッコッコッとつつき始めました。残りの鳥たちもコッコッコッと始めて、皿に全部の良い豆を集めました。 一時間もたたないうちに、小鳥たちは終わって、また飛び去りました。娘は皿を継母のところに持って行きました。嬉しくて、今度こそお祝いに行けると信じていました。 でも、継母は「だめよ、シンデレラ。服がないじゃないし、踊れないわ。ただ笑われるだけだよ。」と言いました。 シンデレラが泣くと、継母は「一時間で灰から二皿のレンズ豆を拾ったら、一緒に行ってあげるよ。」と言いました。 娘はまた庭に行って、小鳥たちに手伝いを頼みました。今度は三十分もたたないうちに、全部の豆を集めました。 でも、継母は「そんなこといくらしてもだめだよ。あなたは行けないわ。服がないし、踊れないじゃないか。私たちの恥ずかしいよ。」と言って、二人の高慢な娘と一緒に急いで行きました。\n\n\n---\n\n舞踏会\nもう誰もいないと分かると、シンデレラははしばみの木の下にある母親の墓に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥が金銀のドレスと、銀で刺しゅうされた上靴を落としてくれました。娘は急いでドレスを着て、舞踏会に行きました。 二人の姉や継母は、娘が分からず、「外国の王女様に違いない」と思いました。金のドレスを着て、とても美しかったからです。 王子が娘に近づいて、手を取って一緒に踊りました。他の娘とは踊ろうとせず、娘の手を放しませんでした。他の誰かが娘に申し込もうとすると、王子は「こちらは私の相手です。」と言いました。 娘は夕方まで踊りました。それから、家に帰ろうと思いました。でも、王子は「あなたと一緒に帰りたいです。お伴いをさせてください。」と言いました。王子は、この美しい娘が誰の娘か知りたかったからです。 でも、娘は王子から逃げて、鳩小屋に飛び込みました。王子が待っていると、父親が来て、「見知らぬ娘が鳩小屋に飛び込みました。」と言いました。父親は「シンデレラかな？」と思いました。 それで、鳩小屋を壊すために斧とつるはしを持ってこさせましたが、誰も中にはいませんでした。みんなが帰ってきたとき、シンデレラは灰の中で汚い服を着て、薄暗いランプが暖炉の上で燃えていました。 翌日、舞踏会がまた始まりました。両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥は前日よりさらに美しいドレスを落としてくれました。シンデレラがそのドレスを着て舞踏会に現れると、みんながその美しさに驚きました。 王子は娘が来るまで待っていて、すぐに娘の手を取って、娘とだけ踊りました。夕方になると、娘は家に帰ろうとしました。王子は娘のあとをつけて、どの家に行ったか確かめしようとしました。 でも、娘は跳んで逃げて、家の後ろの庭に入りました。庭に梨の実がついている美しい高い木がありました。娘はリスのようにすばしっこく枝の間によじ登ったので、王子はどこに消えたのか分かりませんでした。 三日目、両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 今度の小鳥は、これまでのどのドレスよりもすばらしく豪華なドレスを落としてくれました。上靴も金でした。 舞踏会に行くと、驚きのあまり誰もどうしていいか分かりませんでした。王子は娘とだけ踊りました。夕方になると、シンデレラは帰ろうとしました。王子は娘と一緒に行きたがりましたが、娘は素早く逃げました。 でも、王子は計略を練っていて、階段にピッチを塗らせておいたのです。娘が駆け下りると、左の上靴がくっついて離れませんでした。\n\n\n---\n\n金の上靴\n翌朝、王子は父親の處にいて、「この金の上靴に合う足の人以外は、妻にはしません。」と言いました。 二人の継娘は喜びました。可愛い足をしていたからです。 上の娘が靴を持って部屋に入り、履いてみようとしました。でも、親指を入れることができませんでした。靴が小さすぎたからです。 母親は小刀を渡して、「親指を切りなさい。お后になったら、もう歩かなくてもいいんだから。」と言いました。 娘は親指を切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、墓の處を通ると、はしばみの木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子は娘の足を見ると、血が滴り落ちているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人は当人じゃありません。もう一人の妹に靴を履かせてください。」と言いました。 妹が部屋に入り、靴に無事に親指を入れました。でも、かかとが大きすぎました。 母親は小刀を渡して、「かかとを少し切りなさい。お后になったら、もう歩かなくてもいいんだだから。」と言いました。 娘はかかとを少し切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、はしばみの木のそばを通ると、木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子が娘の足を見下ろすと、血が靴から流れていて、白い靴下が真っ赤に染まっているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人も当人じゃありません。もう他に娘はいないのですか？」と言いました。 「はい、いません。まだ亡くなった妻が残していった、少し風変わりな台所女中はいますが、花嫁とはとんでもございません。」父親はそう言いました。 王子は、その娘を連れてくるように言いました。母親は「とんでもございません。あまりにも汚くて、お目にかかりませんよ。」と答えました。 でも、王子あくまで言い張ったので、シンデレラを呼ばなければなりませんでした。 娘はまず両手と顔を洗ってきれいにし、王子の前に行ってお辞儀をしました。王子は娘に金の靴を渡しました。娘は足載せ台に座って、重い木の靴から足を出して、上靴を履きました。ぴったり合いました。 娘が立ち上がると、王子はその顔を見て、自分が踊った美しい娘だと分かりました。「この人が本当の花嫁だ！」と叫びました。 継母と二人の姉たちは恐ろしくなって、怒りで青ざめました。 王子はシンデレラを馬に乗せて、一緒に去りました。 はしばみの木のそばを通ると、二羽の白い鳩が叫びました。 「振り向いて覗いてごらん。振り向いて覗いてごらん。靴に血がついていないよ。靴は小さすぎない。本当の花嫁があなたと一緒だよ。」 二羽は降りってきて、シンデレラの肩に止まりました。一羽が右に、もう一羽が左に、そのまま座ったままになりました。 王子の結婚式が行われることになりました。二人の不実な姉たちがやってきて、シンデレラの機嫌をとり、幸せを分けてもらおうとしました。 教会に行ったとき、姉は右側に、妹は左側にいました。鳩たちがそれぞれから片目をつついて取り出しました。帰りには姉が左、妹が右になったので、鳩たちはそれぞれからもう一つの目をつついて取り出しました。 こうして、意地悪と不誠実な二人は、罰を受けて、生涯目が見えないままでした。\n",
       "textoEs": "La muerte de la mujer rica\nUna mujer rica cayó enferma. Se puso muy mal y comprendió que moriría pronto. Entonces llamó a su única hija junto a la cama y le dijo: «Hija mía, a quien quiero mucho, sé buena. Si crees en Dios, Dios te protegerá siempre. Yo te miraré desde el cielo». Después cerró los ojos y murió. La hija iba todos los días a la tumba de su madre a llorar. Pero siempre se portaba bien. Llegó el invierno y nevó sobre la tumba. Cuando el sol de primavera empezaba a derretir la nieve, el padre se casó con otra mujer. Esa mujer trajo consigo a sus dos hijas. Las dos hijas eran muy hermosas de cara, pero tenían el corazón sucio y negro. Y así empezó la vida desdichada de la pobre hijastra. «¿Esa tonta se puede sentar aquí con nosotras? Si quiere comer, que se lo gane con sus propias fuerzas. Las sirvientas de cocina, fuera», decían las dos hijas. Las dos hijas le quitaron todas sus ropas bonitas. La vistieron con una vieja chaqueta gris y le pusieron zuecos de madera. «Mirad a la orgullosa princesita, ¡qué bien que va vestida!», se reían las dos. Después, la hija tuvo que trabajar de la mañana a la noche. Se levantaba antes de que saliera el sol, iba a por agua, encendía el fuego, cocinaba y lavaba la ropa. Y no bastaba con eso: las dos hacían cuanto malicia cabía. Se burlaban de ella y esparcían guisantes y lentejas en la ceniza, de modo que la hija tenía que sentarse y recogerlos todos. Por la noche, tras trabajar hasta agotarse, no tenía cama. Tenía que dormir junto al horno de leña, en la ceniza. Por eso siempre iba polvorienta y sucia, y las dos la llamaban «Cenicienta».\n\n\n---\n\nEl árbol de avellano\nUn día, por casualidad, el padre estaba a punto de ir al pueblo. Preguntó a sus dos hijastras: «¿Qué queréis de regalo?». «Quiero un vestido bonito», dijo una. «Quisiera perlas y joyas», dijo la otra. «Y tú, Cenicienta, ¿quieres algo?». «Padre, por el camino de vuelta, tráeme la primera rama que choque con tu sombrero». El padre compró vestidos, perlas y joyas para sus dos hijastras. En el camino de vuelta, al pasar a caballo por una espesa maleza verde, una rama de avellano le golpeó. Se le cayó el sombrero, así que arrancó la rama y se la llevó a casa. Al llegar a casa, entregó a las hijastras lo que habían pedido. A Cenicienta le dio la rama que había tomado del árbol de avellano. Cenicienta dio las gracias a su padre. Después fue a la tumba de su madre y plantó la rama. Lloró tanto que sus lágrimas cayeron sobre la rama y la mojaron. Entonces la rama creció y se convirtió en un árbol imponente. Tres veces al día, Cenicienta iba bajo ese árbol, se sentaba, lloraba y rezaba. Entonces venía al árbol un pájaro blanco y pequeño, y cuando Cenicienta deseaba algo, el pájaro le dejaba caer lo que ella había pedido.\n\n\n---\n\nInvitación al baile\nPero resultó que el rey iba a dar una fiesta. Era una fiesta de tres días, y a todas las chicas jóvenes y hermosas del reino se les envió una invitación, para que el hijo del rey eligiera esposa. Las dos hijastras se alegraron mucho al enterarse de que ellas también podían ir a la fiesta. Y llamaron a Cenicienta. «Peinanos el pelo, límpianos los zapatos y apriétanos el cinturón. Vamos a la fiesta en el palacio del rey». A Cenicienta también le daban ganas de ir, y lloró. Porque ella también quería ir a bailar. Después rogó a su madrastra que le diera permiso para hacerlo. «Estarás cubierta de polvo y barro, ¿no? ¿Y quieres ir al baile así? Sin ropa y sin zapatos, ¿y quieres bailar?». Pero Cenicienta siguió insistiendo, y al final la madrastra dijo: «Mira, he dejado un plato de lentejas en la ceniza. Si las recoges todas en dos horas, te llevaré conmigo». La hija salió al jardín por la puerta trasera. «Amigas palomas, tórtolas y pajaritos de bajo el cielo, todas. Las buenas lentejas, a la cesta; las malas, para vosotras. Por favor, ayudadme a recogerlas». Entonces entraron por la ventana de la cocina dos palomas blancas. Después vino la tórtola y, por último, se juntaron todos los pajaritos de bajo el cielo y descendieron sobre la ceniza. Las palomas empezaron a picotear con la cabeza, ¡cocorocó! Las demás aves también empezaron, ¡cocorocó!, y juntaron en el plato todas las buenas lentejas. Antes de pasar una hora, los pajaritos acabaron y volaron lejos. La hija llevó el plato a su madrastra. Estaba tan contenta que creía que esta vez sí que podría ir a la fiesta. Pero la madrastra dijo: «No, Cenicienta. No tienes ropa y no sabes bailar. Solo te reirán». Cuando Cenicienta se puso a llorar, la madrastra dijo: «Si recoges dos platos de lentejas de la ceniza en una hora, te llevaré conmigo». La hija volvió al jardín y les pidió ayuda a los pajaritos. Esta vez, antes de pasar media hora, juntaron todas las lentejas. Pero la madrastra dijo: «De nada sirve que hagas eso. Tú no puedes ir. No tienes ropa y no sabes bailar, ¿no? Nos vas a dar vergüenza». Y se fue deprisa con sus dos hijas orgullosas.\n\n\n---\n\nEl baile\nCuando se cercioró de que ya no quedaba nadie, Cenicienta fue a la tumba de su madre, que estaba bajo el árbol de avellano. «Sacude, sacude, arbolito joven; déjame caer plata y oro». Entonces el pájaro le dejó caer un vestido de oro y plata y un zapato de gala bordado en plata. La hija se puso deprisa el vestido y fue al baile. Sus dos hermanas y su madrastra no la reconocieron y pensaron que debía ser una princesa de otro país. Porque iba con un vestido de oro y era muy hermosa. El príncipe se acercó a la hija, le tomó de la mano y bailó con ella. No quiso bailar con ninguna otra y no le soltó la mano. Cuando algún otro pretendía invitarla, el príncipe decía: «Esta es mi pareja». La hija bailó hasta el atardecer. Después pensó en volver a casa. Pero el príncipe dijo: «Quiero volver contigo. Permíteme acompañarte». El príncipe quería saber de quién era hija aquella chica hermosa. Pero la hija huyó del príncipe y se refugió en el palomar. Mientras el príncipe esperaba, llegó el padre y dijo: «Una chica desconocida se ha metido en el palomar». El padre pensó: «¿Será Cenicienta?». Entonces mandó traer un hacha y un escoplo para derribar el palomar, pero dentro no había nadie. Cuando todos volvieron, Cenicienta estaba entre la ceniza con la ropa sucia, y una lámpara débil ardía sobre la chimenea. Al día siguiente empezó de nuevo el baile. Cuando sus padres y sus hermanas salieron, Cenicienta fue al árbol de avellano. «Sacude, sacude, arbolito joven; déjame caer plata y oro». Entonces el pájaro le dejó caer un vestido aún más hermoso que el del día anterior. Cuando Cenicienta apareció en el baile con ese vestido, todos se asombraron ante su hermosura. El príncipe la estaba esperando, y en cuanto llegó le tomó de la mano y bailó solo con ella. Al llegar el atardecer, la hija quiso volver a casa. El príncipe la siguió para comprobar a qué casa iba. Pero la hija dio un salto, huyó y entró en el jardín detrás de la casa. En el jardín había un árbol alto y hermoso cargado de peras. La hija trepó con agilidad de ardilla entre las ramas, y el príncipe no supo dónde había desaparecido. El tercer día, cuando sus padres y sus hermanas salieron, Cenicienta fue al árbol de avellano. «Sacude, sacude, arbolito joven; déjame caer plata y oro». Esta vez el pájaro le dejó caer un vestido más espléndido y lujoso que ningún otro de los anteriores. El zapato de gala también era de oro. Al ir al baile, ante el asombro de todos, nadie sabía qué hacer. El príncipe bailó solo con la hija. Al atardecer, Cenicienta quiso volver a casa. El príncipe quiso ir con ella, pero la hija escapó velozmente. Pero el príncipe había urdido una estratagema: había hecho untar pez en la escalera. Cuando la hija bajó corriendo, el zapato de gala izquierdo se quedó pegado y no se pudo quitar.\n\n\n---\n\nEl zapato de oro\nA la mañana siguiente, el príncipe estaba en casa del padre y dijo: «No me casaré con nadie cuyo pie no calce con este zapato de oro». Las dos hijastras se alegraron. Porque tenían unos pies bonitos. La hija mayor entró en la habitación con el zapato y quiso probárselo. Pero no pudo meterse el dedo gordo del pie. Porque el zapato era demasiado pequeño. La madre le pasó un cuchillo y dijo: «Córtate el dedo gordo. Cuando seas reina, ya no tendrás que andar». La hija se cortó el dedo y se metió el pie a la fuerza en el zapato. Aguanto el dolor y fue a enseñárselo al príncipe. El príncipe la tomó por esposa, la montó a caballo y salieron corriendo juntos. Pero al pasar junto a la tumba, dos palomas posadas sobre el árbol de avellano gritaron: «Mira hacia atrás. Hay sangre en el zapato. Ese zapato es demasiado pequeño para esa chica. La verdadera novia te está esperando». Cuando el príncipe miró el pie de la chica, vio que chorreaba sangre. El príncipe dio media vuelta y devolvió a casa a la falsa novia. «Esta no es la persona. Dejad que la otra hermana se pruebe el zapato», dijo. La hermana menor entró en la habitación y logró meter el dedo gordo en el zapato. Pero el talón era demasiado grande. La madre le pasó un cuchillo y dijo: «Córtate un poco el talón. Cuando seas reina, ya no tendrás que andar». La hija se cortó un poco el talón y se metió el pie a la fuerza en el zapato. Aguanto el dolor y fue a enseñárselo al príncipe. El príncipe la tomó por esposa, la montó a caballo y salieron corriendo juntos. Pero al pasar junto al árbol de avellano, dos palomas posadas en el árbol gritaron: «Mira hacia atrás. Hay sangre en el zapato. Ese zapato es demasiado pequeño para esa chica. La verdadera novia te está esperando». Cuando el príncipe miró hacia abajo el pie de la chica, vio que la sangre salía del zapato y que el calcetín blanco estaba teñido de rojo. El príncipe dio media vuelta y devolvió a casa a la falsa novia. «Esta tampoco es la persona. ¿No hay más hijas?», dijo. «No, no hay más. Aunque queda una sirvienta de cocina un poco rara que dejó mi difunta esposa, no es ni idea para ser novia», dijo el padre. El príncipe ordenó que le trajeran a esa chica. La madre respondió: «Ni hablar. Está tan sucia que no puede presentarse ante usted». Pero el príncipe insistió en su empeño, y no hubo más remedio que llamar a Cenicienta. La hija se lavó primero las manos y la cara hasta quedar limpia, se presentó ante el príncipe y le hizo una reverencia. El príncipe le dio el zapato de oro. La hija se sentó en el escabel, se sacó el pie de la pesada zapata de madera y se calzó el zapato de gala. Le quedó perfecto. Cuando la hija se levantó, el príncipe miró su cara y reconoció a la hermosa chica con la que había bailado. «¡Esta es la verdadera novia!», gritó. La madrastra y las dos hermanas se quedaron aterradas y pálidas de rabia. El príncipe montó a Cenicienta a caballo y se marcharon juntos. Al pasar junto al árbol de avellano, dos palomas blancas gritaron: «Mira hacia atrás, mira hacia atrás. El zapato no lleva sangre. El zapato no es demasiado pequeño. La verdadera novia está contigo». Las dos bajaron y se posaron en los hombros de Cenicienta. Una a la derecha y otra a la izquierda, y así se quedaron sentadas. Se celebró la boda del príncipe. Las dos hermanas desleales aparecieron, trataron de quedar bien con Cenicienta y de compartir su felicidad. Cuando fueron a la iglesia, la hermana mayor estaba a la derecha y la menor a la izquierda. Las palomas les sacaron a cada una un ojo con un picotazo. En el camino de vuelta la hermana mayor quedó a la izquierda y la menor a la derecha, así que las palomas les sacaron con otro picotazo el otro ojo. Así, las dos, malvadas y desleales, recibieron su castigo y se quedaron sin vista durante toda la vida.\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "b2.1-s11-kurosawa-akira"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "黒澤明 — 世界で有名な映画を作った人",
+      "tituloEs": "Akira Kurosawa — el hombre que hizo películas famosas en todo el mundo",
+      "nivel": "B2.1",
+      "modoFurigana": "templado",
+      "ilustracion": {
+        "escena": "kurosawa",
+        "alt": "Akira Kurosawa de pie bajo la lluvia, con sombrero, gafas de sol, gabardina y megáfono, junto a una cámara de cine sobre trípode.",
+        "ruta": "lectura/imagenes/b2.1-s11-kurosawa-akira.webp"
+      },
+      "furiganaList": [
+        "生まれる",
+        "兄弟",
+        "父",
+        "厳しい",
+        "映画館",
+        "育つ",
+        "絵画",
+        "夢中",
+        "小説",
+        "人生",
+        "会社",
+        "年代",
+        "後半",
+        "資金",
+        "生涯",
+        "作品",
+        "発表",
+        "感動",
+        "人間",
+        "力",
+        "心",
+        "世界",
+        "海外",
+        "新しい",
+        "少ない",
+        "高い"
+      ],
+      "preguntas": [
+        "黒澤明は、子どものころ何に夢中になりましたか。",
+        "『羅生門』は、日本の映画にとって、どんなきっかけになりましたか。",
+        "1960年代の後半、なぜ映画を作る仕事が困難になりましたか。",
+        "黒澤明は、海外の資金でどんな作品を作りましたか。",
+        "黒澤明は生涯で何本の作品を作り、そのうち何本を三船敏郎と作りましたか。"
+      ],
+      "preguntasEs": [
+        "¿A qué se entregó Kurosawa de niño?",
+        "¿Qué ocasión supuso «Rashōmon» para el cine japonés?",
+        "¿Por qué se volvió difícil el trabajo de hacer películas en la segunda mitad de los años sesenta?",
+        "¿Qué obras hizo Kurosawa con fondos extranjeros?",
+        "¿Cuántas películas hizo a lo largo de su vida y cuántas de ellas con Toshirō Mifune?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "生まれる",
+          "lectura": "うまれる",
+          "significado": "nacer",
+          "exclusion": true
+        },
+        {
+          "literal": "兄弟",
+          "lectura": "きょうだい",
+          "significado": "hermanos"
+        },
+        {
+          "literal": "父",
+          "lectura": "ちち",
+          "significado": "padre"
+        },
+        {
+          "literal": "厳しい",
+          "lectura": "きびしい",
+          "significado": "severo, estricto"
+        },
+        {
+          "literal": "映画館",
+          "lectura": "えいがかん",
+          "significado": "cine (sala)"
+        },
+        {
+          "literal": "育つ",
+          "lectura": "そだつ",
+          "significado": "criarse, crecer"
+        },
+        {
+          "literal": "絵画",
+          "lectura": "かいが",
+          "significado": "pintura (cuadro)"
+        },
+        {
+          "literal": "夢中",
+          "lectura": "むちゅう",
+          "significado": "absorto, entregado a",
+          "exclusion": true
+        },
+        {
+          "literal": "小説",
+          "lectura": "しょうせつ",
+          "significado": "novela"
+        },
+        {
+          "literal": "人生",
+          "lectura": "じんせい",
+          "significado": "vida"
+        },
+        {
+          "literal": "会社",
+          "lectura": "かいしゃ",
+          "significado": "empresa, compañía"
+        },
+        {
+          "literal": "きっかけ",
+          "lectura": "きっかけ",
+          "significado": "ocasión, impulso"
+        },
+        {
+          "literal": "年代",
+          "lectura": "ねんだい",
+          "significado": "época, década"
+        },
+        {
+          "literal": "後半",
+          "lectura": "こうはん",
+          "significado": "segunda mitad"
+        },
+        {
+          "literal": "資金",
+          "lectura": "しきん",
+          "significado": "fondos, capital"
+        },
+        {
+          "literal": "生涯",
+          "lectura": "しょうがい",
+          "significado": "toda la vida"
+        },
+        {
+          "literal": "作品",
+          "lectura": "さくひん",
+          "significado": "obra"
+        },
+        {
+          "literal": "発表",
+          "lectura": "はっぴょう",
+          "significado": "presentación, anuncio"
+        },
+        {
+          "literal": "感動",
+          "lectura": "かんどう",
+          "significado": "emoción, conmoción",
+          "exclusion": true
+        },
+        {
+          "literal": "人間",
+          "lectura": "にんげん",
+          "significado": "ser humano"
+        },
+        {
+          "literal": "力",
+          "lectura": "ちから",
+          "significado": "fuerza"
+        },
+        {
+          "literal": "心",
+          "lectura": "こころ",
+          "significado": "corazón"
+        },
+        {
+          "literal": "世界",
+          "lectura": "せかい",
+          "significado": "mundo"
+        },
+        {
+          "literal": "海外",
+          "lectura": "かいがい",
+          "significado": "extranjero, ultramar"
+        },
+        {
+          "literal": "新しい",
+          "lectura": "あたらしい",
+          "significado": "nuevo"
+        },
+        {
+          "literal": "少ない",
+          "lectura": "すくない",
+          "significado": "poco, escaso"
+        },
+        {
+          "literal": "高い",
+          "lectura": "たかい",
+          "significado": "alto; caro"
+        }
+      ],
+      "nombres_propios": [
+        {
+          "literal": "黒澤明",
+          "lectura": "くろさわあきら",
+          "significado": "Akira Kurosawa"
+        },
+        {
+          "literal": "三船敏郎",
+          "lectura": "みふねとしろう",
+          "significado": "Toshirō Mifune"
+        },
+        {
+          "literal": "東京",
+          "lectura": "とうきょう",
+          "significado": "Tokio"
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "アメリカ",
+          "lectura": "アメリカ",
+          "significado": "Estados Unidos"
+        },
+        {
+          "literal": "ヴェネツィア",
+          "lectura": "ヴェネツィア",
+          "significado": "Venecia"
+        }
+      ],
+      "referencias": [
+        "s6-to-shite",
+        "s3-ni-totte"
+      ],
+      "texto": "一、絵画から映画へ\n黒澤明は1910年、東京に生まれた。八人の兄弟がいた。父は厳しかったが、映画に興味があり、よく兄弟を映画館に連れて行った。黒澤は若いときから映画を見ながら育った。小学校の先生は、黒澤の絵画を「とてもいい」と言ってくれた。それから、黒澤は絵画を描くことに夢中になった。学校では小説をたくさん読み、人生についても勉強した。はじめは絵画の仕事をしたいと思っていた。しかし、1936年に映画の会社に入り、映画を作る人のそばで作り方を習った。1943年、『姿三四郎』で初めて自分で映画を作った。\n\n\n---\n\n二、世界に知られる\n戦争のあと、黒澤は『酔いどれ天使』や『野良犬』を発表して注目を集めた。1950年の『羅生門』はヴェネツィア国際映画祭で金獅子賞を受け、日本の映画にとって、世界に知られるきっかけになった。その後も『生きる』『七人の侍』『用心棒』などを作り、海外でも高く評価された。海外では、黒澤の映画をもとに新しい映画が作られた。\n\n\n---\n\n三、困難な時代\n1960年代の後半、日本では映画を見る人が少なくなり、映画を作る仕事は困難になった。黒澤はアメリカで仕事をしようとしたものの、思ったようにはいかなかった。それでも、海外の資金のおかげで、『デルス・ウザーラ』『影武者』『乱』を作ることができた。1985年には、映画を作る人として初めて文化勲章を受けた。\n\n\n---\n\n四、晩年と今\n1990年には『夢』を作り、アカデミー名誉賞を受けた。黒澤は生涯で30本の作品を作り、そのうち16本は三船敏郎と作ったものだ。1998年に死んだ。死んだあと、国民栄誉賞が与えられた。黒澤の映画は今も世界で見られ、多くの人に大きな力を与えている。黒澤の作品は、人間の心の強さを描いている。これからも、彼の映画は世界で見られるだろう。そして、今も多くの人に感動を与えつつある。\n",
+      "textoEs": "I. De la pintura al cine\nAkira Kurosawa nació en Tokio en 1910. Tenía ocho hermanos. Su padre era severo, pero se interesaba por el cine y a menudo llevaba a los hermanos al cine. Kurosawa se crio viendo películas desde joven. El maestro de la escuela primaria dijo de su pintura: «Muy buena». A partir de entonces, Kurosawa se entregó por completo a pintar. En la escuela leyó muchas novelas y también estudió sobre la vida. Al principio quería trabajar en la pintura. Sin embargo, en 1936 entró en una compañía de cine y, junto a los que hacían las películas, aprendió cómo se hacían. En 1943, con «Sugata Sanshirō», hizo su primera película por sí mismo.\n\n\n---\n\nII. Darse a conocer al mundo\nDespués de la guerra, Kurosawa estrenó «El ángel ebrio» y «El perro rabioso», y llamó la atención. «Rashōmon», de 1950, recibió el León de Oro en el Festival Internacional de Cine de Venecia y se convirtió, para el cine japonés, en la ocasión de darse a conocer al mundo. Después hizo también «Vivir», «Los siete samuráis» y «Yojimbo», y fue muy valorado también en el extranjero. En el extranjero se hicieron nuevas películas basadas en las de Kurosawa.\n\n\n---\n\nIII. Una época difícil\nEn la segunda mitad de la década de 1960, en Japón disminuyó la gente que iba al cine y el trabajo de hacer películas se volvió difícil. Kurosawa intentó trabajar en Estados Unidos, pero no le salió como esperaba. Aun así, gracias a los fondos extranjeros pudo hacer «Dersu Uzala», «Kagemusha» y «Ran». En 1985 recibió, por primera vez como cineasta, la Orden de la Cultura.\n\n\n---\n\nIV. Los últimos años y el presente\nEn 1990 hizo «Sueños» y recibió un Óscar honorífico. A lo largo de su vida hizo treinta películas, y dieciséis de ellas las hizo con Toshirō Mifune. Murió en 1998. Tras su muerte se le concedió el Premio Nacional de Honor. Las películas de Kurosawa se siguen viendo hoy en todo el mundo y dan una gran fuerza a mucha gente. Sus obras retratan la fuerza del corazón humano. Sus películas se seguirán viendo en el mundo. Y hoy sigue conmoviendo a mucha gente.\n"
     }
   },
   {
