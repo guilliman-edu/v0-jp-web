@@ -2,119 +2,112 @@
   "audio_file": "a2.2-s7-nara-slow.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 202695,
+  "total_duration_ms": 201308,
   "sentences": [
     {
       "index": 0,
       "text": "こと、なら",
       "start_ms": 0,
-      "end_ms": 2497,
-      "duration_ms": 2497,
+      "end_ms": 1663,
+      "duration_ms": 1663,
       "clauses": [
         {
           "index": 0,
-          "text": "こと、",
+          "text": "こと、なら",
           "start_ms": 0,
-          "end_ms": 1141,
-          "duration_ms": 1141
-        },
-        {
-          "index": 1,
-          "text": "なら",
-          "start_ms": 1391,
-          "end_ms": 2497,
-          "duration_ms": 1106
+          "end_ms": 1663,
+          "duration_ms": 1663
         }
       ]
     },
     {
       "index": 1,
       "text": "ならは、にほんのふるいみやこです。",
-      "start_ms": 2997,
-      "end_ms": 7387,
-      "duration_ms": 4390,
+      "start_ms": 2163,
+      "end_ms": 6576,
+      "duration_ms": 4413,
       "clauses": [
         {
           "index": 0,
           "text": "ならは、",
-          "start_ms": 2997,
-          "end_ms": 4324,
-          "duration_ms": 1327
+          "start_ms": 2163,
+          "end_ms": 3478,
+          "duration_ms": 1315
         },
         {
           "index": 1,
           "text": "にほんのふるいみやこです。",
-          "start_ms": 4574,
-          "end_ms": 7387,
-          "duration_ms": 2813
+          "start_ms": 3728,
+          "end_ms": 6576,
+          "duration_ms": 2848
         }
       ]
     },
     {
       "index": 2,
-      "text": "いまから1300年まえ、ならは「へいじょうきょう」でした。",
-      "start_ms": 7887,
-      "end_ms": 14447,
-      "duration_ms": 6560,
+      "text": "いまからせんさんびゃく年まえ、ならは「へいじょうきょう」でした。",
+      "start_ms": 7076,
+      "end_ms": 13614,
+      "duration_ms": 6538,
       "clauses": [
         {
           "index": 0,
-          "text": "いまから1300年まえ、",
-          "start_ms": 7887,
-          "end_ms": 11013,
-          "duration_ms": 3126
+          "text": "いまからせんさんびゃく年まえ、",
+          "start_ms": 7076,
+          "end_ms": 10249,
+          "duration_ms": 3173
         },
         {
           "index": 1,
           "text": "ならは「へいじょうきょう」でした。",
-          "start_ms": 11263,
-          "end_ms": 14447,
-          "duration_ms": 3184
+          "start_ms": 10499,
+          "end_ms": 13614,
+          "duration_ms": 3115
         }
       ]
     },
     {
       "index": 3,
       "text": "きょうとがみやこになるまえ、ならはにほんのちゅうしんでした。",
-      "start_ms": 14947,
-      "end_ms": 21299,
-      "duration_ms": 6352,
+      "start_ms": 14114,
+      "end_ms": 20443,
+      "duration_ms": 6329,
       "clauses": [
         {
           "index": 0,
           "text": "きょうとがみやこになるまえ、",
-          "start_ms": 14947,
-          "end_ms": 17737,
-          "duration_ms": 2790
+          "start_ms": 14114,
+          "end_ms": 16846,
+          "duration_ms": 2732
         },
         {
           "index": 1,
           "text": "ならはにほんのちゅうしんでした。",
-          "start_ms": 17987,
-          "end_ms": 21299,
-          "duration_ms": 3312
+          "start_ms": 17096,
+          "end_ms": 20443,
+          "duration_ms": 3347
         }
       ]
     },
     {
       "index": 4,
       "text": "ならには、ふるいてらやじんじゃがたくさんあります。",
-      "start_ms": 21799,
-      "end_ms": 27210,
-      "duration_ms": 5411,
+      "start_ms": 20943,
+      "end_ms": 26331,
+      "duration_ms": 5388,
       "clauses": [
         {
           "index": 0,
           "text": "ならには、",
-          "start_ms": 21799,
-          "end_ms": 23253,
-          "duration_ms": 1454
+          "start_ms": 20943,
+          "end_ms": 22374,
+          "duration_ms": 1431
         },
         {
           "index": 1,
           "text": "ふるいてらやじんじゃがたくさんあります。",
-          "start_ms": 23503,
-          "end_ms": 27210,
+          "start_ms": 22624,
+          "end_ms": 26331,
           "duration_ms": 3707
         }
       ]
@@ -122,261 +115,261 @@
     {
       "index": 5,
       "text": "「ことならのぶんかざい」は、やっつのせかいいさんです。",
-      "start_ms": 27710,
-      "end_ms": 33365,
-      "duration_ms": 5655,
+      "start_ms": 26831,
+      "end_ms": 32602,
+      "duration_ms": 5771,
       "clauses": [
         {
           "index": 0,
           "text": "「ことならのぶんかざい」は、",
-          "start_ms": 27710,
-          "end_ms": 30395,
-          "duration_ms": 2685
+          "start_ms": 26831,
+          "end_ms": 29528,
+          "duration_ms": 2697
         },
         {
           "index": 1,
           "text": "やっつのせかいいさんです。",
-          "start_ms": 30645,
-          "end_ms": 33365,
-          "duration_ms": 2720
+          "start_ms": 29778,
+          "end_ms": 32602,
+          "duration_ms": 2824
         }
       ]
     },
     {
       "index": 6,
       "text": "とうだいじ、こうふくじ、かすがたいしゃなどがあります。",
-      "start_ms": 33865,
-      "end_ms": 41306,
-      "duration_ms": 7441,
+      "start_ms": 33102,
+      "end_ms": 40416,
+      "duration_ms": 7314,
       "clauses": [
         {
           "index": 0,
           "text": "とうだいじ、",
-          "start_ms": 33865,
-          "end_ms": 35633,
-          "duration_ms": 1768
+          "start_ms": 33102,
+          "end_ms": 34847,
+          "duration_ms": 1745
         },
         {
           "index": 1,
           "text": "こうふくじ、",
-          "start_ms": 35883,
-          "end_ms": 37686,
-          "duration_ms": 1803
+          "start_ms": 35097,
+          "end_ms": 36842,
+          "duration_ms": 1745
         },
         {
           "index": 2,
           "text": "かすがたいしゃなどがあります。",
-          "start_ms": 37936,
-          "end_ms": 41306,
-          "duration_ms": 3370
+          "start_ms": 37092,
+          "end_ms": 40416,
+          "duration_ms": 3324
         }
       ]
     },
     {
       "index": 7,
       "text": "とうだいじのだいぶつは、とてもおおきいです。",
-      "start_ms": 41806,
-      "end_ms": 47170,
-      "duration_ms": 5364,
+      "start_ms": 40916,
+      "end_ms": 46153,
+      "duration_ms": 5237,
       "clauses": [
         {
           "index": 0,
           "text": "とうだいじのだいぶつは、",
-          "start_ms": 41806,
-          "end_ms": 44456,
-          "duration_ms": 2650
+          "start_ms": 40916,
+          "end_ms": 43520,
+          "duration_ms": 2604
         },
         {
           "index": 1,
           "text": "とてもおおきいです。",
-          "start_ms": 44706,
-          "end_ms": 47170,
-          "duration_ms": 2464
+          "start_ms": 43770,
+          "end_ms": 46153,
+          "duration_ms": 2383
         }
       ]
     },
     {
       "index": 8,
       "text": "ならこうえんでは、しかがあるいています。",
-      "start_ms": 47670,
-      "end_ms": 52443,
-      "duration_ms": 4773,
+      "start_ms": 46653,
+      "end_ms": 51577,
+      "duration_ms": 4924,
       "clauses": [
         {
           "index": 0,
           "text": "ならこうえんでは、",
-          "start_ms": 47670,
-          "end_ms": 49856,
-          "duration_ms": 2186
+          "start_ms": 46653,
+          "end_ms": 48874,
+          "duration_ms": 2221
         },
         {
           "index": 1,
           "text": "しかがあるいています。",
-          "start_ms": 50106,
-          "end_ms": 52443,
-          "duration_ms": 2337
+          "start_ms": 49124,
+          "end_ms": 51577,
+          "duration_ms": 2453
         }
       ]
     },
     {
       "index": 9,
       "text": "しかはひとをこわがりません。",
-      "start_ms": 52943,
-      "end_ms": 55918,
-      "duration_ms": 2975,
+      "start_ms": 52077,
+      "end_ms": 55029,
+      "duration_ms": 2952,
       "clauses": [
         {
           "index": 0,
           "text": "しかはひとをこわがりません。",
-          "start_ms": 52943,
-          "end_ms": 55918,
-          "duration_ms": 2975
+          "start_ms": 52077,
+          "end_ms": 55029,
+          "duration_ms": 2952
         }
       ]
     },
     {
       "index": 10,
       "text": "ならは、れきしがすきなひとにいいまちだそうです。",
-      "start_ms": 56418,
-      "end_ms": 61841,
-      "duration_ms": 5423,
+      "start_ms": 55529,
+      "end_ms": 60986,
+      "duration_ms": 5457,
       "clauses": [
         {
           "index": 0,
           "text": "ならは、",
-          "start_ms": 56418,
-          "end_ms": 57745,
-          "duration_ms": 1327
+          "start_ms": 55529,
+          "end_ms": 56867,
+          "duration_ms": 1338
         },
         {
           "index": 1,
           "text": "れきしがすきなひとにいいまちだそうです。",
-          "start_ms": 57995,
-          "end_ms": 61841,
-          "duration_ms": 3846
+          "start_ms": 57117,
+          "end_ms": 60986,
+          "duration_ms": 3869
         }
       ]
     },
     {
       "index": 11,
       "text": "ならのれきしは、とてもながいです。",
-      "start_ms": 62341,
-      "end_ms": 66904,
-      "duration_ms": 4563,
+      "start_ms": 61486,
+      "end_ms": 66085,
+      "duration_ms": 4599,
       "clauses": [
         {
           "index": 0,
           "text": "ならのれきしは、",
-          "start_ms": 62341,
-          "end_ms": 64422,
-          "duration_ms": 2081
+          "start_ms": 61486,
+          "end_ms": 63579,
+          "duration_ms": 2093
         },
         {
           "index": 1,
           "text": "とてもながいです。",
-          "start_ms": 64672,
-          "end_ms": 66904,
-          "duration_ms": 2232
+          "start_ms": 63829,
+          "end_ms": 66085,
+          "duration_ms": 2256
         }
       ]
     },
     {
       "index": 12,
       "text": "へいじょうきょうは、ちゅうごくのみやこをみてつくったまちでした。",
-      "start_ms": 67404,
-      "end_ms": 73895,
-      "duration_ms": 6491,
+      "start_ms": 66585,
+      "end_ms": 72937,
+      "duration_ms": 6352,
       "clauses": [
         {
           "index": 0,
           "text": "へいじょうきょうは、",
-          "start_ms": 67404,
-          "end_ms": 69474,
+          "start_ms": 66585,
+          "end_ms": 68655,
           "duration_ms": 2070
         },
         {
           "index": 1,
           "text": "ちゅうごくのみやこをみてつくったまちでした。",
-          "start_ms": 69724,
-          "end_ms": 73895,
-          "duration_ms": 4171
+          "start_ms": 68905,
+          "end_ms": 72937,
+          "duration_ms": 4032
         }
       ]
     },
     {
       "index": 13,
       "text": "みちはまっすぐでした。",
-      "start_ms": 74395,
-      "end_ms": 76941,
-      "duration_ms": 2546,
+      "start_ms": 73437,
+      "end_ms": 76006,
+      "duration_ms": 2569,
       "clauses": [
         {
           "index": 0,
           "text": "みちはまっすぐでした。",
-          "start_ms": 74395,
-          "end_ms": 76941,
-          "duration_ms": 2546
+          "start_ms": 73437,
+          "end_ms": 76006,
+          "duration_ms": 2569
         }
       ]
     },
     {
       "index": 14,
       "text": "たくさんのひとががいこくからきて、あたらしいぶんかがはいりました。",
-      "start_ms": 77441,
-      "end_ms": 84512,
-      "duration_ms": 7071,
+      "start_ms": 76506,
+      "end_ms": 83531,
+      "duration_ms": 7025,
       "clauses": [
         {
           "index": 0,
           "text": "たくさんのひとががいこくからきて、",
-          "start_ms": 77441,
-          "end_ms": 81043,
-          "duration_ms": 3602
+          "start_ms": 76506,
+          "end_ms": 80039,
+          "duration_ms": 3533
         },
         {
           "index": 1,
           "text": "あたらしいぶんかがはいりました。",
-          "start_ms": 81293,
-          "end_ms": 84512,
-          "duration_ms": 3219
+          "start_ms": 80289,
+          "end_ms": 83531,
+          "duration_ms": 3242
         }
       ]
     },
     {
       "index": 15,
       "text": "このぶんかを「てんぴょうぶんか」といいます。",
-      "start_ms": 85012,
-      "end_ms": 89067,
-      "duration_ms": 4055,
+      "start_ms": 84031,
+      "end_ms": 88051,
+      "duration_ms": 4020,
       "clauses": [
         {
           "index": 0,
           "text": "このぶんかを「てんぴょうぶんか」といいます。",
-          "start_ms": 85012,
-          "end_ms": 89067,
-          "duration_ms": 4055
+          "start_ms": 84031,
+          "end_ms": 88051,
+          "duration_ms": 4020
         }
       ]
     },
     {
       "index": 16,
       "text": "このじだい、ぶっきょうはとてもたいせつでした。",
-      "start_ms": 89567,
-      "end_ms": 95292,
-      "duration_ms": 5725,
+      "start_ms": 88551,
+      "end_ms": 94288,
+      "duration_ms": 5737,
       "clauses": [
         {
           "index": 0,
           "text": "このじだい、",
-          "start_ms": 89567,
-          "end_ms": 91358,
-          "duration_ms": 1791
+          "start_ms": 88551,
+          "end_ms": 90354,
+          "duration_ms": 1803
         },
         {
           "index": 1,
           "text": "ぶっきょうはとてもたいせつでした。",
-          "start_ms": 91608,
-          "end_ms": 95292,
+          "start_ms": 90604,
+          "end_ms": 94288,
           "duration_ms": 3684
         }
       ]
@@ -384,407 +377,407 @@
     {
       "index": 17,
       "text": "ならには、とうだいじやこうふくじなど、おおきいてらがあります。",
-      "start_ms": 95792,
-      "end_ms": 103523,
-      "duration_ms": 7731,
+      "start_ms": 94788,
+      "end_ms": 102495,
+      "duration_ms": 7707,
       "clauses": [
         {
           "index": 0,
           "text": "ならには、",
-          "start_ms": 95792,
-          "end_ms": 97293,
-          "duration_ms": 1501
+          "start_ms": 94788,
+          "end_ms": 96242,
+          "duration_ms": 1454
         },
         {
           "index": 1,
           "text": "とうだいじやこうふくじなど、",
-          "start_ms": 97543,
-          "end_ms": 100704,
-          "duration_ms": 3161
+          "start_ms": 96492,
+          "end_ms": 99630,
+          "duration_ms": 3138
         },
         {
           "index": 2,
           "text": "おおきいてらがあります。",
-          "start_ms": 100954,
-          "end_ms": 103523,
-          "duration_ms": 2569
+          "start_ms": 99880,
+          "end_ms": 102495,
+          "duration_ms": 2615
         }
       ]
     },
     {
       "index": 18,
       "text": "とうしょうだいじは、ちゅうごくからきたがんじんがつくりました。",
-      "start_ms": 104023,
-      "end_ms": 110456,
-      "duration_ms": 6433,
+      "start_ms": 102995,
+      "end_ms": 109347,
+      "duration_ms": 6352,
       "clauses": [
         {
           "index": 0,
           "text": "とうしょうだいじは、",
-          "start_ms": 104023,
-          "end_ms": 106197,
-          "duration_ms": 2174
+          "start_ms": 102995,
+          "end_ms": 105123,
+          "duration_ms": 2128
         },
         {
           "index": 1,
           "text": "ちゅうごくからきたがんじんがつくりました。",
-          "start_ms": 106447,
-          "end_ms": 110456,
-          "duration_ms": 4009
+          "start_ms": 105373,
+          "end_ms": 109347,
+          "duration_ms": 3974
         }
       ]
     },
     {
       "index": 19,
       "text": "やくしじも、とてもふるいてらです。",
-      "start_ms": 110956,
-      "end_ms": 115589,
-      "duration_ms": 4633,
+      "start_ms": 109847,
+      "end_ms": 114434,
+      "duration_ms": 4587,
       "clauses": [
         {
           "index": 0,
           "text": "やくしじも、",
-          "start_ms": 110956,
-          "end_ms": 112805,
-          "duration_ms": 1849
+          "start_ms": 109847,
+          "end_ms": 111638,
+          "duration_ms": 1791
         },
         {
           "index": 1,
           "text": "とてもふるいてらです。",
-          "start_ms": 113055,
-          "end_ms": 115589,
-          "duration_ms": 2534
+          "start_ms": 111888,
+          "end_ms": 114434,
+          "duration_ms": 2546
         }
       ]
     },
     {
       "index": 20,
       "text": "ならはふるいてらがおおいし、れきしもながいです。",
-      "start_ms": 116089,
-      "end_ms": 121802,
-      "duration_ms": 5713,
+      "start_ms": 114934,
+      "end_ms": 120624,
+      "duration_ms": 5690,
       "clauses": [
         {
           "index": 0,
           "text": "ならはふるいてらがおおいし、",
-          "start_ms": 116089,
-          "end_ms": 119134,
-          "duration_ms": 3045
+          "start_ms": 114934,
+          "end_ms": 117991,
+          "duration_ms": 3057
         },
         {
           "index": 1,
           "text": "れきしもながいです。",
-          "start_ms": 119384,
-          "end_ms": 121802,
-          "duration_ms": 2418
+          "start_ms": 118241,
+          "end_ms": 120624,
+          "duration_ms": 2383
         }
       ]
     },
     {
       "index": 21,
       "text": "へいじょうきょうは、いまのならよりおおきかったそうです。",
-      "start_ms": 122302,
-      "end_ms": 128294,
-      "duration_ms": 5992,
+      "start_ms": 121124,
+      "end_ms": 127151,
+      "duration_ms": 6027,
       "clauses": [
         {
           "index": 0,
           "text": "へいじょうきょうは、",
-          "start_ms": 122302,
-          "end_ms": 124337,
+          "start_ms": 121124,
+          "end_ms": 123159,
           "duration_ms": 2035
         },
         {
           "index": 1,
           "text": "いまのならよりおおきかったそうです。",
-          "start_ms": 124587,
-          "end_ms": 128294,
-          "duration_ms": 3707
+          "start_ms": 123409,
+          "end_ms": 127151,
+          "duration_ms": 3742
         }
       ]
     },
     {
       "index": 22,
       "text": "いまのならにも、たのしいばしょがたくさんあります。",
-      "start_ms": 128794,
-      "end_ms": 134472,
-      "duration_ms": 5678,
+      "start_ms": 127651,
+      "end_ms": 133236,
+      "duration_ms": 5585,
       "clauses": [
         {
           "index": 0,
           "text": "いまのならにも、",
-          "start_ms": 128794,
-          "end_ms": 130620,
-          "duration_ms": 1826
+          "start_ms": 127651,
+          "end_ms": 129442,
+          "duration_ms": 1791
         },
         {
           "index": 1,
           "text": "たのしいばしょがたくさんあります。",
-          "start_ms": 130870,
-          "end_ms": 134472,
-          "duration_ms": 3602
+          "start_ms": 129692,
+          "end_ms": 133236,
+          "duration_ms": 3544
         }
       ]
     },
     {
       "index": 23,
       "text": "ならこうえんのちかくに「ならまち」があります。",
-      "start_ms": 134972,
-      "end_ms": 139073,
-      "duration_ms": 4101,
+      "start_ms": 133736,
+      "end_ms": 137872,
+      "duration_ms": 4136,
       "clauses": [
         {
           "index": 0,
           "text": "ならこうえんのちかくに「ならまち」があります。",
-          "start_ms": 134972,
-          "end_ms": 139073,
-          "duration_ms": 4101
+          "start_ms": 133736,
+          "end_ms": 137872,
+          "duration_ms": 4136
         }
       ]
     },
     {
       "index": 24,
       "text": "ならまちにはふるいいえがたくさんあって、しずかなまちです。",
-      "start_ms": 139573,
-      "end_ms": 145971,
-      "duration_ms": 6398,
+      "start_ms": 138372,
+      "end_ms": 144794,
+      "duration_ms": 6422,
       "clauses": [
         {
           "index": 0,
           "text": "ならまちにはふるいいえがたくさんあって、",
-          "start_ms": 139573,
-          "end_ms": 143384,
-          "duration_ms": 3811
+          "start_ms": 138372,
+          "end_ms": 142114,
+          "duration_ms": 3742
         },
         {
           "index": 1,
           "text": "しずかなまちです。",
-          "start_ms": 143634,
-          "end_ms": 145971,
-          "duration_ms": 2337
+          "start_ms": 142364,
+          "end_ms": 144794,
+          "duration_ms": 2430
         }
       ]
     },
     {
       "index": 25,
       "text": "はるなら、こうえんのさくらがきれいです。",
-      "start_ms": 146471,
-      "end_ms": 151360,
-      "duration_ms": 4889,
+      "start_ms": 145294,
+      "end_ms": 150240,
+      "duration_ms": 4946,
       "clauses": [
         {
           "index": 0,
           "text": "はるなら、",
-          "start_ms": 146471,
-          "end_ms": 148100,
-          "duration_ms": 1629
+          "start_ms": 145294,
+          "end_ms": 146957,
+          "duration_ms": 1663
         },
         {
           "index": 1,
           "text": "こうえんのさくらがきれいです。",
-          "start_ms": 148350,
-          "end_ms": 151360,
-          "duration_ms": 3010
+          "start_ms": 147207,
+          "end_ms": 150240,
+          "duration_ms": 3033
         }
       ]
     },
     {
       "index": 26,
       "text": "あきなら、やまのこうようがきれいです。",
-      "start_ms": 151860,
-      "end_ms": 156726,
-      "duration_ms": 4866,
+      "start_ms": 150740,
+      "end_ms": 155687,
+      "duration_ms": 4947,
       "clauses": [
         {
           "index": 0,
           "text": "あきなら、",
-          "start_ms": 151860,
-          "end_ms": 153547,
-          "duration_ms": 1687
+          "start_ms": 150740,
+          "end_ms": 152473,
+          "duration_ms": 1733
         },
         {
           "index": 1,
           "text": "やまのこうようがきれいです。",
-          "start_ms": 153797,
-          "end_ms": 156726,
-          "duration_ms": 2929
+          "start_ms": 152723,
+          "end_ms": 155687,
+          "duration_ms": 2964
         }
       ]
     },
     {
       "index": 27,
       "text": "ならでは、いちねんにいっかい、いちがつに「わかくさやまやき」があります。",
-      "start_ms": 157226,
-      "end_ms": 165189,
+      "start_ms": 156187,
+      "end_ms": 164150,
       "duration_ms": 7963,
       "clauses": [
         {
           "index": 0,
           "text": "ならでは、",
-          "start_ms": 157226,
-          "end_ms": 158634,
-          "duration_ms": 1408
+          "start_ms": 156187,
+          "end_ms": 157583,
+          "duration_ms": 1396
         },
         {
           "index": 1,
           "text": "いちねんにいっかい、",
-          "start_ms": 158884,
-          "end_ms": 161174,
-          "duration_ms": 2290
+          "start_ms": 157833,
+          "end_ms": 160112,
+          "duration_ms": 2279
         },
         {
           "index": 2,
           "text": "いちがつに「わかくさやまやき」があります。",
-          "start_ms": 161424,
-          "end_ms": 165189,
-          "duration_ms": 3765
+          "start_ms": 160362,
+          "end_ms": 164150,
+          "duration_ms": 3788
         }
       ]
     },
     {
       "index": 28,
       "text": "わかくさやまをやくおおきなぎょうじです。",
-      "start_ms": 165689,
-      "end_ms": 169454,
-      "duration_ms": 3765,
+      "start_ms": 164650,
+      "end_ms": 168508,
+      "duration_ms": 3858,
       "clauses": [
         {
           "index": 0,
           "text": "わかくさやまをやくおおきなぎょうじです。",
-          "start_ms": 165689,
-          "end_ms": 169454,
-          "duration_ms": 3765
+          "start_ms": 164650,
+          "end_ms": 168508,
+          "duration_ms": 3858
         }
       ]
     },
     {
       "index": 29,
       "text": "れきしがすきなら、へいじょうきょうのこうえんへいったほうがいいです。",
-      "start_ms": 169954,
-      "end_ms": 176596,
-      "duration_ms": 6642,
+      "start_ms": 169008,
+      "end_ms": 175499,
+      "duration_ms": 6491,
       "clauses": [
         {
           "index": 0,
           "text": "れきしがすきなら、",
-          "start_ms": 169954,
-          "end_ms": 172221,
-          "duration_ms": 2267
+          "start_ms": 169008,
+          "end_ms": 171240,
+          "duration_ms": 2232
         },
         {
           "index": 1,
           "text": "へいじょうきょうのこうえんへいったほうがいいです。",
-          "start_ms": 172471,
-          "end_ms": 176596,
-          "duration_ms": 4125
+          "start_ms": 171490,
+          "end_ms": 175499,
+          "duration_ms": 4009
         }
       ]
     },
     {
       "index": 30,
       "text": "わたしはいちねんににかい、ならへいきます。",
-      "start_ms": 177096,
-      "end_ms": 182496,
-      "duration_ms": 5400,
+      "start_ms": 175999,
+      "end_ms": 181120,
+      "duration_ms": 5121,
       "clauses": [
         {
           "index": 0,
           "text": "わたしはいちねんににかい、",
-          "start_ms": 177096,
-          "end_ms": 180153,
-          "duration_ms": 3057
+          "start_ms": 175999,
+          "end_ms": 178835,
+          "duration_ms": 2836
         },
         {
           "index": 1,
           "text": "ならへいきます。",
-          "start_ms": 180403,
-          "end_ms": 182496,
-          "duration_ms": 2093
+          "start_ms": 179085,
+          "end_ms": 181120,
+          "duration_ms": 2035
         }
       ]
     },
     {
       "index": 31,
       "text": "ならへいくなら、こうえんをあるいたほうがいいです。",
-      "start_ms": 182996,
-      "end_ms": 188593,
-      "duration_ms": 5597,
+      "start_ms": 181620,
+      "end_ms": 187147,
+      "duration_ms": 5527,
       "clauses": [
         {
           "index": 0,
           "text": "ならへいくなら、",
-          "start_ms": 182996,
-          "end_ms": 185043,
-          "duration_ms": 2047
+          "start_ms": 181620,
+          "end_ms": 183701,
+          "duration_ms": 2081
         },
         {
           "index": 1,
           "text": "こうえんをあるいたほうがいいです。",
-          "start_ms": 185293,
-          "end_ms": 188593,
-          "duration_ms": 3300
+          "start_ms": 183951,
+          "end_ms": 187147,
+          "duration_ms": 3196
         }
       ]
     },
     {
       "index": 32,
       "text": "しかにあうことができます。",
-      "start_ms": 189093,
-      "end_ms": 192010,
-      "duration_ms": 2917,
+      "start_ms": 187647,
+      "end_ms": 190553,
+      "duration_ms": 2906,
       "clauses": [
         {
           "index": 0,
           "text": "しかにあうことができます。",
-          "start_ms": 189093,
-          "end_ms": 192010,
-          "duration_ms": 2917
+          "start_ms": 187647,
+          "end_ms": 190553,
+          "duration_ms": 2906
         }
       ]
     },
     {
       "index": 33,
       "text": "ならはしずかだし、こうえんもきれいです。",
-      "start_ms": 192510,
-      "end_ms": 197480,
-      "duration_ms": 4970,
+      "start_ms": 191053,
+      "end_ms": 196070,
+      "duration_ms": 5017,
       "clauses": [
         {
           "index": 0,
           "text": "ならはしずかだし、",
-          "start_ms": 192510,
-          "end_ms": 194893,
-          "duration_ms": 2383
+          "start_ms": 191053,
+          "end_ms": 193425,
+          "duration_ms": 2372
         },
         {
           "index": 1,
           "text": "こうえんもきれいです。",
-          "start_ms": 195143,
-          "end_ms": 197480,
-          "duration_ms": 2337
+          "start_ms": 193675,
+          "end_ms": 196070,
+          "duration_ms": 2395
         }
       ]
     },
     {
       "index": 34,
       "text": "ならで、ふるいてらをみることができます。",
-      "start_ms": 197980,
-      "end_ms": 202695,
-      "duration_ms": 4715,
+      "start_ms": 196570,
+      "end_ms": 201308,
+      "duration_ms": 4738,
       "clauses": [
         {
           "index": 0,
           "text": "ならで、",
-          "start_ms": 197980,
-          "end_ms": 199156,
-          "duration_ms": 1176
+          "start_ms": 196570,
+          "end_ms": 197804,
+          "duration_ms": 1234
         },
         {
           "index": 1,
           "text": "ふるいてらをみることができます。",
-          "start_ms": 199406,
-          "end_ms": 202695,
-          "duration_ms": 3289
+          "start_ms": 198054,
+          "end_ms": 201308,
+          "duration_ms": 3254
         }
       ]
     }
