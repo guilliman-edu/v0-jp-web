@@ -1568,3 +1568,173 @@ imagenes:
     archivo: s6/割れる.webp
     escena: s6/割れる.json
     estado: revisado
+
+# Lote s7 (2026-11-01) — A2.2 «Cierre de Genki II L13»: 33 términos de la
+# secuencia s7 (7 de frecuencia + 26 de la lectura «古都、奈良»). 16 escenas
+# dibujadas y 17 placeholders razonados. Estado propuesto hasta el gate humano
+# por lección (ADR-0091 §4).
+  - literal: 一月
+    leccion: s7
+    placeholder: true
+    motivo: "mes del calendario: sin texto, una hoja de calendario no distingue enero de ningún otro mes"
+    estado: propuesto
+  - literal: 一日
+    leccion: s7
+    placeholder: true
+    motivo: "duración de un día: el sol sobre el horizonte ya representa «día» (ilustrado en s2); la medida «un día» no tiene imagen propia"
+    estado: propuesto
+  - literal: 一年
+    leccion: s7
+    placeholder: true
+    motivo: "duración de un año: el ciclo de estaciones dibujado se lee como un paisaje, no como la medida"
+    estado: propuesto
+  - literal: 一回
+    leccion: s7
+    placeholder: true
+    motivo: "contador de frecuencia: un giro o una marca aislada no expresa «una vez» sin texto"
+    estado: propuesto
+  - literal: 一か月
+    leccion: s7
+    placeholder: true
+    motivo: "duración de un mes: la luna se lee como «luna» y la hoja de calendario, sin texto, como un calendario cualquiera"
+    estado: propuesto
+  - literal: 一週間
+    leccion: s7
+    placeholder: true
+    motivo: "duración de una semana: una tira de siete casillas sin texto es un calendario, no la medida"
+    estado: propuesto
+  - literal: きれい
+    leccion: s7
+    archivo: s7/きれい.webp
+    escena: s7/きれい.json
+    estado: propuesto
+  - literal: 行事
+    leccion: s7
+    archivo: s7/行事.webp
+    escena: s7/行事.json
+    estado: propuesto
+  - literal: 古都
+    leccion: s7
+    archivo: s7/古都.webp
+    escena: s7/古都.json
+    estado: propuesto
+  - literal: 紅葉
+    leccion: s7
+    archivo: s7/紅葉.webp
+    escena: s7/紅葉.json
+    estado: propuesto
+  - literal: 怖がる
+    leccion: s7
+    archivo: s7/怖がる.webp
+    escena: s7/怖がる.json
+    estado: propuesto
+  - literal: 回
+    leccion: s7
+    placeholder: true
+    motivo: "contador de veces: no tiene referente visible propio; cualquier dibujo exigiría la convención «giro = vez»"
+    estado: propuesto
+  - literal: 桜
+    leccion: s7
+    archivo: s7/桜.webp
+    escena: s7/桜.json
+    estado: propuesto
+  - literal: 鹿
+    leccion: s7
+    archivo: s7/鹿.webp
+    escena: s7/鹿.json
+    estado: propuesto
+  - literal: 静か
+    leccion: s7
+    placeholder: true
+    motivo: "cualidad de un lugar: una escena quieta se lee como paisaje; el gesto «shh» significa silencio, no tranquilidad"
+    estado: propuesto
+  - literal: 週
+    leccion: s7
+    placeholder: true
+    motivo: "unidad de semana: la tira de siete casillas sin texto no distingue «semana» de «calendario»"
+    estado: propuesto
+  - literal: 時代
+    leccion: s7
+    placeholder: true
+    motivo: "época histórica: se representa con objetos de una era concreta, que se leen como esos objetos, no como el periodo"
+    estado: propuesto
+  - literal: 神社
+    leccion: s7
+    archivo: s7/神社.webp
+    escena: s7/神社.json
+    estado: propuesto
+  - literal: 好き
+    leccion: s7
+    placeholder: true
+    motivo: "gusto: el corazón o la cara sonriente son códigos que expresan afecto, no el verbo «gustar»"
+    estado: propuesto
+  - literal: 世界遺産
+    leccion: s7
+    placeholder: true
+    motivo: "designación patrimonial: el globo con un monumento se lee como «mundo» o «monumento», no como el título de patrimonio mundial"
+    estado: propuesto
+  - literal: たくさん
+    leccion: s7
+    archivo: s7/たくさん.webp
+    escena: s7/たくさん.json
+    estado: propuesto
+  - literal: 大仏
+    leccion: s7
+    archivo: s7/大仏.webp
+    escena: s7/大仏.json
+    estado: propuesto
+  - literal: 近く
+    leccion: s7
+    placeholder: true
+    motivo: "proximidad relativa: la distancia solo se lee comparando dos referentes que el dibujo tendría que fijar"
+    estado: propuesto
+  - literal: 寺
+    leccion: s7
+    archivo: s7/寺.webp
+    escena: s7/寺.json
+    estado: propuesto
+  - literal: 何回
+    leccion: s7
+    placeholder: true
+    motivo: "interrogativo de frecuencia: sin signo de interrogación ni texto no se distingue de un contador"
+    estado: propuesto
+  - literal: 二回
+    leccion: s7
+    placeholder: true
+    motivo: "contador de frecuencia: dos giros no se leen como «dos veces» sin texto"
+    estado: propuesto
+  - literal: 古い
+    leccion: s7
+    archivo: s7/古い.webp
+    escena: s7/古い.json
+    estado: propuesto
+  - literal: 仏教
+    leccion: s7
+    placeholder: true
+    motivo: "religión: la rueda del dharma o el loto son símbolos que exigen conocer el código, y el Buda ya ilustra 大仏"
+    estado: propuesto
+  - literal: 文化財
+    leccion: s7
+    placeholder: true
+    motivo: "designación patrimonial: una pieza en vitrina se lee como «museo» o «jarrón», no como «bien cultural»"
+    estado: propuesto
+  - literal: まっすぐ
+    leccion: s7
+    archivo: s7/まっすぐ.webp
+    escena: s7/まっすぐ.json
+    estado: propuesto
+  - literal: 都
+    leccion: s7
+    archivo: s7/都.webp
+    escena: s7/都.json
+    estado: propuesto
+  - literal: 焼く
+    leccion: s7
+    archivo: s7/焼く.webp
+    escena: s7/焼く.json
+    estado: propuesto
+  - literal: 八つ
+    leccion: s7
+    archivo: s7/八つ.webp
+    escena: s7/八つ.json
+    estado: propuesto
