@@ -1,0 +1,1 @@
+const c={leccion:"Lección",practica:"Práctica de lectura",juego:"Juego",escritura:"Escritura",libro:"Libro de texto del curso"},r={leccion:"📘",practica:"📖",juego:"🎮",escritura:"✍️",libro:"📚"};export{c as E,r as I};
