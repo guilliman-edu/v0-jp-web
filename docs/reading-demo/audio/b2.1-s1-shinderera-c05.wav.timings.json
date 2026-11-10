@@ -2,57 +2,57 @@
   "audio_file": "b2.1-s1-shinderera-c05.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 375022,
+  "total_duration_ms": 374437,
   "sentences": [
     {
       "index": 0,
-      "text": "金の上靴",
+      "text": "金のうわぐつ",
       "start_ms": 0,
-      "end_ms": 1698,
-      "duration_ms": 1698,
+      "end_ms": 1756,
+      "duration_ms": 1756,
       "clauses": [
         {
           "index": 0,
-          "text": "金の上靴",
+          "text": "金のうわぐつ",
           "start_ms": 0,
-          "end_ms": 1698,
-          "duration_ms": 1698
+          "end_ms": 1756,
+          "duration_ms": 1756
         }
       ]
     },
     {
       "index": 1,
       "text": "翌朝、おうじは父親の處にいて、「この金のうわぐつに合う足の人以外は、妻にはしません。」",
-      "start_ms": 2198,
-      "end_ms": 12528,
-      "duration_ms": 10330,
+      "start_ms": 2256,
+      "end_ms": 12642,
+      "duration_ms": 10386,
       "clauses": [
         {
           "index": 0,
           "text": "翌朝、",
-          "start_ms": 2198,
-          "end_ms": 3583,
-          "duration_ms": 1385
+          "start_ms": 2256,
+          "end_ms": 3652,
+          "duration_ms": 1396
         },
         {
           "index": 1,
           "text": "おうじは父親の處にいて、",
-          "start_ms": 3833,
-          "end_ms": 6797,
-          "duration_ms": 2964
+          "start_ms": 3902,
+          "end_ms": 6877,
+          "duration_ms": 2975
         },
         {
           "index": 2,
           "text": "「この金のうわぐつに合う足の人以外は、",
-          "start_ms": 7047,
-          "end_ms": 10429,
-          "duration_ms": 3382
+          "start_ms": 7127,
+          "end_ms": 10543,
+          "duration_ms": 3416
         },
         {
           "index": 3,
           "text": "妻にはしません。」",
-          "start_ms": 10679,
-          "end_ms": 12528,
+          "start_ms": 10793,
+          "end_ms": 12642,
           "duration_ms": 1849
         }
       ]
@@ -60,302 +60,302 @@
     {
       "index": 2,
       "text": "と言いました。",
-      "start_ms": 13028,
-      "end_ms": 14587,
-      "duration_ms": 1559,
+      "start_ms": 13142,
+      "end_ms": 14689,
+      "duration_ms": 1547,
       "clauses": [
         {
           "index": 0,
           "text": "と言いました。",
-          "start_ms": 13028,
-          "end_ms": 14587,
-          "duration_ms": 1559
+          "start_ms": 13142,
+          "end_ms": 14689,
+          "duration_ms": 1547
         }
       ]
     },
     {
       "index": 3,
       "text": "二人のこいもうとは喜びました。",
-      "start_ms": 15087,
-      "end_ms": 18318,
-      "duration_ms": 3231,
+      "start_ms": 15189,
+      "end_ms": 18396,
+      "duration_ms": 3207,
       "clauses": [
         {
           "index": 0,
           "text": "二人のこいもうとは喜びました。",
-          "start_ms": 15087,
-          "end_ms": 18318,
-          "duration_ms": 3231
+          "start_ms": 15189,
+          "end_ms": 18396,
+          "duration_ms": 3207
         }
       ]
     },
     {
       "index": 4,
       "text": "可愛い足をしていたからです。",
-      "start_ms": 18818,
-      "end_ms": 21457,
-      "duration_ms": 2639,
+      "start_ms": 18896,
+      "end_ms": 21488,
+      "duration_ms": 2592,
       "clauses": [
         {
           "index": 0,
           "text": "可愛い足をしていたからです。",
-          "start_ms": 18818,
-          "end_ms": 21457,
-          "duration_ms": 2639
+          "start_ms": 18896,
+          "end_ms": 21488,
+          "duration_ms": 2592
         }
       ]
     },
     {
       "index": 5,
       "text": "上の娘が靴を持って部屋に入り、履いてみようとしました。",
-      "start_ms": 21957,
-      "end_ms": 27553,
-      "duration_ms": 5596,
+      "start_ms": 21988,
+      "end_ms": 27666,
+      "duration_ms": 5678,
       "clauses": [
         {
           "index": 0,
           "text": "上の娘が靴を持って部屋に入り、",
-          "start_ms": 21957,
-          "end_ms": 25013,
-          "duration_ms": 3056
+          "start_ms": 21988,
+          "end_ms": 25137,
+          "duration_ms": 3149
         },
         {
           "index": 1,
           "text": "履いてみようとしました。",
-          "start_ms": 25263,
-          "end_ms": 27553,
-          "duration_ms": 2290
+          "start_ms": 25387,
+          "end_ms": 27666,
+          "duration_ms": 2279
         }
       ]
     },
     {
       "index": 6,
       "text": "でも、親指を入れることができませんでした。",
-      "start_ms": 28053,
-      "end_ms": 32477,
-      "duration_ms": 4424,
+      "start_ms": 28166,
+      "end_ms": 32555,
+      "duration_ms": 4389,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 28053,
-          "end_ms": 28962,
-          "duration_ms": 909
+          "start_ms": 28166,
+          "end_ms": 29063,
+          "duration_ms": 897
         },
         {
           "index": 1,
           "text": "親指を入れることができませんでした。",
-          "start_ms": 29212,
-          "end_ms": 32477,
-          "duration_ms": 3265
+          "start_ms": 29313,
+          "end_ms": 32555,
+          "duration_ms": 3242
         }
       ]
     },
     {
       "index": 7,
       "text": "靴が小さすぎたからです。",
-      "start_ms": 32977,
-      "end_ms": 35523,
-      "duration_ms": 2546,
+      "start_ms": 33055,
+      "end_ms": 35543,
+      "duration_ms": 2488,
       "clauses": [
         {
           "index": 0,
           "text": "靴が小さすぎたからです。",
-          "start_ms": 32977,
-          "end_ms": 35523,
-          "duration_ms": 2546
+          "start_ms": 33055,
+          "end_ms": 35543,
+          "duration_ms": 2488
         }
       ]
     },
     {
       "index": 8,
       "text": "母親は小刀を渡して、「親指を切りなさい。",
-      "start_ms": 36023,
-      "end_ms": 41178,
-      "duration_ms": 5155,
+      "start_ms": 36043,
+      "end_ms": 41257,
+      "duration_ms": 5214,
       "clauses": [
         {
           "index": 0,
           "text": "母親は小刀を渡して、",
-          "start_ms": 36023,
-          "end_ms": 38731,
-          "duration_ms": 2708
+          "start_ms": 36043,
+          "end_ms": 38786,
+          "duration_ms": 2743
         },
         {
           "index": 1,
           "text": "「親指を切りなさい。",
-          "start_ms": 38981,
-          "end_ms": 41178,
-          "duration_ms": 2197
+          "start_ms": 39036,
+          "end_ms": 41257,
+          "duration_ms": 2221
         }
       ]
     },
     {
       "index": 9,
       "text": "お后になったら、もう歩かなくてもいいんだから。」",
-      "start_ms": 41678,
-      "end_ms": 46508,
+      "start_ms": 41757,
+      "end_ms": 46587,
       "duration_ms": 4830,
       "clauses": [
         {
           "index": 0,
           "text": "お后になったら、",
-          "start_ms": 41678,
-          "end_ms": 43643,
-          "duration_ms": 1965
+          "start_ms": 41757,
+          "end_ms": 43745,
+          "duration_ms": 1988
         },
         {
           "index": 1,
           "text": "もう歩かなくてもいいんだから。」",
-          "start_ms": 43893,
-          "end_ms": 46508,
-          "duration_ms": 2615
+          "start_ms": 43995,
+          "end_ms": 46587,
+          "duration_ms": 2592
         }
       ]
     },
     {
       "index": 10,
       "text": "と言いました。",
-      "start_ms": 47008,
-      "end_ms": 48555,
-      "duration_ms": 1547,
+      "start_ms": 47087,
+      "end_ms": 48623,
+      "duration_ms": 1536,
       "clauses": [
         {
           "index": 0,
           "text": "と言いました。",
-          "start_ms": 47008,
-          "end_ms": 48555,
-          "duration_ms": 1547
+          "start_ms": 47087,
+          "end_ms": 48623,
+          "duration_ms": 1536
         }
       ]
     },
     {
       "index": 11,
       "text": "娘は親指を切り落として、足を無理に靴に入れました。",
-      "start_ms": 49055,
-      "end_ms": 55070,
-      "duration_ms": 6015,
+      "start_ms": 49123,
+      "end_ms": 55091,
+      "duration_ms": 5968,
       "clauses": [
         {
           "index": 0,
           "text": "娘は親指を切り落として、",
-          "start_ms": 49055,
-          "end_ms": 52158,
+          "start_ms": 49123,
+          "end_ms": 52226,
           "duration_ms": 3103
         },
         {
           "index": 1,
           "text": "足を無理に靴に入れました。",
-          "start_ms": 52408,
-          "end_ms": 55070,
-          "duration_ms": 2662
+          "start_ms": 52476,
+          "end_ms": 55091,
+          "duration_ms": 2615
         }
       ]
     },
     {
       "index": 12,
       "text": "痛いのをこらえて、おうじの處にいて見せました。",
-      "start_ms": 55570,
-      "end_ms": 60412,
-      "duration_ms": 4842,
+      "start_ms": 55591,
+      "end_ms": 60422,
+      "duration_ms": 4831,
       "clauses": [
         {
           "index": 0,
           "text": "痛いのをこらえて、",
-          "start_ms": 55570,
-          "end_ms": 57454,
+          "start_ms": 55591,
+          "end_ms": 57475,
           "duration_ms": 1884
         },
         {
           "index": 1,
           "text": "おうじの處にいて見せました。",
-          "start_ms": 57704,
-          "end_ms": 60412,
-          "duration_ms": 2708
+          "start_ms": 57725,
+          "end_ms": 60422,
+          "duration_ms": 2697
         }
       ]
     },
     {
       "index": 13,
       "text": "おうじは娘をはなよめにして、馬に乗せて一緒に走りました。",
-      "start_ms": 60912,
-      "end_ms": 67403,
-      "duration_ms": 6491,
+      "start_ms": 60922,
+      "end_ms": 67273,
+      "duration_ms": 6351,
       "clauses": [
         {
           "index": 0,
           "text": "おうじは娘をはなよめにして、",
-          "start_ms": 60912,
-          "end_ms": 63818,
-          "duration_ms": 2906
+          "start_ms": 60922,
+          "end_ms": 63746,
+          "duration_ms": 2824
         },
         {
           "index": 1,
           "text": "馬に乗せて一緒に走りました。",
-          "start_ms": 64068,
-          "end_ms": 67403,
-          "duration_ms": 3335
+          "start_ms": 63996,
+          "end_ms": 67273,
+          "duration_ms": 3277
         }
       ]
     },
     {
       "index": 14,
       "text": "でも、墓の處を通ると、はしばみの木の上に二羽のはとが止まって叫びました。",
-      "start_ms": 67903,
-      "end_ms": 75970,
-      "duration_ms": 8067,
+      "start_ms": 67773,
+      "end_ms": 75933,
+      "duration_ms": 8160,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 67903,
-          "end_ms": 68800,
-          "duration_ms": 897
+          "start_ms": 67773,
+          "end_ms": 68635,
+          "duration_ms": 862
         },
         {
           "index": 1,
           "text": "墓の處を通ると、",
-          "start_ms": 69050,
-          "end_ms": 71363,
-          "duration_ms": 2313
+          "start_ms": 68885,
+          "end_ms": 71175,
+          "duration_ms": 2290
         },
         {
           "index": 2,
           "text": "はしばみの木の上に二羽のはとが止まって叫びました。",
-          "start_ms": 71613,
-          "end_ms": 75970,
-          "duration_ms": 4357
+          "start_ms": 71425,
+          "end_ms": 75933,
+          "duration_ms": 4508
         }
       ]
     },
     {
       "index": 15,
       "text": "「振り向いて覗いてごらん。",
-      "start_ms": 76470,
-      "end_ms": 78749,
-      "duration_ms": 2279,
+      "start_ms": 76433,
+      "end_ms": 78781,
+      "duration_ms": 2348,
       "clauses": [
         {
           "index": 0,
           "text": "「振り向いて覗いてごらん。",
-          "start_ms": 76470,
-          "end_ms": 78749,
-          "duration_ms": 2279
+          "start_ms": 76433,
+          "end_ms": 78781,
+          "duration_ms": 2348
         }
       ]
     },
     {
       "index": 16,
       "text": "靴の中に血があるよ。",
-      "start_ms": 79249,
-      "end_ms": 81446,
+      "start_ms": 79281,
+      "end_ms": 81478,
       "duration_ms": 2197,
       "clauses": [
         {
           "index": 0,
           "text": "靴の中に血があるよ。",
-          "start_ms": 79249,
-          "end_ms": 81446,
+          "start_ms": 79281,
+          "end_ms": 81478,
           "duration_ms": 2197
         }
       ]
@@ -363,93 +363,93 @@
     {
       "index": 17,
       "text": "その娘には靴が小さすぎる。",
-      "start_ms": 81946,
-      "end_ms": 85037,
-      "duration_ms": 3091,
+      "start_ms": 81978,
+      "end_ms": 85139,
+      "duration_ms": 3161,
       "clauses": [
         {
           "index": 0,
           "text": "その娘には靴が小さすぎる。",
-          "start_ms": 81946,
-          "end_ms": 85037,
-          "duration_ms": 3091
+          "start_ms": 81978,
+          "end_ms": 85139,
+          "duration_ms": 3161
         }
       ]
     },
     {
       "index": 18,
       "text": "本当のはなよめはあなたを待っているよ。」",
-      "start_ms": 85537,
-      "end_ms": 89093,
-      "duration_ms": 3556,
+      "start_ms": 85639,
+      "end_ms": 89218,
+      "duration_ms": 3579,
       "clauses": [
         {
           "index": 0,
           "text": "本当のはなよめはあなたを待っているよ。」",
-          "start_ms": 85537,
-          "end_ms": 89093,
-          "duration_ms": 3556
+          "start_ms": 85639,
+          "end_ms": 89218,
+          "duration_ms": 3579
         }
       ]
     },
     {
       "index": 19,
       "text": "おうじは娘の足を見ると、血が滴り落ちているのが分かりました。",
-      "start_ms": 89593,
-      "end_ms": 95747,
-      "duration_ms": 6154,
+      "start_ms": 89718,
+      "end_ms": 95848,
+      "duration_ms": 6130,
       "clauses": [
         {
           "index": 0,
           "text": "おうじは娘の足を見ると、",
-          "start_ms": 89593,
-          "end_ms": 92278,
-          "duration_ms": 2685
+          "start_ms": 89718,
+          "end_ms": 92449,
+          "duration_ms": 2731
         },
         {
           "index": 1,
           "text": "血が滴り落ちているのが分かりました。",
-          "start_ms": 92528,
-          "end_ms": 95747,
-          "duration_ms": 3219
+          "start_ms": 92699,
+          "end_ms": 95848,
+          "duration_ms": 3149
         }
       ]
     },
     {
       "index": 20,
       "text": "おうじは馬を回して、いつわのはなよめを家に連れ戻しました。",
-      "start_ms": 96247,
-      "end_ms": 102482,
-      "duration_ms": 6235,
+      "start_ms": 96348,
+      "end_ms": 102607,
+      "duration_ms": 6259,
       "clauses": [
         {
           "index": 0,
           "text": "おうじは馬を回して、",
-          "start_ms": 96247,
-          "end_ms": 98700,
+          "start_ms": 96348,
+          "end_ms": 98801,
           "duration_ms": 2453
         },
         {
           "index": 1,
           "text": "いつわのはなよめを家に連れ戻しました。",
-          "start_ms": 98950,
-          "end_ms": 102482,
-          "duration_ms": 3532
+          "start_ms": 99051,
+          "end_ms": 102607,
+          "duration_ms": 3556
         }
       ]
     },
     {
       "index": 21,
       "text": "「この人は当人じゃありません。",
-      "start_ms": 102982,
-      "end_ms": 105830,
+      "start_ms": 103107,
+      "end_ms": 105955,
       "duration_ms": 2848,
       "clauses": [
         {
           "index": 0,
           "text": "「この人は当人じゃありません。",
-          "start_ms": 102982,
-          "end_ms": 105830,
+          "start_ms": 103107,
+          "end_ms": 105955,
           "duration_ms": 2848
         }
       ]
@@ -457,77 +457,77 @@
     {
       "index": 22,
       "text": "もう一人の妹に靴を履かせてください。」",
-      "start_ms": 106330,
-      "end_ms": 109909,
-      "duration_ms": 3579,
+      "start_ms": 106455,
+      "end_ms": 110057,
+      "duration_ms": 3602,
       "clauses": [
         {
           "index": 0,
           "text": "もう一人の妹に靴を履かせてください。」",
-          "start_ms": 106330,
-          "end_ms": 109909,
-          "duration_ms": 3579
+          "start_ms": 106455,
+          "end_ms": 110057,
+          "duration_ms": 3602
         }
       ]
     },
     {
       "index": 23,
       "text": "と言いました。",
-      "start_ms": 110409,
-      "end_ms": 111968,
-      "duration_ms": 1559,
+      "start_ms": 110557,
+      "end_ms": 112081,
+      "duration_ms": 1524,
       "clauses": [
         {
           "index": 0,
           "text": "と言いました。",
-          "start_ms": 110409,
-          "end_ms": 111968,
-          "duration_ms": 1559
+          "start_ms": 110557,
+          "end_ms": 112081,
+          "duration_ms": 1524
         }
       ]
     },
     {
       "index": 24,
       "text": "妹が部屋に入り、靴に無事に親指を入れました。",
-      "start_ms": 112468,
-      "end_ms": 117681,
-      "duration_ms": 5213,
+      "start_ms": 112581,
+      "end_ms": 117760,
+      "duration_ms": 5179,
       "clauses": [
         {
           "index": 0,
           "text": "妹が部屋に入り、",
-          "start_ms": 112468,
-          "end_ms": 114514,
-          "duration_ms": 2046
+          "start_ms": 112581,
+          "end_ms": 114581,
+          "duration_ms": 2000
         },
         {
           "index": 1,
           "text": "靴に無事に親指を入れました。",
-          "start_ms": 114764,
-          "end_ms": 117681,
-          "duration_ms": 2917
+          "start_ms": 114831,
+          "end_ms": 117760,
+          "duration_ms": 2929
         }
       ]
     },
     {
       "index": 25,
       "text": "でも、かかとが大きすぎました。",
-      "start_ms": 118181,
-      "end_ms": 121653,
-      "duration_ms": 3472,
+      "start_ms": 118260,
+      "end_ms": 121720,
+      "duration_ms": 3460,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 118181,
-          "end_ms": 119078,
-          "duration_ms": 897
+          "start_ms": 118260,
+          "end_ms": 119145,
+          "duration_ms": 885
         },
         {
           "index": 1,
           "text": "かかとが大きすぎました。",
-          "start_ms": 119328,
-          "end_ms": 121653,
+          "start_ms": 119395,
+          "end_ms": 121720,
           "duration_ms": 2325
         }
       ]
@@ -535,61 +535,61 @@
     {
       "index": 26,
       "text": "母親は小刀を渡して、「かかとを少し切りなさい。",
-      "start_ms": 122153,
-      "end_ms": 127622,
-      "duration_ms": 5469,
+      "start_ms": 122220,
+      "end_ms": 127665,
+      "duration_ms": 5445,
       "clauses": [
         {
           "index": 0,
           "text": "母親は小刀を渡して、",
-          "start_ms": 122153,
-          "end_ms": 124931,
-          "duration_ms": 2778
+          "start_ms": 122220,
+          "end_ms": 124951,
+          "duration_ms": 2731
         },
         {
           "index": 1,
           "text": "「かかとを少し切りなさい。",
-          "start_ms": 125181,
-          "end_ms": 127622,
-          "duration_ms": 2441
+          "start_ms": 125201,
+          "end_ms": 127665,
+          "duration_ms": 2464
         }
       ]
     },
     {
       "index": 27,
       "text": "お后になったら、もう歩かなくてもいいんだだから。」",
-      "start_ms": 128122,
-      "end_ms": 133092,
-      "duration_ms": 4970,
+      "start_ms": 128165,
+      "end_ms": 133170,
+      "duration_ms": 5005,
       "clauses": [
         {
           "index": 0,
           "text": "お后になったら、",
-          "start_ms": 128122,
-          "end_ms": 130122,
+          "start_ms": 128165,
+          "end_ms": 130165,
           "duration_ms": 2000
         },
         {
           "index": 1,
           "text": "もう歩かなくてもいいんだだから。」",
-          "start_ms": 130372,
-          "end_ms": 133092,
-          "duration_ms": 2720
+          "start_ms": 130415,
+          "end_ms": 133170,
+          "duration_ms": 2755
         }
       ]
     },
     {
       "index": 28,
       "text": "と言いました。",
-      "start_ms": 133592,
-      "end_ms": 135128,
+      "start_ms": 133670,
+      "end_ms": 135206,
       "duration_ms": 1536,
       "clauses": [
         {
           "index": 0,
           "text": "と言いました。",
-          "start_ms": 133592,
-          "end_ms": 135128,
+          "start_ms": 133670,
+          "end_ms": 135206,
           "duration_ms": 1536
         }
       ]
@@ -597,162 +597,162 @@
     {
       "index": 29,
       "text": "娘はかかとを少し切り落として、足を無理に靴に入れました。",
-      "start_ms": 135628,
-      "end_ms": 141677,
+      "start_ms": 135706,
+      "end_ms": 141755,
       "duration_ms": 6049,
       "clauses": [
         {
           "index": 0,
           "text": "娘はかかとを少し切り落として、",
-          "start_ms": 135628,
-          "end_ms": 138893,
-          "duration_ms": 3265
+          "start_ms": 135706,
+          "end_ms": 139006,
+          "duration_ms": 3300
         },
         {
           "index": 1,
           "text": "足を無理に靴に入れました。",
-          "start_ms": 139143,
-          "end_ms": 141677,
-          "duration_ms": 2534
+          "start_ms": 139256,
+          "end_ms": 141755,
+          "duration_ms": 2499
         }
       ]
     },
     {
       "index": 30,
       "text": "痛いのをこらえて、おうじの處にいて見せました。",
-      "start_ms": 142177,
-      "end_ms": 147019,
+      "start_ms": 142255,
+      "end_ms": 147097,
       "duration_ms": 4842,
       "clauses": [
         {
           "index": 0,
           "text": "痛いのをこらえて、",
-          "start_ms": 142177,
-          "end_ms": 143991,
-          "duration_ms": 1814
+          "start_ms": 142255,
+          "end_ms": 144150,
+          "duration_ms": 1895
         },
         {
           "index": 1,
           "text": "おうじの處にいて見せました。",
-          "start_ms": 144241,
-          "end_ms": 147019,
-          "duration_ms": 2778
+          "start_ms": 144400,
+          "end_ms": 147097,
+          "duration_ms": 2697
         }
       ]
     },
     {
       "index": 31,
       "text": "おうじは娘をはなよめにして、馬に乗せて一緒に走りました。",
-      "start_ms": 147519,
-      "end_ms": 153940,
-      "duration_ms": 6421,
+      "start_ms": 147597,
+      "end_ms": 154029,
+      "duration_ms": 6432,
       "clauses": [
         {
           "index": 0,
           "text": "おうじは娘をはなよめにして、",
-          "start_ms": 147519,
-          "end_ms": 150436,
-          "duration_ms": 2917
+          "start_ms": 147597,
+          "end_ms": 150479,
+          "duration_ms": 2882
         },
         {
           "index": 1,
           "text": "馬に乗せて一緒に走りました。",
-          "start_ms": 150686,
-          "end_ms": 153940,
-          "duration_ms": 3254
+          "start_ms": 150729,
+          "end_ms": 154029,
+          "duration_ms": 3300
         }
       ]
     },
     {
       "index": 32,
       "text": "でも、はしばみの木のそばを通ると、木の上に二羽のはとが止まって叫びました。",
-      "start_ms": 154440,
-      "end_ms": 162577,
-      "duration_ms": 8137,
+      "start_ms": 154529,
+      "end_ms": 162538,
+      "duration_ms": 8009,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 154440,
-          "end_ms": 155337,
+          "start_ms": 154529,
+          "end_ms": 155426,
           "duration_ms": 897
         },
         {
           "index": 1,
           "text": "はしばみの木のそばを通ると、",
-          "start_ms": 155587,
-          "end_ms": 158481,
-          "duration_ms": 2894
+          "start_ms": 155676,
+          "end_ms": 158547,
+          "duration_ms": 2871
         },
         {
           "index": 2,
           "text": "木の上に二羽のはとが止まって叫びました。",
-          "start_ms": 158731,
-          "end_ms": 162577,
-          "duration_ms": 3846
+          "start_ms": 158797,
+          "end_ms": 162538,
+          "duration_ms": 3741
         }
       ]
     },
     {
       "index": 33,
       "text": "「振り向いて覗いてごらん。",
-      "start_ms": 163077,
-      "end_ms": 165425,
-      "duration_ms": 2348,
+      "start_ms": 163038,
+      "end_ms": 165305,
+      "duration_ms": 2267,
       "clauses": [
         {
           "index": 0,
           "text": "「振り向いて覗いてごらん。",
-          "start_ms": 163077,
-          "end_ms": 165425,
-          "duration_ms": 2348
+          "start_ms": 163038,
+          "end_ms": 165305,
+          "duration_ms": 2267
         }
       ]
     },
     {
       "index": 34,
       "text": "靴の中に血があるよ。",
-      "start_ms": 165925,
-      "end_ms": 168146,
-      "duration_ms": 2221,
+      "start_ms": 165805,
+      "end_ms": 167956,
+      "duration_ms": 2151,
       "clauses": [
         {
           "index": 0,
           "text": "靴の中に血があるよ。",
-          "start_ms": 165925,
-          "end_ms": 168146,
-          "duration_ms": 2221
+          "start_ms": 165805,
+          "end_ms": 167956,
+          "duration_ms": 2151
         }
       ]
     },
     {
       "index": 35,
       "text": "その娘には靴が小さすぎる。",
-      "start_ms": 168646,
-      "end_ms": 171668,
-      "duration_ms": 3022,
+      "start_ms": 168456,
+      "end_ms": 171524,
+      "duration_ms": 3068,
       "clauses": [
         {
           "index": 0,
           "text": "その娘には靴が小さすぎる。",
-          "start_ms": 168646,
-          "end_ms": 171668,
-          "duration_ms": 3022
+          "start_ms": 168456,
+          "end_ms": 171524,
+          "duration_ms": 3068
         }
       ]
     },
     {
       "index": 36,
       "text": "本当のはなよめはあなたを待っているよ。」",
-      "start_ms": 172168,
-      "end_ms": 175724,
+      "start_ms": 172024,
+      "end_ms": 175580,
       "duration_ms": 3556,
       "clauses": [
         {
           "index": 0,
           "text": "本当のはなよめはあなたを待っているよ。」",
-          "start_ms": 172168,
-          "end_ms": 175724,
+          "start_ms": 172024,
+          "end_ms": 175580,
           "duration_ms": 3556
         }
       ]
@@ -760,493 +760,493 @@
     {
       "index": 37,
       "text": "おうじが娘の足を見下ろすと、血が靴から流れていて、白い靴下が真っ赤に染まっているのが分かりました。",
-      "start_ms": 176224,
-      "end_ms": 186358,
-      "duration_ms": 10134,
+      "start_ms": 176080,
+      "end_ms": 186143,
+      "duration_ms": 10063,
       "clauses": [
         {
           "index": 0,
           "text": "おうじが娘の足を見下ろすと、",
-          "start_ms": 176224,
-          "end_ms": 179106,
+          "start_ms": 176080,
+          "end_ms": 178962,
           "duration_ms": 2882
         },
         {
           "index": 1,
           "text": "血が靴から流れていて、",
-          "start_ms": 179356,
-          "end_ms": 181600,
-          "duration_ms": 2244
+          "start_ms": 179212,
+          "end_ms": 181525,
+          "duration_ms": 2313
         },
         {
           "index": 2,
           "text": "白い靴下が真っ赤に染まっているのが分かりました。",
-          "start_ms": 181850,
-          "end_ms": 186358,
-          "duration_ms": 4508
+          "start_ms": 181775,
+          "end_ms": 186143,
+          "duration_ms": 4368
         }
       ]
     },
     {
       "index": 38,
       "text": "おうじは馬を回して、いつわのはなよめを家に連れ戻しました。",
-      "start_ms": 186858,
-      "end_ms": 193152,
-      "duration_ms": 6294,
+      "start_ms": 186643,
+      "end_ms": 192797,
+      "duration_ms": 6154,
       "clauses": [
         {
           "index": 0,
           "text": "おうじは馬を回して、",
-          "start_ms": 186858,
-          "end_ms": 189346,
-          "duration_ms": 2488
+          "start_ms": 186643,
+          "end_ms": 189084,
+          "duration_ms": 2441
         },
         {
           "index": 1,
           "text": "いつわのはなよめを家に連れ戻しました。",
-          "start_ms": 189596,
-          "end_ms": 193152,
-          "duration_ms": 3556
+          "start_ms": 189334,
+          "end_ms": 192797,
+          "duration_ms": 3463
         }
       ]
     },
     {
       "index": 39,
       "text": "「この人も当人じゃありません。",
-      "start_ms": 193652,
-      "end_ms": 196430,
-      "duration_ms": 2778,
+      "start_ms": 193297,
+      "end_ms": 196040,
+      "duration_ms": 2743,
       "clauses": [
         {
           "index": 0,
           "text": "「この人も当人じゃありません。",
-          "start_ms": 193652,
-          "end_ms": 196430,
-          "duration_ms": 2778
+          "start_ms": 193297,
+          "end_ms": 196040,
+          "duration_ms": 2743
         }
       ]
     },
     {
       "index": 40,
       "text": "もう他に娘はいないのですか？」",
-      "start_ms": 196930,
-      "end_ms": 199778,
-      "duration_ms": 2848,
+      "start_ms": 196540,
+      "end_ms": 199399,
+      "duration_ms": 2859,
       "clauses": [
         {
           "index": 0,
           "text": "もう他に娘はいないのですか？」",
-          "start_ms": 196930,
-          "end_ms": 199778,
-          "duration_ms": 2848
+          "start_ms": 196540,
+          "end_ms": 199399,
+          "duration_ms": 2859
         }
       ]
     },
     {
       "index": 41,
       "text": "と言いました。",
-      "start_ms": 200278,
-      "end_ms": 201825,
-      "duration_ms": 1547,
+      "start_ms": 199899,
+      "end_ms": 201435,
+      "duration_ms": 1536,
       "clauses": [
         {
           "index": 0,
           "text": "と言いました。",
-          "start_ms": 200278,
-          "end_ms": 201825,
-          "duration_ms": 1547
+          "start_ms": 199899,
+          "end_ms": 201435,
+          "duration_ms": 1536
         }
       ]
     },
     {
       "index": 42,
       "text": "「はい、いません。",
-      "start_ms": 202325,
-      "end_ms": 204810,
-      "duration_ms": 2485,
+      "start_ms": 201935,
+      "end_ms": 204443,
+      "duration_ms": 2508,
       "clauses": [
         {
           "index": 0,
           "text": "「はい、",
-          "start_ms": 202325,
-          "end_ms": 202885,
-          "duration_ms": 560
+          "start_ms": 201935,
+          "end_ms": 202530,
+          "duration_ms": 595
         },
         {
           "index": 1,
           "text": "いません。",
-          "start_ms": 203135,
-          "end_ms": 204810,
-          "duration_ms": 1675
+          "start_ms": 202780,
+          "end_ms": 204443,
+          "duration_ms": 1663
         }
       ]
     },
     {
       "index": 43,
       "text": "まだ亡くなった妻が残していった、少し風変わりな台所女中はいますが、はなよめとはとんでもございません。」",
-      "start_ms": 205310,
-      "end_ms": 215711,
+      "start_ms": 204943,
+      "end_ms": 215344,
       "duration_ms": 10401,
       "clauses": [
         {
           "index": 0,
           "text": "まだ亡くなった妻が残していった、",
-          "start_ms": 205310,
-          "end_ms": 208297,
-          "duration_ms": 2987
+          "start_ms": 204943,
+          "end_ms": 207953,
+          "duration_ms": 3010
         },
         {
           "index": 1,
           "text": "少し風変わりな台所女中はいますが、",
-          "start_ms": 208547,
-          "end_ms": 212312,
+          "start_ms": 208203,
+          "end_ms": 211968,
           "duration_ms": 3765
         },
         {
           "index": 2,
           "text": "はなよめとはとんでもございません。」",
-          "start_ms": 212562,
-          "end_ms": 215711,
-          "duration_ms": 3149
+          "start_ms": 212218,
+          "end_ms": 215344,
+          "duration_ms": 3126
         }
       ]
     },
     {
       "index": 44,
       "text": "父親はそう言いました。",
-      "start_ms": 216211,
-      "end_ms": 218757,
-      "duration_ms": 2546,
+      "start_ms": 215844,
+      "end_ms": 218413,
+      "duration_ms": 2569,
       "clauses": [
         {
           "index": 0,
           "text": "父親はそう言いました。",
-          "start_ms": 216211,
-          "end_ms": 218757,
-          "duration_ms": 2546
+          "start_ms": 215844,
+          "end_ms": 218413,
+          "duration_ms": 2569
         }
       ]
     },
     {
       "index": 45,
       "text": "おうじは、その娘を連れてくるように言いました。",
-      "start_ms": 219257,
-      "end_ms": 223902,
-      "duration_ms": 4645,
+      "start_ms": 218913,
+      "end_ms": 223419,
+      "duration_ms": 4506,
       "clauses": [
         {
           "index": 0,
           "text": "おうじは、",
-          "start_ms": 219257,
-          "end_ms": 220398,
-          "duration_ms": 1141
+          "start_ms": 218913,
+          "end_ms": 220031,
+          "duration_ms": 1118
         },
         {
           "index": 1,
           "text": "その娘を連れてくるように言いました。",
-          "start_ms": 220648,
-          "end_ms": 223902,
-          "duration_ms": 3254
+          "start_ms": 220281,
+          "end_ms": 223419,
+          "duration_ms": 3138
         }
       ]
     },
     {
       "index": 46,
       "text": "母親は「とんでもございません。",
-      "start_ms": 224402,
-      "end_ms": 227203,
-      "duration_ms": 2801,
+      "start_ms": 223919,
+      "end_ms": 226743,
+      "duration_ms": 2824,
       "clauses": [
         {
           "index": 0,
           "text": "母親は「とんでもございません。",
-          "start_ms": 224402,
-          "end_ms": 227203,
-          "duration_ms": 2801
+          "start_ms": 223919,
+          "end_ms": 226743,
+          "duration_ms": 2824
         }
       ]
     },
     {
       "index": 47,
       "text": "あまりにも汚くて、お目にかかりませんよ。」",
-      "start_ms": 227703,
-      "end_ms": 232220,
-      "duration_ms": 4517,
+      "start_ms": 227243,
+      "end_ms": 231783,
+      "duration_ms": 4540,
       "clauses": [
         {
           "index": 0,
           "text": "あまりにも汚くて、",
-          "start_ms": 227703,
-          "end_ms": 229842,
+          "start_ms": 227243,
+          "end_ms": 229382,
           "duration_ms": 2139
         },
         {
           "index": 1,
           "text": "お目にかかりませんよ。」",
-          "start_ms": 230092,
-          "end_ms": 232220,
-          "duration_ms": 2128
+          "start_ms": 229632,
+          "end_ms": 231783,
+          "duration_ms": 2151
         }
       ]
     },
     {
       "index": 48,
       "text": "と答えました。",
-      "start_ms": 232720,
-      "end_ms": 234476,
-      "duration_ms": 1756,
+      "start_ms": 232283,
+      "end_ms": 233993,
+      "duration_ms": 1710,
       "clauses": [
         {
           "index": 0,
           "text": "と答えました。",
-          "start_ms": 232720,
-          "end_ms": 234476,
-          "duration_ms": 1756
+          "start_ms": 232283,
+          "end_ms": 233993,
+          "duration_ms": 1710
         }
       ]
     },
     {
       "index": 49,
       "text": "でも、おうじあくまで言い張ったので、シンデレラを呼ばなければなりませんでした。",
-      "start_ms": 234976,
-      "end_ms": 242231,
-      "duration_ms": 7255,
+      "start_ms": 234493,
+      "end_ms": 241770,
+      "duration_ms": 7277,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 234976,
-          "end_ms": 235885,
-          "duration_ms": 909
+          "start_ms": 234493,
+          "end_ms": 235378,
+          "duration_ms": 885
         },
         {
           "index": 1,
           "text": "おうじあくまで言い張ったので、",
-          "start_ms": 236135,
-          "end_ms": 238530,
-          "duration_ms": 2395
+          "start_ms": 235628,
+          "end_ms": 238104,
+          "duration_ms": 2476
         },
         {
           "index": 2,
           "text": "シンデレラを呼ばなければなりませんでした。",
-          "start_ms": 238780,
-          "end_ms": 242231,
-          "duration_ms": 3451
+          "start_ms": 238354,
+          "end_ms": 241770,
+          "duration_ms": 3416
         }
       ]
     },
     {
       "index": 50,
       "text": "娘はまず両手と顔を洗ってきれいにし、おうじの前に行ってお辞儀をしました。",
-      "start_ms": 242731,
-      "end_ms": 249988,
-      "duration_ms": 7257,
+      "start_ms": 242270,
+      "end_ms": 249457,
+      "duration_ms": 7187,
       "clauses": [
         {
           "index": 0,
           "text": "娘はまず両手と顔を洗ってきれいにし、",
-          "start_ms": 242731,
-          "end_ms": 246670,
-          "duration_ms": 3939
+          "start_ms": 242270,
+          "end_ms": 246162,
+          "duration_ms": 3892
         },
         {
           "index": 1,
           "text": "おうじの前に行ってお辞儀をしました。",
-          "start_ms": 246920,
-          "end_ms": 249988,
-          "duration_ms": 3068
+          "start_ms": 246412,
+          "end_ms": 249457,
+          "duration_ms": 3045
         }
       ]
     },
     {
       "index": 51,
       "text": "おうじは娘に金の靴を渡しました。",
-      "start_ms": 250488,
-      "end_ms": 254055,
-      "duration_ms": 3567,
+      "start_ms": 249957,
+      "end_ms": 253455,
+      "duration_ms": 3498,
       "clauses": [
         {
           "index": 0,
           "text": "おうじは娘に金の靴を渡しました。",
-          "start_ms": 250488,
-          "end_ms": 254055,
-          "duration_ms": 3567
+          "start_ms": 249957,
+          "end_ms": 253455,
+          "duration_ms": 3498
         }
       ]
     },
     {
       "index": 52,
       "text": "娘は足載せ台に座って、重い木の靴から足を出して、うわぐつを履きました。",
-      "start_ms": 254555,
-      "end_ms": 263086,
-      "duration_ms": 8531,
+      "start_ms": 253955,
+      "end_ms": 262451,
+      "duration_ms": 8496,
       "clauses": [
         {
           "index": 0,
           "text": "娘は足載せ台に座って、",
-          "start_ms": 254555,
-          "end_ms": 257553,
+          "start_ms": 253955,
+          "end_ms": 256953,
           "duration_ms": 2998
         },
         {
           "index": 1,
           "text": "重い木の靴から足を出して、",
-          "start_ms": 257803,
-          "end_ms": 260697,
-          "duration_ms": 2894
+          "start_ms": 257203,
+          "end_ms": 260027,
+          "duration_ms": 2824
         },
         {
           "index": 2,
           "text": "うわぐつを履きました。",
-          "start_ms": 260947,
-          "end_ms": 263086,
-          "duration_ms": 2139
+          "start_ms": 260277,
+          "end_ms": 262451,
+          "duration_ms": 2174
         }
       ]
     },
     {
       "index": 53,
       "text": "ぴったり合いました。",
-      "start_ms": 263586,
-      "end_ms": 265505,
-      "duration_ms": 1919,
+      "start_ms": 262951,
+      "end_ms": 264846,
+      "duration_ms": 1895,
       "clauses": [
         {
           "index": 0,
           "text": "ぴったり合いました。",
-          "start_ms": 263586,
-          "end_ms": 265505,
-          "duration_ms": 1919
+          "start_ms": 262951,
+          "end_ms": 264846,
+          "duration_ms": 1895
         }
       ]
     },
     {
       "index": 54,
       "text": "娘が立ち上がると、おうじはその顔を見て、自分が踊ったうつくしい娘だと分かりました。",
-      "start_ms": 266005,
-      "end_ms": 274989,
-      "duration_ms": 8984,
+      "start_ms": 265346,
+      "end_ms": 274318,
+      "duration_ms": 8972,
       "clauses": [
         {
           "index": 0,
           "text": "娘が立ち上がると、",
-          "start_ms": 266005,
-          "end_ms": 268133,
-          "duration_ms": 2128
+          "start_ms": 265346,
+          "end_ms": 267543,
+          "duration_ms": 2197
         },
         {
           "index": 1,
           "text": "おうじはその顔を見て、",
-          "start_ms": 268383,
-          "end_ms": 270754,
-          "duration_ms": 2371
+          "start_ms": 267793,
+          "end_ms": 270141,
+          "duration_ms": 2348
         },
         {
           "index": 2,
           "text": "自分が踊ったうつくしい娘だと分かりました。",
-          "start_ms": 271004,
-          "end_ms": 274989,
-          "duration_ms": 3985
+          "start_ms": 270391,
+          "end_ms": 274318,
+          "duration_ms": 3927
         }
       ]
     },
     {
       "index": 55,
       "text": "「この人が本当のはなよめだ！」",
-      "start_ms": 275489,
-      "end_ms": 278186,
-      "duration_ms": 2697,
+      "start_ms": 274818,
+      "end_ms": 277584,
+      "duration_ms": 2766,
       "clauses": [
         {
           "index": 0,
           "text": "「この人が本当のはなよめだ！」",
-          "start_ms": 275489,
-          "end_ms": 278186,
-          "duration_ms": 2697
+          "start_ms": 274818,
+          "end_ms": 277584,
+          "duration_ms": 2766
         }
       ]
     },
     {
       "index": 56,
       "text": "と叫びました。",
-      "start_ms": 278686,
-      "end_ms": 280489,
-      "duration_ms": 1803,
+      "start_ms": 278084,
+      "end_ms": 279875,
+      "duration_ms": 1791,
       "clauses": [
         {
           "index": 0,
           "text": "と叫びました。",
-          "start_ms": 278686,
-          "end_ms": 280489,
-          "duration_ms": 1803
+          "start_ms": 278084,
+          "end_ms": 279875,
+          "duration_ms": 1791
         }
       ]
     },
     {
       "index": 57,
       "text": "ままははと二人の姉たちは恐ろしくなって、怒りで青ざめました。",
-      "start_ms": 280989,
-      "end_ms": 287294,
-      "duration_ms": 6305,
+      "start_ms": 280375,
+      "end_ms": 286726,
+      "duration_ms": 6351,
       "clauses": [
         {
           "index": 0,
           "text": "ままははと二人の姉たちは恐ろしくなって、",
-          "start_ms": 280989,
-          "end_ms": 284800,
-          "duration_ms": 3811
+          "start_ms": 280375,
+          "end_ms": 284244,
+          "duration_ms": 3869
         },
         {
           "index": 1,
           "text": "怒りで青ざめました。",
-          "start_ms": 285050,
-          "end_ms": 287294,
-          "duration_ms": 2244
+          "start_ms": 284494,
+          "end_ms": 286726,
+          "duration_ms": 2232
         }
       ]
     },
     {
       "index": 58,
       "text": "おうじはシンデレラを馬に乗せて、一緒に去りました。",
-      "start_ms": 287794,
-      "end_ms": 293043,
-      "duration_ms": 5249,
+      "start_ms": 287226,
+      "end_ms": 292428,
+      "duration_ms": 5202,
       "clauses": [
         {
           "index": 0,
           "text": "おうじはシンデレラを馬に乗せて、",
-          "start_ms": 287794,
-          "end_ms": 290781,
-          "duration_ms": 2987
+          "start_ms": 287226,
+          "end_ms": 290190,
+          "duration_ms": 2964
         },
         {
           "index": 1,
           "text": "一緒に去りました。",
-          "start_ms": 291031,
-          "end_ms": 293043,
-          "duration_ms": 2012
+          "start_ms": 290440,
+          "end_ms": 292428,
+          "duration_ms": 1988
         }
       ]
     },
     {
       "index": 59,
       "text": "はしばみの木のそばを通ると、二羽の白いはとが叫びました。",
-      "start_ms": 293543,
-      "end_ms": 299476,
+      "start_ms": 292928,
+      "end_ms": 298861,
       "duration_ms": 5933,
       "clauses": [
         {
           "index": 0,
           "text": "はしばみの木のそばを通ると、",
-          "start_ms": 293543,
-          "end_ms": 296344,
+          "start_ms": 292928,
+          "end_ms": 295729,
           "duration_ms": 2801
         },
         {
           "index": 1,
           "text": "二羽の白いはとが叫びました。",
-          "start_ms": 296594,
-          "end_ms": 299476,
+          "start_ms": 295979,
+          "end_ms": 298861,
           "duration_ms": 2882
         }
       ]
@@ -1254,178 +1254,178 @@
     {
       "index": 60,
       "text": "「振り向いて覗いてごらん。",
-      "start_ms": 299976,
-      "end_ms": 302301,
-      "duration_ms": 2325,
+      "start_ms": 299361,
+      "end_ms": 301616,
+      "duration_ms": 2255,
       "clauses": [
         {
           "index": 0,
           "text": "「振り向いて覗いてごらん。",
-          "start_ms": 299976,
-          "end_ms": 302301,
-          "duration_ms": 2325
+          "start_ms": 299361,
+          "end_ms": 301616,
+          "duration_ms": 2255
         }
       ]
     },
     {
       "index": 61,
       "text": "振り向いて覗いてごらん。",
-      "start_ms": 302801,
-      "end_ms": 305045,
-      "duration_ms": 2244,
+      "start_ms": 302116,
+      "end_ms": 304406,
+      "duration_ms": 2290,
       "clauses": [
         {
           "index": 0,
           "text": "振り向いて覗いてごらん。",
-          "start_ms": 302801,
-          "end_ms": 305045,
-          "duration_ms": 2244
+          "start_ms": 302116,
+          "end_ms": 304406,
+          "duration_ms": 2290
         }
       ]
     },
     {
       "index": 62,
       "text": "靴に血がついていないよ。",
-      "start_ms": 305545,
-      "end_ms": 307905,
-      "duration_ms": 2360,
+      "start_ms": 304906,
+      "end_ms": 307243,
+      "duration_ms": 2337,
       "clauses": [
         {
           "index": 0,
           "text": "靴に血がついていないよ。",
-          "start_ms": 305545,
-          "end_ms": 307905,
-          "duration_ms": 2360
+          "start_ms": 304906,
+          "end_ms": 307243,
+          "duration_ms": 2337
         }
       ]
     },
     {
       "index": 63,
       "text": "靴は小さすぎない。",
-      "start_ms": 308405,
-      "end_ms": 310637,
-      "duration_ms": 2232,
+      "start_ms": 307743,
+      "end_ms": 309871,
+      "duration_ms": 2128,
       "clauses": [
         {
           "index": 0,
           "text": "靴は小さすぎない。",
-          "start_ms": 308405,
-          "end_ms": 310637,
-          "duration_ms": 2232
+          "start_ms": 307743,
+          "end_ms": 309871,
+          "duration_ms": 2128
         }
       ]
     },
     {
       "index": 64,
       "text": "本当のはなよめがあなたと一緒だよ。」",
-      "start_ms": 311137,
-      "end_ms": 314588,
-      "duration_ms": 3451,
+      "start_ms": 310371,
+      "end_ms": 313776,
+      "duration_ms": 3405,
       "clauses": [
         {
           "index": 0,
           "text": "本当のはなよめがあなたと一緒だよ。」",
-          "start_ms": 311137,
-          "end_ms": 314588,
-          "duration_ms": 3451
+          "start_ms": 310371,
+          "end_ms": 313776,
+          "duration_ms": 3405
         }
       ]
     },
     {
       "index": 65,
       "text": "二羽は降りってきて、シンデレラの肩に止まりました。",
-      "start_ms": 315088,
-      "end_ms": 320278,
-      "duration_ms": 5190,
+      "start_ms": 314276,
+      "end_ms": 319396,
+      "duration_ms": 5120,
       "clauses": [
         {
           "index": 0,
           "text": "二羽は降りってきて、",
-          "start_ms": 315088,
-          "end_ms": 317227,
-          "duration_ms": 2139
+          "start_ms": 314276,
+          "end_ms": 316380,
+          "duration_ms": 2104
         },
         {
           "index": 1,
           "text": "シンデレラの肩に止まりました。",
-          "start_ms": 317477,
-          "end_ms": 320278,
-          "duration_ms": 2801
+          "start_ms": 316630,
+          "end_ms": 319396,
+          "duration_ms": 2766
         }
       ]
     },
     {
       "index": 66,
       "text": "一羽が右に、もう一羽が左に、そのまま座ったままになりました。",
-      "start_ms": 320778,
-      "end_ms": 327894,
-      "duration_ms": 7116,
+      "start_ms": 319896,
+      "end_ms": 327011,
+      "duration_ms": 7115,
       "clauses": [
         {
           "index": 0,
           "text": "一羽が右に、",
-          "start_ms": 320778,
-          "end_ms": 322453,
-          "duration_ms": 1675
+          "start_ms": 319896,
+          "end_ms": 321524,
+          "duration_ms": 1628
         },
         {
           "index": 1,
           "text": "もう一羽が左に、",
-          "start_ms": 322703,
-          "end_ms": 324715,
+          "start_ms": 321774,
+          "end_ms": 323786,
           "duration_ms": 2012
         },
         {
           "index": 2,
           "text": "そのまま座ったままになりました。",
-          "start_ms": 324965,
-          "end_ms": 327894,
-          "duration_ms": 2929
+          "start_ms": 324036,
+          "end_ms": 327011,
+          "duration_ms": 2975
         }
       ]
     },
     {
       "index": 67,
       "text": "おうじのけっこんしきが行われることになりました。",
-      "start_ms": 328394,
-      "end_ms": 332356,
-      "duration_ms": 3962,
+      "start_ms": 327511,
+      "end_ms": 331508,
+      "duration_ms": 3997,
       "clauses": [
         {
           "index": 0,
           "text": "おうじのけっこんしきが行われることになりました。",
-          "start_ms": 328394,
-          "end_ms": 332356,
-          "duration_ms": 3962
+          "start_ms": 327511,
+          "end_ms": 331508,
+          "duration_ms": 3997
         }
       ]
     },
     {
       "index": 68,
       "text": "二人の不実な姉たちがやってきて、シンデレラの機嫌をとり、幸せを分けてもらおうとしました。",
-      "start_ms": 332856,
-      "end_ms": 342027,
-      "duration_ms": 9171,
+      "start_ms": 332008,
+      "end_ms": 341178,
+      "duration_ms": 9170,
       "clauses": [
         {
           "index": 0,
           "text": "二人の不実な姉たちがやってきて、",
-          "start_ms": 332856,
-          "end_ms": 335971,
-          "duration_ms": 3115
+          "start_ms": 332008,
+          "end_ms": 335146,
+          "duration_ms": 3138
         },
         {
           "index": 1,
           "text": "シンデレラの機嫌をとり、",
-          "start_ms": 336221,
-          "end_ms": 338651,
-          "duration_ms": 2430
+          "start_ms": 335396,
+          "end_ms": 337802,
+          "duration_ms": 2406
         },
         {
           "index": 2,
           "text": "幸せを分けてもらおうとしました。",
-          "start_ms": 338901,
-          "end_ms": 342027,
+          "start_ms": 338052,
+          "end_ms": 341178,
           "duration_ms": 3126
         }
       ]
@@ -1433,75 +1433,75 @@
     {
       "index": 69,
       "text": "きょうかいに行ったとき、姉は右側に、妹は左側にいました。",
-      "start_ms": 342527,
-      "end_ms": 349411,
-      "duration_ms": 6884,
+      "start_ms": 341678,
+      "end_ms": 348723,
+      "duration_ms": 7045,
       "clauses": [
         {
           "index": 0,
           "text": "きょうかいに行ったとき、",
-          "start_ms": 342527,
-          "end_ms": 344504,
-          "duration_ms": 1977
+          "start_ms": 341678,
+          "end_ms": 343701,
+          "duration_ms": 2023
         },
         {
           "index": 1,
           "text": "姉は右側に、",
-          "start_ms": 344754,
-          "end_ms": 346522,
-          "duration_ms": 1768
+          "start_ms": 343951,
+          "end_ms": 345823,
+          "duration_ms": 1872
         },
         {
           "index": 2,
           "text": "妹は左側にいました。",
-          "start_ms": 346772,
-          "end_ms": 349411,
-          "duration_ms": 2639
+          "start_ms": 346073,
+          "end_ms": 348723,
+          "duration_ms": 2650
         }
       ]
     },
     {
       "index": 70,
       "text": "はとたちがそれぞれから片目をつついて取り出しました。",
-      "start_ms": 349911,
-      "end_ms": 354303,
-      "duration_ms": 4392,
+      "start_ms": 349223,
+      "end_ms": 353638,
+      "duration_ms": 4415,
       "clauses": [
         {
           "index": 0,
           "text": "はとたちがそれぞれから片目をつついて取り出しました。",
-          "start_ms": 349911,
-          "end_ms": 354303,
-          "duration_ms": 4392
+          "start_ms": 349223,
+          "end_ms": 353638,
+          "duration_ms": 4415
         }
       ]
     },
     {
       "index": 71,
       "text": "帰りには姉が左、妹が右になったので、はとたちはそれぞれからもう一つの目をつついて取り出しました。",
-      "start_ms": 354803,
-      "end_ms": 365284,
-      "duration_ms": 10481,
+      "start_ms": 354138,
+      "end_ms": 364666,
+      "duration_ms": 10528,
       "clauses": [
         {
           "index": 0,
           "text": "帰りには姉が左、",
-          "start_ms": 354803,
-          "end_ms": 357325,
-          "duration_ms": 2522
+          "start_ms": 354138,
+          "end_ms": 356672,
+          "duration_ms": 2534
         },
         {
           "index": 1,
           "text": "妹が右になったので、",
-          "start_ms": 357575,
-          "end_ms": 359946,
-          "duration_ms": 2371
+          "start_ms": 356922,
+          "end_ms": 359328,
+          "duration_ms": 2406
         },
         {
           "index": 2,
           "text": "はとたちはそれぞれからもう一つの目をつついて取り出しました。",
-          "start_ms": 360196,
-          "end_ms": 365284,
+          "start_ms": 359578,
+          "end_ms": 364666,
           "duration_ms": 5088
         }
       ]
@@ -1509,37 +1509,37 @@
     {
       "index": 72,
       "text": "こうして、いじわるとふせいじつな二人は、ばつを受けて、しょうがい目が見えないままでした。",
-      "start_ms": 365784,
-      "end_ms": 375022,
-      "duration_ms": 9238,
+      "start_ms": 365166,
+      "end_ms": 374437,
+      "duration_ms": 9271,
       "clauses": [
         {
           "index": 0,
           "text": "こうして、",
-          "start_ms": 365784,
-          "end_ms": 367053,
-          "duration_ms": 1269
+          "start_ms": 365166,
+          "end_ms": 366469,
+          "duration_ms": 1303
         },
         {
           "index": 1,
           "text": "いじわるとふせいじつな二人は、",
-          "start_ms": 367303,
-          "end_ms": 370116,
-          "duration_ms": 2813
+          "start_ms": 366719,
+          "end_ms": 369485,
+          "duration_ms": 2766
         },
         {
           "index": 2,
           "text": "ばつを受けて、",
-          "start_ms": 370366,
-          "end_ms": 371994,
+          "start_ms": 369735,
+          "end_ms": 371363,
           "duration_ms": 1628
         },
         {
           "index": 3,
           "text": "しょうがい目が見えないままでした。",
-          "start_ms": 372244,
-          "end_ms": 375022,
-          "duration_ms": 2778
+          "start_ms": 371613,
+          "end_ms": 374437,
+          "duration_ms": 2824
         }
       ]
     }

@@ -11113,6 +11113,260 @@
     }
   },
   {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "b2.1-s6-sumo"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "相撲の歴史と文化",
+      "tituloEs": "Historia y cultura del sumo",
+      "ilustracion": {
+        "escena": "sumo",
+        "alt": "Dos luchadores de sumo con mawashi azul oscuro se enfrentan sobre el dohyo, un ring de arcilla rodeado de cuerda, bajo el rótulo 相撲.",
+        "ruta": "lectura/imagenes/b2.1-s6-sumo.webp"
+      },
+      "nivel": "B2.1",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "協会"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "織田信長",
+          "lectura": "おだのぶなが",
+          "significado": "Oda Nobunaga"
+        },
+        {
+          "literal": "両国",
+          "lectura": "りょうごく",
+          "significado": "Ryōgoku"
+        },
+        {
+          "literal": "東京",
+          "lectura": "とうきょう",
+          "significado": "Tokio"
+        },
+        {
+          "literal": "大阪",
+          "lectura": "おおさか",
+          "significado": "Osaka"
+        }
+      ],
+      "texto": "相撲は日本の古い文化です。二人の力士が土俵の上で組み合い、相手を土俵の外に出すか、足の裏以外の体を地面に倒すと勝ちます。\n\n土俵際では、体がまだ土俵の中にあっても、相手につかまらなければ倒れることがはっきりしている場合があります。その時、審判は「死に体」として負けを言い渡します。\n\n次の行為は、反則として、すぐに負けになります。こぶしで殴る、目やみぞおちを突く、胸や腹を蹴る。\n\n取組の途中でまわしが外れると、負けになります。\n\n立ち合いの前の準備は、階級ごとに時間が決まっています。この制限時間は、1928年に始まったラジオ放送に備えて決まりました。\n\n勝ちを決めた技は、「決まり手」として記録されます。\n\n相撲の始まりは、神話の時代です。昔の本には、神様同士の力くらべが書かれています。昔は農家の行事として行われていました。\n\n鎌倉や戦国の時代には、武士も相撲を習いました。織田信長は相撲が好きで、地方から力士を集めました。\n\n江戸時代に、相撲は人々の娯楽として有名になりました。\n\n1909年、両国に国技館が作られ、相撲は日本の国の文化として知られるようになりました。\n\n1925年、東京と大阪の協会が一つになり、今の大相撲の形が決まりました。\n",
+      "textoEs": "El sumo es una antigua cultura de Japón. Dos luchadores se agarran sobre el ring y gana quien saca al contrario fuera del ring o hace que el cuerpo, excepto las plantas de los pies, toque el suelo.\n\nEn el borde del ring, aunque el cuerpo todavía esté dentro, puede ocurrir que se vea claramente que caerá si no se agarra al contrario. En ese caso, el árbitro declara la derrota como «shini-tai» (cuerpo muerto).\n\nLas siguientes acciones se consideran faltas y provocan una derrota inmediata: golpear con el puño, atacar con los dedos o la palma a los ojos o al plexo solar, y patear el pecho o el vientre.\n\nSi la faja (mawashi) se suelta por completo durante el combate, se pierde.\n\nEl tiempo para prepararse antes del inicio está fijado según la categoría. Este límite se estableció para ajustarse a la retransmisión por radio, que comenzó en 1928.\n\nLa técnica que decide el combate se registra como «kimarite».\n\nLa historia del sumo se remonta a los mitos. En antiguos libros se relata una competición de fuerza entre dioses. Antiguamente se practicaba como evento de las comunidades agrícolas.\n\nEn la época de Kamakura y los Estados Combatientes, los samuráis también aprendían sumo. Oda Nobunaga era aficionado y reunía luchadores de distintas regiones.\n\nDurante el período Edo, el sumo se volvió un entretenimiento popular y famoso.\n\nEn 1909 se construyó el Kokugikan en Ryōgoku, y el sumo llegó a conocerse como parte de la cultura nacional de Japón.\n\nEn 1925, las asociaciones de Tokio y Osaka se unieron y se definió la forma actual del gran sumo.\n",
+      "preguntas": [
+        "相撲はどんな競技ですか。",
+        "「死に体」とはどんなときに言いますか。",
+        "勝ちを決めた技は、どのように記録されますか。",
+        "国技館はいつ作られましたか。"
+      ],
+      "preguntasEs": [
+        "¿Cómo es el sumo como competición?",
+        "¿Cuándo se dice «shini-tai»?",
+        "¿Cómo se registra la técnica que decide la victoria?",
+        "¿Cuándo se construyó el Kokugikan?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "相撲",
+          "lectura": "すもう",
+          "significado": "sumo"
+        },
+        {
+          "literal": "力士",
+          "lectura": "りきし",
+          "significado": "luchador de sumo"
+        },
+        {
+          "literal": "土俵",
+          "lectura": "どひょう",
+          "significado": "ring de sumo"
+        },
+        {
+          "literal": "死に体",
+          "lectura": "しにたい",
+          "significado": "cuerpo muerto"
+        },
+        {
+          "literal": "反則",
+          "lectura": "はんそく",
+          "significado": "falta, infracción"
+        },
+        {
+          "literal": "決まり手",
+          "lectura": "きまりて",
+          "significado": "técnica decisiva"
+        },
+        {
+          "literal": "階級",
+          "lectura": "かいきゅう",
+          "significado": "categoría, rango"
+        },
+        {
+          "literal": "まわし",
+          "lectura": "まわし",
+          "significado": "faja del luchador"
+        },
+        {
+          "literal": "殴る",
+          "lectura": "なぐる",
+          "significado": "golpear con el puño"
+        },
+        {
+          "literal": "突く",
+          "lectura": "つく",
+          "significado": "atacar con los dedos o la palma"
+        },
+        {
+          "literal": "蹴る",
+          "lectura": "ける",
+          "significado": "patear"
+        },
+        {
+          "literal": "こぶし",
+          "lectura": "こぶし",
+          "significado": "puño"
+        },
+        {
+          "literal": "審判",
+          "lectura": "しんぱん",
+          "significado": "árbitro"
+        },
+        {
+          "literal": "神話",
+          "lectura": "しんわ",
+          "significado": "mito"
+        },
+        {
+          "literal": "国技館",
+          "lectura": "こくぎかん",
+          "significado": "Kokugikan"
+        },
+        {
+          "literal": "協会",
+          "lectura": "きょうかい",
+          "significado": "asociación",
+          "exclusion": true
+        },
+        {
+          "literal": "日本",
+          "lectura": "にほん",
+          "significado": "Japón"
+        },
+        {
+          "literal": "文化",
+          "lectura": "ぶんか",
+          "significado": "cultura"
+        },
+        {
+          "literal": "古い",
+          "lectura": "ふるい",
+          "significado": "antiguo"
+        },
+        {
+          "literal": "勝つ",
+          "lectura": "かつ",
+          "significado": "ganar"
+        },
+        {
+          "literal": "地面",
+          "lectura": "じめん",
+          "significado": "suelo"
+        },
+        {
+          "literal": "倒す",
+          "lectura": "たおす",
+          "significado": "derribar"
+        },
+        {
+          "literal": "時間",
+          "lectura": "じかん",
+          "significado": "tiempo"
+        },
+        {
+          "literal": "決まる",
+          "lectura": "きまる",
+          "significado": "quedar decidido"
+        },
+        {
+          "literal": "放送",
+          "lectura": "ほうそう",
+          "significado": "retransmisión"
+        },
+        {
+          "literal": "神様",
+          "lectura": "かみさま",
+          "significado": "dios"
+        },
+        {
+          "literal": "本",
+          "lectura": "ほん",
+          "significado": "libro"
+        },
+        {
+          "literal": "行事",
+          "lectura": "ぎょうじ",
+          "significado": "evento, ceremonia"
+        },
+        {
+          "literal": "農家",
+          "lectura": "のうか",
+          "significado": "granja, familia campesina"
+        },
+        {
+          "literal": "習う",
+          "lectura": "ならう",
+          "significado": "aprender"
+        },
+        {
+          "literal": "好き",
+          "lectura": "すき",
+          "significado": "aficionado, que gusta"
+        },
+        {
+          "literal": "集める",
+          "lectura": "あつめる",
+          "significado": "reunir"
+        },
+        {
+          "literal": "地方",
+          "lectura": "ちほう",
+          "significado": "región"
+        },
+        {
+          "literal": "娯楽",
+          "lectura": "ごらく",
+          "significado": "entretenimiento"
+        },
+        {
+          "literal": "有名",
+          "lectura": "ゆうめい",
+          "significado": "famoso"
+        },
+        {
+          "literal": "作る",
+          "lectura": "つくる",
+          "significado": "construir, hacer"
+        },
+        {
+          "literal": "国",
+          "lectura": "くに",
+          "significado": "país"
+        },
+        {
+          "literal": "形",
+          "lectura": "かたち",
+          "significado": "forma"
+        }
+      ],
+      "referencias": [
+        "s6-to-shite"
+      ]
+    }
+  },
+  {
     "apiVersion": "maquinaria/v1",
     "kind": "ActividadLectura",
     "metadata": {

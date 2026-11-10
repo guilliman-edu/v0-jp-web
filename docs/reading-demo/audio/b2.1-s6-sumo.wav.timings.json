@@ -1,0 +1,466 @@
+{
+  "audio_file": "b2.1-s6-sumo.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 129098,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "すもうの歴史とぶんか",
+      "start_ms": 0,
+      "end_ms": 2383,
+      "duration_ms": 2383,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すもうの歴史とぶんか",
+          "start_ms": 0,
+          "end_ms": 2383,
+          "duration_ms": 2383
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "すもうはにほんのふるいぶんかです。",
+      "start_ms": 2883,
+      "end_ms": 6009,
+      "duration_ms": 3126,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すもうはにほんのふるいぶんかです。",
+          "start_ms": 2883,
+          "end_ms": 6009,
+          "duration_ms": 3126
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "二人のりきしがどひょうの上で組み合い、相手をどひょうの外に出すか、足の裏以外の体をじめんにたおすと勝ちます。",
+      "start_ms": 6509,
+      "end_ms": 17281,
+      "duration_ms": 10772,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "二人のりきしがどひょうの上で組み合い、",
+          "start_ms": 6509,
+          "end_ms": 9960,
+          "duration_ms": 3451
+        },
+        {
+          "index": 1,
+          "text": "相手をどひょうの外に出すか、",
+          "start_ms": 10210,
+          "end_ms": 12953,
+          "duration_ms": 2743
+        },
+        {
+          "index": 2,
+          "text": "足の裏以外の体をじめんにたおすと勝ちます。",
+          "start_ms": 13203,
+          "end_ms": 17281,
+          "duration_ms": 4078
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "どひょう際では、体がまだどひょうの中にあっても、相手につかまらなければ倒れることがはっきりしている場合があります。",
+      "start_ms": 17781,
+      "end_ms": 28472,
+      "duration_ms": 10691,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "どひょう際では、",
+          "start_ms": 17781,
+          "end_ms": 19537,
+          "duration_ms": 1756
+        },
+        {
+          "index": 1,
+          "text": "体がまだどひょうの中にあっても、",
+          "start_ms": 19787,
+          "end_ms": 22878,
+          "duration_ms": 3091
+        },
+        {
+          "index": 2,
+          "text": "相手につかまらなければ倒れることがはっきりしている場合があります。",
+          "start_ms": 23128,
+          "end_ms": 28472,
+          "duration_ms": 5344
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "その時、しんぱんは「しにたい」として負けを言い渡します。",
+      "start_ms": 28972,
+      "end_ms": 34383,
+      "duration_ms": 5411,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "その時、",
+          "start_ms": 28972,
+          "end_ms": 30450,
+          "duration_ms": 1478
+        },
+        {
+          "index": 1,
+          "text": "しんぱんは「しにたい」として負けを言い渡します。",
+          "start_ms": 30700,
+          "end_ms": 34383,
+          "duration_ms": 3683
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "次の行為は、はんそくとして、すぐに負けになります。",
+      "start_ms": 34883,
+      "end_ms": 41011,
+      "duration_ms": 6128,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "次の行為は、",
+          "start_ms": 34883,
+          "end_ms": 36616,
+          "duration_ms": 1733
+        },
+        {
+          "index": 1,
+          "text": "はんそくとして、",
+          "start_ms": 36866,
+          "end_ms": 38587,
+          "duration_ms": 1721
+        },
+        {
+          "index": 2,
+          "text": "すぐに負けになります。",
+          "start_ms": 38837,
+          "end_ms": 41011,
+          "duration_ms": 2174
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "こぶしでなぐる、目やみぞおちをつく、胸や腹をける。",
+      "start_ms": 41511,
+      "end_ms": 47569,
+      "duration_ms": 6058,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "こぶしでなぐる、",
+          "start_ms": 41511,
+          "end_ms": 43267,
+          "duration_ms": 1756
+        },
+        {
+          "index": 1,
+          "text": "目やみぞおちをつく、",
+          "start_ms": 43517,
+          "end_ms": 45482,
+          "duration_ms": 1965
+        },
+        {
+          "index": 2,
+          "text": "胸や腹をける。",
+          "start_ms": 45732,
+          "end_ms": 47569,
+          "duration_ms": 1837
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "取組の途中でまわしが外れると、負けになります。",
+      "start_ms": 48069,
+      "end_ms": 53329,
+      "duration_ms": 5260,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "取組の途中でまわしが外れると、",
+          "start_ms": 48069,
+          "end_ms": 51300,
+          "duration_ms": 3231
+        },
+        {
+          "index": 1,
+          "text": "負けになります。",
+          "start_ms": 51550,
+          "end_ms": 53329,
+          "duration_ms": 1779
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "立ち合いの前の準備は、かいきゅうごとにじかんが決まっています。",
+      "start_ms": 53829,
+      "end_ms": 59507,
+      "duration_ms": 5678,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "立ち合いの前の準備は、",
+          "start_ms": 53829,
+          "end_ms": 56189,
+          "duration_ms": 2360
+        },
+        {
+          "index": 1,
+          "text": "かいきゅうごとにじかんが決まっています。",
+          "start_ms": 56439,
+          "end_ms": 59507,
+          "duration_ms": 3068
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "この制限じかんは、せんきゅうひゃくにじゅうはち年に始まったラジオほうそうに備えて決まりました。",
+      "start_ms": 60007,
+      "end_ms": 67868,
+      "duration_ms": 7861,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "この制限じかんは、",
+          "start_ms": 60007,
+          "end_ms": 62077,
+          "duration_ms": 2070
+        },
+        {
+          "index": 1,
+          "text": "せんきゅうひゃくにじゅうはち年に始まったラジオほうそうに備えて決まりました。",
+          "start_ms": 62327,
+          "end_ms": 67868,
+          "duration_ms": 5541
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "勝ちを決めた技は、「きまりて」として記録されます。",
+      "start_ms": 68368,
+      "end_ms": 73604,
+      "duration_ms": 5236,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "勝ちを決めた技は、",
+          "start_ms": 68368,
+          "end_ms": 70472,
+          "duration_ms": 2104
+        },
+        {
+          "index": 1,
+          "text": "「きまりて」として記録されます。",
+          "start_ms": 70722,
+          "end_ms": 73604,
+          "duration_ms": 2882
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "すもうの始まりは、しんわの時代です。",
+      "start_ms": 74104,
+      "end_ms": 78505,
+      "duration_ms": 4401,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すもうの始まりは、",
+          "start_ms": 74104,
+          "end_ms": 76185,
+          "duration_ms": 2081
+        },
+        {
+          "index": 1,
+          "text": "しんわの時代です。",
+          "start_ms": 76435,
+          "end_ms": 78505,
+          "duration_ms": 2070
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "昔のほんには、かみさま同士の力くらべが書かれています。",
+      "start_ms": 79005,
+      "end_ms": 84776,
+      "duration_ms": 5771,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "昔のほんには、",
+          "start_ms": 79005,
+          "end_ms": 80877,
+          "duration_ms": 1872
+        },
+        {
+          "index": 1,
+          "text": "かみさま同士の力くらべが書かれています。",
+          "start_ms": 81127,
+          "end_ms": 84776,
+          "duration_ms": 3649
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "昔はのうかのぎょうじとして行われていました。",
+      "start_ms": 85276,
+      "end_ms": 89447,
+      "duration_ms": 4171,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "昔はのうかのぎょうじとして行われていました。",
+          "start_ms": 85276,
+          "end_ms": 89447,
+          "duration_ms": 4171
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "鎌倉や戦くにの時代には、武士もすもうを習いました。",
+      "start_ms": 89947,
+      "end_ms": 95533,
+      "duration_ms": 5586,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "鎌倉や戦くにの時代には、",
+          "start_ms": 89947,
+          "end_ms": 92795,
+          "duration_ms": 2848
+        },
+        {
+          "index": 1,
+          "text": "武士もすもうを習いました。",
+          "start_ms": 93045,
+          "end_ms": 95533,
+          "duration_ms": 2488
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "おだのぶながはすもうがすきで、ちほうからりきしを集めました。",
+      "start_ms": 96033,
+      "end_ms": 101699,
+      "duration_ms": 5666,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おだのぶながはすもうがすきで、",
+          "start_ms": 96033,
+          "end_ms": 98590,
+          "duration_ms": 2557
+        },
+        {
+          "index": 1,
+          "text": "ちほうからりきしを集めました。",
+          "start_ms": 98840,
+          "end_ms": 101699,
+          "duration_ms": 2859
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "江戸時代に、すもうは人々のごらくとしてゆうめいになりました。",
+      "start_ms": 102199,
+      "end_ms": 108062,
+      "duration_ms": 5863,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "江戸時代に、",
+          "start_ms": 102199,
+          "end_ms": 103769,
+          "duration_ms": 1570
+        },
+        {
+          "index": 1,
+          "text": "すもうは人々のごらくとしてゆうめいになりました。",
+          "start_ms": 104019,
+          "end_ms": 108062,
+          "duration_ms": 4043
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "せんきゅうひゃくきゅう年、りょうごくにこくぎかんが作られ、すもうはにほんのくにのぶんかとして知られるようになりました。",
+      "start_ms": 108562,
+      "end_ms": 118696,
+      "duration_ms": 10134,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくきゅう年、",
+          "start_ms": 108562,
+          "end_ms": 110690,
+          "duration_ms": 2128
+        },
+        {
+          "index": 1,
+          "text": "りょうごくにこくぎかんが作られ、",
+          "start_ms": 110940,
+          "end_ms": 113718,
+          "duration_ms": 2778
+        },
+        {
+          "index": 2,
+          "text": "すもうはにほんのくにのぶんかとして知られるようになりました。",
+          "start_ms": 113968,
+          "end_ms": 118696,
+          "duration_ms": 4728
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "せんきゅうひゃくにじゅうご年、とうきょうとおおさかのきょうかいが一つになり、今の大すもうのかたちが決まりました。",
+      "start_ms": 119196,
+      "end_ms": 129098,
+      "duration_ms": 9902,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくにじゅうご年、",
+          "start_ms": 119196,
+          "end_ms": 121602,
+          "duration_ms": 2406
+        },
+        {
+          "index": 1,
+          "text": "とうきょうとおおさかのきょうかいが一つになり、",
+          "start_ms": 121852,
+          "end_ms": 125524,
+          "duration_ms": 3672
+        },
+        {
+          "index": 2,
+          "text": "今の大すもうのかたちが決まりました。",
+          "start_ms": 125774,
+          "end_ms": 129098,
+          "duration_ms": 3324
+        }
+      ]
+    }
+  ]
+}
