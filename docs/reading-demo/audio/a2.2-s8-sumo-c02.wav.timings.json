@@ -1,0 +1,116 @@
+{
+  "audio_file": "a2.2-s8-sumo-c02.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 26461,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "ぶしとおだのぶなが",
+      "start_ms": 0,
+      "end_ms": 2203,
+      "duration_ms": 2203,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ぶしとおだのぶなが",
+          "start_ms": 0,
+          "end_ms": 2203,
+          "duration_ms": 2203
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "かまくらやせんごくのじだいには、ぶしもすもうを習いました。",
+      "start_ms": 2703,
+      "end_ms": 8659,
+      "duration_ms": 5956,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かまくらやせんごくのじだいには、",
+          "start_ms": 2703,
+          "end_ms": 5765,
+          "duration_ms": 3062
+        },
+        {
+          "index": 1,
+          "text": "ぶしもすもうを習いました。",
+          "start_ms": 6015,
+          "end_ms": 8659,
+          "duration_ms": 2644
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "ぶしはすもうをして、強くなりました。",
+      "start_ms": 9159,
+      "end_ms": 13734,
+      "duration_ms": 4575,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ぶしはすもうをして、",
+          "start_ms": 9159,
+          "end_ms": 11362,
+          "duration_ms": 2203
+        },
+        {
+          "index": 1,
+          "text": "強くなりました。",
+          "start_ms": 11612,
+          "end_ms": 13734,
+          "duration_ms": 2122
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "おだのぶながはすもうがとてもすきだったそうです。",
+      "start_ms": 14234,
+      "end_ms": 18538,
+      "duration_ms": 4304,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おだのぶながはすもうがとてもすきだったそうです。",
+          "start_ms": 14234,
+          "end_ms": 18538,
+          "duration_ms": 4304
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "のぶながは、いろいろなくにからりきしを集めて、すもうを見ました。",
+      "start_ms": 19038,
+      "end_ms": 26461,
+      "duration_ms": 7423,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "のぶながは、",
+          "start_ms": 19038,
+          "end_ms": 20684,
+          "duration_ms": 1646
+        },
+        {
+          "index": 1,
+          "text": "いろいろなくにからりきしを集めて、",
+          "start_ms": 20934,
+          "end_ms": 24205,
+          "duration_ms": 3271
+        },
+        {
+          "index": 2,
+          "text": "すもうを見ました。",
+          "start_ms": 24455,
+          "end_ms": 26461,
+          "duration_ms": 2006
+        }
+      ]
+    }
+  ]
+}

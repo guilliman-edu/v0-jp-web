@@ -188,7 +188,49 @@
       "referencias": [
         "forma-tai"
       ],
-      "nivel": "A1"
+      "nivel": "A1",
+      "mapaGramatica": [
+        {
+          "oracion": "今週末、田中さんはすしを食べたいです。",
+          "alias": "verbo-tai"
+        },
+        {
+          "oracion": "それから、ジュースを飲みたいです。",
+          "alias": "verbo-tai"
+        },
+        {
+          "oracion": "午後は友達に会いたいです。",
+          "alias": "verbo-tai"
+        },
+        {
+          "oracion": "話したいです。",
+          "alias": "verbo-tai"
+        },
+        {
+          "oracion": "映画を見たいです。",
+          "alias": "verbo-tai"
+        },
+        {
+          "oracion": "でも、勉強したくないです。",
+          "alias": "verbo-tai"
+        },
+        {
+          "oracion": "遊びたいです。",
+          "alias": "verbo-tai"
+        },
+        {
+          "oracion": "来年、日本へ行きたいです。",
+          "alias": "verbo-tai"
+        },
+        {
+          "oracion": "日本で美味しい料理を作りたいです。",
+          "alias": "verbo-tai"
+        },
+        {
+          "oracion": "あなたは何がしたいですか。",
+          "alias": "verbo-tai"
+        }
+      ]
     }
   },
   {
@@ -284,7 +326,17 @@
         "particula-wo",
         "particula-to"
       ],
-      "nivel": "A1"
+      "nivel": "A1",
+      "mapaGramatica": [
+        {
+          "oracion": "山田さんのかぞくです。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "たのしいあさです。",
+          "alias": "verbo-desu"
+        }
+      ]
     }
   },
   {
@@ -398,7 +450,17 @@
         "adverbios-tiempo",
         "particula-to"
       ],
-      "nivel": "A1"
+      "nivel": "A1",
+      "mapaGramatica": [
+        {
+          "oracion": "わたしはももこです。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "大学生です。",
+          "alias": "verbo-desu"
+        }
+      ]
     }
   },
   {
@@ -478,7 +540,37 @@
         "adverbios-tiempo",
         "adverbios-frecuencia"
       ],
-      "nivel": "A1"
+      "nivel": "A1",
+      "mapaGramatica": [
+        {
+          "oracion": "きょうはいい天気です。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "けさ、七時に起きました。",
+          "alias": "hora"
+        },
+        {
+          "oracion": "ときどき一人で朝ごはんを食べます。",
+          "alias": "adverbios-frecuencia"
+        },
+        {
+          "oracion": "八時にうちを出ました。",
+          "alias": "hora"
+        },
+        {
+          "oracion": "駅でともだちに会いました。",
+          "alias": "particulas-kara-made-ni-de"
+        },
+        {
+          "oracion": "いつも駅で会います。",
+          "alias": "adverbios-frecuencia"
+        },
+        {
+          "oracion": "本とCDを買いました。",
+          "alias": "particula-wo"
+        }
+      ]
     }
   },
   {
@@ -769,7 +861,41 @@
         "estilo-indirecto-to-itte-imashita",
         "dar-recibir-agemasu-moraimasu"
       ],
-      "nivel": "A2.1"
+      "nivel": "A2.1",
+      "mapaGramatica": [
+        {
+          "oracion": "むかし、シンデレラという女の子がいました。",
+          "alias": "verbos-existencia"
+        },
+        {
+          "oracion": "シンデレラの母が死んだとき、シンデレラは寂しかったです。",
+          "alias": "subordinadas-tokio-koto"
+        },
+        {
+          "oracion": "シンデレラは毎日掃除したり、洗濯したりしました。",
+          "alias": "enumeracion-tari"
+        },
+        {
+          "oracion": "シンデレラはとても忙しかったです。",
+          "alias": "pasado-adjetivos"
+        },
+        {
+          "oracion": "シンデレラも行きたいと思いました。",
+          "alias": "opinion-to-omoimasu"
+        },
+        {
+          "oracion": "でも、継母は「服も靴もありませんから、行きません」と言っていました。",
+          "alias": "estilo-indirecto-to-itte-imashita"
+        },
+        {
+          "oracion": "シンデレラは鳥から服と靴をもらって、パーティーへ行きました。",
+          "alias": "dar-recibir-agemasu-moraimasu"
+        },
+        {
+          "oracion": "継母の女の子も靴を履きましたが、足が入りませんでした。",
+          "alias": "conjuncion-adversativa-ga"
+        }
+      ]
     }
   },
   {
@@ -1484,6 +1610,40 @@
         "forma-te",
         "usos-forma-te",
         "particula-ga"
+      ],
+      "mapaGramatica": [
+        {
+          "oracion": "これは小説になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "テレビでも見ることができました。",
+          "alias": "verbo-dekimasu"
+        },
+        {
+          "oracion": "女の子と付き合ったことがありませんでした。",
+          "alias": "verbo-koto-ga-arimasu"
+        },
+        {
+          "oracion": "ある日、彼は電車の中にいました。",
+          "alias": "verbos-existencia"
+        },
+        {
+          "oracion": "そのとき、お酒を飲んだ男の人が、若い女の子に悪いことをしていました。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "あとで、お礼に、エルメスのとても高いお茶のコップを彼にあげました。",
+          "alias": "dar-recibir-agemasu-moraimasu"
+        },
+        {
+          "oracion": "男の人はどうしようかと思いました。",
+          "alias": "opinion-to-omoimasu"
+        },
+        {
+          "oracion": "女の子は笑って、うれしそうでした。",
+          "alias": "apariencia-sou"
+        }
       ]
     }
   },
@@ -1949,7 +2109,41 @@
         "particula-ga",
         "forma-volitiva"
       ],
-      "nivel": "A2.2"
+      "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "むかし、シンデレラという女の子がいました。",
+          "alias": "verbos-existencia"
+        },
+        {
+          "oracion": "シンデレラの母が死んだとき、シンデレラは寂しかったです。",
+          "alias": "subordinadas-tokio-koto"
+        },
+        {
+          "oracion": "シンデレラは毎日掃除したり、洗濯したりしました。",
+          "alias": "enumeracion-tari"
+        },
+        {
+          "oracion": "シンデレラはとても忙しかったです。",
+          "alias": "pasado-adjetivos"
+        },
+        {
+          "oracion": "シンデレラも行きたいと思いました。",
+          "alias": "opinion-to-omoimasu"
+        },
+        {
+          "oracion": "でも、継母は「服も靴もありませんから、行きません」と言っていました。",
+          "alias": "estilo-indirecto-to-itte-imashita"
+        },
+        {
+          "oracion": "シンデレラは鳥から服と靴をもらって、パーティーへ行きました。",
+          "alias": "dar-recibir-agemasu-moraimasu"
+        },
+        {
+          "oracion": "継母の女の子も靴を履きましたが、足が入りませんでした。",
+          "alias": "conjuncion-adversativa-ga"
+        }
+      ]
     }
   },
   {
@@ -3200,6 +3394,40 @@
         "usos-forma-te",
         "particula-ga"
       ],
+      "mapaGramatica": [
+        {
+          "oracion": "ある日の朝、二人は家の中を歩いていました。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "みんなが寝た後で、チョウシロウは家の高い所に登りました。",
+          "alias": "mae-ni-ato-de"
+        },
+        {
+          "oracion": "家はあまり高くなかったから、チョウシロウは死にませんでした。",
+          "alias": "frases-causa-kara"
+        },
+        {
+          "oracion": "ちょっと痛かったです。",
+          "alias": "pasado-adjetivos"
+        },
+        {
+          "oracion": "奥さんや部下を連れて、窓のところに行きました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "今朝、竹千代は『あの雀は可愛い』と言っていました。",
+          "alias": "estilo-indirecto-to-itte-imashita"
+        },
+        {
+          "oracion": "私は、竹千代を思って、嘘をつくのです。",
+          "alias": "razon-n-desu"
+        },
+        {
+          "oracion": "」奥さんは弁当をあげました。",
+          "alias": "dar-recibir-agemasu-moraimasu"
+        }
+      ],
       "texto": "約束\n昔、日本に、将軍の家に住んでいる男の子がいました。男の子の名前はチョウシロウです。チョウシロウは、竹千代の友達です。竹千代は将軍のお子さんで、十歳でした。チョウシロウは十三歳でした。\n\nある日の朝、二人は家の中を歩いていました。家の高い所に、可愛い雀がいました。竹千代はすごく嬉しくて、「あの雀を取ってください」とチョウシロウに言いました。チョウシロウは言いました。「今は取りません。将軍が怒りますから。夜に、みんなが寝た後で取ります。」竹千代は言いました。「明日、あの雀を取ってください。」「わかりました。約束します。」\n\n夜になりました。みんなが寝た後で、チョウシロウは家の高い所に登りました。竹千代にあげる雀と、私の雀を取りました。でも、下に転びました。大きい音がしました。雀は死んでいました。家はあまり高くなかったから、チョウシロウは死にませんでした。ちょっと痛かったです。\n\n将軍は大きい音を聞きました。将軍は起きました。奥さんや部下を連れて、窓のところに行きました。将軍はろうそくを持って、下を見ました。下に、男の子がいました。\n\n将軍は言いました。「チョウシロウ、あなたですか。夜に、何をしているのですか。部屋に来てください。説明してください。」\n\n\n---\n\n説明と鞄\nチョウシロウは部屋に行きました。雀を持っていました。座って、将軍の前で待ちました。将軍は言いました。「それは何ですか。」「雀です、将軍。」将軍は言いました。「雀ですか。夜に、高い所に登って、雀を取りましたか。」チョウシロウは言いました。「嘘をつきません。今朝、竹千代は『あの雀は可愛い』と言っていました。私は夜に登って、雀を取りました。でも、下に転びました。もう、嘘をつきません。私が悪いのです。将軍は何をしてもいいです。」\n\n奥さんは言いました。「ごめんなさい。でも、悪いのは竹千代です。竹千代がチョウシロウに、言ったのです。」奥さんには二人のお子さんがいました。竹千代は上のお子さんでした。奥さんは下のお子さんが好きでした。いつも、竹千代の悪いところを将軍に言いました。\n\n将軍は言いました。「竹千代は悪いです。チョウシロウに、ひどいことを言ったのです。チョウシロウ、それは嘘ですか。竹千代が言ったのですか。」チョウシロウは思いました。将軍は竹千代のことを、もう良く思っていません。私は、竹千代を思って、嘘をつくのです。\n\nチョウシロウは言いました。「それは嘘ではありません。竹千代は何も言いませんでした。私が、自分で取りました。竹千代にあげる雀と、私の雀を、私が取りました。」\n\n将軍はすごく怒りました。「あなたはよく嘘をつきます。あなたは、困っています。あの鞄を取ってください。」将軍は言いました。「チョウシロウ、嘘をつきますか。この鞄に入れます。もう、お家に帰りません。食べ物もあげません。」チョウシロウは言いました。「私は嘘をつきません。私が取りました。誰も悪くありません。私が悪いのです。夜に転んだのも、私が悪いからです。」そして、チョウシロウは自分で鞄に入りました。将軍は部下に言いました。「鞄を閉めてください。」部下は鞄を閉めて、庭に置きました。みんなは部屋に戻りました。チョウシロウは鞄の中で、雀を持っていました。\n\n\n---\n\n刀と自由\n次の日、朝になって、奥さんは庭に行きました。奥さんは鞄を下ろしました。中からチョウシロウが出ました。まだ、雀を持っていました。奥さんは言いました。「竹千代が、雀を取ってくださいと言ったのです。」チョウシロウは言いました。「それは嘘ではありません。私が取りました。竹千代は何もしていません。」奥さんは言いました。「あなたは、すごく困っています。ここにいつもいてください。食べ物もあげません。嘘をつかないでください。そして、ごはんをあげます。」チョウシロウは言いました。「食べ物をください。お腹が空いています。食べてから、話します。」奥さんは弁当をあげました。チョウシロウは弁当を食べました。チョウシロウはお礼を言いました。「もう、話します。」奥さんは言いました。「早く、嘘をつかないでください。」チョウシロウは言いました。「ごめんなさい。私が取りました。竹千代は何もしていません。それが、嘘ではありません。」\n\n奥さんはすごく怒りました。将軍の部屋に行きました。そして、将軍に言いました。「チョウシロウは、竹千代を思って嘘をついています。」将軍はすごく怒りました。刀を持ちました。「私はチョウシロウを、もう我が家から出します。」そして、部下に行きました。部下に言いました。「あなたは、庭へ行ってください。」\n\n部下は庭に行きました。チョウシロウを見ました。「チョウシロウ、将軍はすごく怒っています。あなたはもう、自由ではありません。お父さんに伝えましょうか。私は、お父さんの友達です。」チョウシロウは言いました。「いりません。お父さんに、もう何も言いたいことはありません。侍は大切な友達を思って、どんなことになってもいいです。将軍が私に何をしたいのか、よくわかります。私がこの家を出る時、みんなが知ります。私が嘘をつかなかったこと、そして竹千代を思って嘘をついたことも、みんなが知ります。お父さんに伝えることは、一つです。『私は大切な友達を思って、この家を出ました。』私が悲しいのは、親の病気です。これを聞いて、親の病気がひどくなります。」部下はすごく悲しくなりました。そして、チョウシロウを将軍の前へ連れて行きました。\n\nチョウシロウは座りました。髪を直しました。怖くない顔をして、将軍を待ちました。将軍はその顔を見て、刀を置きました。\n\n将軍は言いました。「チョウシロウ、もういいです。あなたはすごくいい子です。私はあなたのことを、よく知りました。竹千代が将軍になる時、あなたは、いつも竹千代の側にいてください。あなたは大切な友達です。あなたはもう自由です。」\n\nその時から、二人は仲がいい友達になりました。将軍も、チョウシロウを大切にしました。長い時間の後で、チョウシロウは大きくなって、有名な人になりました。みんなが、チョウシロウを覚えています。\n",
       "textoEs": "La promesa\nHace mucho tiempo, en Japón había un niño que vivía en la casa del shogun. El nombre del niño era Chōshirō. Chōshirō era amigo de Takechiyo. Takechiyo era el hijo del shogun y tenía diez años. Chōshirō tenía trece años.\n\nUn día por la mañana, los dos paseaban por dentro de la casa. En la parte alta de la casa había un gorrión muy bonito. Takechiyo estaba muy contento y le dijo a Chōshirō: «Por favor, coge ese gorrión». Chōshirō dijo: «Ahora no lo cojo. El shogun se enfadará. Lo cogeré por la noche, después de que todos se hayan dormido». Takechiyo dijo: «Mañana, por favor, coge ese gorrión». «De acuerdo. Te lo prometo».\n\nLlegó la noche. Después de que todos se durmieron, Chōshirō subió a la parte alta de la casa. Cogió el gorrión que daría a Takechiyo y el gorrión mío. Pero se cayó al suelo. Hubo un ruido fuerte. El gorrión estaba muerto. La casa no era muy alta, así que Chōshirō no murió. Le dolía un poco.\n\nEl shogun escuchó el ruido fuerte. El shogun se levantó. Llevó a su esposa y a sus subordinados hasta la ventana. El shogun, con una vela en la mano, miró hacia abajo. Allí abajo había un niño.\n\nEl shogun dijo: «¿Eres tú, Chōshirō? ¿Qué haces de noche? Ven a mi habitación. Explica lo que pasa.»\n\n\n---\n\nLa explicación y la bolsa\nChōshirō fue a la habitación. Llevaba el gorrión. Se sentó y esperó delante del shogun. El shogun dijo: «¿Qué es eso?». «Es un gorrión, shogun». El shogun dijo: «¿Un gorrión? ¿Subiste a un lugar alto de noche y cogiste un gorrión?». Chōshirō dijo: «No voy a mentir. Esta mañana Takechiyo decía: \"Ese gorrión es muy bonito\". Yo subí de noche y cogí el gorrión. Pero me caí al suelo. Ya no voy a mentir. El que está mal soy yo. El shogun puede hacer lo que quiera.»\n\nLa esposa dijo: «Lo siento. Pero el que está mal es Takechiyo. Fue Takechiyo quien se lo dijo a Chōshirō». La esposa tenía dos hijos. Takechiyo era el hijo mayor. A la esposa le gustaba el hijo pequeño. Siempre le decía al shogun los defectos de Takechiyo.\n\nEl shogun dijo: «Takechiyo está mal. Le dijo una cosa terrible a Chōshirō. Chōshirō, ¿es eso mentira? ¿Lo dijo Takechiyo?». Chōshirō pensó: «El shogun ya no tiene buena opinión de Takechiyo. Yo estoy mintiendo por amor a Takechiyo».\n\nChōshirō dijo: «Eso no es mentira. Takechiyo no dijo nada. Lo cogí yo por mi cuenta. Yo cogí el gorrión que daría a Takechiyo y el gorrión mío».\n\nEl shogun se enfadó muchísimo. «Mientes mucho. Estás en un aprieto. Coge esa bolsa». El shogun dijo: «Chōshirō, ¿mientes? Te meteré en esta bolsa. No volverás a casa. Tampoco te daré comida». Chōshirō dijo: «No voy a mentir. Lo cogí yo. Nadie está mal. El que está mal soy yo. También me caí por la noche porque el que está mal soy yo». Entonces Chōshirō se metió en la bolsa por sí mismo. El shogun dijo al subordinado: «Por favor, cierra la bolsa». El subordinado cerró la bolsa y la puso en el jardín. Todos volvieron a la habitación. Chōshirō, dentro de la bolsa, llevaba el gorrión.\n\n\n---\n\nLa espada y la libertad\nAl día siguiente, por la mañana, la esposa fue al jardín. La esposa bajó la bolsa. Chōshirō salió de dentro. Todavía llevaba el gorrión. La esposa dijo: «Fue Takechiyo quien dijo: por favor, coge ese gorrión». Chōshirō dijo: «Eso no es mentira. Lo cogí yo. Takechiyo no hizo nada». La esposa dijo: «Estás en un aprieto muy grande. Quédate aquí siempre. Tampoco te daré comida. No mientas. Y te daré de comer». Chōshirō dijo: «Dadme comida. Tengo hambre. Después de comer, hablaré». La esposa le dio un bento. Chōshirō comió el bento. Chōshirō dio las gracias: «Ya hablaré». La esposa dijo: «Pronto, no mientas». Chōshirō dijo: «Lo siento. Lo cogí yo. Takechiyo no hizo nada. Eso no es mentira».\n\nLa esposa se enfadó muchísimo. Fue a la habitación del shogun. Y le dijo: «Chōshirō miente por amor a Takechiyo». El shogun se enfadó muchísimo. Cogió la espada. «Ya echaré a Chōshirō de esta casa». Y fue donde el subordinado. Le dijo: «Ve al jardín».\n\nEl subordinado fue al jardín. Vio a Chōshirō. «Chōshirō, el shogun está enfadado muchísimo. Ya no eres libre. ¿Quieres que le avise a tu padre? Soy amigo de tu padre». Chōshirō dijo: «No hace falta. A mi padre no le quiero decir ya nada. Un samurái, por amor a su amigo querido, da igual lo que pase. Sé muy bien lo que el shogun quiere hacer conmigo. Cuando salga de esta casa, todos lo sabrán. Todos sabrán que yo no mentí, y también que mentí por amor a Takechiyo. A mi padre solo hay que contarle una cosa: \"Salí de esta casa por amor a mi amigo querido\". Lo que me entristece es la enfermedad de mis padres. Al oír esto, la enfermedad de mis padres se pondrá peor». El subordinado se puso muy triste. Y llevó a Chōshirō delante del shogun.\n\nChōshirō se sentó. Se arregló el pelo. Con la cara de no tener miedo, esperó al shogun. El shogun, al ver esa cara, puso la espada.\n\nEl shogun dijo: «Chōshirō, ya está bien. Eres un buen chico muchísimo. Te he conocido bien. Cuando Takechiyo se convierta en shogun, quédate siempre a su lado. Eres un amigo querido. Ya eres libre».\n\nDesde entonces, los dos se hicieron amigos que se llevan bien. El shogun también apreció a Chōshirō. Después de un largo tiempo, Chōshirō creció y se hizo una persona famosa. Todos recuerdan a Chōshirō.\n"
     }
@@ -3528,6 +3756,40 @@
         "forma-te",
         "usos-forma-te",
         "particula-ga"
+      ],
+      "mapaGramatica": [
+        {
+          "oracion": "昔、この世界に、すごく有名な海賊がいました。",
+          "alias": "verbos-existencia"
+        },
+        {
+          "oracion": "名前はゴール・D・ロジャーです。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "ロジャーは死ぬ前に、言いました。",
+          "alias": "orden-mae-ni"
+        },
+        {
+          "oracion": "欲しい人は、自分で探してください。",
+          "alias": "imperativo-te-kudasai"
+        },
+        {
+          "oracion": "この言葉を聞いて、世界中の人が大きな夢を持ちました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "宝を探して、海に出る人が多くなりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "ルフィの夢は、「海賊王になること」です。",
+          "alias": "substantivacion-koto"
+        },
+        {
+          "oracion": "今も、宝を探して、船で冒険をしています。",
+          "alias": "verbo-te-imasu"
+        }
       ]
     }
   },
@@ -4085,7 +4347,7 @@
         },
         {
           "oracion": "でも、今は少なくなっています。",
-          "alias": "cambio-te-narimasu"
+          "alias": "cambio-estado-narimasu"
         },
         {
           "oracion": "コンビニは1927年にアメリカで始まりました。",
@@ -4129,7 +4391,7 @@
         },
         {
           "oracion": "今は営業時間が短くなった店もあります。",
-          "alias": "cambio-te-narimasu"
+          "alias": "cambio-estado-narimasu"
         },
         {
           "oracion": "1981年から、店で荷物を送ることができます。",
@@ -4604,7 +4866,41 @@
         "usos-forma-te",
         "protocolo-subordinacion"
       ],
-      "nivel": "A2.2"
+      "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "畳は日本の家にあります。",
+          "alias": "verbos-existencia"
+        },
+        {
+          "oracion": "歴史が長くて、作り方も特別です。",
+          "alias": "combinar-adjetivos"
+        },
+        {
+          "oracion": "人々は畳を運んで使っていました。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "その後、畳を使う人が多くなりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "今は昔より畳の部屋が少なくなりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "畳の部屋で休むこともできます。",
+          "alias": "verbo-dekimasu"
+        },
+        {
+          "oracion": "畳は日本の大切な文化です。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "これからも畳のある暮らしを大切にしたいです。",
+          "alias": "verbo-tai"
+        }
+      ]
     }
   },
   {
@@ -4955,7 +5251,41 @@
         "usos-forma-te",
         "particula-ga"
       ],
-      "nivel": "A2.2"
+      "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "ごはんをにぎって作ります。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "昔の本にも、おにぎりが出ています。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "おにぎりには、二つの名前があります。",
+          "alias": "verbos-existencia"
+        },
+        {
+          "oracion": "名前は違いますが、同じ食べ物です。",
+          "alias": "conjuncion-adversativa-ga"
+        },
+        {
+          "oracion": "おにぎりは、一人で食べることもありますが、みんなで分けて食べることが多いです。",
+          "alias": "conjuncion-adversativa-ga"
+        },
+        {
+          "oracion": "だから、地震の後で人が困っているとき、みんなでおにぎりを作って、あげます。",
+          "alias": "dar-recibir-agemasu-moraimasu"
+        },
+        {
+          "oracion": "中には、梅干しや魚など、いろいろな具が入っています。",
+          "alias": "conjuncion-enumerativa-ya"
+        },
+        {
+          "oracion": "おにぎりは、世界でも有名になりました。",
+          "alias": "cambio-estado-narimasu"
+        }
+      ]
     }
   },
   {
@@ -6034,6 +6364,40 @@
         "particula-ga"
       ],
       "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "だから、女は庭に入ることができませんでした。",
+          "alias": "verbo-potencial"
+        },
+        {
+          "oracion": "女は毎日そう思っていたので、気分がとても悪くなりました。",
+          "alias": "frases-causa-node"
+        },
+        {
+          "oracion": "ラプンツェルは大きくなって、すごく可愛い女の子になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "12歳になったとき、魔女はラプンツェルを高い塔に入れました。",
+          "alias": "tokio-pasado"
+        },
+        {
+          "oracion": "ラプンツェルはとても長い髪をしていました。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "王子は立って、歌を聞きました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "塔の下を探しましたが、上に行く道はありませんでした。",
+          "alias": "conjuncion-adversativa-ga"
+        },
+        {
+          "oracion": "すごく悲しかったです。",
+          "alias": "pasado-adjetivos"
+        }
+      ],
       "texto": "魔女と赤ちゃん\n昔、とても仲のいい男と女がいました。二人は夫婦でした。でも、二人には赤ちゃんがいませんでした。女はいつも赤ちゃんが欲しいと思っていました。家の奥に小さな窓がありました。そこから庭を見ました。庭にはたくさんの野菜がありました。その庭はすごく素敵でした。でも、その庭は魔女のものでした。だから、だれも庭に入りませんでした。魔女はとても強い人でした。世界の人はみんな魔女を怖がっていました。\n\nある日、女は窓から庭の野菜を見て、「あの野菜を食べたいです。すごく食べたいです」と言いました。でも、庭は魔女のものでした。だから、女は庭に入ることができませんでした。女は毎日そう思っていたので、気分がとても悪くなりました。\n\n男は女をとても愛していました。だから、男は夕方になったとき、魔女の庭に入りました。男は野菜をたくさん取りました。そして、女にあげました。女はすぐに野菜を食べました。すごくおいしかったです。次の日、女は「もっと食べたいです」と言いました。そして、次の日も、夕方になったとき、男は庭に入りました。\n\nでも、そのとき、魔女が男の前に立っていました。魔女は「よくも私の庭で野菜を取ったですね。泥棒です」と怒りました。男は怖くなって、「ごめんなさい。女はとても病気です。この野菜を食べたいと言っています。だから、庭に入りました」と言いました。\n\nそれで、魔女は怒りをやめました。「庭の野菜を取ってもいいですよ。でも、一つだけ約束があります。赤ちゃんが家に来るとき、私にください。とても大切にします」と言いました。\n\n男は怖くて、魔女に「はい」と言いました。それから時間がたちました。女は赤ちゃんを産みました。魔女はすぐに男の家に来ました。赤ちゃんの名前はラプンツェルになりました。魔女はラプンツェルを連れて行きました。\n\n\n---\n\n塔の中のラプンツェル\nラプンツェルは大きくなって、すごく可愛い女の子になりました。12歳になったとき、魔女はラプンツェルを高い塔に入れました。塔には窓が一つだけありました。魔女は塔の下に行きました。「ラプンツェル、髪を下ろしてください」と言いました。ラプンツェルはとても長い髪をしていました。ラプンツェルは窓から髪を下ろしました。魔女はその髪を持って、上に登りました。\n\n時間がたちました。ある日の夕方、王子が山の近くを歩いていました。そのとき、塔から素敵な歌が聞こえました。王子は立って、歌を聞きました。それはラプンツェルの歌でした。ラプンツェルは一人でした。毎日、一人で歌を歌っていました。\n\n王子は毎晩、山へ行って、歌を聞きました。塔の下を探しましたが、上に行く道はありませんでした。ある夜、王子は山で待っていました。魔女が来て、「ラプンツェル、髪を下ろしてください」と言いました。そして、ラプンツェルは窓から髪を下ろしました。魔女はその髪を持って、上に登りました。王子は「僕もあの髪で上に登りたい」と思いました。\n\n次の日、夜になったとき、王子は塔の下に行きました。「ラプンツェル、髪を下ろしてください」と言いました。髪を下ろしたので、王子は上に登りました。\n\nラプンツェルは初めて人が来たので、とても怖がりました。でも、王子はとても若くて、かっこいい人でした。二人はよく話しました。ラプンツェルは怖くなくなりました。王子は「僕と一緒に住んでください」と言いました。ラプンツェルは「はい。でも、塔を出ることができません」と言いました。王子は「毎晩、僕が塔に登ります。魔女は朝に来るから、夜に会いましょう」と言いました。\n\n\n---\n\nまた会った二人\nそれから、王子は毎晩ラプンツェルに会いました。魔女は何も気がつきませんでした。ある日、ラプンツェルは魔女に言いました。「おばさん、あなたは重いです。だから、上に登るとき、髪がすごく重かったです」。魔女は「あなたは王子と話したのでしょう。悪い子ですね」と怒りました。魔女はラプンツェルの長い髪を切りました。そして、ラプンツェルを遠い山に連れて行きました。ラプンツェルはそこで一人で生活しました。すごく悲しかったです。\n\nその日、魔女は切った髪を窓の側に置きました。夜、王子が来ました。「ラプンツェル、髪を下ろしてください」と言いました。髪を下ろしたので、王子は上に登りました。でも、そこには魔女がいました。「もうラプンツェルはここにいません。あなたはもうラプンツェルに会いません」と言いました。王子はすごく悲しくて、塔の上から落ちました。王子は助かりました。でも、王子の目は、もう何も見ることができなくなりました。王子は毎日、山の中を歩きました。ラプンツェルのことを、いつも思い出していました。\n\n長い時間がたちました。ある日、王子は遠い山で歌が聞こえました。それはラプンツェルの歌でした。王子は歌の場所に行きました。ラプンツェルには、男の子と女の子の赤ちゃんがいました。ラプンツェルは王子の名前を言いました。ラプンツェルが王子の顔に触ったとき、王子の目はなおりました。二人はすごく嬉しかったです。二人は王子の国に帰りました。二人は仲よく、すごく楽しく住みました。\n",
       "textoEs": "La bruja y el bebé\nHace mucho tiempo vivían un hombre y una mujer que se llevaban muy bien. Eran un matrimonio. Pero el matrimonio no tenía bebé. La mujer siempre pensaba que quería un bebé. En el fondo de la casa había una ventana pequeña. Desde allí veía el jardín. En el jardín había muchas verduras. Ese jardín era estupendo. Pero ese jardín era de la bruja. Por eso, nadie entraba en el jardín. La bruja era una persona muy fuerte. La gente del mundo tenía miedo de la bruja.\n\nUn día, la mujer miró desde la ventana las verduras del jardín y dijo: «Quiero comer esas verduras. Las quiero comer muchísimo». Pero el jardín era de la bruja. Por eso, la mujer no podía entrar en el jardín. Como la mujer pensaba eso todos los días, su estado de ánimo se puso muy malo.\n\nEl hombre quería mucho a la mujer. Por eso, cuando llegaba el atardecer, el hombre entraba en el jardín de la bruja. El hombre cogió muchas verduras. Y se las dio a la mujer. La mujer comió las verduras en seguida. Estaban muy buenas. Al día siguiente, la mujer dijo: «Quiero comer más». Y al día siguiente también, cuando llegaba el atardecer, el hombre entraba en el jardín.\n\nPero en ese momento, la bruja estaba de pie delante del hombre. La bruja dijo, enfadada: «Vaya, has cogido verduras de mi jardín. Eres un ladrón». El hombre, asustado, dijo: «Lo siento. La mujer está muy enferma. Dice que quiere comer estas verduras. Por eso, he entrado en el jardín».\n\nEntonces, la bruja dejó de enfadarse. «Puedes coger las verduras del jardín. Pero solo tengo una promesa. Cuando un bebé venga a vuestra casa, dádmelo. Lo cuidaré mucho», dijo.\n\nEl hombre, asustado, le dijo «sí» a la bruja. Con el tiempo pasó. La mujer dio a luz un bebé. La bruja vino en seguida a casa del hombre. El nombre del bebé pasó a ser Rapunzel. La bruja se llevó a Rapunzel.\n\n\n---\n\nRapunzel en la torre\nRapunzel creció y se convirtió en una niña muy linda. Cuando cumplió 12 años, la bruja metió a Rapunzel en una torre alta. En la torre solo había una ventana. La bruja fue al pie de la torre. «Rapunzel, suelta el pelo, por favor», dijo. Rapunzel tenía el pelo muy largo. Rapunzel soltó el pelo desde la ventana. La bruja se agarró a ese pelo y subió.\n\nPasó el tiempo. Una tarde, el príncipe caminaba cerca de la montaña. En ese momento, se oía una canción estupenda desde la torre. El príncipe se quedó de pie y escuchó la canción. Esa era la canción de Rapunzel. Rapunzel estaba sola. Todos los días cantaba sola.\n\nEl príncipe iba todas las noches a la montaña y escuchaba la canción. Buscaba al pie de la torre, pero no había camino para subir. Una noche, el príncipe esperaba en la montaña. Vino la bruja y dijo: «Rapunzel, suelta el pelo, por favor». Rapunzel soltó el pelo desde la ventana. La bruja se agarró a ese pelo y subió. El príncipe pensó: «Yo también quiero subir por ese pelo».\n\nAl día siguiente, cuando llegó la noche, el príncipe fue al pie de la torre. «Rapunzel, suelta el pelo, por favor», dijo. Como se soltó el pelo, el príncipe subió.\n\nComo era la primera vez que venía alguien, Rapunzel tuvo mucho miedo. Pero el príncipe era una persona muy joven y guapa. Los dos hablaron mucho. Rapunzel dejó de tener miedo. El príncipe dijo: «Vive conmigo, por favor». Rapunzel dijo: «Sí. Pero no puedo salir de la torre». El príncipe dijo: «Cada noche subo a la torre. Como la bruja viene por la mañana, encontremosnos por la noche».\n\n\n---\n\nLos dos se encontraron otra vez\nDesde entonces, el príncipe se veía con Rapunzel todas las noches. La bruja no se enteró de nada. Un día, Rapunzel le dijo a la bruja: «Señora tía, usted es pesada. Por eso, cuando sube, el pelo era muy pesado». La bruja se enfadó y dijo: «¿Le hablaste al príncipe? Niña mala». La bruja le cortó el pelo largo a Rapunzel. Y se llevó a Rapunzel a una montaña lejana. Rapunzel vivió allí sola. Estaba muy triste.\n\nEse día, la bruja puso el pelo cortado junto a la ventana. De noche vino el príncipe. «Rapunzel, suelta el pelo, por favor», dijo. Como se soltó el pelo, el príncipe subió. Pero allí estaba la bruja. «Rapunzel ya no está aquí. Ya no la verás nunca más», dijo. El príncipe, muy triste, se cayó desde lo alto de la torre. El príncipe se salvó. Pero los ojos del príncipe ya no pudieron ver nada. El príncipe caminaba todos los días por el interior de la montaña. Siempre recordaba a Rapunzel.\n\nPasó mucho tiempo. Un día, el príncipe oyó una canción en una montaña lejana. Esa era la canción de Rapunzel. El príncipe fue al lugar de la canción. Rapunzel tenía un bebé niño y una bebé niña. Rapunzel dijo el nombre del príncipe. Cuando Rapunzel tocó el rostro del príncipe, los ojos del príncipe se curaron. Los dos estaban muy contentos. Los dos volvieron al país del príncipe. Los dos vivieron en buena armonía y muy alegremente.\n"
     }
@@ -6427,7 +6791,41 @@
         "frases-causa-node",
         "conjetura-deshou"
       ],
-      "nivel": "A2.2"
+      "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "だんごは、日本で昔からあるお菓子です。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "これが、だんごの始まりでしょう。",
+          "alias": "conjetura-deshou"
+        },
+        {
+          "oracion": "笹団子は、だんごを笹の葉で包んで、ひもで結んだものです。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "新潟の人は、五百年ぐらい前から笹団子を食べています。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "笹の葉の中のだんごは、長い間悪くなりません。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "だから、昔の人は、旅行のとき、笹団子を持って行ったでしょう。",
+          "alias": "conjetura-deshou"
+        },
+        {
+          "oracion": "そのとき、笹団子は大会のお土産になって、とても有名になりました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "冷凍の笹団子もあるので、外国にも送っています。",
+          "alias": "frases-causa-node"
+        }
+      ]
     }
   },
   {
@@ -8425,6 +8823,36 @@
         "conjetura-deshou"
       ],
       "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "城には二人の侍が働いていました。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "悪いこともする人でした。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "それからカツノをハチヤにあげるそうです」。",
+          "alias": "noticia-sou"
+        },
+        {
+          "oracion": "秋になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "城の人は水を持って、来ました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "誰がしたのでしょう」。",
+          "alias": "conjetura-deshou"
+        },
+        {
+          "oracion": "あの男は悪いことをしたのです。",
+          "alias": "razon-n-desu"
+        }
+      ],
       "texto": "一　二人の侍\nむかし、むかしの話です。あるところに大きい城がありました。城には二人の侍が働いていました。名前はシチロウエモンとハチヤです。\n\nシチロウエモンは年をとっていました。年は五十二でした。体は大きくて、力がありました。殿様の右の者で城で大きな仕事をしていました。お金もたくさん、持っていました。でもいつも悪い夢を見て、夜はよく、起きていました。\n\n城の人は皆、シチロウエモンが怖かったです。部下をよく、怒りました。自分の言葉が殿様の言葉でした。そう、思っていました。\n\nもう一人の侍、ハチヤは若くて、まじめでした。農家の子です。前から本をよく、読みました。城でも毎日、まじめに働きました。殿様はハチヤをとても好きでした。殿様の奥さんはいつも言いました。「ハチヤはいい人です。もう、一人はよくありません。いい女の人をあげましょう」。そう、城の人は話していました。\n\nその「いい女の人」はカツノです。カツノは殿様の奥さんの隣で働いていました。年は十九でした。顔は素敵で料理も上手で皆、カツノが好きでした。ハチヤもカツノが好きでした。カツノもハチヤが好きでした。二人はもう、結婚することになっていました。\n\nこの話をシチロウエモンは聞きました。シチロウエモンも前からカツノが好きでした。でもカツノはシチロウエモンを選びませんでした。それなのにハチヤにあげるのです。そして、ハチヤはもう、シチロウエモンの上に立つのです。「農家の子の、あのハチヤに負けるのですか。こんなことよくありません。ハチヤは殺さなければ、なりません」。\n\nその夜、シチロウエモンは部屋に居ました。一人で何も言いませんでした。そこへ女が来ました。名前はオートラです。オートラも城で働いていました。年をとっていました。お金が好きでした。悪いこともする人でした。殿様のことも女の人たちのこともよく、知っていました。だからシチロウエモンはオートラに会いました。\n\n「シチロウエモンさん。顔が赤いですね。どうしましたか」。\n「ハチヤのことを聞いていますか。とても怒りました」。\nオートラは笑いました。「よく、知っています。では話します。でもお金が要ります」。\n「ではお金はあげます」。シチロウエモンはお金を出しました。\nオートラは言いました。「殿様はハチヤを右の者にします。それからカツノをハチヤにあげるそうです」。\n「そうですか。そうなんですか」。\n「そうです。女の人たちが皆、そう言います」。\n\nシチロウエモンは立ちました。「ハチヤは殺さなければ、なりません。そうして、初めて、いい夢を見ます」。オートラは言いました。「私が上手にします。心配しないでください」。「ではそうします。上手にしてください」。\n\n部屋はもう、何もありませんでした。二人は何も言いませんでした。\n\n\n---\n\n二　結婚の約束\n秋になりました。城の庭は素敵で葉が赤くなっていました。白いものもたくさん、ありました。天気は晴れでした。\n\nハチヤとカツノはその日に結婚の約束をしました。二人はお酒を飲みました。殿様と奥さんも座っていました。殿様は言いました。「ハチヤ。いい女の人です。大切にしてください」。ハチヤは「はい」と言いました。「まじめに働きます。カツノを大切にします」。カツノは「はい」と言いました。「私もハチヤを大切にします」。皆、「おめでとう、おめでとう」と言いました。\n\nでも庭の中でシチロウエモンが立っていました。顔で二人を見ていました。顔は赤くなっていました。でもとても苦しかったです。「ハチヤ。あなたはもう、終わりだ。私が殺します。カツノはあなたにはあげません。私のものにします」。オートラもシチロウエモンの隣に立っていました。「シチロウエモンさん。もう、怒らないでください。怒ってはいけません。でも心配しないでください。私が上手にします」。\n\n\n---\n\n三　火事の夜\nある夜、ハチヤの家が火事になりました。火事は大きく、なりました。城の人は水を持って、来ました。でも火事はまだ、大きく、ありました。ハチヤは家の中へ入りました。「殿様の言葉が書いてあります。それを取りに入ります」。そう、言いました。家の中は熱く、ハチヤは大切なものを探しました。それから家を出ました。家の前から一人の男が出て来ました。男は長い刀を持っていました。ハチヤを見て、言いました。「ハチヤさん。よく来ましたね。もう、終わりです」。男は刀でハチヤを刺しました。ハチヤは倒れて、死にました。家の火事は朝まで大きく、ありました。\n\n男は何も言いませんでした。それから町の方へ行きました。\n\n\n---\n\n四　カツノの決心\nその次の朝、殿様はハチヤの死を聞きました。「ハチヤが死にました」。殿様はしばらく、何も言いませんでした。それから言いました。「ハチヤはいい人でした。誰がしたのでしょう」。\n\n右の者は言いました。「ハチヤの、下に一つの刀がありました。それは有名な刀です。殿様も知っています。あの刀はシチロウエモンが持っています。皆、知っています」。\n\n殿様は男を呼んで聞きました。「家の、前で居た男です。誰に言われたのですか」。男は答えました。「シチロウエモンに言われました。シチロウエモンは「ハチヤの家を火事にしなさい」と言いました」。\n\nシチロウエモンはもう、城に居ませんでした。隣の国の、大きい城へ行きました。隣の国の殿様はシチロウエモンを大切にしています。だからもう、何もできません。オートラももう、城に居ませんでした。\n\nカツノはとても悲しみました。もう、食べませんでした。いつも部屋に居ました。\n\n殿様はカツノを呼んで言いました。「とても悲しみました。でももう、悲しんでいるのは終わりにしましょう。早く、あの男を殺しに行きましょう」。\nカツノは言いました。「殿様。私に行って、ください。私が行って、殺します」。\n殿様は笑いました。「あなたは女の人です。一人で行くなんて、そんなことできません」。\n「できます。できます。どうぞ、行って、ください」。\n殿様はしばらく、何も言いませんでした。それから小さな刀を出しました。「これはハチヤを刺した刀です。有名な刀です。シチロウエモンが知っている刀です。この刀を持って、行ってください。そして、あの男に会って、この刀を刺してください」。\nカツノは刀を持ちました。「はい。殺します。いつでも死にます。でも殺します」。\n「殿様、ありがとうございました。では失礼します」。カツノは部屋を出ました。顔は元気でした。もう、何も望みはありませんでした。\n\n\n---\n\n五　隣の国へ\nカツノは女の服で一人で城を出ました。名前も別の名前にしました。隣の国まで歩きました。隣の国に大きい城と町がありました。町の中に農家がありました。農家はカツノのおじさんの、家でした。\n\nある日、城の殿様の男の子が町から帰って、農家に座りました。カツノはお茶を出しました。「いい人ですね。どこで働いて、いますか」。\n「私はお城で働いて、います。奥さんを助けたいと思っています」。\n男の子は言いました。「私の母は奥さんです。いつも「いい女の人を探しています」と言います。あなたはどうですか」。\nカツノは「はい」と言いました。「したいです。とてもしたいです」。\n男の子は喜びました。「では城へ来てください。母に会ってください」。\n\n早く、城へ行きました。奥さんはカツノを見て、言いました。「いい人ですね。いい顔です。ではここで働いてください」。カツノは喜んで「はい」と答えました。それから毎日、奥さんを助けました。奥さんはカツノを好きになりました。「いい人ですね。上手に働きますね」。城の人も皆、カツノが好きでした。\n\nでもカツノはいつも思っていました。「シチロウエモンはどこに居るでしょう。この城に居るでしょう。いつか会います」。\n\n春になりました。城の庭に桜が咲きました。白くて、素敵でした。城の人は庭を見て、喜びました。カツノも庭を見て、思いました。「素敵です。でもハチヤのことを思います」。\n\nある朝、城の人が庭を掃除していました。「今日は何をしますか。多くのお客が来て、いますね」。奥さんは答えました。「明日、弓の大会があります。侍が多く、来ます。皆、弓を上手に使います。歩いて、上手にします」。「侍は皆、来ますか」。奥さんは笑いました。「皆、来ます。殿様も来ます。あなたは弓が好きですか」。「いいえ。父が好きでした。前から弓を見たことがありました。だから少し、知っています」。\n\n奥さんは書いてあるものを出しました。「ではこれを見てください。来る侍の、名前が書いてあります」。カツノはそれを持ちました。上から下まで読みました。名前がありました。「シチロウエモン」。カツノはまた、読みました。「シチロウエモン」。はい、シチロウエモンです。「ついに来ます。もう、待ちません」。\n\nその夜、カツノは起きていました。小さな刀を持ちました。「ハチヤ。明日、会います。明日、殺します。もう、待ってください」。\n\n\n---\n\n六　桜の日\nその次の日、天気は晴れでした。庭の中は素敵でした。お客が多く、座っていました。殿様と奥さんも座っていました。カツノは奥さんの隣に立っていました。服の中に小さな刀を持って、いました。\n\n侍が一人で出て来ました。また、一人で出て来ました。庭の中を歩きました。それから立って、弓を使いました。お客は「いいですね。いいですね」と言いました。音は大きく、聞こえました。\n\nカツノは一人で思いました。「今日かもう、ありません。今日、必ず、会います。今日が最後です」。八幡様。どうぞ、私を助けてください。今日一日を助けてください。そう、祈りました。誰にも聞こえませんでした。\n\n侍は五十三人目でシチロウエモンが出て来ました。白い服でした。大きな人でした。顔は赤くて、髪は白くなっていました。シチロウエモンは庭の中をよく、歩きました。それから殿様の前へ来ました。みんなに聞こえるように名前を言いました。「シチロウエモン」。\n\n「シチロウエモン。待ってください」。カツノは前に出ました。城の人は皆、カツノを見ました。奥さんも見ました。カツノは聞こえるように言いました。「私はハチヤと結婚することになっていました。あなたはハチヤを殺しました。私はそのお返しに来ました。ではさようなら」。カツノは小さな刀を出し、シチロウエモンを刺しました。シチロウエモンは下に倒れて、死にました。カツノは聞こえるように言いました。「ハチヤ。やりました。お返しをしました」。\n\nそのあと白い桜が一つ、降って、刀の上にありました。皆、何も言いませんでした。庭には桜がまだ、ありました。\n\n\n---\n\n七　奥さんのお願い\n隣の国の殿様はカツノを城の部屋に入れました。部屋の前に侍が座っていました。カツノは逃げませんでした。もう、何も望みはありませんでした。いつでも死ぬと思っていました。でも顔は元気でした。「もう、いいです。ハチヤの、お返しをしました。もう、何もありません」。\n\nその夜、奥さんが一人で来ました。部屋へ入って、座りました。「カツノ。部屋を素敵にしましたね。もう、元気ですか」。\n「はい。奥さん。ありがとう。あなたが来ました。もう、何も望みはありません。いつでも死にます」。\n「死なないでください。あなたはいい人です。そんなことよくありません」。\n「でも奥さん。私はもう、何もありません。お寺へ行って、毎日、祈りたいです。亡くなったハチヤを思って、祈りたいです。それが私の、願いです」。\n奥さんはしばらく、何も言いませんでした。それから言いました。「そんな、考えはよくありません。あなたは若いです。あなたの、家が終わります。そうしてはいけません。もう一度、いい人と結婚してください」。\n「いいえ。そんなことできません」。\n「いいえ、できます。私の親戚に若い侍が居ます。年は二十七でした。いい人で上手に働いて、います。あなたはどうですか」。\nカツノはしばらく、何も言いませんでした。「奥さんの言うとおりにします。あなたが正しいと言うならそうします」。\n「そうですか。嬉しいです。では今夜、逃げてください。部屋の前に居た侍を部屋から出しました。町に人が待っています。早く、行ってください」。\n「私は逃げません。死にます」。\n「かならず、逃げてください。これは奥さんの、言うことです。死んではいけません」。\n\nカツノは「はい」と言いました。「逃げます。奥さん、ありがとうございました」。奥さんは手紙を出しました。「これは手紙です。開けてください。隣の国へ行ってください」。カツノは手紙を持って、部屋を出ました。城を出ました。夜の中を歩きました。朝になりました。手紙を見ました。若い侍のことと殿様のことが書いてありました。若い侍はカツノを待っていました。\n\n\n---\n\n八　もう一つの城\nカツノは隣の国の、若い侍と結婚しました。年は二十七でした。いい人でした。上手に働いて、いました。殿様は二人を好きでした。「いいことをしましたね。私は二人を助けます。心配しないでください」。\n\nでもシチロウエモンに兄がいました。侍として、有名でした。体は大きくて、強い人でした。兄は殿様の前に来て、言いました。「弟が女に殺されました。これは大きいことです。弟のことはもう、終わりません。私も仕事ができません。どうぞ、あの女を出して、ください」。\n\n殿様は言いました。「いいえ。出しません。あの女はいい女の人です。この国でそう思うような女は多くありません。シチロウエモンはよく、しませんでした。ハチヤを殺して、家を火事にしました。あの男は悪いことをしたのです。もう、いいです。私はいい女の人を助けます。出しません」。\n\n兄は怒りました。とても怒りました。でももう、何もできませんでした。いつも何も言いませんでした。夜もよく、起きていました。\n\n秋の日でした。カツノは庭に立っていました。若い侍は城に行って、いました。若い女の人も隣に居ました。\n\n一人の女が庭へ入って来ました。年をとっていました。オートラでした。「カツノさん。会えて、嬉しいです。久しぶりです」。カツノは言いました。「オートラ。あなたはここに住みませんか」。「いいえ。この町に来ました。今日は時間がありませんからまた、来ます。ではさようなら」。オートラは急いで行きました。カツノはオートラの後ろを見ました。「オートラは悪い人の、友達です。よくも来ましたね」。\n\nそのあとで庭の中で弓の音が聞こえました。カツノは早く、下に座りました。隣の女の人も立ちました。「あそこに人が居ます。早く、早く」。若い侍たちは出て来て、庭の中へ行きました。弓が二つ、ありました。でももう、人は居ませんでした。\n\n\n---\n\n九　四つの手紙\n若い侍たちは二人の男に会いました。「ここに来てください」と言いました。「話してください。誰に言われたのですか」。男は答えました。「シチロウエモンの兄に言われました。兄は「カツノを殺してきてください」と言いました。オートラは私たちの、知っている女です。オートラは前に行きました。そして、私たちはあとから行きました」。\n\n隣の国の殿様は言いました。「二人は悪い人です。町の人に悪いことをします。だから二人を殺しました。町の人は皆、そう、思ってください」。\n\nシチロウエモンの兄は怒りました。とても怒りました。殿様の前に行って、言いました。「もう、喧嘩をしましょう。そうして、初めて、弟が喜びます」。でも殿様は「喧嘩はしません。でも喧嘩になるなら勝ちます。心配しないでください」と言いました。\n\n城と城が喧嘩になりそうです。町の人は皆、心配しました。\n\nカツノは聞きました。そして、思いました。「この喧嘩は私の、したことです。私はもう、死にました。でも私は死にます。私が死ぬなら喧嘩は終わります。そうすれば、町の人は喜びます」。\n\n冬の夜でした。夜はとても寒かったです。城の中は何も聞こえませんでした。若い侍は起きていませんでした。カツノは起きて、小さな刀を出しました。四つの手紙を書きました。それから小さな刀で死にました。年は二十二でした。\n\n一つ目の手紙はもう一つの城の殿様への手紙です。「殿様。お礼を言いたいです。でも言葉は足りません。あなたは私にたくさん、してもらいました。もう、何も心配、しないでください。どうぞ、元気でいてください」。\n\n二つ目の手紙は若い侍への手紙です。「あなたは私を大切に思いました。あなたと居て、嬉しかったです。ありがとう。もう、悲しまないでください」。\n\n三つ目の手紙は奥さんへの手紙です。「奥さん。あなたは私の、いい友達です。あの夜、私の部屋へ来ました。そして、「逃げてください」と言いました。あなたがなければ、私はもう、死んでいました。でももう、こうして、死にます。どうぞ、元気でいてください」。\n\n四つ目の手紙は昔の殿様への手紙です。「殿様。昔からいろいろ、してもらいました。カツノは悪い女の人ですか。でももう、終わりです。どうぞ、元気でいてください。そして、もう、悲しまないでください」。\n\nカツノの手紙は四つ、ありました。城の人は皆、カツノを思っていました。「いい女の人でした。でももう、ありません。カツノのことはいつも思っています」。\n",
       "textoEs": "Los dos samuráis\nÉrase una vez, hace mucho tiempo. En un lugar había un castillo grande. En el castillo trabajaban dos samuráis. Se llamaban Shichirōemon y Hachiya.\n\nShichirōemon era ya mayor. Tenía cincuenta y dos años. Era grande y tenía fuerza. Era el hombre de confianza del señor feudal y en el castillo hacía un trabajo importante. También tenía mucho dinero. Pero siempre tenía malos sueños y por la noche se despertaba a menudo.\n\nTodos tenían miedo de Shichirōemon. Se enfadaba a menudo con sus subordinados. Pensaba que sus propias palabras eran las palabras del señor. Así lo pensaba.\n\nEl otro samurái, Hachiya, era joven y serio. Era hijo de una familia campesina. Desde tiempo atrás leía muchos libros. En el castillo también trabajaba serio todos los días. Al señor le gustaba mucho Hachiya. La esposa del señor siempre decía: «Hachiya es buena persona. Que siga soltero ya no está bien. Le daremos a una buena mujer». Así lo decía la gente del castillo.\n\nEsa «buena mujer» era Katsuno. Katsuno trabajaba junto a la esposa del señor. Tenía diecinueve años. Era muy guapa y, además, buena cocinera, y todos querían a Katsuno. A Hachiya también le gustaba Katsuno. A Katsuno también le gustaba Hachiya. Los dos ya iban a casarse.\n\nShichirōemon oyó esa historia. Shichirōemon también quería a Katsuno desde hacía tiempo. Pero Katsuno no lo eligió. Pese a eso, la dan a Hachiya. Y Hachiya ya se pone por encima de Shichirōemon. «¿Perder ante aquel Hachiya, el hijo de un campesino? Esto no está bien. Hay que matar a Hachiya».\n\nAquella noche Shichirōemon estaba en su habitación. Estaba solo y no decía nada. En ese momento vino una mujer. Se llamaba Ōtora. Ōtora también trabajaba en el castillo. Era mayor. Le gustaba el dinero. Era una persona que hacía cosas malas. Sabía bien lo del señor y lo de las mujeres. Por eso Shichirōemon se encontró con Ōtora.\n\n«Shichirōemon, tiene la cara roja. ¿Qué le pasa?».\n«¿Ha oído lo de Hachiya? Estoy muy enfadado».\nŌtora se rió. «Lo sé bien. Entonces le contaré. Pero necesito dinero».\n«Entonces le doy dinero». Shichirōemon sacó el dinero.\nŌtora dijo: «El señor va a poner a Hachiya como su hombre de confianza. Y además, se dice que le dará a Katsuno a Hachiya».\n«¿Es así? ¿De verdad es así?».\n«Sí, así es. Todas las mujeres lo dicen así».\n\nShichirōemon se puso de pie. «Hay que matar a Hachiya. Solo así volveré a tener buenos sueños». Ōtora dijo: «Yo lo haré bien. No se preocupe». «Entonces, hágalo así. Hágalo bien».\n\nLa habitación quedó vacía. Ninguno de los dos dijo nada.\n\n\n---\n\nLa promesa de boda\nLlegó el otoño. El jardín del castillo era estupendo y las hojas se habían puesto rojas. También había muchas cosas blancas. El tiempo estaba despejado.\n\nEse día Hachiya y Katsuno hicieron la promesa de boda. Los dos bebieron sake. El señor y su esposa también estaban sentados. El señor dijo: «Hachiya, es buena mujer. Cuídala mucho». Hachiya dijo: «Sí. Trabajaré con seriedad. Trataré bien a Katsuno». Katsuno dijo: «Sí. Yo también trataré bien a Hachiya». Todos dijeron: «¡Felicidades, felicidades!».\n\nPero en el jardín estaba Shichirōemon, de pie. Miraba a los dos con la cara. La cara se le había puesto roja. Pero estaba muy angustiado. «Hachiya, ya has terminado. Yo te mataré. No te daré a Katsuno. La haré mía». Ōtora también estaba de pie junto a Shichirōemon. «Señor Shichirōemon, ya no se enfade. No debe enfadarse. Pero no se preocupe. Yo lo haré bien».\n\n\n---\n\nLa noche del incendio\nUna noche la casa de Hachiya se incendió. El incendio se hizo grande. La gente del castillo vino con agua. Pero el incendio seguía siendo grande. Hachiya entró en la casa. «Las palabras del señor están escritas ahí. Entro a por eso», dijo. El interior de la casa estaba caliente y Hachiya buscó sus cosas importantes. Después salió de la casa. Delante de la casa salió un hombre. El hombre llevaba una espada larga. Miró a Hachiya y dijo: «Señor Hachiya, qué bien que ha venido. Ya se acabó». El hombre apuñaló a Hachiya con la espada. Hachiya cayó y murió. El incendio de la casa siguió siendo grande hasta la mañana.\n\nEl hombre no dijo nada. Después fue hacia el pueblo.\n\n\n---\n\nLa decisión de Katsuno\nA la mañana siguiente el señor se enteró de la muerte de Hachiya. «Hachiya ha muerto». El señor no dijo nada durante un rato. Después dijo: «Hachiya era buena persona. ¿Quién lo habrá hecho?».\n\nEl hombre de confianza dijo: «Debajo de Hachiya había una espada. Es una espada famosa. El señor también la conoce. Esa espada la tiene Shichirōemon. Todos la conocen».\n\nEl señor llamó al hombre y le preguntó: «Eres el hombre que estaba delante de la casa. ¿Quién te lo dijo?». El hombre respondió: «Me lo dijo Shichirōemon. Shichirōemon dijo: \"Haz que la casa de Hachiya se incendie\"».\n\nShichirōemon ya no estaba en el castillo. Fue a un castillo grande del país vecino. El señor del país vecino aprecia mucho a Shichirōemon. Por eso ya no se puede hacer nada. Ōtora ya tampoco estaba en el castillo.\n\nKatsuno se entristeció mucho. Ya no comía. Siempre estaba en la habitación.\n\nEl señor llamó a Katsuno y dijo: «Se ha entristecido mucho. Pero dejemos ya de estar tristes. Váyase pronto a matar a aquel hombre».\nKatsuno dijo: «Señor, déjeme ir a mí. Yo iré y lo mataré».\nEl señor se rió. «Usted es mujer. Ir sola, eso no se puede».\n«Sí que puedo. Sí que puedo. Por favor, déjeme ir».\nEl señor no dijo nada durante un rato. Después sacó una espada pequeña. «Esta es la espada con la que apuñalaron a Hachiya. Es una espada famosa. Es la espada que conoce Shichirōemon. Llévese esta espada. Y cuando se encuentre con aquel hombre, apuñale con esta espada».\nKatsuno tomó la espada. «Sí. Lo mataré. Puedo morir en cualquier momento. Pero lo mataré».\n«Señor, muchas gracias. Entonces, me despido». Katsuno salió de la habitación. Su cara estaba animada. Ya no tenía ninguna esperanza.\n\n\n---\n\nHacia el país vecino\nKatsuno salió sola del castillo con ropa de mujer. También cambió de nombre. Caminó hasta el país vecino. En el país vecino había un castillo grande y un pueblo. En el pueblo había una casa campesina. La casa campesina era la casa del tío de Katsuno.\n\nUn día el hijo del señor del castillo volvió del pueblo y se sentó en la casa campesina. Katsuno sirvió té. «Usted es buena persona. ¿Dónde trabaja?».\n«Trabajo en el castillo. Quiero ayudar a la señora».\nEl niño dijo: «Mi madre es la señora. Siempre dice: \"Estoy buscando a una buena mujer\". ¿Y usted?».\nKatsuno dijo: «Sí. Quiero hacerlo. Lo quiero hacer mucho».\nEl niño se alegró. «Entonces venga al castillo. Conozca a mi madre».\n\nFueron en seguida al castillo. La señora miró a Katsuno y dijo: «Es buena persona. Tiene buena cara. Entonces, trabaje aquí». Katsuno respondió contenta: «Sí». Después ayudó a la señora todos los días. A la señora le cayó muy bien Katsuno. «Es buena persona. Trabaja bien, ¿eh?». La gente del castillo también quería mucho a Katsuno.\n\nPero Katsuno siempre pensaba: «¿Dónde estará Shichirōemon? Estará en este castillo. Algún día me encontraré con él».\n\nLlegó la primavera. En el jardín del castillo florecieron los cerezos. Era blanco y estupendo. La gente del castillo vio el jardín y se alegró. Katsuno también miró el jardín y pensó: «Es estupendo. Pero pienso en Hachiya».\n\nUna mañana la gente del castillo limpiaba el jardín. «¿Qué vamos a hacer hoy? Vienen muchos invitados». La señora respondió: «Mañana hay un torneo de arco. Vienen muchos samuráis. Todos usan bien el arco. Y lo hacen bien caminando». «¿Vienen todos los samuráis?». La señora se rió. «Vienen todos. También viene el señor. ¿A usted le gusta el arco?». «No. A mi padre le gustaba. Ya había visto el arco desde antes. Por eso un poco lo sé».\n\nLa señora sacó lo que estaba escrito. «Entonces, mire esto. Aquí están escritos los nombres de los samuráis que vendrán». Katsuno lo tomó. Lo leyó de arriba abajo. Había un nombre: «Shichirōemon». Katsuno lo leyó otra vez: «Shichirōemon». Sí, Shichirōemon. «Por fin viene. Ya no espero más».\n\nAquella noche Katsuno estaba despierta. Sostenía una espada pequeña. «Hachiya, mañana me encontraré con él. Mañana lo mataré. Espere un poco más».\n\n\n---\n\nEl día de los cerezos\nAl día siguiente el tiempo estaba despejado. El jardín estaba estupendo. Estaban sentados muchos invitados. El señor y su esposa también estaban sentados. Katsuno estaba de pie junto a la señora. Llevaba una espada pequeña dentro de la ropa.\n\nUn samurái salió solo. Otro salió solo. Caminaron por el jardín. Después, de pie, usaron el arco. Los invitados decían: «Bien, bien». El sonido se oía fuerte.\n\nKatsuno pensó para sí: «O es hoy o ya no hay más. Hoy me encontraré con él sin falta. Hoy es el último día». Señor Hachiman, ayúdeme, por favor. Ayúdeme a pasar este día entero. Así rezó. Nadie lo oyó.\n\nEl número cincuenta y tres fue Shichirōemon, que salió. Llevaba ropa blanca. Era un hombre grande. Tenía la cara roja y el pelo se le había puesto blanco. Shichirōemon caminó bien por el jardín. Después fue delante del señor. Dijo su nombre para que todos lo oyeran: «Shichirōemon».\n\n«Shichirōemon, espere». Katsuno salió al frente. Toda la gente del castillo miró a Katsuno. La señora también la miró. Katsuno dijo para que todos la oyeran: «Yo iba a casarme con Hachiya. Usted mató a Hachiya. He venido en devolución. Pues… adiós». Katsuno sacó la espada pequeña y apuñaló a Shichirōemon. Shichirōemon cayó al suelo y murió. Katsuno dijo para que todos la oyeran: «Hachiya, lo he hecho. He devuelto el favor».\n\nDespués cayó una flor blanca de cerezo y quedó sobre la espada. Nadie dijo nada. En el jardín aún había cerezos.\n\n\n---\n\nLa petición de la señora\nEl señor del país vecino metió a Katsuno en una habitación del castillo. Delante de la habitación estaba sentado un samurái. Katsuno no huyó. Ya no tenía ninguna esperanza. Pensaba que moriría en cualquier momento. Pero su cara estaba animada. «Basta. He devuelto el favor a Hachiya. Ya no queda nada más».\n\nAquella noche la señora vino sola. Entró en la habitación y se sentó. «Katsuno, la habitación está estupenda, ¿eh? ¿Ya se encuentra bien?».\n«Sí. Señora, gracias. Gracias a que usted ha venido. Ya no tengo ninguna esperanza. Puedo morir en cualquier momento».\n«No muera, por favor. Usted es buena persona. Eso no está bien».\n«Pero señora, ya no tengo nada. Quiero ir al templo y rezar todos los días. Quiero rezar pensando en Hachiya, que ha muerto. Ese es mi deseo».\nLa señora no dijo nada durante un rato. Después dijo: «Esa idea no está bien. Usted es joven. Su familia se acabará. No debe hacer eso. Casese otra vez con una buena persona».\n«No. Eso no puedo hacerlo».\n«Sí, sí puede. Tengo un pariente joven que es samurái. Tiene veintisiete años. Es buena persona y trabaja bien. ¿Y usted?».\nKatsuno no dijo nada durante un rato. «Haré según dice la señora. Si usted dice que es correcto, lo haré así».\n«¿Sí? Me alegro. Entonces, escape esta noche. He hecho salir al samurái que estaba delante de la habitación. Hay gente esperando en el pueblo. Vaya en seguida».\n«Yo no huyo. Voy a morir».\n«Escape sí o sí. Esto lo dice la señora. No debe morir».\n\nKatsuno dijo: «Sí. Escapo. Señora, muchas gracias». La señora sacó una carta. «Esta es una carta. Ábrala. Vaya al país vecino». Katsuno tomó la carta y salió de la habitación. Salió del castillo. Caminó por la noche. Llegó la mañana. Miró la carta. Estaban escritas cosas del joven samurái y del señor. El joven samurái esperaba a Katsuno.\n\n\n---\n\nOtro castillo\nKatsuno se casó con el joven samurái del país vecino. Tenía veintisiete años. Era buena persona. Trabajaba bien. El señor quería a los dos. «Han hecho una buena cosa. Yo ayudaré a los dos. No se preocupen».\n\nPero Shichirōemon tenía un hermano mayor. Era famoso como samurái. Era un hombre grande y fuerte. El hermano mayor fue delante del señor y dijo: «Mi hermano menor fue matado por una mujer. Esto es algo grande. Lo de mi hermano menor no termina. Yo tampoco puedo trabajar. Por favor, entregue a esa mujer».\n\nEl señor dijo: «No. No la entrego. Esa mujer es buena mujer. En este país no hay muchas mujeres así. Shichirōemon no se portó bien. Mató a Hachiya e incendió la casa. Ese hombre hizo cosas malas. Ya está. Yo ayudo a la buena mujer. No la entrego».\n\nEl hermano mayor se enfadó. Se enfadó mucho. Pero ya no podía hacer nada. No decía nada. Y por la noche también se despertaba a menudo.\n\nEra un día de otoño. Katsuno estaba de pie en el jardín. El joven samurái había ido al castillo. Una mujer joven también estaba a su lado.\n\nUna mujer entró en el jardín. Era mayor. Era Ōtora. «Katsuno, me alegra verte. Cuánto tiempo». Katsuno dijo: «Ōtora, ¿no vive usted aquí?». «No. He venido a este pueblo. Hoy no tengo tiempo, así que vendré otra vez. Pues, adiós». Ōtora se fue deprisa. Katsuno miró la espalda de Ōtora. «Ōtora es amiga de la gente mala. ¡Cómo se atreve a venir!».\n\nDespués se oyó el sonido del arco en el jardín. Katsuno se sentó enseguida abajo. La mujer de al lado también se puso de pie. «Hay alguien allí. Rápido, rápido». Los jóvenes samuráis salieron y fueron al jardín. Había dos arcos. Pero ya no había nadie.\n\n\n---\n\nLas cuatro cartas\nLos jóvenes samuráis encontraron a los dos hombres. «Vengan aquí», dijeron. «Háblenos. ¿Quién se lo dijo?». Los hombres respondieron: «Nos lo dijo el hermano de Shichirōemon. El hermano dijo: \"Vayan y maten a Katsuno\". Ōtora es una mujer que conocemos. Ōtora fue primero. Y nosotros fuimos después».\n\nEl señor del país vecino dijo: «Los dos son gente mala. Hacen cosas malas al pueblo. Por eso los maté. Todos los del pueblo deben pensar eso».\n\nEl hermano de Shichirōemon se enfadó. Se enfadó mucho. Fue delante del señor y dijo: «Peleemos ya. Solo así se alegrará mi hermano menor». Pero el señor dijo: «No haré una pelea. Pero si hay pelea, la ganamos. No se preocupe».\n\nSe decía que los dos castillos iban a pelear. Toda la gente del pueblo estaba preocupada.\n\nKatsuno se enteró. Y pensó: «Esta pelea es cosa mía. Yo ya estoy muerta. Pero voy a morir. Si yo muero, la pelea terminará. Así la gente del pueblo se alegrará».\n\nEra una noche de invierno. Hacía muchísimo frío. En el castillo no se oía nada. El joven samurái no estaba despierto. Katsuno se levantó y sacó una espada pequeña. Escribió cuatro cartas. Después murió con la espada pequeña. Tenía veintidós años.\n\nLa primera carta es para el señor del otro castillo. «Señor, quiero darle las gracias. Pero no me bastan las palabras. Usted me ha hecho muchas cosas. Ya no se preocupe de nada. Por favor, que esté bien».\n\nLa segunda carta es para el joven samurái. «Usted me ha valorado. Estar con usted me hizo feliz. Gracias. Ya no se entristezca».\n\nLa tercera carta es para la señora. «Señora, usted es mi buena amiga. Aquella noche vino a mi habitación y dijo: \"Escape\". Si no fuera por usted, yo ya estaría muerta. Pero ahora muero así. Por favor, que esté bien».\n\nLa cuarta carta es para el señor de antes. «Señor, desde hace mucho tiempo me ha hecho muchas cosas. ¿Es Katsuno una mujer mala? Pero ya se acabó. Que esté bien. Y ya no se entristezca».\n\nKatsuno tenía cuatro cartas. Toda la gente del castillo pensaba en Katsuno. «Fue buena mujer. Pero ya no está. Siempre pensamos en Katsuno».\n"
     }
@@ -8920,8 +9348,276 @@
         "noticia-sou"
       ],
       "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "奈良は、日本の古い都です。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "奈良には、古い寺や神社がたくさんあります。",
+          "alias": "verbos-existencia"
+        },
+        {
+          "oracion": "奈良公園では、鹿が歩いています。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "奈良は、歴史が好きな人にいい町だそうです。",
+          "alias": "noticia-sou"
+        },
+        {
+          "oracion": "奈良は古い寺が多いし、歴史も長いです。",
+          "alias": "frases-causa-shi"
+        },
+        {
+          "oracion": "春なら、公園の桜がきれいです。",
+          "alias": "condicional-nara"
+        },
+        {
+          "oracion": "私は一年に二回、奈良へ行きます。",
+          "alias": "frecuencia-n-ni-n-kai"
+        },
+        {
+          "oracion": "奈良で、古い寺を見ることができます。",
+          "alias": "verbo-potencial"
+        }
+      ],
       "texto": "古い都\n奈良は、日本の古い都です。今から1300年前、奈良は「平城京」でした。京都が都になる前、奈良は日本の中心でした。奈良には、古い寺や神社がたくさんあります。「古都奈良の文化財」は、八つの世界遺産です。東大寺、興福寺、春日大社などがあります。\n\n東大寺の大仏は、とても大きいです。奈良公園では、鹿が歩いています。鹿は人を怖がりません。奈良は、歴史が好きな人にいい町だそうです。\n\n\n---\n\n天平の文化\n奈良の歴史は、とても長いです。平城京は、中国の都を見て作った町でした。道はまっすぐでした。たくさんの人が外国から来て、新しい文化が入りました。この文化を「天平文化」と言います。\n\nこの時代、仏教はとても大切でした。奈良には、東大寺や興福寺など、大きい寺があります。唐招提寺は、中国から来た鑑真が作りました。薬師寺も、とても古い寺です。奈良は古い寺が多いし、歴史も長いです。平城京は、今の奈良より大きかったそうです。\n\n\n---\n\n今の奈良\n今の奈良にも、楽しい場所がたくさんあります。奈良公園の近くに「ならまち」があります。ならまちには古い家がたくさんあって、静かな町です。春なら、公園の桜がきれいです。秋なら、山の紅葉がきれいです。\n\n奈良では、一年に一回、一月に「若草山焼き」があります。若草山を焼く大きな行事です。歴史が好きなら、平城京の公園へ行ったほうがいいです。私は一年に二回、奈良へ行きます。奈良へ行くなら、公園を歩いたほうがいいです。鹿に会うことができます。奈良は静かだし、公園もきれいです。奈良で、古い寺を見ることができます。\n",
       "textoEs": "La antigua capital\nNara es una antigua capital de Japón. Hace 1300 años, Nara era «Heijō-kyō». Antes de que Kioto fuera la capital, Nara era el centro de Japón. En Nara hay muchos templos y santuarios antiguos. «Los bienes culturales de la antigua capital de Nara» son ocho patrimonios mundiales. Están el Tōdai-ji, el Kōfuku-ji, el Kasuga Taisha, entre otros.\n\nEl gran Buda del Tōdai-ji es muy grande. En el parque de Nara, los ciervos caminan. Los ciervos no tienen miedo de las personas. Se dice que Nara es una buena ciudad para quien le gusta la historia.\n\n\n---\n\nLa cultura Tenpyō\nLa historia de Nara es muy larga. Heijō-kyō era una ciudad que se construyó fijándose en la capital de China. Las calles eran rectas. Mucha gente vino del extranjero y llegó una nueva cultura. A esta cultura se la llama «cultura Tenpyō».\n\nEn esta época, el budismo era muy importante. En Nara hay templos grandes, como el Tōdai-ji y el Kōfuku-ji. El Tōshōdai-ji lo construyó Ganjin, que vino de China. El Yakushi-ji también es un templo muy antiguo. Nara tiene muchos templos antiguos y además una historia larga. Se dice que Heijō-kyō era más grande que la Nara actual.\n\n\n---\n\nLa Nara de hoy\nTambién en la Nara de hoy hay muchos lugares agradables. Cerca del parque de Nara está «Naramachi». Naramachi tiene muchas casas antiguas y es un barrio tranquilo. Si es primavera, los cerezos del parque son bonitos. Si es otoño, los colores otoñales de la montaña son bonitos.\n\nEn Nara, una vez al año, en enero, hay un «Wakakusa-yaki». Es un gran evento en el que se quema el monte Wakakusa. Si te gusta la historia, es mejor que vayas al parque de Heijō-kyō. Yo voy a Nara dos veces al año. Si vas a Nara, es mejor que camines por el parque. Se pueden encontrar ciervos. Nara es tranquila y además el parque es bonito. En Nara se pueden ver templos antiguos.\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a2.2-s8-sumo"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "相撲の歴史",
+      "tituloEs": "Historia del sumo",
+      "procedencia": "Adaptación educativa en tres capítulos del texto «相撲とは？ルール・歴史・魅力をわかりやすく解説» de 大相撲百科 (https://ozumo.jp/sumo-toha/), a partir de la adaptación de B2.1 s6. Enfoque narrativo: más historia y menos reglas.",
+      "ilustracion": {
+        "escena": "sumo_rekishi",
+        "alt": "Un luchador de sumo de perfil sobre el dohyo, con un torii al fondo y dos espectadores de espaldas en primer plano, bajo el rótulo すもう.",
+        "ruta": "lectura/imagenes/a2.2-s8-sumo.webp"
+      },
+      "modoFurigana": "templado",
+      "furiganaList": [],
+      "nombres_propios": [
+        {
+          "literal": "鎌倉",
+          "lectura": "かまくら",
+          "significado": "Kamakura"
+        },
+        {
+          "literal": "戦国",
+          "lectura": "せんごく",
+          "significado": "Estados Combatientes (periodo Sengoku)"
+        },
+        {
+          "literal": "織田信長",
+          "lectura": "おだのぶなが",
+          "significado": "Oda Nobunaga"
+        },
+        {
+          "literal": "信長",
+          "lectura": "のぶなが",
+          "significado": "Nobunaga"
+        },
+        {
+          "literal": "江戸",
+          "lectura": "えど",
+          "significado": "Edo"
+        },
+        {
+          "literal": "両国",
+          "lectura": "りょうごく",
+          "significado": "Ryōgoku"
+        },
+        {
+          "literal": "国技館",
+          "lectura": "こくぎかん",
+          "significado": "Kokugikan"
+        }
+      ],
+      "preguntas": [
+        "相撲の始まりは、どんな話ですか。",
+        "昔、相撲はどんな行事でしたか。",
+        "織田信長は相撲が好きで、何をしましたか。",
+        "江戸時代に、相撲はどうなりましたか。",
+        "国技館はいつ、どこにできましたか。"
+      ],
+      "preguntasEs": [
+        "¿Cómo es la historia del origen del sumo?",
+        "Antiguamente, ¿qué tipo de acto era el sumo?",
+        "¿Qué hizo Oda Nobunaga, a quien le gustaba el sumo?",
+        "¿Cómo cambió el sumo en la época de Edo?",
+        "¿Cuándo y dónde se construyó el Kokugikan?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "相撲",
+          "lectura": "すもう",
+          "significado": "sumo"
+        },
+        {
+          "literal": "力士",
+          "lectura": "りきし",
+          "significado": "luchador de sumo"
+        },
+        {
+          "literal": "武士",
+          "lectura": "ぶし",
+          "significado": "samurái"
+        },
+        {
+          "literal": "話",
+          "lectura": "はなし",
+          "significado": "historia"
+        },
+        {
+          "literal": "始まり",
+          "lectura": "はじまり",
+          "significado": "origen"
+        },
+        {
+          "literal": "神様",
+          "lectura": "かみさま",
+          "significado": "dios"
+        },
+        {
+          "literal": "米",
+          "lectura": "こめ",
+          "significado": "arroz"
+        },
+        {
+          "literal": "農家",
+          "lectura": "のうか",
+          "significado": "familia campesina"
+        },
+        {
+          "literal": "行事",
+          "lectura": "ぎょうじ",
+          "significado": "acto"
+        },
+        {
+          "literal": "時代",
+          "lectura": "じだい",
+          "significado": "época"
+        },
+        {
+          "literal": "習う",
+          "lectura": "ならう",
+          "significado": "aprender"
+        },
+        {
+          "literal": "集める",
+          "lectura": "あつめる",
+          "significado": "reunir"
+        },
+        {
+          "literal": "お金",
+          "lectura": "おかね",
+          "significado": "dinero"
+        },
+        {
+          "literal": "もらう",
+          "lectura": "もらう",
+          "significado": "recibir"
+        },
+        {
+          "literal": "文化",
+          "lectura": "ぶんか",
+          "significado": "cultura"
+        },
+        {
+          "literal": "形",
+          "lectura": "かたち",
+          "significado": "forma"
+        },
+        {
+          "literal": "決まる",
+          "lectura": "きまる",
+          "significado": "quedar decidido"
+        },
+        {
+          "literal": "国",
+          "lectura": "くに",
+          "significado": "región"
+        },
+        {
+          "literal": "好き",
+          "lectura": "すき",
+          "significado": "gustar"
+        },
+        {
+          "literal": "有名",
+          "lectura": "ゆうめい",
+          "significado": "famoso"
+        }
+      ],
+      "referencias": [
+        "usos-forma-te",
+        "verbo-potencial",
+        "frases-causa-shi",
+        "noticia-sou",
+        "protocolo-subordinacion",
+        "forma-simple"
+      ],
+      "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "相撲の始まりは、とても古い話です。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "昔の本に、二人の神様が相撲をした話があります。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "そのころ、日本では米を作っていました。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "相撲は、農家の大切な行事でした。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "そして、相撲を見て、米がたくさんできると思いました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "鎌倉や戦国の時代には、武士も相撲を習いました。",
+          "alias": "conjuncion-enumerativa-ya"
+        },
+        {
+          "oracion": "武士は相撲をして、強くなりました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "織田信長は相撲がとても好きだったそうです。",
+          "alias": "noticia-sou"
+        },
+        {
+          "oracion": "信長は、いろいろな国から力士を集めて、相撲を見ました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "江戸時代に、相撲はとても楽しい行事になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "力士は相撲でお金をもらうことができましたし、相撲を見る人もたくさんいました。",
+          "alias": "verbo-potencial"
+        },
+        {
+          "oracion": "相撲は、日本でとても有名な文化になりました。",
+          "alias": "cambio-estado-narimasu"
+        }
+      ],
+      "texto": "神様の相撲\n相撲の始まりは、とても古い話です。昔の本に、二人の神様が相撲をした話があります。そのころ、日本では米を作っていました。相撲は、農家の大切な行事でした。そして、相撲を見て、米がたくさんできると思いました。\n\n\n---\n\n武士と織田信長\n鎌倉や戦国の時代には、武士も相撲を習いました。武士は相撲をして、強くなりました。織田信長は相撲がとても好きだったそうです。信長は、いろいろな国から力士を集めて、相撲を見ました。\n\n\n---\n\n江戸から今へ\n江戸時代に、相撲はとても楽しい行事になりました。力士は相撲でお金をもらうことができましたし、相撲を見る人もたくさんいました。1909年、両国に国技館ができました。相撲は、日本でとても有名な文化になりました。1925年、今の相撲の形が決まりました。\n",
+      "textoEs": "El sumo de los dioses\nEl origen del sumo es una historia muy antigua. En un libro antiguo hay una historia en la que dos dioses practicaron sumo. En aquella época, en Japón se cultivaba arroz. El sumo era un acto importante de las familias campesinas. Y, viendo el sumo, pensaban que se produciría mucho arroz.\n\n\n---\n\nLos samuráis y Oda Nobunaga\nEn las épocas de Kamakura y de los Estados Combatientes, los samuráis también aprendían sumo. Los samuráis practicaban sumo y se hacían fuertes. Se dice que a Oda Nobunaga le gustaba mucho el sumo. Nobunaga reunió luchadores de sumo de diversas regiones y vio sumo.\n\n\n---\n\nDe Edo a la actualidad\nEn la época de Edo, el sumo se convirtió en un acto muy divertido. Los luchadores de sumo podían recibir dinero por el sumo, y también había mucha gente que lo veía. En 1909 se construyó el Kokugikan en Ryōgoku. El sumo se convirtió en una cultura muy famosa en Japón. En 1925 quedó decidida la forma actual del sumo.\n"
     }
   },
   {
@@ -9211,6 +9907,40 @@
       "referencias": [
         "s1-te-hoshii"
       ],
+      "mapaGramatica": [
+        {
+          "oracion": "金持ちの女の人が病気になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "日の出前に起きて、水を汲んで、火をおこして、料理をして、洗濯をしました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "疲れるまで働いた夜には、ベッドがありませんでした。",
+          "alias": "verbos-existencia"
+        },
+        {
+          "oracion": "すると、一羽の小さい白い鳥がその木に来て、シンデレラが何かを望むと、その鳥が望んだものを落としてくれました。",
+          "alias": "to-keiyoushi-doushi"
+        },
+        {
+          "oracion": "三日間続くお祝いで、王様の息子が花嫁を選ぶために、国の美しい若い娘は全部招待されることになりました。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "「あなたは埃と泥まみれでしょう。",
+          "alias": "deshou-darou"
+        },
+        {
+          "oracion": "みんなが帰ってきたとき、シンデレラは灰の中で汚い服を着て、薄暗いランプが暖炉の上で燃えていました。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "王子は娘が来るまで待っていて、すぐに娘の手を取って、娘とだけ踊りました。",
+          "alias": "dake-dake-no"
+        }
+      ],
       "texto": "金持ちの女の人の死\n金持ちの女の人が病気になりました。とても具合が悪くて、もうすぐ死ぬということが分かりました。それで、たった一人の娘をベッドのそばに呼んで、「愛しているわが子よ。いい子でいてね。神様を信じているなら、神様はいつもあなたを守ってくれるよ。私は天国からあなたを見下ろしているからね。」と言いました。それから、目を閉じて亡くなりました。 娘は毎日、母親の墓に行って泣きました。でも、いつもいい子でいました。 冬になって、雪が墓の上に降りました。春の太陽が雪を溶かすころ、父は別の女の人を妻にもらいました。その女は自分の娘を二人一緒に連れてきました。 二人の娘は顔はとても美しかったですが、心は汚くて真っ黒でした。それから、かわいそうな継子の辛い生活が始まりました。 「あの頭の悪い子が、私たちと一緒にここに座ってていいの？ご飯が食べたいなら、自分の力で稼がなくちゃ。台所女中は外よ。」二人の娘はそう言いました。 二人の娘は、きれいな服を全部とりあげました。古い灰色の上着を着せて、木の靴をはかせました。「高慢な王女様を見てごらん。なんておめかしているの。」と二人は笑いました。 それから、娘は朝から晩まで辛い仕事をしなければなりませんでした。 日の出前に起きて、水を汲んで、火をおこして、料理をして、洗濯をしました。それだけでは足りなくて、二人はできる限りの意地悪をしました。娘をバカにして、灰の中にエンドウ豆やレンズ豆をまいたので、娘は一度座って豆を全部拾わなければなりませんでした。 疲れるまで働いた夜には、ベッドがありませんでした。灰があるかまどのそばで寝なければなりませんでした。だから、いつも埃をかぶって汚く見えたので、二人は娘を「灰かぶり」と呼びました。\n\n\n---\n\nはしばみの木\nたまたまある日、父親が町に行くところでした。二人の継娘に「お土産に何がほしい？」と聞きました。 「きれいなドレスがいいです。」一人が言いました。 「真珠と宝石をお願いします。」もう一人が言いました。 「それでは、シンデレラ、あなたは何かほしいものがある？」 「お父さん、帰り道で、お父さんの帽子にぶつかる最初の枝を折ってきてください。」 父親は二人の継娘にはドレスと真珠と宝石を買いました。帰り道に、緑の茂みを馬で通ったとき、はしばみの枝に当たりました。帽子が落ちたので、その枝を折って持ち帰りました。 家に着くと、継娘には望んだ品物を渡しました。シンデレラには、はしばみの木から取った枝を渡しました。 シンデレラは父親にお礼を言いました。それから、母親の墓に行って、枝を植えました。とても泣いたので、涙が枝に落ちて、枝を濡らしました。 すると、その枝は大きくなって、立派な木になりました。 日に三度、シンデレラはその木の下に行って座り、泣いて、お祈りをしました。すると、一羽の小さい白い鳥がその木に来て、シンデレラが何かを望むと、その鳥が望んだものを落としてくれました。\n\n\n---\n\n舞踏会への招待\nところが、王様がお祝いを開くことになりました。三日間続くお祝いで、王様の息子が花嫁を選ぶために、国の美しい若い娘は全部招待されることになりました。 二人の継娘は、自分たちもお祝いに行けると聞いて、とても喜びました。そして、シンデレラを呼びました。 「私たちの髪をとかして、靴を磨いて、ベルトをしめて。私たちは王様の宮殿のお祝いに行くのだから。」 シンデレラも行きたくて、泣きました。自分も一緒に踊りに行きたかったからです。それから、継母にそうする許可をもらおうと頼みました。 「あなたは埃と泥まみれでしょう。それで舞踏会に行くの？服もないし、靴もないのに、踊るっていうの？」 でも、シンデレラがしつこく頼み続けたので、継母はついにこう言いました。 「ほら、灰の中にレンズ豆を一皿空けておいたから。二時間でそれを全部拾えたら、一緒に行ってあげるよ。」 娘は裏口から庭に出ました。 「お友達のハトさん、キジバトさん、空の下の小鳥さんたち、みんな。いい豆はかごに、悪い豆はみんなさんに。拾うのを手伝ってちょうだい。」 すると、二羽の白い鳩が台所の窓から入ってきました。そのあとでキジバトが来て、最後に空の下の小鳥たちが全部集まってきて、灰の中に降りました。 鳩たちが頭をひょこひょこさせて、コッコッコッとつつき始めました。残りの鳥たちもコッコッコッと始めて、皿に全部の良い豆を集めました。 一時間もたたないうちに、小鳥たちは終わって、また飛び去りました。娘は皿を継母のところに持って行きました。嬉しくて、今度こそお祝いに行けると信じていました。 でも、継母は「だめよ、シンデレラ。服がないじゃないし、踊れないわ。ただ笑われるだけだよ。」と言いました。 シンデレラが泣くと、継母は「一時間で灰から二皿のレンズ豆を拾ったら、一緒に行ってあげるよ。」と言いました。 娘はまた庭に行って、小鳥たちに手伝いを頼みました。今度は三十分もたたないうちに、全部の豆を集めました。 でも、継母は「そんなこといくらしてもだめだよ。あなたは行けないわ。服がないし、踊れないじゃないか。私たちの恥ずかしいよ。」と言って、二人の高慢な娘と一緒に急いで行きました。\n\n\n---\n\n舞踏会\nもう誰もいないと分かると、シンデレラははしばみの木の下にある母親の墓に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥が金銀のドレスと、銀で刺しゅうされた上靴を落としてくれました。娘は急いでドレスを着て、舞踏会に行きました。 二人の姉や継母は、娘が分からず、「外国の王女様に違いない」と思いました。金のドレスを着て、とても美しかったからです。 王子が娘に近づいて、手を取って一緒に踊りました。他の娘とは踊ろうとせず、娘の手を放しませんでした。他の誰かが娘に申し込もうとすると、王子は「こちらは私の相手です。」と言いました。 娘は夕方まで踊りました。それから、家に帰ろうと思いました。でも、王子は「あなたと一緒に帰りたいです。お伴いをさせてください。」と言いました。王子は、この美しい娘が誰の娘か知りたかったからです。 でも、娘は王子から逃げて、鳩小屋に飛び込みました。王子が待っていると、父親が来て、「見知らぬ娘が鳩小屋に飛び込みました。」と言いました。父親は「シンデレラかな？」と思いました。 それで、鳩小屋を壊すために斧とつるはしを持ってこさせましたが、誰も中にはいませんでした。みんなが帰ってきたとき、シンデレラは灰の中で汚い服を着て、薄暗いランプが暖炉の上で燃えていました。 翌日、舞踏会がまた始まりました。両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 すると、小鳥は前日よりさらに美しいドレスを落としてくれました。シンデレラがそのドレスを着て舞踏会に現れると、みんながその美しさに驚きました。 王子は娘が来るまで待っていて、すぐに娘の手を取って、娘とだけ踊りました。夕方になると、娘は家に帰ろうとしました。王子は娘のあとをつけて、どの家に行ったか確かめしようとしました。 でも、娘は跳んで逃げて、家の後ろの庭に入りました。庭に梨の実がついている美しい高い木がありました。娘はリスのようにすばしっこく枝の間によじ登ったので、王子はどこに消えたのか分かりませんでした。 三日目、両親と姉たちが出かけると、シンデレラははしばみの木に行きました。 「ゆすって、ゆすって、若木さん。銀と金を私に落としておくれ。」 今度の小鳥は、これまでのどのドレスよりもすばらしく豪華なドレスを落としてくれました。上靴も金でした。 舞踏会に行くと、驚きのあまり誰もどうしていいか分かりませんでした。王子は娘とだけ踊りました。夕方になると、シンデレラは帰ろうとしました。王子は娘と一緒に行きたがりましたが、娘は素早く逃げました。 でも、王子は計略を練っていて、階段にピッチを塗らせておいたのです。娘が駆け下りると、左の上靴がくっついて離れませんでした。\n\n\n---\n\n金の上靴\n翌朝、王子は父親の處にいて、「この金の上靴に合う足の人以外は、妻にはしません。」と言いました。 二人の継娘は喜びました。可愛い足をしていたからです。 上の娘が靴を持って部屋に入り、履いてみようとしました。でも、親指を入れることができませんでした。靴が小さすぎたからです。 母親は小刀を渡して、「親指を切りなさい。お后になったら、もう歩かなくてもいいんだから。」と言いました。 娘は親指を切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、墓の處を通ると、はしばみの木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子は娘の足を見ると、血が滴り落ちているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人は当人じゃありません。もう一人の妹に靴を履かせてください。」と言いました。 妹が部屋に入り、靴に無事に親指を入れました。でも、かかとが大きすぎました。 母親は小刀を渡して、「かかとを少し切りなさい。お后になったら、もう歩かなくてもいいんだだから。」と言いました。 娘はかかとを少し切り落として、足を無理に靴に入れました。痛いのをこらえて、王子の處にいて見せました。王子は娘を花嫁にして、馬に乗せて一緒に走りました。 でも、はしばみの木のそばを通ると、木の上に二羽の鳩が止まって叫びました。 「振り向いて覗いてごらん。靴の中に血があるよ。その娘には靴が小さすぎる。本当の花嫁はあなたを待っているよ。」 王子が娘の足を見下ろすと、血が靴から流れていて、白い靴下が真っ赤に染まっているのが分かりました。王子は馬を回して、偽の花嫁を家に連れ戻しました。「この人も当人じゃありません。もう他に娘はいないのですか？」と言いました。 「はい、いません。まだ亡くなった妻が残していった、少し風変わりな台所女中はいますが、花嫁とはとんでもございません。」父親はそう言いました。 王子は、その娘を連れてくるように言いました。母親は「とんでもございません。あまりにも汚くて、お目にかかりませんよ。」と答えました。 でも、王子あくまで言い張ったので、シンデレラを呼ばなければなりませんでした。 娘はまず両手と顔を洗ってきれいにし、王子の前に行ってお辞儀をしました。王子は娘に金の靴を渡しました。娘は足載せ台に座って、重い木の靴から足を出して、上靴を履きました。ぴったり合いました。 娘が立ち上がると、王子はその顔を見て、自分が踊った美しい娘だと分かりました。「この人が本当の花嫁だ！」と叫びました。 継母と二人の姉たちは恐ろしくなって、怒りで青ざめました。 王子はシンデレラを馬に乗せて、一緒に去りました。 はしばみの木のそばを通ると、二羽の白い鳩が叫びました。 「振り向いて覗いてごらん。振り向いて覗いてごらん。靴に血がついていないよ。靴は小さすぎない。本当の花嫁があなたと一緒だよ。」 二羽は降りってきて、シンデレラの肩に止まりました。一羽が右に、もう一羽が左に、そのまま座ったままになりました。 王子の結婚式が行われることになりました。二人の不実な姉たちがやってきて、シンデレラの機嫌をとり、幸せを分けてもらおうとしました。 教会に行ったとき、姉は右側に、妹は左側にいました。鳩たちがそれぞれから片目をつついて取り出しました。帰りには姉が左、妹が右になったので、鳩たちはそれぞれからもう一つの目をつついて取り出しました。 こうして、意地悪と不誠実な二人は、罰を受けて、生涯目が見えないままでした。\n",
       "textoEs": "La muerte de la mujer rica\nUna mujer rica cayó enferma. Se puso muy mal y comprendió que moriría pronto. Entonces llamó a su única hija junto a la cama y le dijo: «Hija mía, a quien quiero mucho, sé buena. Si crees en Dios, Dios te protegerá siempre. Yo te miraré desde el cielo». Después cerró los ojos y murió. La hija iba todos los días a la tumba de su madre a llorar. Pero siempre se portaba bien. Llegó el invierno y nevó sobre la tumba. Cuando el sol de primavera empezaba a derretir la nieve, el padre se casó con otra mujer. Esa mujer trajo consigo a sus dos hijas. Las dos hijas eran muy hermosas de cara, pero tenían el corazón sucio y negro. Y así empezó la vida desdichada de la pobre hijastra. «¿Esa tonta se puede sentar aquí con nosotras? Si quiere comer, que se lo gane con sus propias fuerzas. Las sirvientas de cocina, fuera», decían las dos hijas. Las dos hijas le quitaron todas sus ropas bonitas. La vistieron con una vieja chaqueta gris y le pusieron zuecos de madera. «Mirad a la orgullosa princesita, ¡qué bien que va vestida!», se reían las dos. Después, la hija tuvo que trabajar de la mañana a la noche. Se levantaba antes de que saliera el sol, iba a por agua, encendía el fuego, cocinaba y lavaba la ropa. Y no bastaba con eso: las dos hacían cuanto malicia cabía. Se burlaban de ella y esparcían guisantes y lentejas en la ceniza, de modo que la hija tenía que sentarse y recogerlos todos. Por la noche, tras trabajar hasta agotarse, no tenía cama. Tenía que dormir junto al horno de leña, en la ceniza. Por eso siempre iba polvorienta y sucia, y las dos la llamaban «Cenicienta».\n\n\n---\n\nEl árbol de avellano\nUn día, por casualidad, el padre estaba a punto de ir al pueblo. Preguntó a sus dos hijastras: «¿Qué queréis de regalo?». «Quiero un vestido bonito», dijo una. «Quisiera perlas y joyas», dijo la otra. «Y tú, Cenicienta, ¿quieres algo?». «Padre, por el camino de vuelta, tráeme la primera rama que choque con tu sombrero». El padre compró vestidos, perlas y joyas para sus dos hijastras. En el camino de vuelta, al pasar a caballo por una espesa maleza verde, una rama de avellano le golpeó. Se le cayó el sombrero, así que arrancó la rama y se la llevó a casa. Al llegar a casa, entregó a las hijastras lo que habían pedido. A Cenicienta le dio la rama que había tomado del árbol de avellano. Cenicienta dio las gracias a su padre. Después fue a la tumba de su madre y plantó la rama. Lloró tanto que sus lágrimas cayeron sobre la rama y la mojaron. Entonces la rama creció y se convirtió en un árbol imponente. Tres veces al día, Cenicienta iba bajo ese árbol, se sentaba, lloraba y rezaba. Entonces venía al árbol un pájaro blanco y pequeño, y cuando Cenicienta deseaba algo, el pájaro le dejaba caer lo que ella había pedido.\n\n\n---\n\nInvitación al baile\nPero resultó que el rey iba a dar una fiesta. Era una fiesta de tres días, y a todas las chicas jóvenes y hermosas del reino se les envió una invitación, para que el hijo del rey eligiera esposa. Las dos hijastras se alegraron mucho al enterarse de que ellas también podían ir a la fiesta. Y llamaron a Cenicienta. «Peinanos el pelo, límpianos los zapatos y apriétanos el cinturón. Vamos a la fiesta en el palacio del rey». A Cenicienta también le daban ganas de ir, y lloró. Porque ella también quería ir a bailar. Después rogó a su madrastra que le diera permiso para hacerlo. «Estarás cubierta de polvo y barro, ¿no? ¿Y quieres ir al baile así? Sin ropa y sin zapatos, ¿y quieres bailar?». Pero Cenicienta siguió insistiendo, y al final la madrastra dijo: «Mira, he dejado un plato de lentejas en la ceniza. Si las recoges todas en dos horas, te llevaré conmigo». La hija salió al jardín por la puerta trasera. «Amigas palomas, tórtolas y pajaritos de bajo el cielo, todas. Las buenas lentejas, a la cesta; las malas, para vosotras. Por favor, ayudadme a recogerlas». Entonces entraron por la ventana de la cocina dos palomas blancas. Después vino la tórtola y, por último, se juntaron todos los pajaritos de bajo el cielo y descendieron sobre la ceniza. Las palomas empezaron a picotear con la cabeza, ¡cocorocó! Las demás aves también empezaron, ¡cocorocó!, y juntaron en el plato todas las buenas lentejas. Antes de pasar una hora, los pajaritos acabaron y volaron lejos. La hija llevó el plato a su madrastra. Estaba tan contenta que creía que esta vez sí que podría ir a la fiesta. Pero la madrastra dijo: «No, Cenicienta. No tienes ropa y no sabes bailar. Solo te reirán». Cuando Cenicienta se puso a llorar, la madrastra dijo: «Si recoges dos platos de lentejas de la ceniza en una hora, te llevaré conmigo». La hija volvió al jardín y les pidió ayuda a los pajaritos. Esta vez, antes de pasar media hora, juntaron todas las lentejas. Pero la madrastra dijo: «De nada sirve que hagas eso. Tú no puedes ir. No tienes ropa y no sabes bailar, ¿no? Nos vas a dar vergüenza». Y se fue deprisa con sus dos hijas orgullosas.\n\n\n---\n\nEl baile\nCuando se cercioró de que ya no quedaba nadie, Cenicienta fue a la tumba de su madre, que estaba bajo el árbol de avellano. «Sacude, sacude, arbolito joven; déjame caer plata y oro». Entonces el pájaro le dejó caer un vestido de oro y plata y un zapato de gala bordado en plata. La hija se puso deprisa el vestido y fue al baile. Sus dos hermanas y su madrastra no la reconocieron y pensaron que debía ser una princesa de otro país. Porque iba con un vestido de oro y era muy hermosa. El príncipe se acercó a la hija, le tomó de la mano y bailó con ella. No quiso bailar con ninguna otra y no le soltó la mano. Cuando algún otro pretendía invitarla, el príncipe decía: «Esta es mi pareja». La hija bailó hasta el atardecer. Después pensó en volver a casa. Pero el príncipe dijo: «Quiero volver contigo. Permíteme acompañarte». El príncipe quería saber de quién era hija aquella chica hermosa. Pero la hija huyó del príncipe y se refugió en el palomar. Mientras el príncipe esperaba, llegó el padre y dijo: «Una chica desconocida se ha metido en el palomar». El padre pensó: «¿Será Cenicienta?». Entonces mandó traer un hacha y un escoplo para derribar el palomar, pero dentro no había nadie. Cuando todos volvieron, Cenicienta estaba entre la ceniza con la ropa sucia, y una lámpara débil ardía sobre la chimenea. Al día siguiente empezó de nuevo el baile. Cuando sus padres y sus hermanas salieron, Cenicienta fue al árbol de avellano. «Sacude, sacude, arbolito joven; déjame caer plata y oro». Entonces el pájaro le dejó caer un vestido aún más hermoso que el del día anterior. Cuando Cenicienta apareció en el baile con ese vestido, todos se asombraron ante su hermosura. El príncipe la estaba esperando, y en cuanto llegó le tomó de la mano y bailó solo con ella. Al llegar el atardecer, la hija quiso volver a casa. El príncipe la siguió para comprobar a qué casa iba. Pero la hija dio un salto, huyó y entró en el jardín detrás de la casa. En el jardín había un árbol alto y hermoso cargado de peras. La hija trepó con agilidad de ardilla entre las ramas, y el príncipe no supo dónde había desaparecido. El tercer día, cuando sus padres y sus hermanas salieron, Cenicienta fue al árbol de avellano. «Sacude, sacude, arbolito joven; déjame caer plata y oro». Esta vez el pájaro le dejó caer un vestido más espléndido y lujoso que ningún otro de los anteriores. El zapato de gala también era de oro. Al ir al baile, ante el asombro de todos, nadie sabía qué hacer. El príncipe bailó solo con la hija. Al atardecer, Cenicienta quiso volver a casa. El príncipe quiso ir con ella, pero la hija escapó velozmente. Pero el príncipe había urdido una estratagema: había hecho untar pez en la escalera. Cuando la hija bajó corriendo, el zapato de gala izquierdo se quedó pegado y no se pudo quitar.\n\n\n---\n\nEl zapato de oro\nA la mañana siguiente, el príncipe estaba en casa del padre y dijo: «No me casaré con nadie cuyo pie no calce con este zapato de oro». Las dos hijastras se alegraron. Porque tenían unos pies bonitos. La hija mayor entró en la habitación con el zapato y quiso probárselo. Pero no pudo meterse el dedo gordo del pie. Porque el zapato era demasiado pequeño. La madre le pasó un cuchillo y dijo: «Córtate el dedo gordo. Cuando seas reina, ya no tendrás que andar». La hija se cortó el dedo y se metió el pie a la fuerza en el zapato. Aguanto el dolor y fue a enseñárselo al príncipe. El príncipe la tomó por esposa, la montó a caballo y salieron corriendo juntos. Pero al pasar junto a la tumba, dos palomas posadas sobre el árbol de avellano gritaron: «Mira hacia atrás. Hay sangre en el zapato. Ese zapato es demasiado pequeño para esa chica. La verdadera novia te está esperando». Cuando el príncipe miró el pie de la chica, vio que chorreaba sangre. El príncipe dio media vuelta y devolvió a casa a la falsa novia. «Esta no es la persona. Dejad que la otra hermana se pruebe el zapato», dijo. La hermana menor entró en la habitación y logró meter el dedo gordo en el zapato. Pero el talón era demasiado grande. La madre le pasó un cuchillo y dijo: «Córtate un poco el talón. Cuando seas reina, ya no tendrás que andar». La hija se cortó un poco el talón y se metió el pie a la fuerza en el zapato. Aguanto el dolor y fue a enseñárselo al príncipe. El príncipe la tomó por esposa, la montó a caballo y salieron corriendo juntos. Pero al pasar junto al árbol de avellano, dos palomas posadas en el árbol gritaron: «Mira hacia atrás. Hay sangre en el zapato. Ese zapato es demasiado pequeño para esa chica. La verdadera novia te está esperando». Cuando el príncipe miró hacia abajo el pie de la chica, vio que la sangre salía del zapato y que el calcetín blanco estaba teñido de rojo. El príncipe dio media vuelta y devolvió a casa a la falsa novia. «Esta tampoco es la persona. ¿No hay más hijas?», dijo. «No, no hay más. Aunque queda una sirvienta de cocina un poco rara que dejó mi difunta esposa, no es ni idea para ser novia», dijo el padre. El príncipe ordenó que le trajeran a esa chica. La madre respondió: «Ni hablar. Está tan sucia que no puede presentarse ante usted». Pero el príncipe insistió en su empeño, y no hubo más remedio que llamar a Cenicienta. La hija se lavó primero las manos y la cara hasta quedar limpia, se presentó ante el príncipe y le hizo una reverencia. El príncipe le dio el zapato de oro. La hija se sentó en el escabel, se sacó el pie de la pesada zapata de madera y se calzó el zapato de gala. Le quedó perfecto. Cuando la hija se levantó, el príncipe miró su cara y reconoció a la hermosa chica con la que había bailado. «¡Esta es la verdadera novia!», gritó. La madrastra y las dos hermanas se quedaron aterradas y pálidas de rabia. El príncipe montó a Cenicienta a caballo y se marcharon juntos. Al pasar junto al árbol de avellano, dos palomas blancas gritaron: «Mira hacia atrás, mira hacia atrás. El zapato no lleva sangre. El zapato no es demasiado pequeño. La verdadera novia está contigo». Las dos bajaron y se posaron en los hombros de Cenicienta. Una a la derecha y otra a la izquierda, y así se quedaron sentadas. Se celebró la boda del príncipe. Las dos hermanas desleales aparecieron, trataron de quedar bien con Cenicienta y de compartir su felicidad. Cuando fueron a la iglesia, la hermana mayor estaba a la derecha y la menor a la izquierda. Las palomas les sacaron a cada una un ojo con un picotazo. En el camino de vuelta la hermana mayor quedó a la izquierda y la menor a la derecha, así que las palomas les sacaron con otro picotazo el otro ojo. Así, las dos, malvadas y desleales, recibieron su castigo y se quedaron sin vista durante toda la vida.\n"
     }
@@ -9464,6 +10194,40 @@
       "referencias": [
         "s6-to-shite",
         "s3-ni-totte"
+      ],
+      "mapaGramatica": [
+        {
+          "oracion": "父は厳しかったが、映画に興味があり、よく兄弟を映画館に連れて行った。",
+          "alias": "conjuncion-adversativa-ga"
+        },
+        {
+          "oracion": "しかし、1936年に映画の会社に入り、映画を作る人のそばで作り方を習った。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "1950年の『羅生門』はヴェネツィア国際映画祭で金獅子賞を受け、日本の映画にとって、世界に知られるきっかけになった。",
+          "alias": "kikkake-de"
+        },
+        {
+          "oracion": "黒澤はアメリカで仕事をしようとしたものの、思ったようにはいかなかった。",
+          "alias": "mono-no"
+        },
+        {
+          "oracion": "黒澤の映画は今も世界で見られ、多くの人に大きな力を与えている。",
+          "alias": "ukemi-rareru"
+        },
+        {
+          "oracion": "黒澤の作品は、人間の心の強さを描いている。",
+          "alias": "te-iru"
+        },
+        {
+          "oracion": "これからも、彼の映画は世界で見られるだろう。",
+          "alias": "deshou-darou"
+        },
+        {
+          "oracion": "そして、今も多くの人に感動を与えつつある。",
+          "alias": "tsutsu-aru"
+        }
       ],
       "texto": "一、絵画から映画へ\n黒澤明は1910年、東京に生まれた。八人の兄弟がいた。父は厳しかったが、映画に興味があり、よく兄弟を映画館に連れて行った。黒澤は若いときから映画を見ながら育った。小学校の先生は、黒澤の絵画を「とてもいい」と言ってくれた。それから、黒澤は絵画を描くことに夢中になった。学校では小説をたくさん読み、人生についても勉強した。はじめは絵画の仕事をしたいと思っていた。しかし、1936年に映画の会社に入り、映画を作る人のそばで作り方を習った。1943年、『姿三四郎』で初めて自分で映画を作った。\n\n\n---\n\n二、世界に知られる\n戦争のあと、黒澤は『酔いどれ天使』や『野良犬』を発表して注目を集めた。1950年の『羅生門』はヴェネツィア国際映画祭で金獅子賞を受け、日本の映画にとって、世界に知られるきっかけになった。その後も『生きる』『七人の侍』『用心棒』などを作り、海外でも高く評価された。海外では、黒澤の映画をもとに新しい映画が作られた。\n\n\n---\n\n三、困難な時代\n1960年代の後半、日本では映画を見る人が少なくなり、映画を作る仕事は困難になった。黒澤はアメリカで仕事をしようとしたものの、思ったようにはいかなかった。それでも、海外の資金のおかげで、『デルス・ウザーラ』『影武者』『乱』を作ることができた。1985年には、映画を作る人として初めて文化勲章を受けた。\n\n\n---\n\n四、晩年と今\n1990年には『夢』を作り、アカデミー名誉賞を受けた。黒澤は生涯で30本の作品を作り、そのうち16本は三船敏郎と作ったものだ。1998年に死んだ。死んだあと、国民栄誉賞が与えられた。黒澤の映画は今も世界で見られ、多くの人に大きな力を与えている。黒澤の作品は、人間の心の強さを描いている。これからも、彼の映画は世界で見られるだろう。そして、今も多くの人に感動を与えつつある。\n",
       "textoEs": "I. De la pintura al cine\nAkira Kurosawa nació en Tokio en 1910. Tenía ocho hermanos. Su padre era severo, pero se interesaba por el cine y a menudo llevaba a los hermanos al cine. Kurosawa se crio viendo películas desde joven. El maestro de la escuela primaria dijo de su pintura: «Muy buena». A partir de entonces, Kurosawa se entregó por completo a pintar. En la escuela leyó muchas novelas y también estudió sobre la vida. Al principio quería trabajar en la pintura. Sin embargo, en 1936 entró en una compañía de cine y, junto a los que hacían las películas, aprendió cómo se hacían. En 1943, con «Sugata Sanshirō», hizo su primera película por sí mismo.\n\n\n---\n\nII. Darse a conocer al mundo\nDespués de la guerra, Kurosawa estrenó «El ángel ebrio» y «El perro rabioso», y llamó la atención. «Rashōmon», de 1950, recibió el León de Oro en el Festival Internacional de Cine de Venecia y se convirtió, para el cine japonés, en la ocasión de darse a conocer al mundo. Después hizo también «Vivir», «Los siete samuráis» y «Yojimbo», y fue muy valorado también en el extranjero. En el extranjero se hicieron nuevas películas basadas en las de Kurosawa.\n\n\n---\n\nIII. Una época difícil\nEn la segunda mitad de la década de 1960, en Japón disminuyó la gente que iba al cine y el trabajo de hacer películas se volvió difícil. Kurosawa intentó trabajar en Estados Unidos, pero no le salió como esperaba. Aun así, gracias a los fondos extranjeros pudo hacer «Dersu Uzala», «Kagemusha» y «Ran». En 1985 recibió, por primera vez como cineasta, la Orden de la Cultura.\n\n\n---\n\nIV. Los últimos años y el presente\nEn 1990 hizo «Sueños» y recibió un Óscar honorífico. A lo largo de su vida hizo treinta películas, y dieciséis de ellas las hizo con Toshirō Mifune. Murió en 1998. Tras su muerte se le concedió el Premio Nacional de Honor. Las películas de Kurosawa se siguen viendo hoy en todo el mundo y dan una gran fuerza a mucha gente. Sus obras retratan la fuerza del corazón humano. Sus películas se seguirán viendo en el mundo. Y hoy sigue conmoviendo a mucha gente.\n"
@@ -9822,6 +10586,40 @@
       ],
       "referencias": [
         "s6-to-shite"
+      ],
+      "mapaGramatica": [
+        {
+          "oracion": "そして、新しい作品が出るたびに、多くのポケモンが加わりました。",
+          "alias": "tabi-ni"
+        },
+        {
+          "oracion": "『ポケットモンスター』の旅行は、3匹のポケモンの中から仲間になるポケモンを選んで、トレーナーとして始めます。",
+          "alias": "to-shite"
+        },
+        {
+          "oracion": "8つのジムバッジを集めた人だけが、「ポケモンリーグ」に行くことができます。",
+          "alias": "verbo-potencial"
+        },
+        {
+          "oracion": "そこには四天王が待っています！",
+          "alias": "te-iru"
+        },
+        {
+          "oracion": "相手の種類や使うテクニックによって、大きな力を与えたり、力が少なくなったりすることがあります！",
+          "alias": "ni-yotte"
+        },
+        {
+          "oracion": "試合をすればするほど、ポケモンはもっと強くなります。",
+          "alias": "ba-hodo"
+        },
+        {
+          "oracion": "仲間になったポケモンは、友達はもちろん、家族や誰かと交換したり、試合をしたりすることができます！",
+          "alias": "wa-mochiron"
+        },
+        {
+          "oracion": "「ポケモン」を通じて、世界中の友達と遊ぶこともできます！",
+          "alias": "wo-tooshite"
+        }
       ]
     }
   },
@@ -9935,6 +10733,40 @@
         "s9-wake-dewa-nai",
         "s4-o-go-desu",
         "s6-to-shite"
+      ],
+      "mapaGramatica": [
+        {
+          "oracion": "アメリカからの旅行者に「日本で何が心配ですか」と尋ねると、たいてい返ってくるのは言葉や電車のことではなく、食事の場で失礼をしてしまうのではないかという心配だ。",
+          "alias": "janai-ka"
+        },
+        {
+          "oracion": "座った人にとって、ほかの人の目は意外に気になるものである。",
+          "alias": "ni-totte"
+        },
+        {
+          "oracion": "ところが、インターネットに出回っている情報というのは、たいてい古いか、ひどく誇張されているということだ。",
+          "alias": "to-iu-koto-da"
+        },
+        {
+          "oracion": "目の前にお寿司が一貫置かれたとき、職人はしゃりとネタの温度をその瞬間に合わせている。",
+          "alias": "te-iru"
+        },
+        {
+          "oracion": "もし職人を撮りたい場合には、事前に声をかけてほしい。",
+          "alias": "baai"
+        },
+        {
+          "oracion": "お金はかからないことだし、チップの代わりに文化的に正しい習慣でもあり、小さな店では店員の心に確かに響く。",
+          "alias": "koto-dashi"
+        },
+        {
+          "oracion": "それはあくまでも、客に食事をスムーズに提供する上での問題であり、あなた個人に対して向けられた話ではない。",
+          "alias": "ni-taishite"
+        },
+        {
+          "oracion": "といっても、長い一日の終わりに、日本人の男性でもよく拭いている光景を目にすることがあるけれど。",
+          "alias": "to-itte-mo"
+        }
       ]
     }
   },
@@ -10097,6 +10929,32 @@
         "s2-te-iru",
         "s2-ni-yotte",
         "s2-uchi-ni"
+      ],
+      "mapaGramatica": [
+        {
+          "oracion": "浪人とは、主君がいなくて、仕事がない武士のことです。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "昔は、戦いが続いていました。",
+          "alias": "te-iru"
+        },
+        {
+          "oracion": "しかし、江戸時代になって平和になると、仕事がない武士が多くなりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "若いうちに再び働く場所を見つけた人もいましたが、見つけることができない人も多かったのです。",
+          "alias": "uchi-ni"
+        },
+        {
+          "oracion": "現代では、「浪人」という言葉は、試験に落ちて、来年の試験の準備をしている学生（受験生）を指しています。",
+          "alias": "te-iru"
+        },
+        {
+          "oracion": "試験は、学校によって違いますが、浪人という言葉は今も使っています。",
+          "alias": "ni-yotte"
+        }
       ]
     }
   },
@@ -10360,7 +11218,37 @@
         "s2-ni-yotte",
         "s9-wake-dewa-nai"
       ],
-      "nivel": "B2.1"
+      "nivel": "B2.1",
+      "mapaGramatica": [
+        {
+          "oracion": "みなさんは、ハチミツがどうやってできるのか知っていますか。",
+          "alias": "te-iru"
+        },
+        {
+          "oracion": "朝早く、外勤蜂と呼ばれる働き蜂たちは、巣を飛び立って花を探しに出かけます。",
+          "alias": "perifrasis-ni-ikimasu"
+        },
+        {
+          "oracion": "これではすぐに腐ってしまうはずだと考える人もいるでしょう。",
+          "alias": "hazu-da"
+        },
+        {
+          "oracion": "その中でも、女王蜂はひたすら卵を産む仕事に専念し、働き蜂たちは年齢によって仕事を変えていきます。",
+          "alias": "ni-yotte"
+        },
+        {
+          "oracion": "このように、1匹1匹が自分の役割を果たすからこそ、巣全体がうまく回り、ハチミツも作られていくのだと考えられます。",
+          "alias": "koso-karakoso"
+        },
+        {
+          "oracion": "この作業の過程を知ると、ハチミツは、たくさんのミツバチたちと、手間を惜しまない養蜂家の努力の証拠だと言えるでしょう。",
+          "alias": "deshou-darou"
+        },
+        {
+          "oracion": "ハチミツを食べることで、私たちもそのつながりを少しだけ意識できるようになるでしょう。",
+          "alias": "koto-de"
+        }
+      ]
     }
   },
   {
@@ -10720,7 +11608,41 @@
         "s2-uchi-ni",
         "s3-ni-totte"
       ],
-      "nivel": "B2.1"
+      "nivel": "B2.1",
+      "mapaGramatica": [
+        {
+          "oracion": "日本では2025年、気温が高くて米が買えなくなり、お金も高くなりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "おにぎりは、いつからあったのか、はっきりしていません。",
+          "alias": "te-iru"
+        },
+        {
+          "oracion": "この米については、人によって違う説明をしています。",
+          "alias": "ni-yotte"
+        },
+        {
+          "oracion": "昔の本には、日本語で「握飯」と書かれた言葉が出ています。",
+          "alias": "te-iru"
+        },
+        {
+          "oracion": "その使い方は、とても身近なものでした。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "つまり、「むすび」は、意味がさまざまに加わった言葉ということです。",
+          "alias": "to-iu-koto-da"
+        },
+        {
+          "oracion": "山の近くに住む人は野菜を使い、うみの近くに住む人は魚を使います。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "これからも、日本のおにぎりは皆んなに食べられていくでしょう。",
+          "alias": "deshou-darou"
+        }
+      ]
     }
   },
   {
@@ -11187,7 +12109,33 @@
         "s2-ni-yotte",
         "s3-ni-totte"
       ],
-      "nivel": "B2.1"
+      "nivel": "B2.1",
+      "mapaGramatica": [
+        {
+          "oracion": "ユニクロは、日本の服のブランドです。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "ユニクロの店を持っている会社は「ファーストリテイリング」といいます。",
+          "alias": "te-iru"
+        },
+        {
+          "oracion": "今では、ヨーロッパと北米は、会社にとって大切な地域になっています。",
+          "alias": "ni-totte"
+        },
+        {
+          "oracion": "日本では、よく伸びる「ウルトラストレッチパンツ」や、夏の強い日差しから体を守る「UVカット」の服など、生活に便利な服がよく売れました。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "その両方があるからこそ、たくさんのお客さんがユニクロを選ぶのでしょう。",
+          "alias": "koso-karakoso"
+        },
+        {
+          "oracion": "そのため、来年の日本での利益は、前の年と同じくらいにとどまるということです。",
+          "alias": "to-iu-koto-da"
+        }
+      ]
     }
   },
   {
@@ -11441,6 +12389,40 @@
       ],
       "referencias": [
         "s6-to-shite"
+      ],
+      "mapaGramatica": [
+        {
+          "oracion": "二人の力士が土俵の上で組み合い、相手を土俵の外に出すか、足の裏以外の体を地面に倒すと勝ちます。",
+          "alias": "igai"
+        },
+        {
+          "oracion": "土俵際では、体がまだ土俵の中にあっても、相手につかまらなければ倒れることがはっきりしている場合があります。",
+          "alias": "te-mo"
+        },
+        {
+          "oracion": "その時、審判は「死に体」として負けを言い渡します。",
+          "alias": "to-shite"
+        },
+        {
+          "oracion": "取組の途中でまわしが外れると、負けになります。",
+          "alias": "to-keiyoushi-doushi"
+        },
+        {
+          "oracion": "立ち合いの前の準備は、階級ごとに時間が決まっています。",
+          "alias": "goto-ni"
+        },
+        {
+          "oracion": "この制限時間は、1928年に始まったラジオ放送に備えて決まりました。",
+          "alias": "ni-sonaete"
+        },
+        {
+          "oracion": "勝ちを決めた技は、「決まり手」として記録されます。",
+          "alias": "ukemi-rareru"
+        },
+        {
+          "oracion": "昔の本には、神様同士の力くらべが書かれています。",
+          "alias": "doushi"
+        }
       ]
     }
   },

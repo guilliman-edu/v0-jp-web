@@ -1,0 +1,146 @@
+{
+  "audio_file": "a2.2-s8-sumo-c01-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 34794,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "かみさまのすもう",
+      "start_ms": 0,
+      "end_ms": 2105,
+      "duration_ms": 2105,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かみさまのすもう",
+          "start_ms": 0,
+          "end_ms": 2105,
+          "duration_ms": 2105
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "すもうのはじまりは、とても古いはなしです。",
+      "start_ms": 2605,
+      "end_ms": 8004,
+      "duration_ms": 5399,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すもうのはじまりは、",
+          "start_ms": 2605,
+          "end_ms": 5046,
+          "duration_ms": 2441
+        },
+        {
+          "index": 1,
+          "text": "とても古いはなしです。",
+          "start_ms": 5296,
+          "end_ms": 8004,
+          "duration_ms": 2708
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "昔の本に、二人のかみさまがすもうをしたはなしがあります。",
+      "start_ms": 8504,
+      "end_ms": 15262,
+      "duration_ms": 6758,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "昔の本に、",
+          "start_ms": 8504,
+          "end_ms": 10527,
+          "duration_ms": 2023
+        },
+        {
+          "index": 1,
+          "text": "二人のかみさまがすもうをしたはなしがあります。",
+          "start_ms": 10777,
+          "end_ms": 15262,
+          "duration_ms": 4485
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "そのころ、日本ではこめを作っていました。",
+      "start_ms": 15762,
+      "end_ms": 21336,
+      "duration_ms": 5574,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのころ、",
+          "start_ms": 15762,
+          "end_ms": 17472,
+          "duration_ms": 1710
+        },
+        {
+          "index": 1,
+          "text": "日本ではこめを作っていました。",
+          "start_ms": 17722,
+          "end_ms": 21336,
+          "duration_ms": 3614
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "すもうは、のうかの大切なぎょうじでした。",
+      "start_ms": 21836,
+      "end_ms": 26864,
+      "duration_ms": 5028,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すもうは、",
+          "start_ms": 21836,
+          "end_ms": 23256,
+          "duration_ms": 1420
+        },
+        {
+          "index": 1,
+          "text": "のうかの大切なぎょうじでした。",
+          "start_ms": 23506,
+          "end_ms": 26864,
+          "duration_ms": 3358
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "そして、すもうを見て、こめがたくさんできると思いました。",
+      "start_ms": 27364,
+      "end_ms": 34794,
+      "duration_ms": 7430,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 27364,
+          "end_ms": 28842,
+          "duration_ms": 1478
+        },
+        {
+          "index": 1,
+          "text": "すもうを見て、",
+          "start_ms": 29092,
+          "end_ms": 31046,
+          "duration_ms": 1954
+        },
+        {
+          "index": 2,
+          "text": "こめがたくさんできると思いました。",
+          "start_ms": 31296,
+          "end_ms": 34794,
+          "duration_ms": 3498
+        }
+      ]
+    }
+  ]
+}
