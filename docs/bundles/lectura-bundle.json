@@ -4061,7 +4061,85 @@
         "particula-ga",
         "protocolo-subordinacion"
       ],
-      "nivel": "A2.2"
+      "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "コンビニは、食べ物や飲み物を売る店です。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "お客さんは自分で選んで買います。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "店の中で食べることもできます。",
+          "alias": "verbo-dekimasu"
+        },
+        {
+          "oracion": "本や雑誌も売っています。",
+          "alias": "verbo-te-imasu"
+        },
+        {
+          "oracion": "アメリカでは前は24時間開いている店が多かったです。",
+          "alias": "pasado-adjetivos"
+        },
+        {
+          "oracion": "でも、今は少なくなっています。",
+          "alias": "cambio-te-narimasu"
+        },
+        {
+          "oracion": "コンビニは1927年にアメリカで始まりました。",
+          "alias": "verbos-conjugacion"
+        },
+        {
+          "oracion": "その店は今のセブン-イレブンです。",
+          "alias": "verbo-desu"
+        },
+        {
+          "oracion": "1975年から、日本にも24時間開いている店がありました。",
+          "alias": "verbos-existencia"
+        },
+        {
+          "oracion": "店では、弁当やお茶、薬や本などを買うことができます。",
+          "alias": "verbo-dekimasu"
+        },
+        {
+          "oracion": "弁当を買って、そこで食べます。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "多くの店で、ATMでお金を下ろすことができます。",
+          "alias": "verbo-dekimasu"
+        },
+        {
+          "oracion": "荷物を店に持って行くこともできます。",
+          "alias": "verbo-dekimasu"
+        },
+        {
+          "oracion": "急いでいるとき、トイレを使うこともできます。",
+          "alias": "verbo-dekimasu"
+        },
+        {
+          "oracion": "駅の近くの店は、歩いて行くことができます。",
+          "alias": "verbo-dekimasu"
+        },
+        {
+          "oracion": "昔は24時間開いている店が多かったです。",
+          "alias": "pasado-adjetivos"
+        },
+        {
+          "oracion": "今は営業時間が短くなった店もあります。",
+          "alias": "cambio-te-narimasu"
+        },
+        {
+          "oracion": "1981年から、店で荷物を送ることができます。",
+          "alias": "verbo-dekimasu"
+        },
+        {
+          "oracion": "1999年から、店でお金を下ろすこともできます。",
+          "alias": "verbo-dekimasu"
+        }
+      ]
     }
   },
   {
