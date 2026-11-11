@@ -3,7 +3,8 @@
 # revisado. Lote s3 (2026-10-06, cap13–cap17) — revisado.
 # Lote s4 (2026-10-14): 39 términos nuevos del repaso léxico de la unidad 1
 # (léxico A1 reutilizado por el «Cierre de Genki I»); revisado (gate humano
-# confirmado 2026-10-15). Solo se versionan escena .json + .webp.
+# confirmado 2026-10-15). Lote s7 (2026-10-31): propuesto, pendiente del gate humano.
+# Lote s8 (2026-11-11): revisado (gate humano confirmado 2026-11-11). Solo se versionan escena .json + .webp.
 # Origen: escenas dibujadas a mano con la skill ilustrar-vocabulario y renderizadas
 # con la caja de lápices Alpino (ADR-0091). No hay texto embebido en la imagen:
 # la palabra la pone la ficha.
@@ -745,11 +746,6 @@ imagenes:
     archivo: s3/レポート.webp
     escena: s3/レポート.json
     estado: revisado
-  - literal: 諦める
-    leccion: s3
-    placeholder: true
-    motivo: "«rendirse»: el gesto de abandono se lee como «cansancio» o «tristeza», no como la decisión de dejar de intentarlo"
-    estado: revisado
   - literal: あに
     leccion: s3
     archivo: s3/あに.webp
@@ -785,16 +781,6 @@ imagenes:
     archivo: s3/クリスマス.webp
     escena: s3/クリスマス.json
     estado: revisado
-  - literal: けち
-    leccion: s3
-    placeholder: true
-    motivo: "«tacaño»: rasgo de carácter; apretar la cartera se lee como «guardar dinero», no como tacañería"
-    estado: revisado
-  - literal: ご主人
-    leccion: s3
-    placeholder: true
-    motivo: "«esposo (de otro)»: el parentesco ajeno depende de quien habla; una pareja se lee como «matrimonio» (夫婦, ya ilustrado)"
-    estado: revisado
   - literal: さら
     leccion: s3
     archivo: s3/さら.webp
@@ -809,11 +795,6 @@ imagenes:
     leccion: s3
     archivo: s3/電子メール.webp
     escena: s3/電子メール.json
-    estado: revisado
-  - literal: 似合う
-    leccion: s3
-    placeholder: true
-    motivo: "«quedar bien»: cualidad relativa de una prenda sobre alguien; sin comparación ni texto no hay imagen unívoca"
     estado: revisado
   - literal: ぬいぐるみ
     leccion: s3
@@ -834,11 +815,6 @@ imagenes:
     leccion: s3
     archivo: s3/夫婦.webp
     escena: s3/夫婦.json
-    estado: revisado
-  - literal: ホワイトデー
-    leccion: s3
-    placeholder: true
-    motivo: "«Día Blanco»: fecha por convención cultural; sin texto no se distingue de cualquier otro día de regalos"
     estado: revisado
   - literal: バレンタインデー
     leccion: s3
@@ -1738,3 +1714,82 @@ imagenes:
     archivo: s7/八つ.webp
     escena: s7/八つ.json
     estado: propuesto
+  # Lote s8 (2026-11-11): 15 escenas para el léxico activo de Genki II L14
+  # (regalos, ropa y prendas, relaciones) y el vocabulario de la lectura del
+  # sumo. Las 5 entradas que eran placeholder en s3 se reinventan aquí.
+  # Estado propuesto: pendiente del gate humano por lección (ADR-0091).
+  - literal: 神様
+    leccion: s8
+    archivo: s8/神様.webp
+    escena: s8/神様.json
+    estado: revisado
+  - literal: 決まる
+    leccion: s8
+    archivo: s8/決まる.webp
+    escena: s8/決まる.json
+    estado: revisado
+  - literal: 相撲
+    leccion: s8
+    archivo: s8/相撲.webp
+    escena: s8/相撲.json
+    estado: revisado
+  - literal: 話
+    leccion: s8
+    archivo: s8/話.webp
+    escena: s8/話.json
+    estado: revisado
+  - literal: 武士
+    leccion: s8
+    archivo: s8/武士.webp
+    escena: s8/武士.json
+    estado: revisado
+  - literal: 文化
+    leccion: s8
+    archivo: s8/文化.webp
+    escena: s8/文化.json
+    estado: revisado
+  - literal: 力士
+    leccion: s8
+    archivo: s8/力士.webp
+    escena: s8/力士.json
+    estado: revisado
+  - literal: 送る
+    leccion: s8
+    archivo: s8/送る.webp
+    escena: s8/送る.json
+    estado: revisado
+  - literal: コップ
+    leccion: s8
+    archivo: s8/コップ.webp
+    escena: s8/コップ.json
+    estado: revisado
+  - literal: 漫画
+    leccion: s8
+    archivo: s8/漫画.webp
+    escena: s8/漫画.json
+    estado: revisado
+  - literal: 諦める
+    leccion: s8
+    archivo: s8/諦める.webp
+    escena: s8/諦める.json
+    estado: revisado
+  - literal: けち
+    leccion: s8
+    archivo: s8/けち.webp
+    escena: s8/けち.json
+    estado: revisado
+  - literal: ご主人
+    leccion: s8
+    archivo: s8/ご主人.webp
+    escena: s8/ご主人.json
+    estado: revisado
+  - literal: 似合う
+    leccion: s8
+    archivo: s8/似合う.webp
+    escena: s8/似合う.json
+    estado: revisado
+  - literal: ホワイトデー
+    leccion: s8
+    archivo: s8/ホワイトデー.webp
+    escena: s8/ホワイトデー.json
+    estado: revisado
