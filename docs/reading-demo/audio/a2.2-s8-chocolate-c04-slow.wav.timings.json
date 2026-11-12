@@ -1,0 +1,425 @@
+{
+  "audio_file": "a2.2-s8-chocolate-c04-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 144253,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "ぎりちょこと、その後の話",
+      "start_ms": 0,
+      "end_ms": 3475,
+      "duration_ms": 3475,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ぎりちょこと、その後の話",
+          "start_ms": 0,
+          "end_ms": 3475,
+          "duration_ms": 3475
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "バレンタインデーが日本でゆうめいになって、かいしゃではたらく女の人が、かいしゃの男の人にチョコレートをあげることも多くなりました。",
+      "start_ms": 3975,
+      "end_ms": 17116,
+      "duration_ms": 13141,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "バレンタインデーが日本でゆうめいになって、",
+          "start_ms": 3975,
+          "end_ms": 7693,
+          "duration_ms": 3718
+        },
+        {
+          "index": 1,
+          "text": "かいしゃではたらく女の人が、",
+          "start_ms": 7943,
+          "end_ms": 11267,
+          "duration_ms": 3324
+        },
+        {
+          "index": 2,
+          "text": "かいしゃの男の人にチョコレートをあげることも多くなりました。",
+          "start_ms": 11517,
+          "end_ms": 17116,
+          "duration_ms": 5599
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "これを「ぎりちょこ」と言います。",
+      "start_ms": 17616,
+      "end_ms": 20429,
+      "duration_ms": 2813,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "これを「ぎりちょこ」と言います。",
+          "start_ms": 17616,
+          "end_ms": 20429,
+          "duration_ms": 2813
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "ぎりちょこはせんきゅうひゃくはちじゅう年代に多くなりました。",
+      "start_ms": 20929,
+      "end_ms": 26726,
+      "duration_ms": 5797,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ぎりちょこはせんきゅうひゃくはちじゅう年代に多くなりました。",
+          "start_ms": 20929,
+          "end_ms": 26726,
+          "duration_ms": 5797
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "ホワイトデーも多くなったじだいです。",
+      "start_ms": 27226,
+      "end_ms": 30944,
+      "duration_ms": 3718,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ホワイトデーも多くなったじだいです。",
+          "start_ms": 27226,
+          "end_ms": 30944,
+          "duration_ms": 3718
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "ぎりちょこは、がいこくにはない日本のぶんかです。",
+      "start_ms": 31444,
+      "end_ms": 36948,
+      "duration_ms": 5504,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ぎりちょこは、",
+          "start_ms": 31444,
+          "end_ms": 33154,
+          "duration_ms": 1710
+        },
+        {
+          "index": 1,
+          "text": "がいこくにはない日本のぶんかです。",
+          "start_ms": 33404,
+          "end_ms": 36948,
+          "duration_ms": 3544
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "にせんじゅうさん年には、「これはぎりちょこだと見てわかるチョコ」というこうこくのことばで、おかしを売るかいしゃもありました。",
+      "start_ms": 37448,
+      "end_ms": 49323,
+      "duration_ms": 11875,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にせんじゅうさん年には、",
+          "start_ms": 37448,
+          "end_ms": 40040,
+          "duration_ms": 2592
+        },
+        {
+          "index": 1,
+          "text": "「これはぎりちょこだと見てわかるチョコ」というこうこくのことばで、",
+          "start_ms": 40290,
+          "end_ms": 45761,
+          "duration_ms": 5471
+        },
+        {
+          "index": 2,
+          "text": "おかしを売るかいしゃもありました。",
+          "start_ms": 46011,
+          "end_ms": 49323,
+          "duration_ms": 3312
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "しかし、女の人にも、おかえしをする男の人にも、おかねとじかんがかかります。",
+      "start_ms": 49823,
+      "end_ms": 60710,
+      "duration_ms": 10887,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "しかし、",
+          "start_ms": 49823,
+          "end_ms": 51382,
+          "duration_ms": 1559
+        },
+        {
+          "index": 1,
+          "text": "女の人にも、",
+          "start_ms": 51632,
+          "end_ms": 53795,
+          "duration_ms": 2163
+        },
+        {
+          "index": 2,
+          "text": "おかえしをする男の人にも、",
+          "start_ms": 54045,
+          "end_ms": 57357,
+          "duration_ms": 3312
+        },
+        {
+          "index": 3,
+          "text": "おかねとじかんがかかります。",
+          "start_ms": 57607,
+          "end_ms": 60710,
+          "duration_ms": 3103
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "だから、せんきゅうひゃくきゅうじゅう年代には、もう「ぎりちょこをやめたい」と言う人もいました。",
+      "start_ms": 61210,
+      "end_ms": 70705,
+      "duration_ms": 9495,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だから、",
+          "start_ms": 61210,
+          "end_ms": 62455,
+          "duration_ms": 1245
+        },
+        {
+          "index": 1,
+          "text": "せんきゅうひゃくきゅうじゅう年代には、",
+          "start_ms": 62705,
+          "end_ms": 66145,
+          "duration_ms": 3440
+        },
+        {
+          "index": 2,
+          "text": "もう「ぎりちょこをやめたい」と言う人もいました。",
+          "start_ms": 66395,
+          "end_ms": 70705,
+          "duration_ms": 4310
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "あるかいしゃは、ぎりちょこをやめました。",
+      "start_ms": 71205,
+      "end_ms": 76059,
+      "duration_ms": 4854,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "あるかいしゃは、",
+          "start_ms": 71205,
+          "end_ms": 73170,
+          "duration_ms": 1965
+        },
+        {
+          "index": 1,
+          "text": "ぎりちょこをやめました。",
+          "start_ms": 73420,
+          "end_ms": 76059,
+          "duration_ms": 2639
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "そして、かいしゃの人から、500円を出してもいい人から集めて、にしあふりかのおとこのこやおんなのこに送りました。",
+      "start_ms": 76559,
+      "end_ms": 89721,
+      "duration_ms": 13162,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 76559,
+          "end_ms": 78060,
+          "duration_ms": 1501
+        },
+        {
+          "index": 1,
+          "text": "かいしゃの人から、",
+          "start_ms": 78310,
+          "end_ms": 80449,
+          "duration_ms": 2139
+        },
+        {
+          "index": 2,
+          "text": "500円を出してもいい人から集めて、",
+          "start_ms": 80699,
+          "end_ms": 84557,
+          "duration_ms": 3858
+        },
+        {
+          "index": 3,
+          "text": "にしあふりかのおとこのこやおんなのこに送りました。",
+          "start_ms": 84807,
+          "end_ms": 89721,
+          "duration_ms": 4914
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "にせんきゅう年には、マッチ・ドットコム ジャパンというかいしゃが、かいしゃの中でぎりちょこをあげることをやめました。",
+      "start_ms": 90221,
+      "end_ms": 101865,
+      "duration_ms": 11644,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にせんきゅう年には、",
+          "start_ms": 90221,
+          "end_ms": 92581,
+          "duration_ms": 2360
+        },
+        {
+          "index": 1,
+          "text": "マッチ・ドットコム ジャパンというかいしゃが、",
+          "start_ms": 92831,
+          "end_ms": 96747,
+          "duration_ms": 3916
+        },
+        {
+          "index": 2,
+          "text": "かいしゃの中でぎりちょこをあげることをやめました。",
+          "start_ms": 96997,
+          "end_ms": 101865,
+          "duration_ms": 4868
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "そしてにせんじゅうはち年、チョコレートのかいしゃのゴディバが、しんぶんに「日本は、ぎりちょこをやめよう」というこうこくを出しました。",
+      "start_ms": 102365,
+      "end_ms": 116409,
+      "duration_ms": 14044,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そしてにせんじゅうはち年、",
+          "start_ms": 102365,
+          "end_ms": 105561,
+          "duration_ms": 3196
+        },
+        {
+          "index": 1,
+          "text": "チョコレートのかいしゃのゴディバが、",
+          "start_ms": 105811,
+          "end_ms": 109169,
+          "duration_ms": 3358
+        },
+        {
+          "index": 2,
+          "text": "しんぶんに「日本は、",
+          "start_ms": 109419,
+          "end_ms": 111860,
+          "duration_ms": 2441
+        },
+        {
+          "index": 3,
+          "text": "ぎりちょこをやめよう」というこうこくを出しました。",
+          "start_ms": 112110,
+          "end_ms": 116409,
+          "duration_ms": 4299
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "多くの人がこのこうこくの話をしました。",
+      "start_ms": 116909,
+      "end_ms": 122125,
+      "duration_ms": 5216,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "多くの人がこのこうこくの話をしました。",
+          "start_ms": 116909,
+          "end_ms": 122125,
+          "duration_ms": 5216
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "ゴディバジャパンのしゃちょうは、バレンタインデーはチョコレートをもらう人の日ではなく、あげる人の日だと言っています。",
+      "start_ms": 122625,
+      "end_ms": 134107,
+      "duration_ms": 11482,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ゴディバジャパンのしゃちょうは、",
+          "start_ms": 122625,
+          "end_ms": 125589,
+          "duration_ms": 2964
+        },
+        {
+          "index": 1,
+          "text": "バレンタインデーはチョコレートをもらう人の日ではなく、",
+          "start_ms": 125839,
+          "end_ms": 130649,
+          "duration_ms": 4810
+        },
+        {
+          "index": 2,
+          "text": "あげる人の日だと言っています。",
+          "start_ms": 130899,
+          "end_ms": 134107,
+          "duration_ms": 3208
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "そして、ぎりちょこをあげたくない人がいるなら、やめたほうがいいと説明しています。",
+      "start_ms": 134607,
+      "end_ms": 144253,
+      "duration_ms": 9646,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 134607,
+          "end_ms": 136119,
+          "duration_ms": 1512
+        },
+        {
+          "index": 1,
+          "text": "ぎりちょこをあげたくない人がいるなら、",
+          "start_ms": 136369,
+          "end_ms": 139971,
+          "duration_ms": 3602
+        },
+        {
+          "index": 2,
+          "text": "やめたほうがいいと説明しています。",
+          "start_ms": 140221,
+          "end_ms": 144253,
+          "duration_ms": 4032
+        }
+      ]
+    }
+  ]
+}

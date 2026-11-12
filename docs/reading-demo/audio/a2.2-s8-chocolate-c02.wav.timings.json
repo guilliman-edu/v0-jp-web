@@ -1,0 +1,153 @@
+{
+  "audio_file": "a2.2-s8-chocolate-c02.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 52975,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "デパートのこうこくと森永のこうこく",
+      "start_ms": 0,
+      "end_ms": 3596,
+      "duration_ms": 3596,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "デパートのこうこくと森永のこうこく",
+          "start_ms": 0,
+          "end_ms": 3596,
+          "duration_ms": 3596
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "バレンタインデーはせんきゅうひゃくごじゅう年代に日本でゆうめいになりました。",
+      "start_ms": 4096,
+      "end_ms": 10177,
+      "duration_ms": 6081,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "バレンタインデーはせんきゅうひゃくごじゅう年代に日本でゆうめいになりました。",
+          "start_ms": 4096,
+          "end_ms": 10177,
+          "duration_ms": 6081
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "せんきゅうひゃくごじゅうはち年、メリーチョコレートカムパニーというかいしゃが、いせたんのみせに「バレンタインセール」と書いたこうこくを出して、チョコレートを売りました。",
+      "start_ms": 10677,
+      "end_ms": 24674,
+      "duration_ms": 13997,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくごじゅうはち年、",
+          "start_ms": 10677,
+          "end_ms": 13484,
+          "duration_ms": 2807
+        },
+        {
+          "index": 1,
+          "text": "メリーチョコレートカムパニーというかいしゃが、",
+          "start_ms": 13734,
+          "end_ms": 17237,
+          "duration_ms": 3503
+        },
+        {
+          "index": 2,
+          "text": "いせたんのみせに「バレンタインセール」と書いたこうこくを出して、",
+          "start_ms": 17487,
+          "end_ms": 22209,
+          "duration_ms": 4722
+        },
+        {
+          "index": 3,
+          "text": "チョコレートを売りました。",
+          "start_ms": 22459,
+          "end_ms": 24674,
+          "duration_ms": 2215
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "さらにせんきゅうひゃくろくじゅう年には、もりながせいかがテレビやしんぶんで、バレンタインのこうこくをたくさん出しました。",
+      "start_ms": 25174,
+      "end_ms": 36335,
+      "duration_ms": 11161,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "さらにせんきゅうひゃくろくじゅう年には、",
+          "start_ms": 25174,
+          "end_ms": 28573,
+          "duration_ms": 3399
+        },
+        {
+          "index": 1,
+          "text": "もりながせいかがテレビやしんぶんで、",
+          "start_ms": 28823,
+          "end_ms": 32129,
+          "duration_ms": 3306
+        },
+        {
+          "index": 2,
+          "text": "バレンタインのこうこくをたくさん出しました。",
+          "start_ms": 32379,
+          "end_ms": 36335,
+          "duration_ms": 3956
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "こうして、バレンタインデーは日本でおおきいぎょうじになりました。",
+      "start_ms": 36835,
+      "end_ms": 43140,
+      "duration_ms": 6305,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "こうして、",
+          "start_ms": 36835,
+          "end_ms": 38214,
+          "duration_ms": 1379
+        },
+        {
+          "index": 1,
+          "text": "バレンタインデーは日本でおおきいぎょうじになりました。",
+          "start_ms": 38464,
+          "end_ms": 43140,
+          "duration_ms": 4676
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "すきな男の人にチョコレートをあげる人もおおいし、いちねんでチョコレートをたくさん食べられる日にもなりました。",
+      "start_ms": 43640,
+      "end_ms": 52975,
+      "duration_ms": 9335,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すきな男の人にチョコレートをあげる人もおおいし、",
+          "start_ms": 43640,
+          "end_ms": 48084,
+          "duration_ms": 4444
+        },
+        {
+          "index": 1,
+          "text": "いちねんでチョコレートをたくさん食べられる日にもなりました。",
+          "start_ms": 48334,
+          "end_ms": 52975,
+          "duration_ms": 4641
+        }
+      ]
+    }
+  ]
+}

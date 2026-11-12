@@ -9390,6 +9390,498 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s8-chocolate"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "チョコレートをあげる日の話",
+      "tituloEs": "La historia del día de regalar chocolate",
+      "procedencia": "Adaptación educativa en cuatro capítulos del texto aportado por el usuario sobre el Día de San Valentín y el Día Blanco en Japón. Fuentes para saber más: https://nlab.itmedia.co.jp/research/articles/790/ y https://www.ishimura.co.jp/whiteday/birth.html",
+      "ilustracion": {
+        "escena": "chocolate",
+        "alt": "Caja de bombones en forma de corazón con un lazo rosa, bombones surtidos dentro, un malvavisco con un corazón rosa al lado y corazones flotantes.",
+        "ruta": "lectura/imagenes/a2.2-s8-chocolate.webp"
+      },
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "マシュマロ",
+        "義理チョコ"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "神戸",
+          "lectura": "こうべ",
+          "significado": "Kobe"
+        },
+        {
+          "literal": "モロゾフ製菓",
+          "lectura": "もろぞふせいか",
+          "significado": "Morozoff Seika"
+        },
+        {
+          "literal": "The Japan Advertiser",
+          "lectura": "ザ・ジャパン・アドバタイザー",
+          "significado": "The Japan Advertiser"
+        },
+        {
+          "literal": "不二家",
+          "lectura": "ふじや",
+          "significado": "Fujiya"
+        },
+        {
+          "literal": "森永製菓",
+          "lectura": "もりながせいか",
+          "significado": "Morinaga Seika"
+        },
+        {
+          "literal": "メリーチョコレートカムパニー",
+          "lectura": "めりーちょこれーとかむぱにー",
+          "significado": "Mary Chocolate Company"
+        },
+        {
+          "literal": "伊勢丹",
+          "lectura": "いせたん",
+          "significado": "Isetan"
+        },
+        {
+          "literal": "福岡市",
+          "lectura": "ふくおかし",
+          "significado": "ciudad de Fukuoka"
+        },
+        {
+          "literal": "石村萬盛堂",
+          "lectura": "いしむらまんせいどう",
+          "significado": "Ishimura Manseidō"
+        },
+        {
+          "literal": "マシュマロデー",
+          "lectura": "ましゅまろでー",
+          "significado": "Día del Malvavisco"
+        },
+        {
+          "literal": "東京",
+          "lectura": "とうきょう",
+          "significado": "Tokio"
+        },
+        {
+          "literal": "全国飴菓子工業協同組合",
+          "lectura": "ぜんこくあめがしこうぎょうきょうどうくみあい",
+          "significado": "Asociación Nacional de la Industria de Dulces y Caramelos"
+        },
+        {
+          "literal": "テンプル大学日本校",
+          "lectura": "てんぷるだいがくにほんこう",
+          "significado": "Universidad Temple de Japón"
+        },
+        {
+          "literal": "堀口",
+          "lectura": "ほりぐち",
+          "significado": "Horiguchi"
+        },
+        {
+          "literal": "韓国",
+          "lectura": "かんこく",
+          "significado": "Corea"
+        },
+        {
+          "literal": "中国",
+          "lectura": "ちゅうごく",
+          "significado": "China"
+        },
+        {
+          "literal": "台湾",
+          "lectura": "たいわん",
+          "significado": "Taiwán"
+        },
+        {
+          "literal": "アメリカ",
+          "lectura": "あめりか",
+          "significado": "Estados Unidos"
+        },
+        {
+          "literal": "ヨーロッパ",
+          "lectura": "よーろっぱ",
+          "significado": "Europa"
+        },
+        {
+          "literal": "西アフリカ",
+          "lectura": "にしあふりか",
+          "significado": "África Occidental"
+        },
+        {
+          "literal": "マッチ・ドットコム ジャパン",
+          "lectura": "まっちどっとこむじゃぱん",
+          "significado": "Match.com Japan"
+        },
+        {
+          "literal": "ゴディバ",
+          "lectura": "ごでぃば",
+          "significado": "Godiva"
+        },
+        {
+          "literal": "ゴディバジャパン",
+          "lectura": "ごでぃばじゃぱん",
+          "significado": "Godiva Japan"
+        }
+      ],
+      "preguntas": [
+        "日本では、バレンタインデーに、だれがだれにチョコレートをあげますか。",
+        "バレンタインデーは、いつ日本で有名になりましたか。",
+        "石村萬盛堂は、1978年に何を始めましたか。",
+        "ホワイトデーは、どんな国で行事になっていますか。",
+        "女の人にも、お返しをする男の人にも、何がかかりますか。",
+        "2018年に、ゴディバは新聞に何と言う広告を出しましたか。"
+      ],
+      "preguntasEs": [
+        "En Japón, el Día de San Valentín, ¿quién regala chocolate a quién?",
+        "¿Cuándo se hizo famoso el Día de San Valentín en Japón?",
+        "¿Qué empezó Ishimura Manseidō en 1978?",
+        "¿En qué países es un acto el Día Blanco?",
+        "¿Qué les cuesta tanto a las mujeres como a los hombres que hacen el regalo de vuelta?",
+        "¿Qué anuncio publicó Godiva en el periódico en 2018?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "習慣",
+          "lectura": "しゅうかん",
+          "significado": "costumbre"
+        },
+        {
+          "literal": "行事",
+          "lectura": "ぎょうじ",
+          "significado": "acto"
+        },
+        {
+          "literal": "お返し",
+          "lectura": "おかえし",
+          "significado": "regalo de vuelta"
+        },
+        {
+          "literal": "広告",
+          "lectura": "こうこく",
+          "significado": "anuncio"
+        },
+        {
+          "literal": "新聞",
+          "lectura": "しんぶん",
+          "significado": "periódico"
+        },
+        {
+          "literal": "文化",
+          "lectura": "ぶんか",
+          "significado": "cultura"
+        },
+        {
+          "literal": "歴史",
+          "lectura": "れきし",
+          "significado": "historia"
+        },
+        {
+          "literal": "時代",
+          "lectura": "じだい",
+          "significado": "época"
+        },
+        {
+          "literal": "社長",
+          "lectura": "しゃちょう",
+          "significado": "presidente"
+        },
+        {
+          "literal": "説明する",
+          "lectura": "せつめいする",
+          "significado": "explicar"
+        },
+        {
+          "literal": "集める",
+          "lectura": "あつめる",
+          "significado": "reunir"
+        },
+        {
+          "literal": "送る",
+          "lectura": "おくる",
+          "significado": "enviar"
+        },
+        {
+          "literal": "やめる",
+          "lectura": "やめる",
+          "significado": "dejar"
+        },
+        {
+          "literal": "お金",
+          "lectura": "おかね",
+          "significado": "dinero"
+        },
+        {
+          "literal": "時間",
+          "lectura": "じかん",
+          "significado": "tiempo"
+        },
+        {
+          "literal": "かかります",
+          "lectura": "かかります",
+          "significado": "tomar (tiempo, dinero)"
+        },
+        {
+          "literal": "言葉",
+          "lectura": "ことば",
+          "significado": "palabra"
+        },
+        {
+          "literal": "写真",
+          "lectura": "しゃしん",
+          "significado": "foto"
+        },
+        {
+          "literal": "店",
+          "lectura": "みせ",
+          "significado": "tienda"
+        },
+        {
+          "literal": "会社",
+          "lectura": "かいしゃ",
+          "significado": "empresa"
+        },
+        {
+          "literal": "お菓子",
+          "lectura": "おかし",
+          "significado": "dulce"
+        },
+        {
+          "literal": "外国",
+          "lectura": "がいこく",
+          "significado": "país extranjero"
+        },
+        {
+          "literal": "有名",
+          "lectura": "ゆうめい",
+          "significado": "famoso"
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "hace mucho tiempo"
+        },
+        {
+          "literal": "好き",
+          "lectura": "すき",
+          "significado": "gustar"
+        },
+        {
+          "literal": "働く",
+          "lectura": "はたらく",
+          "significado": "trabajar"
+        },
+        {
+          "literal": "もらう",
+          "lectura": "もらう",
+          "significado": "recibir"
+        },
+        {
+          "literal": "始める",
+          "lectura": "はじめる",
+          "significado": "empezar"
+        },
+        {
+          "literal": "一年",
+          "lectura": "いちねん",
+          "significado": "un año"
+        },
+        {
+          "literal": "何回",
+          "lectura": "なんかい",
+          "significado": "cuántas veces"
+        },
+        {
+          "literal": "名前",
+          "lectura": "なまえ",
+          "significado": "nombre"
+        },
+        {
+          "literal": "新しい",
+          "lectura": "あたらしい",
+          "significado": "nuevo"
+        },
+        {
+          "literal": "古い",
+          "lectura": "ふるい",
+          "significado": "viejo"
+        },
+        {
+          "literal": "長い",
+          "lectura": "ながい",
+          "significado": "largo"
+        },
+        {
+          "literal": "多い",
+          "lectura": "おおい",
+          "significado": "muchos"
+        },
+        {
+          "literal": "大きい",
+          "lectura": "おおきい",
+          "significado": "grande"
+        },
+        {
+          "literal": "バレンタインデー",
+          "lectura": "ばれんたいんでー",
+          "significado": "Día de San Valentín"
+        },
+        {
+          "literal": "ホワイトデー",
+          "lectura": "ほわいとでー",
+          "significado": "Día Blanco"
+        },
+        {
+          "literal": "チョコレート",
+          "lectura": "ちょこれーと",
+          "significado": "chocolate"
+        },
+        {
+          "literal": "マシュマロ",
+          "lectura": "ましゅまろ",
+          "significado": "malvavisco",
+          "exclusion": true
+        },
+        {
+          "literal": "義理チョコ",
+          "lectura": "ぎりちょこ",
+          "significado": "chocolate de compromiso",
+          "exclusion": true
+        },
+        {
+          "literal": "男の子",
+          "lectura": "おとこのこ",
+          "significado": "niño"
+        },
+        {
+          "literal": "女の子",
+          "lectura": "おんなのこ",
+          "significado": "niña"
+        }
+      ],
+      "referencias": [
+        "usos-forma-te",
+        "protocolo-subordinacion",
+        "noticia-sou",
+        "verbo-potencial",
+        "frases-causa-shi",
+        "forma-simple"
+      ],
+      "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "日本では、バレンタインデーに、女の人が好きな男の人にチョコレートをあげる習慣があります。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "神戸のモロゾフ製菓という会社が、この習慣を始めたそうです。",
+          "alias": "noticia-sou"
+        },
+        {
+          "oracion": "会社は、外国の人が読む英語の新聞『The Japan Advertiser』に、チョコレートの広告を出しました。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "その後、不二家や森永製菓などのお菓子の会社も、何回も「バレンタインデーは女の人が男の人にチョコレートをあげる日です」と言いました。",
+          "alias": "conjuncion-enumerativa-ya"
+        },
+        {
+          "oracion": "こうして、昔は日本になかった外国の行事が、「チョコレートの日」になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "バレンタインデーは1950年代に日本で有名になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "1958年、メリーチョコレートカムパニーという会社が、伊勢丹の店に「バレンタインセール」と書いた広告を出して、チョコレートを売りました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "さらに1960年には、森永製菓がテレビや新聞で、バレンタインの広告をたくさん出しました。",
+          "alias": "conjuncion-enumerativa-ya"
+        },
+        {
+          "oracion": "こうして、バレンタインデーは日本で大きい行事になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "好きな男の人にチョコレートをあげる人も多いし、一年でチョコレートをたくさん食べられる日にもなりました。",
+          "alias": "verbo-potencial"
+        },
+        {
+          "oracion": "その後も、一年に一回、新しい広告や写真を作りました。",
+          "alias": "conjuncion-enumerativa-ya"
+        },
+        {
+          "oracion": "「マシュマロデー」が「ホワイトデー」という名前になったときも、店は「ホワイトデーはマシュマロデー」と言って、「お返しにマシュマロをあげましょう」と言いました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "長い歴史の中で作った広告や写真には、古い時代のものも多いです。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "ただ、その前から、いろいろな店や会社が売っていたそうです。",
+          "alias": "noticia-sou"
+        },
+        {
+          "oracion": "テンプル大学日本校の堀口先生は、ホワイトデーもお菓子の会社が作った文化だと言っています。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "ホワイトデーは日本の文化で、韓国や中国、台湾などでも行事になっています。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "でも、アメリカやヨーロッパでは、あまりありません。",
+          "alias": "conjuncion-enumerativa-ya"
+        },
+        {
+          "oracion": "バレンタインデーが日本で有名になって、会社で働く女の人が、会社の男の人にチョコレートをあげることも多くなりました。",
+          "alias": "substantivacion-koto"
+        },
+        {
+          "oracion": "義理チョコは1980年代に多くなりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "ホワイトデーも多くなった時代です。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "義理チョコは、外国にはない日本の文化です。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "2013年には、「これは義理チョコだと見てわかるチョコ」という広告の言葉で、お菓子を売る会社もありました。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "そして、会社の人から、500円を出してもいい人から集めて、西アフリカの男の子や女の子に送りました。",
+          "alias": "unir-verbos-te"
+        },
+        {
+          "oracion": "2009年には、マッチ・ドットコム ジャパンという会社が、会社の中で義理チョコをあげることをやめました。",
+          "alias": "substantivacion-koto"
+        },
+        {
+          "oracion": "ゴディバジャパンの社長は、バレンタインデーはチョコレートをもらう人の日ではなく、あげる人の日だと言っています。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "そして、義理チョコをあげたくない人がいるなら、やめたほうがいいと説明しています。",
+          "alias": "consejo-houga-ii"
+        }
+      ],
+      "texto": "はじまり\n日本では、バレンタインデーに、女の人が好きな男の人にチョコレートをあげる習慣があります。これは外国にはあまりない、日本で有名な習慣です。\n\n神戸のモロゾフ製菓という会社が、この習慣を始めたそうです。会社は、外国の人が読む英語の新聞『The Japan Advertiser』に、チョコレートの広告を出しました。その後、不二家や森永製菓などのお菓子の会社も、何回も「バレンタインデーは女の人が男の人にチョコレートをあげる日です」と言いました。こうして、昔は日本になかった外国の行事が、「チョコレートの日」になりました。\n\n\n---\n\nデパートの広告と森永の広告\nバレンタインデーは1950年代に日本で有名になりました。1958年、メリーチョコレートカムパニーという会社が、伊勢丹の店に「バレンタインセール」と書いた広告を出して、チョコレートを売りました。さらに1960年には、森永製菓がテレビや新聞で、バレンタインの広告をたくさん出しました。\n\nこうして、バレンタインデーは日本で大きい行事になりました。好きな男の人にチョコレートをあげる人も多いし、一年でチョコレートをたくさん食べられる日にもなりました。\n\n\n---\n\nマシュマロからホワイトデーへ\nチョコレートをもらった男の人は、お返しに何がほしいですか。そこで、福岡市のお菓子の店、石村萬盛堂が、1978年に「マシュマロデー」を始めました。そして、「お返しにマシュマロをあげましょう」と言いました。\n\nその後も、一年に一回、新しい広告や写真を作りました。「マシュマロデー」が「ホワイトデー」という名前になったときも、店は「ホワイトデーはマシュマロデー」と言って、「お返しにマシュマロをあげましょう」と言いました。長い歴史の中で作った広告や写真には、古い時代のものも多いです。\n\nでも、東京の「全国飴菓子工業協同組合」は、1980年に「ホワイトデー」という行事を作りました。ただ、その前から、いろいろな店や会社が売っていたそうです。だから、始まりにはいろいろな話があります。\n\nテンプル大学日本校の堀口先生は、ホワイトデーもお菓子の会社が作った文化だと言っています。ホワイトデーは日本の文化で、韓国や中国、台湾などでも行事になっています。でも、アメリカやヨーロッパでは、あまりありません。\n\n\n---\n\n義理チョコと、その後の話\nバレンタインデーが日本で有名になって、会社で働く女の人が、会社の男の人にチョコレートをあげることも多くなりました。これを「義理チョコ」と言います。\n\n義理チョコは1980年代に多くなりました。ホワイトデーも多くなった時代です。義理チョコは、外国にはない日本の文化です。\n\n2013年には、「これは義理チョコだと見てわかるチョコ」という広告の言葉で、お菓子を売る会社もありました。\n\nしかし、女の人にも、お返しをする男の人にも、お金と時間がかかります。だから、1990年代には、もう「義理チョコをやめたい」と言う人もいました。ある会社は、義理チョコをやめました。そして、会社の人から、500円を出してもいい人から集めて、西アフリカの男の子や女の子に送りました。\n\n2009年には、マッチ・ドットコム ジャパンという会社が、会社の中で義理チョコをあげることをやめました。そして2018年、チョコレートの会社のゴディバが、新聞に「日本は、義理チョコをやめよう」という広告を出しました。多くの人がこの広告の話をしました。\n\nゴディバジャパンの社長は、バレンタインデーはチョコレートをもらう人の日ではなく、あげる人の日だと言っています。そして、義理チョコをあげたくない人がいるなら、やめたほうがいいと説明しています。\n",
+      "textoEs": "El comienzo\nEn Japón existe la costumbre de que, el Día de San Valentín, las mujeres regalen chocolate al hombre que les gusta. Es una costumbre famosa en Japón y poco común en el extranjero.\n\nDicen que la empresa Morozoff Seika, de Kobe, empezó esta costumbre. La empresa publicó un anuncio de chocolate en el periódico en inglés The Japan Advertiser, que leían los extranjeros. Después, otras empresas de dulces como Fujiya y Morinaga Seika dijeron muchas veces: «El Día de San Valentín es el día en que las mujeres regalan chocolate a los hombres». Así, un acto extranjero que antes no existía en Japón se convirtió en el «Día del Chocolate».\n\n\n---\n\nEl anuncio de los grandes almacenes y el de Morinaga\nEl Día de San Valentín se hizo famoso en Japón en la década de 1950. En 1958, una empresa llamada Mary Chocolate Company puso un anuncio con la inscripción «rebajas de San Valentín» en la tienda Isetan y vendió chocolate. Además, en 1960, Morinaga Seika publicó muchos anuncios de San Valentín en la televisión y en los periódicos.\n\nAsí, el Día de San Valentín se convirtió en un gran acto en Japón. También hay mucha gente que regala chocolate al hombre que le gusta, y también se convirtió en el día en que se puede comer mucho chocolate en un año.\n\n\n---\n\nDel malvavisco al Día Blanco\n¿Qué quiere el hombre que ha recibido chocolate como regalo de vuelta? Entonces, la tienda de dulces Ishimura Manseidō, de la ciudad de Fukuoka, empezó en 1978 el «Día del Malvavisco». Y dijo: «Regalemos malvaviscos como regalo de vuelta».\n\nDespués, una vez al año, siguió haciendo nuevos anuncios y fotos. Incluso cuando el «Día del Malvavisco» pasó a llamarse «Día Blanco», la tienda dijo: «El Día Blanco es el Día del Malvavisco», y dijo: «Regalemos malvaviscos como regalo de vuelta». Entre los anuncios y fotos que hizo a lo largo de su larga historia, también hay muchos de épocas antiguas.\n\nPero la «Asociación Nacional de la Industria de Dulces y Caramelos» de Tokio creó en 1980 un acto llamado «Día Blanco». Sin embargo, dicen que, desde antes, diversas tiendas y empresas ya lo vendían. Por eso, hay diversas historias sobre su origen.\n\nEl profesor Horiguchi, de la Universidad Temple de Japón, dice que el Día Blanco también es una cultura creada por las empresas de dulces. El Día Blanco es cultura japonesa y también se ha convertido en un acto en Corea, China, Taiwán y otros lugares. Pero en Estados Unidos y Europa no es muy común.\n\n\n---\n\nEl chocolate de compromiso y lo que vino después\nAl hacerse famoso el Día de San Valentín en Japón, también aumentó el número de mujeres que trabajan en una empresa y regalan chocolate a los hombres de la empresa. A esto se le llama «chocolate de compromiso».\n\nEl chocolate de compromiso aumentó en la década de 1980. Es una época en la que también aumentó el Día Blanco. El chocolate de compromiso es una cultura japonesa que no existe en el extranjero.\n\nEn 2013, también hubo una empresa que vendía dulces con un eslogan publicitario que decía: «Un chocolate que se reconoce a simple vista como chocolate de compromiso».\n\nSin embargo, tanto a las mujeres como a los hombres que hacen el regalo de vuelta les cuesta dinero y tiempo. Por eso, ya en la década de 1990 había personas que decían: «Quiero dejar el chocolate de compromiso». Una empresa dejó el chocolate de compromiso. Y reunió 500 yenes de las personas de la empresa que querían aportarlos, y los envió a niños y niñas de África Occidental.\n\nEn 2009, una empresa llamada Match.com Japan dejó de regalar chocolate de compromiso dentro de la empresa. Y en 2018, Godiva, una empresa de chocolate, publicó en el periódico un anuncio que decía: «Japón, dejemos el chocolate de compromiso». Muchas personas hablaron de este anuncio.\n\nEl presidente de Godiva Japan dice que el Día de San Valentín no es el día de quienes reciben chocolate, sino el de quienes lo regalan. Y explica que, si hay personas que no quieren regalar chocolate de compromiso, es mejor que lo dejen.\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "a2.2-s8-sumo"
     },
     "data": {

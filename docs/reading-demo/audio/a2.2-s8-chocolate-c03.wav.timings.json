@@ -1,0 +1,356 @@
+{
+  "audio_file": "a2.2-s8-chocolate-c03.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 109183,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "マシュマロからホワイトデーへ",
+      "start_ms": 0,
+      "end_ms": 2691,
+      "duration_ms": 2691,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "マシュマロからホワイトデーへ",
+          "start_ms": 0,
+          "end_ms": 2691,
+          "duration_ms": 2691
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "チョコレートをもらった男の人は、おかえしに何がほしいですか。",
+      "start_ms": 3191,
+      "end_ms": 9693,
+      "duration_ms": 6502,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "チョコレートをもらった男の人は、",
+          "start_ms": 3191,
+          "end_ms": 6230,
+          "duration_ms": 3039
+        },
+        {
+          "index": 1,
+          "text": "おかえしに何がほしいですか。",
+          "start_ms": 6480,
+          "end_ms": 9693,
+          "duration_ms": 3213
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "そこで、ふくおかしのおかしのみせ、いしむらまんせいどうが、せんきゅうひゃくななじゅうはち年に「マシュマロデー」を始めました。",
+      "start_ms": 10193,
+      "end_ms": 22123,
+      "duration_ms": 11930,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そこで、",
+          "start_ms": 10193,
+          "end_ms": 11409,
+          "duration_ms": 1216
+        },
+        {
+          "index": 1,
+          "text": "ふくおかしのおかしのみせ、",
+          "start_ms": 11659,
+          "end_ms": 14152,
+          "duration_ms": 2493
+        },
+        {
+          "index": 2,
+          "text": "いしむらまんせいどうが、",
+          "start_ms": 14402,
+          "end_ms": 16779,
+          "duration_ms": 2377
+        },
+        {
+          "index": 3,
+          "text": "せんきゅうひゃくななじゅうはち年に「マシュマロデー」を始めました。",
+          "start_ms": 17029,
+          "end_ms": 22123,
+          "duration_ms": 5094
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "そして、「おかえしにマシュマロをあげましょう」と言いました。",
+      "start_ms": 22623,
+      "end_ms": 27964,
+      "duration_ms": 5341,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 22623,
+          "end_ms": 24025,
+          "duration_ms": 1402
+        },
+        {
+          "index": 1,
+          "text": "「おかえしにマシュマロをあげましょう」と言いました。",
+          "start_ms": 24275,
+          "end_ms": 27964,
+          "duration_ms": 3689
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "その後も、いちねんに一回、あたらしいこうこくやしゃしんを作りました。",
+      "start_ms": 28464,
+      "end_ms": 36606,
+      "duration_ms": 8142,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "その後も、",
+          "start_ms": 28464,
+          "end_ms": 30237,
+          "duration_ms": 1773
+        },
+        {
+          "index": 1,
+          "text": "いちねんに一回、",
+          "start_ms": 30487,
+          "end_ms": 32504,
+          "duration_ms": 2017
+        },
+        {
+          "index": 2,
+          "text": "あたらしいこうこくやしゃしんを作りました。",
+          "start_ms": 32754,
+          "end_ms": 36606,
+          "duration_ms": 3852
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "「マシュマロデー」が「ホワイトデー」というなまえになったときも、みせは「ホワイトデーはマシュマロデー」と言って、「おかえしにマシュマロをあげましょう」と言いました。",
+      "start_ms": 37106,
+      "end_ms": 49428,
+      "duration_ms": 12322,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「マシュマロデー」が「ホワイトデー」というなまえになったときも、",
+          "start_ms": 37106,
+          "end_ms": 41492,
+          "duration_ms": 4386
+        },
+        {
+          "index": 1,
+          "text": "みせは「ホワイトデーはマシュマロデー」と言って、",
+          "start_ms": 41742,
+          "end_ms": 45466,
+          "duration_ms": 3724
+        },
+        {
+          "index": 2,
+          "text": "「おかえしにマシュマロをあげましょう」と言いました。",
+          "start_ms": 45716,
+          "end_ms": 49428,
+          "duration_ms": 3712
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "ながいれきしの中で作ったこうこくやしゃしんには、ふるいじだいのものもおおいです。",
+      "start_ms": 49928,
+      "end_ms": 57521,
+      "duration_ms": 7593,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ながいれきしの中で作ったこうこくやしゃしんには、",
+          "start_ms": 49928,
+          "end_ms": 54302,
+          "duration_ms": 4374
+        },
+        {
+          "index": 1,
+          "text": "ふるいじだいのものもおおいです。",
+          "start_ms": 54552,
+          "end_ms": 57521,
+          "duration_ms": 2969
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "でも、とうきょうの「ぜんこくあめがしこうぎょうきょうどうくみあい」は、せんきゅうひゃくはちじゅう年に「ホワイトデー」というぎょうじを作りました。",
+      "start_ms": 58021,
+      "end_ms": 69507,
+      "duration_ms": 11486,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 58021,
+          "end_ms": 59005,
+          "duration_ms": 984
+        },
+        {
+          "index": 1,
+          "text": "とうきょうの「ぜんこくあめがしこうぎょうきょうどうくみあい」は、",
+          "start_ms": 59255,
+          "end_ms": 63861,
+          "duration_ms": 4606
+        },
+        {
+          "index": 2,
+          "text": "せんきゅうひゃくはちじゅう年に「ホワイトデー」というぎょうじを作りました。",
+          "start_ms": 64111,
+          "end_ms": 69507,
+          "duration_ms": 5396
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "ただ、その前から、いろいろなみせやかいしゃが売っていたそうです。",
+      "start_ms": 70007,
+      "end_ms": 77546,
+      "duration_ms": 7539,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ただ、",
+          "start_ms": 70007,
+          "end_ms": 71235,
+          "duration_ms": 1228
+        },
+        {
+          "index": 1,
+          "text": "その前から、",
+          "start_ms": 71485,
+          "end_ms": 73224,
+          "duration_ms": 1739
+        },
+        {
+          "index": 2,
+          "text": "いろいろなみせやかいしゃが売っていたそうです。",
+          "start_ms": 73474,
+          "end_ms": 77546,
+          "duration_ms": 4072
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "だから、始まりにはいろいろな話があります。",
+      "start_ms": 78046,
+      "end_ms": 83248,
+      "duration_ms": 5202,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "だから、",
+          "start_ms": 78046,
+          "end_ms": 79216,
+          "duration_ms": 1170
+        },
+        {
+          "index": 1,
+          "text": "始まりにはいろいろな話があります。",
+          "start_ms": 79466,
+          "end_ms": 83248,
+          "duration_ms": 3782
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "てんぷるだいがくにほんこうのほりぐち先生は、ホワイトデーもおかしのかいしゃが作ったぶんかだと言っています。",
+      "start_ms": 83748,
+      "end_ms": 92897,
+      "duration_ms": 9149,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "てんぷるだいがくにほんこうのほりぐち先生は、",
+          "start_ms": 83748,
+          "end_ms": 87681,
+          "duration_ms": 3933
+        },
+        {
+          "index": 1,
+          "text": "ホワイトデーもおかしのかいしゃが作ったぶんかだと言っています。",
+          "start_ms": 87931,
+          "end_ms": 92897,
+          "duration_ms": 4966
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "ホワイトデーは日本のぶんかで、かんこくやちゅうごく、たいわんなどでもぎょうじになっています。",
+      "start_ms": 93397,
+      "end_ms": 102689,
+      "duration_ms": 9292,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ホワイトデーは日本のぶんかで、",
+          "start_ms": 93397,
+          "end_ms": 96587,
+          "duration_ms": 3190
+        },
+        {
+          "index": 1,
+          "text": "かんこくやちゅうごく、",
+          "start_ms": 96837,
+          "end_ms": 98947,
+          "duration_ms": 2110
+        },
+        {
+          "index": 2,
+          "text": "たいわんなどでもぎょうじになっています。",
+          "start_ms": 99197,
+          "end_ms": 102689,
+          "duration_ms": 3492
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "でも、アメリカやヨーロッパでは、あまりありません。",
+      "start_ms": 103189,
+      "end_ms": 109183,
+      "duration_ms": 5994,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 103189,
+          "end_ms": 104173,
+          "duration_ms": 984
+        },
+        {
+          "index": 1,
+          "text": "アメリカやヨーロッパでは、",
+          "start_ms": 104423,
+          "end_ms": 106997,
+          "duration_ms": 2574
+        },
+        {
+          "index": 2,
+          "text": "あまりありません。",
+          "start_ms": 107247,
+          "end_ms": 109183,
+          "duration_ms": 1936
+        }
+      ]
+    }
+  ]
+}

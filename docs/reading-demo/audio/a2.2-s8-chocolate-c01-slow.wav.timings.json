@@ -1,0 +1,190 @@
+{
+  "audio_file": "a2.2-s8-chocolate-c01-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 63219,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "はじまり",
+      "start_ms": 0,
+      "end_ms": 1768,
+      "duration_ms": 1768,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はじまり",
+          "start_ms": 0,
+          "end_ms": 1768,
+          "duration_ms": 1768
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "日本では、バレンタインデーに、女の人がすきな男の人にチョコレートをあげるしゅうかんがあります。",
+      "start_ms": 2268,
+      "end_ms": 12739,
+      "duration_ms": 10471,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "日本では、",
+          "start_ms": 2268,
+          "end_ms": 4024,
+          "duration_ms": 1756
+        },
+        {
+          "index": 1,
+          "text": "バレンタインデーに、",
+          "start_ms": 4274,
+          "end_ms": 6402,
+          "duration_ms": 2128
+        },
+        {
+          "index": 2,
+          "text": "女の人がすきな男の人にチョコレートをあげるしゅうかんがあります。",
+          "start_ms": 6652,
+          "end_ms": 12739,
+          "duration_ms": 6087
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "これはがいこくにはあまりない、日本でゆうめいなしゅうかんです。",
+      "start_ms": 13239,
+      "end_ms": 19799,
+      "duration_ms": 6560,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "これはがいこくにはあまりない、",
+          "start_ms": 13239,
+          "end_ms": 16365,
+          "duration_ms": 3126
+        },
+        {
+          "index": 1,
+          "text": "日本でゆうめいなしゅうかんです。",
+          "start_ms": 16615,
+          "end_ms": 19799,
+          "duration_ms": 3184
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "こうべのもろぞふせいかというかいしゃが、このしゅうかんを始めたそうです。",
+      "start_ms": 20299,
+      "end_ms": 27812,
+      "duration_ms": 7513,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "こうべのもろぞふせいかというかいしゃが、",
+          "start_ms": 20299,
+          "end_ms": 24029,
+          "duration_ms": 3730
+        },
+        {
+          "index": 1,
+          "text": "このしゅうかんを始めたそうです。",
+          "start_ms": 24279,
+          "end_ms": 27812,
+          "duration_ms": 3533
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "かいしゃは、がいこくの人が読む英語のしんぶん『The Japan Advertiser』に、チョコレートのこうこくを出しました。",
+      "start_ms": 28312,
+      "end_ms": 37993,
+      "duration_ms": 9681,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいしゃは、",
+          "start_ms": 28312,
+          "end_ms": 30068,
+          "duration_ms": 1756
+        },
+        {
+          "index": 1,
+          "text": "がいこくの人が読む英語のしんぶん『The Japan Advertiser』に、",
+          "start_ms": 30318,
+          "end_ms": 34419,
+          "duration_ms": 4101
+        },
+        {
+          "index": 2,
+          "text": "チョコレートのこうこくを出しました。",
+          "start_ms": 34669,
+          "end_ms": 37993,
+          "duration_ms": 3324
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "その後、ふじややもりながせいかなどのおかしのかいしゃも、なんかいも「バレンタインデーは女の人が男の人にチョコレートをあげる日です」と言いました。",
+      "start_ms": 38493,
+      "end_ms": 53282,
+      "duration_ms": 14789,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "その後、",
+          "start_ms": 38493,
+          "end_ms": 40261,
+          "duration_ms": 1768
+        },
+        {
+          "index": 1,
+          "text": "ふじややもりながせいかなどのおかしのかいしゃも、",
+          "start_ms": 40511,
+          "end_ms": 45030,
+          "duration_ms": 4519
+        },
+        {
+          "index": 2,
+          "text": "なんかいも「バレンタインデーは女の人が男の人にチョコレートをあげる日です」と言いました。",
+          "start_ms": 45280,
+          "end_ms": 53282,
+          "duration_ms": 8002
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "こうして、むかしは日本になかったがいこくのぎょうじが、「チョコレートの日」になりました。",
+      "start_ms": 53782,
+      "end_ms": 63219,
+      "duration_ms": 9437,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "こうして、",
+          "start_ms": 53782,
+          "end_ms": 55341,
+          "duration_ms": 1559
+        },
+        {
+          "index": 1,
+          "text": "むかしは日本になかったがいこくのぎょうじが、",
+          "start_ms": 55591,
+          "end_ms": 60052,
+          "duration_ms": 4461
+        },
+        {
+          "index": 2,
+          "text": "「チョコレートの日」になりました。",
+          "start_ms": 60302,
+          "end_ms": 63219,
+          "duration_ms": 2917
+        }
+      ]
+    }
+  ]
+}
