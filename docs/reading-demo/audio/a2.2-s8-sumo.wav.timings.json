@@ -1,0 +1,383 @@
+{
+  "audio_file": "a2.2-s8-sumo.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 102953,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "すもうの歴史",
+      "start_ms": 0,
+      "end_ms": 1936,
+      "duration_ms": 1936,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すもうの歴史",
+          "start_ms": 0,
+          "end_ms": 1936,
+          "duration_ms": 1936
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "すもうのはじまりは、とても古いはなしです。",
+      "start_ms": 2436,
+      "end_ms": 7394,
+      "duration_ms": 4958,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すもうのはじまりは、",
+          "start_ms": 2436,
+          "end_ms": 4662,
+          "duration_ms": 2226
+        },
+        {
+          "index": 1,
+          "text": "とても古いはなしです。",
+          "start_ms": 4912,
+          "end_ms": 7394,
+          "duration_ms": 2482
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "昔の本に、二人のかみさまがすもうをしたはなしがあります。",
+      "start_ms": 7894,
+      "end_ms": 14001,
+      "duration_ms": 6107,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "昔の本に、",
+          "start_ms": 7894,
+          "end_ms": 9760,
+          "duration_ms": 1866
+        },
+        {
+          "index": 1,
+          "text": "二人のかみさまがすもうをしたはなしがあります。",
+          "start_ms": 10010,
+          "end_ms": 14001,
+          "duration_ms": 3991
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "そのころ、日本ではこめを作っていました。",
+      "start_ms": 14501,
+      "end_ms": 19586,
+      "duration_ms": 5085,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのころ、",
+          "start_ms": 14501,
+          "end_ms": 16100,
+          "duration_ms": 1599
+        },
+        {
+          "index": 1,
+          "text": "日本ではこめを作っていました。",
+          "start_ms": 16350,
+          "end_ms": 19586,
+          "duration_ms": 3236
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "すもうは、のうかの大切なぎょうじでした。",
+      "start_ms": 20086,
+      "end_ms": 24637,
+      "duration_ms": 4551,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すもうは、",
+          "start_ms": 20086,
+          "end_ms": 21383,
+          "duration_ms": 1297
+        },
+        {
+          "index": 1,
+          "text": "のうかの大切なぎょうじでした。",
+          "start_ms": 21633,
+          "end_ms": 24637,
+          "duration_ms": 3004
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "のうかの人は、すもうを見て、こめがたくさんできると思いました。",
+      "start_ms": 25137,
+      "end_ms": 32548,
+      "duration_ms": 7411,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "のうかの人は、",
+          "start_ms": 25137,
+          "end_ms": 27050,
+          "duration_ms": 1913
+        },
+        {
+          "index": 1,
+          "text": "すもうを見て、",
+          "start_ms": 27300,
+          "end_ms": 29073,
+          "duration_ms": 1773
+        },
+        {
+          "index": 2,
+          "text": "こめがたくさんできると思いました。",
+          "start_ms": 29323,
+          "end_ms": 32548,
+          "duration_ms": 3225
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "かまくらやせんごくのじだいには、ぶしもすもうを習いました。",
+      "start_ms": 33048,
+      "end_ms": 39062,
+      "duration_ms": 6014,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かまくらやせんごくのじだいには、",
+          "start_ms": 33048,
+          "end_ms": 36098,
+          "duration_ms": 3050
+        },
+        {
+          "index": 1,
+          "text": "ぶしもすもうを習いました。",
+          "start_ms": 36348,
+          "end_ms": 39062,
+          "duration_ms": 2714
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "ぶしはすもうをして、強くなりました。",
+      "start_ms": 39562,
+      "end_ms": 43939,
+      "duration_ms": 4377,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ぶしはすもうをして、",
+          "start_ms": 39562,
+          "end_ms": 41707,
+          "duration_ms": 2145
+        },
+        {
+          "index": 1,
+          "text": "強くなりました。",
+          "start_ms": 41957,
+          "end_ms": 43939,
+          "duration_ms": 1982
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "おだのぶながはすもうがとてもすきだったそうです。",
+      "start_ms": 44439,
+      "end_ms": 48697,
+      "duration_ms": 4258,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おだのぶながはすもうがとてもすきだったそうです。",
+          "start_ms": 44439,
+          "end_ms": 48697,
+          "duration_ms": 4258
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "のぶながは、いろいろなくにからりきしを集めて、すもうを取らせました。",
+      "start_ms": 49197,
+      "end_ms": 56817,
+      "duration_ms": 7620,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "のぶながは、",
+          "start_ms": 49197,
+          "end_ms": 50831,
+          "duration_ms": 1634
+        },
+        {
+          "index": 1,
+          "text": "いろいろなくにからりきしを集めて、",
+          "start_ms": 51081,
+          "end_ms": 54271,
+          "duration_ms": 3190
+        },
+        {
+          "index": 2,
+          "text": "すもうを取らせました。",
+          "start_ms": 54521,
+          "end_ms": 56817,
+          "duration_ms": 2296
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "えどじだいに、すもうはとても人気のあるぎょうじになりました。",
+      "start_ms": 57317,
+      "end_ms": 63482,
+      "duration_ms": 6165,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "えどじだいに、",
+          "start_ms": 57317,
+          "end_ms": 59032,
+          "duration_ms": 1715
+        },
+        {
+          "index": 1,
+          "text": "すもうはとても人気のあるぎょうじになりました。",
+          "start_ms": 59282,
+          "end_ms": 63482,
+          "duration_ms": 4200
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "りきしはすもうでおかねをもらえましたし、すもうを見る人もたくさんいました。",
+      "start_ms": 63982,
+      "end_ms": 71239,
+      "duration_ms": 7257,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "りきしはすもうでおかねをもらえましたし、",
+          "start_ms": 63982,
+          "end_ms": 67590,
+          "duration_ms": 3608
+        },
+        {
+          "index": 1,
+          "text": "すもうを見る人もたくさんいました。",
+          "start_ms": 67840,
+          "end_ms": 71239,
+          "duration_ms": 3399
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "せんきゅうひゃくきゅう年、りょうごくにこくぎかんができました。",
+      "start_ms": 71739,
+      "end_ms": 77533,
+      "duration_ms": 5794,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくきゅう年、",
+          "start_ms": 71739,
+          "end_ms": 74058,
+          "duration_ms": 2319
+        },
+        {
+          "index": 1,
+          "text": "りょうごくにこくぎかんができました。",
+          "start_ms": 74308,
+          "end_ms": 77533,
+          "duration_ms": 3225
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "せんきゅうひゃくにじゅうご年に、今のすもうきょうかいのもとになるきょうかいができました。",
+      "start_ms": 78033,
+      "end_ms": 85731,
+      "duration_ms": 7698,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくにじゅうご年に、",
+          "start_ms": 78033,
+          "end_ms": 80956,
+          "duration_ms": 2923
+        },
+        {
+          "index": 1,
+          "text": "今のすもうきょうかいのもとになるきょうかいができました。",
+          "start_ms": 81206,
+          "end_ms": 85731,
+          "duration_ms": 4525
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "せんきゅうひゃくにじゅうなな年に、とうきょうとおおさかのきょうかいが一つになり、今のすもうのかたちが決まりました。",
+      "start_ms": 86231,
+      "end_ms": 97055,
+      "duration_ms": 10824,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくにじゅうなな年に、",
+          "start_ms": 86231,
+          "end_ms": 89072,
+          "duration_ms": 2841
+        },
+        {
+          "index": 1,
+          "text": "とうきょうとおおさかのきょうかいが一つになり、",
+          "start_ms": 89322,
+          "end_ms": 93371,
+          "duration_ms": 4049
+        },
+        {
+          "index": 2,
+          "text": "今のすもうのかたちが決まりました。",
+          "start_ms": 93621,
+          "end_ms": 97055,
+          "duration_ms": 3434
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "すもうは、日本でとてもゆうめいなぶんかになりました。",
+      "start_ms": 97555,
+      "end_ms": 102953,
+      "duration_ms": 5398,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "すもうは、",
+          "start_ms": 97555,
+          "end_ms": 98817,
+          "duration_ms": 1262
+        },
+        {
+          "index": 1,
+          "text": "日本でとてもゆうめいなぶんかになりました。",
+          "start_ms": 99067,
+          "end_ms": 102953,
+          "duration_ms": 3886
+        }
+      ]
+    }
+  ]
+}

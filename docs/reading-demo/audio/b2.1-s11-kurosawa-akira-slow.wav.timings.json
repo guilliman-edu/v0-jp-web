@@ -1,0 +1,629 @@
+{
+  "audio_file": "b2.1-s11-kurosawa-akira-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 203062,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "くろさわあきら — せかいで有名な映画を作った人",
+      "start_ms": 0,
+      "end_ms": 4235,
+      "duration_ms": 4235,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "くろさわあきら — せかいで有名な映画を作った人",
+          "start_ms": 0,
+          "end_ms": 4235,
+          "duration_ms": 4235
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "くろさわあきらはせんきゅうひゃくじゅう年、とうきょうに生まれた。",
+      "start_ms": 4735,
+      "end_ms": 10865,
+      "duration_ms": 6130,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "くろさわあきらはせんきゅうひゃくじゅう年、",
+          "start_ms": 4735,
+          "end_ms": 8482,
+          "duration_ms": 3747
+        },
+        {
+          "index": 1,
+          "text": "とうきょうに生まれた。",
+          "start_ms": 8732,
+          "end_ms": 10865,
+          "duration_ms": 2133
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "八人のきょうだいがいた。",
+      "start_ms": 11365,
+      "end_ms": 13974,
+      "duration_ms": 2609,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "八人のきょうだいがいた。",
+          "start_ms": 11365,
+          "end_ms": 13974,
+          "duration_ms": 2609
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "ちちは厳しかったが、映画に興味があり、よくきょうだいをえいがかんに連れて行った。",
+      "start_ms": 14474,
+      "end_ms": 23230,
+      "duration_ms": 8756,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ちちは厳しかったが、",
+          "start_ms": 14474,
+          "end_ms": 16897,
+          "duration_ms": 2423
+        },
+        {
+          "index": 1,
+          "text": "映画に興味があり、",
+          "start_ms": 17147,
+          "end_ms": 19396,
+          "duration_ms": 2249
+        },
+        {
+          "index": 2,
+          "text": "よくきょうだいをえいがかんに連れて行った。",
+          "start_ms": 19646,
+          "end_ms": 23230,
+          "duration_ms": 3584
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "黒澤は若いときから映画を見ながら育った。",
+      "start_ms": 23730,
+      "end_ms": 28023,
+      "duration_ms": 4293,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "黒澤は若いときから映画を見ながら育った。",
+          "start_ms": 23730,
+          "end_ms": 28023,
+          "duration_ms": 4293
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "小学校の先生は、黒澤のかいがを「とてもいい」と言ってくれた。",
+      "start_ms": 28523,
+      "end_ms": 35257,
+      "duration_ms": 6734,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "小学校の先生は、",
+          "start_ms": 28523,
+          "end_ms": 31121,
+          "duration_ms": 2598
+        },
+        {
+          "index": 1,
+          "text": "黒澤のかいがを「とてもいい」と言ってくれた。",
+          "start_ms": 31371,
+          "end_ms": 35257,
+          "duration_ms": 3886
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "それから、黒澤はかいがを描くことにむちゅうになった。",
+      "start_ms": 35757,
+      "end_ms": 41945,
+      "duration_ms": 6188,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それから、",
+          "start_ms": 35757,
+          "end_ms": 37333,
+          "duration_ms": 1576
+        },
+        {
+          "index": 1,
+          "text": "黒澤はかいがを描くことにむちゅうになった。",
+          "start_ms": 37583,
+          "end_ms": 41945,
+          "duration_ms": 4362
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "学校ではしょうせつをたくさん読み、じんせいについても勉強した。",
+      "start_ms": 42445,
+      "end_ms": 49028,
+      "duration_ms": 6583,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "学校ではしょうせつをたくさん読み、",
+          "start_ms": 42445,
+          "end_ms": 45751,
+          "duration_ms": 3306
+        },
+        {
+          "index": 1,
+          "text": "じんせいについても勉強した。",
+          "start_ms": 46001,
+          "end_ms": 49028,
+          "duration_ms": 3027
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "はじめはかいがの仕事をしたいと思っていた。",
+      "start_ms": 49528,
+      "end_ms": 53774,
+      "duration_ms": 4246,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はじめはかいがの仕事をしたいと思っていた。",
+          "start_ms": 49528,
+          "end_ms": 53774,
+          "duration_ms": 4246
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "しかし、せんきゅうひゃくさんじゅうろく年に映画のかいしゃに入り、映画を作る人のそばで作り方を習った。",
+      "start_ms": 54274,
+      "end_ms": 64726,
+      "duration_ms": 10452,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "しかし、",
+          "start_ms": 54274,
+          "end_ms": 55711,
+          "duration_ms": 1437
+        },
+        {
+          "index": 1,
+          "text": "せんきゅうひゃくさんじゅうろく年に映画のかいしゃに入り、",
+          "start_ms": 55961,
+          "end_ms": 60439,
+          "duration_ms": 4478
+        },
+        {
+          "index": 2,
+          "text": "映画を作る人のそばで作り方を習った。",
+          "start_ms": 60689,
+          "end_ms": 64726,
+          "duration_ms": 4037
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "せんきゅうひゃくよんじゅうさん年、『姿三四郎』で初めて自分で映画を作った。",
+      "start_ms": 65226,
+      "end_ms": 72807,
+      "duration_ms": 7581,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくよんじゅうさん年、",
+          "start_ms": 65226,
+          "end_ms": 68079,
+          "duration_ms": 2853
+        },
+        {
+          "index": 1,
+          "text": "『姿三四郎』で初めて自分で映画を作った。",
+          "start_ms": 68329,
+          "end_ms": 72807,
+          "duration_ms": 4478
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "戦争のあと、黒澤は『酔いどれ天使』や『野良犬』をはっぴょうして注目を集めた。",
+      "start_ms": 73307,
+      "end_ms": 81295,
+      "duration_ms": 7988,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "戦争のあと、",
+          "start_ms": 73307,
+          "end_ms": 75208,
+          "duration_ms": 1901
+        },
+        {
+          "index": 1,
+          "text": "黒澤は『酔いどれ天使』や『野良犬』をはっぴょうして注目を集めた。",
+          "start_ms": 75458,
+          "end_ms": 81295,
+          "duration_ms": 5837
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "せんきゅうひゃくごじゅう年の『羅生門』はヴェネツィア国際映画祭で金獅子賞を受け、にほんの映画にとって、せかいに知られるきっかけになった。",
+      "start_ms": 81795,
+      "end_ms": 94987,
+      "duration_ms": 13192,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくごじゅう年の『羅生門』はヴェネツィア国際映画祭で金獅子賞を受け、",
+          "start_ms": 81795,
+          "end_ms": 89106,
+          "duration_ms": 7311
+        },
+        {
+          "index": 1,
+          "text": "にほんの映画にとって、",
+          "start_ms": 89356,
+          "end_ms": 91617,
+          "duration_ms": 2261
+        },
+        {
+          "index": 2,
+          "text": "せかいに知られるきっかけになった。",
+          "start_ms": 91867,
+          "end_ms": 94987,
+          "duration_ms": 3120
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "その後も『生きる』『七人の侍』『ようじんぼう』などを作り、かいがいでも高く評価された。",
+      "start_ms": 95487,
+      "end_ms": 103742,
+      "duration_ms": 8255,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "その後も『生きる』『七人の侍』『ようじんぼう』などを作り、",
+          "start_ms": 95487,
+          "end_ms": 100279,
+          "duration_ms": 4792
+        },
+        {
+          "index": 1,
+          "text": "かいがいでも高く評価された。",
+          "start_ms": 100529,
+          "end_ms": 103742,
+          "duration_ms": 3213
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "かいがいでは、黒澤の映画をもとにあたらしい映画が作られた。",
+      "start_ms": 104242,
+      "end_ms": 110941,
+      "duration_ms": 6699,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かいがいでは、",
+          "start_ms": 104242,
+          "end_ms": 105946,
+          "duration_ms": 1704
+        },
+        {
+          "index": 1,
+          "text": "黒澤の映画をもとにあたらしい映画が作られた。",
+          "start_ms": 106196,
+          "end_ms": 110941,
+          "duration_ms": 4745
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "せんきゅうひゃくろくじゅうねんだいのこうはん、にほんでは映画を見る人が少なくなり、映画を作る仕事は困難になった。",
+      "start_ms": 111441,
+      "end_ms": 122939,
+      "duration_ms": 11498,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくろくじゅうねんだいのこうはん、",
+          "start_ms": 111441,
+          "end_ms": 114898,
+          "duration_ms": 3457
+        },
+        {
+          "index": 1,
+          "text": "にほんでは映画を見る人が少なくなり、",
+          "start_ms": 115148,
+          "end_ms": 118930,
+          "duration_ms": 3782
+        },
+        {
+          "index": 2,
+          "text": "映画を作る仕事は困難になった。",
+          "start_ms": 119180,
+          "end_ms": 122939,
+          "duration_ms": 3759
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "黒澤はアメリカで仕事をしようとしたものの、思ったようにはいかなかった。",
+      "start_ms": 123439,
+      "end_ms": 131300,
+      "duration_ms": 7861,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "黒澤はアメリカで仕事をしようとしたものの、",
+          "start_ms": 123439,
+          "end_ms": 127883,
+          "duration_ms": 4444
+        },
+        {
+          "index": 1,
+          "text": "思ったようにはいかなかった。",
+          "start_ms": 128133,
+          "end_ms": 131300,
+          "duration_ms": 3167
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "それでも、かいがいのしきんのおかげで、『デルス・ウザーラ』『影武者』『乱』を作ることができた。",
+      "start_ms": 131800,
+      "end_ms": 140372,
+      "duration_ms": 8572,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "それでも、",
+          "start_ms": 131800,
+          "end_ms": 133330,
+          "duration_ms": 1530
+        },
+        {
+          "index": 1,
+          "text": "かいがいのしきんのおかげで、",
+          "start_ms": 133580,
+          "end_ms": 136154,
+          "duration_ms": 2574
+        },
+        {
+          "index": 2,
+          "text": "『デルス・ウザーラ』『影武者』『乱』を作ることができた。",
+          "start_ms": 136404,
+          "end_ms": 140372,
+          "duration_ms": 3968
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "せんきゅうひゃくはちじゅうご年には、映画を作る人として初めて文化勲章を受けた。",
+      "start_ms": 140872,
+      "end_ms": 149011,
+      "duration_ms": 8139,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくはちじゅうご年には、",
+          "start_ms": 140872,
+          "end_ms": 143969,
+          "duration_ms": 3097
+        },
+        {
+          "index": 1,
+          "text": "映画を作る人として初めて文化勲章を受けた。",
+          "start_ms": 144219,
+          "end_ms": 149011,
+          "duration_ms": 4792
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "せんきゅうひゃくきゅうじゅう年には『夢』を作り、アカデミー名誉賞を受けた。",
+      "start_ms": 149511,
+      "end_ms": 156605,
+      "duration_ms": 7094,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくきゅうじゅう年には『夢』を作り、",
+          "start_ms": 149511,
+          "end_ms": 153653,
+          "duration_ms": 4142
+        },
+        {
+          "index": 1,
+          "text": "アカデミー名誉賞を受けた。",
+          "start_ms": 153903,
+          "end_ms": 156605,
+          "duration_ms": 2702
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "黒澤はしょうがいで30本のさくひんを作り、そのうち16本はみふねとしろうと作ったものだ。",
+      "start_ms": 157105,
+      "end_ms": 166823,
+      "duration_ms": 9718,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "黒澤はしょうがいで30本のさくひんを作り、",
+          "start_ms": 157105,
+          "end_ms": 161537,
+          "duration_ms": 4432
+        },
+        {
+          "index": 1,
+          "text": "そのうち16本はみふねとしろうと作ったものだ。",
+          "start_ms": 161787,
+          "end_ms": 166823,
+          "duration_ms": 5036
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "せんきゅうひゃくきゅうじゅうはち年に死んだ。",
+      "start_ms": 167323,
+      "end_ms": 170803,
+      "duration_ms": 3480,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくきゅうじゅうはち年に死んだ。",
+          "start_ms": 167323,
+          "end_ms": 170803,
+          "duration_ms": 3480
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "死んだあと、国民栄誉賞が与えられた。",
+      "start_ms": 171303,
+      "end_ms": 175970,
+      "duration_ms": 4667,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "死んだあと、",
+          "start_ms": 171303,
+          "end_ms": 172867,
+          "duration_ms": 1564
+        },
+        {
+          "index": 1,
+          "text": "国民栄誉賞が与えられた。",
+          "start_ms": 173117,
+          "end_ms": 175970,
+          "duration_ms": 2853
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "黒澤の映画は今もせかいで見られ、多くの人に大きなちからを与えている。",
+      "start_ms": 176470,
+      "end_ms": 184702,
+      "duration_ms": 8232,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "黒澤の映画は今もせかいで見られ、",
+          "start_ms": 176470,
+          "end_ms": 180368,
+          "duration_ms": 3898
+        },
+        {
+          "index": 1,
+          "text": "多くの人に大きなちからを与えている。",
+          "start_ms": 180618,
+          "end_ms": 184702,
+          "duration_ms": 4084
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "text": "黒澤のさくひんは、にんげんのこころの強さを描いている。",
+      "start_ms": 185202,
+      "end_ms": 191391,
+      "duration_ms": 6189,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "黒澤のさくひんは、",
+          "start_ms": 185202,
+          "end_ms": 187591,
+          "duration_ms": 2389
+        },
+        {
+          "index": 1,
+          "text": "にんげんのこころの強さを描いている。",
+          "start_ms": 187841,
+          "end_ms": 191391,
+          "duration_ms": 3550
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "text": "これからも、彼の映画はせかいで見られるだろう。",
+      "start_ms": 191891,
+      "end_ms": 197186,
+      "duration_ms": 5295,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "これからも、",
+          "start_ms": 191891,
+          "end_ms": 193479,
+          "duration_ms": 1588
+        },
+        {
+          "index": 1,
+          "text": "彼の映画はせかいで見られるだろう。",
+          "start_ms": 193729,
+          "end_ms": 197186,
+          "duration_ms": 3457
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "text": "そして、今も多くの人にかんどうを与えつつある。",
+      "start_ms": 197686,
+      "end_ms": 203062,
+      "duration_ms": 5376,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そして、",
+          "start_ms": 197686,
+          "end_ms": 198995,
+          "duration_ms": 1309
+        },
+        {
+          "index": 1,
+          "text": "今も多くの人にかんどうを与えつつある。",
+          "start_ms": 199245,
+          "end_ms": 203062,
+          "duration_ms": 3817
+        }
+      ]
+    }
+  ]
+}
