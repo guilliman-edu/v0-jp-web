@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>número + も / número + しか〜ない: cantidad grande y cantidad pequeña — a2.2</title><script type="module">(()=>{const n=document.querySelectorAll(".slide"),s=document.querySelectorAll(".toc-link"),l=document.getElementById("slide-counter");if(!n.length)return;let e=0;function c(t){if(t<0||t>=n.length)return;n[e].classList.remove("active"),s[e]&&s[e].classList.remove("active"),e=t,n[e].classList.add("active"),s[e]&&s[e].classList.add("active"),l&&(l.textContent=e+1+" / "+n.length);const o=document.getElementById("prev-slide"),d=document.getElementById("next-slide");o&&(o.disabled=e===0),d&&(d.disabled=e===n.length-1)}document.addEventListener("click",t=>{const o=t.target.closest("[data-goto]");if(!o)return;const d=o.dataset.goto;if(d==="close-toc"){document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open");return}const a=[...n].findIndex(m=>m.id===d);a>=0&&c(a)});const i=document.getElementById("prev-slide"),r=document.getElementById("next-slide");i&&i.addEventListener("click",()=>c(e-1)),r&&r.addEventListener("click",()=>c(e+1)),document.getElementById("toc-toggle").addEventListener("click",()=>{document.getElementById("toc-panel").classList.toggle("open"),document.getElementById("toc-backdrop").classList.toggle("open")}),document.getElementById("toc-backdrop").addEventListener("click",()=>{document.getElementById("toc-panel").classList.remove("open"),document.getElementById("toc-backdrop").classList.remove("open")}),document.addEventListener("keydown",t=>{t.key==="ArrowLeft"&&c(e-1),t.key==="ArrowRight"&&c(e+1)}),c(0)})();</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="/v0-jp-web/_astro/_alias_.Bwy-kmQt.css"></head> <body> <header class="topbar"> <a href="/v0-jp-web/deck/a2.2/semana-a2.2-s8/" class="back-link" title="Volver a la secuencia"> <i data-lucide="arrow-left" width="18" height="18"></i> <span class="back-text">Volver</span> </a> <a href="/v0-jp-web/deck/a2.2/" class="back-link deck-link" title="Volver al deck del nivel"> <i data-lucide="archive" width="18" height="18"></i> <span class="back-text">Deck</span> </a> <button id="toc-toggle" class="icon-btn" title="Índice"> <i data-lucide="menu" width="20" height="20"></i> </button> <span class="topbar-title">número + も / número + しか〜ない: cantidad grande y cantidad pequeña</span> <span class="topbar-level">a2.2</span> <button id="print-pdf" class="icon-btn print-btn" title="Descargar esta lección en PDF" aria-label="Descargar esta lección en PDF" data-titulo="número + も / número + しか〜ない: cantidad grande y cantidad pequeña" data-nivel="a2.2" data-secuencia="s8" data-leccion="14" data-iteraciones="3" data-alias="cantidad-mo-shika-nai" data-ruta="/lecciones/a2.2/cantidad-mo-shika-nai/"> <i data-lucide="download" width="18" height="18"></i> <span class="back-text">PDF</span> </button> </header> <div id="toc-backdrop" class="toc-backdrop"></div> <aside id="toc-panel" class="toc-panel"> <div class="toc-header"> <h3>Índice</h3> <button id="toc-close" class="icon-btn" data-goto="close-toc"> <i data-lucide="x" width="20" height="20"></i> </button> </div> <nav> <ul class="toc-list" id="toc-list"><li><a data-goto="iteracion-1" class="toc-link active">Iteración 1: Cantidad grande con も</a></li>
+<li><a data-goto="iteracion-2" class="toc-link">Iteración 2: Cantidad pequeña con しか〜ない</a></li>
+<li><a data-goto="iteracion-3" class="toc-link">Iteración 3: Contraste y resumen</a></li></ul> </nav> </aside> <main class="main-content"> <div class="content-wrapper"><section id="iteracion-1" class="slide active">
+  <h2 class="slide-title">Iteración 1: Cantidad grande con も</h2>
+  <p class="mission"><em>Misión: Usar も detrás de un número para señalar que la cantidad es mucha.</em></p>
+  <h3 class="section-title">📐 Qué expresa</h3>
+<p class="body-text"><strong>も</strong> detrás de un número destaca que la cantidad es <strong>grande</strong>: «nada menos que…».</p>
+<blockquote><ruby>昨日<rt>きのう</rt></ruby>、<ruby>三時間<rt>さんじかん</rt></ruby><strong>も</strong><ruby>勉強<rt>べんきょう</rt></ruby>しました — Ayer estudié nada menos que tres horas.</blockquote>
+<blockquote>パーティ<ruby>ーに五十人<rt>ごじゅうにん</rt></ruby><strong>も</strong><ruby>来<rt>き</rt></ruby>ました — Vinieron nada menos que cincuenta personas a la fiesta.</blockquote>
+<h3 class="section-title">⚠️ も no sustituye a を ni a が</h3>
+<p class="body-text">も se coloca <strong>tras el número</strong> y no reemplaza a la partícula de caso que corresponde a la frase: 三時間<strong>も</strong>勉強しました.</p>
+</section>
+<section id="iteracion-2" class="slide">
+  <h2 class="slide-title">Iteración 2: Cantidad pequeña con しか〜ない</h2>
+  <p class="mission"><em>Misión: Expresar «solo» con cantidades pequeñas, recordando que el verbo va en negativo.</em></p>
+  <h3 class="section-title">📐 Cómo se forma</h3>
+<p class="body-text"><strong>しか</strong> va detrás del número y el verbo <strong>siempre en negativo</strong>:</p>
+<table><thead><tr><th>Japonés</th><th>Traducción</th></tr></thead><tbody><tr><td><ruby>お金<rt>かね</rt></ruby><ruby>が千円<rt>せんえん</rt></ruby>しかありません</td><td>Solo tengo mil yenes.</td></tr><tr><td><ruby>漢字<rt>かんじ</rt></ruby><ruby>を百個<rt>ひゃっこ</rt></ruby><ruby>しか覚<rt>おぼ</rt></ruby>えていません</td><td>Solo recuerdo cien kanji.</td></tr></tbody></table>
+<h3 class="section-title">⚠️ Atención a la negación</h3>
+<p class="body-text">Si la frase no lleva <strong>ない</strong> al final, no es しか〜ない. ✗ 千円しかあります es incorrecto.</p>
+</section>
+<section id="iteracion-3" class="slide">
+  <h2 class="slide-title">Iteración 3: Contraste y resumen</h2>
+  <p class="mission"><em>Misión: Distinguir las dos perspectivas con la misma cantidad.</em></p>
+  <h3 class="section-title">📐 La misma cantidad, dos perspectivas</h3>
+<ul class="body-list"><li><ruby>一日<rt>いちにち</rt></ruby><ruby>に三時間<rt>さんじかん</rt></ruby><strong>も</strong><ruby>日本語<rt>にほんご</rt></ruby><ruby>を勉強<rt>べんきょう</rt></ruby>します — Estudio japonés nada menos que tres horas al día.</li><li><ruby>一日<rt>いちにち</rt></ruby><ruby>に一時間<rt>いちじかん</rt></ruby><strong>しか</strong><ruby>日本語<rt>にほんご</rt></ruby><ruby>を勉強<rt>べんきょう</rt></ruby>しません — Solo estudio japonés una hora al día.</li></ul>
+<p class="body-text">La diferencia es de <strong>perspectiva</strong>: も presenta la cantidad como grande; しか〜ない, como pequeña o insuficiente.</p>
+<h3 class="section-title">📌 Resumen</h3>
+<ul class="body-list"><li><strong>número + も</strong> = cantidad grande («nada menos que…»); el verbo va afirmativo.</li><li><strong>número + しか〜ない</strong> = cantidad pequeña («solo…»); el verbo va en negativo.</li><li>も se pone tras el número; しか sustituye a を o a が.</li></ul>
+<h3 class="section-title">✍️ Repaso final</h3>
+<ul class="body-list"><li><strong>1.</strong> Di «Estudié nada menos que cinco horas» con も.</li><li><strong>2.</strong> Di «Solo tengo cien yenes» con しか〜ない.</li></ul>
+<details>
+<summary>Ver soluciones</summary>
+<ul>
+  <li><strong>1.</strong> <ruby>五時間<rt>ごじかん</rt></ruby><strong>も</strong><ruby>勉強<rt>べんきょう</rt></ruby>しました.</li>
+  <li><strong>2.</strong> <ruby>お金<rt>かね</rt></ruby><ruby>が百円<rt>ひゃくえん</rt></ruby><strong>しか</strong>ありません.</li>
+</ul>
+</details>
+<h3 class="section-title">📖 Glosario de la lección</h3>
+<details>
+<summary>Ver términos nuevos</summary>
+<ul>
+  <li><strong>número + も</strong> — cantidad grande («nada menos que»).</li>
+  <li><strong>número + しか〜ない</strong> — cantidad pequeña («solo»); verbo en negativo.</li>
+</ul>
+</details>
+</section></div> </main> <footer class="bottom-nav"> <button id="prev-slide" class="nav-btn" disabled> <i data-lucide="chevron-left" width="16" height="16"></i> Anterior
+</button> <span id="slide-counter" class="slide-counter">1 / 3</span> <button id="next-slide" class="nav-btn">
+Siguiente <i data-lucide="chevron-right" width="16" height="16"></i> </button> </footer> <div class="license-badge"> <p>Contenido bajo <a href="/v0-jp-web/LICENSE.md" target="_blank">licencia copyleft</a>.</p> </div> <script type="module" src="/v0-jp-web/_astro/_alias_.astro_astro_type_script_index_1_lang.DBTsbMS2.js"></script> <script type="module">function e(){window.lucide&&window.lucide.createIcons()}document.readyState==="complete"?e():window.addEventListener("load",e);</script> </body> </html>  <script type="module" src="/v0-jp-web/_astro/_alias_.astro_astro_type_script_index_3_lang.CN6pKSHs.js"></script>
