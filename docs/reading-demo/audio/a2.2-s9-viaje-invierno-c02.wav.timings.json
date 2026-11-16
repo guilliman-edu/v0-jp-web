@@ -1,0 +1,146 @@
+{
+  "audio_file": "a2.2-s9-viaje-invierno-c02.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 36171,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "自分で持っていくもの",
+      "start_ms": 0,
+      "end_ms": 2365,
+      "duration_ms": 2365,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "自分で持っていくもの",
+          "start_ms": 0,
+          "end_ms": 2365,
+          "duration_ms": 2365
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "かおやかみにつかうものは、自分で持っていったほうがいいです。",
+      "start_ms": 2865,
+      "end_ms": 8763,
+      "duration_ms": 5898,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かおやかみにつかうものは、",
+          "start_ms": 2865,
+          "end_ms": 5463,
+          "duration_ms": 2598
+        },
+        {
+          "index": 1,
+          "text": "自分で持っていったほうがいいです。",
+          "start_ms": 5713,
+          "end_ms": 8763,
+          "duration_ms": 3050
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "りょかんにもありますが、自分がいつも使っているものがいいです。",
+      "start_ms": 9263,
+      "end_ms": 15463,
+      "duration_ms": 6200,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "りょかんにもありますが、",
+          "start_ms": 9263,
+          "end_ms": 11640,
+          "duration_ms": 2377
+        },
+        {
+          "index": 1,
+          "text": "自分がいつも使っているものがいいです。",
+          "start_ms": 11890,
+          "end_ms": 15463,
+          "duration_ms": 3573
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "コンタクトレンズをつかう人は、めがねも忘れないでください。",
+      "start_ms": 15963,
+      "end_ms": 21850,
+      "duration_ms": 5887,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "コンタクトレンズをつかう人は、",
+          "start_ms": 15963,
+          "end_ms": 18793,
+          "duration_ms": 2830
+        },
+        {
+          "index": 1,
+          "text": "めがねも忘れないでください。",
+          "start_ms": 19043,
+          "end_ms": 21850,
+          "duration_ms": 2807
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "ふゆはさむいですから、セーターやくつしたも持っていきましょう。",
+      "start_ms": 22350,
+      "end_ms": 28156,
+      "duration_ms": 5806,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ふゆはさむいですから、",
+          "start_ms": 22350,
+          "end_ms": 24681,
+          "duration_ms": 2331
+        },
+        {
+          "index": 1,
+          "text": "セーターやくつしたも持っていきましょう。",
+          "start_ms": 24931,
+          "end_ms": 28156,
+          "duration_ms": 3225
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "へやでつかうものと、おふろでつかうものは、別のかばんに入れましょう。",
+      "start_ms": 28656,
+      "end_ms": 36171,
+      "duration_ms": 7515,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "へやでつかうものと、",
+          "start_ms": 28656,
+          "end_ms": 30871,
+          "duration_ms": 2215
+        },
+        {
+          "index": 1,
+          "text": "おふろでつかうものは、",
+          "start_ms": 31121,
+          "end_ms": 33428,
+          "duration_ms": 2307
+        },
+        {
+          "index": 2,
+          "text": "別のかばんに入れましょう。",
+          "start_ms": 33678,
+          "end_ms": 36171,
+          "duration_ms": 2493
+        }
+      ]
+    }
+  ]
+}

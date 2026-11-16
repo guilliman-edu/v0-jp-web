@@ -10145,6 +10145,256 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s9-viaje-invierno"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "温泉旅行の荷物",
+      "tituloEs": "El equipaje del viaje a las aguas termales",
+      "procedencia": "Adaptación educativa en tres capítulos del artículo «温泉旅行の持ち物リスト｜旅館にあるものと持参したいもの» (旅ヒント). Fuente: https://tabi-hint.com/onsen-travel-items/",
+      "ilustracion": {
+        "escena": "fuyu",
+        "alt": "Bufanda roja enrollada, guantes azules, un mapa doblado en cuatro y una pila verde sobre el suelo, con el rótulo ふゆ.",
+        "ruta": "lectura/imagenes/a2.2-s9-viaje-invierno.webp"
+      },
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "タオル",
+        "浴衣",
+        "シャンプー",
+        "靴下",
+        "すぎる"
+      ],
+      "nombres_propios": [],
+      "preguntas": [
+        "旅館には、何がありますか。",
+        "寒い季節は、浴衣だけでいいですか。",
+        "冬は、何を持っていったほうがいいですか。",
+        "お風呂に行くとき、どんな鞄がいいですか。",
+        "部屋を出る前に、何を忘れないでくださいと言っていますか。"
+      ],
+      "preguntasEs": [
+        "¿Qué hay en el ryokan?",
+        "En la estación fría, ¿basta solo con el yukata?",
+        "En invierno, ¿qué es mejor llevar?",
+        "Al ir al baño, ¿qué tipo de bolsa es buena?",
+        "Antes de salir de la habitación, ¿qué dice que no hay que olvidar?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "温泉",
+          "lectura": "おんせん",
+          "significado": "aguas termales"
+        },
+        {
+          "literal": "旅行",
+          "lectura": "りょこう",
+          "significado": "viaje"
+        },
+        {
+          "literal": "旅館",
+          "lectura": "りょかん",
+          "significado": "ryokan"
+        },
+        {
+          "literal": "タオル",
+          "lectura": "たおる",
+          "significado": "toalla",
+          "exclusion": true
+        },
+        {
+          "literal": "浴衣",
+          "lectura": "ゆかた",
+          "significado": "yukata",
+          "exclusion": true
+        },
+        {
+          "literal": "シャンプー",
+          "lectura": "しゃんぷー",
+          "significado": "champú",
+          "exclusion": true
+        },
+        {
+          "literal": "予約",
+          "lectura": "よやく",
+          "significado": "reserva"
+        },
+        {
+          "literal": "ページ",
+          "lectura": "ページ",
+          "significado": "página"
+        },
+        {
+          "literal": "寒い",
+          "lectura": "さむい",
+          "significado": "frío"
+        },
+        {
+          "literal": "季節",
+          "lectura": "きせつ",
+          "significado": "estación del año"
+        },
+        {
+          "literal": "顔",
+          "lectura": "かお",
+          "significado": "cara"
+        },
+        {
+          "literal": "髪",
+          "lectura": "かみ",
+          "significado": "pelo"
+        },
+        {
+          "literal": "使う",
+          "lectura": "つかう",
+          "significado": "usar"
+        },
+        {
+          "literal": "コンタクトレンズ",
+          "lectura": "コンタクトレンズ",
+          "significado": "lentillas"
+        },
+        {
+          "literal": "眼鏡",
+          "lectura": "めがね",
+          "significado": "gafas"
+        },
+        {
+          "literal": "冬",
+          "lectura": "ふゆ",
+          "significado": "invierno"
+        },
+        {
+          "literal": "セーター",
+          "lectura": "セーター",
+          "significado": "suéter"
+        },
+        {
+          "literal": "靴下",
+          "lectura": "くつした",
+          "significado": "calcetines",
+          "exclusion": true
+        },
+        {
+          "literal": "部屋",
+          "lectura": "へや",
+          "significado": "habitación"
+        },
+        {
+          "literal": "お風呂",
+          "lectura": "おふろ",
+          "significado": "baño"
+        },
+        {
+          "literal": "鞄",
+          "lectura": "かばん",
+          "significado": "bolsa"
+        },
+        {
+          "literal": "入れる",
+          "lectura": "いれる",
+          "significado": "meter"
+        },
+        {
+          "literal": "鍵",
+          "lectura": "かぎ",
+          "significado": "llave"
+        },
+        {
+          "literal": "電話",
+          "lectura": "でんわ",
+          "significado": "teléfono"
+        },
+        {
+          "literal": "大きい",
+          "lectura": "おおきい",
+          "significado": "grande"
+        },
+        {
+          "literal": "所",
+          "lectura": "ところ",
+          "significado": "lugar"
+        },
+        {
+          "literal": "少ない",
+          "lectura": "すくない",
+          "significado": "poco"
+        },
+        {
+          "literal": "荷物",
+          "lectura": "にもつ",
+          "significado": "equipaje"
+        },
+        {
+          "literal": "すぎる",
+          "lectura": "すぎる",
+          "significado": "exceder",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "cantidad-mo-shika-nai",
+        "consejo-houga-ii"
+      ],
+      "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "温泉旅行の前に、何を持つかわからない人は多いです。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "旅館にあるものと、自分で持っていくものがあります。",
+          "alias": "subordinadas-modificar-sustantivo"
+        },
+        {
+          "oracion": "旅館には、タオルや浴衣、シャンプーなどがあることが多いです。",
+          "alias": "substantivacion-koto"
+        },
+        {
+          "oracion": "しかし、小さい旅館にはないものもありますから、予約のときに旅館のページを見たほうがいいです。",
+          "alias": "consejo-houga-ii"
+        },
+        {
+          "oracion": "寒い季節は、浴衣だけでは寒いかもしれません。",
+          "alias": "conjetura-kamoshiremasen"
+        },
+        {
+          "oracion": "顔や髪に使うものは、自分で持っていったほうがいいです。",
+          "alias": "consejo-houga-ii"
+        },
+        {
+          "oracion": "旅館にもありますが、自分がいつも使っているものがいいです。",
+          "alias": "conjuncion-adversativa-ga"
+        },
+        {
+          "oracion": "冬は寒いですから、セーターや靴下も持っていきましょう。",
+          "alias": "frases-causa-kara"
+        },
+        {
+          "oracion": "お風呂に行くときは、小さい鞄を一つ持っていったらどうですか。",
+          "alias": "sugerencia-tara-dou-desu-ka"
+        },
+        {
+          "oracion": "鍵は一つしかありませんから、なくさないでください。",
+          "alias": "cantidad-mo-shika-nai"
+        },
+        {
+          "oracion": "大きい鞄は、お風呂には持っていかないほうがいいです。",
+          "alias": "consejo-houga-ii"
+        },
+        {
+          "oracion": "お風呂には、鞄を入れる所が少ないかもしれません。",
+          "alias": "conjetura-kamoshiremasen"
+        }
+      ],
+      "texto": "旅館にあるもの\n温泉旅行の前に、何を持つかわからない人は多いです。旅館にあるものと、自分で持っていくものがあります。まず、旅館にあるものを知りましょう。旅館には、タオルや浴衣、シャンプーなどがあることが多いです。しかし、小さい旅館にはないものもありますから、予約のときに旅館のページを見たほうがいいです。寒い季節は、浴衣だけでは寒いかもしれません。\n\n\n---\n\n自分で持っていくもの\n顔や髪に使うものは、自分で持っていったほうがいいです。旅館にもありますが、自分がいつも使っているものがいいです。コンタクトレンズを使う人は、眼鏡も忘れないでください。冬は寒いですから、セーターや靴下も持っていきましょう。部屋で使うものと、お風呂で使うものは、別の鞄に入れましょう。\n\n\n---\n\nお風呂に行くとき\nお風呂に行くときは、小さい鞄を一つ持っていったらどうですか。その鞄に、部屋の鍵、電話、タオルを入れます。鍵は一つしかありませんから、なくさないでください。大きい鞄は、お風呂には持っていかないほうがいいです。お風呂には、鞄を入れる所が少ないかもしれません。部屋を出る前に、鍵、タオル、電話を忘れないでください。旅館にあるものは旅館のものを使いましょう。荷物が多すぎるのは、よくないです。\n",
+      "textoEs": "Lo que hay en el ryokan\nAntes de un viaje a las aguas termales, hay mucha gente que no sabe qué llevar. Están las cosas que hay en el ryokan y las cosas que uno mismo lleva. Primero, conozcamos lo que hay en el ryokan. En los ryokan suele haber toallas, yukatas, champú y demás. Sin embargo, como también hay cosas que no están en los ryokan pequeños, es mejor mirar la página del ryokan al hacer la reserva. En la estación fría, puede que solo con el yukata se tenga frío.\n\n\n---\n\nLo que conviene llevar\nEs mejor llevar uno mismo las cosas que se usan para la cara y el pelo. En el ryokan también las hay, pero es mejor usar las que uno usa siempre. Quienes usen lentillas, que no se olviden también de las gafas. Como en invierno hace frío, llevemos también un suéter y calcetines. Las cosas que se usan en la habitación y las que se usan en el baño, pongámoslas en bolsas separadas.\n\n\n---\n\nCuando vas al baño\nCuando vayas al baño, ¿qué tal si llevas una bolsa pequeña? En esa bolsa, mete la llave de la habitación, el teléfono y la toalla. Como solo hay una llave, no la pierdas. Es mejor no llevar una bolsa grande al baño. Puede que en el baño haya pocos sitios donde poner la bolsa. Antes de salir de la habitación, no te olvides de la llave, la toalla y el teléfono. Usemos lo que hay en el ryokan. Que el equipaje sea excesivo no es bueno.\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s1-shinderera"
     },
     "data": {

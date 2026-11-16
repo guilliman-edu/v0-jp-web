@@ -1,0 +1,503 @@
+{
+  "audio_file": "a2.2-s9-viaje-invierno.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 128871,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "おんせんりょこうのにもつ",
+      "start_ms": 0,
+      "end_ms": 2470,
+      "duration_ms": 2470,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おんせんりょこうのにもつ",
+          "start_ms": 0,
+          "end_ms": 2470,
+          "duration_ms": 2470
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "おんせんりょこうの前に、何を持つかわからない人は多いです。",
+      "start_ms": 2970,
+      "end_ms": 9007,
+      "duration_ms": 6037,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おんせんりょこうの前に、",
+          "start_ms": 2970,
+          "end_ms": 5289,
+          "duration_ms": 2319
+        },
+        {
+          "index": 1,
+          "text": "何を持つかわからない人は多いです。",
+          "start_ms": 5539,
+          "end_ms": 9007,
+          "duration_ms": 3468
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "りょかんにあるものと、自分で持っていくものがあります。",
+      "start_ms": 9507,
+      "end_ms": 14883,
+      "duration_ms": 5376,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "りょかんにあるものと、",
+          "start_ms": 9507,
+          "end_ms": 11733,
+          "duration_ms": 2226
+        },
+        {
+          "index": 1,
+          "text": "自分で持っていくものがあります。",
+          "start_ms": 11983,
+          "end_ms": 14883,
+          "duration_ms": 2900
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "まず、りょかんにあるものを知りましょう。",
+      "start_ms": 15383,
+      "end_ms": 19424,
+      "duration_ms": 4041,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "まず、",
+          "start_ms": 15383,
+          "end_ms": 16274,
+          "duration_ms": 891
+        },
+        {
+          "index": 1,
+          "text": "りょかんにあるものを知りましょう。",
+          "start_ms": 16524,
+          "end_ms": 19424,
+          "duration_ms": 2900
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "りょかんには、タオルやゆかた、シャンプーなどがあることが多いです。",
+      "start_ms": 19924,
+      "end_ms": 27137,
+      "duration_ms": 7213,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "りょかんには、",
+          "start_ms": 19924,
+          "end_ms": 21581,
+          "duration_ms": 1657
+        },
+        {
+          "index": 1,
+          "text": "タオルやゆかた、",
+          "start_ms": 21831,
+          "end_ms": 23813,
+          "duration_ms": 1982
+        },
+        {
+          "index": 2,
+          "text": "シャンプーなどがあることが多いです。",
+          "start_ms": 24063,
+          "end_ms": 27137,
+          "duration_ms": 3074
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "しかし、小さいりょかんにはないものもありますから、よやくのときにりょかんのページを見たほうがいいです。",
+      "start_ms": 27637,
+      "end_ms": 37682,
+      "duration_ms": 10045,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "しかし、",
+          "start_ms": 27637,
+          "end_ms": 29108,
+          "duration_ms": 1471
+        },
+        {
+          "index": 1,
+          "text": "小さいりょかんにはないものもありますから、",
+          "start_ms": 29358,
+          "end_ms": 32919,
+          "duration_ms": 3561
+        },
+        {
+          "index": 2,
+          "text": "よやくのときにりょかんのページを見たほうがいいです。",
+          "start_ms": 33169,
+          "end_ms": 37682,
+          "duration_ms": 4513
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "さむいきせつは、ゆかただけではさむいかもしれません。",
+      "start_ms": 38182,
+      "end_ms": 44011,
+      "duration_ms": 5829,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "さむいきせつは、",
+          "start_ms": 38182,
+          "end_ms": 40188,
+          "duration_ms": 2006
+        },
+        {
+          "index": 1,
+          "text": "ゆかただけではさむいかもしれません。",
+          "start_ms": 40438,
+          "end_ms": 44011,
+          "duration_ms": 3573
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "かおやかみにつかうものは、自分で持っていったほうがいいです。",
+      "start_ms": 44511,
+      "end_ms": 50374,
+      "duration_ms": 5863,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かおやかみにつかうものは、",
+          "start_ms": 44511,
+          "end_ms": 47085,
+          "duration_ms": 2574
+        },
+        {
+          "index": 1,
+          "text": "自分で持っていったほうがいいです。",
+          "start_ms": 47335,
+          "end_ms": 50374,
+          "duration_ms": 3039
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "りょかんにもありますが、自分がいつも使っているものがいいです。",
+      "start_ms": 50874,
+      "end_ms": 56923,
+      "duration_ms": 6049,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "りょかんにもありますが、",
+          "start_ms": 50874,
+          "end_ms": 53135,
+          "duration_ms": 2261
+        },
+        {
+          "index": 1,
+          "text": "自分がいつも使っているものがいいです。",
+          "start_ms": 53385,
+          "end_ms": 56923,
+          "duration_ms": 3538
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "コンタクトレンズをつかう人は、めがねも忘れないでください。",
+      "start_ms": 57423,
+      "end_ms": 63344,
+      "duration_ms": 5921,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "コンタクトレンズをつかう人は、",
+          "start_ms": 57423,
+          "end_ms": 60218,
+          "duration_ms": 2795
+        },
+        {
+          "index": 1,
+          "text": "めがねも忘れないでください。",
+          "start_ms": 60468,
+          "end_ms": 63344,
+          "duration_ms": 2876
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "ふゆはさむいですから、セーターやくつしたも持っていきましょう。",
+      "start_ms": 63844,
+      "end_ms": 69603,
+      "duration_ms": 5759,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ふゆはさむいですから、",
+          "start_ms": 63844,
+          "end_ms": 66105,
+          "duration_ms": 2261
+        },
+        {
+          "index": 1,
+          "text": "セーターやくつしたも持っていきましょう。",
+          "start_ms": 66355,
+          "end_ms": 69603,
+          "duration_ms": 3248
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "へやでつかうものと、おふろでつかうものは、別のかばんに入れましょう。",
+      "start_ms": 70103,
+      "end_ms": 77664,
+      "duration_ms": 7561,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "へやでつかうものと、",
+          "start_ms": 70103,
+          "end_ms": 72294,
+          "duration_ms": 2191
+        },
+        {
+          "index": 1,
+          "text": "おふろでつかうものは、",
+          "start_ms": 72544,
+          "end_ms": 74851,
+          "duration_ms": 2307
+        },
+        {
+          "index": 2,
+          "text": "別のかばんに入れましょう。",
+          "start_ms": 75101,
+          "end_ms": 77664,
+          "duration_ms": 2563
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "おふろに行くときは、小さいかばんを一つ持っていったらどうですか。",
+      "start_ms": 78164,
+      "end_ms": 84550,
+      "duration_ms": 6386,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おふろに行くときは、",
+          "start_ms": 78164,
+          "end_ms": 80286,
+          "duration_ms": 2122
+        },
+        {
+          "index": 1,
+          "text": "小さいかばんを一つ持っていったらどうですか。",
+          "start_ms": 80536,
+          "end_ms": 84550,
+          "duration_ms": 4014
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "そのかばんに、へやのかぎ、でんわ、タオルを入れます。",
+      "start_ms": 85050,
+      "end_ms": 92557,
+      "duration_ms": 7507,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのかばんに、",
+          "start_ms": 85050,
+          "end_ms": 86835,
+          "duration_ms": 1785
+        },
+        {
+          "index": 1,
+          "text": "へやのかぎ、",
+          "start_ms": 87085,
+          "end_ms": 88754,
+          "duration_ms": 1669
+        },
+        {
+          "index": 2,
+          "text": "でんわ、",
+          "start_ms": 89004,
+          "end_ms": 90336,
+          "duration_ms": 1332
+        },
+        {
+          "index": 3,
+          "text": "タオルを入れます。",
+          "start_ms": 90586,
+          "end_ms": 92557,
+          "duration_ms": 1971
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "かぎは一つしかありませんから、なくさないでください。",
+      "start_ms": 93057,
+      "end_ms": 98491,
+      "duration_ms": 5434,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かぎは一つしかありませんから、",
+          "start_ms": 93057,
+          "end_ms": 96061,
+          "duration_ms": 3004
+        },
+        {
+          "index": 1,
+          "text": "なくさないでください。",
+          "start_ms": 96311,
+          "end_ms": 98491,
+          "duration_ms": 2180
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "おおきいかばんは、おふろには持っていかないほうがいいです。",
+      "start_ms": 98991,
+      "end_ms": 104703,
+      "duration_ms": 5712,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おおきいかばんは、",
+          "start_ms": 98991,
+          "end_ms": 100950,
+          "duration_ms": 1959
+        },
+        {
+          "index": 1,
+          "text": "おふろには持っていかないほうがいいです。",
+          "start_ms": 101200,
+          "end_ms": 104703,
+          "duration_ms": 3503
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "おふろには、かばんをいれるところがすくないかもしれません。",
+      "start_ms": 105203,
+      "end_ms": 110834,
+      "duration_ms": 5631,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "おふろには、",
+          "start_ms": 105203,
+          "end_ms": 106825,
+          "duration_ms": 1622
+        },
+        {
+          "index": 1,
+          "text": "かばんをいれるところがすくないかもしれません。",
+          "start_ms": 107075,
+          "end_ms": 110834,
+          "duration_ms": 3759
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "へやを出る前に、かぎ、タオル、でんわを忘れないでください。",
+      "start_ms": 111334,
+      "end_ms": 119073,
+      "duration_ms": 7739,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "へやを出る前に、",
+          "start_ms": 111334,
+          "end_ms": 113270,
+          "duration_ms": 1936
+        },
+        {
+          "index": 1,
+          "text": "かぎ、",
+          "start_ms": 113520,
+          "end_ms": 114330,
+          "duration_ms": 810
+        },
+        {
+          "index": 2,
+          "text": "タオル、",
+          "start_ms": 114580,
+          "end_ms": 115877,
+          "duration_ms": 1297
+        },
+        {
+          "index": 3,
+          "text": "でんわを忘れないでください。",
+          "start_ms": 116127,
+          "end_ms": 119073,
+          "duration_ms": 2946
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "りょかんにあるものはりょかんのものを使いましょう。",
+      "start_ms": 119573,
+      "end_ms": 123901,
+      "duration_ms": 4328,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "りょかんにあるものはりょかんのものを使いましょう。",
+          "start_ms": 119573,
+          "end_ms": 123901,
+          "duration_ms": 4328
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "にもつが多すぎるのは、よくないです。",
+      "start_ms": 124401,
+      "end_ms": 128871,
+      "duration_ms": 4470,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にもつが多すぎるのは、",
+          "start_ms": 124401,
+          "end_ms": 126836,
+          "duration_ms": 2435
+        },
+        {
+          "index": 1,
+          "text": "よくないです。",
+          "start_ms": 127086,
+          "end_ms": 128871,
+          "duration_ms": 1785
+        }
+      ]
+    }
+  ]
+}
