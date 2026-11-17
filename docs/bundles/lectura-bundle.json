@@ -10159,10 +10159,6 @@
       },
       "modoFurigana": "templado",
       "furiganaList": [
-        "タオル",
-        "浴衣",
-        "シャンプー",
-        "靴下",
         "すぎる"
       ],
       "nombres_propios": [],
@@ -10199,20 +10195,17 @@
         {
           "literal": "タオル",
           "lectura": "たおる",
-          "significado": "toalla",
-          "exclusion": true
+          "significado": "toalla"
         },
         {
           "literal": "浴衣",
           "lectura": "ゆかた",
-          "significado": "yukata",
-          "exclusion": true
+          "significado": "yukata"
         },
         {
           "literal": "シャンプー",
           "lectura": "しゃんぷー",
-          "significado": "champú",
-          "exclusion": true
+          "significado": "champú"
         },
         {
           "literal": "予約",
@@ -10272,8 +10265,7 @@
         {
           "literal": "靴下",
           "lectura": "くつした",
-          "significado": "calcetines",
-          "exclusion": true
+          "significado": "calcetines"
         },
         {
           "literal": "部屋",

@@ -5,6 +5,7 @@
 # (léxico A1 reutilizado por el «Cierre de Genki I»); revisado (gate humano
 # confirmado 2026-10-15). Lote s7 (2026-10-31): propuesto, pendiente del gate humano.
 # Lote s8 (2026-11-11): revisado (gate humano confirmado 2026-11-11). Solo se versionan escena .json + .webp.
+# Lote s9 (2026-11-17): 15 términos de la lectura «温泉旅行の荷物» (14 escenas + 1 placeholder); revisado.
 # Origen: escenas dibujadas a mano con la skill ilustrar-vocabulario y renderizadas
 # con la caja de lápices Alpino (ADR-0091). No hay texto embebido en la imagen:
 # la palabra la pone la ficha.
@@ -1792,4 +1793,82 @@ imagenes:
     leccion: s8
     archivo: s8/ホワイトデー.webp
     escena: s8/ホワイトデー.json
+    estado: revisado
+  # Lote s9 (2026-11-17): 15 términos de la lectura «温泉旅行の荷物» que aún
+  # no tenían imagen; los otros 14 ya estaban revisados en s2–s4. Gate humano
+  # confirmado en la sesión (el usuario ordenó commit y publicación).
+  - literal: お風呂
+    leccion: s9
+    archivo: s9/お風呂.webp
+    escena: s9/お風呂.json
+    estado: revisado
+  - literal: シャンプー
+    leccion: s9
+    archivo: s9/シャンプー.webp
+    escena: s9/シャンプー.json
+    estado: revisado
+  - literal: タオル
+    leccion: s9
+    archivo: s9/タオル.webp
+    escena: s9/タオル.json
+    estado: revisado
+  - literal: ページ
+    leccion: s9
+    archivo: s9/ページ.webp
+    escena: s9/ページ.json
+    estado: revisado
+  - literal: 予約
+    leccion: s9
+    archivo: s9/予約.webp
+    escena: s9/予約.json
+    estado: revisado
+  - literal: 使う
+    leccion: s9
+    archivo: s9/使う.webp
+    escena: s9/使う.json
+    estado: revisado
+  - literal: 冬
+    leccion: s9
+    archivo: s9/冬.webp
+    escena: s9/冬.json
+    estado: revisado
+  - literal: 季節
+    leccion: s9
+    archivo: s9/季節.webp
+    escena: s9/季節.json
+    estado: revisado
+  - literal: 寒い
+    leccion: s9
+    archivo: s9/寒い.webp
+    escena: s9/寒い.json
+    estado: revisado
+  - literal: 浴衣
+    leccion: s9
+    archivo: s9/浴衣.webp
+    escena: s9/浴衣.json
+    estado: revisado
+  - literal: 温泉
+    leccion: s9
+    archivo: s9/温泉.webp
+    escena: s9/温泉.json
+    estado: revisado
+  - literal: 荷物
+    leccion: s9
+    archivo: s9/荷物.webp
+    escena: s9/荷物.json
+    estado: revisado
+  - literal: 電話
+    leccion: s9
+    archivo: s9/電話.webp
+    escena: s9/電話.json
+    estado: revisado
+  - literal: 靴下
+    leccion: s9
+    archivo: s9/靴下.webp
+    escena: s9/靴下.json
+    estado: revisado
+  - literal: すぎる
+    leccion: s9
+    placeholder: true
+    motivo: "verbo auxiliar gramatical («exceder, demasiado»): sin sustantivo propio que dibujar; se explica en la píldora, no con una escena"
     estado: revisado
