@@ -2,414 +2,414 @@
   "audio_file": "a2.2-s3-nihon-no-tatami.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 128577,
+  "total_duration_ms": 128194,
   "sentences": [
     {
       "index": 0,
       "text": "にほんのたたみ",
       "start_ms": 0,
-      "end_ms": 1924,
-      "duration_ms": 1924,
+      "end_ms": 1889,
+      "duration_ms": 1889,
       "clauses": [
         {
           "index": 0,
           "text": "にほんのたたみ",
           "start_ms": 0,
-          "end_ms": 1924,
-          "duration_ms": 1924
+          "end_ms": 1889,
+          "duration_ms": 1889
         }
       ]
     },
     {
       "index": 1,
       "text": "たたみはにほんのいえにあります。",
-      "start_ms": 2424,
-      "end_ms": 5614,
-      "duration_ms": 3190,
+      "start_ms": 2389,
+      "end_ms": 5648,
+      "duration_ms": 3259,
       "clauses": [
         {
           "index": 0,
           "text": "たたみはにほんのいえにあります。",
-          "start_ms": 2424,
-          "end_ms": 5614,
-          "duration_ms": 3190
+          "start_ms": 2389,
+          "end_ms": 5648,
+          "duration_ms": 3259
         }
       ]
     },
     {
       "index": 2,
       "text": "にほんのせいかつでとてもたいせつです。",
-      "start_ms": 6114,
-      "end_ms": 9803,
-      "duration_ms": 3689,
+      "start_ms": 6148,
+      "end_ms": 9872,
+      "duration_ms": 3724,
       "clauses": [
         {
           "index": 0,
           "text": "にほんのせいかつでとてもたいせつです。",
-          "start_ms": 6114,
-          "end_ms": 9803,
-          "duration_ms": 3689
+          "start_ms": 6148,
+          "end_ms": 9872,
+          "duration_ms": 3724
         }
       ]
     },
     {
       "index": 3,
-      "text": "れきしがながくて、づくりかたもとくべつです。",
-      "start_ms": 10303,
-      "end_ms": 15366,
-      "duration_ms": 5063,
+      "text": "れきしがながくて、つくりかたもとくべつです。",
+      "start_ms": 10372,
+      "end_ms": 15377,
+      "duration_ms": 5005,
       "clauses": [
         {
           "index": 0,
           "text": "れきしがながくて、",
-          "start_ms": 10303,
-          "end_ms": 12367,
+          "start_ms": 10372,
+          "end_ms": 12436,
           "duration_ms": 2064
         },
         {
           "index": 1,
-          "text": "づくりかたもとくべつです。",
-          "start_ms": 12617,
-          "end_ms": 15366,
-          "duration_ms": 2749
+          "text": "つくりかたもとくべつです。",
+          "start_ms": 12686,
+          "end_ms": 15377,
+          "duration_ms": 2691
         }
       ]
     },
     {
       "index": 4,
-      "text": "きょうは、たたみのれきしとづくりかた、そしていまとしょうらいのことをせつめいします。",
-      "start_ms": 15866,
-      "end_ms": 24866,
-      "duration_ms": 9000,
+      "text": "きょうは、たたみのれきしとつくりかた、そしていまとしょうらいのことをせつめいします。",
+      "start_ms": 15877,
+      "end_ms": 24623,
+      "duration_ms": 8746,
       "clauses": [
         {
           "index": 0,
           "text": "きょうは、",
-          "start_ms": 15866,
-          "end_ms": 17070,
-          "duration_ms": 1204
+          "start_ms": 15877,
+          "end_ms": 17163,
+          "duration_ms": 1286
         },
         {
           "index": 1,
-          "text": "たたみのれきしとづくりかた、",
-          "start_ms": 17320,
-          "end_ms": 20370,
-          "duration_ms": 3050
+          "text": "たたみのれきしとつくりかた、",
+          "start_ms": 17413,
+          "end_ms": 20115,
+          "duration_ms": 2702
         },
         {
           "index": 2,
           "text": "そしていまとしょうらいのことをせつめいします。",
-          "start_ms": 20620,
-          "end_ms": 24866,
-          "duration_ms": 4246
+          "start_ms": 20365,
+          "end_ms": 24623,
+          "duration_ms": 4258
         }
       ]
     },
     {
       "index": 5,
       "text": "にほんでは、むかしからたたみがあります。",
-      "start_ms": 25366,
-      "end_ms": 29975,
-      "duration_ms": 4609,
+      "start_ms": 25123,
+      "end_ms": 29756,
+      "duration_ms": 4633,
       "clauses": [
         {
           "index": 0,
           "text": "にほんでは、",
-          "start_ms": 25366,
-          "end_ms": 26988,
-          "duration_ms": 1622
+          "start_ms": 25123,
+          "end_ms": 26711,
+          "duration_ms": 1588
         },
         {
           "index": 1,
           "text": "むかしからたたみがあります。",
-          "start_ms": 27238,
-          "end_ms": 29975,
-          "duration_ms": 2737
+          "start_ms": 26961,
+          "end_ms": 29756,
+          "duration_ms": 2795
         }
       ]
     },
     {
       "index": 6,
       "text": "むかしのたたみはいまとちがいました。",
-      "start_ms": 30475,
-      "end_ms": 34234,
-      "duration_ms": 3759,
+      "start_ms": 30256,
+      "end_ms": 33980,
+      "duration_ms": 3724,
       "clauses": [
         {
           "index": 0,
           "text": "むかしのたたみはいまとちがいました。",
-          "start_ms": 30475,
-          "end_ms": 34234,
-          "duration_ms": 3759
+          "start_ms": 30256,
+          "end_ms": 33980,
+          "duration_ms": 3724
         }
       ]
     },
     {
       "index": 7,
       "text": "ひとびとはたたみをうんでつかっていました。",
-      "start_ms": 34734,
-      "end_ms": 38678,
-      "duration_ms": 3944,
+      "start_ms": 34480,
+      "end_ms": 38459,
+      "duration_ms": 3979,
       "clauses": [
         {
           "index": 0,
           "text": "ひとびとはたたみをうんでつかっていました。",
-          "start_ms": 34734,
-          "end_ms": 38678,
-          "duration_ms": 3944
+          "start_ms": 34480,
+          "end_ms": 38459,
+          "duration_ms": 3979
         }
       ]
     },
     {
       "index": 8,
       "text": "おかねもちのいえのへやにありました。",
-      "start_ms": 39178,
-      "end_ms": 42461,
-      "duration_ms": 3283,
+      "start_ms": 38959,
+      "end_ms": 42230,
+      "duration_ms": 3271,
       "clauses": [
         {
           "index": 0,
           "text": "おかねもちのいえのへやにありました。",
-          "start_ms": 39178,
-          "end_ms": 42461,
-          "duration_ms": 3283
+          "start_ms": 38959,
+          "end_ms": 42230,
+          "duration_ms": 3271
         }
       ]
     },
     {
       "index": 9,
       "text": "その後、たたみをつかうひとがおおくなりました。",
-      "start_ms": 42961,
-      "end_ms": 48209,
-      "duration_ms": 5248,
+      "start_ms": 42730,
+      "end_ms": 48036,
+      "duration_ms": 5306,
       "clauses": [
         {
           "index": 0,
           "text": "その後、",
-          "start_ms": 42961,
-          "end_ms": 44525,
-          "duration_ms": 1564
+          "start_ms": 42730,
+          "end_ms": 44329,
+          "duration_ms": 1599
         },
         {
           "index": 1,
           "text": "たたみをつかうひとがおおくなりました。",
-          "start_ms": 44775,
-          "end_ms": 48209,
-          "duration_ms": 3434
+          "start_ms": 44579,
+          "end_ms": 48036,
+          "duration_ms": 3457
         }
       ]
     },
     {
       "index": 10,
       "text": "おちゃをするひともおえました。",
-      "start_ms": 48709,
-      "end_ms": 51446,
-      "duration_ms": 2737,
+      "start_ms": 48536,
+      "end_ms": 51354,
+      "duration_ms": 2818,
       "clauses": [
         {
           "index": 0,
           "text": "おちゃをするひともおえました。",
-          "start_ms": 48709,
-          "end_ms": 51446,
-          "duration_ms": 2737
+          "start_ms": 48536,
+          "end_ms": 51354,
+          "duration_ms": 2818
         }
       ]
     },
     {
       "index": 11,
       "text": "たたみをつくるせんもんのひとやみせもでました。",
-      "start_ms": 51946,
-      "end_ms": 55937,
-      "duration_ms": 3991,
+      "start_ms": 51854,
+      "end_ms": 55706,
+      "duration_ms": 3852,
       "clauses": [
         {
           "index": 0,
           "text": "たたみをつくるせんもんのひとやみせもでました。",
-          "start_ms": 51946,
-          "end_ms": 55937,
-          "duration_ms": 3991
+          "start_ms": 51854,
+          "end_ms": 55706,
+          "duration_ms": 3852
         }
       ]
     },
     {
       "index": 12,
       "text": "ようふうのいえがおおくなりましたが、たたみはいまもにほんのへやにあります。",
-      "start_ms": 56437,
-      "end_ms": 63647,
+      "start_ms": 56206,
+      "end_ms": 63416,
       "duration_ms": 7210,
       "clauses": [
         {
           "index": 0,
           "text": "ようふうのいえがおおくなりましたが、",
-          "start_ms": 56437,
-          "end_ms": 59638,
-          "duration_ms": 3201
+          "start_ms": 56206,
+          "end_ms": 59373,
+          "duration_ms": 3167
         },
         {
           "index": 1,
           "text": "たたみはいまもにほんのへやにあります。",
-          "start_ms": 59888,
-          "end_ms": 63647,
-          "duration_ms": 3759
+          "start_ms": 59623,
+          "end_ms": 63416,
+          "duration_ms": 3793
         }
       ]
     },
     {
       "index": 13,
       "text": "たたみは三つのぶぶんでできています。",
-      "start_ms": 64147,
-      "end_ms": 67720,
-      "duration_ms": 3573,
+      "start_ms": 63916,
+      "end_ms": 67605,
+      "duration_ms": 3689,
       "clauses": [
         {
           "index": 0,
           "text": "たたみは三つのぶぶんでできています。",
-          "start_ms": 64147,
-          "end_ms": 67720,
-          "duration_ms": 3573
+          "start_ms": 63916,
+          "end_ms": 67605,
+          "duration_ms": 3689
         }
       ]
     },
     {
       "index": 14,
       "text": "ひとつめはたたみおもてです。",
-      "start_ms": 68220,
-      "end_ms": 71201,
-      "duration_ms": 2981,
+      "start_ms": 68105,
+      "end_ms": 71074,
+      "duration_ms": 2969,
       "clauses": [
         {
           "index": 0,
           "text": "ひとつめはたたみおもてです。",
-          "start_ms": 68220,
-          "end_ms": 71201,
-          "duration_ms": 2981
+          "start_ms": 68105,
+          "end_ms": 71074,
+          "duration_ms": 2969
         }
       ]
     },
     {
       "index": 15,
       "text": "ひとがさわるところです。",
-      "start_ms": 71701,
-      "end_ms": 74206,
-      "duration_ms": 2505,
+      "start_ms": 71574,
+      "end_ms": 74056,
+      "duration_ms": 2482,
       "clauses": [
         {
           "index": 0,
           "text": "ひとがさわるところです。",
-          "start_ms": 71701,
-          "end_ms": 74206,
-          "duration_ms": 2505
+          "start_ms": 71574,
+          "end_ms": 74056,
+          "duration_ms": 2482
         }
       ]
     },
     {
       "index": 16,
       "text": "いぐさでつくっています。",
-      "start_ms": 74706,
-      "end_ms": 77025,
-      "duration_ms": 2319,
+      "start_ms": 74556,
+      "end_ms": 76945,
+      "duration_ms": 2389,
       "clauses": [
         {
           "index": 0,
           "text": "いぐさでつくっています。",
-          "start_ms": 74706,
-          "end_ms": 77025,
-          "duration_ms": 2319
+          "start_ms": 74556,
+          "end_ms": 76945,
+          "duration_ms": 2389
         }
       ]
     },
     {
       "index": 17,
       "text": "ふたつめはたたみどこです。",
-      "start_ms": 77525,
-      "end_ms": 80390,
-      "duration_ms": 2865,
+      "start_ms": 77445,
+      "end_ms": 80275,
+      "duration_ms": 2830,
       "clauses": [
         {
           "index": 0,
           "text": "ふたつめはたたみどこです。",
-          "start_ms": 77525,
-          "end_ms": 80390,
-          "duration_ms": 2865
+          "start_ms": 77445,
+          "end_ms": 80275,
+          "duration_ms": 2830
         }
       ]
     },
     {
       "index": 18,
       "text": "たたみのなかにあるたいせつなぶぶんです。",
-      "start_ms": 80890,
-      "end_ms": 84428,
-      "duration_ms": 3538,
+      "start_ms": 80775,
+      "end_ms": 84348,
+      "duration_ms": 3573,
       "clauses": [
         {
           "index": 0,
           "text": "たたみのなかにあるたいせつなぶぶんです。",
-          "start_ms": 80890,
-          "end_ms": 84428,
-          "duration_ms": 3538
+          "start_ms": 80775,
+          "end_ms": 84348,
+          "duration_ms": 3573
         }
       ]
     },
     {
       "index": 19,
       "text": "みっつめはたたみべりです。",
-      "start_ms": 84928,
-      "end_ms": 87619,
-      "duration_ms": 2691,
+      "start_ms": 84848,
+      "end_ms": 87504,
+      "duration_ms": 2656,
       "clauses": [
         {
           "index": 0,
           "text": "みっつめはたたみべりです。",
-          "start_ms": 84928,
-          "end_ms": 87619,
-          "duration_ms": 2691
+          "start_ms": 84848,
+          "end_ms": 87504,
+          "duration_ms": 2656
         }
       ]
     },
     {
       "index": 20,
       "text": "たたみのながいへんにあるぬのです。",
-      "start_ms": 88119,
-      "end_ms": 91158,
-      "duration_ms": 3039,
+      "start_ms": 88004,
+      "end_ms": 91008,
+      "duration_ms": 3004,
       "clauses": [
         {
           "index": 0,
           "text": "たたみのながいへんにあるぬのです。",
-          "start_ms": 88119,
-          "end_ms": 91158,
-          "duration_ms": 3039
+          "start_ms": 88004,
+          "end_ms": 91008,
+          "duration_ms": 3004
         }
       ]
     },
     {
       "index": 21,
       "text": "いろやがらがいろいろあります。",
-      "start_ms": 91658,
-      "end_ms": 94523,
-      "duration_ms": 2865,
+      "start_ms": 91508,
+      "end_ms": 94280,
+      "duration_ms": 2772,
       "clauses": [
         {
           "index": 0,
           "text": "いろやがらがいろいろあります。",
-          "start_ms": 91658,
-          "end_ms": 94523,
-          "duration_ms": 2865
+          "start_ms": 91508,
+          "end_ms": 94280,
+          "duration_ms": 2772
         }
       ]
     },
     {
       "index": 22,
       "text": "いまはむかしよりたたみのへやがすくなくなりました。",
-      "start_ms": 95023,
-      "end_ms": 99687,
+      "start_ms": 94780,
+      "end_ms": 99444,
       "duration_ms": 4664,
       "clauses": [
         {
           "index": 0,
           "text": "いまはむかしよりたたみのへやがすくなくなりました。",
-          "start_ms": 95023,
-          "end_ms": 99687,
+          "start_ms": 94780,
+          "end_ms": 99444,
           "duration_ms": 4664
         }
       ]
@@ -417,109 +417,109 @@
     {
       "index": 23,
       "text": "でも、たたみはにほんのきこうにあっています。",
-      "start_ms": 100187,
-      "end_ms": 104982,
-      "duration_ms": 4795,
+      "start_ms": 99944,
+      "end_ms": 104751,
+      "duration_ms": 4807,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 100187,
-          "end_ms": 101182,
-          "duration_ms": 995
+          "start_ms": 99944,
+          "end_ms": 100928,
+          "duration_ms": 984
         },
         {
           "index": 1,
           "text": "たたみはにほんのきこうにあっています。",
-          "start_ms": 101432,
-          "end_ms": 104982,
-          "duration_ms": 3550
+          "start_ms": 101178,
+          "end_ms": 104751,
+          "duration_ms": 3573
         }
       ]
     },
     {
       "index": 24,
       "text": "なつは涼しく、ふゆはあたたかいです。",
-      "start_ms": 105482,
-      "end_ms": 110243,
-      "duration_ms": 4761,
+      "start_ms": 105251,
+      "end_ms": 110023,
+      "duration_ms": 4772,
       "clauses": [
         {
           "index": 0,
           "text": "なつは涼しく、",
-          "start_ms": 105482,
-          "end_ms": 107511,
-          "duration_ms": 2029
+          "start_ms": 105251,
+          "end_ms": 107303,
+          "duration_ms": 2052
         },
         {
           "index": 1,
           "text": "ふゆはあたたかいです。",
-          "start_ms": 107761,
-          "end_ms": 110243,
-          "duration_ms": 2482
+          "start_ms": 107553,
+          "end_ms": 110023,
+          "duration_ms": 2470
         }
       ]
     },
     {
       "index": 25,
       "text": "たたみのへやでやすむこともできます。",
-      "start_ms": 110743,
-      "end_ms": 114153,
-      "duration_ms": 3410,
+      "start_ms": 110523,
+      "end_ms": 113875,
+      "duration_ms": 3352,
       "clauses": [
         {
           "index": 0,
           "text": "たたみのへやでやすむこともできます。",
-          "start_ms": 110743,
-          "end_ms": 114153,
-          "duration_ms": 3410
+          "start_ms": 110523,
+          "end_ms": 113875,
+          "duration_ms": 3352
         }
       ]
     },
     {
       "index": 26,
       "text": "いまのたたみはいろやデザインがすてきになりました。",
-      "start_ms": 114653,
-      "end_ms": 119294,
-      "duration_ms": 4641,
+      "start_ms": 114375,
+      "end_ms": 119004,
+      "duration_ms": 4629,
       "clauses": [
         {
           "index": 0,
           "text": "いまのたたみはいろやデザインがすてきになりました。",
-          "start_ms": 114653,
-          "end_ms": 119294,
-          "duration_ms": 4641
+          "start_ms": 114375,
+          "end_ms": 119004,
+          "duration_ms": 4629
         }
       ]
     },
     {
       "index": 27,
       "text": "たたみはにほんのたいせつなぶんかです。",
-      "start_ms": 119794,
-      "end_ms": 123599,
-      "duration_ms": 3805,
+      "start_ms": 119504,
+      "end_ms": 123216,
+      "duration_ms": 3712,
       "clauses": [
         {
           "index": 0,
           "text": "たたみはにほんのたいせつなぶんかです。",
-          "start_ms": 119794,
-          "end_ms": 123599,
-          "duration_ms": 3805
+          "start_ms": 119504,
+          "end_ms": 123216,
+          "duration_ms": 3712
         }
       ]
     },
     {
       "index": 28,
       "text": "これからもたたみのあるくらしをたいせつにしたいです。",
-      "start_ms": 124099,
-      "end_ms": 128577,
+      "start_ms": 123716,
+      "end_ms": 128194,
       "duration_ms": 4478,
       "clauses": [
         {
           "index": 0,
           "text": "これからもたたみのあるくらしをたいせつにしたいです。",
-          "start_ms": 124099,
-          "end_ms": 128577,
+          "start_ms": 123716,
+          "end_ms": 128194,
           "duration_ms": 4478
         }
       ]
