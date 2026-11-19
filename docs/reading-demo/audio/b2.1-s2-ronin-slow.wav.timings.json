@@ -2,217 +2,210 @@
   "audio_file": "b2.1-s2-ronin-slow.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 59544,
+  "total_duration_ms": 59005,
   "sentences": [
     {
       "index": 0,
       "text": "ろうにん",
       "start_ms": 0,
-      "end_ms": 1193,
-      "duration_ms": 1193,
+      "end_ms": 1204,
+      "duration_ms": 1204,
       "clauses": [
         {
           "index": 0,
           "text": "ろうにん",
           "start_ms": 0,
-          "end_ms": 1193,
-          "duration_ms": 1193
+          "end_ms": 1204,
+          "duration_ms": 1204
         }
       ]
     },
     {
       "index": 1,
-      "text": "ろうにんとは、しゅくんがいなくて、しごとがないぶしのことです。",
-      "start_ms": 1693,
-      "end_ms": 8767,
-      "duration_ms": 7074,
+      "text": "ろうにんは、しゅくんがいなくて、しごとがないぶしのことです。",
+      "start_ms": 1704,
+      "end_ms": 8591,
+      "duration_ms": 6887,
       "clauses": [
         {
           "index": 0,
-          "text": "ろうにんとは、",
-          "start_ms": 1693,
-          "end_ms": 3373,
-          "duration_ms": 1680
+          "text": "ろうにんは、",
+          "start_ms": 1704,
+          "end_ms": 3303,
+          "duration_ms": 1599
         },
         {
           "index": 1,
           "text": "しゅくんがいなくて、",
-          "start_ms": 3623,
-          "end_ms": 5617,
-          "duration_ms": 1994
+          "start_ms": 3553,
+          "end_ms": 5500,
+          "duration_ms": 1947
         },
         {
           "index": 2,
           "text": "しごとがないぶしのことです。",
-          "start_ms": 5867,
-          "end_ms": 8767,
-          "duration_ms": 2900
+          "start_ms": 5750,
+          "end_ms": 8591,
+          "duration_ms": 2841
         }
       ]
     },
     {
       "index": 2,
       "text": "むかしは、たたかいが続いていました。",
-      "start_ms": 9267,
-      "end_ms": 13633,
-      "duration_ms": 4366,
+      "start_ms": 9091,
+      "end_ms": 13491,
+      "duration_ms": 4400,
       "clauses": [
         {
           "index": 0,
           "text": "むかしは、",
-          "start_ms": 9267,
-          "end_ms": 10727,
-          "duration_ms": 1460
+          "start_ms": 9091,
+          "end_ms": 10539,
+          "duration_ms": 1448
         },
         {
           "index": 1,
           "text": "たたかいが続いていました。",
-          "start_ms": 10977,
-          "end_ms": 13633,
-          "duration_ms": 2656
+          "start_ms": 10789,
+          "end_ms": 13491,
+          "duration_ms": 2702
         }
       ]
     },
     {
       "index": 3,
       "text": "ぶしは、すぐに新しいしゅくんを見つけていました。",
-      "start_ms": 14133,
-      "end_ms": 19532,
-      "duration_ms": 5399,
+      "start_ms": 13991,
+      "end_ms": 19483,
+      "duration_ms": 5492,
       "clauses": [
         {
           "index": 0,
           "text": "ぶしは、",
-          "start_ms": 14133,
-          "end_ms": 15558,
-          "duration_ms": 1425
+          "start_ms": 13991,
+          "end_ms": 15451,
+          "duration_ms": 1460
         },
         {
           "index": 1,
           "text": "すぐに新しいしゅくんを見つけていました。",
-          "start_ms": 15808,
-          "end_ms": 19532,
-          "duration_ms": 3724
+          "start_ms": 15701,
+          "end_ms": 19483,
+          "duration_ms": 3782
         }
       ]
     },
     {
       "index": 4,
       "text": "しかし、えどじだいになってへいわになると、しごとがないぶしが多くなりました。",
-      "start_ms": 20032,
-      "end_ms": 28382,
-      "duration_ms": 8350,
+      "start_ms": 19983,
+      "end_ms": 28403,
+      "duration_ms": 8420,
       "clauses": [
         {
           "index": 0,
           "text": "しかし、",
-          "start_ms": 20032,
-          "end_ms": 21445,
-          "duration_ms": 1413
+          "start_ms": 19983,
+          "end_ms": 21454,
+          "duration_ms": 1471
         },
         {
           "index": 1,
           "text": "えどじだいになってへいわになると、",
-          "start_ms": 21695,
-          "end_ms": 24803,
-          "duration_ms": 3108
+          "start_ms": 21704,
+          "end_ms": 24801,
+          "duration_ms": 3097
         },
         {
           "index": 2,
           "text": "しごとがないぶしが多くなりました。",
-          "start_ms": 25053,
-          "end_ms": 28382,
-          "duration_ms": 3329
+          "start_ms": 25051,
+          "end_ms": 28403,
+          "duration_ms": 3352
         }
       ]
     },
     {
       "index": 5,
       "text": "若いうちにふたたび働くばしょを見つけた人もいましたが、みつけることができない人も多かったのです。",
-      "start_ms": 28882,
-      "end_ms": 37938,
+      "start_ms": 28903,
+      "end_ms": 37959,
       "duration_ms": 9056,
       "clauses": [
         {
           "index": 0,
           "text": "若いうちにふたたび働くばしょを見つけた人もいましたが、",
-          "start_ms": 28882,
-          "end_ms": 33836,
-          "duration_ms": 4954
+          "start_ms": 28903,
+          "end_ms": 33846,
+          "duration_ms": 4943
         },
         {
           "index": 1,
           "text": "みつけることができない人も多かったのです。",
-          "start_ms": 34086,
-          "end_ms": 37938,
-          "duration_ms": 3852
+          "start_ms": 34096,
+          "end_ms": 37959,
+          "duration_ms": 3863
         }
       ]
     },
     {
       "index": 6,
-      "text": "現代では、「ろうにん」ということばは、しけんに落ちて、来年のしけんのじゅんびをしているがくせい（じゅけんせい）を指しています。",
-      "start_ms": 38438,
-      "end_ms": 50264,
-      "duration_ms": 11826,
+      "text": "現代では、「ろうにん」ということばは、しけんに落ちて、来年のしけんのじゅんびをしているがくせい（ろうにんせい）を指しています。",
+      "start_ms": 38459,
+      "end_ms": 50250,
+      "duration_ms": 11791,
       "clauses": [
         {
           "index": 0,
           "text": "現代では、",
-          "start_ms": 38438,
-          "end_ms": 40107,
-          "duration_ms": 1669
+          "start_ms": 38459,
+          "end_ms": 40105,
+          "duration_ms": 1646
         },
         {
           "index": 1,
           "text": "「ろうにん」ということばは、",
-          "start_ms": 40357,
-          "end_ms": 42653,
-          "duration_ms": 2296
+          "start_ms": 40355,
+          "end_ms": 42720,
+          "duration_ms": 2365
         },
         {
           "index": 2,
           "text": "しけんに落ちて、",
-          "start_ms": 42903,
-          "end_ms": 44758,
-          "duration_ms": 1855
+          "start_ms": 42970,
+          "end_ms": 44813,
+          "duration_ms": 1843
         },
         {
           "index": 3,
-          "text": "来年のしけんのじゅんびをしているがくせい（じゅけんせい）を指しています。",
-          "start_ms": 45008,
-          "end_ms": 50264,
-          "duration_ms": 5256
+          "text": "来年のしけんのじゅんびをしているがくせい（ろうにんせい）を指しています。",
+          "start_ms": 45063,
+          "end_ms": 50250,
+          "duration_ms": 5187
         }
       ]
     },
     {
       "index": 7,
-      "text": "しけんは、がっこうによって違いますが、ろうにんということばは今も使っています。",
-      "start_ms": 50764,
-      "end_ms": 59544,
-      "duration_ms": 8780,
+      "text": "しけんはがっこうによって違いますが、今でも人々はろうにんということばを使っています。",
+      "start_ms": 50750,
+      "end_ms": 59005,
+      "duration_ms": 8255,
       "clauses": [
         {
           "index": 0,
-          "text": "しけんは、",
-          "start_ms": 50764,
-          "end_ms": 52328,
-          "duration_ms": 1564
+          "text": "しけんはがっこうによって違いますが、",
+          "start_ms": 50750,
+          "end_ms": 54160,
+          "duration_ms": 3410
         },
         {
           "index": 1,
-          "text": "がっこうによって違いますが、",
-          "start_ms": 52578,
-          "end_ms": 55315,
-          "duration_ms": 2737
-        },
-        {
-          "index": 2,
-          "text": "ろうにんということばは今も使っています。",
-          "start_ms": 55565,
-          "end_ms": 59544,
-          "duration_ms": 3979
+          "text": "今でも人々はろうにんということばを使っています。",
+          "start_ms": 54410,
+          "end_ms": 59005,
+          "duration_ms": 4595
         }
       ]
     }

@@ -1,0 +1,695 @@
+{
+  "audio_file": "a2.2-s9-shichinin-no-samurai.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 185302,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "しちにんのさむらい",
+      "start_ms": 0,
+      "end_ms": 2145,
+      "duration_ms": 2145,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "しちにんのさむらい",
+          "start_ms": 0,
+          "end_ms": 2145,
+          "duration_ms": 2145
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "「しちにんのさむらい」は、せんきゅうひゃくごじゅうよ年のにほんのえいがです。",
+      "start_ms": 2645,
+      "end_ms": 9518,
+      "duration_ms": 6873,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「しちにんのさむらい」は、",
+          "start_ms": 2645,
+          "end_ms": 4952,
+          "duration_ms": 2307
+        },
+        {
+          "index": 1,
+          "text": "せんきゅうひゃくごじゅうよ年のにほんのえいがです。",
+          "start_ms": 5202,
+          "end_ms": 9518,
+          "duration_ms": 4316
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "くろさわあきらがかんとくしました。",
+      "start_ms": 10018,
+      "end_ms": 13161,
+      "duration_ms": 3143,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "くろさわあきらがかんとくしました。",
+          "start_ms": 10018,
+          "end_ms": 13161,
+          "duration_ms": 3143
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "みふねとしろうとしむらたかしが出ています。",
+      "start_ms": 13661,
+      "end_ms": 17582,
+      "duration_ms": 3921,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "みふねとしろうとしむらたかしが出ています。",
+          "start_ms": 13661,
+          "end_ms": 17582,
+          "duration_ms": 3921
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "しろくろのえいがで、じかんは207分もあります。",
+      "start_ms": 18082,
+      "end_ms": 23829,
+      "duration_ms": 5747,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "しろくろのえいがで、",
+          "start_ms": 18082,
+          "end_ms": 20215,
+          "duration_ms": 2133
+        },
+        {
+          "index": 1,
+          "text": "じかんは207分もあります。",
+          "start_ms": 20465,
+          "end_ms": 23829,
+          "duration_ms": 3364
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "今から400年いじょう前のせんごくじだいのはなしです。",
+      "start_ms": 24329,
+      "end_ms": 29295,
+      "duration_ms": 4966,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今から400年いじょう前のせんごくじだいのはなしです。",
+          "start_ms": 24329,
+          "end_ms": 29295,
+          "duration_ms": 4966
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "むかし、山のむらに、のうかの人たちが住んでいました。",
+      "start_ms": 29795,
+      "end_ms": 35310,
+      "duration_ms": 5515,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかし、山のむらに、",
+          "start_ms": 29795,
+          "end_ms": 31940,
+          "duration_ms": 2145
+        },
+        {
+          "index": 1,
+          "text": "のうかの人たちが住んでいました。",
+          "start_ms": 32190,
+          "end_ms": 35310,
+          "duration_ms": 3120
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "のぶし（わるいぶしたち）がいつもむらに来て、たべものを取りました。",
+      "start_ms": 35810,
+      "end_ms": 42312,
+      "duration_ms": 6502,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "のぶし（わるいぶしたち）がいつもむらに来て、",
+          "start_ms": 35810,
+          "end_ms": 39801,
+          "duration_ms": 3991
+        },
+        {
+          "index": 1,
+          "text": "たべものを取りました。",
+          "start_ms": 40051,
+          "end_ms": 42312,
+          "duration_ms": 2261
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "text": "むらびとたちは、強いぶしがほしいと思いました。",
+      "start_ms": 42812,
+      "end_ms": 48165,
+      "duration_ms": 5353,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むらびとたちは、",
+          "start_ms": 42812,
+          "end_ms": 44748,
+          "duration_ms": 1936
+        },
+        {
+          "index": 1,
+          "text": "強いぶしがほしいと思いました。",
+          "start_ms": 44998,
+          "end_ms": 48165,
+          "duration_ms": 3167
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "ですから、町へぶしを探しに行きました。",
+      "start_ms": 48665,
+      "end_ms": 53611,
+      "duration_ms": 4946,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ですから、",
+          "start_ms": 48665,
+          "end_ms": 50090,
+          "duration_ms": 1425
+        },
+        {
+          "index": 1,
+          "text": "町へぶしを探しに行きました。",
+          "start_ms": 50340,
+          "end_ms": 53611,
+          "duration_ms": 3271
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text": "町で、かんべえというぶしに会いました。",
+      "start_ms": 54111,
+      "end_ms": 58569,
+      "duration_ms": 4458,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "町で、",
+          "start_ms": 54111,
+          "end_ms": 55385,
+          "duration_ms": 1274
+        },
+        {
+          "index": 1,
+          "text": "かんべえというぶしに会いました。",
+          "start_ms": 55635,
+          "end_ms": 58569,
+          "duration_ms": 2934
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text": "かんべえはほかのぶしを集めて、七人になりました。",
+      "start_ms": 59069,
+      "end_ms": 64909,
+      "duration_ms": 5840,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かんべえはほかのぶしを集めて、",
+          "start_ms": 59069,
+          "end_ms": 62352,
+          "duration_ms": 3283
+        },
+        {
+          "index": 1,
+          "text": "七人になりました。",
+          "start_ms": 62602,
+          "end_ms": 64909,
+          "duration_ms": 2307
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text": "ぶしたちはむらに行って、むらびとたちとみんなで戦いました。",
+      "start_ms": 65409,
+      "end_ms": 71771,
+      "duration_ms": 6362,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ぶしたちはむらに行って、",
+          "start_ms": 65409,
+          "end_ms": 67960,
+          "duration_ms": 2551
+        },
+        {
+          "index": 1,
+          "text": "むらびとたちとみんなで戦いました。",
+          "start_ms": 68210,
+          "end_ms": 71771,
+          "duration_ms": 3561
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text": "やっと、ぶしたちは勝ちました。",
+      "start_ms": 72271,
+      "end_ms": 76393,
+      "duration_ms": 4122,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "やっと、",
+          "start_ms": 72271,
+          "end_ms": 73603,
+          "duration_ms": 1332
+        },
+        {
+          "index": 1,
+          "text": "ぶしたちは勝ちました。",
+          "start_ms": 73853,
+          "end_ms": 76393,
+          "duration_ms": 2540
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text": "でも、四人のぶしが死にました。",
+      "start_ms": 76893,
+      "end_ms": 80736,
+      "duration_ms": 3843,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "でも、",
+          "start_ms": 76893,
+          "end_ms": 77842,
+          "duration_ms": 949
+        },
+        {
+          "index": 1,
+          "text": "四人のぶしが死にました。",
+          "start_ms": 78092,
+          "end_ms": 80736,
+          "duration_ms": 2644
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text": "かんべえは言いました。",
+      "start_ms": 81236,
+      "end_ms": 83451,
+      "duration_ms": 2215,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "かんべえは言いました。",
+          "start_ms": 81236,
+          "end_ms": 83451,
+          "duration_ms": 2215
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text": "「勝ったのはむらびとたちです。",
+      "start_ms": 83951,
+      "end_ms": 87048,
+      "duration_ms": 3097,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "「勝ったのはむらびとたちです。",
+          "start_ms": 83951,
+          "end_ms": 87048,
+          "duration_ms": 3097
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text": "わたしたちではありません。」",
+      "start_ms": 87548,
+      "end_ms": 90088,
+      "duration_ms": 2540,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "わたしたちではありません。」",
+          "start_ms": 87548,
+          "end_ms": 90088,
+          "duration_ms": 2540
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text": "このえいがを作るとき、たくさんのじかんとお金がかかりました。",
+      "start_ms": 90588,
+      "end_ms": 96835,
+      "duration_ms": 6247,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "このえいがを作るとき、",
+          "start_ms": 90588,
+          "end_ms": 93070,
+          "duration_ms": 2482
+        },
+        {
+          "index": 1,
+          "text": "たくさんのじかんとお金がかかりました。",
+          "start_ms": 93320,
+          "end_ms": 96835,
+          "duration_ms": 3515
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text": "お金は、ふつうのえいがのななばいでした。",
+      "start_ms": 97335,
+      "end_ms": 101735,
+      "duration_ms": 4400,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "お金は、",
+          "start_ms": 97335,
+          "end_ms": 98644,
+          "duration_ms": 1309
+        },
+        {
+          "index": 1,
+          "text": "ふつうのえいがのななばいでした。",
+          "start_ms": 98894,
+          "end_ms": 101735,
+          "duration_ms": 2841
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "text": "天気がわるい日が多くて、九十日で撮るよていでしたが、いちねんぐらいかかりました。",
+      "start_ms": 102235,
+      "end_ms": 110980,
+      "duration_ms": 8745,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "天気がわるい日が多くて、",
+          "start_ms": 102235,
+          "end_ms": 104821,
+          "duration_ms": 2586
+        },
+        {
+          "index": 1,
+          "text": "九十日で撮るよていでしたが、",
+          "start_ms": 105071,
+          "end_ms": 108063,
+          "duration_ms": 2992
+        },
+        {
+          "index": 2,
+          "text": "いちねんぐらいかかりました。",
+          "start_ms": 108313,
+          "end_ms": 110980,
+          "duration_ms": 2667
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "text": "雨の中の戦いは、寒い二月に撮りました。",
+      "start_ms": 111480,
+      "end_ms": 116995,
+      "duration_ms": 5515,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "雨の中の戦いは、",
+          "start_ms": 111480,
+          "end_ms": 114008,
+          "duration_ms": 2528
+        },
+        {
+          "index": 1,
+          "text": "寒い二月に撮りました。",
+          "start_ms": 114258,
+          "end_ms": 116995,
+          "duration_ms": 2737
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "text": "このえいがはせかいでとてもゆうめいになりました。",
+      "start_ms": 117495,
+      "end_ms": 121788,
+      "duration_ms": 4293,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "このえいがはせかいでとてもゆうめいになりました。",
+          "start_ms": 117495,
+          "end_ms": 121788,
+          "duration_ms": 4293
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "text": "せんきゅうひゃくごじゅうよ年に、ヴェネツィアこくさいえいがさいでしょうをもらいました。",
+      "start_ms": 122288,
+      "end_ms": 129277,
+      "duration_ms": 6989,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくごじゅうよ年に、",
+          "start_ms": 122288,
+          "end_ms": 125071,
+          "duration_ms": 2783
+        },
+        {
+          "index": 1,
+          "text": "ヴェネツィアこくさいえいがさいでしょうをもらいました。",
+          "start_ms": 125321,
+          "end_ms": 129277,
+          "duration_ms": 3956
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "text": "にせんじゅうはち年には、BBCの「がいこくごえいがベスト100」でいちいになりました。",
+      "start_ms": 129777,
+      "end_ms": 137033,
+      "duration_ms": 7256,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にせんじゅうはち年には、",
+          "start_ms": 129777,
+          "end_ms": 132200,
+          "duration_ms": 2423
+        },
+        {
+          "index": 1,
+          "text": "BBCの「がいこくごえいがベスト100」でいちいになりました。",
+          "start_ms": 132450,
+          "end_ms": 137033,
+          "duration_ms": 4583
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "text": "せんきゅうひゃくろくじゅう年に、アメリカの人がこのえいがとおなじはなしで「こうやのしちにん」というえいがを作りました。",
+      "start_ms": 137533,
+      "end_ms": 147889,
+      "duration_ms": 10356,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくろくじゅう年に、",
+          "start_ms": 137533,
+          "end_ms": 140328,
+          "duration_ms": 2795
+        },
+        {
+          "index": 1,
+          "text": "アメリカの人がこのえいがとおなじはなしで「こうやのしちにん」というえいがを作りました。",
+          "start_ms": 140578,
+          "end_ms": 147889,
+          "duration_ms": 7311
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "text": "ジョージ・ルーカスはこのえいがを見て、とてもびっくりしました。",
+      "start_ms": 148389,
+      "end_ms": 154368,
+      "duration_ms": 5979,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ジョージ・ルーカスはこのえいがを見て、",
+          "start_ms": 148389,
+          "end_ms": 151718,
+          "duration_ms": 3329
+        },
+        {
+          "index": 1,
+          "text": "とてもびっくりしました。",
+          "start_ms": 151968,
+          "end_ms": 154368,
+          "duration_ms": 2400
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "text": "スター・ウォーズも、このえいがからおおきなえいきょうを受けました。",
+      "start_ms": 154868,
+      "end_ms": 160766,
+      "duration_ms": 5898,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "スター・ウォーズも、",
+          "start_ms": 154868,
+          "end_ms": 156723,
+          "duration_ms": 1855
+        },
+        {
+          "index": 1,
+          "text": "このえいがからおおきなえいきょうを受けました。",
+          "start_ms": 156973,
+          "end_ms": 160766,
+          "duration_ms": 3793
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "text": "今も、たくさんの人がこのえいがを見ています。",
+      "start_ms": 161266,
+      "end_ms": 166038,
+      "duration_ms": 4772,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今も、",
+          "start_ms": 161266,
+          "end_ms": 162192,
+          "duration_ms": 926
+        },
+        {
+          "index": 1,
+          "text": "たくさんの人がこのえいがを見ています。",
+          "start_ms": 162442,
+          "end_ms": 166038,
+          "duration_ms": 3596
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "text": "今の若い人も、このえいがが好きかもしれません。",
+      "start_ms": 166538,
+      "end_ms": 171937,
+      "duration_ms": 5399,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今の若い人も、",
+          "start_ms": 166538,
+          "end_ms": 168718,
+          "duration_ms": 2180
+        },
+        {
+          "index": 1,
+          "text": "このえいがが好きかもしれません。",
+          "start_ms": 168968,
+          "end_ms": 171937,
+          "duration_ms": 2969
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "text": "むかしのにほんのえいがが好きなら、このえいがを見たらどうですか。",
+      "start_ms": 172437,
+      "end_ms": 178637,
+      "duration_ms": 6200,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかしのにほんのえいがが好きなら、",
+          "start_ms": 172437,
+          "end_ms": 175511,
+          "duration_ms": 3074
+        },
+        {
+          "index": 1,
+          "text": "このえいがを見たらどうですか。",
+          "start_ms": 175761,
+          "end_ms": 178637,
+          "duration_ms": 2876
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "text": "207分もありますから、じかんがある日に見たほうがいいです。",
+      "start_ms": 179137,
+      "end_ms": 185302,
+      "duration_ms": 6165,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "207分もありますから、",
+          "start_ms": 179137,
+          "end_ms": 181781,
+          "duration_ms": 2644
+        },
+        {
+          "index": 1,
+          "text": "じかんがある日に見たほうがいいです。",
+          "start_ms": 182031,
+          "end_ms": 185302,
+          "duration_ms": 3271
+        }
+      ]
+    }
+  ]
+}

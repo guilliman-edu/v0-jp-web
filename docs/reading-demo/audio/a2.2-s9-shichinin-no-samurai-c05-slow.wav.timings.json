@@ -1,0 +1,185 @@
+{
+  "audio_file": "a2.2-s9-shichinin-no-samurai-c05-slow.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 54302,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "えいきょう",
+      "start_ms": 0,
+      "end_ms": 1605,
+      "duration_ms": 1605,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "えいきょう",
+          "start_ms": 0,
+          "end_ms": 1605,
+          "duration_ms": 1605
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "せんきゅうひゃくろくじゅう年に、アメリカの人がこのえいがとおなじはなしで「こうやのしちにん」というえいがを作りました。",
+      "start_ms": 2105,
+      "end_ms": 13368,
+      "duration_ms": 11263,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくろくじゅう年に、",
+          "start_ms": 2105,
+          "end_ms": 5185,
+          "duration_ms": 3080
+        },
+        {
+          "index": 1,
+          "text": "アメリカの人がこのえいがとおなじはなしで「こうやのしちにん」というえいがを作りました。",
+          "start_ms": 5435,
+          "end_ms": 13368,
+          "duration_ms": 7933
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "ジョージ・ルーカスはこのえいがを見て、とてもびっくりしました。",
+      "start_ms": 13868,
+      "end_ms": 20440,
+      "duration_ms": 6572,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ジョージ・ルーカスはこのえいがを見て、",
+          "start_ms": 13868,
+          "end_ms": 17505,
+          "duration_ms": 3637
+        },
+        {
+          "index": 1,
+          "text": "とてもびっくりしました。",
+          "start_ms": 17755,
+          "end_ms": 20440,
+          "duration_ms": 2685
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "スター・ウォーズも、このえいがからおおきなえいきょうを受けました。",
+      "start_ms": 20940,
+      "end_ms": 27535,
+      "duration_ms": 6595,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "スター・ウォーズも、",
+          "start_ms": 20940,
+          "end_ms": 22998,
+          "duration_ms": 2058
+        },
+        {
+          "index": 1,
+          "text": "このえいがからおおきなえいきょうを受けました。",
+          "start_ms": 23248,
+          "end_ms": 27535,
+          "duration_ms": 4287
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "今も、たくさんの人がこのえいがを見ています。",
+      "start_ms": 28035,
+      "end_ms": 33295,
+      "duration_ms": 5260,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今も、",
+          "start_ms": 28035,
+          "end_ms": 29048,
+          "duration_ms": 1013
+        },
+        {
+          "index": 1,
+          "text": "たくさんの人がこのえいがを見ています。",
+          "start_ms": 29298,
+          "end_ms": 33295,
+          "duration_ms": 3997
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text": "今の若い人も、このえいがが好きかもしれません。",
+      "start_ms": 33795,
+      "end_ms": 39705,
+      "duration_ms": 5910,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "今の若い人も、",
+          "start_ms": 33795,
+          "end_ms": 36213,
+          "duration_ms": 2418
+        },
+        {
+          "index": 1,
+          "text": "このえいがが好きかもしれません。",
+          "start_ms": 36463,
+          "end_ms": 39705,
+          "duration_ms": 3242
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "text": "むかしのにほんのえいがが好きなら、このえいがを見たらどうですか。",
+      "start_ms": 40205,
+      "end_ms": 47044,
+      "duration_ms": 6839,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "むかしのにほんのえいがが好きなら、",
+          "start_ms": 40205,
+          "end_ms": 43645,
+          "duration_ms": 3440
+        },
+        {
+          "index": 1,
+          "text": "このえいがを見たらどうですか。",
+          "start_ms": 43895,
+          "end_ms": 47044,
+          "duration_ms": 3149
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text": "207分もありますから、じかんがある日に見たほうがいいです。",
+      "start_ms": 47544,
+      "end_ms": 54302,
+      "duration_ms": 6758,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "207分もありますから、",
+          "start_ms": 47544,
+          "end_ms": 50554,
+          "duration_ms": 3010
+        },
+        {
+          "index": 1,
+          "text": "じかんがある日に見たほうがいいです。",
+          "start_ms": 50804,
+          "end_ms": 54302,
+          "duration_ms": 3498
+        }
+      ]
+    }
+  ]
+}

@@ -2,44 +2,44 @@
   "audio_file": "a2.2-s7-nara-c03-slow.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 76078,
+  "total_duration_ms": 75192,
   "sentences": [
     {
       "index": 0,
       "text": "いまのなら",
       "start_ms": 0,
-      "end_ms": 1768,
-      "duration_ms": 1768,
+      "end_ms": 1780,
+      "duration_ms": 1780,
       "clauses": [
         {
           "index": 0,
           "text": "いまのなら",
           "start_ms": 0,
-          "end_ms": 1768,
-          "duration_ms": 1768
+          "end_ms": 1780,
+          "duration_ms": 1780
         }
       ]
     },
     {
       "index": 1,
       "text": "いまのならにも、たのしいばしょがたくさんあります。",
-      "start_ms": 2268,
+      "start_ms": 2280,
       "end_ms": 7877,
-      "duration_ms": 5609,
+      "duration_ms": 5597,
       "clauses": [
         {
           "index": 0,
           "text": "いまのならにも、",
-          "start_ms": 2268,
-          "end_ms": 4071,
-          "duration_ms": 1803
+          "start_ms": 2280,
+          "end_ms": 4048,
+          "duration_ms": 1768
         },
         {
           "index": 1,
           "text": "たのしいばしょがたくさんあります。",
-          "start_ms": 4321,
+          "start_ms": 4298,
           "end_ms": 7877,
-          "duration_ms": 3556
+          "duration_ms": 3579
         }
       ]
     },
@@ -47,37 +47,37 @@
       "index": 2,
       "text": "ならこうえんのちかくに「ならまち」があります。",
       "start_ms": 8377,
-      "end_ms": 12502,
-      "duration_ms": 4125,
+      "end_ms": 12478,
+      "duration_ms": 4101,
       "clauses": [
         {
           "index": 0,
           "text": "ならこうえんのちかくに「ならまち」があります。",
           "start_ms": 8377,
-          "end_ms": 12502,
-          "duration_ms": 4125
+          "end_ms": 12478,
+          "duration_ms": 4101
         }
       ]
     },
     {
       "index": 3,
       "text": "ならまちにはふるいいえがたくさんあって、しずかなまちです。",
-      "start_ms": 13002,
-      "end_ms": 19307,
-      "duration_ms": 6305,
+      "start_ms": 12978,
+      "end_ms": 19422,
+      "duration_ms": 6444,
       "clauses": [
         {
           "index": 0,
           "text": "ならまちにはふるいいえがたくさんあって、",
-          "start_ms": 13002,
-          "end_ms": 16732,
-          "duration_ms": 3730
+          "start_ms": 12978,
+          "end_ms": 16847,
+          "duration_ms": 3869
         },
         {
           "index": 1,
           "text": "しずかなまちです。",
-          "start_ms": 16982,
-          "end_ms": 19307,
+          "start_ms": 17097,
+          "end_ms": 19422,
           "duration_ms": 2325
         }
       ]
@@ -85,22 +85,22 @@
     {
       "index": 4,
       "text": "はるなら、こうえんのさくらがきれいです。",
-      "start_ms": 19807,
-      "end_ms": 24731,
-      "duration_ms": 4924,
+      "start_ms": 19922,
+      "end_ms": 24811,
+      "duration_ms": 4889,
       "clauses": [
         {
           "index": 0,
           "text": "はるなら、",
-          "start_ms": 19807,
-          "end_ms": 21482,
-          "duration_ms": 1675
+          "start_ms": 19922,
+          "end_ms": 21562,
+          "duration_ms": 1640
         },
         {
           "index": 1,
           "text": "こうえんのさくらがきれいです。",
-          "start_ms": 21732,
-          "end_ms": 24731,
+          "start_ms": 21812,
+          "end_ms": 24811,
           "duration_ms": 2999
         }
       ]
@@ -108,200 +108,200 @@
     {
       "index": 5,
       "text": "あきなら、やまのこうようがきれいです。",
-      "start_ms": 25231,
-      "end_ms": 30120,
-      "duration_ms": 4889,
+      "start_ms": 25311,
+      "end_ms": 30188,
+      "duration_ms": 4877,
       "clauses": [
         {
           "index": 0,
           "text": "あきなら、",
-          "start_ms": 25231,
-          "end_ms": 26906,
-          "duration_ms": 1675
+          "start_ms": 25311,
+          "end_ms": 27021,
+          "duration_ms": 1710
         },
         {
           "index": 1,
           "text": "やまのこうようがきれいです。",
-          "start_ms": 27156,
-          "end_ms": 30120,
-          "duration_ms": 2964
+          "start_ms": 27271,
+          "end_ms": 30188,
+          "duration_ms": 2917
         }
       ]
     },
     {
       "index": 6,
       "text": "ならでは、いちねんにいっかい、いちがつに「わかくさやまやき」があります。",
-      "start_ms": 30620,
-      "end_ms": 38502,
-      "duration_ms": 7882,
+      "start_ms": 30688,
+      "end_ms": 38767,
+      "duration_ms": 8079,
       "clauses": [
         {
           "index": 0,
           "text": "ならでは、",
-          "start_ms": 30620,
-          "end_ms": 32016,
-          "duration_ms": 1396
+          "start_ms": 30688,
+          "end_ms": 32131,
+          "duration_ms": 1443
         },
         {
           "index": 1,
           "text": "いちねんにいっかい、",
-          "start_ms": 32266,
-          "end_ms": 34510,
-          "duration_ms": 2244
+          "start_ms": 32381,
+          "end_ms": 34671,
+          "duration_ms": 2290
         },
         {
           "index": 2,
           "text": "いちがつに「わかくさやまやき」があります。",
-          "start_ms": 34760,
-          "end_ms": 38502,
-          "duration_ms": 3742
+          "start_ms": 34921,
+          "end_ms": 38767,
+          "duration_ms": 3846
         }
       ]
     },
     {
       "index": 7,
       "text": "わかくさやまをやくおおきなぎょうじです。",
-      "start_ms": 39002,
-      "end_ms": 42906,
-      "duration_ms": 3904,
+      "start_ms": 39267,
+      "end_ms": 43194,
+      "duration_ms": 3927,
       "clauses": [
         {
           "index": 0,
           "text": "わかくさやまをやくおおきなぎょうじです。",
-          "start_ms": 39002,
-          "end_ms": 42906,
-          "duration_ms": 3904
+          "start_ms": 39267,
+          "end_ms": 43194,
+          "duration_ms": 3927
         }
       ]
     },
     {
       "index": 8,
       "text": "れきしがすきなら、へいじょうきょうのこうえんへいったほうがいいです。",
-      "start_ms": 43406,
-      "end_ms": 49921,
-      "duration_ms": 6515,
+      "start_ms": 43694,
+      "end_ms": 50335,
+      "duration_ms": 6641,
       "clauses": [
         {
           "index": 0,
           "text": "れきしがすきなら、",
-          "start_ms": 43406,
-          "end_ms": 45662,
-          "duration_ms": 2256
+          "start_ms": 43694,
+          "end_ms": 45984,
+          "duration_ms": 2290
         },
         {
           "index": 1,
           "text": "へいじょうきょうのこうえんへいったほうがいいです。",
-          "start_ms": 45912,
-          "end_ms": 49921,
-          "duration_ms": 4009
+          "start_ms": 46234,
+          "end_ms": 50335,
+          "duration_ms": 4101
         }
       ]
     },
     {
       "index": 9,
       "text": "わたしはいちねんににかい、ならへいきます。",
-      "start_ms": 50421,
-      "end_ms": 55844,
-      "duration_ms": 5423,
+      "start_ms": 50835,
+      "end_ms": 56223,
+      "duration_ms": 5388,
       "clauses": [
         {
           "index": 0,
           "text": "わたしはいちねんににかい、",
-          "start_ms": 50421,
-          "end_ms": 53466,
-          "duration_ms": 3045
+          "start_ms": 50835,
+          "end_ms": 53892,
+          "duration_ms": 3057
         },
         {
           "index": 1,
           "text": "ならへいきます。",
-          "start_ms": 53716,
-          "end_ms": 55844,
-          "duration_ms": 2128
+          "start_ms": 54142,
+          "end_ms": 56223,
+          "duration_ms": 2081
         }
       ]
     },
     {
       "index": 10,
       "text": "ならへいくなら、こうえんをあるいたほうがいいです。",
-      "start_ms": 56344,
-      "end_ms": 61976,
-      "duration_ms": 5632,
+      "start_ms": 56723,
+      "end_ms": 62390,
+      "duration_ms": 5667,
       "clauses": [
         {
           "index": 0,
           "text": "ならへいくなら、",
-          "start_ms": 56344,
-          "end_ms": 58391,
-          "duration_ms": 2047
+          "start_ms": 56723,
+          "end_ms": 58793,
+          "duration_ms": 2070
         },
         {
           "index": 1,
           "text": "こうえんをあるいたほうがいいです。",
-          "start_ms": 58641,
-          "end_ms": 61976,
-          "duration_ms": 3335
+          "start_ms": 59043,
+          "end_ms": 62390,
+          "duration_ms": 3347
         }
       ]
     },
     {
       "index": 11,
-      "text": "しかにあうことができます。",
-      "start_ms": 62476,
-      "end_ms": 65347,
-      "duration_ms": 2871,
+      "text": "しかに会えます。",
+      "start_ms": 62890,
+      "end_ms": 64925,
+      "duration_ms": 2035,
       "clauses": [
         {
           "index": 0,
-          "text": "しかにあうことができます。",
-          "start_ms": 62476,
-          "end_ms": 65347,
-          "duration_ms": 2871
+          "text": "しかに会えます。",
+          "start_ms": 62890,
+          "end_ms": 64925,
+          "duration_ms": 2035
         }
       ]
     },
     {
       "index": 12,
       "text": "ならはしずかだし、こうえんもきれいです。",
-      "start_ms": 65847,
-      "end_ms": 70887,
-      "duration_ms": 5040,
+      "start_ms": 65425,
+      "end_ms": 70488,
+      "duration_ms": 5063,
       "clauses": [
         {
           "index": 0,
           "text": "ならはしずかだし、",
-          "start_ms": 65847,
-          "end_ms": 68207,
-          "duration_ms": 2360
+          "start_ms": 65425,
+          "end_ms": 67820,
+          "duration_ms": 2395
         },
         {
           "index": 1,
           "text": "こうえんもきれいです。",
-          "start_ms": 68457,
-          "end_ms": 70887,
-          "duration_ms": 2430
+          "start_ms": 68070,
+          "end_ms": 70488,
+          "duration_ms": 2418
         }
       ]
     },
     {
       "index": 13,
-      "text": "ならで、ふるいてらをみることができます。",
-      "start_ms": 71387,
-      "end_ms": 76078,
-      "duration_ms": 4691,
+      "text": "ならで、ふるいてらが見られます。",
+      "start_ms": 70988,
+      "end_ms": 75192,
+      "duration_ms": 4204,
       "clauses": [
         {
           "index": 0,
           "text": "ならで、",
-          "start_ms": 71387,
-          "end_ms": 72609,
-          "duration_ms": 1222
+          "start_ms": 70988,
+          "end_ms": 72199,
+          "duration_ms": 1211
         },
         {
           "index": 1,
-          "text": "ふるいてらをみることができます。",
-          "start_ms": 72859,
-          "end_ms": 76078,
-          "duration_ms": 3219
+          "text": "ふるいてらが見られます。",
+          "start_ms": 72449,
+          "end_ms": 75192,
+          "duration_ms": 2743
         }
       ]
     }
