@@ -2,66 +2,66 @@
   "audio_file": "a2.2-s9-shichinin-no-samurai-c02.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 62611,
+  "total_duration_ms": 61865,
   "sentences": [
     {
       "index": 0,
       "text": "あらすじ",
       "start_ms": 0,
-      "end_ms": 1657,
-      "duration_ms": 1657,
+      "end_ms": 1599,
+      "duration_ms": 1599,
       "clauses": [
         {
           "index": 0,
           "text": "あらすじ",
           "start_ms": 0,
-          "end_ms": 1657,
-          "duration_ms": 1657
+          "end_ms": 1599,
+          "duration_ms": 1599
         }
       ]
     },
     {
       "index": 1,
       "text": "むかし、山のむらに、のうかの人たちが住んでいました。",
-      "start_ms": 2157,
-      "end_ms": 7730,
+      "start_ms": 2099,
+      "end_ms": 7672,
       "duration_ms": 5573,
       "clauses": [
         {
           "index": 0,
           "text": "むかし、山のむらに、",
-          "start_ms": 2157,
-          "end_ms": 4325,
-          "duration_ms": 2168
+          "start_ms": 2099,
+          "end_ms": 4279,
+          "duration_ms": 2180
         },
         {
           "index": 1,
           "text": "のうかの人たちが住んでいました。",
-          "start_ms": 4575,
-          "end_ms": 7730,
-          "duration_ms": 3155
+          "start_ms": 4529,
+          "end_ms": 7672,
+          "duration_ms": 3143
         }
       ]
     },
     {
       "index": 2,
       "text": "のぶし（わるいぶしたち）がいつもむらに来て、たべものを取りました。",
-      "start_ms": 8230,
-      "end_ms": 14755,
-      "duration_ms": 6525,
+      "start_ms": 8172,
+      "end_ms": 14720,
+      "duration_ms": 6548,
       "clauses": [
         {
           "index": 0,
           "text": "のぶし（わるいぶしたち）がいつもむらに来て、",
-          "start_ms": 8230,
-          "end_ms": 12186,
-          "duration_ms": 3956
+          "start_ms": 8172,
+          "end_ms": 12151,
+          "duration_ms": 3979
         },
         {
           "index": 1,
           "text": "たべものを取りました。",
-          "start_ms": 12436,
-          "end_ms": 14755,
+          "start_ms": 12401,
+          "end_ms": 14720,
           "duration_ms": 2319
         }
       ]
@@ -69,160 +69,160 @@
     {
       "index": 3,
       "text": "むらびとたちは、強いぶしがほしいと思いました。",
-      "start_ms": 15255,
-      "end_ms": 20700,
-      "duration_ms": 5445,
+      "start_ms": 15220,
+      "end_ms": 20619,
+      "duration_ms": 5399,
       "clauses": [
         {
           "index": 0,
           "text": "むらびとたちは、",
-          "start_ms": 15255,
-          "end_ms": 17214,
-          "duration_ms": 1959
+          "start_ms": 15220,
+          "end_ms": 17156,
+          "duration_ms": 1936
         },
         {
           "index": 1,
           "text": "強いぶしがほしいと思いました。",
-          "start_ms": 17464,
-          "end_ms": 20700,
-          "duration_ms": 3236
+          "start_ms": 17406,
+          "end_ms": 20619,
+          "duration_ms": 3213
         }
       ]
     },
     {
       "index": 4,
       "text": "ですから、町へぶしを探しに行きました。",
-      "start_ms": 21200,
-      "end_ms": 26227,
-      "duration_ms": 5027,
+      "start_ms": 21119,
+      "end_ms": 26123,
+      "duration_ms": 5004,
       "clauses": [
         {
           "index": 0,
           "text": "ですから、",
-          "start_ms": 21200,
-          "end_ms": 22660,
-          "duration_ms": 1460
+          "start_ms": 21119,
+          "end_ms": 22590,
+          "duration_ms": 1471
         },
         {
           "index": 1,
           "text": "町へぶしを探しに行きました。",
-          "start_ms": 22910,
-          "end_ms": 26227,
-          "duration_ms": 3317
+          "start_ms": 22840,
+          "end_ms": 26123,
+          "duration_ms": 3283
         }
       ]
     },
     {
       "index": 5,
       "text": "町で、かんべえというぶしに会いました。",
-      "start_ms": 26727,
-      "end_ms": 31197,
+      "start_ms": 26623,
+      "end_ms": 31093,
       "duration_ms": 4470,
       "clauses": [
         {
           "index": 0,
           "text": "町で、",
-          "start_ms": 26727,
-          "end_ms": 27989,
-          "duration_ms": 1262
+          "start_ms": 26623,
+          "end_ms": 27897,
+          "duration_ms": 1274
         },
         {
           "index": 1,
           "text": "かんべえというぶしに会いました。",
-          "start_ms": 28239,
-          "end_ms": 31197,
-          "duration_ms": 2958
+          "start_ms": 28147,
+          "end_ms": 31093,
+          "duration_ms": 2946
         }
       ]
     },
     {
       "index": 6,
       "text": "かんべえはほかのぶしを集めて、七人になりました。",
-      "start_ms": 31697,
-      "end_ms": 37537,
-      "duration_ms": 5840,
+      "start_ms": 31593,
+      "end_ms": 36768,
+      "duration_ms": 5175,
       "clauses": [
         {
           "index": 0,
           "text": "かんべえはほかのぶしを集めて、",
-          "start_ms": 31697,
-          "end_ms": 34968,
-          "duration_ms": 3271
+          "start_ms": 31593,
+          "end_ms": 34934,
+          "duration_ms": 3341
         },
         {
           "index": 1,
           "text": "七人になりました。",
-          "start_ms": 35218,
-          "end_ms": 37537,
-          "duration_ms": 2319
+          "start_ms": 35184,
+          "end_ms": 36768,
+          "duration_ms": 1584
         }
       ]
     },
     {
       "index": 7,
       "text": "ぶしたちはむらに行って、むらびとたちとみんなで戦いました。",
-      "start_ms": 38037,
-      "end_ms": 44330,
-      "duration_ms": 6293,
+      "start_ms": 37268,
+      "end_ms": 43595,
+      "duration_ms": 6327,
       "clauses": [
         {
           "index": 0,
           "text": "ぶしたちはむらに行って、",
-          "start_ms": 38037,
-          "end_ms": 40600,
-          "duration_ms": 2563
+          "start_ms": 37268,
+          "end_ms": 39842,
+          "duration_ms": 2574
         },
         {
           "index": 1,
           "text": "むらびとたちとみんなで戦いました。",
-          "start_ms": 40850,
-          "end_ms": 44330,
-          "duration_ms": 3480
+          "start_ms": 40092,
+          "end_ms": 43595,
+          "duration_ms": 3503
         }
       ]
     },
     {
       "index": 8,
       "text": "やっと、ぶしたちは勝ちました。",
-      "start_ms": 44830,
-      "end_ms": 48905,
-      "duration_ms": 4075,
+      "start_ms": 44095,
+      "end_ms": 48194,
+      "duration_ms": 4099,
       "clauses": [
         {
           "index": 0,
           "text": "やっと、",
-          "start_ms": 44830,
-          "end_ms": 46127,
-          "duration_ms": 1297
+          "start_ms": 44095,
+          "end_ms": 45439,
+          "duration_ms": 1344
         },
         {
           "index": 1,
           "text": "ぶしたちは勝ちました。",
-          "start_ms": 46377,
-          "end_ms": 48905,
-          "duration_ms": 2528
+          "start_ms": 45689,
+          "end_ms": 48194,
+          "duration_ms": 2505
         }
       ]
     },
     {
       "index": 9,
       "text": "でも、四人のぶしが死にました。",
-      "start_ms": 49405,
-      "end_ms": 53271,
-      "duration_ms": 3866,
+      "start_ms": 48694,
+      "end_ms": 52572,
+      "duration_ms": 3878,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 49405,
-          "end_ms": 50377,
-          "duration_ms": 972
+          "start_ms": 48694,
+          "end_ms": 49678,
+          "duration_ms": 984
         },
         {
           "index": 1,
           "text": "四人のぶしが死にました。",
-          "start_ms": 50627,
-          "end_ms": 53271,
+          "start_ms": 49928,
+          "end_ms": 52572,
           "duration_ms": 2644
         }
       ]
@@ -230,48 +230,48 @@
     {
       "index": 10,
       "text": "かんべえは言いました。",
-      "start_ms": 53771,
-      "end_ms": 55951,
-      "duration_ms": 2180,
+      "start_ms": 53072,
+      "end_ms": 55263,
+      "duration_ms": 2191,
       "clauses": [
         {
           "index": 0,
           "text": "かんべえは言いました。",
-          "start_ms": 53771,
-          "end_ms": 55951,
-          "duration_ms": 2180
+          "start_ms": 53072,
+          "end_ms": 55263,
+          "duration_ms": 2191
         }
       ]
     },
     {
       "index": 11,
       "text": "「勝ったのはむらびとたちです。",
-      "start_ms": 56451,
-      "end_ms": 59525,
-      "duration_ms": 3074,
+      "start_ms": 55763,
+      "end_ms": 58825,
+      "duration_ms": 3062,
       "clauses": [
         {
           "index": 0,
           "text": "「勝ったのはむらびとたちです。",
-          "start_ms": 56451,
-          "end_ms": 59525,
-          "duration_ms": 3074
+          "start_ms": 55763,
+          "end_ms": 58825,
+          "duration_ms": 3062
         }
       ]
     },
     {
       "index": 12,
       "text": "わたしたちではありません。」",
-      "start_ms": 60025,
-      "end_ms": 62611,
-      "duration_ms": 2586,
+      "start_ms": 59325,
+      "end_ms": 61865,
+      "duration_ms": 2540,
       "clauses": [
         {
           "index": 0,
           "text": "わたしたちではありません。」",
-          "start_ms": 60025,
-          "end_ms": 62611,
-          "duration_ms": 2586
+          "start_ms": 59325,
+          "end_ms": 61865,
+          "duration_ms": 2540
         }
       ]
     }

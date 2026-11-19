@@ -2,7 +2,7 @@
   "audio_file": "a2.2-s9-shichinin-no-samurai-c04-slow.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 24415,
+  "total_duration_ms": 24508,
   "sentences": [
     {
       "index": 0,
@@ -24,61 +24,61 @@
       "index": 1,
       "text": "このえいがはせかいでとてもゆうめいになりました。",
       "start_ms": 3162,
-      "end_ms": 7879,
-      "duration_ms": 4717,
+      "end_ms": 7983,
+      "duration_ms": 4821,
       "clauses": [
         {
           "index": 0,
           "text": "このえいがはせかいでとてもゆうめいになりました。",
           "start_ms": 3162,
-          "end_ms": 7879,
-          "duration_ms": 4717
+          "end_ms": 7983,
+          "duration_ms": 4821
         }
       ]
     },
     {
       "index": 2,
       "text": "せんきゅうひゃくごじゅうよ年に、ヴェネツィアこくさいえいがさいでしょうをもらいました。",
-      "start_ms": 8379,
-      "end_ms": 16019,
-      "duration_ms": 7640,
+      "start_ms": 8483,
+      "end_ms": 15996,
+      "duration_ms": 7513,
       "clauses": [
         {
           "index": 0,
           "text": "せんきゅうひゃくごじゅうよ年に、",
-          "start_ms": 8379,
-          "end_ms": 11412,
-          "duration_ms": 3033
+          "start_ms": 8483,
+          "end_ms": 11447,
+          "duration_ms": 2964
         },
         {
           "index": 1,
           "text": "ヴェネツィアこくさいえいがさいでしょうをもらいました。",
-          "start_ms": 11662,
-          "end_ms": 16019,
-          "duration_ms": 4357
+          "start_ms": 11697,
+          "end_ms": 15996,
+          "duration_ms": 4299
         }
       ]
     },
     {
       "index": 3,
       "text": "にせんじゅうはち年には、BBCの「がいこくごえいがベスト100」でいちいになりました。",
-      "start_ms": 16519,
-      "end_ms": 24415,
-      "duration_ms": 7896,
+      "start_ms": 16496,
+      "end_ms": 24508,
+      "duration_ms": 8012,
       "clauses": [
         {
           "index": 0,
           "text": "にせんじゅうはち年には、",
-          "start_ms": 16519,
-          "end_ms": 19146,
-          "duration_ms": 2627
+          "start_ms": 16496,
+          "end_ms": 19193,
+          "duration_ms": 2697
         },
         {
           "index": 1,
           "text": "BBCの「がいこくごえいがベスト100」でいちいになりました。",
-          "start_ms": 19396,
-          "end_ms": 24415,
-          "duration_ms": 5019
+          "start_ms": 19443,
+          "end_ms": 24508,
+          "duration_ms": 5065
         }
       ]
     }
