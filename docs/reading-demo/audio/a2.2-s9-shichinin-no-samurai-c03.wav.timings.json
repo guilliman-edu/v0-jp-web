@@ -2,120 +2,120 @@
   "audio_file": "a2.2-s9-shichinin-no-samurai-c03.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 28622,
+  "total_duration_ms": 28450,
   "sentences": [
     {
       "index": 0,
       "text": "撮影",
       "start_ms": 0,
-      "end_ms": 1483,
-      "duration_ms": 1483,
+      "end_ms": 1495,
+      "duration_ms": 1495,
       "clauses": [
         {
           "index": 0,
           "text": "撮影",
           "start_ms": 0,
-          "end_ms": 1483,
-          "duration_ms": 1483
+          "end_ms": 1495,
+          "duration_ms": 1495
         }
       ]
     },
     {
       "index": 1,
       "text": "このえいがを作るとき、たくさんのじかんとお金がかかりました。",
-      "start_ms": 1983,
-      "end_ms": 8276,
-      "duration_ms": 6293,
+      "start_ms": 1995,
+      "end_ms": 8114,
+      "duration_ms": 6119,
       "clauses": [
         {
           "index": 0,
           "text": "このえいがを作るとき、",
-          "start_ms": 1983,
-          "end_ms": 4511,
-          "duration_ms": 2528
+          "start_ms": 1995,
+          "end_ms": 4430,
+          "duration_ms": 2435
         },
         {
           "index": 1,
           "text": "たくさんのじかんとお金がかかりました。",
-          "start_ms": 4761,
-          "end_ms": 8276,
-          "duration_ms": 3515
+          "start_ms": 4680,
+          "end_ms": 8114,
+          "duration_ms": 3434
         }
       ]
     },
     {
       "index": 2,
       "text": "お金は、ふつうのえいがのななばいでした。",
-      "start_ms": 8776,
-      "end_ms": 13211,
-      "duration_ms": 4435,
+      "start_ms": 8614,
+      "end_ms": 13038,
+      "duration_ms": 4424,
       "clauses": [
         {
           "index": 0,
           "text": "お金は、",
-          "start_ms": 8776,
-          "end_ms": 10073,
-          "duration_ms": 1297
+          "start_ms": 8614,
+          "end_ms": 9923,
+          "duration_ms": 1309
         },
         {
           "index": 1,
           "text": "ふつうのえいがのななばいでした。",
-          "start_ms": 10323,
-          "end_ms": 13211,
-          "duration_ms": 2888
+          "start_ms": 10173,
+          "end_ms": 13038,
+          "duration_ms": 2865
         }
       ]
     },
     {
       "index": 3,
       "text": "天気がわるい日が多くて、九十日で撮るよていでしたが、いちねんぐらいかかりました。",
-      "start_ms": 13711,
-      "end_ms": 22607,
-      "duration_ms": 8896,
+      "start_ms": 13538,
+      "end_ms": 22458,
+      "duration_ms": 8920,
       "clauses": [
         {
           "index": 0,
           "text": "天気がわるい日が多くて、",
-          "start_ms": 13711,
-          "end_ms": 16390,
-          "duration_ms": 2679
+          "start_ms": 13538,
+          "end_ms": 16252,
+          "duration_ms": 2714
         },
         {
           "index": 1,
           "text": "九十日で撮るよていでしたが、",
-          "start_ms": 16640,
-          "end_ms": 19690,
-          "duration_ms": 3050
+          "start_ms": 16502,
+          "end_ms": 19529,
+          "duration_ms": 3027
         },
         {
           "index": 2,
           "text": "いちねんぐらいかかりました。",
-          "start_ms": 19940,
-          "end_ms": 22607,
-          "duration_ms": 2667
+          "start_ms": 19779,
+          "end_ms": 22458,
+          "duration_ms": 2679
         }
       ]
     },
     {
       "index": 4,
       "text": "雨の中の戦いは、寒い二月に撮りました。",
-      "start_ms": 23107,
-      "end_ms": 28622,
-      "duration_ms": 5515,
+      "start_ms": 22958,
+      "end_ms": 28450,
+      "duration_ms": 5492,
       "clauses": [
         {
           "index": 0,
           "text": "雨の中の戦いは、",
-          "start_ms": 23107,
-          "end_ms": 25612,
-          "duration_ms": 2505
+          "start_ms": 22958,
+          "end_ms": 25509,
+          "duration_ms": 2551
         },
         {
           "index": 1,
           "text": "寒い二月に撮りました。",
-          "start_ms": 25862,
-          "end_ms": 28622,
-          "duration_ms": 2760
+          "start_ms": 25759,
+          "end_ms": 28450,
+          "duration_ms": 2691
         }
       ]
     }
