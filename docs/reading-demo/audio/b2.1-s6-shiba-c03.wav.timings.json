@@ -1,0 +1,137 @@
+{
+  "audio_file": "b2.1-s6-shiba-c03.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 43922,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "三、おおさかと『かいどうをゆく』",
+      "start_ms": 0,
+      "end_ms": 2557,
+      "duration_ms": 2557,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "三、おおさかと『かいどうをゆく』",
+          "start_ms": 0,
+          "end_ms": 2557,
+          "duration_ms": 2557
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "せんきゅうひゃくろくじゅうよ年に、当時のふせししもこさか（げんざいのひがしおおさか市）に移り、なくなるまでそこに住みました。",
+      "start_ms": 3057,
+      "end_ms": 13957,
+      "duration_ms": 10900,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくろくじゅうよ年に、",
+          "start_ms": 3057,
+          "end_ms": 5649,
+          "duration_ms": 2592
+        },
+        {
+          "index": 1,
+          "text": "当時のふせししもこさか（げんざいのひがしおおさか市）に移り、",
+          "start_ms": 5899,
+          "end_ms": 10894,
+          "duration_ms": 4995
+        },
+        {
+          "index": 2,
+          "text": "なくなるまでそこに住みました。",
+          "start_ms": 11144,
+          "end_ms": 13957,
+          "duration_ms": 2813
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "せんきゅうひゃくななじゅういち年からは、日本のさまざまな土地を歩いて、町のれきしや特徴を書く『かいどうをゆく』を書きはじめました。",
+      "start_ms": 14457,
+      "end_ms": 25543,
+      "duration_ms": 11086,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "せんきゅうひゃくななじゅういち年からは、",
+          "start_ms": 14457,
+          "end_ms": 17479,
+          "duration_ms": 3022
+        },
+        {
+          "index": 1,
+          "text": "日本のさまざまな土地を歩いて、",
+          "start_ms": 17729,
+          "end_ms": 20611,
+          "duration_ms": 2882
+        },
+        {
+          "index": 2,
+          "text": "町のれきしや特徴を書く『かいどうをゆく』を書きはじめました。",
+          "start_ms": 20861,
+          "end_ms": 25543,
+          "duration_ms": 4682
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text": "れきしのさくひん以外にも、きこうの文章をたくさん書いています。",
+      "start_ms": 26043,
+      "end_ms": 31965,
+      "duration_ms": 5922,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "れきしのさくひん以外にも、",
+          "start_ms": 26043,
+          "end_ms": 28461,
+          "duration_ms": 2418
+        },
+        {
+          "index": 1,
+          "text": "きこうの文章をたくさん書いています。",
+          "start_ms": 28711,
+          "end_ms": 31965,
+          "duration_ms": 3254
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text": "れきしの本をたくさん読み、その土地を歩いてから書いたので、さくひんには町のふうけいやひとびとのせいかつが詳しく出てきます。",
+      "start_ms": 32465,
+      "end_ms": 43922,
+      "duration_ms": 11457,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "れきしの本をたくさん読み、",
+          "start_ms": 32465,
+          "end_ms": 34941,
+          "duration_ms": 2476
+        },
+        {
+          "index": 1,
+          "text": "その土地を歩いてから書いたので、",
+          "start_ms": 35191,
+          "end_ms": 38143,
+          "duration_ms": 2952
+        },
+        {
+          "index": 2,
+          "text": "さくひんには町のふうけいやひとびとのせいかつが詳しく出てきます。",
+          "start_ms": 38393,
+          "end_ms": 43922,
+          "duration_ms": 5529
+        }
+      ]
+    }
+  ]
+}

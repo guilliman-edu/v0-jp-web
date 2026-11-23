@@ -1,0 +1,70 @@
+{
+  "audio_file": "b2.1-s6-shiba-c05.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 17677,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "五、記念館に残る仕事",
+      "start_ms": 0,
+      "end_ms": 2604,
+      "duration_ms": 2604,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "五、記念館に残る仕事",
+          "start_ms": 0,
+          "end_ms": 2604,
+          "duration_ms": 2604
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text": "にせんいち年、ひがしおおさかの家の隣にしばりょうたろう記念館が開きました。",
+      "start_ms": 3104,
+      "end_ms": 10791,
+      "duration_ms": 7687,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "にせんいち年、",
+          "start_ms": 3104,
+          "end_ms": 4988,
+          "duration_ms": 1884
+        },
+        {
+          "index": 1,
+          "text": "ひがしおおさかの家の隣にしばりょうたろう記念館が開きました。",
+          "start_ms": 5238,
+          "end_ms": 10791,
+          "duration_ms": 5553
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text": "いまもひがしおおさかの記念館で、その仕事にふれることができます。",
+      "start_ms": 11291,
+      "end_ms": 17677,
+      "duration_ms": 6386,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いまもひがしおおさかの記念館で、",
+          "start_ms": 11291,
+          "end_ms": 14382,
+          "duration_ms": 3091
+        },
+        {
+          "index": 1,
+          "text": "その仕事にふれることができます。",
+          "start_ms": 14632,
+          "end_ms": 17677,
+          "duration_ms": 3045
+        }
+      ]
+    }
+  ]
+}

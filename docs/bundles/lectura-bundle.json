@@ -13311,6 +13311,361 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "b2.1-s6-shiba"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "司馬遼太郎 — 歴史を描いた作家",
+      "tituloEs": "Shiba Ryōtarō: el escritor que retrató la historia",
+      "ilustracion": {
+        "escena": "shiba",
+        "alt": "Un escritorio de madera con un manuscrito abierto, una pila de libros, una pluma estilográfica y unas gafas, junto a una ventana con un castillo japonés al fondo y una taza de té.",
+        "ruta": "lectura/imagenes/b2.1-s6-shiba.webp"
+      },
+      "nivel": "B2.1",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "記者",
+        "作品",
+        "立場",
+        "人々",
+        "人気",
+        "忍者",
+        "直木賞",
+        "作家",
+        "司馬史観",
+        "影響",
+        "批判",
+        "主人公",
+        "人物",
+        "亡くなる",
+        "紀行",
+        "文化勲章"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "司馬遼太郎",
+          "lectura": "しばりょうたろう",
+          "significado": "Shiba Ryōtarō"
+        },
+        {
+          "literal": "福田定一",
+          "lectura": "ふくだていいち",
+          "significado": "Fukuda Teiichi"
+        },
+        {
+          "literal": "司馬遷",
+          "lectura": "しばせん",
+          "significado": "Sima Qian"
+        },
+        {
+          "literal": "遼",
+          "lectura": "はるか",
+          "significado": "lejos (en el seudónimo)"
+        },
+        {
+          "literal": "東大阪",
+          "lectura": "ひがしおおさか",
+          "significado": "Higashiōsaka"
+        },
+        {
+          "literal": "大阪",
+          "lectura": "おおさか",
+          "significado": "Osaka"
+        },
+        {
+          "literal": "梟の城",
+          "lectura": "ふくろうのしろ",
+          "significado": "El castillo del búho"
+        },
+        {
+          "literal": "風神の門",
+          "lectura": "ふうじんのもん",
+          "significado": "La puerta del dios del viento"
+        },
+        {
+          "literal": "竜馬がゆく",
+          "lectura": "りょうまがゆく",
+          "significado": "Ryōma se pone en marcha"
+        },
+        {
+          "literal": "燃えよ剣",
+          "lectura": "もえよけん",
+          "significado": "¡Arde, espada!"
+        },
+        {
+          "literal": "国盗り物語",
+          "lectura": "くにとりものがたり",
+          "significado": "Crónica de la conquista del país"
+        },
+        {
+          "literal": "坂の上の雲",
+          "lectura": "さかのうえのくも",
+          "significado": "La nube sobre la ladera"
+        },
+        {
+          "literal": "街道をゆく",
+          "lectura": "かいどうをゆく",
+          "significado": "Recorrer los caminos"
+        },
+        {
+          "literal": "産経新聞社",
+          "lectura": "さんけいしんぶんしゃ",
+          "significado": "Diario Sankei"
+        },
+        {
+          "literal": "布施市下小阪",
+          "lectura": "ふせししもこさか",
+          "significado": "Fuse-shimo-kosaka"
+        },
+        {
+          "literal": "明治",
+          "lectura": "めいじ",
+          "significado": "era Meiji"
+        },
+        {
+          "literal": "日清",
+          "lectura": "にっしん",
+          "significado": "guerra sino-japonesa"
+        },
+        {
+          "literal": "日露",
+          "lectura": "にちろ",
+          "significado": "guerra ruso-japonesa"
+        },
+        {
+          "literal": "太平洋戦争",
+          "lectura": "たいへいようせんそう",
+          "significado": "Guerra del Pacífico"
+        },
+        {
+          "literal": "織田信長",
+          "lectura": "おだのぶなが",
+          "significado": "Oda Nobunaga"
+        },
+        {
+          "literal": "西郷隆盛",
+          "lectura": "さいごうたかもり",
+          "significado": "Saigō Takamori"
+        },
+        {
+          "literal": "坂本龍馬",
+          "lectura": "さかもとりょうま",
+          "significado": "Sakamoto Ryōma"
+        },
+        {
+          "literal": "大久保利通",
+          "lectura": "おおくぼとしみち",
+          "significado": "Ōkubo Toshimichi"
+        },
+        {
+          "literal": "NHK",
+          "lectura": "エヌエイチケイ",
+          "significado": "NHK"
+        }
+      ],
+      "preguntas": [
+        "司馬遼太郎はどこで生まれ、本名は何ですか。また、「司馬遼太郎」という名前は、どんな意味から付けましたか。",
+        "1960年に『梟の城』で何を受けましたか。また、当時の作品にはどんなものが多かったですか。",
+        "『竜馬がゆく』『燃えよ剣』『国盗り物語』は、いつごろから書かれましたか。また、どんな人々を描いた作品ですか。",
+        "1964年にどこに移り、1971年から何を書きはじめましたか。",
+        "「司馬史観」とはどのような立場ですか。また、どんな批判がありますか。"
+      ],
+      "preguntasEs": [
+        "¿Dónde nació Shiba Ryōtarō y cuál era su verdadero nombre? Además, ¿de qué significado proviene el nombre «Shiba Ryōtarō»?",
+        "¿Qué recibió en 1960 por 『梟の城』? Además, ¿qué tipo de obras abundaban entre las de esa época?",
+        "¿Desde cuándo se escribieron 『竜馬がゆく』, 『燃えよ剣』 y 『国盗り物語』? Además, ¿a qué tipo de personas retratan?",
+        "¿A dónde se trasladó en 1964 y qué empezó a escribir desde 1971?",
+        "¿Qué tipo de postura es la «visión histórica de Shiba»? Además, ¿qué críticas recibe?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "歴史",
+          "lectura": "れきし",
+          "significado": "historia"
+        },
+        {
+          "literal": "小説",
+          "lectura": "しょうせつ",
+          "significado": "novela"
+        },
+        {
+          "literal": "新聞",
+          "lectura": "しんぶん",
+          "significado": "periódico"
+        },
+        {
+          "literal": "記者",
+          "lectura": "きしゃ",
+          "significado": "periodista",
+          "exclusion": true
+        },
+        {
+          "literal": "作品",
+          "lectura": "さくひん",
+          "significado": "obra",
+          "exclusion": true
+        },
+        {
+          "literal": "武士",
+          "lectura": "ぶし",
+          "significado": "samurái"
+        },
+        {
+          "literal": "時代",
+          "lectura": "じだい",
+          "significado": "época"
+        },
+        {
+          "literal": "理想",
+          "lectura": "りそう",
+          "significado": "ideal"
+        },
+        {
+          "literal": "立場",
+          "lectura": "たちば",
+          "significado": "postura",
+          "exclusion": true
+        },
+        {
+          "literal": "人々",
+          "lectura": "ひとびと",
+          "significado": "gente",
+          "exclusion": true
+        },
+        {
+          "literal": "人気",
+          "lectura": "にんき",
+          "significado": "popularidad",
+          "exclusion": true
+        },
+        {
+          "literal": "風景",
+          "lectura": "ふうけい",
+          "significado": "paisaje"
+        },
+        {
+          "literal": "生活",
+          "lectura": "せいかつ",
+          "significado": "vida cotidiana"
+        },
+        {
+          "literal": "現在",
+          "lectura": "げんざい",
+          "significado": "actualidad"
+        },
+        {
+          "literal": "忍者",
+          "lectura": "にんじゃ",
+          "significado": "ninja",
+          "exclusion": true
+        },
+        {
+          "literal": "直木賞",
+          "lectura": "なおきしょう",
+          "significado": "premio Naoki",
+          "exclusion": true
+        },
+        {
+          "literal": "作家",
+          "lectura": "さっか",
+          "significado": "escritor",
+          "exclusion": true
+        },
+        {
+          "literal": "司馬史観",
+          "lectura": "しばしかん",
+          "significado": "«visión histórica de Shiba»",
+          "exclusion": true
+        },
+        {
+          "literal": "影響",
+          "lectura": "えいきょう",
+          "significado": "influencia",
+          "exclusion": true
+        },
+        {
+          "literal": "批判",
+          "lectura": "ひはん",
+          "significado": "crítica",
+          "exclusion": true
+        },
+        {
+          "literal": "主人公",
+          "lectura": "しゅじんこう",
+          "significado": "protagonista",
+          "exclusion": true
+        },
+        {
+          "literal": "人物",
+          "lectura": "じんぶつ",
+          "significado": "personaje",
+          "exclusion": true
+        },
+        {
+          "literal": "亡くなる",
+          "lectura": "なくなる",
+          "significado": "fallecer",
+          "exclusion": true
+        },
+        {
+          "literal": "紀行",
+          "lectura": "きこう",
+          "significado": "relato de viaje",
+          "exclusion": true
+        },
+        {
+          "literal": "文化勲章",
+          "lectura": "ぶんかくんしょう",
+          "significado": "Orden de la Cultura",
+          "exclusion": true
+        }
+      ],
+      "referencias": [
+        "s6-to-shite"
+      ],
+      "mapaGramatica": [
+        {
+          "oracion": "初めは新聞の記者として働き、小説も書いていました。",
+          "alias": "to-shite"
+        },
+        {
+          "oracion": "当時の作品は『梟の城』や『風神の門』など、忍者を中心にしたものが多く、そのことから「忍豪作家」と言われていました。",
+          "alias": "koto-kara"
+        },
+        {
+          "oracion": "『竜馬がゆく』をはじめとするこれらの作品は、幕末や戦国の武士を描いたもので、多くの人に読まれました。",
+          "alias": "wo-hajime"
+        },
+        {
+          "oracion": "『坂の上の雲』といえば、明治の日本を描いた長い作品として有名です。",
+          "alias": "to-iueba"
+        },
+        {
+          "oracion": "作品を通して歴史を知る人もいます。",
+          "alias": "wo-tooshite"
+        },
+        {
+          "oracion": "「国民的作家」と呼ばれるようになったのは1970年代からです。",
+          "alias": "ukemi-rareru"
+        },
+        {
+          "oracion": "司馬史観とは、日清・日露戦争のころの日本を理想とし、太平洋戦争のころを暗い時代と見る立場です。",
+          "alias": "to-wa"
+        },
+        {
+          "oracion": "特徴としては、主人公や自分が好意を持つ人物を中心に、好意的に描くことが多いです。",
+          "alias": "wo-chuushin-ni"
+        }
+      ],
+      "texto": "一、生い立ちと名前\n司馬遼太郎は1923年に大阪で生まれ、1996年に亡くなりました。本名は福田定一です。大阪の町で育ち、「司馬遼太郎」という名前は、「司馬遷に遼に及ばない日本の者（太郎）」という意味から付けました。\n\n\n---\n\n二、忍者から歴史小説へ\n戦争が終わった後、「昔の日本人は、もう少しましだったのではないか」と考え、日本の歴史に関心を持つようになりました。詳しく調べて小説を書くようになったのも、この経験がもとになっています。初めは新聞の記者として働き、小説も書いていました。1960年、忍者を描いた『梟の城』で直木賞を受けました。1961年に産経新聞社を退職して、専業の作家になりました。当時の作品は『梟の城』や『風神の門』など、忍者を中心にしたものが多く、そのことから「忍豪作家」と言われていました。\n\n1962年からは『竜馬がゆく』『燃えよ剣』を、1963年からは『国盗り物語』を書きました。『竜馬がゆく』をはじめとするこれらの作品は、幕末や戦国の武士を描いたもので、多くの人に読まれました。『坂の上の雲』といえば、明治の日本を描いた長い作品として有名です。\n\n\n---\n\n三、大阪と『街道をゆく』\n1964年に、当時の布施市下小阪（現在の東大阪市）に移り、亡くなるまでそこに住みました。1971年からは、日本のさまざまな土地を歩いて、町の歴史や特徴を書く『街道をゆく』を書きはじめました。歴史の作品以外にも、紀行の文章をたくさん書いています。歴史の本をたくさん読み、その土地を歩いてから書いたので、作品には町の風景や人々の生活が詳しく出てきます。\n\n\n---\n\n四、「司馬史観」とその影響\n司馬の作品は今も読まれています。作品を通して歴史を知る人もいます。「国民的作家」と呼ばれるようになったのは1970年代からです。1993年には文化勲章を受けました。彼は歴史を一つの長い話として見ました。これは「司馬史観」と言われ、日本に強い影響を与えました。司馬史観とは、日清・日露戦争のころの日本を理想とし、太平洋戦争のころを暗い時代と見る立場です。織田信長、西郷隆盛、坂本龍馬、大久保利通などを高く評価しました。ただ、都合がよすぎるという批判もあります。\n\n特徴としては、主人公や自分が好意を持つ人物を中心に、好意的に描くことが多いです。また、自分の体験談や土地の話を作品に入れることも多く、そこが人々に人気があります。多くの作品は映像化されました。とくにNHKの大河ドラマの原作になった作品が最も多く、『坂の上の雲』を含めると七つあります。\n\n\n---\n\n五、記念館に残る仕事\n2001年、東大阪の家の隣に司馬遼太郎記念館が開きました。いまも東大阪の記念館で、その仕事にふれることができます。\n",
+      "textoEs": "I. Origen y nombre\nShiba Ryōtarō nació en Osaka en 1923 y falleció en 1996. Su verdadero nombre era Fukuda Teiichi. Creció en la ciudad de Osaka y eligió el nombre «Shiba Ryōtarō» con el sentido de «un japonés que no llega tan lejos como Sima Qian (de ahí Tarō)».\n\n\n---\n\nII. De los ninjas a la novela histórica\nTras terminar la guerra, pensó «¿No serían un poco mejores los japoneses de antes?» y comenzó a interesarse por la historia de Japón. El que empezara a escribir novelas después de investigar a fondo también tiene su origen en esa experiencia. Al principio trabajaba como periodista de prensa y escribía novelas. En 1960 recibió el premio Naoki por 『梟の城』, una obra que retrata a ninjas. En 1961 dejó el diario Sankei y se convirtió en escritor profesional. Sus obras de entonces, como 『梟の城』 o 『風神の門』, tenían muchos ninjas como centro, y por eso se le llamaba «escritor de maestros ninja».\n\nDesde 1962 escribió 『竜馬がゆく』 y 『燃えよ剣』, y desde 1963, 『国盗り物語』. Estas obras, encabezadas por 『竜馬がゆく』, retratan a samuráis del final del shogunato y del periodo Sengoku, y fueron leídas por mucha gente. De 『坂の上の雲』 puede decirse que es famosa como una obra larga que retrata el Japón de Meiji.\n\n\n---\n\nIII. Osaka y «Recorrer los caminos»\nEn 1964 se trasladó a lo que entonces era Fuse-shimo-kosaka (actual Higashiōsaka) y vivió allí hasta su muerte. Desde 1971 comenzó a escribir 『街道をゆく』, en la que recorría diversos lugares de Japón y escribía sobre la historia y las características de los pueblos. Además de obras históricas, escribió muchos textos de viaje. Como leía muchos libros de historia y escribía después de recorrer el lugar, en sus obras aparecen con detalle los paisajes de los pueblos y la vida de la gente.\n\n\n---\n\nIV. La «visión histórica de Shiba» y su influencia\nLas obras de Shiba se siguen leyendo hoy. Hay quien conoce la historia a través de sus obras. Se empezó a llamar «escritor nacional» a partir de los años setenta. En 1993 recibió la Orden de la Cultura. Él veía la historia como una larga narración. A esto se le llama «visión histórica de Shiba» y tuvo una fuerte influencia en Japón. La visión histórica de Shiba es una postura que idealiza el Japón de la época de las guerras sino-japonesa y ruso-japonesa y ve como una época oscura la de la Guerra del Pacífico. Valoraba mucho a personas como Oda Nobunaga, Saigō Takamori, Sakamoto Ryōma y Ōkubo Toshimichi. Sin embargo, también hay críticas de que resulta demasiado conveniente.\n\nComo rasgo, suele retratar de forma favorable a protagonistas y personajes por los que él siente aprecio, centrándose en ellos. También es frecuente que incluya en sus obras anécdotas propias y relatos de los lugares, y eso lo hace popular entre la gente. Muchas de sus obras fueron adaptadas a la imagen. En particular, es el autor con más obras que se convirtieron en el original de los dramas históricos anuales de NHK: si se incluye 『坂の上の雲』, hay siete.\n\n\n---\n\nV. Su obra en el museo\nEn 2001 se abrió el Museo Conmemorativo Shiba Ryōtarō junto a su casa de Higashiōsaka. Todavía hoy se puede entrar en contacto con su obra en el museo de Higashiōsaka.\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "b2.1-s6-sumo"
     },
     "data": {
