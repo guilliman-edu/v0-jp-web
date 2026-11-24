@@ -2164,6 +2164,342 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.2-s10-fuji-san"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "富士山",
+      "tituloEs": "El monte Fuji",
+      "procedencia": "Adaptación educativa en tres capítulos del artículo «富士山» de Wikipedia en japonés (https://ja.wikipedia.org/wiki/富士山), a partir de la adaptación A2.2 s10 guardada en adaptaciones/A2.2/fuji-san-adaptado.md. Cubre geografía y altitud, fe y cultura (世界文化遺産) y el ascenso veraniego.",
+      "modoFurigana": "templado",
+      "furiganaList": [
+        "遠い"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "富士山",
+          "lectura": "ふじさん",
+          "significado": "Monte Fuji"
+        },
+        {
+          "literal": "山梨県",
+          "lectura": "やまなしけん",
+          "significado": "prefectura de Yamanashi"
+        },
+        {
+          "literal": "静岡県",
+          "lectura": "しずおかけん",
+          "significado": "prefectura de Shizuoka"
+        },
+        {
+          "literal": "浅間神社",
+          "lectura": "せんげんじんじゃ",
+          "significado": "santuario Sengen"
+        }
+      ],
+      "preguntas": [
+        "富士山は、どの県にありますか。",
+        "富士山は、今も噴火していますか。",
+        "山の一番高い所は、何メートルですか。",
+        "2013年に、富士山は何になりましたか。",
+        "富士山に登る人は、何を持っていかなければいけませんか。",
+        "冬は、どうして登る人が少ないですか。"
+      ],
+      "preguntasEs": [
+        "¿En qué prefecturas se encuentra el monte Fuji?",
+        "¿Sigue entrando en erupción el monte Fuji hoy en día?",
+        "¿Cuántos metros tiene el punto más alto de la montaña?",
+        "¿En qué se convirtió el monte Fuji en 2013?",
+        "¿Qué tienen que llevar quienes suben al monte Fuji?",
+        "¿Por qué hay poca gente que sube en invierno?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "火山",
+          "lectura": "かざん",
+          "significado": "volcán"
+        },
+        {
+          "literal": "噴火",
+          "lectura": "ふんか",
+          "significado": "erupción"
+        },
+        {
+          "literal": "信仰",
+          "lectura": "しんこう",
+          "significado": "fe"
+        },
+        {
+          "literal": "芸術",
+          "lectura": "げいじゅつ",
+          "significado": "arte"
+        },
+        {
+          "literal": "世界文化遺産",
+          "lectura": "せかいぶんかいさん",
+          "significado": "Patrimonio Cultural Mundial"
+        },
+        {
+          "literal": "山",
+          "lectura": "やま",
+          "significado": "montaña"
+        },
+        {
+          "literal": "高い",
+          "lectura": "たかい",
+          "significado": "alto"
+        },
+        {
+          "literal": "県",
+          "lectura": "けん",
+          "significado": "prefectura"
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "hace mucho tiempo"
+        },
+        {
+          "literal": "今",
+          "lectura": "いま",
+          "significado": "ahora"
+        },
+        {
+          "literal": "何回",
+          "lectura": "なんかい",
+          "significado": "cuántas veces"
+        },
+        {
+          "literal": "形",
+          "lectura": "かたち",
+          "significado": "forma"
+        },
+        {
+          "literal": "世界",
+          "lectura": "せかい",
+          "significado": "mundo"
+        },
+        {
+          "literal": "有名",
+          "lectura": "ゆうめい",
+          "significado": "famoso"
+        },
+        {
+          "literal": "写真",
+          "lectura": "しゃしん",
+          "significado": "foto"
+        },
+        {
+          "literal": "近く",
+          "lectura": "ちかく",
+          "significado": "alrededores"
+        },
+        {
+          "literal": "住む",
+          "lectura": "すむ",
+          "significado": "vivir"
+        },
+        {
+          "literal": "遠い",
+          "lectura": "とおい",
+          "significado": "lejano",
+          "exclusion": true
+        },
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "pueblo"
+        },
+        {
+          "literal": "地図",
+          "lectura": "ちず",
+          "significado": "mapa"
+        },
+        {
+          "literal": "所",
+          "lectura": "ところ",
+          "significado": "lugar"
+        },
+        {
+          "literal": "神様",
+          "lectura": "かみさま",
+          "significado": "dios"
+        },
+        {
+          "literal": "神社",
+          "lectura": "じんじゃ",
+          "significado": "santuario sintoísta"
+        },
+        {
+          "literal": "登る",
+          "lectura": "のぼる",
+          "significado": "escalar, subir"
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante"
+        },
+        {
+          "literal": "行事",
+          "lectura": "ぎょうじ",
+          "significado": "evento"
+        },
+        {
+          "literal": "描く",
+          "lectura": "かく",
+          "significado": "dibujar"
+        },
+        {
+          "literal": "歴史",
+          "lectura": "れきし",
+          "significado": "historia"
+        },
+        {
+          "literal": "文化",
+          "lectura": "ぶんか",
+          "significado": "cultura"
+        },
+        {
+          "literal": "夏",
+          "lectura": "なつ",
+          "significado": "verano"
+        },
+        {
+          "literal": "観光",
+          "lectura": "かんこう",
+          "significado": "turismo"
+        },
+        {
+          "literal": "場所",
+          "lectura": "ばしょ",
+          "significado": "lugar"
+        },
+        {
+          "literal": "冬",
+          "lectura": "ふゆ",
+          "significado": "invierno"
+        },
+        {
+          "literal": "雪",
+          "lectura": "ゆき",
+          "significado": "nieve"
+        },
+        {
+          "literal": "少ない",
+          "lectura": "すくない",
+          "significado": "poco"
+        },
+        {
+          "literal": "暖かい",
+          "lectura": "あたたかい",
+          "significado": "cálido"
+        },
+        {
+          "literal": "服",
+          "lectura": "ふく",
+          "significado": "ropa"
+        },
+        {
+          "literal": "持っていく",
+          "lectura": "もっていく",
+          "significado": "llevar"
+        },
+        {
+          "literal": "寒い",
+          "lectura": "さむい",
+          "significado": "frío"
+        },
+        {
+          "literal": "来年",
+          "lectura": "らいねん",
+          "significado": "el año que viene"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "水",
+          "lectura": "みず",
+          "significado": "agua"
+        },
+        {
+          "literal": "食べ物",
+          "lectura": "たべもの",
+          "significado": "comida"
+        },
+        {
+          "literal": "天気",
+          "lectura": "てんき",
+          "significado": "tiempo"
+        }
+      ],
+      "referencias": [
+        "intencion-formula-to-omotteimasu",
+        "obligacion-nakereba-ikemasen-oral",
+        "protocolo-subordinacion-sustantiva"
+      ],
+      "nivel": "A2.2",
+      "mapaGramatica": [
+        {
+          "oracion": "3776メートルで、日本でこれより高い山はありません。",
+          "alias": "comparacion-houga-yori"
+        },
+        {
+          "oracion": "だから、今のきれいな形になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "外国の人が富士山の写真を見たとき、すぐに日本だと思います。",
+          "alias": "opinion-to-omoimasu"
+        },
+        {
+          "oracion": "昔から、日本人は富士山を神様の山だと思っていました。",
+          "alias": "opinion-to-omoimasu"
+        },
+        {
+          "oracion": "2013年、富士山は世界文化遺産になりました。",
+          "alias": "cambio-estado-narimasu"
+        },
+        {
+          "oracion": "富士山は、日本で一番大切な山だと思います。",
+          "alias": "opinion-to-omoimasu"
+        },
+        {
+          "oracion": "でも、冬は雪が多いので、登る人は少ないです。",
+          "alias": "frases-causa-node"
+        },
+        {
+          "oracion": "富士山に登る人は、暖かい服を持っていかなければいけません。",
+          "alias": "obligacion-nakereba-ikemasen"
+        },
+        {
+          "oracion": "山の上は、夏でも寒いからです。",
+          "alias": "frases-causa-kara"
+        },
+        {
+          "oracion": "私は、来年の夏、友達と富士山に登ろうと思っています。",
+          "alias": "intencion-formula-to-omotteimasu"
+        },
+        {
+          "oracion": "そのときは、水や食べ物をたくさん持っていこうと思っています。",
+          "alias": "intencion-formula-to-omotteimasu"
+        },
+        {
+          "oracion": "登る前に、天気をよく見たほうがいいと思います。",
+          "alias": "consejo-houga-ii"
+        }
+      ],
+      "texto": "日本一の山\n富士山は、日本で一番高い山です。山梨県と静岡県にあります。3776メートルで、日本でこれより高い山はありません。\n\n富士山は火山です。今は噴火していませんが、昔は何回も噴火しました。だから、今のきれいな形になりました。\n\n富士山のきれいな形は、世界で有名です。外国の人が富士山の写真を見たとき、すぐに日本だと思います。山の近くに住む人も、遠い町に住む人も、富士山が好きです。\n\n今の地図では、富士山は3775.56メートルです。でも、山の一番高い所は3776.12メートルです。この二つは少し違います。\n\n\n---\n\n神様の山\n昔から、日本人は富士山を神様の山だと思っていました。山の上には、浅間神社があります。昔は、富士山に登ることも、神様の大切な行事でした。\n\n浅間神社は、富士山の神様の神社です。日本には、浅間神社がたくさんあります。\n\n富士山は、信仰と芸術の場所です。昔から、多くの人が富士山を描きました。今も、富士山は日本の歴史と文化の大切な場所です。\n\n2013年、富士山は世界文化遺産になりました。富士山は、日本で一番大切な山だと思います。\n\n\n---\n\n富士山に登る\n夏は、たくさんの人が富士山に登ります。富士山の近くには、観光の場所がたくさんあります。でも、冬は雪が多いので、登る人は少ないです。\n\n富士山に登る人は、暖かい服を持っていかなければいけません。山の上は、夏でも寒いからです。\n\n私は、来年の夏、友達と富士山に登ろうと思っています。そのときは、水や食べ物をたくさん持っていこうと思っています。登る前に、天気をよく見たほうがいいと思います。\n",
+      "textoEs": "La montaña más alta de Japón\nEl monte Fuji es la montaña más alta de Japón. Se encuentra entre las prefecturas de Yamanashi y Shizuoka. Con 3776 metros, no hay en Japón una montaña más alta que esta.\n\nEl monte Fuji es un volcán. Hoy no entra en erupción, pero antiguamente entró en erupción muchas veces. Por eso se convirtió en la bonita forma que tiene ahora.\n\nLa bonita forma del monte Fuji es famosa en el mundo. Cuando los extranjeros ven una foto del monte Fuji, piensan enseguida que es Japón. A la gente que vive cerca de la montaña y a la que vive en pueblos lejanos le gusta el monte Fuji.\n\nEn los mapas actuales, el monte Fuji mide 3775,56 metros. Pero el punto más alto de la montaña está a 3776,12 metros. Estos dos datos son un poco distintos.\n\n\n---\n\nLa montaña de los dioses\nDesde hace mucho tiempo, los japoneses han pensado que el monte Fuji es una montaña de dioses. En lo alto de la montaña está el santuario Sengen. Antiguamente, subir al monte Fuji también era un acto importante para los dioses.\n\nEl santuario Sengen es el santuario del dios del monte Fuji. En Japón hay muchos santuarios Sengen.\n\nEl monte Fuji es un lugar de fe y de arte. Desde hace mucho tiempo, mucha gente ha dibujado el monte Fuji. Hoy también, el monte Fuji es un lugar importante de la historia y la cultura de Japón.\n\nEn 2013, el monte Fuji se convirtió en Patrimonio Cultural Mundial. Pienso que el monte Fuji es la montaña más importante de Japón.\n\n\n---\n\nSubir al monte Fuji\nEn verano, mucha gente sube al monte Fuji. Cerca del monte Fuji hay muchos lugares turísticos. Pero, como en invierno hay mucha nieve, hay poca gente que sube.\n\nQuienes suben al monte Fuji tienen que llevar ropa cálida. Porque en lo alto de la montaña hace frío incluso en verano.\n\nYo pienso subir al monte Fuji con mis amigos el verano que viene. En esa ocasión, pienso llevar mucha agua y comida. Antes de subir, creo que es mejor mirar bien el tiempo.\n"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "a2.2-s2-choushiro"
     },
     "data": {
