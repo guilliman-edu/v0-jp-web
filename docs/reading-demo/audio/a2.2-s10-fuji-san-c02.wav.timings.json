@@ -2,258 +2,251 @@
   "audio_file": "a2.2-s10-fuji-san-c02.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 65849,
+  "total_duration_ms": 66672,
   "sentences": [
     {
       "index": 0,
       "text": "かみさまのやま",
       "start_ms": 0,
-      "end_ms": 2040,
-      "duration_ms": 2040,
+      "end_ms": 2029,
+      "duration_ms": 2029,
       "clauses": [
         {
           "index": 0,
           "text": "かみさまのやま",
           "start_ms": 0,
-          "end_ms": 2040,
-          "duration_ms": 2040
+          "end_ms": 2029,
+          "duration_ms": 2029
         }
       ]
     },
     {
       "index": 1,
       "text": "むかしから、日本人はふじさんをかみさまのやまだと思っていました。",
-      "start_ms": 2540,
-      "end_ms": 9657,
-      "duration_ms": 7117,
+      "start_ms": 2529,
+      "end_ms": 9495,
+      "duration_ms": 6966,
       "clauses": [
         {
           "index": 0,
           "text": "むかしから、",
-          "start_ms": 2540,
-          "end_ms": 4139,
-          "duration_ms": 1599
+          "start_ms": 2529,
+          "end_ms": 4093,
+          "duration_ms": 1564
         },
         {
           "index": 1,
           "text": "日本人はふじさんをかみさまのやまだと思っていました。",
-          "start_ms": 4389,
-          "end_ms": 9657,
-          "duration_ms": 5268
+          "start_ms": 4343,
+          "end_ms": 9495,
+          "duration_ms": 5152
         }
       ]
     },
     {
       "index": 2,
       "text": "やまの上には、せんげんじんじゃがあります。",
-      "start_ms": 10157,
-      "end_ms": 14801,
-      "duration_ms": 4644,
+      "start_ms": 9995,
+      "end_ms": 14651,
+      "duration_ms": 4656,
       "clauses": [
         {
           "index": 0,
           "text": "やまの上には、",
-          "start_ms": 10157,
-          "end_ms": 12058,
-          "duration_ms": 1901
+          "start_ms": 9995,
+          "end_ms": 11873,
+          "duration_ms": 1878
         },
         {
           "index": 1,
           "text": "せんげんじんじゃがあります。",
-          "start_ms": 12308,
-          "end_ms": 14801,
-          "duration_ms": 2493
+          "start_ms": 12123,
+          "end_ms": 14651,
+          "duration_ms": 2528
         }
       ]
     },
     {
       "index": 3,
-      "text": "むかしは、ふじさんにのぼることも、かみさまのたいせつなぎょうじでした。",
-      "start_ms": 15301,
-      "end_ms": 22955,
+      "text": "むかしは、ふじさんにのぼることは、かみさまのたいせつなぎょうじでした。",
+      "start_ms": 15151,
+      "end_ms": 22805,
       "duration_ms": 7654,
       "clauses": [
         {
           "index": 0,
           "text": "むかしは、",
-          "start_ms": 15301,
-          "end_ms": 16749,
-          "duration_ms": 1448
+          "start_ms": 15151,
+          "end_ms": 16634,
+          "duration_ms": 1483
         },
         {
           "index": 1,
-          "text": "ふじさんにのぼることも、",
-          "start_ms": 16999,
-          "end_ms": 19504,
-          "duration_ms": 2505
+          "text": "ふじさんにのぼることは、",
+          "start_ms": 16884,
+          "end_ms": 19342,
+          "duration_ms": 2458
         },
         {
           "index": 2,
           "text": "かみさまのたいせつなぎょうじでした。",
-          "start_ms": 19754,
-          "end_ms": 22955,
-          "duration_ms": 3201
+          "start_ms": 19592,
+          "end_ms": 22805,
+          "duration_ms": 3213
         }
       ]
     },
     {
       "index": 4,
       "text": "せんげんじんじゃは、ふじさんのかみさまのじんじゃです。",
-      "start_ms": 23455,
-      "end_ms": 28982,
-      "duration_ms": 5527,
+      "start_ms": 23305,
+      "end_ms": 28704,
+      "duration_ms": 5399,
       "clauses": [
         {
           "index": 0,
           "text": "せんげんじんじゃは、",
-          "start_ms": 23455,
-          "end_ms": 25519,
-          "duration_ms": 2064
+          "start_ms": 23305,
+          "end_ms": 25334,
+          "duration_ms": 2029
         },
         {
           "index": 1,
           "text": "ふじさんのかみさまのじんじゃです。",
-          "start_ms": 25769,
-          "end_ms": 28982,
-          "duration_ms": 3213
+          "start_ms": 25584,
+          "end_ms": 28704,
+          "duration_ms": 3120
         }
       ]
     },
     {
       "index": 5,
       "text": "日本には、せんげんじんじゃがたくさんあります。",
-      "start_ms": 29482,
-      "end_ms": 34416,
-      "duration_ms": 4934,
+      "start_ms": 29204,
+      "end_ms": 34139,
+      "duration_ms": 4935,
       "clauses": [
         {
           "index": 0,
           "text": "日本には、",
-          "start_ms": 29482,
-          "end_ms": 31116,
-          "duration_ms": 1634
+          "start_ms": 29204,
+          "end_ms": 30792,
+          "duration_ms": 1588
         },
         {
           "index": 1,
           "text": "せんげんじんじゃがたくさんあります。",
-          "start_ms": 31366,
-          "end_ms": 34416,
-          "duration_ms": 3050
+          "start_ms": 31042,
+          "end_ms": 34139,
+          "duration_ms": 3097
         }
       ]
     },
     {
       "index": 6,
-      "text": "ふじさんは、しんこうとげいじゅつのばしょです。",
-      "start_ms": 34916,
-      "end_ms": 40059,
-      "duration_ms": 5143,
+      "text": "むかしから、ふじさんをえがく人がたくさんいました。",
+      "start_ms": 34639,
+      "end_ms": 40026,
+      "duration_ms": 5387,
       "clauses": [
         {
           "index": 0,
-          "text": "ふじさんは、",
-          "start_ms": 34916,
-          "end_ms": 36596,
-          "duration_ms": 1680
+          "text": "むかしから、",
+          "start_ms": 34639,
+          "end_ms": 36250,
+          "duration_ms": 1611
         },
         {
           "index": 1,
-          "text": "しんこうとげいじゅつのばしょです。",
-          "start_ms": 36846,
-          "end_ms": 40059,
-          "duration_ms": 3213
+          "text": "ふじさんをえがく人がたくさんいました。",
+          "start_ms": 36500,
+          "end_ms": 40026,
+          "duration_ms": 3526
         }
       ]
     },
     {
       "index": 7,
-      "text": "むかしから、多くの人がふじさんを描きました。",
-      "start_ms": 40559,
-      "end_ms": 45865,
-      "duration_ms": 5306,
+      "text": "いまも、ふじさんは日本のれきしとぶんかのたいせつなばしょです。",
+      "start_ms": 40526,
+      "end_ms": 46656,
+      "duration_ms": 6130,
       "clauses": [
         {
           "index": 0,
-          "text": "むかしから、",
-          "start_ms": 40559,
-          "end_ms": 42193,
-          "duration_ms": 1634
+          "text": "いまも、",
+          "start_ms": 40526,
+          "end_ms": 41440,
+          "duration_ms": 914
         },
         {
           "index": 1,
-          "text": "多くの人がふじさんを描きました。",
-          "start_ms": 42443,
-          "end_ms": 45865,
-          "duration_ms": 3422
+          "text": "ふじさんは日本のれきしとぶんかのたいせつなばしょです。",
+          "start_ms": 41690,
+          "end_ms": 46656,
+          "duration_ms": 4966
         }
       ]
     },
     {
       "index": 8,
-      "text": "いまも、ふじさんは日本のれきしとぶんかのたいせつなばしょです。",
-      "start_ms": 46365,
-      "end_ms": 52600,
-      "duration_ms": 6235,
+      "text": "にせんじゅうさん年、ふじさんはせかいぶんかいさんになりました。",
+      "start_ms": 47156,
+      "end_ms": 53507,
+      "duration_ms": 6351,
       "clauses": [
         {
           "index": 0,
-          "text": "いまも、",
-          "start_ms": 46365,
-          "end_ms": 47349,
-          "duration_ms": 984
+          "text": "にせんじゅうさん年、",
+          "start_ms": 47156,
+          "end_ms": 49150,
+          "duration_ms": 1994
         },
         {
           "index": 1,
-          "text": "ふじさんは日本のれきしとぶんかのたいせつなばしょです。",
-          "start_ms": 47599,
-          "end_ms": 52600,
-          "duration_ms": 5001
+          "text": "ふじさんはせかいぶんかいさんになりました。",
+          "start_ms": 49400,
+          "end_ms": 53507,
+          "duration_ms": 4107
         }
       ]
     },
     {
       "index": 9,
-      "text": "にせんじゅうさん年、ふじさんはせかいぶんかいさんになりました。",
-      "start_ms": 53100,
-      "end_ms": 59439,
-      "duration_ms": 6339,
+      "text": "その名前は「しんこうのたいしょうとげいじゅつのげんせん」です。",
+      "start_ms": 54007,
+      "end_ms": 59101,
+      "duration_ms": 5094,
       "clauses": [
         {
           "index": 0,
-          "text": "にせんじゅうさん年、",
-          "start_ms": 53100,
-          "end_ms": 55117,
-          "duration_ms": 2017
-        },
-        {
-          "index": 1,
-          "text": "ふじさんはせかいぶんかいさんになりました。",
-          "start_ms": 55367,
-          "end_ms": 59439,
-          "duration_ms": 4072
+          "text": "その名前は「しんこうのたいしょうとげいじゅつのげんせん」です。",
+          "start_ms": 54007,
+          "end_ms": 59101,
+          "duration_ms": 5094
         }
       ]
     },
     {
       "index": 10,
-      "text": "ふじさんは、日本で一番たいせつなやまだと思います。",
-      "start_ms": 59939,
-      "end_ms": 65849,
-      "duration_ms": 5910,
+      "text": "日本人は、ふじさんを日本で一番たいせつなやまだと思っています。",
+      "start_ms": 59601,
+      "end_ms": 66672,
+      "duration_ms": 7071,
       "clauses": [
         {
           "index": 0,
-          "text": "ふじさんは、",
-          "start_ms": 59939,
-          "end_ms": 61666,
+          "text": "日本人は、",
+          "start_ms": 59601,
+          "end_ms": 61328,
           "duration_ms": 1727
         },
         {
           "index": 1,
-          "text": "日本で一番たいせつなやまだと思います。",
-          "start_ms": 61916,
-          "end_ms": 65849,
-          "duration_ms": 3933
+          "text": "ふじさんを日本で一番たいせつなやまだと思っています。",
+          "start_ms": 61578,
+          "end_ms": 66672,
+          "duration_ms": 5094
         }
       ]
     }

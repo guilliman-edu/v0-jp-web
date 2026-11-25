@@ -2,121 +2,121 @@
   "audio_file": "a2.2-s10-fuji-san-c01.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 75398,
+  "total_duration_ms": 73607,
   "sentences": [
     {
       "index": 0,
       "text": "日本一のやま",
       "start_ms": 0,
-      "end_ms": 2064,
-      "duration_ms": 2064,
+      "end_ms": 2052,
+      "duration_ms": 2052,
       "clauses": [
         {
           "index": 0,
           "text": "日本一のやま",
           "start_ms": 0,
-          "end_ms": 2064,
-          "duration_ms": 2064
+          "end_ms": 2052,
+          "duration_ms": 2052
         }
       ]
     },
     {
       "index": 1,
       "text": "ふじさんは、日本で一番たかいやまです。",
-      "start_ms": 2564,
-      "end_ms": 7580,
-      "duration_ms": 5016,
+      "start_ms": 2552,
+      "end_ms": 7556,
+      "duration_ms": 5004,
       "clauses": [
         {
           "index": 0,
           "text": "ふじさんは、",
-          "start_ms": 2564,
-          "end_ms": 4256,
-          "duration_ms": 1692
+          "start_ms": 2552,
+          "end_ms": 4267,
+          "duration_ms": 1715
         },
         {
           "index": 1,
           "text": "日本で一番たかいやまです。",
-          "start_ms": 4506,
-          "end_ms": 7580,
-          "duration_ms": 3074
+          "start_ms": 4517,
+          "end_ms": 7556,
+          "duration_ms": 3039
         }
       ]
     },
     {
       "index": 2,
       "text": "やまなしけんとしずおかけんにあります。",
-      "start_ms": 8080,
-      "end_ms": 11548,
-      "duration_ms": 3468,
+      "start_ms": 8056,
+      "end_ms": 11513,
+      "duration_ms": 3457,
       "clauses": [
         {
           "index": 0,
           "text": "やまなしけんとしずおかけんにあります。",
-          "start_ms": 8080,
-          "end_ms": 11548,
-          "duration_ms": 3468
+          "start_ms": 8056,
+          "end_ms": 11513,
+          "duration_ms": 3457
         }
       ]
     },
     {
       "index": 3,
       "text": "さんぜんななひゃくななじゅうろくメートルで、日本でこれよりたかいやまはありません。",
-      "start_ms": 12048,
-      "end_ms": 19223,
-      "duration_ms": 7175,
+      "start_ms": 12013,
+      "end_ms": 19281,
+      "duration_ms": 7268,
       "clauses": [
         {
           "index": 0,
           "text": "さんぜんななひゃくななじゅうろくメートルで、",
-          "start_ms": 12048,
-          "end_ms": 15389,
-          "duration_ms": 3341
+          "start_ms": 12013,
+          "end_ms": 15435,
+          "duration_ms": 3422
         },
         {
           "index": 1,
           "text": "日本でこれよりたかいやまはありません。",
-          "start_ms": 15639,
-          "end_ms": 19223,
-          "duration_ms": 3584
+          "start_ms": 15685,
+          "end_ms": 19281,
+          "duration_ms": 3596
         }
       ]
     },
     {
       "index": 4,
-      "text": "ふじさんはかざんです。",
-      "start_ms": 19723,
-      "end_ms": 22170,
-      "duration_ms": 2447,
+      "text": "ふじさんはかつかざんです。",
+      "start_ms": 19781,
+      "end_ms": 22762,
+      "duration_ms": 2981,
       "clauses": [
         {
           "index": 0,
-          "text": "ふじさんはかざんです。",
-          "start_ms": 19723,
-          "end_ms": 22170,
-          "duration_ms": 2447
+          "text": "ふじさんはかつかざんです。",
+          "start_ms": 19781,
+          "end_ms": 22762,
+          "duration_ms": 2981
         }
       ]
     },
     {
       "index": 5,
       "text": "いまはふんかしていませんが、むかしはなんかいもふんかしました。",
-      "start_ms": 22670,
-      "end_ms": 28893,
-      "duration_ms": 6223,
+      "start_ms": 23262,
+      "end_ms": 29497,
+      "duration_ms": 6235,
       "clauses": [
         {
           "index": 0,
           "text": "いまはふんかしていませんが、",
-          "start_ms": 22670,
-          "end_ms": 25337,
-          "duration_ms": 2667
+          "start_ms": 23262,
+          "end_ms": 25941,
+          "duration_ms": 2679
         },
         {
           "index": 1,
           "text": "むかしはなんかいもふんかしました。",
-          "start_ms": 25587,
-          "end_ms": 28893,
+          "start_ms": 26191,
+          "end_ms": 29497,
           "duration_ms": 3306
         }
       ]
@@ -124,161 +124,154 @@
     {
       "index": 6,
       "text": "だから、いまのきれいなかたちになりました。",
-      "start_ms": 29393,
-      "end_ms": 33944,
-      "duration_ms": 4551,
+      "start_ms": 29997,
+      "end_ms": 34525,
+      "duration_ms": 4528,
       "clauses": [
         {
           "index": 0,
           "text": "だから、",
-          "start_ms": 29393,
-          "end_ms": 30586,
-          "duration_ms": 1193
+          "start_ms": 29997,
+          "end_ms": 31155,
+          "duration_ms": 1158
         },
         {
           "index": 1,
           "text": "いまのきれいなかたちになりました。",
-          "start_ms": 30836,
-          "end_ms": 33944,
-          "duration_ms": 3108
+          "start_ms": 31405,
+          "end_ms": 34525,
+          "duration_ms": 3120
         }
       ]
     },
     {
       "index": 7,
       "text": "ふじさんのきれいなかたちは、せかいでゆうめいです。",
-      "start_ms": 34444,
-      "end_ms": 39750,
-      "duration_ms": 5306,
+      "start_ms": 35025,
+      "end_ms": 40366,
+      "duration_ms": 5341,
       "clauses": [
         {
           "index": 0,
           "text": "ふじさんのきれいなかたちは、",
-          "start_ms": 34444,
-          "end_ms": 37251,
-          "duration_ms": 2807
+          "start_ms": 35025,
+          "end_ms": 37797,
+          "duration_ms": 2772
         },
         {
           "index": 1,
           "text": "せかいでゆうめいです。",
-          "start_ms": 37501,
-          "end_ms": 39750,
-          "duration_ms": 2249
+          "start_ms": 38047,
+          "end_ms": 40366,
+          "duration_ms": 2319
         }
       ]
     },
     {
       "index": 8,
-      "text": "外国の人がふじさんのしゃしんを見たとき、すぐに日本だと思います。",
-      "start_ms": 40250,
-      "end_ms": 47286,
-      "duration_ms": 7036,
+      "text": "外国の人がふじさんのしゃしんを見たとき、すぐに日本のやまだと思います。",
+      "start_ms": 40866,
+      "end_ms": 48215,
+      "duration_ms": 7349,
       "clauses": [
         {
           "index": 0,
           "text": "外国の人がふじさんのしゃしんを見たとき、",
-          "start_ms": 40250,
-          "end_ms": 44218,
-          "duration_ms": 3968
+          "start_ms": 40866,
+          "end_ms": 44810,
+          "duration_ms": 3944
         },
         {
           "index": 1,
-          "text": "すぐに日本だと思います。",
-          "start_ms": 44468,
-          "end_ms": 47286,
-          "duration_ms": 2818
+          "text": "すぐに日本のやまだと思います。",
+          "start_ms": 45060,
+          "end_ms": 48215,
+          "duration_ms": 3155
         }
       ]
     },
     {
       "index": 9,
       "text": "やまのちかくにすむ人も、とおいまちにすむ人も、ふじさんが好きです。",
-      "start_ms": 47786,
-      "end_ms": 55580,
-      "duration_ms": 7794,
+      "start_ms": 48715,
+      "end_ms": 56521,
+      "duration_ms": 7806,
       "clauses": [
         {
           "index": 0,
           "text": "やまのちかくにすむ人も、",
-          "start_ms": 47786,
-          "end_ms": 50453,
-          "duration_ms": 2667
+          "start_ms": 48715,
+          "end_ms": 51371,
+          "duration_ms": 2656
         },
         {
           "index": 1,
           "text": "とおいまちにすむ人も、",
-          "start_ms": 50703,
-          "end_ms": 53115,
-          "duration_ms": 2412
+          "start_ms": 51621,
+          "end_ms": 54056,
+          "duration_ms": 2435
         },
         {
           "index": 2,
           "text": "ふじさんが好きです。",
-          "start_ms": 53365,
-          "end_ms": 55580,
+          "start_ms": 54306,
+          "end_ms": 56521,
           "duration_ms": 2215
         }
       ]
     },
     {
       "index": 10,
-      "text": "いまのちずでは、ふじさんはさんぜんななひゃくななじゅうごてんごろくメートルです。",
-      "start_ms": 56080,
-      "end_ms": 63581,
-      "duration_ms": 7501,
+      "text": "やまの一番たかいところはさんぜんななひゃくななじゅうろくてんいちにメートルです。",
+      "start_ms": 57021,
+      "end_ms": 63554,
+      "duration_ms": 6533,
       "clauses": [
         {
           "index": 0,
-          "text": "いまのちずでは、",
-          "start_ms": 56080,
-          "end_ms": 58051,
-          "duration_ms": 1971
-        },
-        {
-          "index": 1,
-          "text": "ふじさんはさんぜんななひゃくななじゅうごてんごろくメートルです。",
-          "start_ms": 58301,
-          "end_ms": 63581,
-          "duration_ms": 5280
+          "text": "やまの一番たかいところはさんぜんななひゃくななじゅうろくてんいちにメートルです。",
+          "start_ms": 57021,
+          "end_ms": 63554,
+          "duration_ms": 6533
         }
       ]
     },
     {
       "index": 11,
-      "text": "でも、やまの一番たかいところはさんぜんななひゃくななじゅうろくてんいちにメートルです。",
-      "start_ms": 64081,
-      "end_ms": 71755,
-      "duration_ms": 7674,
+      "text": "でも、そくりょうの点はさんぜんななひゃくななじゅうごてんごろくメートルです。",
+      "start_ms": 64054,
+      "end_ms": 71032,
+      "duration_ms": 6978,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 64081,
-          "end_ms": 65088,
-          "duration_ms": 1007
+          "start_ms": 64054,
+          "end_ms": 65026,
+          "duration_ms": 972
         },
         {
           "index": 1,
-          "text": "やまの一番たかいところはさんぜんななひゃくななじゅうろくてんいちにメートルです。",
-          "start_ms": 65338,
-          "end_ms": 71755,
-          "duration_ms": 6417
+          "text": "そくりょうの点はさんぜんななひゃくななじゅうごてんごろくメートルです。",
+          "start_ms": 65276,
+          "end_ms": 71032,
+          "duration_ms": 5756
         }
       ]
     },
     {
       "index": 12,
-      "text": "この二つは少し違います。",
-      "start_ms": 72255,
-      "end_ms": 75398,
-      "duration_ms": 3143,
+      "text": "少し違います。",
+      "start_ms": 71532,
+      "end_ms": 73607,
+      "duration_ms": 2075,
       "clauses": [
         {
           "index": 0,
-          "text": "この二つは少し違います。",
-          "start_ms": 72255,
-          "end_ms": 75398,
-          "duration_ms": 3143
+          "text": "少し違います。",
+          "start_ms": 71532,
+          "end_ms": 73607,
+          "duration_ms": 2075
         }
       ]
     }

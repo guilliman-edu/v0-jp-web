@@ -2,219 +2,249 @@
   "audio_file": "a2.2-s10-fuji-san-c03.wav",
   "sample_rate": 44100,
   "pause_ms": 500,
-  "total_duration_ms": 54288,
+  "total_duration_ms": 60968,
   "sentences": [
     {
       "index": 0,
       "text": "ふじさんにのぼる",
       "start_ms": 0,
-      "end_ms": 2122,
-      "duration_ms": 2122,
+      "end_ms": 2075,
+      "duration_ms": 2075,
       "clauses": [
         {
           "index": 0,
           "text": "ふじさんにのぼる",
           "start_ms": 0,
-          "end_ms": 2122,
-          "duration_ms": 2122
+          "end_ms": 2075,
+          "duration_ms": 2075
         }
       ]
     },
     {
       "index": 1,
-      "text": "なつは、たくさんの人がふじさんに登ります。",
-      "start_ms": 2622,
-      "end_ms": 7580,
-      "duration_ms": 4958,
+      "text": "なつは、ふじさんにのぼる人がたくさんいます。",
+      "start_ms": 2575,
+      "end_ms": 7614,
+      "duration_ms": 5039,
       "clauses": [
         {
           "index": 0,
           "text": "なつは、",
-          "start_ms": 2622,
-          "end_ms": 4047,
-          "duration_ms": 1425
+          "start_ms": 2575,
+          "end_ms": 3988,
+          "duration_ms": 1413
         },
         {
           "index": 1,
-          "text": "たくさんの人がふじさんに登ります。",
-          "start_ms": 4297,
-          "end_ms": 7580,
-          "duration_ms": 3283
+          "text": "ふじさんにのぼる人がたくさんいます。",
+          "start_ms": 4238,
+          "end_ms": 7614,
+          "duration_ms": 3376
         }
       ]
     },
     {
       "index": 2,
       "text": "ふじさんのちかくには、かんこうのばしょがたくさんあります。",
-      "start_ms": 8080,
-      "end_ms": 13886,
-      "duration_ms": 5806,
+      "start_ms": 8114,
+      "end_ms": 13885,
+      "duration_ms": 5771,
       "clauses": [
         {
           "index": 0,
           "text": "ふじさんのちかくには、",
-          "start_ms": 8080,
-          "end_ms": 10411,
-          "duration_ms": 2331
+          "start_ms": 8114,
+          "end_ms": 10468,
+          "duration_ms": 2354
         },
         {
           "index": 1,
           "text": "かんこうのばしょがたくさんあります。",
-          "start_ms": 10661,
-          "end_ms": 13886,
-          "duration_ms": 3225
+          "start_ms": 10718,
+          "end_ms": 13885,
+          "duration_ms": 3167
         }
       ]
     },
     {
       "index": 3,
-      "text": "でも、ふゆはゆきが多いので、のぼる人はすくないです。",
-      "start_ms": 14386,
-      "end_ms": 20902,
-      "duration_ms": 6516,
+      "text": "でも、ふゆはゆきが多く、みちがしまるので、のぼることはできません。",
+      "start_ms": 14385,
+      "end_ms": 22984,
+      "duration_ms": 8599,
       "clauses": [
         {
           "index": 0,
           "text": "でも、",
-          "start_ms": 14386,
-          "end_ms": 15370,
-          "duration_ms": 984
+          "start_ms": 14385,
+          "end_ms": 15404,
+          "duration_ms": 1019
         },
         {
           "index": 1,
-          "text": "ふゆはゆきが多いので、",
-          "start_ms": 15620,
-          "end_ms": 18043,
-          "duration_ms": 2423
+          "text": "ふゆはゆきが多く、",
+          "start_ms": 15654,
+          "end_ms": 18089,
+          "duration_ms": 2435
         },
         {
           "index": 2,
-          "text": "のぼる人はすくないです。",
-          "start_ms": 18293,
-          "end_ms": 20902,
-          "duration_ms": 2609
+          "text": "みちがしまるので、",
+          "start_ms": 18339,
+          "end_ms": 20345,
+          "duration_ms": 2006
+        },
+        {
+          "index": 3,
+          "text": "のぼることはできません。",
+          "start_ms": 20595,
+          "end_ms": 22984,
+          "duration_ms": 2389
         }
       ]
     },
     {
       "index": 4,
       "text": "ふじさんにのぼる人は、あたたかいふくを持っていかなければいけません。",
-      "start_ms": 21402,
-      "end_ms": 27892,
-      "duration_ms": 6490,
+      "start_ms": 23484,
+      "end_ms": 29963,
+      "duration_ms": 6479,
       "clauses": [
         {
           "index": 0,
           "text": "ふじさんにのぼる人は、",
-          "start_ms": 21402,
-          "end_ms": 23849,
-          "duration_ms": 2447
+          "start_ms": 23484,
+          "end_ms": 25896,
+          "duration_ms": 2412
         },
         {
           "index": 1,
           "text": "あたたかいふくを持っていかなければいけません。",
-          "start_ms": 24099,
-          "end_ms": 27892,
-          "duration_ms": 3793
+          "start_ms": 26146,
+          "end_ms": 29963,
+          "duration_ms": 3817
         }
       ]
     },
     {
       "index": 5,
       "text": "やまの上は、なつでもさむいからです。",
-      "start_ms": 28392,
-      "end_ms": 32897,
-      "duration_ms": 4505,
+      "start_ms": 30463,
+      "end_ms": 34956,
+      "duration_ms": 4493,
       "clauses": [
         {
           "index": 0,
           "text": "やまの上は、",
-          "start_ms": 28392,
-          "end_ms": 30142,
+          "start_ms": 30463,
+          "end_ms": 32213,
           "duration_ms": 1750
         },
         {
           "index": 1,
           "text": "なつでもさむいからです。",
-          "start_ms": 30392,
-          "end_ms": 32897,
-          "duration_ms": 2505
+          "start_ms": 32463,
+          "end_ms": 34956,
+          "duration_ms": 2493
         }
       ]
     },
     {
       "index": 6,
-      "text": "私は、らいねんのなつ、ともだちとふじさんに登ろうと思っています。",
-      "start_ms": 33397,
-      "end_ms": 41271,
-      "duration_ms": 7874,
+      "text": "これは、私のよていです。",
+      "start_ms": 35456,
+      "end_ms": 39066,
+      "duration_ms": 3610,
       "clauses": [
         {
           "index": 0,
-          "text": "私は、",
-          "start_ms": 33397,
-          "end_ms": 34961,
-          "duration_ms": 1564
+          "text": "これは、",
+          "start_ms": 35456,
+          "end_ms": 36660,
+          "duration_ms": 1204
         },
         {
           "index": 1,
-          "text": "らいねんのなつ、",
-          "start_ms": 35211,
-          "end_ms": 37042,
-          "duration_ms": 1831
-        },
-        {
-          "index": 2,
-          "text": "ともだちとふじさんに登ろうと思っています。",
-          "start_ms": 37292,
-          "end_ms": 41271,
-          "duration_ms": 3979
+          "text": "私のよていです。",
+          "start_ms": 36910,
+          "end_ms": 39066,
+          "duration_ms": 2156
         }
       ]
     },
     {
       "index": 7,
-      "text": "そのときは、みずやたべものをたくさん持っていこうと思っています。",
-      "start_ms": 41771,
-      "end_ms": 48273,
-      "duration_ms": 6502,
+      "text": "私は、らいねんのなつ、ともだちとふじさんに登ろうと思っています。",
+      "start_ms": 39566,
+      "end_ms": 47534,
+      "duration_ms": 7968,
       "clauses": [
         {
           "index": 0,
-          "text": "そのときは、",
-          "start_ms": 41771,
-          "end_ms": 43521,
-          "duration_ms": 1750
+          "text": "私は、",
+          "start_ms": 39566,
+          "end_ms": 41096,
+          "duration_ms": 1530
         },
         {
           "index": 1,
-          "text": "みずやたべものをたくさん持っていこうと思っています。",
-          "start_ms": 43771,
-          "end_ms": 48273,
-          "duration_ms": 4502
+          "text": "らいねんのなつ、",
+          "start_ms": 41346,
+          "end_ms": 43224,
+          "duration_ms": 1878
+        },
+        {
+          "index": 2,
+          "text": "ともだちとふじさんに登ろうと思っています。",
+          "start_ms": 43474,
+          "end_ms": 47534,
+          "duration_ms": 4060
         }
       ]
     },
     {
       "index": 8,
-      "text": "のぼる前に、てんきをよく見たほうがいいと思います。",
-      "start_ms": 48773,
-      "end_ms": 54288,
-      "duration_ms": 5515,
+      "text": "そのときは、みずやたべものをたくさん持っていこうと思っています。",
+      "start_ms": 48034,
+      "end_ms": 54582,
+      "duration_ms": 6548,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そのときは、",
+          "start_ms": 48034,
+          "end_ms": 49784,
+          "duration_ms": 1750
+        },
+        {
+          "index": 1,
+          "text": "みずやたべものをたくさん持っていこうと思っています。",
+          "start_ms": 50034,
+          "end_ms": 54582,
+          "duration_ms": 4548
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text": "のぼる前に、てんきをよくしらべるほうがいいと思います。",
+      "start_ms": 55082,
+      "end_ms": 60968,
+      "duration_ms": 5886,
       "clauses": [
         {
           "index": 0,
           "text": "のぼる前に、",
-          "start_ms": 48773,
-          "end_ms": 50535,
-          "duration_ms": 1762
+          "start_ms": 55082,
+          "end_ms": 56855,
+          "duration_ms": 1773
         },
         {
           "index": 1,
-          "text": "てんきをよく見たほうがいいと思います。",
-          "start_ms": 50785,
-          "end_ms": 54288,
-          "duration_ms": 3503
+          "text": "てんきをよくしらべるほうがいいと思います。",
+          "start_ms": 57105,
+          "end_ms": 60968,
+          "duration_ms": 3863
         }
       ]
     }
