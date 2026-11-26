@@ -1,0 +1,308 @@
+{
+  "audio_file": "a2.1-s6-dialogo-cafe.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 33017,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "カフェで",
+      "start_ms": 0,
+      "end_ms": 1301,
+      "duration_ms": 1301,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "カフェで",
+          "start_ms": 0,
+          "end_ms": 1301,
+          "duration_ms": 1301
+        }
+      ],
+      "voz": "melo"
+    },
+    {
+      "index": 1,
+      "text": "きんようびのごご、まちのカフェで。",
+      "start_ms": 1801,
+      "end_ms": 6115,
+      "duration_ms": 4314,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "きんようびのごご、",
+          "start_ms": 1801,
+          "end_ms": 3868,
+          "duration_ms": 2067
+        },
+        {
+          "index": 1,
+          "text": "まちのカフェで。",
+          "start_ms": 4118,
+          "end_ms": 6115,
+          "duration_ms": 1997
+        }
+      ],
+      "voz": "melo"
+    },
+    {
+      "index": 2,
+      "text": "ミラーさん、こんにちは。",
+      "start_ms": 6615,
+      "end_ms": 8262,
+      "duration_ms": 1647,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ミラーさん、",
+          "start_ms": 6615,
+          "end_ms": 7308,
+          "duration_ms": 693
+        },
+        {
+          "index": 1,
+          "text": "こんにちは。",
+          "start_ms": 7558,
+          "end_ms": 8262,
+          "duration_ms": 704
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 3,
+      "text": "ひさしぶりですね。",
+      "start_ms": 8762,
+      "end_ms": 9796,
+      "duration_ms": 1034,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ひさしぶりですね。",
+          "start_ms": 8762,
+          "end_ms": 9796,
+          "duration_ms": 1034
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 4,
+      "text": "たなかさん！",
+      "start_ms": 10296,
+      "end_ms": 11000,
+      "duration_ms": 704,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たなかさん！",
+          "start_ms": 10296,
+          "end_ms": 11000,
+          "duration_ms": 704
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 5,
+      "text": "ほんとうにひさしぶりです。",
+      "start_ms": 11500,
+      "end_ms": 13014,
+      "duration_ms": 1514,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ほんとうにひさしぶりです。",
+          "start_ms": 11500,
+          "end_ms": 13014,
+          "duration_ms": 1514
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 6,
+      "text": "げんきでしたか。",
+      "start_ms": 13514,
+      "end_ms": 14420,
+      "duration_ms": 906,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "げんきでしたか。",
+          "start_ms": 13514,
+          "end_ms": 14420,
+          "duration_ms": 906
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 7,
+      "text": "はい、げんきです。",
+      "start_ms": 14920,
+      "end_ms": 16182,
+      "duration_ms": 1262,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はい、",
+          "start_ms": 14920,
+          "end_ms": 15250,
+          "duration_ms": 330
+        },
+        {
+          "index": 1,
+          "text": "げんきです。",
+          "start_ms": 15500,
+          "end_ms": 16182,
+          "duration_ms": 682
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 8,
+      "text": "きょうはなにを飲みますか。",
+      "start_ms": 16682,
+      "end_ms": 18154,
+      "duration_ms": 1472,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "きょうはなにを飲みますか。",
+          "start_ms": 16682,
+          "end_ms": 18154,
+          "duration_ms": 1472
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 9,
+      "text": "そうですね……。",
+      "start_ms": 18654,
+      "end_ms": 19411,
+      "duration_ms": 757,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そうですね……。",
+          "start_ms": 18654,
+          "end_ms": 19411,
+          "duration_ms": 757
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 10,
+      "text": "わたしはコーヒーにします。",
+      "start_ms": 19911,
+      "end_ms": 21479,
+      "duration_ms": 1568,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "わたしはコーヒーにします。",
+          "start_ms": 19911,
+          "end_ms": 21479,
+          "duration_ms": 1568
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 11,
+      "text": "たなかさんはメニューを見ました。",
+      "start_ms": 21979,
+      "end_ms": 25265,
+      "duration_ms": 3286,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たなかさんはメニューを見ました。",
+          "start_ms": 21979,
+          "end_ms": 25265,
+          "duration_ms": 3286
+        }
+      ],
+      "voz": "melo"
+    },
+    {
+      "index": 12,
+      "text": "じゃあ、わたしもコーヒーにします。",
+      "start_ms": 25765,
+      "end_ms": 28030,
+      "duration_ms": 2265,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "じゃあ、",
+          "start_ms": 25765,
+          "end_ms": 26170,
+          "duration_ms": 405
+        },
+        {
+          "index": 1,
+          "text": "わたしもコーヒーにします。",
+          "start_ms": 26420,
+          "end_ms": 28030,
+          "duration_ms": 1610
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 13,
+      "text": "ケーキも食べませんか。",
+      "start_ms": 28530,
+      "end_ms": 29884,
+      "duration_ms": 1354,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ケーキも食べませんか。",
+          "start_ms": 28530,
+          "end_ms": 29884,
+          "duration_ms": 1354
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 14,
+      "text": "いいですね。",
+      "start_ms": 30384,
+      "end_ms": 31077,
+      "duration_ms": 693,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いいですね。",
+          "start_ms": 30384,
+          "end_ms": 31077,
+          "duration_ms": 693
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 15,
+      "text": "チーズケーキがすきです。",
+      "start_ms": 31577,
+      "end_ms": 33017,
+      "duration_ms": 1440,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "チーズケーキがすきです。",
+          "start_ms": 31577,
+          "end_ms": 33017,
+          "duration_ms": 1440
+        }
+      ],
+      "voz": "voicevox:8"
+    }
+  ]
+}

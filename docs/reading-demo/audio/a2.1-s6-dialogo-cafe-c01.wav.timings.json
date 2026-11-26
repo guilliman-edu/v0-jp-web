@@ -1,0 +1,141 @@
+{
+  "audio_file": "a2.1-s6-dialogo-cafe-c01.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 15151,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "一、再会",
+      "start_ms": 0,
+      "end_ms": 2067,
+      "duration_ms": 2067,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "一、再会",
+          "start_ms": 0,
+          "end_ms": 2067,
+          "duration_ms": 2067
+        }
+      ],
+      "voz": "melo"
+    },
+    {
+      "index": 1,
+      "text": "きんようびのごご、まちのカフェで。",
+      "start_ms": 2567,
+      "end_ms": 6846,
+      "duration_ms": 4279,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "きんようびのごご、",
+          "start_ms": 2567,
+          "end_ms": 4587,
+          "duration_ms": 2020
+        },
+        {
+          "index": 1,
+          "text": "まちのカフェで。",
+          "start_ms": 4837,
+          "end_ms": 6846,
+          "duration_ms": 2009
+        }
+      ],
+      "voz": "melo"
+    },
+    {
+      "index": 2,
+      "text": "ミラーさん、こんにちは。",
+      "start_ms": 7346,
+      "end_ms": 8993,
+      "duration_ms": 1647,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ミラーさん、",
+          "start_ms": 7346,
+          "end_ms": 8039,
+          "duration_ms": 693
+        },
+        {
+          "index": 1,
+          "text": "こんにちは。",
+          "start_ms": 8289,
+          "end_ms": 8993,
+          "duration_ms": 704
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 3,
+      "text": "ひさしぶりですね。",
+      "start_ms": 9493,
+      "end_ms": 10527,
+      "duration_ms": 1034,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ひさしぶりですね。",
+          "start_ms": 9493,
+          "end_ms": 10527,
+          "duration_ms": 1034
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 4,
+      "text": "たなかさん！",
+      "start_ms": 11027,
+      "end_ms": 11731,
+      "duration_ms": 704,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たなかさん！",
+          "start_ms": 11027,
+          "end_ms": 11731,
+          "duration_ms": 704
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 5,
+      "text": "ほんとうにひさしぶりです。",
+      "start_ms": 12231,
+      "end_ms": 13745,
+      "duration_ms": 1514,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ほんとうにひさしぶりです。",
+          "start_ms": 12231,
+          "end_ms": 13745,
+          "duration_ms": 1514
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 6,
+      "text": "げんきでしたか。",
+      "start_ms": 14245,
+      "end_ms": 15151,
+      "duration_ms": 906,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "げんきでしたか。",
+          "start_ms": 14245,
+          "end_ms": 15151,
+          "duration_ms": 906
+        }
+      ],
+      "voz": "voicevox:8"
+    }
+  ]
+}

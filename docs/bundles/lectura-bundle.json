@@ -637,6 +637,216 @@
     "apiVersion": "v1",
     "kind": "ActividadLectura",
     "metadata": {
+      "name": "a2.1-s6-dialogo-cafe"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "カフェで",
+      "tituloEs": "En la cafetería",
+      "nivel": "A2.1",
+      "modoFurigana": "templado",
+      "ilustracion": {
+        "escena": "cafe",
+        "alt": "Dos tazas de café y una porción de tarta de queso sobre la mesa de una cafetería",
+        "ruta": "lectura/imagenes/a2.1-s6-dialogo-cafe.webp"
+      },
+      "furiganaList": [
+        "金曜日",
+        "午後",
+        "町",
+        "本当",
+        "元気",
+        "今日",
+        "何",
+        "飲む",
+        "見る",
+        "食べる",
+        "好き"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "田中",
+          "lectura": "たなか",
+          "significado": "Tanaka",
+          "avatar": {
+            "escena": "tanaka",
+            "ruta": "lectura/imagenes/avatares/tanaka.webp"
+          }
+        },
+        {
+          "literal": "ミラー",
+          "lectura": "ミラー",
+          "significado": "Miller",
+          "avatar": {
+            "escena": "miller",
+            "ruta": "lectura/imagenes/avatares/miller.webp"
+          }
+        }
+      ],
+      "voces": {
+        "田中": "voicevox:11",
+        "ミラー": "voicevox:8"
+      },
+      "creditosAudio": [
+        "VOICEVOX: 玄野武宏",
+        "VOICEVOX: 春日部つむぎ"
+      ],
+      "vocabulario": [
+        {
+          "literal": "金曜日",
+          "lectura": "きんようび",
+          "significado": "viernes"
+        },
+        {
+          "literal": "午後",
+          "lectura": "ごご",
+          "significado": "tarde"
+        },
+        {
+          "literal": "町",
+          "lectura": "まち",
+          "significado": "barrio, pueblo"
+        },
+        {
+          "literal": "本当",
+          "lectura": "ほんとう",
+          "significado": "verdad, de verdad"
+        },
+        {
+          "literal": "元気",
+          "lectura": "げんき",
+          "significado": "bien, con salud"
+        },
+        {
+          "literal": "今日",
+          "lectura": "きょう",
+          "significado": "hoy"
+        },
+        {
+          "literal": "何",
+          "lectura": "なに",
+          "significado": "qué"
+        },
+        {
+          "literal": "飲む",
+          "lectura": "のむ",
+          "significado": "beber"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver, mirar"
+        },
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "好き",
+          "lectura": "すき",
+          "significado": "gustar"
+        },
+        {
+          "literal": "コーヒー",
+          "lectura": "コーヒー",
+          "significado": "café"
+        },
+        {
+          "literal": "ケーキ",
+          "lectura": "ケーキ",
+          "significado": "pastel"
+        },
+        {
+          "literal": "チーズケーキ",
+          "lectura": "チーズケーキ",
+          "significado": "pastel de queso"
+        },
+        {
+          "literal": "メニュー",
+          "lectura": "メニュー",
+          "significado": "menú"
+        },
+        {
+          "literal": "ひさしぶり",
+          "lectura": "ひさしぶり",
+          "significado": "mucho tiempo sin verse"
+        }
+      ],
+      "preguntas": [
+        "田中さんとミラーさんはどこで会いましたか。",
+        "ミラーさんは何を飲みますか。",
+        "田中さんはケーキを食べますか。"
+      ],
+      "preguntasEs": [
+        "¿Dónde se encontraron el señor Tanaka y el señor Miller?",
+        "¿Qué va a tomar el señor Miller?",
+        "¿Va a comer pastel el señor Tanaka?"
+      ],
+      "referencias": [
+        "propuetas-ikimasenka",
+        "adjetivos-na",
+        "particula-wo"
+      ],
+      "capitulos": [
+        {
+          "titulo": "一、再会",
+          "tituloEs": "El reencuentro",
+          "dialogo": [
+            {
+              "texto": "金曜日の午後、町のカフェで。",
+              "textoEs": "Una tarde de viernes, en una cafetería del barrio."
+            },
+            {
+              "hablante": "田中",
+              "texto": "ミラーさん、こんにちは。ひさしぶりですね。",
+              "textoEs": "Señor Miller, buenas tardes. Cuánto tiempo sin verle."
+            },
+            {
+              "hablante": "ミラー",
+              "texto": "田中さん！ 本当にひさしぶりです。元気でしたか。",
+              "textoEs": "¡Señor Tanaka! De verdad que ha pasado mucho tiempo. ¿Estaba usted bien?"
+            }
+          ]
+        },
+        {
+          "titulo": "二、注文",
+          "tituloEs": "La comanda",
+          "dialogo": [
+            {
+              "hablante": "田中",
+              "texto": "はい、元気です。今日は何を飲みますか。",
+              "textoEs": "Sí, estoy bien. ¿Qué va a tomar hoy?"
+            },
+            {
+              "hablante": "ミラー",
+              "texto": "そうですね……。わたしはコーヒーにします。",
+              "textoEs": "Pues… yo tomaré café."
+            },
+            {
+              "texto": "田中さんはメニューを見ました。",
+              "textoEs": "El señor Tanaka miró el menú."
+            },
+            {
+              "hablante": "田中",
+              "texto": "じゃあ、わたしもコーヒーにします。ケーキも食べませんか。",
+              "textoEs": "Entonces yo también tomaré café. ¿No quiere también un pastel?"
+            },
+            {
+              "hablante": "ミラー",
+              "texto": "いいですね。チーズケーキが好きです。",
+              "textoEs": "Qué bien. Me gusta el pastel de queso."
+            }
+          ]
+        }
+      ],
+      "texto": "一、再会\n金曜日の午後、町のカフェで。\nミラーさん、こんにちは。ひさしぶりですね。\n田中さん！ 本当にひさしぶりです。元気でしたか。\n\n---\n\n二、注文\nはい、元気です。今日は何を飲みますか。\nそうですね……。わたしはコーヒーにします。\n田中さんはメニューを見ました。\nじゃあ、わたしもコーヒーにします。ケーキも食べませんか。\nいいですね。チーズケーキが好きです。"
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
       "name": "a2.1-s9-shinderera"
     },
     "data": {
@@ -2158,6 +2368,840 @@
           "alias": "conjuncion-adversativa-ga"
         }
       ]
+    }
+  },
+  {
+    "apiVersion": "v1",
+    "kind": "ActividadLectura",
+    "metadata": {
+      "name": "a2.2-s10-doubutsuen-dialogo"
+    },
+    "data": {
+      "genero": "practica",
+      "titulo": "動物園の三つの友達",
+      "tituloEs": "Tres amigos en el zoo",
+      "procedencia": "Adaptación A2.2 s10 del diálogo inventado por el usuario (2026-11-26), con datos de fichas y noticias oficiales de la Asociación de Zoos de Tokio (上野、多摩、井の頭). Texto adaptado en adaptaciones/A2.2/doubutsuen-dialogo-adaptado.md.",
+      "nivel": "A2.2",
+      "modoFurigana": "templado",
+      "ilustracion": {
+        "escena": "doubutsuen",
+        "alt": "La madre y Yuto, de espaldas, miran al elefante en un zoo; el mono y la serpiente completan la escena.",
+        "ruta": "lectura/imagenes/a2.2-s10-doubutsuen-dialogo.webp"
+      },
+      "furiganaList": [
+        "動物園",
+        "鼻",
+        "泥",
+        "猿",
+        "蛇",
+        "毒",
+        "母さん",
+        "大切",
+        "昔",
+        "触る",
+        "場所",
+        "性格",
+        "種類",
+        "静か",
+        "鳥",
+        "探す",
+        "話",
+        "頭がいい",
+        "離れる",
+        "行事",
+        "昼御飯"
+      ],
+      "nombres_propios": [
+        {
+          "literal": "母",
+          "lectura": "はは",
+          "significado": "madre",
+          "avatar": {
+            "escena": "madre",
+            "ruta": "lectura/imagenes/avatares/madre.webp"
+          }
+        },
+        {
+          "literal": "ゆうと",
+          "lectura": "ゆうと",
+          "significado": "Yuto",
+          "avatar": {
+            "escena": "yuto",
+            "ruta": "lectura/imagenes/avatares/yuto.webp"
+          }
+        },
+        {
+          "literal": "アジア",
+          "lectura": "アジア",
+          "significado": "Asia"
+        },
+        {
+          "literal": "東南アジア",
+          "lectura": "とうなんアジア",
+          "significado": "Sudeste asiático"
+        },
+        {
+          "literal": "青森県",
+          "lectura": "あおもりけん",
+          "significado": "prefectura de Aomori"
+        },
+        {
+          "literal": "ヒバカリ",
+          "lectura": "ひばかり",
+          "significado": "Hibakari"
+        },
+        {
+          "literal": "ヤマカガシ",
+          "lectura": "やまかがし",
+          "significado": "Yamakagashi"
+        }
+      ],
+      "preguntas": [
+        "ゆうとと母は、何を見ましたか。",
+        "ぞうの鼻で、何ができますか。",
+        "ぞうは、暑い日、何をしますか。",
+        "この猿のしっぽは、長いですか、短いですか。",
+        "サルの家族に「ボス」はいますか。",
+        "ヒバカリには毒がありますか。"
+      ],
+      "preguntasEs": [
+        "¿Qué vieron Yuto y su madre?",
+        "¿Qué puede hacer el elefante con la trompa?",
+        "¿Qué hace el elefante en los días calurosos?",
+        "¿La cola de este mono es larga o corta?",
+        "¿Hay un «jefe» en la familia de los monos?",
+        "¿Tiene veneno el hibakari?"
+      ],
+      "vocabulario": [
+        {
+          "literal": "動物園",
+          "lectura": "どうぶつえん",
+          "significado": "zoológico"
+        },
+        {
+          "literal": "鼻",
+          "lectura": "はな",
+          "significado": "trompa; nariz"
+        },
+        {
+          "literal": "泥",
+          "lectura": "どろ",
+          "significado": "barro, lodo"
+        },
+        {
+          "literal": "猿",
+          "lectura": "さる",
+          "significado": "mono"
+        },
+        {
+          "literal": "しっぽ",
+          "lectura": "しっぽ",
+          "significado": "cola (de animal)"
+        },
+        {
+          "literal": "ボス",
+          "lectura": "ボス",
+          "significado": "jefe, líder"
+        },
+        {
+          "literal": "蛇",
+          "lectura": "へび",
+          "significado": "serpiente"
+        },
+        {
+          "literal": "毒",
+          "lectura": "どく",
+          "significado": "veneno"
+        },
+        {
+          "literal": "かむ",
+          "lectura": "かむ",
+          "significado": "morder"
+        },
+        {
+          "literal": "山",
+          "lectura": "やま",
+          "significado": "montaña"
+        },
+        {
+          "literal": "葉",
+          "lectura": "は",
+          "significado": "hoja"
+        },
+        {
+          "literal": "水",
+          "lectura": "みず",
+          "significado": "agua"
+        },
+        {
+          "literal": "肉",
+          "lectura": "にく",
+          "significado": "carne"
+        },
+        {
+          "literal": "野菜",
+          "lectura": "やさい",
+          "significado": "verdura"
+        },
+        {
+          "literal": "魚",
+          "lectura": "さかな",
+          "significado": "pescado"
+        },
+        {
+          "literal": "鳥",
+          "lectura": "とり",
+          "significado": "pájaro",
+          "exclusion": true
+        },
+        {
+          "literal": "足",
+          "lectura": "あし",
+          "significado": "pie, pierna; pata (de animal)"
+        },
+        {
+          "literal": "顔",
+          "lectura": "かお",
+          "significado": "cara"
+        },
+        {
+          "literal": "名前",
+          "lectura": "なまえ",
+          "significado": "nombre"
+        },
+        {
+          "literal": "意味",
+          "lectura": "いみ",
+          "significado": "significado"
+        },
+        {
+          "literal": "生活",
+          "lectura": "せいかつ",
+          "significado": "vida diaria; vivir"
+        },
+        {
+          "literal": "家族",
+          "lectura": "かぞく",
+          "significado": "familia"
+        },
+        {
+          "literal": "友達",
+          "lectura": "ともだち",
+          "significado": "amigo"
+        },
+        {
+          "literal": "大人",
+          "lectura": "おとな",
+          "significado": "adulto"
+        },
+        {
+          "literal": "若い",
+          "lectura": "わかい",
+          "significado": "joven"
+        },
+        {
+          "literal": "強い",
+          "lectura": "つよい",
+          "significado": "fuerte"
+        },
+        {
+          "literal": "重い",
+          "lectura": "おもい",
+          "significado": "pesado"
+        },
+        {
+          "literal": "長い",
+          "lectura": "ながい",
+          "significado": "largo"
+        },
+        {
+          "literal": "短い",
+          "lectura": "みじかい",
+          "significado": "corto"
+        },
+        {
+          "literal": "高い",
+          "lectura": "たかい",
+          "significado": "alto; altura"
+        },
+        {
+          "literal": "暑い",
+          "lectura": "あつい",
+          "significado": "caluroso"
+        },
+        {
+          "literal": "寒い",
+          "lectura": "さむい",
+          "significado": "frío"
+        },
+        {
+          "literal": "赤い",
+          "lectura": "あかい",
+          "significado": "rojo"
+        },
+        {
+          "literal": "白い",
+          "lectura": "しろい",
+          "significado": "blanco"
+        },
+        {
+          "literal": "静か",
+          "lectura": "しずか",
+          "significado": "tranquilo"
+        },
+        {
+          "literal": "性格",
+          "lectura": "せいかく",
+          "significado": "personalidad, carácter"
+        },
+        {
+          "literal": "種類",
+          "lectura": "しゅるい",
+          "significado": "tipo, clase"
+        },
+        {
+          "literal": "場所",
+          "lectura": "ばしょ",
+          "significado": "lugar"
+        },
+        {
+          "literal": "昔",
+          "lectura": "むかし",
+          "significado": "hace mucho tiempo"
+        },
+        {
+          "literal": "大切",
+          "lectura": "たいせつ",
+          "significado": "importante"
+        },
+        {
+          "literal": "触る",
+          "lectura": "さわる",
+          "significado": "tocar"
+        },
+        {
+          "literal": "探す",
+          "lectura": "さがす",
+          "significado": "buscar"
+        },
+        {
+          "literal": "話",
+          "lectura": "はなし",
+          "significado": "habla, conversación; historia"
+        },
+        {
+          "literal": "終わる",
+          "lectura": "おわる",
+          "significado": "terminar, acabarse"
+        },
+        {
+          "literal": "登る",
+          "lectura": "のぼる",
+          "significado": "escalar, subir"
+        },
+        {
+          "literal": "上手",
+          "lectura": "じょうず",
+          "significado": "hábil"
+        },
+        {
+          "literal": "開ける",
+          "lectura": "あける",
+          "significado": "abrir"
+        },
+        {
+          "literal": "遊ぶ",
+          "lectura": "あそぶ",
+          "significado": "jugar"
+        },
+        {
+          "literal": "食べる",
+          "lectura": "たべる",
+          "significado": "comer"
+        },
+        {
+          "literal": "飲む",
+          "lectura": "のむ",
+          "significado": "beber"
+        },
+        {
+          "literal": "入る",
+          "lectura": "はいる",
+          "significado": "entrar, meterse"
+        },
+        {
+          "literal": "要る",
+          "lectura": "いる",
+          "significado": "necesitar"
+        },
+        {
+          "literal": "持つ",
+          "lectura": "もつ",
+          "significado": "sostener, llevar"
+        },
+        {
+          "literal": "取る",
+          "lectura": "とる",
+          "significado": "tomar, coger"
+        },
+        {
+          "literal": "立つ",
+          "lectura": "たつ",
+          "significado": "ponerse de pie; subirse (encima)"
+        },
+        {
+          "literal": "使う",
+          "lectura": "つかう",
+          "significado": "usar"
+        },
+        {
+          "literal": "働く",
+          "lectura": "はたらく",
+          "significado": "trabajar"
+        },
+        {
+          "literal": "離れる",
+          "lectura": "はなれる",
+          "significado": "separarse"
+        },
+        {
+          "literal": "覚える",
+          "lectura": "おぼえる",
+          "significado": "memorizar"
+        },
+        {
+          "literal": "思う",
+          "lectura": "おもう",
+          "significado": "pensar"
+        },
+        {
+          "literal": "言う",
+          "lectura": "いう",
+          "significado": "decir"
+        },
+        {
+          "literal": "見る",
+          "lectura": "みる",
+          "significado": "ver"
+        },
+        {
+          "literal": "行く",
+          "lectura": "いく",
+          "significado": "ir"
+        },
+        {
+          "literal": "来る",
+          "lectura": "くる",
+          "significado": "venir"
+        },
+        {
+          "literal": "母さん",
+          "lectura": "かあさん",
+          "significado": "mamá",
+          "exclusion": true
+        },
+        {
+          "literal": "ぞう",
+          "lectura": "ぞう",
+          "significado": "elefante"
+        }
+      ],
+      "referencias": [
+        "intencion-formula-to-omotteimasu",
+        "obligacion-nakereba-ikemasen-oral",
+        "protocolo-subordinacion-sustantiva"
+      ],
+      "capitulos": [
+        {
+          "titulo": "一、ぞう",
+          "tituloEs": "1. El elefante",
+          "ilustracion": {
+            "escena": "doubutsuen_zou",
+            "alt": "Yuto y su madre miran la trompa de un elefante que casi alcanza una rama.",
+            "ruta": "lectura/imagenes/a2.2-s10-doubutsuen-dialogo-1.webp"
+          },
+          "dialogo": [
+            {
+              "hablante": "母",
+              "texto": "ここが動物園だよ。今日は何から見る？",
+              "textoEs": "Aquí estamos en el zoológico. ¿Qué vemos primero hoy?"
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "大きいのがいい！強いのがいい！",
+              "textoEs": "¡Los grandes! ¡Los fuertes!"
+            },
+            {
+              "hablante": "母",
+              "texto": "わかるよ。でも、あの大きい山を見よう。",
+              "textoEs": "Lo entiendo. Pero vamos a ver esa montaña grande."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "山？どこに山が——あ、山が歩いた。山じゃないよ。ぞうだ。",
+              "textoEs": "¿Una montaña? ¿Dónde hay una montaña? —Ah, la montaña ha caminado. No es una montaña. ¡Es un elefante!"
+            },
+            {
+              "hablante": "母",
+              "texto": "よく見たね。あれはアジアのぞうだよ。",
+              "textoEs": "Bien visto. Ese es un elefante asiático."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "わあ、鼻が長い！二メートルですか？",
+              "textoEs": "¡Guau, qué trompa tan larga! ¿Dos metros?"
+            },
+            {
+              "hablante": "母",
+              "texto": "そうだね。その鼻で、四、五メートルの高い所の葉まで取れるんだよ。",
+              "textoEs": "Sí. Con esa trompa puede alcanzar hojas a cuatro o cinco metros de altura."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "鼻で、何かを取っている！",
+              "textoEs": "¡Está cogiendo algo con la trompa!"
+            },
+            {
+              "hablante": "母",
+              "texto": "そう。ぞうは、鼻で食べ物も葉も取るんだよ。",
+              "textoEs": "Sí. El elefante coge con la trompa tanto comida como hojas."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "そうだね。鼻は、すごく長いね。",
+              "textoEs": "Es verdad. La trompa es larguísima."
+            },
+            {
+              "hablante": "母",
+              "texto": "そう。ぞうの鼻は、すごく強いんだよ。重いものも持てるんだ。",
+              "textoEs": "Sí. La trompa del elefante es muy fuerte. Puede levantar cosas pesadas."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "じゃあ、ぼくも持てる？",
+              "textoEs": "Entonces, ¿también puede conmigo?"
+            },
+            {
+              "hablante": "母",
+              "texto": "ぞうは、ゆうとを持てるよ。男のぞうは、二千五百キロから六千キロあるんだ。",
+              "textoEs": "El elefante puede sostenerte, Yuto. Los elefantes macho pesan entre 2.500 y 6.000 kilos."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "母さんが百人で、六千キロ？",
+              "textoEs": "¿Cien mamás son 6.000 kilos?"
+            },
+            {
+              "hablante": "母",
+              "texto": "そうだね。だから、ぞうの上に立たないでね。",
+              "textoEs": "Eso es. Por eso, no te subas encima del elefante."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "上に立たない。あ、ぞうが泥で遊んでいる！",
+              "textoEs": "No me subo. ¡Ah, el elefante está jugando con barro!"
+            },
+            {
+              "hablante": "母",
+              "texto": "それは、泥だよ。暑い日にも、ぞうにいいんだよ。",
+              "textoEs": "Eso es barro. También le sienta bien en los días calurosos."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "泥を食べるの？",
+              "textoEs": "¿Se come el barro?"
+            },
+            {
+              "hablante": "母",
+              "texto": "ときどきね。でも、ぞうの食べ物は、肉じゃないよ。葉や野菜を食べるんだよ。",
+              "textoEs": "A veces. Pero la comida del elefante no es carne. Come hojas y verduras."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "ぼくは食べない。肉のほうがいい。",
+              "textoEs": "Yo no lo como. Prefiero la carne."
+            },
+            {
+              "hablante": "母",
+              "texto": "水が好きで、鼻で飲んだり、水の中に入ったりするんだ。ぞうは、水がたくさん要るんだよ。鼻は、食べ物を持つだけじゃない。友達に触ったり、見ることができない所を探したりするんだ。",
+              "textoEs": "Le gusta el agua: bebe con la trompa y se mete en el agua. El elefante necesita mucha agua. La trompa no solo sirve para sostener comida. También toca a sus amigos y busca lugares que no puede ver."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "あの若いぞうは、母さんの近くにいて、話しているのでしょうね。",
+              "textoEs": "Ese elefante joven está cerca de su madre; estará hablando, ¿verdad?"
+            },
+            {
+              "hablante": "母",
+              "texto": "山では、大人の女のぞうと、家族で生活するんだよ。男の若いぞうは、大人になったとき、家族と離れるんだ。",
+              "textoEs": "En la montaña, viven en familia con las elefantas adultas. Los elefantes macho jóvenes, cuando se hacen adultos, se separan de la familia."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "えー、一人になるのかあ。ぼくはまだ離れないよ。",
+              "textoEs": "Vaya, ¿se queda solo? Yo todavía no me separo."
+            },
+            {
+              "hablante": "母",
+              "texto": "まだ早いよ。",
+              "textoEs": "Todavía es pronto."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "アジアの国では、ぞうは働くの？",
+              "textoEs": "En los países de Asia, ¿los elefantes trabajan?"
+            },
+            {
+              "hablante": "母",
+              "texto": "アジアの国では、昔から、ぞうが荷物を持っていったり、行事に出たりしたんだよ。今は少ないから、大切にしなければいけないんだ。",
+              "textoEs": "En los países de Asia, desde hace mucho tiempo, los elefantes han llevado equipaje y han participado en eventos. Ahora hay pocos, así que son importantes y tenemos que cuidarlos."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "分かった。触らないで見る。次は猿！お腹が空いたけど、猿を見たあとで食べようと思っています。",
+              "textoEs": "Entendido. Miraré sin tocarlos. ¡Ahora los monos! Tengo hambre, pero pienso comer después de ver a los monos."
+            },
+            {
+              "hablante": "母",
+              "texto": "よし、行こう。",
+              "textoEs": "Bien, vamos."
+            }
+          ]
+        },
+        {
+          "titulo": "二、さる",
+          "tituloEs": "2. El mono",
+          "ilustracion": {
+            "escena": "doubutsuen_saru",
+            "alt": "Un mono de cara roja sentado en una roca, bajo una rama con hojas.",
+            "ruta": "lectura/imagenes/a2.2-s10-doubutsuen-dialogo-2.webp"
+          },
+          "dialogo": [
+            {
+              "hablante": "ゆうと",
+              "texto": "あ、赤い顔！怒っているの？",
+              "textoEs": "¡Ah, una cara roja! ¿Está enfadado?"
+            },
+            {
+              "hablante": "母",
+              "texto": "怒っているんじゃないよ。この猿は、大人になったとき、顔が赤くなるんだ。若いときは、あまり赤くないよ。秋から冬は、もっと赤くなるんだ。",
+              "textoEs": "No está enfadado. Este mono, cuando se hace adulto, tiene la cara roja. De joven no está muy roja. En otoño e invierno se pone aún más roja."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "おっ、顔が大きくなった。食べ物をたくさん入れたの？",
+              "textoEs": "¡Oh, se le ha hecho la cara más grande! ¿Ha metido mucha comida?"
+            },
+            {
+              "hablante": "母",
+              "texto": "そうじゃないよ。食べ物を顔の中に入れるんだ。急ぐときは、顔に入れて、あとで食べるんだよ。ほかの猿が取るからね。",
+              "textoEs": "No es eso. Mete la comida dentro de la cara. Cuando tiene prisa, la mete en la cara y la come después. Porque otros monos se la quitan."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "頭がいい！あ、白いしっぽがあるね。",
+              "textoEs": "¡Qué listo! Ah, tiene una cola blanca."
+            },
+            {
+              "hablante": "母",
+              "texto": "それはしっぽだよ。この猿のしっぽは、大人の猿も十センチしかないんだ。日本の冬は寒いので、しっぽは短いんだよ。",
+              "textoEs": "Eso es la cola. La cola de este mono, incluso en los adultos, solo mide diez centímetros. Como el invierno japonés es frío, la cola es corta."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "どの猿がボス？一番大きいのがボスでしょ。",
+              "textoEs": "¿Cuál es el jefe de los monos? El más grande será el jefe, ¿no?"
+            },
+            {
+              "hablante": "母",
+              "texto": "猿は、強い猿がいい場所を使うんだ。でも、「ボス」はいないよ。強い猿が来たとき、みんな、ほかの場所に行くんだ。猿が嬉しいときは、しっぽが上になるよ。見てね。",
+              "textoEs": "Entre los monos, los fuertes usan los buenos lugares. Pero no hay un «jefe». Cuando llega un mono fuerte, todos van a otro lugar. Cuando un mono está contento, la cola se le pone hacia arriba. Mira."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "今、上になった！一人でいる猿もいるよ。友達がいないの？",
+              "textoEs": "¡Ahora se le ha puesto arriba! También hay un mono que está solo. ¿No tiene amigos?"
+            },
+            {
+              "hablante": "母",
+              "texto": "いいえ、一人でいるのが好きな男の猿もいるんだよ。女の猿は、自分の家族といることが多いんだ。男の猿は、十歳で家族と離れるんだ。",
+              "textoEs": "No, también hay monos macho a los que les gusta estar solos. Las monas suelen estar con su propia familia. Los monos macho se separan de la familia a los diez años."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "ぞうの話と同じだね。一つの家族に、猿がたくさんいますか？",
+              "textoEs": "Es como lo de los elefantes. ¿En una familia hay muchos monos?"
+            },
+            {
+              "hablante": "母",
+              "texto": "十から百の家族まであるよ。そして、猿はよく話すでしょう。三十種類の話があるそうです。",
+              "textoEs": "Hay familias de diez a cien. Y los monos hablan mucho, ¿verdad? Dicen que tienen treinta tipos de «habla»."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "たくさん話すね。何を食べているの？野菜だけ？",
+              "textoEs": "Hablan mucho. ¿Qué comen? ¿Solo verduras?"
+            },
+            {
+              "hablante": "母",
+              "texto": "野菜も肉も魚も食べるよ。",
+              "textoEs": "Comen verduras, carne y pescado."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "魚まで！よく食べるね。家族は、いつ大きくなるの？",
+              "textoEs": "¡Hasta pescado! Comen de todo. ¿Cuándo se hace más grande la familia?"
+            },
+            {
+              "hablante": "母",
+              "texto": "秋から冬に家族を作って、春から夏に家族が大きくなるんだ。二、三年に一回だよ。",
+              "textoEs": "Forman una familia en otoño e invierno, y la familia crece en primavera y verano. Una vez cada dos o tres años."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "この猿は、日本にしかいないの？",
+              "textoEs": "¿Este mono solo vive en Japón?"
+            },
+            {
+              "hablante": "母",
+              "texto": "そうだよ。日本にしかいない猿なんだ。青森県の寒い所にもいるんだよ。",
+              "textoEs": "Sí. Es un mono que solo vive en Japón. También hay en lugares fríos de la prefectura de Aomori."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "寒いけど、強いね。次は何？もう一回、赤い顔を見たいけど。",
+              "textoEs": "Hace frío, pero son fuertes. ¿Qué vemos ahora? Me gustaría volver a ver la cara roja."
+            },
+            {
+              "hablante": "母",
+              "texto": "もうたくさん見たよ。怖いのが好きなら、蛇を見に行こう。",
+              "textoEs": "Ya hemos visto bastante. Si te gustan las cosas que dan miedo, vamos a ver serpientes."
+            }
+          ]
+        },
+        {
+          "titulo": "三、へび",
+          "tituloEs": "3. La serpiente",
+          "ilustracion": {
+            "escena": "doubutsuen_hebi",
+            "alt": "Una serpiente larga y verde en forma de ese sobre la hierba, con la lengua roja fuera.",
+            "ruta": "lectura/imagenes/a2.2-s10-doubutsuen-dialogo-3.webp"
+          },
+          "dialogo": [
+            {
+              "hablante": "ゆうと",
+              "texto": "うわ、長い！これ、家より長くない？足、どこにあるの？",
+              "textoEs": "¡Uau, qué larga! ¿Es más larga que nuestra casa? ¿Dónde tiene las patas?"
+            },
+            {
+              "hablante": "母",
+              "texto": "足がないのが、蛇だよ。これは、東南アジアで一番大きい蛇で、九メートル九十センチにもなるんだ。長いもので、食べ物を取るんだよ。",
+              "textoEs": "Las serpientes no tienen patas. Esta es la serpiente más grande del Sudeste asiático y puede llegar a medir nueve metros noventa centímetros. Con su largo cuerpo coge la comida."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "ぼくは食べられないよね……。",
+              "textoEs": "A mí no me comerá, ¿verdad?…"
+            },
+            {
+              "hablante": "母",
+              "texto": "ここでは、食べられないよ。ほら、赤いものを出しているでしょう。あれで、見ることができないものを探しているんだ。大きく開けて、食べ物を食べるんだよ。",
+              "textoEs": "Aquí no te va a comer. Mira, está sacando una cosa roja. Con eso busca lo que no puede ver. Abre mucho la boca y se come la comida."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "こっちの蛇も長いね。",
+              "textoEs": "Esta otra serpiente también es larga."
+            },
+            {
+              "hablante": "母",
+              "texto": "これは、日本で一番大きい蛇だよ。高い所に登るのが上手で、鳥を取ることもあるんだ。",
+              "textoEs": "Esta es la serpiente más grande de Japón. Es hábil subiendo a sitios altos y a veces atrapa pájaros."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "鳥まで？さっきの猿も魚が好きだったね。みんな魚が好きなんだね。",
+              "textoEs": "¿Hasta pájaros? El mono de antes también comía pescado. A todos les gusta el pescado."
+            },
+            {
+              "hablante": "母",
+              "texto": "あ、あの蛇の名前は、ヒバカリだよ。「かむとき、その日で終わり」の意味の名前なんだ。名前は怖いですが、毒はないんだ。",
+              "textoEs": "Ah, esa serpiente se llama Hibakari. Su nombre significa «cuando muerde, ese día se acaba». El nombre da miedo, pero no tiene veneno."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "ええっ、今日で終わり？五十センチしかないんだね。",
+              "textoEs": "¿Cómo? ¿Se acaba hoy? ¡Si solo mide cincuenta centímetros!"
+            },
+            {
+              "hablante": "母",
+              "texto": "そうだよ。名前だけ怖いんだ。水の近くにいることが多いよ。怖いときは、怖い顔をするけど、性格は静かだよ。",
+              "textoEs": "Sí. Solo el nombre da miedo. Suele estar cerca del agua. Cuando se asusta, pone una cara que da miedo, pero su carácter es tranquilo."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "名前は怖いけど、毒がないなら、ぼくはちょっと好きかもしれない。毒がある蛇も、ここにいるの？",
+              "textoEs": "El nombre da miedo, pero si no tiene veneno, puede que me guste un poco. ¿También hay serpientes con veneno aquí?"
+            },
+            {
+              "hablante": "母",
+              "texto": "いるよ。ヤマカガシには毒がある。でも、性格は静かだよ。触らなければいけない。いや、触らないでね、だね。",
+              "textoEs": "Sí. La yamakagashi tiene veneno. Pero su carácter es tranquilo. Hay que tocarla. No, no la toques."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "母さん、今、「触らなければいけない」と言いましたよ。でも、触らないでくださいね。",
+              "textoEs": "Mamá, ahora has dicho «hay que tocarla». Pero no la toques, ¿verdad?"
+            },
+            {
+              "hablante": "母",
+              "texto": "そうだね。食べる前には、きれいにしなければいけないけど、蛇には触らないよ。",
+              "textoEs": "Así es. Antes de comer hay que limpiarse, pero a las serpientes no se las toca."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "はい。今日はよく見たね。お腹が空いた。",
+              "textoEs": "Sí. Hoy hemos visto mucho. Tengo hambre."
+            },
+            {
+              "hablante": "母",
+              "texto": "今日、一番好きだったのはどれ？",
+              "textoEs": "¿Qué es lo que más te ha gustado hoy?"
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "泥のぞう。それから、名前だけ怖いヒバカリ。ボスのいない猿も好き。",
+              "textoEs": "El elefante del barro. Y el hibakari, que solo da miedo por el nombre. También me gustan los monos sin jefe."
+            },
+            {
+              "hablante": "母",
+              "texto": "いいね。今日はよく見たし、よく覚えたね。私は、そう思うよ。お腹は、あとでだよ。また来ようと思っているんでしょう？",
+              "textoEs": "Qué bien. Hoy has mirado mucho y has memorizado mucho. Yo pienso lo mismo. Lo del hambre, para después. Estás pensando en venir otra vez, ¿verdad?"
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "うん。次は、泥のぞうと、顔に食べ物を入れる猿をもう一回見ようと思っています。蛇の名前は、もう怖くない。",
+              "textoEs": "Sí. La próxima vez pienso volver a ver al elefante del barro y al mono que mete comida en la cara. El nombre de las serpientes ya no me da miedo."
+            },
+            {
+              "hablante": "母",
+              "texto": "よし、行こう。今日のボスは、ゆうとだ。",
+              "textoEs": "Bien, vamos. Hoy el jefe eres tú, Yuto."
+            },
+            {
+              "hablante": "ゆうと",
+              "texto": "猿にボスはいないんでしょ。ぼくは一人でいい。でも、昼御飯は母さんと食べる。",
+              "textoEs": "Los monos no tienen jefe, ¿no? Yo prefiero estar solo. Pero la comida la como con mamá."
+            },
+            {
+              "hablante": "母",
+              "texto": "そうか。いいよ。",
+              "textoEs": "Ya veo. Está bien."
+            }
+          ]
+        }
+      ],
+      "texto": "一、ぞう\nここが動物園だよ。今日は何から見る？\n大きいのがいい！強いのがいい！\nわかるよ。でも、あの大きい山を見よう。\n山？どこに山が——あ、山が歩いた。山じゃないよ。ぞうだ。\nよく見たね。あれはアジアのぞうだよ。\nわあ、鼻が長い！二メートルですか？\nそうだね。その鼻で、四、五メートルの高い所の葉まで取れるんだよ。\n鼻で、何かを取っている！\nそう。ぞうは、鼻で食べ物も葉も取るんだよ。\nそうだね。鼻は、すごく長いね。\nそう。ぞうの鼻は、すごく強いんだよ。重いものも持てるんだ。\nじゃあ、ぼくも持てる？\nぞうは、ゆうとを持てるよ。男のぞうは、二千五百キロから六千キロあるんだ。\n母さんが百人で、六千キロ？\nそうだね。だから、ぞうの上に立たないでね。\n上に立たない。あ、ぞうが泥で遊んでいる！\nそれは、泥だよ。暑い日にも、ぞうにいいんだよ。\n泥を食べるの？\nときどきね。でも、ぞうの食べ物は、肉じゃないよ。葉や野菜を食べるんだよ。\nぼくは食べない。肉のほうがいい。\n水が好きで、鼻で飲んだり、水の中に入ったりするんだ。ぞうは、水がたくさん要るんだよ。鼻は、食べ物を持つだけじゃない。友達に触ったり、見ることができない所を探したりするんだ。\nあの若いぞうは、母さんの近くにいて、話しているのでしょうね。\n山では、大人の女のぞうと、家族で生活するんだよ。男の若いぞうは、大人になったとき、家族と離れるんだ。\nえー、一人になるのかあ。ぼくはまだ離れないよ。\nまだ早いよ。\nアジアの国では、ぞうは働くの？\nアジアの国では、昔から、ぞうが荷物を持っていったり、行事に出たりしたんだよ。今は少ないから、大切にしなければいけないんだ。\n分かった。触らないで見る。次は猿！お腹が空いたけど、猿を見たあとで食べようと思っています。\nよし、行こう。\n\n---\n\n二、さる\nあ、赤い顔！怒っているの？\n怒っているんじゃないよ。この猿は、大人になったとき、顔が赤くなるんだ。若いときは、あまり赤くないよ。秋から冬は、もっと赤くなるんだ。\nおっ、顔が大きくなった。食べ物をたくさん入れたの？\nそうじゃないよ。食べ物を顔の中に入れるんだ。急ぐときは、顔に入れて、あとで食べるんだよ。ほかの猿が取るからね。\n頭がいい！あ、白いしっぽがあるね。\nそれはしっぽだよ。この猿のしっぽは、大人の猿も十センチしかないんだ。日本の冬は寒いので、しっぽは短いんだよ。\nどの猿がボス？一番大きいのがボスでしょ。\n猿は、強い猿がいい場所を使うんだ。でも、「ボス」はいないよ。強い猿が来たとき、みんな、ほかの場所に行くんだ。猿が嬉しいときは、しっぽが上になるよ。見てね。\n今、上になった！一人でいる猿もいるよ。友達がいないの？\nいいえ、一人でいるのが好きな男の猿もいるんだよ。女の猿は、自分の家族といることが多いんだ。男の猿は、十歳で家族と離れるんだ。\nぞうの話と同じだね。一つの家族に、猿がたくさんいますか？\n十から百の家族まであるよ。そして、猿はよく話すでしょう。三十種類の話があるそうです。\nたくさん話すね。何を食べているの？野菜だけ？\n野菜も肉も魚も食べるよ。\n魚まで！よく食べるね。家族は、いつ大きくなるの？\n秋から冬に家族を作って、春から夏に家族が大きくなるんだ。二、三年に一回だよ。\nこの猿は、日本にしかいないの？\nそうだよ。日本にしかいない猿なんだ。青森県の寒い所にもいるんだよ。\n寒いけど、強いね。次は何？もう一回、赤い顔を見たいけど。\nもうたくさん見たよ。怖いのが好きなら、蛇を見に行こう。\n\n---\n\n三、へび\nうわ、長い！これ、家より長くない？足、どこにあるの？\n足がないのが、蛇だよ。これは、東南アジアで一番大きい蛇で、九メートル九十センチにもなるんだ。長いもので、食べ物を取るんだよ。\nぼくは食べられないよね……。\nここでは、食べられないよ。ほら、赤いものを出しているでしょう。あれで、見ることができないものを探しているんだ。大きく開けて、食べ物を食べるんだよ。\nこっちの蛇も長いね。\nこれは、日本で一番大きい蛇だよ。高い所に登るのが上手で、鳥を取ることもあるんだ。\n鳥まで？さっきの猿も魚が好きだったね。みんな魚が好きなんだね。\nあ、あの蛇の名前は、ヒバカリだよ。「かむとき、その日で終わり」の意味の名前なんだ。名前は怖いですが、毒はないんだ。\nええっ、今日で終わり？五十センチしかないんだね。\nそうだよ。名前だけ怖いんだ。水の近くにいることが多いよ。怖いときは、怖い顔をするけど、性格は静かだよ。\n名前は怖いけど、毒がないなら、ぼくはちょっと好きかもしれない。毒がある蛇も、ここにいるの？\nいるよ。ヤマカガシには毒がある。でも、性格は静かだよ。触らなければいけない。いや、触らないでね、だね。\n母さん、今、「触らなければいけない」と言いましたよ。でも、触らないでくださいね。\nそうだね。食べる前には、きれいにしなければいけないけど、蛇には触らないよ。\nはい。今日はよく見たね。お腹が空いた。\n今日、一番好きだったのはどれ？\n泥のぞう。それから、名前だけ怖いヒバカリ。ボスのいない猿も好き。\nいいね。今日はよく見たし、よく覚えたね。私は、そう思うよ。お腹は、あとでだよ。また来ようと思っているんでしょう？\nうん。次は、泥のぞうと、顔に食べ物を入れる猿をもう一回見ようと思っています。蛇の名前は、もう怖くない。\nよし、行こう。今日のボスは、ゆうとだ。\n猿にボスはいないんでしょ。ぼくは一人でいい。でも、昼御飯は母さんと食べる。\nそうか。いいよ。"
     }
   },
   {

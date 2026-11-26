@@ -1,0 +1,192 @@
+{
+  "audio_file": "a2.1-s6-dialogo-cafe-c02.wav",
+  "sample_rate": 44100,
+  "pause_ms": 500,
+  "total_duration_ms": 20246,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "二、注文",
+      "start_ms": 0,
+      "end_ms": 1672,
+      "duration_ms": 1672,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "二、注文",
+          "start_ms": 0,
+          "end_ms": 1672,
+          "duration_ms": 1672
+        }
+      ],
+      "voz": "melo"
+    },
+    {
+      "index": 1,
+      "text": "はい、げんきです。",
+      "start_ms": 2172,
+      "end_ms": 3434,
+      "duration_ms": 1262,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "はい、",
+          "start_ms": 2172,
+          "end_ms": 2502,
+          "duration_ms": 330
+        },
+        {
+          "index": 1,
+          "text": "げんきです。",
+          "start_ms": 2752,
+          "end_ms": 3434,
+          "duration_ms": 682
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 2,
+      "text": "きょうはなにを飲みますか。",
+      "start_ms": 3934,
+      "end_ms": 5406,
+      "duration_ms": 1472,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "きょうはなにを飲みますか。",
+          "start_ms": 3934,
+          "end_ms": 5406,
+          "duration_ms": 1472
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 3,
+      "text": "そうですね……。",
+      "start_ms": 5906,
+      "end_ms": 6663,
+      "duration_ms": 757,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "そうですね……。",
+          "start_ms": 5906,
+          "end_ms": 6663,
+          "duration_ms": 757
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 4,
+      "text": "わたしはコーヒーにします。",
+      "start_ms": 7163,
+      "end_ms": 8731,
+      "duration_ms": 1568,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "わたしはコーヒーにします。",
+          "start_ms": 7163,
+          "end_ms": 8731,
+          "duration_ms": 1568
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 5,
+      "text": "たなかさんはメニューを見ました。",
+      "start_ms": 9231,
+      "end_ms": 12494,
+      "duration_ms": 3263,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "たなかさんはメニューを見ました。",
+          "start_ms": 9231,
+          "end_ms": 12494,
+          "duration_ms": 3263
+        }
+      ],
+      "voz": "melo"
+    },
+    {
+      "index": 6,
+      "text": "じゃあ、わたしもコーヒーにします。",
+      "start_ms": 12994,
+      "end_ms": 15259,
+      "duration_ms": 2265,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "じゃあ、",
+          "start_ms": 12994,
+          "end_ms": 13399,
+          "duration_ms": 405
+        },
+        {
+          "index": 1,
+          "text": "わたしもコーヒーにします。",
+          "start_ms": 13649,
+          "end_ms": 15259,
+          "duration_ms": 1610
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 7,
+      "text": "ケーキも食べませんか。",
+      "start_ms": 15759,
+      "end_ms": 17113,
+      "duration_ms": 1354,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "ケーキも食べませんか。",
+          "start_ms": 15759,
+          "end_ms": 17113,
+          "duration_ms": 1354
+        }
+      ],
+      "voz": "voicevox:11"
+    },
+    {
+      "index": 8,
+      "text": "いいですね。",
+      "start_ms": 17613,
+      "end_ms": 18306,
+      "duration_ms": 693,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "いいですね。",
+          "start_ms": 17613,
+          "end_ms": 18306,
+          "duration_ms": 693
+        }
+      ],
+      "voz": "voicevox:8"
+    },
+    {
+      "index": 9,
+      "text": "チーズケーキがすきです。",
+      "start_ms": 18806,
+      "end_ms": 20246,
+      "duration_ms": 1440,
+      "clauses": [
+        {
+          "index": 0,
+          "text": "チーズケーキがすきです。",
+          "start_ms": 18806,
+          "end_ms": 20246,
+          "duration_ms": 1440
+        }
+      ],
+      "voz": "voicevox:8"
+    }
+  ]
+}
